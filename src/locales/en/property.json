@@ -1,0 +1,48 @@
+{
+  "title": "The House",
+  "subtitle": "A place where families come together",
+  "overview": {
+    "title": "Overview",
+    "capacity": "26 guests",
+    "bedrooms": "9 bedrooms",
+    "bathrooms": "Ensuite bathrooms",
+    "garden": "2 hectares garden"
+  },
+  "rooms": {
+    "title": "Bedrooms",
+    "ensuite": "Ensuite bathroom",
+    "beds": "Beds"
+  },
+  "kitchen": {
+    "title": "The Kitchen",
+    "description": "A professionally equipped kitchen where cooking for 26 people becomes a pleasure",
+    "features": {
+      "lacanche": "Lacanche stove",
+      "dishwashers": "2x Miele dishwashers",
+      "fridge": "American fridge",
+      "equipment": "Fully equipped"
+    }
+  },
+  "oakTable": {
+    "title": "The Oak Table",
+    "description": "The heart of the house. Where stories are shared, memories are made and generations come together.",
+    "dimensions": "6 meters long",
+    "capacity": "26 seats"
+  },
+  "garden": {
+    "title": "The Garden",
+    "description": "2 hectares of space to relax, play and enjoy",
+    "features": {
+      "size": "200m x 100m",
+      "playground": "Playground equipment",
+      "football": "Football field",
+      "treasureHunt": "Treasure hunt"
+    }
+  },
+  "practical": {
+    "title": "Practical Information",
+    "checkIn": "Check-in: 4:00 PM",
+    "checkOut": "Check-out: 10:00 AM",
+    "parking": "Spacious parking"
+  }
+}

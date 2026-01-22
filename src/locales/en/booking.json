@@ -1,0 +1,36 @@
+{
+  "title": "Book",
+  "subtitle": "Check availability and book directly",
+  "whyDirect": {
+    "title": "Why book direct?",
+    "benefits": [
+      "Best price guaranteed - no OTA commissions",
+      "Direct contact with the owners",
+      "Maximum flexibility and customization",
+      "Personal welcome by Christophe"
+    ]
+  },
+  "availability": {
+    "title": "Check availability",
+    "description": "Select your desired period and check availability directly",
+    "button": "View availability"
+  },
+  "preferTalk": {
+    "title": "Prefer to talk first?",
+    "description": "No problem! Feel free to contact us for questions or to discuss the options.",
+    "cta": "Contact us"
+  },
+  "payment": {
+    "title": "Secure payment",
+    "description": "Payments are processed via Mollie, a reliable Dutch payment provider. Your data is always secure."
+  },
+  "afterBooking": {
+    "title": "After your booking",
+    "steps": [
+      "You'll receive an immediate confirmation by email",
+      "We'll contact you personally within 24 hours",
+      "You'll receive a welcome package with all practical information",
+      "On arrival day, Christophe will be there to welcome you personally"
+    ]
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "title": "Contact",
+  "subtitle": "We're happy to help",
+  "options": {
+    "phone": {
+      "title": "Call us",
+      "description": "Direct contact for quick questions",
+      "action": "Call now"
+    },
+    "email": {
+      "title": "Email us",
+      "description": "For detailed questions or booking requests",
+      "action": "Send email"
+    },
+    "whatsapp": {
+      "title": "WhatsApp",
+      "description": "Quick and easy contact",
+      "action": "Open WhatsApp"
+    }
+  },
+  "form": {
+    "title": "Send us a message",
+    "name": "Name",
+    "namePlaceholder": "Your full name",
+    "email": "Email address",
+    "emailPlaceholder": "your@email.com",
+    "phone": "Phone number",
+    "phonePlaceholder": "+32 ...",
+    "dates": "Preferred dates",
+    "datesPlaceholder": "e.g. July 15-22, 2024",
+    "groupSize": "Group size",
+    "groupSizePlaceholder": "Number of people",
+    "message": "Message",
+    "messagePlaceholder": "Tell us about your plans...",
+    "submit": "Send message",
+    "success": "Message sent! We'll get back to you as soon as possible.",
+    "error": "Something went wrong. Please try again or contact us directly."
+  },
+  "practical": {
+    "title": "Practical Information",
+    "checkIn": {
+      "title": "Check-in",
+      "time": "From 4:00 PM"
+    },
+    "checkOut": {
+      "title": "Check-out",
+      "time": "Until 10:00 AM"
+    },
+    "location": {
+      "title": "Location",
+      "address": "Ardennes, Belgium"
+    },
+    "distances": {
+      "title": "Distances",
+      "brussels": "Brussels: 1h30",
+      "antwerp": "Antwerp: 2h",
+      "amsterdam": "Amsterdam: 3h30",
+      "paris": "Paris: 3h"
+    },
+    "parking": {
+      "title": "Parking",
+      "description": "Free spacious parking for all guests"
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "questions": [
+      {
+        "q": "How far in advance should I book?",
+        "a": "For popular periods like school holidays, we recommend booking 3-6 months ahead. For weekends and quieter periods, 1-2 months is often sufficient."
+      },
+      {
+        "q": "Are pets allowed?",
+        "a": "Please contact us to discuss the options. This depends on the type of pet and group composition."
+      },
+      {
+        "q": "What is included in the price?",
+        "a": "Bed linen, towels, final cleaning, heating and basic products are included. You'll receive a complete overview upon booking."
+      },
+      {
+        "q": "Can we check in earlier or check out later?",
+        "a": "This is often possible in consultation, depending on other bookings. Feel free to ask."
+      }
+    ]
+  }
+}

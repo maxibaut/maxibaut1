@@ -1,0 +1,38 @@
+{
+  "nav": {
+    "home": "Home",
+    "property": "Het Huis",
+    "differentiators": "Wat Ons Onderscheidt",
+    "about": "Over Ons",
+    "contact": "Contact",
+    "booking": "Beschikbaarheid",
+    "bookDirect": "Boek Direct"
+  },
+  "footer": {
+    "contact": "Contact",
+    "phone": "Telefoon",
+    "email": "E-mail",
+    "quickLinks": "Snelle Links",
+    "houseRules": "Huisregels",
+    "cancellation": "Annuleringsbeleid",
+    "privacy": "Privacybeleid",
+    "followUs": "Volg Ons",
+    "copyright": "© 2024 ArdenNest. Alle rechten voorbehouden.",
+    "googleReviews": "Google Reviews",
+    "stars": "sterren"
+  },
+  "cta": {
+    "viewAvailability": "Bekijk beschikbaarheid",
+    "contactUs": "Neem contact op",
+    "bookNow": "Boek nu",
+    "learnMore": "Meer weten",
+    "callUs": "Bel ons",
+    "emailUs": "Mail ons",
+    "whatsapp": "WhatsApp"
+  },
+  "language": {
+    "nl": "Nederlands",
+    "fr": "Français",
+    "en": "English"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "title": "Het Huis",
+  "subtitle": "Een plek waar families samenkomen",
+  "overview": {
+    "title": "Overzicht",
+    "capacity": "26 personen",
+    "bedrooms": "9 slaapkamers",
+    "bathrooms": "Ensuite badkamers",
+    "garden": "2 hectare tuin"
+  },
+  "rooms": {
+    "title": "Slaapkamers",
+    "ensuite": "Ensuite badkamer",
+    "beds": "Bedden"
+  },
+  "kitchen": {
+    "title": "De Keuken",
+    "description": "Een professioneel uitgeruste keuken waar koken voor 26 personen een plezier wordt",
+    "features": {
+      "lacanche": "Lacanche fornuis",
+      "dishwashers": "2x Miele afwasmachines",
+      "fridge": "Amerikaanse koelkast",
+      "equipment": "Volledig uitgerust"
+    }
+  },
+  "oakTable": {
+    "title": "De Eiken Tafel",
+    "description": "Het hart van het huis. Waar verhalen worden gedeeld, herinneringen worden gemaakt en generaties samenkomen.",
+    "dimensions": "6 meter lang",
+    "capacity": "26 zitplaatsen"
+  },
+  "garden": {
+    "title": "De Tuin",
+    "description": "2 hectare aan ruimte om te ontspannen, spelen en genieten",
+    "features": {
+      "size": "200m x 100m",
+      "playground": "Speeltoestellen",
+      "football": "Voetbalveld",
+      "treasureHunt": "Schattenjacht"
+    }
+  },
+  "practical": {
+    "title": "Praktische Informatie",
+    "checkIn": "Check-in: 16:00",
+    "checkOut": "Check-out: 10:00",
+    "parking": "Ruime parking"
+  }
+}

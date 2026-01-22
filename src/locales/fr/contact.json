@@ -1,0 +1,86 @@
+{
+  "title": "Contact",
+  "subtitle": "Nous sommes là pour vous aider",
+  "options": {
+    "phone": {
+      "title": "Appelez-nous",
+      "description": "Contact direct pour questions rapides",
+      "action": "Appeler"
+    },
+    "email": {
+      "title": "Écrivez-nous",
+      "description": "Pour questions détaillées ou demandes de réservation",
+      "action": "Envoyer email"
+    },
+    "whatsapp": {
+      "title": "WhatsApp",
+      "description": "Contact rapide et facile",
+      "action": "Ouvrir WhatsApp"
+    }
+  },
+  "form": {
+    "title": "Envoyez-nous un message",
+    "name": "Nom",
+    "namePlaceholder": "Votre nom complet",
+    "email": "Adresse e-mail",
+    "emailPlaceholder": "votre@email.com",
+    "phone": "Téléphone",
+    "phonePlaceholder": "+32 ...",
+    "dates": "Période souhaitée",
+    "datesPlaceholder": "ex. 15-22 juillet 2024",
+    "groupSize": "Taille du groupe",
+    "groupSizePlaceholder": "Nombre de personnes",
+    "message": "Message",
+    "messagePlaceholder": "Parlez-nous de vos projets...",
+    "submit": "Envoyer le message",
+    "success": "Message envoyé! Nous vous contacterons dès que possible.",
+    "error": "Une erreur s'est produite. Réessayez ou contactez-nous directement."
+  },
+  "practical": {
+    "title": "Informations Pratiques",
+    "checkIn": {
+      "title": "Arrivée",
+      "time": "À partir de 16h00"
+    },
+    "checkOut": {
+      "title": "Départ",
+      "time": "Jusqu'à 10h00"
+    },
+    "location": {
+      "title": "Localisation",
+      "address": "Ardennes, Belgique"
+    },
+    "distances": {
+      "title": "Distances",
+      "brussels": "Bruxelles: 1h30",
+      "antwerp": "Anvers: 2h",
+      "amsterdam": "Amsterdam: 3h30",
+      "paris": "Paris: 3h"
+    },
+    "parking": {
+      "title": "Parking",
+      "description": "Grand parking gratuit pour tous les invités"
+    }
+  },
+  "faq": {
+    "title": "Questions fréquentes",
+    "questions": [
+      {
+        "q": "Combien de temps à l'avance dois-je réserver?",
+        "a": "Pour les périodes populaires comme les vacances scolaires, nous recommandons de réserver 3 à 6 mois à l'avance. Pour les week-ends et périodes calmes, 1 à 2 mois suffisent souvent."
+      },
+      {
+        "q": "Les animaux sont-ils acceptés?",
+        "a": "Contactez-nous pour discuter des possibilités. Cela dépend du type d'animal et de la composition du groupe."
+      },
+      {
+        "q": "Qu'est-ce qui est inclus dans le prix?",
+        "a": "Linge de lit, serviettes, ménage final, chauffage et produits de base sont inclus. Vous recevrez un aperçu complet lors de la réservation."
+      },
+      {
+        "q": "Peut-on arriver plus tôt ou partir plus tard?",
+        "a": "C'est souvent possible en concertation, selon les autres réservations. N'hésitez pas à demander."
+      }
+    ]
+  }
+}
