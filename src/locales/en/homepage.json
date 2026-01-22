@@ -1,0 +1,58 @@
+{
+  "hero": {
+    "headline": "Quiet luxury for moments together",
+    "subheadline": "17 years of experience welcoming families to the Ardennes",
+    "cta": {
+      "primary": "View availability",
+      "secondary": "Contact us"
+    }
+  },
+  "trust": {
+    "googleReviews": "Google Reviews",
+    "stars": "stars",
+    "reviewCount": "50+ reviews",
+    "experience": "17 years experience",
+    "experienceDetail": "Welcoming families for 17 years",
+    "capacity": "26 guests",
+    "capacityDetail": "Ensuite bathrooms, professional kitchen"
+  },
+  "differentiators": {
+    "sectionTitle": "What makes ArdenNest special",
+    "sectionSubtitle": "Discover why guests keep returning",
+    "quietLuxury": {
+      "title": "Quiet Luxury",
+      "description": "Ensuite bathrooms, solid oak floors and timeless interiors. No frills, just genuine quality you can feel."
+    },
+    "kitchen": {
+      "title": "Professional Kitchen",
+      "description": "2x Miele dishwashers, Lacanche stove and everything you need to cook together for 26 people."
+    },
+    "garden": {
+      "title": "Kids Paradise Garden",
+      "description": "200m x 100m of space, playground equipment, football field and a treasure hunt. Kids entertain themselves for hours."
+    },
+    "viewAll": "Discover more"
+  },
+  "whyBookDirect": {
+    "title": "Why book direct?",
+    "subtitle": "The benefits of booking directly with us",
+    "benefits": {
+      "price": {
+        "title": "Best price guaranteed",
+        "description": "No OTA commissions means the best price for you"
+      },
+      "contact": {
+        "title": "Direct contact with us",
+        "description": "Questions? We know the house like no one else"
+      },
+      "flexibility": {
+        "title": "Maximum flexibility",
+        "description": "Personal arrangements and customization possible"
+      },
+      "welcome": {
+        "title": "Personal welcome",
+        "description": "Christophe personally welcomes every group"
+      }
+    }
+  }
+}

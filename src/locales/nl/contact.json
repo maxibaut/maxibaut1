@@ -1,0 +1,86 @@
+{
+  "title": "Contact",
+  "subtitle": "Wij helpen u graag verder",
+  "options": {
+    "phone": {
+      "title": "Bel ons",
+      "description": "Direct contact voor snelle vragen",
+      "action": "Bel nu"
+    },
+    "email": {
+      "title": "Mail ons",
+      "description": "Voor uitgebreide vragen of boekingsverzoeken",
+      "action": "Stuur e-mail"
+    },
+    "whatsapp": {
+      "title": "WhatsApp",
+      "description": "Snel en gemakkelijk contact",
+      "action": "Open WhatsApp"
+    }
+  },
+  "form": {
+    "title": "Stuur ons een bericht",
+    "name": "Naam",
+    "namePlaceholder": "Uw volledige naam",
+    "email": "E-mailadres",
+    "emailPlaceholder": "uw@email.com",
+    "phone": "Telefoonnummer",
+    "phonePlaceholder": "+32 ...",
+    "dates": "Gewenste periode",
+    "datesPlaceholder": "bijv. 15-22 juli 2024",
+    "groupSize": "Groepsgrootte",
+    "groupSizePlaceholder": "Aantal personen",
+    "message": "Bericht",
+    "messagePlaceholder": "Vertel ons over uw plannen...",
+    "submit": "Verstuur bericht",
+    "success": "Bericht verzonden! We nemen zo snel mogelijk contact met u op.",
+    "error": "Er is iets misgegaan. Probeer het opnieuw of neem direct contact op."
+  },
+  "practical": {
+    "title": "Praktische Informatie",
+    "checkIn": {
+      "title": "Check-in",
+      "time": "Vanaf 16:00"
+    },
+    "checkOut": {
+      "title": "Check-out",
+      "time": "Tot 10:00"
+    },
+    "location": {
+      "title": "Locatie",
+      "address": "Ardennen, België"
+    },
+    "distances": {
+      "title": "Afstanden",
+      "brussels": "Brussel: 1u30",
+      "antwerp": "Antwerpen: 2u",
+      "amsterdam": "Amsterdam: 3u30",
+      "paris": "Parijs: 3u"
+    },
+    "parking": {
+      "title": "Parking",
+      "description": "Ruime gratis parking voor alle gasten"
+    }
+  },
+  "faq": {
+    "title": "Veelgestelde vragen",
+    "questions": [
+      {
+        "q": "Hoe ver van tevoren moet ik boeken?",
+        "a": "Voor populaire periodes zoals schoolvakanties raden we aan om 3-6 maanden van tevoren te boeken. Voor weekenden en rustigere periodes is 1-2 maanden vaak voldoende."
+      },
+      {
+        "q": "Zijn huisdieren toegestaan?",
+        "a": "Neem contact met ons op om de mogelijkheden te bespreken. Dit hangt af van het type huisdier en de groepssamenstelling."
+      },
+      {
+        "q": "Wat is er inbegrepen in de prijs?",
+        "a": "Linnengoed, handdoeken, eindschoonmaak, verwarming en basisproducten zijn inbegrepen. Een volledig overzicht ontvangt u bij de boeking."
+      },
+      {
+        "q": "Kunnen we vroeger inchecken of later uitchecken?",
+        "a": "In overleg is dit vaak mogelijk, afhankelijk van andere boekingen. Vraag het gerust na."
+      }
+    ]
+  }
+}

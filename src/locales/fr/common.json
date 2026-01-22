@@ -1,0 +1,38 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "property": "La Maison",
+    "differentiators": "Ce Qui Nous Distingue",
+    "about": "À Propos",
+    "contact": "Contact",
+    "booking": "Disponibilité",
+    "bookDirect": "Réservez"
+  },
+  "footer": {
+    "contact": "Contact",
+    "phone": "Téléphone",
+    "email": "E-mail",
+    "quickLinks": "Liens Rapides",
+    "houseRules": "Règlement intérieur",
+    "cancellation": "Politique d'annulation",
+    "privacy": "Politique de confidentialité",
+    "followUs": "Suivez-nous",
+    "copyright": "© 2024 ArdenNest. Tous droits réservés.",
+    "googleReviews": "Avis Google",
+    "stars": "étoiles"
+  },
+  "cta": {
+    "viewAvailability": "Voir les disponibilités",
+    "contactUs": "Nous contacter",
+    "bookNow": "Réservez",
+    "learnMore": "En savoir plus",
+    "callUs": "Appelez-nous",
+    "emailUs": "Écrivez-nous",
+    "whatsapp": "WhatsApp"
+  },
+  "language": {
+    "nl": "Nederlands",
+    "fr": "Français",
+    "en": "English"
+  }
+}

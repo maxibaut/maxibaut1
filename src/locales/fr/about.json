@@ -1,0 +1,32 @@
+{
+  "title": "À Propos",
+  "subtitle": "Les personnes derrière ArdenNest",
+  "story": {
+    "title": "Notre Histoire",
+    "content": "Depuis 17 ans, nous accueillons des familles, des groupes d'amis et des équipes dans notre maison des Ardennes. Ce qui a commencé comme un rêve est devenu une passion: créer l'endroit parfait pour des moments ensemble.",
+    "philosophy": {
+      "title": "Festina Lente",
+      "subtitle": "Hâtez-vous lentement",
+      "content": "Cette sagesse latine est au cœur de notre philosophie. Chez ArdenNest, tout tourne autour de ralentir, profiter et vraiment être ensemble."
+    }
+  },
+  "owners": {
+    "title": "Christophe & Partenaire",
+    "description": "Depuis 17 ans, nous accueillons personnellement chaque groupe qui séjourne chez nous. Pas de remise de clés anonyme, mais un accueil chaleureux avec des conseils sur la région et la maison."
+  },
+  "team": {
+    "title": "Notre Équipe",
+    "cleaning": {
+      "title": "Équipe Ménage",
+      "description": "Veille à ce que tout soit impeccable à votre arrivée"
+    },
+    "garden": {
+      "title": "Entretien du Jardin",
+      "description": "Maintient les 2 hectares de jardin en parfait état"
+    }
+  },
+  "whyRelationship": {
+    "title": "Pourquoi la relation compte",
+    "content": "Sur une OTA, vous êtes une réservation. Chez nous, vous êtes un invité. Nous connaissons la maison comme personne et sommes prêts à rendre votre séjour aussi agréable que possible."
+  }
+}

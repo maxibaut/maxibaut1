@@ -1,0 +1,48 @@
+{
+  "title": "La Maison",
+  "subtitle": "Un lieu où les familles se retrouvent",
+  "overview": {
+    "title": "Aperçu",
+    "capacity": "26 personnes",
+    "bedrooms": "9 chambres",
+    "bathrooms": "Salles de bain privatives",
+    "garden": "2 hectares de jardin"
+  },
+  "rooms": {
+    "title": "Chambres",
+    "ensuite": "Salle de bain privative",
+    "beds": "Lits"
+  },
+  "kitchen": {
+    "title": "La Cuisine",
+    "description": "Une cuisine professionnellement équipée où cuisiner pour 26 personnes devient un plaisir",
+    "features": {
+      "lacanche": "Cuisinière Lacanche",
+      "dishwashers": "2x lave-vaisselle Miele",
+      "fridge": "Réfrigérateur américain",
+      "equipment": "Entièrement équipée"
+    }
+  },
+  "oakTable": {
+    "title": "La Table en Chêne",
+    "description": "Le cœur de la maison. Où les histoires sont partagées, les souvenirs sont créés et les générations se réunissent.",
+    "dimensions": "6 mètres de long",
+    "capacity": "26 places"
+  },
+  "garden": {
+    "title": "Le Jardin",
+    "description": "2 hectares d'espace pour se détendre, jouer et profiter",
+    "features": {
+      "size": "200m x 100m",
+      "playground": "Aires de jeux",
+      "football": "Terrain de football",
+      "treasureHunt": "Chasse au trésor"
+    }
+  },
+  "practical": {
+    "title": "Informations Pratiques",
+    "checkIn": "Arrivée: 16h00",
+    "checkOut": "Départ: 10h00",
+    "parking": "Parking spacieux"
+  }
+}

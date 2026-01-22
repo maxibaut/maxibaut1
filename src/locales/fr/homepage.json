@@ -1,0 +1,58 @@
+{
+  "hero": {
+    "headline": "Luxe discret pour des moments ensemble",
+    "subheadline": "17 ans d'expérience dans l'accueil des familles dans les Ardennes",
+    "cta": {
+      "primary": "Voir les disponibilités",
+      "secondary": "Nous contacter"
+    }
+  },
+  "trust": {
+    "googleReviews": "Avis Google",
+    "stars": "étoiles",
+    "reviewCount": "50+ avis",
+    "experience": "17 ans d'expérience",
+    "experienceDetail": "Nous accueillons des familles depuis 17 ans",
+    "capacity": "26 personnes",
+    "capacityDetail": "Salles de bain privatives, cuisine professionnelle"
+  },
+  "differentiators": {
+    "sectionTitle": "Ce qui rend ArdenNest spécial",
+    "sectionSubtitle": "Découvrez pourquoi nos hôtes reviennent",
+    "quietLuxury": {
+      "title": "Luxe Discret",
+      "description": "Salles de bain privatives, parquets en chêne massif et un intérieur intemporel. Pas de superflu, mais une vraie qualité que l'on ressent."
+    },
+    "kitchen": {
+      "title": "Cuisine Professionnelle",
+      "description": "2x lave-vaisselle Miele, cuisinière Lacanche et tout ce qu'il faut pour cuisiner ensemble pour 26 personnes."
+    },
+    "garden": {
+      "title": "Jardin Paradis des Enfants",
+      "description": "200m x 100m d'espace, aires de jeux, terrain de football et une chasse au trésor. Les enfants s'amusent pendant des heures."
+    },
+    "viewAll": "Découvrir plus"
+  },
+  "whyBookDirect": {
+    "title": "Pourquoi réserver directement?",
+    "subtitle": "Les avantages de réserver chez nous",
+    "benefits": {
+      "price": {
+        "title": "Meilleur prix garanti",
+        "description": "Pas de commissions OTA signifie le meilleur prix pour vous"
+      },
+      "contact": {
+        "title": "Contact direct avec nous",
+        "description": "Des questions? Nous connaissons la maison comme personne"
+      },
+      "flexibility": {
+        "title": "Flexibilité maximale",
+        "description": "Arrangements personnels et sur mesure possibles"
+      },
+      "welcome": {
+        "title": "Accueil personnel",
+        "description": "Christophe accueille chaque groupe personnellement"
+      }
+    }
+  }
+}

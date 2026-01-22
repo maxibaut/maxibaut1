@@ -1,0 +1,58 @@
+{
+  "hero": {
+    "headline": "Quiet luxury voor momenten samen",
+    "subheadline": "17 jaar ervaring in het verwelkomen van families in de Ardennen",
+    "cta": {
+      "primary": "Bekijk beschikbaarheid",
+      "secondary": "Neem contact op"
+    }
+  },
+  "trust": {
+    "googleReviews": "Google Reviews",
+    "stars": "sterren",
+    "reviewCount": "50+ reviews",
+    "experience": "17 jaar ervaring",
+    "experienceDetail": "Al 17 jaar verwelkomen wij families",
+    "capacity": "26 personen",
+    "capacityDetail": "Ensuite badkamers, professionele keuken"
+  },
+  "differentiators": {
+    "sectionTitle": "Wat ArdenNest bijzonder maakt",
+    "sectionSubtitle": "Ontdek waarom gasten steeds terugkeren",
+    "quietLuxury": {
+      "title": "Quiet Luxury",
+      "description": "Ensuite badkamers, massieve eiken vloeren en een tijdloze inrichting. Geen tierelantijnen, wel echte kwaliteit die je voelt."
+    },
+    "kitchen": {
+      "title": "Professionele Keuken",
+      "description": "2x Miele afwasmachines, Lacanche fornuis en alles wat je nodig hebt om samen te koken voor 26 personen."
+    },
+    "garden": {
+      "title": "Kinderparadijs Tuin",
+      "description": "200m x 100m aan ruimte, speeltoestellen, voetbalveld en een schattenjacht. Kinderen vermaken zich urenlang."
+    },
+    "viewAll": "Ontdek meer"
+  },
+  "whyBookDirect": {
+    "title": "Waarom direct boeken?",
+    "subtitle": "De voordelen van rechtstreeks bij ons boeken",
+    "benefits": {
+      "price": {
+        "title": "Beste prijs gegarandeerd",
+        "description": "Geen OTA-commissies betekent de beste prijs voor jou"
+      },
+      "contact": {
+        "title": "Direct contact met ons",
+        "description": "Vragen? Wij kennen het huis als geen ander"
+      },
+      "flexibility": {
+        "title": "Maximale flexibiliteit",
+        "description": "Persoonlijke afspraken en maatwerk mogelijk"
+      },
+      "welcome": {
+        "title": "Persoonlijke ontvangst",
+        "description": "Christophe verwelkomt elke groep persoonlijk"
+      }
+    }
+  }
+}
