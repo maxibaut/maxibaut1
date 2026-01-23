@@ -50,37 +50,35 @@ const Booking = () => {
         </div>
       </section>
 
-      {/* Availability Section */}
+      {/* Availability Section with Beds24 Widget */}
       <section className="section-padding bg-cream-dark">
         <div className="container-luxury">
-          <Card className="max-w-3xl mx-auto">
-            <CardContent className="p-8 text-center">
-              <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-6">
-                <Calendar className="h-8 w-8 text-primary" />
-              </div>
-              <h2 className="heading-2 mb-4">{t('availability.title')}</h2>
-              <p className="body-large text-muted-foreground mb-8">
-                {t('availability.description')}
-              </p>
-              <Button
-                asChild
-                size="lg"
-                className="bg-accent hover:bg-accent/90 text-accent-foreground min-w-[250px]"
-              >
-                <a
-                  href="https://beds24.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+          <div className="text-center mb-8">
+            <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-6">
+              <Calendar className="h-8 w-8 text-primary" />
+            </div>
+            <h2 className="heading-2 mb-4">{t('availability.title')}</h2>
+            <p className="body-large text-muted-foreground">
+              {t('availability.description')}
+            </p>
+          </div>
+          
+          {/* Beds24 Booking Widget */}
+          <div className="max-w-4xl mx-auto bg-background rounded-lg shadow-lg overflow-hidden">
+            <iframe 
+              src="https://beds24.com/booking2.php?propid=28947&referer=iframe" 
+              width="100%" 
+              height="2000" 
+              style={{ maxWidth: '100%', border: 'none', overflow: 'auto' }}
+              title={t('availability.title')}
+            >
+              <p>
+                <a href="https://beds24.com/booking2.php?propid=28947&referer=iframe" title="Book Now">
                   {t('availability.button')}
-                  <ArrowRight className="ml-2 h-5 w-5" />
                 </a>
-              </Button>
-              <p className="text-sm text-muted-foreground mt-4">
-                U wordt doorgestuurd naar ons beveiligd boekingssysteem
               </p>
-            </CardContent>
-          </Card>
+            </iframe>
+          </div>
         </div>
       </section>
 
