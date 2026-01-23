@@ -1,0 +1,86 @@
+{
+  "title": "Kontakt",
+  "subtitle": "Wir helfen Ihnen gerne weiter",
+  "options": {
+    "phone": {
+      "title": "Rufen Sie uns an",
+      "description": "Direkter Kontakt für schnelle Fragen",
+      "action": "Jetzt anrufen"
+    },
+    "email": {
+      "title": "Schreiben Sie uns",
+      "description": "Für ausführliche Fragen oder Buchungsanfragen",
+      "action": "E-Mail senden"
+    },
+    "whatsapp": {
+      "title": "WhatsApp",
+      "description": "Schneller und einfacher Kontakt",
+      "action": "WhatsApp öffnen"
+    }
+  },
+  "form": {
+    "title": "Senden Sie uns eine Nachricht",
+    "name": "Name",
+    "namePlaceholder": "Ihr vollständiger Name",
+    "email": "E-Mail-Adresse",
+    "emailPlaceholder": "ihre@email.com",
+    "phone": "Telefonnummer",
+    "phonePlaceholder": "+49 ...",
+    "dates": "Gewünschter Zeitraum",
+    "datesPlaceholder": "z.B. 15.-22. Juli 2024",
+    "groupSize": "Gruppengröße",
+    "groupSizePlaceholder": "Anzahl Personen",
+    "message": "Nachricht",
+    "messagePlaceholder": "Erzählen Sie uns von Ihren Plänen...",
+    "submit": "Nachricht senden",
+    "success": "Nachricht gesendet! Wir melden uns so schnell wie möglich.",
+    "error": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut oder kontaktieren Sie uns direkt."
+  },
+  "practical": {
+    "title": "Praktische Informationen",
+    "checkIn": {
+      "title": "Check-in",
+      "time": "Ab 16:00 Uhr"
+    },
+    "checkOut": {
+      "title": "Check-out",
+      "time": "Bis 10:00 Uhr"
+    },
+    "location": {
+      "title": "Standort",
+      "address": "Ardennen, Belgien"
+    },
+    "distances": {
+      "title": "Entfernungen",
+      "brussels": "Brüssel: 1h30",
+      "antwerp": "Antwerpen: 2h",
+      "amsterdam": "Amsterdam: 3h30",
+      "paris": "Paris: 3h"
+    },
+    "parking": {
+      "title": "Parkplatz",
+      "description": "Großer kostenloser Parkplatz für alle Gäste"
+    }
+  },
+  "faq": {
+    "title": "Häufig gestellte Fragen",
+    "questions": [
+      {
+        "q": "Wie weit im Voraus sollte ich buchen?",
+        "a": "Für beliebte Zeiträume wie Schulferien empfehlen wir, 3-6 Monate im Voraus zu buchen. Für Wochenenden und ruhigere Zeiten reichen oft 1-2 Monate."
+      },
+      {
+        "q": "Sind Haustiere erlaubt?",
+        "a": "Kontaktieren Sie uns, um die Möglichkeiten zu besprechen. Dies hängt von der Art des Haustieres und der Gruppenzusammensetzung ab."
+      },
+      {
+        "q": "Was ist im Preis inbegriffen?",
+        "a": "Bettwäsche, Handtücher, Endreinigung, Heizung und Grundprodukte sind inbegriffen. Eine vollständige Übersicht erhalten Sie bei der Buchung."
+      },
+      {
+        "q": "Können wir früher einchecken oder später auschecken?",
+        "a": "Nach Absprache ist dies oft möglich, abhängig von anderen Buchungen. Fragen Sie gerne nach."
+      }
+    ]
+  }
+}

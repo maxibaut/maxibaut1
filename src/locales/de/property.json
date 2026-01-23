@@ -1,0 +1,48 @@
+{
+  "title": "Das Haus",
+  "subtitle": "Ein Ort, an dem Familien zusammenkommen",
+  "overview": {
+    "title": "Überblick",
+    "capacity": "26 Personen",
+    "bedrooms": "9 Schlafzimmer",
+    "bathrooms": "Ensuite-Badezimmer",
+    "garden": "2 Hektar Garten"
+  },
+  "rooms": {
+    "title": "Schlafzimmer",
+    "ensuite": "Ensuite-Badezimmer",
+    "beds": "Betten"
+  },
+  "kitchen": {
+    "title": "Die Küche",
+    "description": "Eine professionell ausgestattete Küche, in der das Kochen für 26 Personen zum Vergnügen wird",
+    "features": {
+      "lacanche": "Lacanche-Herd",
+      "dishwashers": "2x Miele-Geschirrspüler",
+      "fridge": "Amerikanischer Kühlschrank",
+      "equipment": "Vollständig ausgestattet"
+    }
+  },
+  "oakTable": {
+    "title": "Der Eichentisch",
+    "description": "Das Herz des Hauses. Wo Geschichten geteilt, Erinnerungen geschaffen und Generationen zusammenkommen.",
+    "dimensions": "6 Meter lang",
+    "capacity": "26 Sitzplätze"
+  },
+  "garden": {
+    "title": "Der Garten",
+    "description": "2 Hektar Platz zum Entspannen, Spielen und Genießen",
+    "features": {
+      "size": "200m x 100m",
+      "playground": "Spielgeräte",
+      "football": "Fußballfeld",
+      "treasureHunt": "Schatzsuche"
+    }
+  },
+  "practical": {
+    "title": "Praktische Informationen",
+    "checkIn": "Check-in: 16:00 Uhr",
+    "checkOut": "Check-out: 10:00 Uhr",
+    "parking": "Großer Parkplatz"
+  }
+}
