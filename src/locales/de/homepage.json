@@ -1,0 +1,58 @@
+{
+  "hero": {
+    "headline": "Stiller Luxus für gemeinsame Momente",
+    "subheadline": "22 Jahre Erfahrung in der Begrüßung von Familien in den Ardennen",
+    "cta": {
+      "primary": "Verfügbarkeit anzeigen",
+      "secondary": "Kontaktieren Sie uns"
+    }
+  },
+  "trust": {
+    "googleReviews": "Google Bewertungen",
+    "stars": "Sterne",
+    "reviewCount": "50+ Bewertungen",
+    "experience": "22 Jahre Erfahrung",
+    "experienceDetail": "Seit 22 Jahren begrüßen wir Familien",
+    "capacity": "26 Personen",
+    "capacityDetail": "Ensuite-Badezimmer, Profi-Küche"
+  },
+  "differentiators": {
+    "sectionTitle": "Was ArdenNest besonders macht",
+    "sectionSubtitle": "Entdecken Sie, warum Gäste immer wiederkommen",
+    "quietLuxury": {
+      "title": "Stiller Luxus",
+      "description": "Ensuite-Badezimmer, massive Eichenböden und zeitlose Einrichtung. Kein Schnickschnack, sondern echte Qualität, die man spürt."
+    },
+    "kitchen": {
+      "title": "Profi-Küche",
+      "description": "2x Miele-Geschirrspüler, Lacanche-Herd und alles, was Sie brauchen, um gemeinsam für 26 Personen zu kochen."
+    },
+    "garden": {
+      "title": "Kinderparadies Garten",
+      "description": "200m x 100m Fläche, Spielgeräte, Fußballfeld und eine Schatzsuche. Kinder beschäftigen sich stundenlang."
+    },
+    "viewAll": "Mehr entdecken"
+  },
+  "whyBookDirect": {
+    "title": "Warum direkt buchen?",
+    "subtitle": "Die Vorteile einer Direktbuchung bei uns",
+    "benefits": {
+      "price": {
+        "title": "Bester Preis garantiert",
+        "description": "Keine OTA-Provisionen bedeutet den besten Preis für Sie"
+      },
+      "contact": {
+        "title": "Direkter Kontakt mit uns",
+        "description": "Fragen? Wir kennen das Haus wie kein anderer"
+      },
+      "flexibility": {
+        "title": "Maximale Flexibilität",
+        "description": "Persönliche Vereinbarungen und Maßarbeit möglich"
+      },
+      "welcome": {
+        "title": "Persönlicher Empfang",
+        "description": "Christophe begrüßt jede Gruppe persönlich"
+      }
+    }
+  }
+}

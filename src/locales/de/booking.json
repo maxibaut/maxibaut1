@@ -1,0 +1,36 @@
+{
+  "title": "Buchen",
+  "subtitle": "Verfügbarkeit prüfen und direkt buchen",
+  "whyDirect": {
+    "title": "Warum direkt buchen?",
+    "benefits": [
+      "Bester Preis garantiert - keine OTA-Provisionen",
+      "Direkter Kontakt mit den Eigentümern",
+      "Maximale Flexibilität und Maßarbeit",
+      "Persönlicher Empfang durch Christophe"
+    ]
+  },
+  "availability": {
+    "title": "Verfügbarkeit prüfen",
+    "description": "Wählen Sie Ihren gewünschten Zeitraum und prüfen Sie direkt die Verfügbarkeit",
+    "button": "Verfügbarkeit anzeigen"
+  },
+  "preferTalk": {
+    "title": "Lieber erst sprechen?",
+    "description": "Kein Problem! Kontaktieren Sie uns gerne für Fragen oder um die Möglichkeiten zu besprechen.",
+    "cta": "Kontaktieren Sie uns"
+  },
+  "payment": {
+    "title": "Sichere Zahlung",
+    "description": "Zahlungen werden über Mollie abgewickelt, einen zuverlässigen niederländischen Zahlungsanbieter. Ihre Daten sind immer sicher."
+  },
+  "afterBooking": {
+    "title": "Nach Ihrer Buchung",
+    "steps": [
+      "Sie erhalten sofort eine Bestätigung per E-Mail",
+      "Innerhalb von 24 Stunden melden wir uns persönlich",
+      "Sie erhalten ein Willkommenspaket mit allen praktischen Informationen",
+      "Am Anreisetag erwartet Sie Christophe persönlich"
+    ]
+  }
+}

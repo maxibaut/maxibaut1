@@ -15,6 +15,7 @@ const languages = [
   { code: 'nl', label: 'NL', flag: '🇳🇱' },
   { code: 'fr', label: 'FR', flag: '🇫🇷' },
   { code: 'en', label: 'EN', flag: '🇬🇧' },
+  { code: 'de', label: 'DE', flag: '🇩🇪' },
 ];
 
 export const Header = () => {

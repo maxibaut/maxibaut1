@@ -25,6 +25,14 @@ import enAbout from '@/locales/en/about.json';
 import enContact from '@/locales/en/contact.json';
 import enBooking from '@/locales/en/booking.json';
 
+// German translations
+import deCommon from '@/locales/de/common.json';
+import deHomepage from '@/locales/de/homepage.json';
+import deProperty from '@/locales/de/property.json';
+import deAbout from '@/locales/de/about.json';
+import deContact from '@/locales/de/contact.json';
+import deBooking from '@/locales/de/booking.json';
+
 const resources = {
   nl: {
     common: nlCommon,
@@ -50,17 +58,25 @@ const resources = {
     contact: enContact,
     booking: enBooking,
   },
+  de: {
+    common: deCommon,
+    homepage: deHomepage,
+    property: deProperty,
+    about: deAbout,
+    contact: deContact,
+    booking: deBooking,
+  },
 };
 
 // Detect browser language or use stored preference
 const getDefaultLanguage = (): string => {
   const stored = localStorage.getItem('ardennest-language');
-  if (stored && ['nl', 'fr', 'en'].includes(stored)) {
+  if (stored && ['nl', 'fr', 'en', 'de'].includes(stored)) {
     return stored;
   }
   
   const browserLang = navigator.language.split('-')[0];
-  if (['nl', 'fr', 'en'].includes(browserLang)) {
+  if (['nl', 'fr', 'en', 'de'].includes(browserLang)) {
     return browserLang;
   }
   

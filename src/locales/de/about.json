@@ -1,0 +1,32 @@
+{
+  "title": "Über Uns",
+  "subtitle": "Die Menschen hinter ArdenNest",
+  "story": {
+    "title": "Unsere Geschichte",
+    "content": "Seit 22 Jahren begrüßen wir Familien, Freundesgruppen und Teams in unserem Haus in den Ardennen. Was als Traum begann, ist zu einer Leidenschaft geworden: den perfekten Ort für gemeinsame Momente zu schaffen.",
+    "philosophy": {
+      "title": "Festina Lente",
+      "subtitle": "Eile mit Weile",
+      "content": "Diese lateinische Weisheit bildet den Kern unserer Philosophie. Bei ArdenNest geht es darum, langsamer zu werden, zu genießen und wirklich zusammen zu sein."
+    }
+  },
+  "owners": {
+    "title": "Christophe & Partner",
+    "description": "Seit 22 Jahren begrüßen wir persönlich jede Gruppe, die bei uns übernachtet. Keine anonyme Schlüsselübergabe, sondern ein herzlicher Empfang mit Tipps zur Umgebung und zum Haus."
+  },
+  "team": {
+    "title": "Unser Team",
+    "cleaning": {
+      "title": "Reinigungsteam",
+      "description": "Sorgt dafür, dass alles blitzsauber für Ihre Ankunft ist"
+    },
+    "garden": {
+      "title": "Gartenpflege",
+      "description": "Hält die 2 Hektar Garten in perfektem Zustand"
+    }
+  },
+  "whyRelationship": {
+    "title": "Warum die Beziehung wichtig ist",
+    "content": "Bei einer OTA sind Sie eine Buchung. Bei uns sind Sie ein Gast. Wir kennen das Haus wie kein anderer und sind bereit, Ihren Aufenthalt so angenehm wie möglich zu gestalten."
+  }
+}
