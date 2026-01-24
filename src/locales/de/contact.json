@@ -53,14 +53,14 @@
     "distances": {
       "title": "Entfernungen",
       "brussels": "Brüssel: 1h30",
-      "antwerp": "Antwerpen: 2h",
+      "antwerp": "Antwerpen: 2h00",
       "hasselt": "Hasselt: 1h15",
       "bruges": "Brügge: 2h30",
-      "aachen": "Aachen: 1h",
+      "aachen": "Aachen: 1h00",
       "utrecht": "Utrecht: 2h45",
       "cologne": "Köln: 1h45",
       "amsterdam": "Amsterdam: 3h30",
-      "paris": "Paris: 3h"
+      "paris": "Paris: 3h00"
     },
     "parking": {
       "title": "Parkplatz",

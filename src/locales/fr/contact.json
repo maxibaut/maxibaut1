@@ -53,14 +53,14 @@
     "distances": {
       "title": "Distances",
       "brussels": "Bruxelles: 1h30",
-      "antwerp": "Anvers: 2h",
+      "antwerp": "Anvers: 2h00",
       "hasselt": "Hasselt: 1h15",
       "bruges": "Bruges: 2h30",
-      "aachen": "Aix-la-Chapelle: 1h",
+      "aachen": "Aix-la-Chapelle: 1h00",
       "utrecht": "Utrecht: 2h45",
       "cologne": "Cologne: 1h45",
       "amsterdam": "Amsterdam: 3h30",
-      "paris": "Paris: 3h"
+      "paris": "Paris: 3h00"
     },
     "parking": {
       "title": "Parking",
