@@ -294,7 +294,13 @@ const Contact = () => {
                       {t('practical.location.address')}
                     </p>
                     <p className="text-sm text-muted-foreground">
+                      {t('practical.location.postalCity')}
+                    </p>
+                    <p className="text-sm text-muted-foreground">
                       {t('practical.location.region')}
+                    </p>
+                    <p className="text-sm text-muted-foreground">
+                      {t('practical.location.country')}
                     </p>
                   </div>
                 </CardContent>
