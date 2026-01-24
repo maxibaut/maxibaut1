@@ -35,6 +35,7 @@ import {
   Wifi,
   PawPrint,
   Cigarette,
+  MegaphoneOff,
 } from 'lucide-react';
 
 const contactSchema = z.object({
@@ -310,6 +311,17 @@ const Contact = () => {
                     </div>
                   </div>
                   <span className="text-xs text-gray-600 mt-1">{t('practical.amenities.noSmoking')}</span>
+                </div>
+
+                {/* Geen feestjes - not allowed */}
+                <div className="flex flex-col items-center">
+                  <div className="relative bg-gray-50 rounded-full p-2">
+                    <MegaphoneOff className="h-6 w-6 text-gray-400" />
+                    <div className="absolute inset-0 flex items-center justify-center">
+                      <div className="w-6 h-0.5 bg-red-500 rotate-45" />
+                    </div>
+                  </div>
+                  <span className="text-xs text-gray-600 mt-1">{t('practical.amenities.noParties')}</span>
                 </div>
               </div>
 

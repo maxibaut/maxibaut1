@@ -42,8 +42,9 @@
       "guests": "26 guests",
       "parking": "Free parking",
       "wifi": "Wifi",
-      "noPets": "No pets",
-      "noSmoking": "No smoking"
+    "noPets": "No pets",
+      "noSmoking": "No smoking",
+      "noParties": "No parties"
     },
     "checkIn": {
       "title": "Check-in",
