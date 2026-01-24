@@ -343,18 +343,17 @@ const Contact = () => {
                   <MapPin className="h-5 w-5 text-primary mt-0.5" />
                   <div>
                     <h4 className="font-medium">{t('practical.location.title')}</h4>
-                    <p className="text-sm text-muted-foreground">
-                      {t('practical.location.address')}
-                    </p>
-                    <p className="text-sm text-muted-foreground">
-                      {t('practical.location.postalCity')}
-                    </p>
-                    <p className="text-sm text-muted-foreground">
-                      {t('practical.location.region')}
-                    </p>
-                    <p className="text-sm text-muted-foreground">
-                      {t('practical.location.country')}
-                    </p>
+                    <a 
+                      href="https://maps.google.com/maps?q=Rue+de+la+Ferme+3,+5575+Malvoisin,+Belgium"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="block text-sm text-muted-foreground hover:text-primary transition-colors"
+                    >
+                      <p>{t('practical.location.address')}</p>
+                      <p>{t('practical.location.postalCity')}</p>
+                      <p>{t('practical.location.region')}</p>
+                      <p>{t('practical.location.country')}</p>
+                    </a>
                   </div>
                 </CardContent>
               </Card>
