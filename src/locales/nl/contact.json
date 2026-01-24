@@ -48,19 +48,19 @@
     },
     "location": {
       "title": "Locatie",
-      "address": "Ardennen, België"
+      "address": "Rue de la Ferme 3, 5575 Malvoisin, België"
     },
     "distances": {
       "title": "Afstanden",
-      "brussels": "Brussel: 1u30",
-      "antwerp": "Antwerpen: 2u00",
-      "hasselt": "Hasselt: 1u15",
-      "brugge": "Brugge: 2u30",
-      "aachen": "Aken: 1u00",
-      "utrecht": "Utrecht: 2u45",
-      "cologne": "Keulen: 1u45",
+      "brussels": "Brussel: 1u45",
+      "antwerp": "Antwerpen: 2u15",
+      "hasselt": "Hasselt: 1u45",
+      "brugge": "Brugge: 2u45",
+      "aachen": "Aken: 1u30",
+      "utrecht": "Utrecht: 3u00",
+      "cologne": "Keulen: 2u00",
       "amsterdam": "Amsterdam: 3u30",
-      "paris": "Parijs: 3u00"
+      "paris": "Parijs: 3u15"
     },
     "parking": {
       "title": "Parking",
