@@ -54,6 +54,11 @@
       "title": "Afstanden",
       "brussels": "Brussel: 1u30",
       "antwerp": "Antwerpen: 2u",
+      "hasselt": "Hasselt: 1u15",
+      "brugge": "Brugge: 2u30",
+      "aachen": "Aken: 1u",
+      "utrecht": "Utrecht: 2u45",
+      "cologne": "Keulen: 1u45",
       "amsterdam": "Amsterdam: 3u30",
       "paris": "Parijs: 3u"
     },

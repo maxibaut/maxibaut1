@@ -306,6 +306,11 @@ const Contact = () => {
                   <ul className="grid grid-cols-2 gap-2 text-sm text-muted-foreground">
                     <li>{t('practical.distances.brussels')}</li>
                     <li>{t('practical.distances.antwerp')}</li>
+                    <li>{t('practical.distances.hasselt')}</li>
+                    <li>{t('practical.distances.brugge') || t('practical.distances.bruges')}</li>
+                    <li>{t('practical.distances.aachen')}</li>
+                    <li>{t('practical.distances.utrecht')}</li>
+                    <li>{t('practical.distances.cologne')}</li>
                     <li>{t('practical.distances.amsterdam')}</li>
                     <li>{t('practical.distances.paris')}</li>
                   </ul>
