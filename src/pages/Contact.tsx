@@ -79,21 +79,21 @@ const Contact = () => {
       title: t('options.phone.title'),
       description: t('options.phone.description'),
       action: t('options.phone.action'),
-      href: 'tel:+32123456789',
+      href: 'tel:+32478030352',
     },
     {
       icon: Mail,
       title: t('options.email.title'),
       description: t('options.email.description'),
       action: t('options.email.action'),
-      href: 'mailto:info@ardennest.be',
+      href: 'mailto:bieke@ardennest.be',
     },
     {
       icon: MessageCircle,
       title: t('options.whatsapp.title'),
       description: t('options.whatsapp.description'),
       action: t('options.whatsapp.action'),
-      href: 'https://wa.me/32123456789?text=Hallo%2C%20ik%20heb%20interesse%20in%20ArdenNest.',
+      href: 'https://wa.me/32478030352?text=Hallo%2C%20ik%20heb%20interesse%20in%20ArdenNest.',
     },
   ];
 
