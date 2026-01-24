@@ -31,6 +31,10 @@ import {
   Clock,
   Car,
   ArrowRight,
+  Users,
+  Wifi,
+  PawPrint,
+  Cigarette,
 } from 'lucide-react';
 
 const contactSchema = z.object({
@@ -259,6 +263,55 @@ const Contact = () => {
             {/* Practical Information */}
             <div className="space-y-6">
               <h2 className="heading-3">{t('practical.title')}</h2>
+
+              {/* House Rules Icons */}
+              <div className="flex flex-wrap justify-center gap-6">
+                {/* 26 personen - allowed */}
+                <div className="flex flex-col items-center">
+                  <div className="bg-emerald-50 rounded-full p-2">
+                    <Users className="h-6 w-6 text-emerald-600" />
+                  </div>
+                  <span className="text-xs text-gray-600 mt-1">26 personen</span>
+                </div>
+
+                {/* Gratis parkeren - allowed */}
+                <div className="flex flex-col items-center">
+                  <div className="bg-emerald-50 rounded-full p-2">
+                    <Car className="h-6 w-6 text-emerald-600" />
+                  </div>
+                  <span className="text-xs text-gray-600 mt-1">Gratis parkeren</span>
+                </div>
+
+                {/* Wifi - allowed */}
+                <div className="flex flex-col items-center">
+                  <div className="bg-emerald-50 rounded-full p-2">
+                    <Wifi className="h-6 w-6 text-emerald-600" />
+                  </div>
+                  <span className="text-xs text-gray-600 mt-1">Wifi</span>
+                </div>
+
+                {/* Geen huisdieren - not allowed */}
+                <div className="flex flex-col items-center">
+                  <div className="relative bg-gray-50 rounded-full p-2">
+                    <PawPrint className="h-6 w-6 text-gray-400" />
+                    <div className="absolute inset-0 flex items-center justify-center">
+                      <div className="w-6 h-0.5 bg-red-500 rotate-45" />
+                    </div>
+                  </div>
+                  <span className="text-xs text-gray-600 mt-1">Geen huisdieren</span>
+                </div>
+
+                {/* Niet roken - not allowed */}
+                <div className="flex flex-col items-center">
+                  <div className="relative bg-gray-50 rounded-full p-2">
+                    <Cigarette className="h-6 w-6 text-gray-400" />
+                    <div className="absolute inset-0 flex items-center justify-center">
+                      <div className="w-6 h-0.5 bg-red-500 rotate-45" />
+                    </div>
+                  </div>
+                  <span className="text-xs text-gray-600 mt-1">Niet roken</span>
+                </div>
+              </div>
 
               <div className="grid grid-cols-2 gap-4">
                 <Card>
