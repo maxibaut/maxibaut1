@@ -48,8 +48,10 @@
     },
     "location": {
       "title": "Location",
-      "address": "Rue de la Ferme 3, 5575 Malvoisin",
-      "region": "Ardennes, Belgium"
+      "address": "Rue de la Ferme 3",
+      "postalCity": "5575 Malvoisin",
+      "region": "Ardennes",
+      "country": "Belgium"
     },
     "distances": {
       "title": "Distances",
