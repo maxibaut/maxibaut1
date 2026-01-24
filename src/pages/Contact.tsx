@@ -303,16 +303,26 @@ const Contact = () => {
                     <Car className="h-5 w-5 text-primary mt-0.5" />
                     <h4 className="font-medium">{t('practical.distances.title')}</h4>
                   </div>
-                  <ul className="grid grid-cols-2 gap-2 text-sm text-muted-foreground">
-                    <li>{t('practical.distances.brussels')}</li>
-                    <li>{t('practical.distances.antwerp')}</li>
-                    <li>{t('practical.distances.hasselt')}</li>
-                    <li>{t('practical.distances.brugge') || t('practical.distances.bruges')}</li>
-                    <li>{t('practical.distances.aachen')}</li>
-                    <li>{t('practical.distances.utrecht')}</li>
-                    <li>{t('practical.distances.cologne')}</li>
-                    <li>{t('practical.distances.amsterdam')}</li>
-                    <li>{t('practical.distances.paris')}</li>
+                  <ul className="grid grid-cols-2 gap-x-6 gap-y-2 text-sm text-muted-foreground">
+                    {[
+                      t('practical.distances.brussels'),
+                      t('practical.distances.antwerp'),
+                      t('practical.distances.hasselt'),
+                      t('practical.distances.brugge') || t('practical.distances.bruges'),
+                      t('practical.distances.aachen'),
+                      t('practical.distances.utrecht'),
+                      t('practical.distances.cologne'),
+                      t('practical.distances.amsterdam'),
+                      t('practical.distances.paris'),
+                    ].map((distance, index) => {
+                      const [city, time] = distance.split(': ');
+                      return (
+                        <li key={index} className="flex justify-between">
+                          <span>{city}</span>
+                          <span className="tabular-nums">{time}</span>
+                        </li>
+                      );
+                    })}
                   </ul>
                 </CardContent>
               </Card>
