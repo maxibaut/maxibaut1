@@ -54,6 +54,11 @@
       "title": "Entfernungen",
       "brussels": "Brüssel: 1h30",
       "antwerp": "Antwerpen: 2h",
+      "hasselt": "Hasselt: 1h15",
+      "bruges": "Brügge: 2h30",
+      "aachen": "Aachen: 1h",
+      "utrecht": "Utrecht: 2h45",
+      "cologne": "Köln: 1h45",
       "amsterdam": "Amsterdam: 3h30",
       "paris": "Paris: 3h"
     },
