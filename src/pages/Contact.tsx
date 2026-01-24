@@ -293,6 +293,9 @@ const Contact = () => {
                     <p className="text-sm text-muted-foreground">
                       {t('practical.location.address')}
                     </p>
+                    <p className="text-sm text-muted-foreground">
+                      {t('practical.location.region')}
+                    </p>
                   </div>
                 </CardContent>
               </Card>
