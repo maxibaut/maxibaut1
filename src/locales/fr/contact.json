@@ -4,7 +4,7 @@
   "options": {
     "phone": {
       "title": "Appelez-nous",
-      "description": "Contact direct pour questions rapides",
+      "description": "Nous prenons volontiers le temps pour vos questions",
       "action": "Appeler"
     },
     "email": {
