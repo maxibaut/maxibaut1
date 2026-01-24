@@ -42,8 +42,9 @@
       "guests": "26 personen",
       "parking": "Gratis parkeren",
       "wifi": "Wifi",
-      "noPets": "Geen huisdieren",
-      "noSmoking": "Niet roken"
+    "noPets": "Geen huisdieren",
+      "noSmoking": "Niet roken",
+      "noParties": "Geen feestjes"
     },
     "checkIn": {
       "title": "Check-in",

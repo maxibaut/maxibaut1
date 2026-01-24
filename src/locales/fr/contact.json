@@ -42,8 +42,9 @@
       "guests": "26 personnes",
       "parking": "Parking gratuit",
       "wifi": "Wifi",
-      "noPets": "Pas d'animaux",
-      "noSmoking": "Non-fumeur"
+    "noPets": "Pas d'animaux",
+      "noSmoking": "Non-fumeur",
+      "noParties": "Pas de fêtes"
     },
     "checkIn": {
       "title": "Arrivée",
