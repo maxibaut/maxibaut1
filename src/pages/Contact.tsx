@@ -312,7 +312,7 @@ const Contact = () => {
                       t('practical.distances.antwerp'),
                       t('practical.distances.hasselt'),
                       t('practical.distances.brugge') || t('practical.distances.bruges'),
-                      t('practical.distances.aachen'),
+                      t('practical.distances.trier'),
                       t('practical.distances.utrecht'),
                       t('practical.distances.cologne'),
                       t('practical.distances.amsterdam'),
