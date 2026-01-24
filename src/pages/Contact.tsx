@@ -271,7 +271,7 @@ const Contact = () => {
                   <div className="bg-emerald-50 rounded-full p-2">
                     <Users className="h-6 w-6 text-emerald-600" />
                   </div>
-                  <span className="text-xs text-gray-600 mt-1">26 personen</span>
+                  <span className="text-xs text-gray-600 mt-1">{t('practical.amenities.guests')}</span>
                 </div>
 
                 {/* Gratis parkeren - allowed */}
@@ -279,7 +279,7 @@ const Contact = () => {
                   <div className="bg-emerald-50 rounded-full p-2">
                     <Car className="h-6 w-6 text-emerald-600" />
                   </div>
-                  <span className="text-xs text-gray-600 mt-1">Gratis parkeren</span>
+                  <span className="text-xs text-gray-600 mt-1">{t('practical.amenities.parking')}</span>
                 </div>
 
                 {/* Wifi - allowed */}
@@ -287,7 +287,7 @@ const Contact = () => {
                   <div className="bg-emerald-50 rounded-full p-2">
                     <Wifi className="h-6 w-6 text-emerald-600" />
                   </div>
-                  <span className="text-xs text-gray-600 mt-1">Wifi</span>
+                  <span className="text-xs text-gray-600 mt-1">{t('practical.amenities.wifi')}</span>
                 </div>
 
                 {/* Geen huisdieren - not allowed */}
@@ -298,7 +298,7 @@ const Contact = () => {
                       <div className="w-6 h-0.5 bg-red-500 rotate-45" />
                     </div>
                   </div>
-                  <span className="text-xs text-gray-600 mt-1">Geen huisdieren</span>
+                  <span className="text-xs text-gray-600 mt-1">{t('practical.amenities.noPets')}</span>
                 </div>
 
                 {/* Niet roken - not allowed */}
@@ -309,7 +309,7 @@ const Contact = () => {
                       <div className="w-6 h-0.5 bg-red-500 rotate-45" />
                     </div>
                   </div>
-                  <span className="text-xs text-gray-600 mt-1">Niet roken</span>
+                  <span className="text-xs text-gray-600 mt-1">{t('practical.amenities.noSmoking')}</span>
                 </div>
               </div>
 

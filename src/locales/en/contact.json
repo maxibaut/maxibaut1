@@ -38,6 +38,13 @@
   },
   "practical": {
     "title": "Practical Information",
+    "amenities": {
+      "guests": "26 guests",
+      "parking": "Free parking",
+      "wifi": "Wifi",
+      "noPets": "No pets",
+      "noSmoking": "No smoking"
+    },
     "checkIn": {
       "title": "Check-in",
       "time": "From 4:00 PM"
