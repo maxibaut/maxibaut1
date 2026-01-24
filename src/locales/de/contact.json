@@ -38,6 +38,13 @@
   },
   "practical": {
     "title": "Praktische Informationen",
+    "amenities": {
+      "guests": "26 Personen",
+      "parking": "Gratis Parken",
+      "wifi": "WLAN",
+      "noPets": "Keine Haustiere",
+      "noSmoking": "Nichtraucher"
+    },
     "checkIn": {
       "title": "Check-in",
       "time": "Ab 16:00 Uhr"

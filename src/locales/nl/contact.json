@@ -38,6 +38,13 @@
   },
   "practical": {
     "title": "Praktische Informatie",
+    "amenities": {
+      "guests": "26 personen",
+      "parking": "Gratis parkeren",
+      "wifi": "Wifi",
+      "noPets": "Geen huisdieren",
+      "noSmoking": "Niet roken"
+    },
     "checkIn": {
       "title": "Check-in",
       "time": "Vanaf 16:00"
