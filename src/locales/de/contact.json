@@ -61,7 +61,8 @@
       "utrecht": "Utrecht: 3h00",
       "cologne": "Köln: 2h00",
       "amsterdam": "Amsterdam: 3h30",
-      "paris": "Paris: 3h15"
+      "paris": "Paris: 3h15",
+      "calculate": "Berechnen Sie Ihre Route"
     },
     "parking": {
       "title": "Parkplatz",

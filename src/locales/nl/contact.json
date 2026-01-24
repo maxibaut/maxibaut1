@@ -61,7 +61,8 @@
       "utrecht": "Utrecht: 3u00",
       "cologne": "Keulen: 2u00",
       "amsterdam": "Amsterdam: 3u30",
-      "paris": "Parijs: 3u15"
+      "paris": "Parijs: 3u15",
+      "calculate": "Bereken uw route"
     },
     "parking": {
       "title": "Parking",

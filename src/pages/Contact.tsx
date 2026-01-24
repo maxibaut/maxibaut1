@@ -326,6 +326,17 @@ const Contact = () => {
                         </li>
                       );
                     })}
+                    <li>
+                      <a 
+                        href="https://www.google.com/maps/dir/?api=1&destination=Rue+de+la+Ferme+3,+5575+Malvoisin,+Belgium"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-primary hover:underline flex items-center gap-1"
+                      >
+                        {t('practical.distances.calculate')}
+                        <ArrowRight className="h-3 w-3" />
+                      </a>
+                    </li>
                   </ul>
                 </CardContent>
               </Card>
