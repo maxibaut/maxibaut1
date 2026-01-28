@@ -31,6 +31,22 @@
       "title": "Kinderparadies Garten",
       "description": "200m x 100m Fläche, Spielgeräte, Fußballfeld und eine Schatzsuche. Kinder beschäftigen sich stundenlang."
     },
+    "mattresses": {
+      "title": "Dicke Matratzen",
+      "description": "Boxspringbetten mit dicken Matratzen für eine perfekte Nachtruhe. Ausgeruht aufwachen ist die Basis eines gelungenen Aufenthalts."
+    },
+    "dishCabinet": {
+      "title": "Kontrolle Nach Jedem Gast",
+      "description": "Nach jedem Gast kontrollieren wir den Geschirrschrank vollständig. Alles ist komplett und in perfektem Zustand bei Ihrer Ankunft."
+    },
+    "professionalEquipment": {
+      "title": "Profi-Ausstattung",
+      "description": "Töpfe und Pfannen in Restaurantqualität. Für 26 Personen kochen mit der richtigen Ausstattung."
+    },
+    "livingOnSite": {
+      "title": "25 Jahre Vor Ort",
+      "description": "Wir leben seit 25 Jahren auf dem Anwesen. Niemand kennt das Haus und die Umgebung besser als wir."
+    },
     "viewAll": "Mehr entdecken"
   },
   "whyBookDirect": {

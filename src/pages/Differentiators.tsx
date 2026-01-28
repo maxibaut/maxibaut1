@@ -2,7 +2,7 @@ import { PageWrapper } from '@/components/layout';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
-import { Sparkles, ChefHat, TreePine, Table, Gamepad2, Car, Check, ArrowRight } from 'lucide-react';
+import { Sparkles, ChefHat, TreePine, Table, Gamepad2, Car, Check, ArrowRight, Bed, ClipboardCheck, UtensilsCrossed, Home } from 'lucide-react';
 import { 
   bedroomQuietLuxury, 
   kitchen, 
@@ -97,6 +97,62 @@ const Differentiators = () => {
         'Trapautootjes en tractoren',
         'Driewielers voor de kleintjes',
         'Overdekt: spelen bij elk weer',
+      ],
+      reverse: true,
+    },
+    {
+      id: 'mattresses',
+      icon: Bed,
+      title: t('differentiators.mattresses.title'),
+      description: t('differentiators.mattresses.description'),
+      image: bedroomQuietLuxury, // Placeholder - replace with mattress photo
+      features: [
+        'Boxspring bedden',
+        'Dikke, comfortabele matrassen',
+        'Perfecte nachtrust gegarandeerd',
+        'Uitgerust wakker worden',
+      ],
+      reverse: false,
+    },
+    {
+      id: 'dish-cabinet',
+      icon: ClipboardCheck,
+      title: t('differentiators.dishCabinet.title'),
+      description: t('differentiators.dishCabinet.description'),
+      image: kitchen, // Placeholder - replace with dish cabinet photo
+      features: [
+        'Volledige controle na elke gast',
+        'Alles compleet en in perfecte staat',
+        'Geen verrassingen bij aankomst',
+        'Aandacht voor detail',
+      ],
+      reverse: true,
+    },
+    {
+      id: 'professional-equipment',
+      icon: UtensilsCrossed,
+      title: t('differentiators.professionalEquipment.title'),
+      description: t('differentiators.professionalEquipment.description'),
+      image: kitchen, // Placeholder - replace with pots/pans photo
+      features: [
+        'Horeca-kwaliteit potten en pannen',
+        'Professioneel kookgerei',
+        'Geschikt voor grote groepen',
+        'Alles wat u nodig heeft',
+      ],
+      reverse: false,
+    },
+    {
+      id: 'living-on-site',
+      icon: Home,
+      title: t('differentiators.livingOnSite.title'),
+      description: t('differentiators.livingOnSite.description'),
+      image: bedroomQuietLuxury, // Placeholder - replace with owners/estate photo
+      features: [
+        '25 jaar woonervaring ter plaatse',
+        'Diepgaande kennis van het huis',
+        'Kennis van de omgeving',
+        'Altijd bereikbaar indien nodig',
       ],
       reverse: true,
     },

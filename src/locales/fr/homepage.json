@@ -31,6 +31,22 @@
       "title": "Jardin Paradis des Enfants",
       "description": "200m x 100m d'espace, aires de jeux, terrain de football et une chasse au trésor. Les enfants s'amusent pendant des heures."
     },
+    "mattresses": {
+      "title": "Matelas Épais",
+      "description": "Lits boxspring avec matelas épais pour une nuit parfaite. Se réveiller reposé est la base d'un séjour réussi."
+    },
+    "dishCabinet": {
+      "title": "Contrôle Après Chaque Client",
+      "description": "Après chaque client, nous vérifions entièrement le vaisselier. Tout est complet et en parfait état à votre arrivée."
+    },
+    "professionalEquipment": {
+      "title": "Matériel Professionnel",
+      "description": "Casseroles et poêles de qualité professionnelle. Cuisiner pour 26 personnes avec le bon équipement."
+    },
+    "livingOnSite": {
+      "title": "25 Ans Sur Place",
+      "description": "Nous vivons sur le domaine depuis 25 ans. Personne ne connaît mieux la maison et les environs que nous."
+    },
     "viewAll": "Découvrir plus"
   },
   "whyBookDirect": {
