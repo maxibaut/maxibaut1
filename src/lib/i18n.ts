@@ -8,6 +8,7 @@ import nlProperty from '@/locales/nl/property.json';
 import nlAbout from '@/locales/nl/about.json';
 import nlContact from '@/locales/nl/contact.json';
 import nlBooking from '@/locales/nl/booking.json';
+import nlSurroundings from '@/locales/nl/surroundings.json';
 
 // French translations
 import frCommon from '@/locales/fr/common.json';
@@ -16,6 +17,7 @@ import frProperty from '@/locales/fr/property.json';
 import frAbout from '@/locales/fr/about.json';
 import frContact from '@/locales/fr/contact.json';
 import frBooking from '@/locales/fr/booking.json';
+import frSurroundings from '@/locales/fr/surroundings.json';
 
 // English translations
 import enCommon from '@/locales/en/common.json';
@@ -24,6 +26,7 @@ import enProperty from '@/locales/en/property.json';
 import enAbout from '@/locales/en/about.json';
 import enContact from '@/locales/en/contact.json';
 import enBooking from '@/locales/en/booking.json';
+import enSurroundings from '@/locales/en/surroundings.json';
 
 // German translations
 import deCommon from '@/locales/de/common.json';
@@ -32,6 +35,7 @@ import deProperty from '@/locales/de/property.json';
 import deAbout from '@/locales/de/about.json';
 import deContact from '@/locales/de/contact.json';
 import deBooking from '@/locales/de/booking.json';
+import deSurroundings from '@/locales/de/surroundings.json';
 
 const resources = {
   nl: {
@@ -41,6 +45,7 @@ const resources = {
     about: nlAbout,
     contact: nlContact,
     booking: nlBooking,
+    surroundings: nlSurroundings,
   },
   fr: {
     common: frCommon,
@@ -49,6 +54,7 @@ const resources = {
     about: frAbout,
     contact: frContact,
     booking: frBooking,
+    surroundings: frSurroundings,
   },
   en: {
     common: enCommon,
@@ -57,6 +63,7 @@ const resources = {
     about: enAbout,
     contact: enContact,
     booking: enBooking,
+    surroundings: enSurroundings,
   },
   de: {
     common: deCommon,
@@ -65,6 +72,7 @@ const resources = {
     about: deAbout,
     contact: deContact,
     booking: deBooking,
+    surroundings: deSurroundings,
   },
 };
 
@@ -90,7 +98,7 @@ i18n
     lng: getDefaultLanguage(),
     fallbackLng: 'nl',
     defaultNS: 'common',
-    ns: ['common', 'homepage', 'property', 'about', 'contact', 'booking'],
+    ns: ['common', 'homepage', 'property', 'about', 'contact', 'booking', 'surroundings'],
     interpolation: {
       escapeValue: false,
     },
