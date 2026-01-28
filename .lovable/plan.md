@@ -1,56 +1,50 @@
 
 
-## Plan: Split Hero met Foto voor Contact Pagina
+## Plan: Persoonlijke Ondertekening met Bieke's Naam
 
-De huidige hero sectie is een eenvoudige banner met tekst. We gaan dit vervangen door een elegante split layout met de foto van Bieke aan de ene kant en de titel/subtitel aan de andere kant.
+De header krijgt een persoonlijke touch door de tekst te structureren als een welkomstboodschap met Bieke's naam eronder, alsof het een persoonlijke notitie is.
+
+---
+
+### Nieuwe Structuur
+
+```text
++--------------------------------------------------+
+|  [Foto]   Contact                                |
+|  Bieke    Ik help u graag verder                 |
+|           — Bieke                                |
++--------------------------------------------------+
+```
 
 ---
 
 ### Wijzigingen
 
-**Bestand: `src/pages/Contact.tsx`**
+**1. Vertaalbestanden aanpassen**
 
-1. **Verwijder de huidige foto-card** uit de contact options grid (regels 125-134)
+Nieuwe subtitle teksten met ondertekening:
 
-2. **Zet het grid terug naar 3 kolommen** voor de contact opties (telefoon, email, WhatsApp)
+| Taal | Bestand | Nieuwe subtitle |
+|------|---------|-----------------|
+| NL | `src/locales/nl/contact.json` | "Ik help u graag verder" |
+| EN | `src/locales/en/contact.json` | "I'm happy to help" |
+| FR | `src/locales/fr/contact.json` | "Je suis là pour vous aider" |
+| DE | `src/locales/de/contact.json` | "Ich helfe Ihnen gerne weiter" |
 
-3. **Herontwerp de hero sectie** met een split layout:
-   - **Links**: De foto van Bieke, volledig beeldvullend met een subtiele afgeronde hoek
-   - **Rechts**: De titel "Contact" en subtitel met de huidige "quiet luxury" styling
-   - **Responsive**: Op mobiel stapelen de elementen verticaal (foto bovenaan)
-   - **Hoogte**: De sectie krijgt een minimale hoogte zodat de foto goed tot zijn recht komt
+Plus een nieuwe key `signature` toevoegen met waarde `"Bieke"` in elk bestand.
 
----
+**2. Contact.tsx aanpassen**
 
-### Technische Details
+In de hero sectie een extra regel toevoegen onder de subtitle:
 
-```text
-+------------------------------------------+
-|                                          |
-|  +----------------+  +----------------+  |
-|  |                |  |                |  |
-|  |   Foto Bieke   |  |    Contact     |  |
-|  |   (object-     |  |    --------    |  |
-|  |    cover)      |  |  We helpen u   |  |
-|  |                |  |  graag verder  |  |
-|  +----------------+  +----------------+  |
-|                                          |
-+------------------------------------------+
+```tsx
+<p className="body-large text-primary-foreground/80">{t('subtitle')}</p>
+<p className="text-lg text-primary-foreground/70 mt-2 italic">— {t('signature')}</p>
 ```
 
-**Layout specificaties:**
-- Grid met `lg:grid-cols-2` voor de split layout
-- Foto: `aspect-[4/3]` op desktop, `aspect-[16/9]` op mobiel
-- Afgeronde hoeken met `rounded-lg` voor een zachte uitstraling
-- Behoud van de `bg-primary` achtergrond voor de tekst-sectie
-- Tekst verticaal gecentreerd met `flex items-center justify-center`
-
 ---
 
-### Voordelen van deze aanpak
+### Resultaat
 
-- **Visueel aantrekkelijk**: De foto van de gastvrouw creëert direct een persoonlijke connectie
-- **Consistent met brand**: Past bij de "quiet luxury" esthetiek en de persoonlijke hospitality filosofie
-- **Professionele uitstraling**: Een split hero is een moderne, elegante layout die veel premium vakantiewoningen gebruiken
-- **Betere balans**: De contact opties blijven netjes in een 3-koloms grid zonder gedwongen vierde element
+De bezoeker ziet nu een persoonlijke welkomstboodschap die direct gekoppeld is aan de foto van Bieke, met haar naam als handtekening eronder. Dit versterkt de persoonlijke hospitality die ArdenNest kenmerkt.
 
