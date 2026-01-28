@@ -3,12 +3,7 @@ import { useTranslation } from 'react-i18next';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { Sparkles, ChefHat, TreePine, ArrowRight } from 'lucide-react';
-
-const differentiatorImages = [
-  'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=800&auto=format&fit=crop', // luxury interior
-  'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=800&auto=format&fit=crop', // kitchen
-  'https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=800&auto=format&fit=crop', // garden
-];
+import { bedroomQuietLuxury, kitchen, gardenAerial } from '@/assets/property';
 
 export const DifferentiatorsPreview = () => {
   const { t } = useTranslation('homepage');
@@ -18,19 +13,19 @@ export const DifferentiatorsPreview = () => {
       icon: Sparkles,
       title: t('differentiators.quietLuxury.title'),
       description: t('differentiators.quietLuxury.description'),
-      image: differentiatorImages[0],
+      image: bedroomQuietLuxury,
     },
     {
       icon: ChefHat,
       title: t('differentiators.kitchen.title'),
       description: t('differentiators.kitchen.description'),
-      image: differentiatorImages[1],
+      image: kitchen,
     },
     {
       icon: TreePine,
       title: t('differentiators.garden.title'),
       description: t('differentiators.garden.description'),
-      image: differentiatorImages[2],
+      image: gardenAerial,
     },
   ];
 

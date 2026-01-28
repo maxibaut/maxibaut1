@@ -2,14 +2,15 @@ import { PageWrapper } from '@/components/layout';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
-import { Sparkles, ChefHat, TreePine, Table, Check, ArrowRight } from 'lucide-react';
-
-const differentiatorImages = {
-  quietLuxury: 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=1200&auto=format&fit=crop',
-  kitchen: 'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=1200&auto=format&fit=crop',
-  garden: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1200&auto=format&fit=crop',
-  oakTable: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1200&auto=format&fit=crop',
-};
+import { Sparkles, ChefHat, TreePine, Table, Gamepad2, Car, Check, ArrowRight } from 'lucide-react';
+import { 
+  bedroomQuietLuxury, 
+  kitchen, 
+  gardenAerial, 
+  oakTableDetail, 
+  gameRoomPool, 
+  playBarn 
+} from '@/assets/property';
 
 const Differentiators = () => {
   const { t } = useTranslation('homepage');
@@ -20,7 +21,7 @@ const Differentiators = () => {
       icon: Sparkles,
       title: t('differentiators.quietLuxury.title'),
       description: t('differentiators.quietLuxury.description'),
-      image: differentiatorImages.quietLuxury,
+      image: bedroomQuietLuxury,
       features: [
         'Ensuite badkamers bij elke slaapkamer',
         'Massieve eiken vloeren in het hele huis',
@@ -34,7 +35,7 @@ const Differentiators = () => {
       icon: ChefHat,
       title: t('differentiators.kitchen.title'),
       description: t('differentiators.kitchen.description'),
-      image: differentiatorImages.kitchen,
+      image: kitchen,
       features: [
         'Lacanche fornuis van professionele kwaliteit',
         '2x Miele afwasmachines',
@@ -48,7 +49,7 @@ const Differentiators = () => {
       icon: TreePine,
       title: t('differentiators.garden.title'),
       description: t('differentiators.garden.description'),
-      image: differentiatorImages.garden,
+      image: gardenAerial,
       features: [
         '200m x 100m aan ruimte',
         'Professionele speeltoestellen',
@@ -62,12 +63,40 @@ const Differentiators = () => {
       icon: Table,
       title: 'De Eiken Tafel',
       description: 'Het hart van het huis. Waar verhalen worden gedeeld, herinneringen worden gemaakt en generaties samenkomen rond een maaltijd.',
-      image: differentiatorImages.oakTable,
+      image: oakTableDetail,
       features: [
         '6 meter lang, handgemaakt',
         'Plaats voor 26 personen',
         'Het centrum van elke maaltijd',
         'Waar herinneringen ontstaan',
+      ],
+      reverse: true,
+    },
+    {
+      id: 'game-room',
+      icon: Gamepad2,
+      title: 'De Speelkamer',
+      description: 'Een ruimte waar jong en oud elkaar uitdagen. Van spannende potjes pool tot fanatieke voetbalwedstrijden aan de tafel.',
+      image: gameRoomPool,
+      features: [
+        'Professionele pooltafel',
+        'Voetbaltafel voor intense matches',
+        'Uitgebreide bordspellen collectie',
+        'Retro gaming voor de liefhebbers',
+      ],
+      reverse: false,
+    },
+    {
+      id: 'play-barn',
+      icon: Car,
+      title: 'De Speelschuur',
+      description: 'Een overdekte speelruimte speciaal voor de allerkleinsten. Vol met skelters, tractoren en speelgoed voor urenlang plezier.',
+      image: playBarn,
+      features: [
+        'Go-karts en skelters',
+        'Trapautootjes en tractoren',
+        'Driewielers voor de kleintjes',
+        'Overdekt: spelen bij elk weer',
       ],
       reverse: true,
     },

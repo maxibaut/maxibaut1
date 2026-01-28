@@ -4,13 +4,7 @@ import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { Users, Bed, Bath, TreePine, ChefHat, ArrowRight } from 'lucide-react';
-
-const propertyImages = [
-  'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=1200&auto=format&fit=crop',
-  'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=800&auto=format&fit=crop',
-  'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=800&auto=format&fit=crop',
-  'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=800&auto=format&fit=crop',
-];
+import { propertyHero, kitchen, oakTableDetail } from '@/assets/property';
 
 const Property = () => {
   const { t } = useTranslation('property');
@@ -28,7 +22,7 @@ const Property = () => {
       <section className="relative h-[50vh] min-h-[400px] flex items-center justify-center overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center"
-          style={{ backgroundImage: `url('${propertyImages[0]}')` }}
+          style={{ backgroundImage: `url('${propertyHero}')` }}
         >
           <div className="absolute inset-0 bg-charcoal/50" />
         </div>
@@ -83,7 +77,7 @@ const Property = () => {
             <div className="order-1 lg:order-2">
               <div className="aspect-[4/3] rounded-lg overflow-hidden shadow-lg">
                 <img
-                  src={propertyImages[3]}
+                  src={kitchen}
                   alt={t('kitchen.title')}
                   className="w-full h-full object-cover"
                 />
@@ -100,7 +94,7 @@ const Property = () => {
             <div>
               <div className="aspect-[4/3] rounded-lg overflow-hidden shadow-2xl">
                 <img
-                  src={propertyImages[1]}
+                  src={oakTableDetail}
                   alt={t('oakTable.title')}
                   className="w-full h-full object-cover"
                 />

@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { Heart, Users, Sparkles, ArrowRight } from 'lucide-react';
+import { aboutHero } from '@/assets/property';
 
 const About = () => {
   const { t } = useTranslation('about');
@@ -15,7 +16,7 @@ const About = () => {
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: `url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1200&auto=format&fit=crop')`,
+            backgroundImage: `url('${aboutHero}')`,
           }}
         >
           <div className="absolute inset-0 bg-charcoal/50" />

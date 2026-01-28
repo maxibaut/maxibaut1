@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { Button } from '@/components/ui/button';
 import { Check, ArrowRight } from 'lucide-react';
+import { terraceDining } from '@/assets/property';
 
 export const WhyBookDirect = () => {
   const { t } = useTranslation('homepage');
@@ -72,7 +73,7 @@ export const WhyBookDirect = () => {
           <div className="relative">
             <div className="aspect-[4/3] rounded-lg overflow-hidden shadow-2xl">
               <img
-                src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1200&auto=format&fit=crop"
+                src={terraceDining}
                 alt="ArdenNest property"
                 className="w-full h-full object-cover"
                 loading="lazy"
