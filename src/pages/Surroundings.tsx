@@ -92,8 +92,19 @@ const Surroundings = () => {
 
               return (
                 <Link key={walk.id} to={`/surroundings/walks/${walk.slug}`}>
-                  <Card className="hover:shadow-lg transition-all hover:-translate-y-1 h-full group cursor-pointer">
-                    <CardHeader className="pb-2">
+                  <Card 
+                    className="hover:shadow-lg transition-all hover:-translate-y-1 h-full group cursor-pointer relative overflow-hidden"
+                    style={walk.images?.[0] ? {
+                      backgroundImage: `url(${walk.images[0]})`,
+                      backgroundSize: 'cover',
+                      backgroundPosition: 'center',
+                    } : undefined}
+                  >
+                    {/* Overlay voor leesbaarheid */}
+                    {walk.images?.[0] && (
+                      <div className="absolute inset-0 bg-background/90 z-0" />
+                    )}
+                    <CardHeader className="pb-2 relative z-10">
                       <div className="flex items-start justify-between gap-2">
                         <CardTitle className="font-serif text-lg leading-tight group-hover:text-primary transition-colors">
                           {title}
@@ -101,7 +112,7 @@ const Surroundings = () => {
                         <Train className="h-5 w-5 text-muted-foreground flex-shrink-0" />
                       </div>
                     </CardHeader>
-                    <CardContent className="space-y-4">
+                    <CardContent className="space-y-4 relative z-10">
                       <p className="text-sm text-muted-foreground line-clamp-2">{description}</p>
                       
                       <div className="flex flex-wrap gap-2">
