@@ -1,5 +1,12 @@
 import { WalkItem } from './types';
 
+// Temporary: using property images until walk photos are provided
+import ferme010 from '@/assets/property/ferme-010.jpg';
+import ferme022 from '@/assets/property/ferme-022.jpg';
+import ferme064 from '@/assets/property/ferme-064.jpg';
+import ferme089 from '@/assets/property/ferme-089.jpg';
+import ferme102 from '@/assets/property/ferme-102.jpg';
+
 export const walks: WalkItem[] = [
   {
     id: 1,
@@ -10,13 +17,7 @@ export const walks: WalkItem[] = [
     difficulty: 'easy',
     buggyFriendly: true,
     distance: '15 min',
-    images: [
-      'https://www.fermeduchateau.be/wp-content/uploads/2020/07/20200725_160825-1024x768.jpg',
-      'https://www.fermeduchateau.be/wp-content/uploads/2020/07/20200725_162401-768x1024.jpg',
-      'https://www.fermeduchateau.be/wp-content/uploads/2020/07/20200725_163903-768x1024.jpg',
-      'https://www.fermeduchateau.be/wp-content/uploads/2020/07/20200726_120203-768x1024.jpg',
-      'https://www.fermeduchateau.be/wp-content/uploads/2020/07/20200725_152015-768x1024.jpg',
-    ],
+    images: [ferme010, ferme022, ferme064, ferme089, ferme102],
     trainBookingUrl: 'https://www.belgiantrain.be/nl',
   },
   {
