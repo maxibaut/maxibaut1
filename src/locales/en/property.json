@@ -39,6 +39,16 @@
       "treasureHunt": "Treasure hunt"
     }
   },
+  "livingSpace": {
+    "title": "Cozy Living Space",
+    "description": "Despite the capacity for 26 guests, the house never feels like a hall. Various cozy seating areas ensure you always feel at home.",
+    "features": {
+      "fireplace": "Fireplace",
+      "cozyCorners": "Cozy seating corners",
+      "intimacy": "Intimate atmosphere",
+      "views": "Garden views"
+    }
+  },
   "practical": {
     "title": "Practical Information",
     "checkIn": "Check-in: 4:00 PM",

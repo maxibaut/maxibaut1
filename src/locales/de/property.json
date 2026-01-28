@@ -39,6 +39,16 @@
       "treasureHunt": "Schatzsuche"
     }
   },
+  "livingSpace": {
+    "title": "Gemütlicher Wohnbereich",
+    "description": "Trotz der Kapazität für 26 Gäste fühlt sich das Haus nie wie ein Saal an. Verschiedene gemütliche Sitzecken sorgen dafür, dass Sie sich immer zu Hause fühlen.",
+    "features": {
+      "fireplace": "Kamin",
+      "cozyCorners": "Gemütliche Sitzecken",
+      "intimacy": "Intime Atmosphäre",
+      "views": "Gartenblick"
+    }
+  },
   "practical": {
     "title": "Praktische Informationen",
     "checkIn": "Check-in: 16:00 Uhr",

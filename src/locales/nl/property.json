@@ -39,6 +39,16 @@
       "treasureHunt": "Schattenjacht"
     }
   },
+  "livingSpace": {
+    "title": "Gezellige Leefruimte",
+    "description": "Ondanks de capaciteit voor 26 gasten, voelt het huis nooit als een zaal. Verschillende knusse zithoeken zorgen ervoor dat u zich altijd thuis voelt.",
+    "features": {
+      "fireplace": "Open haard",
+      "cozyCorners": "Knusse zithoeken",
+      "intimacy": "Intieme sfeer",
+      "views": "Uitzicht op de tuin"
+    }
+  },
   "practical": {
     "title": "Praktische Informatie",
     "checkIn": "Check-in: 16:00",

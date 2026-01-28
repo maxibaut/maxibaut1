@@ -3,8 +3,8 @@ import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
-import { Users, Bed, Bath, TreePine, ChefHat, ArrowRight } from 'lucide-react';
-import { propertyHero, kitchen, oakTableDetail } from '@/assets/property';
+import { Users, Bed, Bath, TreePine, ChefHat, ArrowRight, Sofa } from 'lucide-react';
+import { propertyHero, kitchen, oakTableDetail, diningRoom } from '@/assets/property';
 
 const Property = () => {
   const { t } = useTranslation('property');
@@ -142,6 +142,42 @@ const Property = () => {
                 </Card>
               )
             )}
+          </div>
+        </div>
+      </section>
+
+      {/* Living Space Section */}
+      <section className="section-padding bg-cream-dark">
+        <div className="container-luxury">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div>
+              <div className="aspect-[4/3] rounded-lg overflow-hidden shadow-lg">
+                <img
+                  src={diningRoom}
+                  alt={t('livingSpace.title')}
+                  className="w-full h-full object-cover"
+                />
+              </div>
+            </div>
+            <div>
+              <div className="flex items-center space-x-3 mb-4">
+                <Sofa className="h-8 w-8 text-accent" />
+                <h2 className="heading-2">{t('livingSpace.title')}</h2>
+              </div>
+              <p className="body-large text-muted-foreground mb-8">
+                {t('livingSpace.description')}
+              </p>
+              <ul className="grid grid-cols-2 gap-4">
+                {Object.entries(t('livingSpace.features', { returnObjects: true }) as Record<string, string>).map(
+                  ([key, value]) => (
+                    <li key={key} className="flex items-center space-x-2">
+                      <div className="w-2 h-2 rounded-full bg-accent" />
+                      <span className="text-muted-foreground">{value}</span>
+                    </li>
+                  )
+                )}
+              </ul>
+            </div>
           </div>
         </div>
       </section>

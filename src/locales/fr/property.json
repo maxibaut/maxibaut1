@@ -39,6 +39,16 @@
       "treasureHunt": "Chasse au trésor"
     }
   },
+  "livingSpace": {
+    "title": "Espace de Vie Chaleureux",
+    "description": "Malgré la capacité de 26 personnes, la maison ne ressemble jamais à une salle. Différents coins salon confortables vous font toujours sentir chez vous.",
+    "features": {
+      "fireplace": "Cheminée",
+      "cozyCorners": "Coins salon chaleureux",
+      "intimacy": "Atmosphère intime",
+      "views": "Vue sur le jardin"
+    }
+  },
   "practical": {
     "title": "Informations Pratiques",
     "checkIn": "Arrivée: 16h00",
