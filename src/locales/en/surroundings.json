@@ -68,9 +68,20 @@
       },
       "treinwandeling-houyet-gendron": {
         "title": "Train Walk Houyet - Gendron",
-        "description": "Adventurous walk with climbing and scrambling through the forest.",
-        "highlights": ["Rock formations", "Forest path", "Lesse river"],
-        "fullDescription": "A more challenging variant for those who love adventure."
+        "description": "Adventurous walk with climbing and scrambling through the forest. Follow the GR126 along impressive rock formations and steep descents to the Lesse.",
+        "highlights": ["Rock formations", "Steep descents", "Lesse river", "GR126 trail", "Panoramic views"],
+        "fullDescription": "This train walk is for adventurers! From Houyet station you follow the GR126 through varied terrain with climbing passages, steep descents and spectacular rock formations.\n\n## How does it work?\n\nYou take the train at Gendron station towards Bertrix and get off in Houyet. From Houyet station you walk back to Gendron via the GR126 - the long-distance hiking trail that runs through the Ardennes.\n\n## Character of the walk\n\nThis walk is **not suitable for buggies** and requires sturdy footwear. The route includes:\n\n- **Steep stairs** with handrails through the forest\n- **Climbing passages** over rock formations\n- **Steep descents** where you sometimes need to use your hands\n- **Narrow forest paths** with roots and stones\n\n## Highlights along the way\n\n- **Rock formations** - Impressive limestone rocks you can climb on\n- **Panoramic views** - Beautiful vistas over the Lesse valley\n- **Varied forest** - From dense beech forests to open meadows\n- **The Lesse** - The last part runs along the beautiful river\n\n## Practical\n\nWear sturdy shoes with good grip. In wet weather some sections can be slippery. Bring enough water - there are no facilities along the way.\n\n## Finish in Gendron\n\nThe walk ends at Gendron station. From here you can walk back to ArdenNest or take the train back to Dinant for a drink on a terrace.",
+        "routeSteps": [
+          "Take the train from Gendron to Houyet",
+          "Leave Houyet station and follow the GR126 signs",
+          "Climb down steep stairs into the forest",
+          "Scramble over rock formations",
+          "Enjoy the panoramic views",
+          "Descend towards the Lesse",
+          "Follow the river towards Gendron",
+          "Arrival at Gendron station"
+        ],
+        "trainBookingButton": "Book Train"
       },
       "wandeling-rond-malvoisin": {
         "title": "Walk around Malvoisin",

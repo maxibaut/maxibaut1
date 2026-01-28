@@ -68,9 +68,20 @@
       },
       "treinwandeling-houyet-gendron": {
         "title": "Zugwanderung Houyet - Gendron",
-        "description": "Abenteuerliche Wanderung mit Klettern und Kraxeln durch den Wald.",
-        "highlights": ["Felsformationen", "Waldweg", "Fluss Lesse"],
-        "fullDescription": "Eine anspruchsvollere Variante für Abenteuerlustige."
+        "description": "Abenteuerliche Wanderung mit Klettern und Kraxeln durch den Wald. Folgen Sie dem GR126 entlang beeindruckender Felsformationen und steiler Abstiege zur Lesse.",
+        "highlights": ["Felsformationen", "Steile Abstiege", "Fluss Lesse", "GR126 Wanderweg", "Panoramablicke"],
+        "fullDescription": "Diese Zugwanderung ist für Abenteurer! Vom Bahnhof Houyet folgen Sie dem GR126 durch abwechslungsreiches Gelände mit Kletterpassagen, steilen Abstiegen und spektakulären Felsformationen.\n\n## Wie funktioniert es?\n\nSie nehmen den Zug am Bahnhof Gendron Richtung Bertrix und steigen in Houyet aus. Vom Bahnhof Houyet wandern Sie zurück nach Gendron über den GR126 - den Fernwanderweg, der durch die Ardennen führt.\n\n## Charakter der Wanderung\n\nDiese Wanderung ist **nicht für Kinderwagen geeignet** und erfordert festes Schuhwerk. Die Route beinhaltet:\n\n- **Steile Treppen** mit Handläufen durch den Wald\n- **Kletterpassagen** über Felsformationen\n- **Steile Abstiege** bei denen Sie manchmal die Hände benutzen müssen\n- **Schmale Waldpfade** mit Wurzeln und Steinen\n\n## Höhepunkte unterwegs\n\n- **Felsformationen** - Beeindruckende Kalksteinfelsen zum Klettern\n- **Panoramablicke** - Wunderschöne Aussichten über das Lesse-Tal\n- **Abwechslungsreicher Wald** - Von dichten Buchenwäldern bis zu offenen Wiesen\n- **Die Lesse** - Der letzte Teil verläuft entlang des schönen Flusses\n\n## Praktisches\n\nTragen Sie feste Schuhe mit gutem Grip. Bei nassem Wetter können einige Abschnitte rutschig sein. Nehmen Sie genug Wasser mit - es gibt keine Einrichtungen unterwegs.\n\n## Ziel in Gendron\n\nDie Wanderung endet am Bahnhof Gendron. Von hier können Sie zu ArdenNest zurücklaufen oder den Zug zurück nach Dinant nehmen für ein Getränk auf einer Terrasse.",
+        "routeSteps": [
+          "Nehmen Sie den Zug von Gendron nach Houyet",
+          "Verlassen Sie den Bahnhof Houyet und folgen Sie den GR126-Schildern",
+          "Steigen Sie steile Treppen in den Wald hinab",
+          "Klettern Sie über Felsformationen",
+          "Genießen Sie die Panoramablicke",
+          "Steigen Sie zur Lesse hinab",
+          "Folgen Sie dem Fluss Richtung Gendron",
+          "Ankunft am Bahnhof Gendron"
+        ],
+        "trainBookingButton": "Zug Buchen"
       },
       "wandeling-rond-malvoisin": {
         "title": "Wanderung um Malvoisin",
