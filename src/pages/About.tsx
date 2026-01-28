@@ -3,8 +3,8 @@ import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
-import { Heart, Users, Sparkles, ArrowRight } from 'lucide-react';
-import { aboutHero } from '@/assets/property';
+import { Heart, Sparkles, ArrowRight } from 'lucide-react';
+import { aboutHero, ownersPortrait } from '@/assets/property';
 
 const About = () => {
   const { t } = useTranslation('about');
@@ -58,12 +58,13 @@ const About = () => {
       <section className="section-padding bg-cream-dark">
         <div className="container-luxury">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            {/* Image placeholder */}
-            <div className="aspect-square lg:aspect-[4/3] rounded-lg overflow-hidden shadow-lg bg-muted flex items-center justify-center">
-              <div className="text-center p-8">
-                <Users className="h-16 w-16 text-muted-foreground mx-auto mb-4" />
-                <p className="text-muted-foreground">Foto eigenaren</p>
-              </div>
+            {/* Owners Photo */}
+            <div className="aspect-square lg:aspect-[4/3] rounded-lg overflow-hidden shadow-lg">
+              <img 
+                src={ownersPortrait} 
+                alt="Bieke & Christophe" 
+                className="w-full h-full object-cover"
+              />
             </div>
 
             {/* Content */}
@@ -74,7 +75,7 @@ const About = () => {
               </p>
               <Button asChild>
                 <Link to="/contact">
-                  Neem contact op
+                  {t('common:nav.contact', 'Neem contact op')}
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Link>
               </Button>
