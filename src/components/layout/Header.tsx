@@ -27,6 +27,7 @@ export const Header = () => {
     { path: '/', label: t('nav.home') },
     { path: '/property', label: t('nav.property') },
     { path: '/differentiators', label: t('nav.differentiators') },
+    { path: '/surroundings', label: t('nav.surroundings') },
     { path: '/about', label: t('nav.about') },
     { path: '/contact', label: t('nav.contact') },
   ];
