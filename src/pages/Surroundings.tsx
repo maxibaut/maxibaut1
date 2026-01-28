@@ -20,17 +20,19 @@ import {
 const Surroundings = () => {
   const { t } = useTranslation('surroundings');
 
-  // Placeholder data - will be replaced with real content
+  // Walk data - first walk with real content
   const walks = [
     {
       id: 1,
       title: 'Treinwandeling Anseremme - Gendron',
-      description: 'De perfecte uitstap vanaf Dinant. Neem de trein en wandel langs de Lesse.',
+      description: 'De perfecte uitstap vanaf Dinant. Neem de trein in station Anseremme (weekendtarief €2,50/pers), na 5 min uitstappen in Gendron. Wandel langs de Lesse met halverwege 2 keer oversteken via de hoge spoorwegbrug (perfect veilig) en 1 keer via de voetgangersbrug aan het strand van Walzin. Bij aankomst een ijsje uit de supermarkt met zicht op Dinant.',
       duration: '3 uur',
       distance: '8 km',
       difficulty: 'easy',
       buggyFriendly: true,
-      highlights: ['Spoorwegbrug', 'Strand van Walzin', 'Uitzicht Maas'],
+      buggyNote: 'Buggy 3x optillen bij bruggen, verder vlotte weg',
+      highlights: ['Hoge spoorwegbrug', 'Strand van Walzin', 'Zicht op Dinant', 'Langs de Lesse'],
+      tip: 'Te vroeg voor de trein? Bij mooi weer wachten langs de Maas, overal bankjes.',
     },
     {
       id: 2,
@@ -279,6 +281,18 @@ const Surroundings = () => {
                       ))}
                     </div>
                   </div>
+
+                  {walk.buggyNote && (
+                    <p className="text-xs text-muted-foreground italic pt-2">
+                      💡 {walk.buggyNote}
+                    </p>
+                  )}
+
+                  {walk.tip && (
+                    <p className="text-xs text-primary/80 bg-primary/5 p-2 rounded mt-2">
+                      💡 {walk.tip}
+                    </p>
+                  )}
                 </CardContent>
               </Card>
             ))}
