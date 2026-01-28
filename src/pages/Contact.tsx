@@ -110,29 +110,33 @@ const Contact = () => {
 
   return (
     <PageWrapper>
-      {/* Hero */}
-      <section className="bg-primary text-primary-foreground section-padding">
-        <div className="container-luxury text-center">
-          <h1 className="heading-display mb-4">{t('title')}</h1>
-          <p className="body-large text-primary-foreground/80">{t('subtitle')}</p>
+      {/* Split Hero */}
+      <section className="bg-background">
+        <div className="container-luxury">
+          <div className="grid grid-cols-1 lg:grid-cols-2 min-h-[400px] lg:min-h-[500px]">
+            {/* Photo Side */}
+            <div className="relative overflow-hidden rounded-lg lg:rounded-r-none">
+              <img 
+                src={hostBieke} 
+                alt="Bieke - Uw gastvrouw" 
+                className="w-full h-full object-cover aspect-[16/9] lg:aspect-auto"
+              />
+            </div>
+            {/* Text Side */}
+            <div className="bg-primary text-primary-foreground flex items-center justify-center p-8 lg:p-12 rounded-lg lg:rounded-l-none">
+              <div className="text-center">
+                <h1 className="heading-display mb-4">{t('title')}</h1>
+                <p className="body-large text-primary-foreground/80">{t('subtitle')}</p>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
       {/* Contact Options */}
       <section className="section-padding bg-background">
         <div className="container-luxury">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-5xl mx-auto">
-            {/* Host Photo Card */}
-            <Card className="text-center hover:shadow-lg transition-shadow h-full overflow-hidden">
-              <CardContent className="p-0 h-full">
-                <img 
-                  src={hostBieke} 
-                  alt="Bieke - Uw gastvrouw" 
-                  className="w-full h-full object-cover aspect-[3/4]"
-                />
-              </CardContent>
-            </Card>
-            
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
             {contactOptions.map((option, index) => (
               <Card key={index} className="text-center hover:shadow-lg transition-shadow h-full">
                 <CardContent className="p-6 h-full flex flex-col">
