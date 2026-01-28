@@ -113,8 +113,18 @@ const SurroundingsDetail = () => {
   return (
     <PageWrapper>
       {/* Hero Section */}
-      <section className="bg-primary text-primary-foreground section-padding">
-        <div className="container-luxury">
+      <section 
+        className="bg-primary text-primary-foreground section-padding relative overflow-hidden"
+        style={item.images?.[0] ? {
+          backgroundImage: `url(${item.images[0]})`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+        } : undefined}
+      >
+        {/* Donkere overlay voor leesbaarheid */}
+        <div className="absolute inset-0 bg-black/60 z-0" />
+        
+        <div className="container-luxury relative z-10">
           <Link
             to="/surroundings"
             className="inline-flex items-center gap-2 text-primary-foreground/80 hover:text-primary-foreground transition-colors mb-6"
