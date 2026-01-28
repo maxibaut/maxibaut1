@@ -61,6 +61,8 @@ export const walks: WalkItem[] = [
       houyetWalk09, // Brug met mensen - eerste keuze
       houyetWalk05, // Bospad met bomen
       houyetWalk08, // Karakteristiek wandelpad
+      houyetWalk11, // Klimmen op rotsen
+      houyetWalk12, // Steile trap met GR-markering
       houyetWalk06, // Rotsen
       houyetWalk07, // Panorama
       houyetWalk04, // Lesse rivier
