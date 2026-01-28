@@ -4,12 +4,12 @@
   "signature": "Bieke",
   "options": {
     "phone": {
-      "title": "Bel ons",
-      "description": "We maken graag tijd voor uw vragen",
+      "title": "Bel Bieke",
+      "description": "Ik maak graag tijd voor uw vragen",
       "action": "Bel nu"
     },
     "email": {
-      "title": "Mail ons",
+      "title": "Mail Bieke",
       "description": "Voor uitgebreide vragen of boekingsverzoeken",
       "action": "Stuur e-mail"
     },

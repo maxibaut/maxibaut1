@@ -4,12 +4,12 @@
   "signature": "Bieke",
   "options": {
     "phone": {
-      "title": "Call us",
-      "description": "We're happy to make time for your questions",
+      "title": "Call Bieke",
+      "description": "I'm happy to make time for your questions",
       "action": "Call now"
     },
     "email": {
-      "title": "Email us",
+      "title": "Email Bieke",
       "description": "For detailed questions or booking requests",
       "action": "Send email"
     },

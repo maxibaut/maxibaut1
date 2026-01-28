@@ -4,12 +4,12 @@
   "signature": "Bieke",
   "options": {
     "phone": {
-      "title": "Appelez-nous",
-      "description": "Nous prenons volontiers le temps pour vos questions",
+      "title": "Appelez Bieke",
+      "description": "Je prends volontiers le temps pour vos questions",
       "action": "Appeler"
     },
     "email": {
-      "title": "Écrivez-nous",
+      "title": "Écrivez à Bieke",
       "description": "Pour questions détaillées ou demandes de réservation",
       "action": "Envoyer email"
     },
