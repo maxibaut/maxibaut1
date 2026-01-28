@@ -43,8 +43,8 @@ export const Footer = () => {
               </li>
               <li className="flex items-center space-x-3 text-primary-foreground/80">
                 <Mail className="h-4 w-4 flex-shrink-0" />
-                <a href="mailto:info@ardennest.be" className="hover:text-primary-foreground transition-colors">
-                  info@ardennest.be
+                <a href="mailto:bieke@ardennest.be" className="hover:text-primary-foreground transition-colors">
+                  bieke@ardennest.be
                 </a>
               </li>
               <li className="flex items-start space-x-3 text-primary-foreground/80">
