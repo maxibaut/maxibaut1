@@ -22,6 +22,8 @@ import houyetWalk07 from '@/assets/walks/houyet-gendron-07-panorama.jpg';
 import houyetWalk08 from '@/assets/walks/houyet-gendron-08-pad.jpg';
 import houyetWalk09 from '@/assets/walks/houyet-gendron-09-brug.jpg';
 import houyetWalk10 from '@/assets/walks/houyet-gendron-10-terras.jpg';
+import houyetWalk11 from '@/assets/walks/houyet-gendron-11-klimmen.jpg';
+import houyetWalk12 from '@/assets/walks/houyet-gendron-12-steile-trap.jpg';
 
 export const walks: WalkItem[] = [
   {
@@ -59,6 +61,8 @@ export const walks: WalkItem[] = [
       houyetWalk09, // Brug met mensen - eerste keuze
       houyetWalk05, // Bospad met bomen
       houyetWalk08, // Karakteristiek wandelpad
+      houyetWalk11, // Klimmen op rotsen
+      houyetWalk12, // Steile trap met GR-markering
       houyetWalk06, // Rotsen
       houyetWalk07, // Panorama
       houyetWalk04, // Lesse rivier
