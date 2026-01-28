@@ -1,11 +1,15 @@
 import { WalkItem } from './types';
 
-// Temporary: using property images until walk photos are provided
-import ferme010 from '@/assets/property/ferme-010.jpg';
-import ferme022 from '@/assets/property/ferme-022.jpg';
-import ferme064 from '@/assets/property/ferme-064.jpg';
-import ferme089 from '@/assets/property/ferme-089.jpg';
-import ferme102 from '@/assets/property/ferme-102.jpg';
+// Treinwandeling Anseremme - Gendron photos
+import treinWalk01 from '@/assets/walks/trein-anseremme-gendron-01-kaart-lesse.jpg';
+import treinWalk02 from '@/assets/walks/trein-anseremme-gendron-02-la-lesse.jpg';
+import treinWalk03 from '@/assets/walks/trein-anseremme-gendron-03-rotsen.jpg';
+import treinWalk04 from '@/assets/walks/trein-anseremme-gendron-04-kasteel-walzin.jpg';
+import treinWalk05 from '@/assets/walks/trein-anseremme-gendron-05-wegwijzer.jpg';
+import treinWalk06 from '@/assets/walks/trein-anseremme-gendron-06-brug.jpg';
+import treinWalk07 from '@/assets/walks/trein-anseremme-gendron-07-brug-uitzicht.jpg';
+import treinWalk08 from '@/assets/walks/trein-anseremme-gendron-08-grot.jpg';
+import treinWalk09 from '@/assets/walks/trein-anseremme-gendron-09-routekaart.jpg';
 
 export const walks: WalkItem[] = [
   {
@@ -17,7 +21,17 @@ export const walks: WalkItem[] = [
     difficulty: 'easy',
     buggyFriendly: true,
     distance: '15 min',
-    images: [ferme010, ferme022, ferme064, ferme089, ferme102],
+    images: [
+      treinWalk04, // Kasteel Walzin - mooiste foto eerst
+      treinWalk07, // Brug uitzicht met strand Walzin
+      treinWalk06, // Op de brug
+      treinWalk03, // Rotsformaties
+      treinWalk08, // Grot
+      treinWalk02, // La Lesse met kaart
+      treinWalk05, // Wegwijzer
+      treinWalk01, // Kaart op brug
+      treinWalk09, // Routekaart
+    ],
     trainBookingUrl: 'https://www.belgiantrain.be/nl',
   },
   {
