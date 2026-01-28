@@ -2,7 +2,7 @@ import { PageWrapper } from '@/components/layout';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
-import { Sparkles, ChefHat, TreePine, Table, Gamepad2, Car, Check, ArrowRight, Bed, ClipboardCheck, UtensilsCrossed, Home } from 'lucide-react';
+import { Sparkles, ChefHat, TreePine, Table, Gamepad2, Car, Check, ArrowRight, Bed, ClipboardCheck, UtensilsCrossed, Home, Zap, Leaf, Award } from 'lucide-react';
 import { 
   bedroomQuietLuxury, 
   kitchen, 
@@ -155,6 +155,48 @@ const Differentiators = () => {
         'Altijd bereikbaar indien nodig',
       ],
       reverse: true,
+    },
+    {
+      id: 'utilities',
+      icon: Zap,
+      title: t('differentiators.utilities.title'),
+      description: t('differentiators.utilities.description'),
+      image: kitchen, // Placeholder
+      features: [
+        'Water inbegrepen',
+        'Elektriciteit inbegrepen',
+        'Verwarming inbegrepen',
+        'Geen verrassingen bij afrekening',
+      ],
+      reverse: false,
+    },
+    {
+      id: 'green-key',
+      icon: Leaf,
+      title: t('differentiators.greenKey.title'),
+      description: t('differentiators.greenKey.description'),
+      image: gardenAerial, // Placeholder
+      features: [
+        'Kandidaat Green Key label',
+        'Duurzaam toerisme',
+        'Milieubewuste keuzes',
+        'Respect voor de natuur',
+      ],
+      reverse: true,
+    },
+    {
+      id: 'certified',
+      icon: Award,
+      title: t('differentiators.certified.title'),
+      description: t('differentiators.certified.description'),
+      image: bedroomQuietLuxury, // Placeholder
+      features: [
+        'Gecertificeerd door Toerisme Wallonië',
+        'Officiële erkenning',
+        'Kwaliteitsgarantie',
+        'Betrouwbaarheid verzekerd',
+      ],
+      reverse: false,
     },
   ];
 

@@ -47,6 +47,18 @@
       "title": "25 Years On-Site",
       "description": "We have lived on the estate for 25 years. Nobody knows the house and surroundings better than we do."
     },
+    "utilities": {
+      "title": "Utilities Included",
+      "description": "Water, electricity and heating are included in the price. No surprises when settling up."
+    },
+    "greenKey": {
+      "title": "Green Key Candidate",
+      "description": "We are working towards the Green Key label, the international eco-label for sustainable tourism."
+    },
+    "certified": {
+      "title": "Certified Holiday Home",
+      "description": "Officially recognized and certified by Tourism Wallonia. Your guarantee for quality and reliability."
+    },
     "viewAll": "Discover more"
   },
   "whyBookDirect": {
