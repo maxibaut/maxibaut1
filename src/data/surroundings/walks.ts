@@ -10,12 +10,14 @@ export const walks: WalkItem[] = [
     difficulty: 'easy',
     buggyFriendly: true,
     distance: '15 min',
-    images: [], // To be filled with real images
-    externalUrl: 'https://www.fermeduchateau.be/wandelingen/treinwandeling-anseremme-gendron/',
-    coordinates: {
-      lat: 50.2269,
-      lng: 4.9127,
-    },
+    images: [
+      'https://www.fermeduchateau.be/wp-content/uploads/2020/07/20200725_160825-1024x768.jpg',
+      'https://www.fermeduchateau.be/wp-content/uploads/2020/07/20200725_162401-768x1024.jpg',
+      'https://www.fermeduchateau.be/wp-content/uploads/2020/07/20200725_163903-768x1024.jpg',
+      'https://www.fermeduchateau.be/wp-content/uploads/2020/07/20200726_120203-768x1024.jpg',
+      'https://www.fermeduchateau.be/wp-content/uploads/2020/07/20200725_152015-768x1024.jpg',
+    ],
+    trainBookingUrl: 'https://www.belgiantrain.be/nl',
   },
   {
     id: 2,
