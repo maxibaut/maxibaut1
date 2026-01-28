@@ -2,11 +2,18 @@
   "title": "The Surroundings",
   "subtitle": "Discover the most beautiful spots around ArdenNest",
   "intro": "Although most guests prefer to stay on the property - the garden is big enough after all - there is plenty to experience in the area. Below you'll find our personal recommendations.",
+  "backToOverview": "Back to overview",
+  "practicalInfo": "Practical info",
+  "openInMaps": "View on map",
+  "visitWebsite": "Visit website",
+  "fromProperty": "from the house",
   "walks": {
     "title": "Walks",
     "description": "Our favorite walks nearby, tested by us and our guests. From quiet village walks to adventurous train walks.",
     "buggyFriendly": "Buggy-friendly",
-    "highlights": "Highlights"
+    "highlights": "Highlights",
+    "duration": "Duration",
+    "distance": "Distance"
   },
   "cycling": {
     "title": "Cycling",
@@ -23,12 +30,139 @@
   },
   "shops": {
     "title": "Shops",
-    "description": "Everything you need for a carefree stay. From fresh bread to local products."
+    "description": "Everything you need for a carefree stay. From fresh bread to local products.",
+    "types": {
+      "bakery": "Bakery",
+      "supermarket": "Supermarket",
+      "butcher": "Butcher",
+      "farmshop": "Farm shop"
+    }
   },
   "difficulty": {
     "easy": "Easy",
     "medium": "Moderate",
     "hard": "Challenging"
   },
-  "note": "Most groups prefer to stay on the property - the garden is big enough for days of fun. But if you want to go out, we're ready with tips!"
+  "note": "Most groups prefer to stay on the property - the garden is big enough for days of fun. But if you want to go out, we're ready with tips!",
+  "items": {
+    "walks": {
+      "treinwandeling-anseremme-gendron": {
+        "title": "Train Walk Anseremme - Gendron",
+        "description": "Our favorite family walk! Take the train from Dinant-Anseremme to Gendron and walk back along the beautiful Lesse river. Suitable for buggies and perfect for a day out.",
+        "highlights": ["High railway bridge", "Walzin beach", "Walzin Castle", "Lesse river", "View of Dinant"],
+        "buggyNote": "Lift buggy 3x at stairs/bridges, otherwise smooth paved path",
+        "tip": "Too early for the train? Walk across the Dinant bridge and wait on a bench along the Meuse - lovely in good weather!",
+        "fullDescription": "This is undoubtedly our favorite walk in the area and perfect for families with children of all ages.\n\n## How does it work?\n\nYou take the train at Dinant-Anseremme station (not the main station!) towards Bertrix. After just 5 minutes you get off in Gendron. The weekend fare is only €2.50 per person - a bargain!\n\nFrom Gendron station you walk back to Dinant, following the Lesse river the whole way. The route is about 8 km and takes around 3 hours, including breaks.\n\n## Highlights along the way\n\nThe walk offers beautiful variety:\n\n- **The high railway bridge** - Halfway through you cross twice via an impressive old railway bridge, high above the Lesse. Perfectly safe with railings, but spectacular!\n- **Walzin beach** - A lovely spot to pause. In warm weather the children can paddle in the water. Ideal for a picnic.\n- **Walzin Castle** - The fairytale castle on the rocks is one of the most beautiful views of the walk.\n- **Pedestrian bridge** - Just before Dinant you cross via a narrow pedestrian bridge.\n\n## With a buggy?\n\nThis walk is largely buggy-friendly! The path is paved and flat. Only at the two railway bridges and the pedestrian bridge do you need to lift the buggy briefly (a few steps each time). No climbing or scrambling.\n\n## Arrival in Dinant\n\nYou arrive along the Meuse with a beautiful view of the citadel and the cathedral of Dinant. Walk on to the supermarket for a well-deserved ice cream!",
+        "routeSteps": [
+          "Go to Dinant-Anseremme station (not the main station)",
+          "Take the train towards Bertrix (5 min, €2.50 weekend)",
+          "Get off in Gendron",
+          "Follow the walking path along the Lesse towards Dinant",
+          "Cross via the high railway bridge (2x)",
+          "Pause at Walzin beach",
+          "Admire Walzin Castle on the rocks",
+          "Cross via the pedestrian bridge",
+          "Arrival along the Meuse in Dinant"
+        ],
+        "trainBookingButton": "Book Train"
+      },
+      "treinwandeling-houyet-gendron": {
+        "title": "Train Walk Houyet - Gendron",
+        "description": "Adventurous walk with climbing and scrambling through the forest.",
+        "highlights": ["Rock formations", "Forest path", "Lesse river"],
+        "fullDescription": "A more challenging variant for those who love adventure."
+      },
+      "wandeling-rond-malvoisin": {
+        "title": "Walk around Malvoisin",
+        "description": "Quiet village walk with beautiful panoramic views.",
+        "highlights": ["Village church", "Meadows", "Panorama"],
+        "fullDescription": "A quiet walk from our own village."
+      }
+    },
+    "cycling": {
+      "ravel-dinant-givet": {
+        "title": "RAVeL cycle path Dinant - Givet",
+        "description": "Flat cycle path along the Meuse, perfect for families.",
+        "fullDescription": "The RAVeL network offers beautiful, car-free cycle paths along the Meuse."
+      },
+      "mountainbike-beauraing": {
+        "title": "Mountain bike trails Beauraing",
+        "description": "Challenging routes through the forests of the Ardennes.",
+        "fullDescription": "For the sporty cyclist there are various mountain bike routes."
+      },
+      "fietsverhuur-dinant": {
+        "title": "Bike rental Dinant",
+        "description": "Electric bikes and mountain bikes for rent.",
+        "fullDescription": "No bike with you? In Dinant you can rent bikes."
+      }
+    },
+    "attractions": {
+      "dinant": {
+        "title": "Dinant",
+        "description": "Picturesque town on the Meuse with citadel and collegiate church.",
+        "highlights": ["Citadel", "Cable car", "Adolphe Sax"],
+        "fullDescription": "Dinant is the nearest town and offers a perfect day out."
+      },
+      "grotten-van-han": {
+        "title": "Caves of Han",
+        "description": "Spectacular caves and wildlife park.",
+        "highlights": ["Cave visit", "Safari", "Playground"],
+        "fullDescription": "A must-see for every visit to the Ardennes."
+      },
+      "kasteel-bouillon": {
+        "title": "Bouillon Castle",
+        "description": "Medieval castle with birds of prey show.",
+        "highlights": ["Birds of prey", "Medieval atmosphere", "Semois valley"],
+        "fullDescription": "Step back in time in this imposing medieval castle."
+      },
+      "abdij-maredsous": {
+        "title": "Maredsous Abbey",
+        "description": "Benedictine abbey with famous cheese and beers.",
+        "highlights": ["Abbey cheese", "Trappist beer", "Bookshop"],
+        "fullDescription": "An oasis of peace with delicious regional products."
+      }
+    },
+    "restaurants": {
+      "restaurant-placeholder-1": {
+        "title": "Restaurant Placeholder 1",
+        "cuisine": "Belgian cuisine",
+        "description": "Cozy restaurant with local specialties.",
+        "fullDescription": "Placeholder for real restaurant."
+      },
+      "restaurant-placeholder-2": {
+        "title": "Restaurant Placeholder 2",
+        "cuisine": "French",
+        "description": "Gastronomic restaurant with terrace.",
+        "fullDescription": "Placeholder for real restaurant."
+      },
+      "brasserie-placeholder": {
+        "title": "Brasserie Placeholder",
+        "cuisine": "Brasserie",
+        "description": "Casual dining with children's menus.",
+        "fullDescription": "Placeholder for real brasserie."
+      }
+    },
+    "shops": {
+      "bakkerij-placeholder": {
+        "title": "Bakery Placeholder",
+        "description": "Fresh rolls and pastries.",
+        "fullDescription": "Placeholder for real bakery."
+      },
+      "supermarkt-delhaize": {
+        "title": "Delhaize Supermarket",
+        "description": "Large supermarket with everything you need.",
+        "fullDescription": "The nearest large supermarket."
+      },
+      "slagerij-placeholder": {
+        "title": "Butcher Placeholder",
+        "description": "Local meat and charcuterie.",
+        "fullDescription": "Placeholder for real butcher."
+      },
+      "boerderijwinkel-placeholder": {
+        "title": "Farm Shop Placeholder",
+        "description": "Fresh vegetables, eggs and dairy.",
+        "fullDescription": "Placeholder for real farm shop."
+      }
+    }
+  }
 }

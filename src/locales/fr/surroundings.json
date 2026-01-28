@@ -2,11 +2,18 @@
   "title": "Les Environs",
   "subtitle": "Découvrez les plus beaux endroits autour d'ArdenNest",
   "intro": "Bien que la plupart des invités préfèrent rester sur le domaine - le jardin est assez grand après tout - il y a beaucoup à découvrir dans les environs. Voici nos recommandations personnelles.",
+  "backToOverview": "Retour à l'aperçu",
+  "practicalInfo": "Infos pratiques",
+  "openInMaps": "Voir sur la carte",
+  "visitWebsite": "Visiter le site",
+  "fromProperty": "depuis la maison",
   "walks": {
     "title": "Randonnées",
     "description": "Nos promenades préférées dans les environs, testées par nous et nos hôtes. Des promenades villageoises tranquilles aux randonnées aventureuses en train.",
     "buggyFriendly": "Adapté aux poussettes",
-    "highlights": "Points forts"
+    "highlights": "Points forts",
+    "duration": "Durée",
+    "distance": "Distance"
   },
   "cycling": {
     "title": "Cyclisme",
@@ -23,12 +30,139 @@
   },
   "shops": {
     "title": "Commerces",
-    "description": "Tout ce dont vous avez besoin pour un séjour sans souci. Du pain frais aux produits locaux."
+    "description": "Tout ce dont vous avez besoin pour un séjour sans souci. Du pain frais aux produits locaux.",
+    "types": {
+      "bakery": "Boulangerie",
+      "supermarket": "Supermarché",
+      "butcher": "Boucherie",
+      "farmshop": "Ferme"
+    }
   },
   "difficulty": {
     "easy": "Facile",
     "medium": "Modéré",
     "hard": "Difficile"
   },
-  "note": "La plupart des groupes préfèrent rester sur le domaine - le jardin est assez grand pour des jours de plaisir. Mais si vous souhaitez sortir, nous sommes prêts avec des conseils!"
+  "note": "La plupart des groupes préfèrent rester sur le domaine - le jardin est assez grand pour des jours de plaisir. Mais si vous souhaitez sortir, nous sommes prêts avec des conseils!",
+  "items": {
+    "walks": {
+      "treinwandeling-anseremme-gendron": {
+        "title": "Randonnée en train Anseremme - Gendron",
+        "description": "Notre randonnée familiale préférée ! Prenez le train de Dinant-Anseremme à Gendron et rentrez à pied le long de la magnifique Lesse. Adapté aux poussettes et parfait pour une journée en famille.",
+        "highlights": ["Pont ferroviaire élevé", "Plage de Walzin", "Château de Walzin", "Rivière Lesse", "Vue sur Dinant"],
+        "buggyNote": "Poussette à soulever 3x aux escaliers/ponts, sinon chemin pavé facile",
+        "tip": "Trop tôt pour le train ? Traversez le pont de Dinant et attendez sur un banc le long de la Meuse - agréable par beau temps !",
+        "fullDescription": "C'est sans doute notre randonnée préférée dans la région et parfaite pour les familles avec enfants de tous âges.\n\n## Comment ça marche ?\n\nVous prenez le train à la gare de Dinant-Anseremme (pas la gare principale !) en direction de Bertrix. Après seulement 5 minutes, vous descendez à Gendron. Le tarif week-end n'est que de 2,50 € par personne - une aubaine !\n\nDepuis la gare de Gendron, vous marchez jusqu'à Dinant en suivant la Lesse tout le long. Le parcours fait environ 8 km et dure environ 3 heures, pauses comprises.\n\n## Points forts en chemin\n\nLa randonnée offre une belle variété :\n\n- **Le pont ferroviaire élevé** - À mi-chemin, vous traversez deux fois un impressionnant vieux pont ferroviaire, haut au-dessus de la Lesse. Parfaitement sécurisé avec des garde-corps, mais spectaculaire !\n- **Plage de Walzin** - Un endroit charmant pour faire une pause. Par temps chaud, les enfants peuvent se tremper les pieds dans l'eau. Idéal pour un pique-nique.\n- **Château de Walzin** - Le château féerique sur les rochers est l'une des plus belles vues de la promenade.\n- **Passerelle** - Juste avant Dinant, vous traversez une étroite passerelle piétonne.\n\n## Avec une poussette ?\n\nCette randonnée est en grande partie adaptée aux poussettes ! Le chemin est pavé et plat. Seulement aux deux ponts ferroviaires et à la passerelle, vous devez soulever brièvement la poussette (quelques marches à chaque fois). Pas d'escalade.\n\n## Arrivée à Dinant\n\nVous arrivez le long de la Meuse avec une belle vue sur la citadelle et la cathédrale de Dinant. Continuez jusqu'au supermarché pour une glace bien méritée !",
+        "routeSteps": [
+          "Allez à la gare de Dinant-Anseremme (pas la gare principale)",
+          "Prenez le train direction Bertrix (5 min, 2,50€ week-end)",
+          "Descendez à Gendron",
+          "Suivez le sentier le long de la Lesse vers Dinant",
+          "Traversez le pont ferroviaire élevé (2x)",
+          "Faites une pause à la plage de Walzin",
+          "Admirez le château de Walzin sur les rochers",
+          "Traversez la passerelle piétonne",
+          "Arrivée le long de la Meuse à Dinant"
+        ],
+        "trainBookingButton": "Réserver un Train"
+      },
+      "treinwandeling-houyet-gendron": {
+        "title": "Randonnée en train Houyet - Gendron",
+        "description": "Randonnée aventureuse avec escalade à travers la forêt.",
+        "highlights": ["Formations rocheuses", "Chemin forestier", "Rivière Lesse"],
+        "fullDescription": "Une variante plus difficile pour les amateurs d'aventure."
+      },
+      "wandeling-rond-malvoisin": {
+        "title": "Promenade autour de Malvoisin",
+        "description": "Promenade villageoise tranquille avec de belles vues panoramiques.",
+        "highlights": ["Église du village", "Prairies", "Panorama"],
+        "fullDescription": "Une promenade tranquille depuis notre propre village."
+      }
+    },
+    "cycling": {
+      "ravel-dinant-givet": {
+        "title": "Piste cyclable RAVeL Dinant - Givet",
+        "description": "Piste cyclable plate le long de la Meuse, parfaite pour les familles.",
+        "fullDescription": "Le réseau RAVeL offre de magnifiques pistes cyclables sans voitures le long de la Meuse."
+      },
+      "mountainbike-beauraing": {
+        "title": "Parcours VTT Beauraing",
+        "description": "Parcours exigeants à travers les forêts des Ardennes.",
+        "fullDescription": "Pour les cyclistes sportifs, il existe divers parcours VTT."
+      },
+      "fietsverhuur-dinant": {
+        "title": "Location de vélos Dinant",
+        "description": "Vélos électriques et VTT à louer.",
+        "fullDescription": "Pas de vélo ? À Dinant, vous pouvez en louer."
+      }
+    },
+    "attractions": {
+      "dinant": {
+        "title": "Dinant",
+        "description": "Ville pittoresque sur la Meuse avec citadelle et collégiale.",
+        "highlights": ["Citadelle", "Téléphérique", "Adolphe Sax"],
+        "fullDescription": "Dinant est la ville la plus proche et offre une excursion parfaite."
+      },
+      "grotten-van-han": {
+        "title": "Grottes de Han",
+        "description": "Grottes spectaculaires et parc animalier.",
+        "highlights": ["Visite des grottes", "Safari", "Aire de jeux"],
+        "fullDescription": "Un incontournable pour toute visite dans les Ardennes."
+      },
+      "kasteel-bouillon": {
+        "title": "Château de Bouillon",
+        "description": "Château médiéval avec spectacle de rapaces.",
+        "highlights": ["Rapaces", "Atmosphère médiévale", "Vallée de la Semois"],
+        "fullDescription": "Remontez le temps dans cet imposant château médiéval."
+      },
+      "abdij-maredsous": {
+        "title": "Abbaye de Maredsous",
+        "description": "Abbaye bénédictine avec fromage et bières célèbres.",
+        "highlights": ["Fromage d'abbaye", "Bière trappiste", "Librairie"],
+        "fullDescription": "Une oasis de paix avec de délicieux produits régionaux."
+      }
+    },
+    "restaurants": {
+      "restaurant-placeholder-1": {
+        "title": "Restaurant Placeholder 1",
+        "cuisine": "Cuisine belge",
+        "description": "Restaurant convivial avec spécialités locales.",
+        "fullDescription": "Placeholder pour vrai restaurant."
+      },
+      "restaurant-placeholder-2": {
+        "title": "Restaurant Placeholder 2",
+        "cuisine": "Français",
+        "description": "Restaurant gastronomique avec terrasse.",
+        "fullDescription": "Placeholder pour vrai restaurant."
+      },
+      "brasserie-placeholder": {
+        "title": "Brasserie Placeholder",
+        "cuisine": "Brasserie",
+        "description": "Repas décontractés avec menus enfants.",
+        "fullDescription": "Placeholder pour vraie brasserie."
+      }
+    },
+    "shops": {
+      "bakkerij-placeholder": {
+        "title": "Boulangerie Placeholder",
+        "description": "Petits pains frais et pâtisseries.",
+        "fullDescription": "Placeholder pour vraie boulangerie."
+      },
+      "supermarkt-delhaize": {
+        "title": "Supermarché Delhaize",
+        "description": "Grand supermarché avec tout ce dont vous avez besoin.",
+        "fullDescription": "Le supermarché le plus proche."
+      },
+      "slagerij-placeholder": {
+        "title": "Boucherie Placeholder",
+        "description": "Viande locale et charcuterie.",
+        "fullDescription": "Placeholder pour vraie boucherie."
+      },
+      "boerderijwinkel-placeholder": {
+        "title": "Ferme Placeholder",
+        "description": "Légumes frais, œufs et produits laitiers.",
+        "fullDescription": "Placeholder pour vraie ferme."
+      }
+    }
+  }
 }
