@@ -1,0 +1,34 @@
+{
+  "title": "Les Environs",
+  "subtitle": "Découvrez les plus beaux endroits autour d'ArdenNest",
+  "intro": "Bien que la plupart des invités préfèrent rester sur le domaine - le jardin est assez grand après tout - il y a beaucoup à découvrir dans les environs. Voici nos recommandations personnelles.",
+  "walks": {
+    "title": "Randonnées",
+    "description": "Nos promenades préférées dans les environs, testées par nous et nos hôtes. Des promenades villageoises tranquilles aux randonnées aventureuses en train.",
+    "buggyFriendly": "Adapté aux poussettes",
+    "highlights": "Points forts"
+  },
+  "cycling": {
+    "title": "Cyclisme",
+    "description": "Des chemins RAVeL plats le long de la rivière aux parcours VTT exigeants à travers les forêts.",
+    "rental": "Location"
+  },
+  "attractions": {
+    "title": "Attractions",
+    "description": "Les Ardennes ont beaucoup à offrir. Ces destinations sont parfaites pour une excursion d'une journée."
+  },
+  "restaurants": {
+    "title": "Restaurants",
+    "description": "Nos restaurants préférés dans les environs. Des brasseries conviviales aux restaurants gastronomiques."
+  },
+  "shops": {
+    "title": "Commerces",
+    "description": "Tout ce dont vous avez besoin pour un séjour sans souci. Du pain frais aux produits locaux."
+  },
+  "difficulty": {
+    "easy": "Facile",
+    "medium": "Modéré",
+    "hard": "Difficile"
+  },
+  "note": "La plupart des groupes préfèrent rester sur le domaine - le jardin est assez grand pour des jours de plaisir. Mais si vous souhaitez sortir, nous sommes prêts avec des conseils!"
+}

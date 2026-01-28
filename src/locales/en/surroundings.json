@@ -1,0 +1,34 @@
+{
+  "title": "The Surroundings",
+  "subtitle": "Discover the most beautiful spots around ArdenNest",
+  "intro": "Although most guests prefer to stay on the property - the garden is big enough after all - there is plenty to experience in the area. Below you'll find our personal recommendations.",
+  "walks": {
+    "title": "Walks",
+    "description": "Our favorite walks nearby, tested by us and our guests. From quiet village walks to adventurous train walks.",
+    "buggyFriendly": "Buggy-friendly",
+    "highlights": "Highlights"
+  },
+  "cycling": {
+    "title": "Cycling",
+    "description": "From flat RAVeL paths along the river to challenging mountain bike routes through the forests.",
+    "rental": "Rental"
+  },
+  "attractions": {
+    "title": "Attractions",
+    "description": "The Ardennes have a lot to offer. These destinations are perfect for a day trip."
+  },
+  "restaurants": {
+    "title": "Restaurants",
+    "description": "Our favorite eateries nearby. From cozy brasseries to gastronomic restaurants."
+  },
+  "shops": {
+    "title": "Shops",
+    "description": "Everything you need for a carefree stay. From fresh bread to local products."
+  },
+  "difficulty": {
+    "easy": "Easy",
+    "medium": "Moderate",
+    "hard": "Challenging"
+  },
+  "note": "Most groups prefer to stay on the property - the garden is big enough for days of fun. But if you want to go out, we're ready with tips!"
+}

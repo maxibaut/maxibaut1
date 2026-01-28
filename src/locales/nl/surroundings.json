@@ -1,0 +1,34 @@
+{
+  "title": "De Omgeving",
+  "subtitle": "Ontdek de mooiste plekjes rondom ArdenNest",
+  "intro": "Hoewel de meeste gasten het liefst op het terrein blijven - de tuin is immers groot genoeg - is er in de omgeving veel te beleven. Hieronder vind je onze persoonlijke aanbevelingen.",
+  "walks": {
+    "title": "Wandelingen",
+    "description": "Onze favoriete wandelingen in de buurt, getest door ons en onze gasten. Van rustige dorpswandelingen tot avontuurlijke treinwandelingen.",
+    "buggyFriendly": "Buggy-vriendelijk",
+    "highlights": "Hoogtepunten"
+  },
+  "cycling": {
+    "title": "Fietsen",
+    "description": "Van vlakke RAVeL-paden langs de rivier tot uitdagende mountainbike routes door de bossen.",
+    "rental": "Verhuur"
+  },
+  "attractions": {
+    "title": "Bezienswaardigheden",
+    "description": "De Ardennen hebben veel te bieden. Deze bestemmingen zijn perfect voor een daguitstap."
+  },
+  "restaurants": {
+    "title": "Restaurants",
+    "description": "Onze favoriete eetgelegenheden in de buurt. Van gezellige brasseries tot gastronomische restaurants."
+  },
+  "shops": {
+    "title": "Winkels",
+    "description": "Alles wat je nodig hebt voor een zorgeloos verblijf. Van vers brood tot lokale producten."
+  },
+  "difficulty": {
+    "easy": "Makkelijk",
+    "medium": "Gemiddeld",
+    "hard": "Uitdagend"
+  },
+  "note": "De meeste groepen blijven het liefst op het terrein - de tuin is groot genoeg voor dagenlang plezier. Maar als je toch een uitstap wilt maken, staan we klaar met tips!"
+}
