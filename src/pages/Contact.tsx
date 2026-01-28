@@ -37,6 +37,7 @@ import {
   Cigarette,
   MegaphoneOff,
 } from 'lucide-react';
+import hostBieke from '@/assets/property/host-bieke.jpg';
 
 const contactSchema = z.object({
   name: z.string().trim().min(1, 'Naam is verplicht').max(100),
@@ -120,7 +121,18 @@ const Contact = () => {
       {/* Contact Options */}
       <section className="section-padding bg-background">
         <div className="container-luxury">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-5xl mx-auto">
+            {/* Host Photo Card */}
+            <Card className="text-center hover:shadow-lg transition-shadow h-full overflow-hidden">
+              <CardContent className="p-0 h-full">
+                <img 
+                  src={hostBieke} 
+                  alt="Bieke - Uw gastvrouw" 
+                  className="w-full h-full object-cover aspect-[3/4]"
+                />
+              </CardContent>
+            </Card>
+            
             {contactOptions.map((option, index) => (
               <Card key={index} className="text-center hover:shadow-lg transition-shadow h-full">
                 <CardContent className="p-6 h-full flex flex-col">
