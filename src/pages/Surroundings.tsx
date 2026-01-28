@@ -102,7 +102,7 @@ const Surroundings = () => {
                   >
                     {/* Overlay voor leesbaarheid */}
                     {walk.images?.[0] && (
-                      <div className="absolute inset-0 bg-background/75 z-0" />
+                      <div className="absolute inset-0 bg-background/80 z-0" />
                     )}
                     <CardHeader className="pb-2 relative z-10">
                       <div className="flex items-start justify-between gap-2">
