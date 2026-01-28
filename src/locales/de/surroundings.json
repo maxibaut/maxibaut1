@@ -2,11 +2,18 @@
   "title": "Die Umgebung",
   "subtitle": "Entdecken Sie die schönsten Orte rund um ArdenNest",
   "intro": "Obwohl die meisten Gäste lieber auf dem Gelände bleiben - der Garten ist schließlich groß genug - gibt es in der Umgebung viel zu erleben. Hier finden Sie unsere persönlichen Empfehlungen.",
+  "backToOverview": "Zurück zur Übersicht",
+  "practicalInfo": "Praktische Infos",
+  "openInMaps": "Auf Karte anzeigen",
+  "visitWebsite": "Website besuchen",
+  "fromProperty": "vom Haus",
   "walks": {
     "title": "Wanderungen",
     "description": "Unsere Lieblingswanderungen in der Nähe, getestet von uns und unseren Gästen. Von ruhigen Dorfspaziergängen bis zu abenteuerlichen Zugwanderungen.",
     "buggyFriendly": "Kinderwagen-freundlich",
-    "highlights": "Höhepunkte"
+    "highlights": "Höhepunkte",
+    "duration": "Dauer",
+    "distance": "Entfernung"
   },
   "cycling": {
     "title": "Radfahren",
@@ -23,12 +30,139 @@
   },
   "shops": {
     "title": "Geschäfte",
-    "description": "Alles was Sie für einen sorglosen Aufenthalt brauchen. Von frischem Brot bis zu lokalen Produkten."
+    "description": "Alles was Sie für einen sorglosen Aufenthalt brauchen. Von frischem Brot bis zu lokalen Produkten.",
+    "types": {
+      "bakery": "Bäckerei",
+      "supermarket": "Supermarkt",
+      "butcher": "Metzgerei",
+      "farmshop": "Hofladen"
+    }
   },
   "difficulty": {
     "easy": "Einfach",
     "medium": "Mittel",
     "hard": "Anspruchsvoll"
   },
-  "note": "Die meisten Gruppen bleiben lieber auf dem Gelände - der Garten ist groß genug für tagelangen Spaß. Aber wenn Sie ausgehen möchten, stehen wir mit Tipps bereit!"
+  "note": "Die meisten Gruppen bleiben lieber auf dem Gelände - der Garten ist groß genug für tagelangen Spaß. Aber wenn Sie ausgehen möchten, stehen wir mit Tipps bereit!",
+  "items": {
+    "walks": {
+      "treinwandeling-anseremme-gendron": {
+        "title": "Zugwanderung Anseremme - Gendron",
+        "description": "Unsere liebste Familienwanderung! Nehmen Sie den Zug von Dinant-Anseremme nach Gendron und wandern Sie zurück entlang der wunderschönen Lesse. Geeignet für Kinderwagen und perfekt für einen Tagesausflug.",
+        "highlights": ["Hohe Eisenbahnbrücke", "Strand von Walzin", "Schloss Walzin", "Fluss Lesse", "Blick auf Dinant"],
+        "buggyNote": "Kinderwagen 3x heben bei Treppen/Brücken, sonst glatter befestigter Weg",
+        "tip": "Zu früh für den Zug? Gehen Sie über die Dinant-Brücke und warten Sie auf einer Bank an der Maas - herrlich bei gutem Wetter!",
+        "fullDescription": "Dies ist zweifellos unsere Lieblingswanderung in der Umgebung und perfekt für Familien mit Kindern jeden Alters.\n\n## Wie funktioniert es?\n\nSie nehmen den Zug am Bahnhof Dinant-Anseremme (nicht am Hauptbahnhof!) Richtung Bertrix. Nach nur 5 Minuten steigen Sie in Gendron aus. Der Wochenendtarif beträgt nur 2,50 € pro Person - ein Schnäppchen!\n\nVom Bahnhof Gendron wandern Sie zurück nach Dinant, immer entlang der Lesse. Die Strecke ist etwa 8 km lang und dauert ca. 3 Stunden, einschließlich Pausen.\n\n## Höhepunkte unterwegs\n\nDie Wanderung bietet wunderschöne Abwechslung:\n\n- **Die hohe Eisenbahnbrücke** - Auf halber Strecke überqueren Sie zweimal eine beeindruckende alte Eisenbahnbrücke, hoch über der Lesse. Vollkommen sicher mit Geländern, aber spektakulär!\n- **Strand von Walzin** - Ein herrlicher Ort zum Pausieren. Bei warmem Wetter können die Kinder im Wasser planschen. Ideal für ein Picknick.\n- **Schloss Walzin** - Das märchenhafte Schloss auf den Felsen ist einer der schönsten Ausblicke der Wanderung.\n- **Fußgängerbrücke** - Kurz vor Dinant überqueren Sie eine schmale Fußgängerbrücke.\n\n## Mit Kinderwagen?\n\nDiese Wanderung ist größtenteils kinderwagenfreundlich! Der Weg ist befestigt und flach. Nur an den zwei Eisenbahnbrücken und der Fußgängerbrücke müssen Sie den Kinderwagen kurz heben (jeweils ein paar Stufen). Kein Klettern oder Kraxeln.\n\n## Ankunft in Dinant\n\nSie kommen an der Maas an mit einem wunderschönen Blick auf die Zitadelle und die Kathedrale von Dinant. Gehen Sie noch zum Supermarkt für ein wohlverdientes Eis!",
+        "routeSteps": [
+          "Gehen Sie zum Bahnhof Dinant-Anseremme (nicht Hauptbahnhof)",
+          "Nehmen Sie den Zug Richtung Bertrix (5 Min, 2,50€ Wochenende)",
+          "Steigen Sie in Gendron aus",
+          "Folgen Sie dem Wanderweg entlang der Lesse Richtung Dinant",
+          "Überqueren Sie die hohe Eisenbahnbrücke (2x)",
+          "Pausieren Sie am Strand von Walzin",
+          "Bewundern Sie Schloss Walzin auf den Felsen",
+          "Überqueren Sie die Fußgängerbrücke",
+          "Ankunft an der Maas in Dinant"
+        ],
+        "trainBookingButton": "Zug Buchen"
+      },
+      "treinwandeling-houyet-gendron": {
+        "title": "Zugwanderung Houyet - Gendron",
+        "description": "Abenteuerliche Wanderung mit Klettern und Kraxeln durch den Wald.",
+        "highlights": ["Felsformationen", "Waldweg", "Fluss Lesse"],
+        "fullDescription": "Eine anspruchsvollere Variante für Abenteuerlustige."
+      },
+      "wandeling-rond-malvoisin": {
+        "title": "Wanderung um Malvoisin",
+        "description": "Ruhige Dorfwanderung mit wunderschönen Panoramablicken.",
+        "highlights": ["Dorfkirche", "Wiesen", "Panorama"],
+        "fullDescription": "Eine ruhige Wanderung von unserem eigenen Dorf aus."
+      }
+    },
+    "cycling": {
+      "ravel-dinant-givet": {
+        "title": "RAVeL Radweg Dinant - Givet",
+        "description": "Flacher Radweg entlang der Maas, perfekt für Familien.",
+        "fullDescription": "Das RAVeL-Netzwerk bietet wunderschöne, autofreie Radwege entlang der Maas."
+      },
+      "mountainbike-beauraing": {
+        "title": "Mountainbike-Strecken Beauraing",
+        "description": "Anspruchsvolle Routen durch die Wälder der Ardennen.",
+        "fullDescription": "Für sportliche Radfahrer gibt es verschiedene Mountainbike-Strecken."
+      },
+      "fietsverhuur-dinant": {
+        "title": "Fahrradverleih Dinant",
+        "description": "Elektrofahrräder und Mountainbikes zum Ausleihen.",
+        "fullDescription": "Kein eigenes Fahrrad dabei? In Dinant können Sie Fahrräder mieten."
+      }
+    },
+    "attractions": {
+      "dinant": {
+        "title": "Dinant",
+        "description": "Malerische Stadt an der Maas mit Zitadelle und Stiftskirche.",
+        "highlights": ["Zitadelle", "Seilbahn", "Adolphe Sax"],
+        "fullDescription": "Dinant ist die nächste Stadt und bietet einen perfekten Tagesausflug."
+      },
+      "grotten-van-han": {
+        "title": "Grotten von Han",
+        "description": "Spektakuläre Höhlen und Wildpark.",
+        "highlights": ["Höhlenbesuch", "Safari", "Spielplatz"],
+        "fullDescription": "Ein Muss für jeden Besuch in den Ardennen."
+      },
+      "kasteel-bouillon": {
+        "title": "Burg Bouillon",
+        "description": "Mittelalterliche Burg mit Greifvogelschau.",
+        "highlights": ["Greifvögel", "Mittelalterliche Atmosphäre", "Semois-Tal"],
+        "fullDescription": "Reisen Sie zurück in die Zeit in dieser imposanten mittelalterlichen Burg."
+      },
+      "abdij-maredsous": {
+        "title": "Abtei Maredsous",
+        "description": "Benediktinerabtei mit berühmtem Käse und Bieren.",
+        "highlights": ["Abteikäse", "Trappistenbier", "Buchhandlung"],
+        "fullDescription": "Eine Oase der Ruhe mit köstlichen regionalen Produkten."
+      }
+    },
+    "restaurants": {
+      "restaurant-placeholder-1": {
+        "title": "Restaurant Platzhalter 1",
+        "cuisine": "Belgische Küche",
+        "description": "Gemütliches Restaurant mit lokalen Spezialitäten.",
+        "fullDescription": "Platzhalter für echtes Restaurant."
+      },
+      "restaurant-placeholder-2": {
+        "title": "Restaurant Platzhalter 2",
+        "cuisine": "Französisch",
+        "description": "Gastronomisches Restaurant mit Terrasse.",
+        "fullDescription": "Platzhalter für echtes Restaurant."
+      },
+      "brasserie-placeholder": {
+        "title": "Brasserie Platzhalter",
+        "cuisine": "Brasserie",
+        "description": "Ungezwungenes Essen mit Kindermenüs.",
+        "fullDescription": "Platzhalter für echte Brasserie."
+      }
+    },
+    "shops": {
+      "bakkerij-placeholder": {
+        "title": "Bäckerei Platzhalter",
+        "description": "Frische Brötchen und Gebäck.",
+        "fullDescription": "Platzhalter für echte Bäckerei."
+      },
+      "supermarkt-delhaize": {
+        "title": "Supermarkt Delhaize",
+        "description": "Großer Supermarkt mit allem was Sie brauchen.",
+        "fullDescription": "Der nächste große Supermarkt."
+      },
+      "slagerij-placeholder": {
+        "title": "Metzgerei Platzhalter",
+        "description": "Lokales Fleisch und Wurstwaren.",
+        "fullDescription": "Platzhalter für echte Metzgerei."
+      },
+      "boerderijwinkel-placeholder": {
+        "title": "Hofladen Platzhalter",
+        "description": "Frisches Gemüse, Eier und Milchprodukte.",
+        "fullDescription": "Platzhalter für echten Hofladen."
+      }
+    }
+  }
 }
