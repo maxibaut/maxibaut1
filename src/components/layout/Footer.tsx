@@ -13,7 +13,7 @@ export const Footer = () => {
           <div className="space-y-4">
             <h3 className="font-serif text-2xl font-semibold">ArdenNest</h3>
             <p className="text-primary-foreground/80 leading-relaxed">
-              Quiet luxury voor momenten samen. Al 17 jaar verwelkomen wij families in de Ardennen.
+              Quiet luxury voor momenten samen. Al 22 jaar verwelkomen wij families in de Ardennen.
             </p>
             {/* Google Reviews Badge */}
             <div className="flex items-center space-x-2 pt-2">
@@ -37,8 +37,8 @@ export const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-center space-x-3 text-primary-foreground/80">
                 <Phone className="h-4 w-4 flex-shrink-0" />
-                <a href="tel:+32123456789" className="hover:text-primary-foreground transition-colors">
-                  +32 123 45 67 89
+                <a href="tel:+32478030352" className="hover:text-primary-foreground transition-colors">
+                  +32 478 03 03 52
                 </a>
               </li>
               <li className="flex items-center space-x-3 text-primary-foreground/80">
