@@ -59,9 +59,10 @@ export const walks: WalkItem[] = [
     buggyFriendly: false,
     distance: '25 min',
     images: [
-      houyetWalk00, // Brug over de Lesse - nieuwe eerste foto
+      houyetWalk00, // Brug over de Lesse
+      houyetWalk01, // Station Houyet (nieuwe positie 2)
+      houyetWalk05, // Bospad met bomen (blijft op 3)
       houyetWalk09, // Brug met mensen
-      houyetWalk05, // Bospad met bomen
       houyetWalk08, // Karakteristiek wandelpad
       houyetWalk11, // Klimmen op rotsen
       houyetWalk12, // Steile trap met GR-markering
@@ -70,7 +71,6 @@ export const walks: WalkItem[] = [
       houyetWalk04, // Lesse rivier
       houyetWalk02, // Bospad met trap
       houyetWalk03, // Wegwijzer
-      houyetWalk01, // Station Houyet
       houyetWalk10, // Terras afsluiter
     ],
     trainBookingUrl: 'https://www.belgiantrain.be/nl',
