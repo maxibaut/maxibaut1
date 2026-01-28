@@ -31,6 +31,22 @@
       "title": "Kids Paradise Garden",
       "description": "200m x 100m of space, playground equipment, football field and a treasure hunt. Kids entertain themselves for hours."
     },
+    "mattresses": {
+      "title": "Premium Mattresses",
+      "description": "Boxspring beds with thick mattresses for a perfect night's sleep. Waking up rested is the foundation of a successful stay."
+    },
+    "dishCabinet": {
+      "title": "Checked After Every Guest",
+      "description": "After every guest, we fully inspect the dish cabinet. Everything is complete and in perfect condition when you arrive."
+    },
+    "professionalEquipment": {
+      "title": "Professional Equipment",
+      "description": "Restaurant-quality pots and pans. Cook for 26 people with the right equipment."
+    },
+    "livingOnSite": {
+      "title": "25 Years On-Site",
+      "description": "We have lived on the estate for 25 years. Nobody knows the house and surroundings better than we do."
+    },
     "viewAll": "Discover more"
   },
   "whyBookDirect": {

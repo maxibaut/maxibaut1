@@ -31,6 +31,22 @@
       "title": "Kinderparadijs Tuin",
       "description": "200m x 100m aan ruimte, speeltoestellen, voetbalveld en een schattenjacht. Kinderen vermaken zich urenlang."
     },
+    "mattresses": {
+      "title": "Dikke Matrassen",
+      "description": "Boxspring bedden met dikke matrassen voor een perfecte nachtrust. Uitgerust wakker worden is de basis van een geslaagd verblijf."
+    },
+    "dishCabinet": {
+      "title": "Controle na Elke Gast",
+      "description": "Na elke gast controleren we de servieskast volledig. Alles is compleet en in perfecte staat wanneer u arriveert."
+    },
+    "professionalEquipment": {
+      "title": "Horeca Materiaal",
+      "description": "Professionele potten en pannen van horeca-kwaliteit. Koken voor 26 personen met het juiste materiaal."
+    },
+    "livingOnSite": {
+      "title": "25 Jaar Ter Plaatse",
+      "description": "Wij wonen al 25 jaar op het domein. Niemand kent het huis en de omgeving beter dan wij."
+    },
     "viewAll": "Ontdek meer"
   },
   "whyBookDirect": {
