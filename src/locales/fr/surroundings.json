@@ -68,9 +68,21 @@
       },
       "treinwandeling-houyet-gendron": {
         "title": "Randonnée en train Houyet - Gendron",
-        "description": "Randonnée aventureuse avec escalade à travers la forêt.",
-        "highlights": ["Formations rocheuses", "Chemin forestier", "Rivière Lesse"],
-        "fullDescription": "Une variante plus difficile pour les amateurs d'aventure."
+        "description": "Une randonnée aventureuse incroyablement belle le long de la Lesse avec des rochers, des petits sentiers et des pierres instables. Dans notre top 5 des excursions après 20 ans d'Ardennes !",
+        "highlights": ["Formations rocheuses le long de la Lesse", "Sentiers étroits aventureux", "Balisage GR126", "Nature magnifique", "Camping/bar à l'arrivée"],
+        "fullDescription": "Quelle randonnée ! Incroyablement belle le long de la Lesse et des rochers, sur de petits sentiers et des pierres instables. Surprenante du début à la fin pendant 2h30 sur 8,5 km.\n\n## Comment ça marche ?\n\nGarez votre voiture à la gare de Houyet, achetez un billet via l'automate, prenez le train et descendez après 5 minutes à Gendron. De là, vous revenez à pied vers Houyet, en remontant la Lesse.\n\n## L'itinéraire\n\nLe GR126 est votre guide le long du chemin avec les classiques rayures rouge et blanc sur les arbres ou panneaux. Il suffit de suivre !\n\n## Notre avis\n\nEn 20 ans d'Ardennes, cette randonnée fait partie de notre top 5 des excursions courtes. Elle est plus aventureuse que la randonnée Anseremme-Gendron : vous grimpez, vous escaladez, vous passez par des sentiers étroits et des pierres instables. Vraiment quelque chose pour les enfants qui aiment l'aventure !\n\n## Terminer\n\nVous terminez à un camping ou bar pour une bière fraîche bien méritée. Parfait pour récupérer après cette excursion active.\n\n## Depuis ArdenNest\n\nDepuis notre maison de vacances, vous y êtes en 25 minutes de route tranquille, jusqu'à Houyet. Vous pouvez aussi monter dans le train à la gare de Gedinne et reprendre le train vers Malvoisin après la randonnée.\n\nToutes les infos et la carte de randonnée sont prêtes dans notre bureau !",
+        "routeSteps": [
+          "Garez votre voiture à la gare de Houyet",
+          "Achetez un billet de train via l'automate",
+          "Prenez le train vers Gendron (5 min)",
+          "Descendez et suivez le balisage GR126",
+          "Marchez en remontant la Lesse",
+          "Profitez des rochers, sentiers étroits et pierres instables",
+          "Terminez à la gare de Houyet",
+          "Prenez un verre sur la terrasse du camping"
+        ],
+        "tip": "Les enfants qui aiment l'aventure vont adorer ! L'escalade rend le tout encore plus excitant.",
+        "trainBookingButton": "Réserver un Train"
       },
       "wandeling-rond-malvoisin": {
         "title": "Promenade autour de Malvoisin",
