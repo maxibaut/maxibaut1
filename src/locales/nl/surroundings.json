@@ -48,20 +48,23 @@
     "walks": {
       "treinwandeling-anseremme-gendron": {
         "title": "Treinwandeling Anseremme - Gendron",
-        "description": "De perfecte uitstap vanaf Dinant. Neem de trein in station Anseremme (weekendtarief €2,50/pers), na 5 min uitstappen in Gendron. Wandel langs de Lesse met halverwege 2 keer oversteken via de hoge spoorwegbrug (perfect veilig) en 1 keer via de voetgangersbrug aan het strand van Walzin. Bij aankomst een ijsje uit de supermarkt met zicht op Dinant.",
-        "highlights": ["Hoge spoorwegbrug", "Strand van Walzin", "Zicht op Dinant", "Langs de Lesse"],
-        "buggyNote": "Buggy 3x optillen bij bruggen, verder vlotte weg",
-        "tip": "Te vroeg voor de trein? Bij mooi weer wachten langs de Maas, overal bankjes.",
-        "fullDescription": "Deze wandeling is een van onze absolute favorieten en perfect voor een daguitstap met het hele gezin.\n\n## De route\n\nStart in Dinant en neem de trein vanaf station Anseremme. Het weekendtarief is slechts €2,50 per persoon - een koopje voor dit avontuur. Na amper 5 minuten stap je uit in het pittoreske Gendron.\n\nVanaf hier volg je de loop van de rivier de Lesse. De wandeling voert je door prachtige natuur met als hoogtepunten:\n\n- **De hoge spoorwegbrug** - Halverwege steek je 2 keer over via deze indrukwekkende brug. Perfect veilig en een geweldige ervaring voor kinderen.\n- **Strand van Walzin** - Hier kun je even stoppen om te picknicken of de kinderen te laten spelen aan het water.\n- **Voetgangersbrug** - Een schilderachtige oversteek die je terugbrengt naar de andere oever.\n\n## Praktische tips\n\n- Neem voldoende water en snacks mee\n- Bij warm weer kunnen de kinderen met hun voeten in het water\n- De route is grotendeels vlak en goed begaanbaar\n- Eindig met een ijsje uit de supermarkt met uitzicht op Dinant!",
+        "description": "Onze favoriete familiewandeling! Neem de trein vanuit Dinant-Anseremme naar Gendron en wandel terug langs de prachtige Lesse. Geschikt voor buggy's en perfect voor een daguitstap.",
+        "highlights": ["Hoge spoorwegbrug", "Strand van Walzin", "Kasteel Walzin", "Rivier de Lesse", "Zicht op Dinant"],
+        "buggyNote": "Buggy 3x optillen bij trappen/bruggen, verder vlotte verharde weg",
+        "tip": "Te vroeg voor de trein? Loop de brug van Dinant over en wacht op een bankje langs de Maas - heerlijk bij mooi weer!",
+        "fullDescription": "Dit is zonder twijfel onze favoriete wandeling in de omgeving en perfect voor gezinnen met kinderen van alle leeftijden.\n\n## Hoe werkt het?\n\nJe neemt de trein in station Dinant-Anseremme (niet het hoofdstation!) richting Bertrix. Na slechts 5 minuutjes stap je uit in Gendron. Het weekendtarief is maar €2,50 per persoon - een koopje!\n\nVanaf station Gendron wandel je terug naar Dinant, de hele tijd langs de rivier de Lesse. De route is ongeveer 8 km en duurt zo'n 3 uur, inclusief pauzes.\n\n## Hoogtepunten onderweg\n\nDe wandeling biedt prachtige afwisseling:\n\n- **De hoge spoorwegbrug** - Halverwege steek je twee keer over via een indrukwekkende oude spoorwegbrug, hoog boven de Lesse. Perfect veilig met leuningen, maar wel spectaculair!\n- **Strand van Walzin** - Een heerlijke plek om te pauzeren. Bij warm weer kunnen de kinderen met hun voeten in het water. Ideaal voor een picknick.\n- **Kasteel Walzin** - Het sprookjesachtige kasteel op de rotsen is een van de mooiste vergezichten van de wandeling.\n- **Voetgangersbrug** - Vlak voor Dinant steek je over via een smalle voetgangersbrug.\n\n## Met de buggy?\n\nDeze wandeling is grotendeels buggy-vriendelijk! Het pad is verhard en vlak. Alleen bij de twee spoorwegbruggen en de voetgangersbrug moet je de buggy even optillen (telkens een paar treden). Geen geklim of geklauter.\n\n## Aankomst in Dinant\n\nJe komt aan langs de Maas met een prachtig zicht op de citadel en de kathedraal van Dinant. Loop nog even door naar de supermarkt voor een welverdiend ijsje!",
         "routeSteps": [
-          "Neem de trein in Dinant station Anseremme",
-          "Stap uit in Gendron (5 min)",
-          "Volg de Lesse richting Dinant",
-          "Steek over via de hoge spoorwegbrug",
-          "Passeer het strand van Walzin",
+          "Ga naar station Dinant-Anseremme (niet het hoofdstation)",
+          "Neem de trein richting Bertrix (5 min, €2,50 weekend)",
+          "Stap uit in Gendron",
+          "Volg het wandelpad langs de Lesse richting Dinant",
+          "Steek over via de hoge spoorwegbrug (2x)",
+          "Pauzeer aan het strand van Walzin",
+          "Bewonder kasteel Walzin op de rotsen",
           "Steek over via de voetgangersbrug",
-          "Aankomst in Dinant"
-        ]
+          "Aankomst langs de Maas in Dinant"
+        ],
+        "trainBookingButton": "Trein Reserveren"
       },
       "treinwandeling-houyet-gendron": {
         "title": "Treinwandeling Houyet - Gendron",

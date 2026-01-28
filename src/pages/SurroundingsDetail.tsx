@@ -1,9 +1,17 @@
 import { PageWrapper } from '@/components/layout';
 import { useTranslation } from 'react-i18next';
 import { useParams, Link, Navigate } from 'react-router-dom';
+import { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { Card, CardContent } from '@/components/ui/card';
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselPrevious,
+  CarouselNext,
+} from '@/components/ui/carousel';
 import {
   ArrowLeft,
   Clock,
@@ -16,6 +24,8 @@ import {
   Landmark,
   UtensilsCrossed,
   ShoppingBag,
+  Train,
+  X,
 } from 'lucide-react';
 import {
   getItemBySlug,
@@ -29,6 +39,8 @@ import {
 const SurroundingsDetail = () => {
   const { t } = useTranslation('surroundings');
   const { category, slug } = useParams<{ category: SurroundingsCategory; slug: string }>();
+  const [lightboxOpen, setLightboxOpen] = useState(false);
+  const [lightboxIndex, setLightboxIndex] = useState(0);
 
   // Validate category
   const validCategories: SurroundingsCategory[] = ['walks', 'cycling', 'attractions', 'restaurants', 'shops'];
@@ -50,6 +62,13 @@ const SurroundingsDetail = () => {
   const buggyNote = t(`items.${category}.${slug}.buggyNote`, { defaultValue: '' });
   const tip = t(`items.${category}.${slug}.tip`, { defaultValue: '' });
   const routeSteps = t(`items.${category}.${slug}.routeSteps`, { returnObjects: true, defaultValue: [] }) as string[];
+  const trainBookingButton = t(`items.${category}.${slug}.trainBookingButton`, { defaultValue: '' });
+
+  // Open lightbox
+  const openLightbox = (index: number) => {
+    setLightboxIndex(index);
+    setLightboxOpen(true);
+  };
 
   // Category icon
   const getCategoryIcon = () => {
@@ -167,6 +186,73 @@ const SurroundingsDetail = () => {
           </div>
         </div>
       </section>
+
+      {/* Photo Gallery */}
+      {item.images && item.images.length > 0 && (
+        <section className="section-padding bg-muted/30">
+          <div className="container-luxury">
+            <Carousel
+              opts={{
+                align: 'start',
+                loop: true,
+              }}
+              className="w-full"
+            >
+              <CarouselContent className="-ml-2 md:-ml-4">
+                {item.images.map((image, idx) => (
+                  <CarouselItem key={idx} className="pl-2 md:pl-4 basis-full md:basis-1/2 lg:basis-1/3">
+                    <div 
+                      className="aspect-[4/3] overflow-hidden rounded-lg cursor-pointer group"
+                      onClick={() => openLightbox(idx)}
+                    >
+                      <img
+                        src={image}
+                        alt={`${title} - foto ${idx + 1}`}
+                        className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                      />
+                    </div>
+                  </CarouselItem>
+                ))}
+              </CarouselContent>
+              <CarouselPrevious className="hidden md:flex -left-4" />
+              <CarouselNext className="hidden md:flex -right-4" />
+            </Carousel>
+          </div>
+        </section>
+      )}
+
+      {/* Lightbox */}
+      {lightboxOpen && item.images && (
+        <div 
+          className="fixed inset-0 bg-black/90 z-50 flex items-center justify-center p-4"
+          onClick={() => setLightboxOpen(false)}
+        >
+          <button 
+            className="absolute top-4 right-4 text-white hover:text-white/80 transition-colors"
+            onClick={() => setLightboxOpen(false)}
+          >
+            <X className="h-8 w-8" />
+          </button>
+          <img
+            src={item.images[lightboxIndex]}
+            alt={`${title} - foto ${lightboxIndex + 1}`}
+            className="max-w-full max-h-[90vh] object-contain"
+            onClick={(e) => e.stopPropagation()}
+          />
+          <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2">
+            {item.images.map((_, idx) => (
+              <button
+                key={idx}
+                className={`w-2 h-2 rounded-full transition-colors ${idx === lightboxIndex ? 'bg-white' : 'bg-white/40'}`}
+                onClick={(e) => {
+                  e.stopPropagation();
+                  setLightboxIndex(idx);
+                }}
+              />
+            ))}
+          </div>
+        </div>
+      )}
 
       {/* Main Content */}
       <section className="section-padding bg-background">
@@ -286,8 +372,20 @@ const SurroundingsDetail = () => {
 
                   {/* Action buttons */}
                   <div className="pt-4 space-y-2">
-                    {item.coordinates && (
+                    {walkData?.trainBookingUrl && (
                       <Button asChild className="w-full">
+                        <a
+                          href={walkData.trainBookingUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <Train className="h-4 w-4 mr-2" />
+                          {trainBookingButton || 'Trein Reserveren'}
+                        </a>
+                      </Button>
+                    )}
+                    {item.coordinates && (
+                      <Button asChild variant={walkData?.trainBookingUrl ? 'outline' : 'default'} className="w-full">
                         <a
                           href={`https://www.google.com/maps/search/?api=1&query=${item.coordinates.lat},${item.coordinates.lng}`}
                           target="_blank"
