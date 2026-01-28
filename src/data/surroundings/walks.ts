@@ -56,14 +56,14 @@ export const walks: WalkItem[] = [
     buggyFriendly: false,
     distance: '25 min',
     images: [
-      houyetWalk06, // Rotsen - spectaculairste eerst
+      houyetWalk09, // Brug met mensen - eerste keuze
+      houyetWalk05, // Bospad met bomen
+      houyetWalk08, // Karakteristiek wandelpad
+      houyetWalk06, // Rotsen
       houyetWalk07, // Panorama
       houyetWalk04, // Lesse rivier
       houyetWalk02, // Bospad met trap
-      houyetWalk08, // Karakteristiek pad
-      houyetWalk05, // Bospad
       houyetWalk03, // Wegwijzer
-      houyetWalk09, // Brug
       houyetWalk01, // Station Houyet
       houyetWalk10, // Terras afsluiter
     ],
