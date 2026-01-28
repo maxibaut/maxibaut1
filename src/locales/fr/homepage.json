@@ -47,6 +47,18 @@
       "title": "25 Ans Sur Place",
       "description": "Nous vivons sur le domaine depuis 25 ans. Personne ne connaît mieux la maison et les environs que nous."
     },
+    "utilities": {
+      "title": "Charges Incluses",
+      "description": "Eau, électricité et chauffage sont inclus dans le prix. Pas de surprises lors du règlement."
+    },
+    "greenKey": {
+      "title": "Candidat Green Key",
+      "description": "Nous travaillons vers le label Green Key, le label écologique international pour le tourisme durable."
+    },
+    "certified": {
+      "title": "Gîte Certifié",
+      "description": "Officiellement reconnu et certifié par le Tourisme de Wallonie. Votre garantie de qualité et de fiabilité."
+    },
     "viewAll": "Découvrir plus"
   },
   "whyBookDirect": {

@@ -47,6 +47,18 @@
       "title": "25 Jahre Vor Ort",
       "description": "Wir leben seit 25 Jahren auf dem Anwesen. Niemand kennt das Haus und die Umgebung besser als wir."
     },
+    "utilities": {
+      "title": "Nebenkosten Inklusive",
+      "description": "Wasser, Strom und Heizung sind im Preis inbegriffen. Keine Überraschungen bei der Abrechnung."
+    },
+    "greenKey": {
+      "title": "Green Key Kandidat",
+      "description": "Wir arbeiten auf das Green Key Label hin, das internationale Umweltzeichen für nachhaltigen Tourismus."
+    },
+    "certified": {
+      "title": "Zertifiziertes Ferienhaus",
+      "description": "Offiziell anerkannt und zertifiziert von Tourismus Wallonien. Ihre Garantie für Qualität und Zuverlässigkeit."
+    },
     "viewAll": "Mehr entdecken"
   },
   "whyBookDirect": {

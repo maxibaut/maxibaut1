@@ -47,6 +47,18 @@
       "title": "25 Jaar Ter Plaatse",
       "description": "Wij wonen al 25 jaar op het domein. Niemand kent het huis en de omgeving beter dan wij."
     },
+    "utilities": {
+      "title": "Verbruik Inbegrepen",
+      "description": "Water, elektriciteit en verwarming zijn inbegrepen in de prijs. Geen verrassingen bij het afrekenen."
+    },
+    "greenKey": {
+      "title": "Green Key Kandidaat",
+      "description": "Wij streven naar het Green Key label, het internationale keurmerk voor duurzaam toerisme."
+    },
+    "certified": {
+      "title": "Gecertificeerde Vakantiewoning",
+      "description": "Officieel erkend en gecertificeerd door Toerisme Wallonië. Uw garantie voor kwaliteit en betrouwbaarheid."
+    },
     "viewAll": "Ontdek meer"
   },
   "whyBookDirect": {
