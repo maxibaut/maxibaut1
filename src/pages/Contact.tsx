@@ -124,6 +124,7 @@ const Contact = () => {
             <div className="text-center md:text-left">
               <h1 className="heading-display mb-2">{t('title')}</h1>
               <p className="body-large text-primary-foreground/80">{t('subtitle')}</p>
+              <p className="text-lg text-primary-foreground/70 mt-2 italic">— {t('signature')}</p>
             </div>
           </div>
         </div>
