@@ -12,6 +12,7 @@ import treinWalk08 from '@/assets/walks/trein-anseremme-gendron-08-grot.jpg';
 import treinWalk09 from '@/assets/walks/trein-anseremme-gendron-09-routekaart.jpg';
 
 // Treinwandeling Houyet - Gendron photos
+import houyetWalk00 from '@/assets/walks/houyet-gendron-00-brug-lesse.jpg';
 import houyetWalk01 from '@/assets/walks/houyet-gendron-01-station.jpg';
 import houyetWalk02 from '@/assets/walks/houyet-gendron-02-bospad-trap.jpg';
 import houyetWalk03 from '@/assets/walks/houyet-gendron-03-wegwijzer.jpg';
@@ -58,7 +59,8 @@ export const walks: WalkItem[] = [
     buggyFriendly: false,
     distance: '25 min',
     images: [
-      houyetWalk09, // Brug met mensen - eerste keuze
+      houyetWalk00, // Brug over de Lesse - nieuwe eerste foto
+      houyetWalk09, // Brug met mensen
       houyetWalk05, // Bospad met bomen
       houyetWalk08, // Karakteristiek wandelpad
       houyetWalk11, // Klimmen op rotsen
