@@ -20,7 +20,7 @@
     }
   },
   "form": {
-    "title": "Send us a message",
+    "title": "Send me a message",
     "name": "Name",
     "namePlaceholder": "Your full name",
     "email": "Email address",
