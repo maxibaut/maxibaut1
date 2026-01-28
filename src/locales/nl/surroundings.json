@@ -2,11 +2,18 @@
   "title": "De Omgeving",
   "subtitle": "Ontdek de mooiste plekjes rondom ArdenNest",
   "intro": "Hoewel de meeste gasten het liefst op het terrein blijven - de tuin is immers groot genoeg - is er in de omgeving veel te beleven. Hieronder vind je onze persoonlijke aanbevelingen.",
+  "backToOverview": "Terug naar overzicht",
+  "practicalInfo": "Praktische info",
+  "openInMaps": "Bekijk op kaart",
+  "visitWebsite": "Bezoek website",
+  "fromProperty": "vanaf het huis",
   "walks": {
     "title": "Wandelingen",
     "description": "Onze favoriete wandelingen in de buurt, getest door ons en onze gasten. Van rustige dorpswandelingen tot avontuurlijke treinwandelingen.",
     "buggyFriendly": "Buggy-vriendelijk",
-    "highlights": "Hoogtepunten"
+    "highlights": "Hoogtepunten",
+    "duration": "Duur",
+    "distance": "Afstand"
   },
   "cycling": {
     "title": "Fietsen",
@@ -23,12 +30,136 @@
   },
   "shops": {
     "title": "Winkels",
-    "description": "Alles wat je nodig hebt voor een zorgeloos verblijf. Van vers brood tot lokale producten."
+    "description": "Alles wat je nodig hebt voor een zorgeloos verblijf. Van vers brood tot lokale producten.",
+    "types": {
+      "bakery": "Bakkerij",
+      "supermarket": "Supermarkt",
+      "butcher": "Slagerij",
+      "farmshop": "Hoevewinkel"
+    }
   },
   "difficulty": {
     "easy": "Makkelijk",
     "medium": "Gemiddeld",
     "hard": "Uitdagend"
   },
-  "note": "De meeste groepen blijven het liefst op het terrein - de tuin is groot genoeg voor dagenlang plezier. Maar als je toch een uitstap wilt maken, staan we klaar met tips!"
+  "note": "De meeste groepen blijven het liefst op het terrein - de tuin is groot genoeg voor dagenlang plezier. Maar als je toch een uitstap wilt maken, staan we klaar met tips!",
+  "items": {
+    "walks": {
+      "treinwandeling-anseremme-gendron": {
+        "title": "Treinwandeling Anseremme - Gendron",
+        "description": "De perfecte uitstap vanaf Dinant. Neem de trein in station Anseremme (weekendtarief €2,50/pers), na 5 min uitstappen in Gendron. Wandel langs de Lesse met halverwege 2 keer oversteken via de hoge spoorwegbrug (perfect veilig) en 1 keer via de voetgangersbrug aan het strand van Walzin. Bij aankomst een ijsje uit de supermarkt met zicht op Dinant.",
+        "highlights": ["Hoge spoorwegbrug", "Strand van Walzin", "Zicht op Dinant", "Langs de Lesse"],
+        "buggyNote": "Buggy 3x optillen bij bruggen, verder vlotte weg",
+        "tip": "Te vroeg voor de trein? Bij mooi weer wachten langs de Maas, overal bankjes.",
+        "fullDescription": "Deze wandeling is een van onze absolute favorieten en perfect voor een daguitstap met het hele gezin.\n\n## De route\n\nStart in Dinant en neem de trein vanaf station Anseremme. Het weekendtarief is slechts €2,50 per persoon - een koopje voor dit avontuur. Na amper 5 minuten stap je uit in het pittoreske Gendron.\n\nVanaf hier volg je de loop van de rivier de Lesse. De wandeling voert je door prachtige natuur met als hoogtepunten:\n\n- **De hoge spoorwegbrug** - Halverwege steek je 2 keer over via deze indrukwekkende brug. Perfect veilig en een geweldige ervaring voor kinderen.\n- **Strand van Walzin** - Hier kun je even stoppen om te picknicken of de kinderen te laten spelen aan het water.\n- **Voetgangersbrug** - Een schilderachtige oversteek die je terugbrengt naar de andere oever.\n\n## Praktische tips\n\n- Neem voldoende water en snacks mee\n- Bij warm weer kunnen de kinderen met hun voeten in het water\n- De route is grotendeels vlak en goed begaanbaar\n- Eindig met een ijsje uit de supermarkt met uitzicht op Dinant!",
+        "routeSteps": [
+          "Neem de trein in Dinant station Anseremme",
+          "Stap uit in Gendron (5 min)",
+          "Volg de Lesse richting Dinant",
+          "Steek over via de hoge spoorwegbrug",
+          "Passeer het strand van Walzin",
+          "Steek over via de voetgangersbrug",
+          "Aankomst in Dinant"
+        ]
+      },
+      "treinwandeling-houyet-gendron": {
+        "title": "Treinwandeling Houyet - Gendron",
+        "description": "Avontuurlijke wandeling met klimmen en klauteren door het bos.",
+        "highlights": ["Rotsformaties", "Bospad", "Rivier de Lesse"],
+        "fullDescription": "Een uitdagendere variant voor wie van avontuur houdt."
+      },
+      "wandeling-rond-malvoisin": {
+        "title": "Wandeling rond Malvoisin",
+        "description": "Rustige dorpswandeling met prachtige vergezichten.",
+        "highlights": ["Dorpskerk", "Weilanden", "Panorama"],
+        "fullDescription": "Een rustige wandeling vanuit ons eigen dorp."
+      }
+    },
+    "cycling": {
+      "ravel-dinant-givet": {
+        "title": "RAVeL fietspad Dinant - Givet",
+        "description": "Vlak fietspad langs de Maas, perfect voor families.",
+        "fullDescription": "Het RAVeL-netwerk biedt prachtige, autovrije fietspaden langs de Maas."
+      },
+      "mountainbike-beauraing": {
+        "title": "Mountainbike parcours Beauraing",
+        "description": "Uitdagende routes door de bossen van de Ardennen.",
+        "fullDescription": "Voor de sportieve fietser zijn er diverse mountainbike routes."
+      },
+      "fietsverhuur-dinant": {
+        "title": "Fietsverhuur Dinant",
+        "description": "Elektrische fietsen en mountainbikes te huur.",
+        "fullDescription": "Geen eigen fiets mee? In Dinant kun je fietsen huren."
+      }
+    },
+    "attractions": {
+      "dinant": {
+        "title": "Dinant",
+        "description": "Pittoresk stadje aan de Maas met citadel en collegiale kerk.",
+        "highlights": ["Citadel", "Kabelbaan", "Adolphe Sax"],
+        "fullDescription": "Dinant is de dichtstbijzijnde stad en biedt een perfecte daguitstap."
+      },
+      "grotten-van-han": {
+        "title": "Grotten van Han",
+        "description": "Spectaculaire grotten en dierenpark.",
+        "highlights": ["Grottenbezoek", "Safari", "Speeltuin"],
+        "fullDescription": "Een must-see voor elk bezoek aan de Ardennen."
+      },
+      "kasteel-bouillon": {
+        "title": "Kasteel van Bouillon",
+        "description": "Middeleeuws kasteel met roofvogelshow.",
+        "highlights": ["Roofvogels", "Middeleeuwse sfeer", "Semois vallei"],
+        "fullDescription": "Stap terug in de tijd in dit imposante middeleeuwse kasteel."
+      },
+      "abdij-maredsous": {
+        "title": "Abdij van Maredsous",
+        "description": "Benedictijner abdij met beroemde kaas en bieren.",
+        "highlights": ["Abdijkaas", "Trappistenbier", "Boekhandel"],
+        "fullDescription": "Een oase van rust met heerlijke streekproducten."
+      }
+    },
+    "restaurants": {
+      "restaurant-placeholder-1": {
+        "title": "Restaurant Placeholder 1",
+        "cuisine": "Belgische keuken",
+        "description": "Gezellig restaurant met lokale specialiteiten.",
+        "fullDescription": "Placeholder voor echt restaurant."
+      },
+      "restaurant-placeholder-2": {
+        "title": "Restaurant Placeholder 2",
+        "cuisine": "Frans",
+        "description": "Gastronomisch restaurant met terras.",
+        "fullDescription": "Placeholder voor echt restaurant."
+      },
+      "brasserie-placeholder": {
+        "title": "Brasserie Placeholder",
+        "cuisine": "Brasserie",
+        "description": "Casual eten met kindermenus.",
+        "fullDescription": "Placeholder voor echte brasserie."
+      }
+    },
+    "shops": {
+      "bakkerij-placeholder": {
+        "title": "Bakkerij Placeholder",
+        "description": "Verse broodjes en gebak.",
+        "fullDescription": "Placeholder voor echte bakkerij."
+      },
+      "supermarkt-delhaize": {
+        "title": "Supermarkt Delhaize",
+        "description": "Grote supermarkt met alles wat je nodig hebt.",
+        "fullDescription": "De dichtstbijzijnde grote supermarkt."
+      },
+      "slagerij-placeholder": {
+        "title": "Slagerij Placeholder",
+        "description": "Lokaal vlees en charcuterie.",
+        "fullDescription": "Placeholder voor echte slagerij."
+      },
+      "boerderijwinkel-placeholder": {
+        "title": "Boerderijwinkel Placeholder",
+        "description": "Verse groenten, eieren en zuivel.",
+        "fullDescription": "Placeholder voor echte hoevewinkel."
+      }
+    }
+  }
 }
