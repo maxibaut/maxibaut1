@@ -59,6 +59,10 @@
       "title": "Zertifiziertes Ferienhaus",
       "description": "Offiziell anerkannt und zertifiziert von Tourismus Wallonien. Ihre Garantie für Qualität und Zuverlässigkeit."
     },
+    "ventilation": {
+      "title": "Leise Zentrallüftung",
+      "description": "Alle Badezimmer sind mit leiser Zentrallüftung ausgestattet. Optimale Luftqualität ohne störende Geräusche."
+    },
     "viewAll": "Mehr entdecken"
   },
   "whyBookDirect": {
