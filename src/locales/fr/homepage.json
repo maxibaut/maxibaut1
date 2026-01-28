@@ -59,6 +59,10 @@
       "title": "Gîte Certifié",
       "description": "Officiellement reconnu et certifié par le Tourisme de Wallonie. Votre garantie de qualité et de fiabilité."
     },
+    "ventilation": {
+      "title": "Ventilation Centrale Silencieuse",
+      "description": "Toutes les salles de bain sont équipées d'une ventilation centrale silencieuse. Qualité d'air optimale sans bruit gênant."
+    },
     "viewAll": "Découvrir plus"
   },
   "whyBookDirect": {

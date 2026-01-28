@@ -2,7 +2,7 @@ import { PageWrapper } from '@/components/layout';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
-import { Sparkles, ChefHat, TreePine, Table, Gamepad2, Car, Check, ArrowRight, Bed, ClipboardCheck, UtensilsCrossed, Home, Zap, Leaf, Award } from 'lucide-react';
+import { Sparkles, ChefHat, TreePine, Table, Gamepad2, Car, Check, ArrowRight, Bed, ClipboardCheck, UtensilsCrossed, Home, Zap, Leaf, Award, Fan } from 'lucide-react';
 import { 
   bedroomQuietLuxury, 
   kitchen, 
@@ -197,6 +197,20 @@ const Differentiators = () => {
         'Betrouwbaarheid verzekerd',
       ],
       reverse: false,
+    },
+    {
+      id: 'ventilation',
+      icon: Fan,
+      title: t('differentiators.ventilation.title'),
+      description: t('differentiators.ventilation.description'),
+      image: bedroomQuietLuxury, // Placeholder - replace with bathroom photo
+      features: [
+        'Stille centrale ventilatie',
+        'In alle badkamers',
+        'Optimale luchtkwaliteit',
+        'Geen storend geluid',
+      ],
+      reverse: true,
     },
   ];
 
