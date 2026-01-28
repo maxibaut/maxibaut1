@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { Check, Shield, Calendar, ArrowRight, Phone, Mail } from 'lucide-react';
+import { heroMain } from '@/assets/property';
 
 const Booking = () => {
   const { t } = useTranslation('booking');
@@ -41,7 +42,7 @@ const Booking = () => {
 
             <div className="aspect-[4/3] rounded-lg overflow-hidden shadow-lg">
               <img
-                src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=1200&auto=format&fit=crop"
+                src={heroMain}
                 alt="ArdenNest property"
                 className="w-full h-full object-cover"
               />
