@@ -11,7 +11,7 @@ export const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           {/* Brand & Description */}
           <div className="space-y-4">
-            <h3 className="font-serif text-2xl font-semibold">ArdenNest</h3>
+            <h3 className="font-serif text-2xl font-semibold">Arden'Nest</h3>
             <p className="text-primary-foreground/80 leading-relaxed">
               Quiet luxury voor momenten samen. Al 22 jaar verwelkomen wij families in de Ardennen.
             </p>
