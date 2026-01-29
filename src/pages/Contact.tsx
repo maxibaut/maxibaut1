@@ -30,7 +30,6 @@ import {
   MapPin,
   Clock,
   Car,
-  PlugZap,
   ArrowRight,
   Users,
   Wifi,
@@ -39,6 +38,7 @@ import {
   MegaphoneOff,
 } from 'lucide-react';
 import hostBieke from '@/assets/property/host-bieke.jpg';
+import evChargingIcon from '@/assets/icons/ev-charging.png';
 
 const contactSchema = z.object({
   name: z.string().trim().min(1, 'Naam is verplicht').max(100),
@@ -289,10 +289,10 @@ const Contact = () => {
                   <span className="text-xs text-gray-600 mt-1">{t('practical.amenities.guests')}</span>
                 </div>
 
-                {/* Oplaadpunt - allowed */}
+                {/* Oplaadpunt EV - allowed */}
                 <div className="flex flex-col items-center">
                   <div className="bg-emerald-50 rounded-full p-2">
-                    <PlugZap className="h-6 w-6 text-emerald-600" />
+                    <img src={evChargingIcon} alt="EV Charging" className="h-6 w-6" />
                   </div>
                   <span className="text-xs text-gray-600 mt-1">{t('practical.amenities.charging')}</span>
                 </div>
