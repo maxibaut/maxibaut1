@@ -154,10 +154,10 @@
       }
     },
     "shops": {
-      "bakkerij-placeholder": {
-        "title": "Bäckerei Platzhalter",
-        "description": "Frische Brötchen und Gebäck.",
-        "fullDescription": "Platzhalter für echte Bäckerei."
+      "boulangerie-dumont": {
+        "title": "Boulangerie Dumont",
+        "description": "Handwerkliche Bäckerei in Vencimont mit frischem Brot, Gebäck und Kuchen. Online-Bestellung möglich mit 3% Rabatt.",
+        "fullDescription": "Die Boulangerie Dumont in Vencimont ist eine echte handwerkliche Bäckerei, wo Sie köstliches frisches Brot, Gebäck und Festtagstorten finden.\n\n## Was erwartet Sie?\n\nDiese Familienbäckerei bietet ein umfangreiches Sortiment:\n\n- **Boulangerie** - Frisches Brot in allen Varianten, von klassischen Brötchen bis zu rustikalen Landbroten\n- **Pâtisserie** - Feines Gebäck und Törtchen, perfekt zum Kaffee\n- **Gâteaux** - Wunderschöne Kuchen für Geburtstage und Feste\n- **Saisonale Produkte** - Besondere Produkte für Feiertage\n\n## Online bestellen\n\nPraktisch: Sie können Ihre Bestellung online über die Website aufgeben und erhalten 3% Rabatt. Heute bestellen, morgen abholen!\n\n## Brotautomat\n\nAuch praktisch: Es gibt einen Brotautomaten mit frischem Brot, verfügbar am Dienstag, Mittwoch, Freitag, Samstag und Sonntag.\n\n## Abholpunkte\n\nKommen Sie nicht nach Vencimont? Sie können Ihre Bestellung auch abholen bei:\n- Proxy Delhaize Pondrôme\n- Total Tankstelle Pondrôme\n\n## Öffnungszeiten\n\nDas Geschäft ist montags, dienstags und donnerstags geschlossen. An den anderen Tagen ist die Bäckerei geöffnet und frisches Brot wird in den Automaten gelegt.\n\n## Von ArdenNest\n\nDie Bäckerei liegt in Vencimont, etwa 10 Autominuten entfernt. Perfekt zu kombinieren mit einem Besuch bei der Metzgerei Aux Délices de la Houille im selben Dorf!"
       },
       "proxy-delhaize-gedinne": {
         "title": "Proxy Delhaize Gedinne",

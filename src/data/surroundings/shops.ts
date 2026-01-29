@@ -18,10 +18,15 @@ import auxDelices06 from '@/assets/shops/aux-delices-houille-06.jpg';
 export const shops: ShopItem[] = [
   {
     id: 1,
-    slug: 'bakkerij-placeholder',
+    slug: 'boulangerie-dumont',
     category: 'shops',
     shopType: 'bakery',
-    distance: '5 min',
+    distance: '10 min',
+    externalUrl: 'https://www.boulangeriedumont.be/',
+    coordinates: {
+      lat: 50.0500,
+      lng: 4.9333,
+    },
     images: [],
   },
   {

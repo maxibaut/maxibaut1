@@ -155,10 +155,10 @@
       }
     },
     "shops": {
-      "bakkerij-placeholder": {
-        "title": "Bakkerij Placeholder",
-        "description": "Verse broodjes en gebak.",
-        "fullDescription": "Placeholder voor echte bakkerij."
+      "boulangerie-dumont": {
+        "title": "Boulangerie Dumont",
+        "description": "Ambachtelijke bakkerij in Vencimont met vers brood, patisserie en taarten. Online bestellen mogelijk met 3% korting.",
+        "fullDescription": "Boulangerie Dumont in Vencimont is een echte ambachtelijke bakkerij waar je terecht kunt voor heerlijk vers brood, patisserie en feesttaarten.\n\n## Wat kun je verwachten?\n\nDeze familiebakkerij biedt een uitgebreid assortiment:\n\n- **Boulangerie** - Vers brood in allerlei variaties, van klassieke pistolets tot rustieke landbroden\n- **Pâtisserie** - Fijne gebakjes en taartjes, perfect voor bij de koffie\n- **Gâteaux** - Prachtige taarten voor verjaardagen en feesten\n- **Seizoensproducten** - Speciale producten voor feestdagen\n\n## Online bestellen\n\nHandig: je kunt je bestelling online plaatsen via hun website en krijgt dan 3% korting. Bestel vandaag, haal morgen op!\n\n## Broodautomaat\n\nOok handig: er is een broodautomaat met vers brood, beschikbaar op dinsdag, woensdag, vrijdag, zaterdag en zondag.\n\n## Afhaalpunten\n\nKun je niet naar Vencimont? Je kunt je bestelling ook afhalen bij:\n- Proxy Delhaize Pondrôme\n- Station Total Pondrôme\n\n## Openingstijden\n\nDe winkel is gesloten op maandag, dinsdag en donderdag. De andere dagen is de bakkerij open en wordt er vers brood in de automaat geplaatst.\n\n## Vanuit ArdenNest\n\nDe bakkerij ligt in Vencimont, op ongeveer 10 minuten rijden. Perfect te combineren met een bezoek aan de slagerij Aux Délices de la Houille in hetzelfde dorp!"
       },
       "proxy-delhaize-gedinne": {
         "title": "Proxy Delhaize Gedinne",
