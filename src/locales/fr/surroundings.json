@@ -155,10 +155,10 @@
       }
     },
     "shops": {
-      "bakkerij-placeholder": {
-        "title": "Boulangerie Placeholder",
-        "description": "Petits pains frais et pâtisseries.",
-        "fullDescription": "Placeholder pour vraie boulangerie."
+      "boulangerie-dumont": {
+        "title": "Boulangerie Dumont",
+        "description": "Boulangerie artisanale à Vencimont avec pain frais, pâtisserie et gâteaux. Commande en ligne possible avec 3% de réduction.",
+        "fullDescription": "La Boulangerie Dumont à Vencimont est une véritable boulangerie artisanale où vous trouverez de délicieux pains frais, pâtisseries et gâteaux de fête.\n\n## Qu'est-ce qui vous attend?\n\nCette boulangerie familiale propose un large assortiment:\n\n- **Boulangerie** - Pain frais dans toutes les variétés, des petits pains classiques aux pains de campagne rustiques\n- **Pâtisserie** - Fins gâteaux et tartes, parfaits pour accompagner le café\n- **Gâteaux** - Magnifiques gâteaux pour anniversaires et fêtes\n- **Produits de saison** - Spécialités pour les fêtes\n\n## Commande en ligne\n\nPratique: vous pouvez passer votre commande en ligne via leur site web et bénéficier de 3% de réduction. Commandez aujourd'hui, retirez demain!\n\n## Distributeur de pain\n\nÉgalement pratique: un distributeur de pain frais est disponible les mardi, mercredi, vendredi, samedi et dimanche.\n\n## Points de retrait\n\nVous ne pouvez pas aller à Vencimont? Vous pouvez aussi retirer votre commande à:\n- Proxy Delhaize Pondrôme\n- Station Total Pondrôme\n\n## Heures d'ouverture\n\nLe magasin est fermé les lundi, mardi et jeudi. Les autres jours, la boulangerie est ouverte et du pain frais est placé dans le distributeur.\n\n## Depuis ArdenNest\n\nLa boulangerie se trouve à Vencimont, à environ 10 minutes en voiture. Parfait à combiner avec une visite à la boucherie Aux Délices de la Houille dans le même village!"
       },
       "proxy-delhaize-gedinne": {
         "title": "Proxy Delhaize Gedinne",

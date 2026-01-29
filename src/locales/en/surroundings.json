@@ -154,10 +154,10 @@
       }
     },
     "shops": {
-      "bakkerij-placeholder": {
-        "title": "Bakery Placeholder",
-        "description": "Fresh rolls and pastries.",
-        "fullDescription": "Placeholder for real bakery."
+      "boulangerie-dumont": {
+        "title": "Boulangerie Dumont",
+        "description": "Artisan bakery in Vencimont with fresh bread, pastries and cakes. Online ordering available with 3% discount.",
+        "fullDescription": "Boulangerie Dumont in Vencimont is a genuine artisan bakery where you can find delicious fresh bread, pastries and celebration cakes.\n\n## What can you expect?\n\nThis family bakery offers an extensive range:\n\n- **Boulangerie** - Fresh bread in all varieties, from classic rolls to rustic country loaves\n- **Pâtisserie** - Fine pastries and tarts, perfect with coffee\n- **Gâteaux** - Beautiful cakes for birthdays and celebrations\n- **Seasonal products** - Special items for holidays\n\n## Online ordering\n\nConvenient: you can place your order online via their website and receive 3% discount. Order today, collect tomorrow!\n\n## Bread vending machine\n\nAlso handy: there's a bread vending machine with fresh bread, available on Tuesday, Wednesday, Friday, Saturday and Sunday.\n\n## Collection points\n\nCan't make it to Vencimont? You can also collect your order at:\n- Proxy Delhaize Pondrôme\n- Total Station Pondrôme\n\n## Opening hours\n\nThe shop is closed on Monday, Tuesday and Thursday. Other days the bakery is open and fresh bread is placed in the vending machine.\n\n## From ArdenNest\n\nThe bakery is in Vencimont, about 10 minutes drive. Perfect to combine with a visit to the butcher Aux Délices de la Houille in the same village!"
       },
       "proxy-delhaize-gedinne": {
         "title": "Proxy Delhaize Gedinne",
