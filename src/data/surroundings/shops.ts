@@ -7,6 +7,12 @@ import proxyDelhaize03 from '@/assets/shops/proxy-delhaize-gedinne-03.webp';
 import intermarche01 from '@/assets/shops/intermarche-gedinne-01.jpg';
 import intermarche02 from '@/assets/shops/intermarche-gedinne-02.png';
 import intermarche03 from '@/assets/shops/intermarche-gedinne-03.png';
+import auxDelices01 from '@/assets/shops/aux-delices-houille-01.jpg';
+import auxDelices02 from '@/assets/shops/aux-delices-houille-02.jpg';
+import auxDelices03 from '@/assets/shops/aux-delices-houille-03.jpg';
+import auxDelices04 from '@/assets/shops/aux-delices-houille-04.jpg';
+import auxDelices05 from '@/assets/shops/aux-delices-houille-05.jpg';
+import auxDelices06 from '@/assets/shops/aux-delices-houille-06.jpg';
 
 export const shops: ShopItem[] = [
   {
@@ -44,12 +50,17 @@ export const shops: ShopItem[] = [
     images: [intermarche01, intermarche02, intermarche03],
   },
   {
-    id: 3,
-    slug: 'slagerij-placeholder',
+    id: 6,
+    slug: 'aux-delices-de-la-houille',
     category: 'shops',
     shopType: 'butcher',
-    distance: '8 min',
-    images: [],
+    distance: '10 min',
+    externalUrl: 'https://www.auxdelicesdelahouille.be/',
+    coordinates: {
+      lat: 50.0833,
+      lng: 4.8500,
+    },
+    images: [auxDelices01, auxDelices02, auxDelices03, auxDelices04, auxDelices05, auxDelices06],
   },
   {
     id: 4,
