@@ -322,18 +322,30 @@ const SurroundingsDetail = () => {
                     const items = paragraph.split('\n');
                     return (
                       <ul key={idx} className="space-y-2 my-4">
-                        {items.map((item, itemIdx) => (
-                          <li key={itemIdx} className="text-muted-foreground">
-                            {item.replace(/^- \*\*(.*?)\*\*/, '<strong>$1</strong>').replace('- ', '')}
-                          </li>
-                        ))}
+                        {items.map((listItem, itemIdx) => {
+                          // Convert **text** to <strong>text</strong>
+                          const formattedText = listItem
+                            .replace('- ', '')
+                            .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+                          return (
+                            <li 
+                              key={itemIdx} 
+                              className="text-muted-foreground"
+                              dangerouslySetInnerHTML={{ __html: formattedText }}
+                            />
+                          );
+                        })}
                       </ul>
                     );
                   }
+                  // Handle regular paragraphs with potential bold text
+                  const formattedParagraph = paragraph.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
                   return (
-                    <p key={idx} className="text-muted-foreground leading-relaxed">
-                      {paragraph}
-                    </p>
+                    <p 
+                      key={idx} 
+                      className="text-muted-foreground leading-relaxed"
+                      dangerouslySetInnerHTML={{ __html: formattedParagraph }}
+                    />
                   );
                 })}
               </div>
