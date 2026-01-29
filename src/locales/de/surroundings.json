@@ -159,10 +159,10 @@
         "description": "Frische Brötchen und Gebäck.",
         "fullDescription": "Platzhalter für echte Bäckerei."
       },
-      "supermarkt-delhaize": {
-        "title": "Supermarkt Delhaize",
-        "description": "Großer Supermarkt mit allem was Sie brauchen.",
-        "fullDescription": "Der nächste große Supermarkt."
+      "proxy-delhaize-gedinne": {
+        "title": "Proxy Delhaize Gedinne",
+        "description": "Nachbarschaftsladen mit umfangreichem Sortiment, 7 Tage die Woche geöffnet.",
+        "fullDescription": "Der Proxy Delhaize in Gedinne ist unser nächster Supermarkt und hat wirklich alles, was Sie für Ihren Aufenthalt brauchen.\n\n## Was erwartet Sie?\n\nDieser Nachbarschaftsladen kombiniert den Komfort eines Supermarkts mit dem persönlichen Service eines Dorfladens. Sie finden:\n\n- **Frisches Brot und Gebäck** - Täglich frisch aus dem Ofen\n- **Gemüse und Obst** - Große Auswahl an frischen Produkten\n- **Fleisch und Wurstwaren** - Inklusive lokaler Spezialitäten\n- **Getränke** - Belgische Biere, Wein und Erfrischungsgetränke\n- **Täglicher Bedarf** - Alles für Frühstück, Mittagessen und Abendessen\n\n## Öffnungszeiten\n\nDer Laden ist 7 Tage die Woche geöffnet, auch sonntags! Ideal, wenn Sie etwas vergessen haben oder spontan grillen möchten.\n\n## Von ArdenNest\n\nDer Proxy Delhaize liegt nur 5 Autominuten im Zentrum von Gedinne. Einfach mit anderen Einkäufen im Dorf zu kombinieren."
       },
       "slagerij-placeholder": {
         "title": "Metzgerei Platzhalter",

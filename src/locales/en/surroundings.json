@@ -159,10 +159,10 @@
         "description": "Fresh rolls and pastries.",
         "fullDescription": "Placeholder for real bakery."
       },
-      "supermarkt-delhaize": {
-        "title": "Delhaize Supermarket",
-        "description": "Large supermarket with everything you need.",
-        "fullDescription": "The nearest large supermarket."
+      "proxy-delhaize-gedinne": {
+        "title": "Proxy Delhaize Gedinne",
+        "description": "Neighborhood store with extensive range, open 7 days a week.",
+        "fullDescription": "The Proxy Delhaize in Gedinne is our nearest supermarket and has everything you need for your stay.\n\n## What can you expect?\n\nThis neighborhood store combines supermarket convenience with personal village shop service. You'll find:\n\n- **Fresh bread and pastries** - Fresh from the oven daily\n- **Vegetables and fruit** - Wide choice of fresh products\n- **Meat and charcuterie** - Including local specialties\n- **Drinks** - Belgian beers, wine and soft drinks\n- **Daily groceries** - Everything for breakfast, lunch and dinner\n\n## Opening hours\n\nThe shop is open 7 days a week, including Sunday! Ideal if you've forgotten something or want a spontaneous barbecue.\n\n## From ArdenNest\n\nThe Proxy Delhaize is just 5 minutes drive in the center of Gedinne. Easy to combine with other shopping in the village."
       },
       "slagerij-placeholder": {
         "title": "Butcher Placeholder",
