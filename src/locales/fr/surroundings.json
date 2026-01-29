@@ -175,15 +175,10 @@
         "description": "Boucherie artisanale qui transforme, fume et sale tout elle-même. Entreprise familiale depuis 1972.",
         "fullDescription": "Aux Délices de la Houille à Vencimont n'est pas une boucherie ordinaire. Cette entreprise familiale fabrique depuis 1972 de la charcuterie artisanale et est spécialisée dans les salaisons.\n\n## Qu'est-ce qui rend cette boucherie spéciale?\n\nIci, on ne vend que ce qu'on fabrique. De la ferme au comptoir, ils contrôlent chaque étape du processus:\n\n- **Salaisons maison** - Spécialités fumées et salées, la fierté de la maison\n- **Charcuterie artisanale** - Pâtés, terrines et saucisses selon des recettes traditionnelles\n- **Viande fraîche** - Viande de qualité provenant de fermes locales\n- **Produits de saison** - Viandes pour barbecue en été, gibier en automne\n\n## La passion d'un artisan\n\nDès que vous entrez, vous voyez la différence avec une boucherie ordinaire. Les saucissons suspendus, les jambons fumés, les produits soigneusement préparés - ici, vous goûtez le savoir-faire.\n\n## Heures d'ouverture\n\nOuvert du mercredi au samedi, 9h-12h et 14h-18h. Fermé dimanche, lundi et mardi.\n\n## Depuis ArdenNest\n\nLa boucherie se trouve à Vencimont, à environ 10 minutes en voiture. Une visite vaut le détour, surtout si vous aimez la viande de qualité et la charcuterie artisanale."
       },
-      "slagerij-placeholder": {
-        "title": "Boucherie Placeholder",
-        "description": "Viande locale et charcuterie.",
-        "fullDescription": "Placeholder pour vraie boucherie."
-      },
-      "boerderijwinkel-placeholder": {
-        "title": "Ferme Placeholder",
-        "description": "Légumes frais, œufs et produits laitiers.",
-        "fullDescription": "Placeholder pour vraie ferme."
+      "terracines": {
+        "title": "Terracines",
+        "description": "Potager bio avec magasin de ferme à Beauraing. Légumes frais de saison directement du champ à votre assiette.",
+        "fullDescription": "Terracines à Beauraing est un magnifique potager biologique où vous pouvez acheter les légumes les plus frais directement du champ.\n\n## De la graine à votre assiette\n\nLeur devise dit tout: 'De la graine à votre assiette'. Tout pousse avec soin et attention, sans pesticides, en harmonie avec les saisons.\n\n## Qu'est-ce qui vous attend?\n\nL'offre change avec les saisons:\n\n- **Printemps** - Premières salades, radis, épinards et herbes fraîches\n- **Été** - Tomates de toutes les couleurs, courgettes, haricots, poivrons\n- **Automne** - Courges, poireaux, choux, carottes\n- **Hiver** - Légumes d'hiver et légumes de conservation\n\n## Trois façons d'acheter\n\n- **Samedi (9h30-13h30)** - Le grand marché avec un bel étalage\n- **Mercredi (10h-16h)** - Vrac & fraîcheur: servez-vous directement dans les caisses de récolte\n- **Jeudi/vendredi (9h-19h)** - Retrait sur commande\n\n## Commande en ligne\n\nVous pouvez aussi passer votre commande en ligne via leur site web. Pratique si vous voulez être sûr d'avoir vos légumes préférés!\n\n## Attention: pause hivernale\n\nLe jardin se repose en hiver (fermé jusqu'en avril). Consultez le site web pour les horaires actuels.\n\n## Depuis ArdenNest\n\nTerracines se trouve à Beauraing, à environ 15 minutes en voiture. Une visite vaut le détour pour tous ceux qui aiment les légumes frais et honnêtes!"
       }
     }
   }
