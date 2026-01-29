@@ -30,7 +30,7 @@ import {
   MapPin,
   Clock,
   Car,
-  Plug,
+  PlugZap,
   ArrowRight,
   Users,
   Wifi,
@@ -292,7 +292,7 @@ const Contact = () => {
                 {/* Oplaadpunt - allowed */}
                 <div className="flex flex-col items-center">
                   <div className="bg-emerald-50 rounded-full p-2">
-                    <Plug className="h-6 w-6 text-emerald-600" />
+                    <PlugZap className="h-6 w-6 text-emerald-600" />
                   </div>
                   <span className="text-xs text-gray-600 mt-1">{t('practical.amenities.charging')}</span>
                 </div>
