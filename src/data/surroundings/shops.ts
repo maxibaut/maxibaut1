@@ -60,7 +60,7 @@ export const shops: ShopItem[] = [
       lat: 50.0833,
       lng: 4.8500,
     },
-    images: [auxDelices02, auxDelices01, auxDelices03, auxDelices04, auxDelices05, auxDelices06],
+    images: [auxDelices01, auxDelices02, auxDelices03, auxDelices04, auxDelices05, auxDelices06],
   },
   {
     id: 4,
