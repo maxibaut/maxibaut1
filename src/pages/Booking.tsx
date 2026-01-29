@@ -91,7 +91,7 @@ const Booking = () => {
                 </a>
               </Button>
               <Button asChild variant="outline" size="lg">
-                <a href="mailto:info@ardennest.be">
+                <a href="mailto:bieke@ardennest.be">
                   <Mail className="mr-2 h-5 w-5" />
                   Mail ons
                 </a>
