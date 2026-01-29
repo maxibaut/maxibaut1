@@ -14,6 +14,10 @@ import auxDelices03 from '@/assets/shops/aux-delices-houille-03.jpg';
 import auxDelices04 from '@/assets/shops/aux-delices-houille-04.jpg';
 import auxDelices05 from '@/assets/shops/aux-delices-houille-05.jpg';
 import auxDelices06 from '@/assets/shops/aux-delices-houille-06.jpg';
+import boulangerieDumont01 from '@/assets/shops/boulangerie-dumont-01.jpg';
+import boulangerieDumont02 from '@/assets/shops/boulangerie-dumont-02.jpg';
+import boulangerieDumont03 from '@/assets/shops/boulangerie-dumont-03.jpg';
+import boulangerieDumont04 from '@/assets/shops/boulangerie-dumont-04.jpg';
 
 export const shops: ShopItem[] = [
   {
@@ -27,7 +31,7 @@ export const shops: ShopItem[] = [
       lat: 50.0500,
       lng: 4.9333,
     },
-    images: [],
+    images: [boulangerieDumont01, boulangerieDumont02, boulangerieDumont03, boulangerieDumont04],
   },
   {
     id: 2,
