@@ -5,6 +5,8 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Check, Shield, Calendar, ArrowRight, Phone, Mail } from "lucide-react";
 import { heroMain } from "@/assets/property";
+import hostBieke from "@/assets/property/host-bieke.jpg";
+import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 
 const Booking = () => {
   const { t } = useTranslation("booking");
@@ -81,19 +83,26 @@ const Booking = () => {
       <section className="section-padding bg-background">
         <div className="container-luxury">
           <div className="max-w-3xl mx-auto text-center">
+            {/* Bieke's Avatar */}
+            <div className="flex justify-center mb-6">
+              <Avatar className="h-24 w-24 border-4 border-primary/10 shadow-lg">
+                <AvatarImage src={hostBieke} alt="Bieke" className="object-cover" />
+                <AvatarFallback>B</AvatarFallback>
+              </Avatar>
+            </div>
             <h2 className="heading-2 mb-4">{t("preferTalk.title")}</h2>
             <p className="body-large text-muted-foreground mb-8">{t("preferTalk.description")}</p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <Button asChild variant="outline" size="lg">
                 <a href="tel:+32478030352">
                   <Phone className="mr-2 h-5 w-5" />
-                  Bel ons
+                  Bel Bieke
                 </a>
               </Button>
               <Button asChild variant="outline" size="lg">
                 <a href="mailto:bieke@ardennest.be">
                   <Mail className="mr-2 h-5 w-5" />
-                  Mail ons
+                  Mail Bieke
                 </a>
               </Button>
               <Button asChild size="lg">
