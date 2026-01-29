@@ -1,5 +1,6 @@
 import { ShopItem } from './types';
 
+import proxyDelhaize00 from '@/assets/shops/proxy-delhaize-gedinne-00.webp';
 import proxyDelhaize01 from '@/assets/shops/proxy-delhaize-gedinne-01.webp';
 import proxyDelhaize02 from '@/assets/shops/proxy-delhaize-gedinne-02.webp';
 import proxyDelhaize03 from '@/assets/shops/proxy-delhaize-gedinne-03.webp';
@@ -24,7 +25,7 @@ export const shops: ShopItem[] = [
       lat: 49.9891,
       lng: 4.9371,
     },
-    images: [proxyDelhaize01, proxyDelhaize02, proxyDelhaize03],
+    images: [proxyDelhaize00, proxyDelhaize02, proxyDelhaize03, proxyDelhaize01],
   },
   {
     id: 3,
