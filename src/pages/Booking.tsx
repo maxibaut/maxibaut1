@@ -1,24 +1,24 @@
-import { PageWrapper } from '@/components/layout';
-import { useTranslation } from 'react-i18next';
-import { Link } from 'react-router-dom';
-import { Button } from '@/components/ui/button';
-import { Card, CardContent } from '@/components/ui/card';
-import { Check, Shield, Calendar, ArrowRight, Phone, Mail } from 'lucide-react';
-import { heroMain } from '@/assets/property';
+import { PageWrapper } from "@/components/layout";
+import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
+import { Button } from "@/components/ui/button";
+import { Card, CardContent } from "@/components/ui/card";
+import { Check, Shield, Calendar, ArrowRight, Phone, Mail } from "lucide-react";
+import { heroMain } from "@/assets/property";
 
 const Booking = () => {
-  const { t } = useTranslation('booking');
+  const { t } = useTranslation("booking");
 
-  const benefits = t('whyDirect.benefits', { returnObjects: true }) as string[];
-  const afterBookingSteps = t('afterBooking.steps', { returnObjects: true }) as string[];
+  const benefits = t("whyDirect.benefits", { returnObjects: true }) as string[];
+  const afterBookingSteps = t("afterBooking.steps", { returnObjects: true }) as string[];
 
   return (
     <PageWrapper>
       {/* Hero */}
       <section className="bg-primary text-primary-foreground section-padding">
         <div className="container-luxury text-center">
-          <h1 className="heading-display mb-4">{t('title')}</h1>
-          <p className="body-large text-primary-foreground/80">{t('subtitle')}</p>
+          <h1 className="heading-display mb-4">{t("title")}</h1>
+          <p className="body-large text-primary-foreground/80">{t("subtitle")}</p>
         </div>
       </section>
 
@@ -27,7 +27,7 @@ const Booking = () => {
         <div className="container-luxury">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="heading-2 mb-6">{t('whyDirect.title')}</h2>
+              <h2 className="heading-2 mb-6">{t("whyDirect.title")}</h2>
               <ul className="space-y-4">
                 {benefits.map((benefit, index) => (
                   <li key={index} className="flex items-start space-x-3">
@@ -41,11 +41,7 @@ const Booking = () => {
             </div>
 
             <div className="aspect-[4/3] rounded-lg overflow-hidden shadow-lg">
-              <img
-                src={heroMain}
-                alt="ArdenNest property"
-                className="w-full h-full object-cover"
-              />
+              <img src={heroMain} alt="ArdenNest property" className="w-full h-full object-cover" />
             </div>
           </div>
         </div>
@@ -58,24 +54,22 @@ const Booking = () => {
             <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-6">
               <Calendar className="h-8 w-8 text-primary" />
             </div>
-            <h2 className="heading-2 mb-4">{t('availability.title')}</h2>
-            <p className="body-large text-muted-foreground">
-              {t('availability.description')}
-            </p>
+            <h2 className="heading-2 mb-4">{t("availability.title")}</h2>
+            <p className="body-large text-muted-foreground">{t("availability.description")}</p>
           </div>
-          
+
           {/* Beds24 Booking Widget */}
           <div className="max-w-4xl mx-auto bg-background rounded-lg shadow-lg overflow-hidden">
-            <iframe 
-              src="https://beds24.com/booking2.php?propid=28947&referer=iframe" 
-              width="100%" 
-              height="2000" 
-              style={{ maxWidth: '100%', border: 'none', overflow: 'auto' }}
-              title={t('availability.title')}
+            <iframe
+              src="https://beds24.com/booking2.php?propid=28947&referer=iframe"
+              width="100%"
+              height="2000"
+              style={{ maxWidth: "100%", border: "none", overflow: "auto" }}
+              title={t("availability.title")}
             >
               <p>
                 <a href="https://beds24.com/booking2.php?propid=28947&referer=iframe" title="Book Now">
-                  {t('availability.button')}
+                  {t("availability.button")}
                 </a>
               </p>
             </iframe>
@@ -87,13 +81,11 @@ const Booking = () => {
       <section className="section-padding bg-background">
         <div className="container-luxury">
           <div className="max-w-3xl mx-auto text-center">
-            <h2 className="heading-2 mb-4">{t('preferTalk.title')}</h2>
-            <p className="body-large text-muted-foreground mb-8">
-              {t('preferTalk.description')}
-            </p>
+            <h2 className="heading-2 mb-4">{t("preferTalk.title")}</h2>
+            <p className="body-large text-muted-foreground mb-8">{t("preferTalk.description")}</p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <Button asChild variant="outline" size="lg">
-                <a href="tel:+32123456789">
+                <a href="tel:+32478030352">
                   <Phone className="mr-2 h-5 w-5" />
                   Bel ons
                 </a>
@@ -105,7 +97,7 @@ const Booking = () => {
                 </a>
               </Button>
               <Button asChild size="lg">
-                <Link to="/contact">{t('preferTalk.cta')}</Link>
+                <Link to="/contact">{t("preferTalk.cta")}</Link>
               </Button>
             </div>
           </div>
@@ -119,10 +111,8 @@ const Booking = () => {
             <div className="w-16 h-16 rounded-full bg-primary-foreground/10 flex items-center justify-center mx-auto mb-6">
               <Shield className="h-8 w-8 text-gold" />
             </div>
-            <h2 className="heading-2 mb-4">{t('payment.title')}</h2>
-            <p className="body-large text-primary-foreground/80">
-              {t('payment.description')}
-            </p>
+            <h2 className="heading-2 mb-4">{t("payment.title")}</h2>
+            <p className="body-large text-primary-foreground/80">{t("payment.description")}</p>
           </div>
         </div>
       </section>
@@ -131,7 +121,7 @@ const Booking = () => {
       <section className="section-padding bg-cream-dark">
         <div className="container-luxury">
           <div className="max-w-3xl mx-auto">
-            <h2 className="heading-2 text-center mb-12">{t('afterBooking.title')}</h2>
+            <h2 className="heading-2 text-center mb-12">{t("afterBooking.title")}</h2>
             <div className="space-y-6">
               {afterBookingSteps.map((step, index) => (
                 <div key={index} className="flex items-start space-x-4">
