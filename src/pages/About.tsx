@@ -14,9 +14,10 @@ const About = () => {
       {/* Hero */}
       <section className="relative h-[50vh] min-h-[400px] flex items-center justify-center overflow-hidden">
         <div
-          className="absolute inset-0 bg-cover bg-center"
+          className="absolute inset-0 bg-cover"
           style={{
             backgroundImage: `url('${aboutHero}')`,
+            backgroundPosition: 'center 30%',
           }}
         >
           <div className="absolute inset-0 bg-charcoal/50" />
