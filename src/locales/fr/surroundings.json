@@ -160,10 +160,10 @@
         "description": "Petits pains frais et pâtisseries.",
         "fullDescription": "Placeholder pour vraie boulangerie."
       },
-      "supermarkt-delhaize": {
-        "title": "Supermarché Delhaize",
-        "description": "Grand supermarché avec tout ce dont vous avez besoin.",
-        "fullDescription": "Le supermarché le plus proche."
+      "proxy-delhaize-gedinne": {
+        "title": "Proxy Delhaize Gedinne",
+        "description": "Magasin de proximité avec large assortiment, ouvert 7 jours sur 7.",
+        "fullDescription": "Le Proxy Delhaize à Gedinne est notre supermarché le plus proche et a vraiment tout ce dont vous avez besoin pour votre séjour.\n\n## Qu'est-ce qui vous attend?\n\nCe magasin de proximité combine la commodité d'un supermarché avec le service personnalisé d'un magasin de village. Vous y trouverez:\n\n- **Pain frais et pâtisseries** - Frais du four tous les jours\n- **Légumes et fruits** - Large choix de produits frais\n- **Viande et charcuterie** - Y compris des spécialités locales\n- **Boissons** - Bières belges, vin et boissons gazeuses\n- **Courses quotidiennes** - Tout pour le petit-déjeuner, le déjeuner et le dîner\n\n## Heures d'ouverture\n\nLe magasin est ouvert 7 jours sur 7, même le dimanche! Idéal si vous avez oublié quelque chose ou si vous voulez faire un barbecue spontané.\n\n## Depuis ArdenNest\n\nLe Proxy Delhaize se trouve à seulement 5 minutes en voiture dans le centre de Gedinne. Facile à combiner avec d'autres courses dans le village."
       },
       "slagerij-placeholder": {
         "title": "Boucherie Placeholder",

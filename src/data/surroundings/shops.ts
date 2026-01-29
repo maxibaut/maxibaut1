@@ -1,5 +1,9 @@
 import { ShopItem } from './types';
 
+import proxyDelhaize01 from '@/assets/shops/proxy-delhaize-gedinne-01.webp';
+import proxyDelhaize02 from '@/assets/shops/proxy-delhaize-gedinne-02.webp';
+import proxyDelhaize03 from '@/assets/shops/proxy-delhaize-gedinne-03.webp';
+
 export const shops: ShopItem[] = [
   {
     id: 1,
@@ -11,11 +15,16 @@ export const shops: ShopItem[] = [
   },
   {
     id: 2,
-    slug: 'supermarkt-delhaize',
+    slug: 'proxy-delhaize-gedinne',
     category: 'shops',
     shopType: 'supermarket',
-    distance: '10 min',
-    images: [],
+    distance: '5 min',
+    externalUrl: 'https://stores.delhaize.be/nl/proxy-delhaize-gedinne',
+    coordinates: {
+      lat: 49.9891,
+      lng: 4.9371,
+    },
+    images: [proxyDelhaize01, proxyDelhaize02, proxyDelhaize03],
   },
   {
     id: 3,
