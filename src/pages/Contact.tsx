@@ -370,7 +370,7 @@ const Contact = () => {
                   <div>
                     <h4 className="font-medium">{t('practical.location.title')}</h4>
                     <a 
-                      href="https://maps.google.com/maps?q=Rue+de+la+Ferme+3,+5575+Malvoisin,+Belgium"
+                      href="https://www.google.com/maps/search/?api=1&query=Rue+de+la+Ferme+3,+5575+Malvoisin,+Belgium"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="block text-sm text-muted-foreground hover:text-primary transition-colors"
@@ -412,7 +412,7 @@ const Contact = () => {
                     })}
                     <li>
                       <a 
-                        href="https://maps.google.com/maps?daddr=Rue+de+la+Ferme+3,+5575+Malvoisin,+Belgium"
+                        href="https://www.google.com/maps/dir/?api=1&destination=Rue+de+la+Ferme+3,+5575+Malvoisin,+Belgium"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-primary hover:underline flex items-center gap-1"
