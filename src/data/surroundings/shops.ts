@@ -18,6 +18,12 @@ import boulangerieDumont01 from '@/assets/shops/boulangerie-dumont-01.jpg';
 import boulangerieDumont02 from '@/assets/shops/boulangerie-dumont-02.jpg';
 import boulangerieDumont03 from '@/assets/shops/boulangerie-dumont-03.jpg';
 import boulangerieDumont04 from '@/assets/shops/boulangerie-dumont-04.jpg';
+import terracines01 from '@/assets/shops/terracines-01.jpg';
+import terracines02 from '@/assets/shops/terracines-02.jpg';
+import terracines03 from '@/assets/shops/terracines-03.jpg';
+import terracines04 from '@/assets/shops/terracines-04.jpg';
+import terracines05 from '@/assets/shops/terracines-05.jpg';
+import terracines06 from '@/assets/shops/terracines-06.jpg';
 
 export const shops: ShopItem[] = [
   {
@@ -73,11 +79,16 @@ export const shops: ShopItem[] = [
     images: [auxDelices00, auxDelices01, auxDelices02, auxDelices03, auxDelices04, auxDelices05, auxDelices06],
   },
   {
-    id: 4,
-    slug: 'boerderijwinkel-placeholder',
+    id: 7,
+    slug: 'terracines',
     category: 'shops',
     shopType: 'farmshop',
     distance: '15 min',
-    images: [],
+    externalUrl: 'https://www.terracines.be/',
+    coordinates: {
+      lat: 50.0997,
+      lng: 4.9561,
+    },
+    images: [terracines01, terracines02, terracines03, terracines04, terracines05, terracines06],
   },
 ];
