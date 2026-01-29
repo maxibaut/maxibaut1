@@ -7,6 +7,7 @@ import proxyDelhaize03 from '@/assets/shops/proxy-delhaize-gedinne-03.webp';
 import intermarche01 from '@/assets/shops/intermarche-gedinne-01.jpg';
 import intermarche02 from '@/assets/shops/intermarche-gedinne-02.png';
 import intermarche03 from '@/assets/shops/intermarche-gedinne-03.png';
+import auxDelices00 from '@/assets/shops/aux-delices-houille-00.jpg';
 import auxDelices01 from '@/assets/shops/aux-delices-houille-01.jpg';
 import auxDelices02 from '@/assets/shops/aux-delices-houille-02.jpg';
 import auxDelices03 from '@/assets/shops/aux-delices-houille-03.jpg';
@@ -60,7 +61,7 @@ export const shops: ShopItem[] = [
       lat: 50.0833,
       lng: 4.8500,
     },
-    images: [auxDelices01, auxDelices02, auxDelices03, auxDelices04, auxDelices05, auxDelices06],
+    images: [auxDelices00, auxDelices01, auxDelices02, auxDelices03, auxDelices04, auxDelices05, auxDelices06],
   },
   {
     id: 4,
