@@ -1,0 +1,57 @@
+{
+  "pageTitle": "Cancellation Policy",
+  "pageSubtitle": "Our cancellation policy is designed to protect both guests and hosts. Please read the terms and conditions for cancelling your booking below.",
+  "accommodation": "Accommodation",
+  "accommodationValue": "ArdenNest",
+  "website": "Website",
+  "websiteValue": "www.ardennest.be",
+  "operator": "Operator",
+  "operatorValue": "Festina Lente bv",
+  "version": "Version",
+  "versionValue": "January 2025",
+  "downloadButton": "Download PDF",
+  "intro": "At ArdenNest, we understand that plans can change. That's why we maintain a fair and transparent cancellation policy. Below you will find the terms that apply to your booking.",
+  "tiersTitle": "Cancellation Terms",
+  "tiers": [
+    {
+      "period": "More than 60 days before arrival",
+      "refund": "100% refund",
+      "description": "If you cancel more than 60 days before the scheduled arrival date, you will receive a full refund minus €50 administration costs."
+    },
+    {
+      "period": "30 to 60 days before arrival",
+      "refund": "50% refund",
+      "description": "If you cancel between 30 and 60 days before arrival, 50% of the total booking amount will be refunded."
+    },
+    {
+      "period": "14 to 30 days before arrival",
+      "refund": "25% refund",
+      "description": "If you cancel between 14 and 30 days before arrival, 25% of the total booking amount will be refunded."
+    },
+    {
+      "period": "Less than 14 days before arrival",
+      "refund": "No refund",
+      "description": "If you cancel less than 14 days before the scheduled arrival date, no refund is possible."
+    }
+  ],
+  "conditionsTitle": "Additional Conditions",
+  "conditions": [
+    "All cancellations must be submitted in writing via email.",
+    "The date of receipt of the cancellation is the cancellation date.",
+    "In case of early departure during your stay, no refund will be given.",
+    "The security deposit will be refunded within 14 days after departure, provided there is no damage.",
+    "We recommend taking out cancellation insurance.",
+    "In case of no-show (not showing up), the full amount will be charged."
+  ],
+  "forceMajeure": {
+    "title": "Force Majeure",
+    "content": "In case of force majeure (natural disasters, pandemics, government measures making travel impossible), we will work with you to find a suitable solution. This may include: rescheduling the booking to another date or a full refund. ArdenNest reserves the right to decide on a case-by-case basis."
+  },
+  "contact": {
+    "title": "Questions?",
+    "content": "Do you have questions about our cancellation policy or would you like to cancel your booking? Please contact us:",
+    "email": "Email: info@ardennest.be",
+    "phone": "Phone: +32 475 45 85 38"
+  },
+  "signature": "ArdenNest — Your home in the Ardennes"
+}

@@ -1,0 +1,57 @@
+{
+  "pageTitle": "Stornierungsbedingungen",
+  "pageSubtitle": "Unsere Stornierungsbedingungen sind so gestaltet, dass sie sowohl Gäste als auch Vermieter schützen. Bitte lesen Sie unten die Bedingungen für die Stornierung Ihrer Buchung.",
+  "accommodation": "Unterkunft",
+  "accommodationValue": "ArdenNest",
+  "website": "Website",
+  "websiteValue": "www.ardennest.be",
+  "operator": "Betreiber",
+  "operatorValue": "Festina Lente bv",
+  "version": "Version",
+  "versionValue": "Januar 2025",
+  "downloadButton": "PDF herunterladen",
+  "intro": "Bei ArdenNest verstehen wir, dass sich Pläne ändern können. Deshalb pflegen wir eine faire und transparente Stornierungsrichtlinie. Unten finden Sie die Bedingungen, die für Ihre Buchung gelten.",
+  "tiersTitle": "Stornierungsbedingungen",
+  "tiers": [
+    {
+      "period": "Mehr als 60 Tage vor Anreise",
+      "refund": "100% Erstattung",
+      "description": "Bei Stornierung mehr als 60 Tage vor dem geplanten Anreisedatum erhalten Sie eine vollständige Rückerstattung abzüglich 50€ Verwaltungskosten."
+    },
+    {
+      "period": "30 bis 60 Tage vor Anreise",
+      "refund": "50% Erstattung",
+      "description": "Bei Stornierung zwischen 30 und 60 Tagen vor Anreise werden 50% des Gesamtbuchungsbetrags erstattet."
+    },
+    {
+      "period": "14 bis 30 Tage vor Anreise",
+      "refund": "25% Erstattung",
+      "description": "Bei Stornierung zwischen 14 und 30 Tagen vor Anreise werden 25% des Gesamtbuchungsbetrags erstattet."
+    },
+    {
+      "period": "Weniger als 14 Tage vor Anreise",
+      "refund": "Keine Erstattung",
+      "description": "Bei Stornierung weniger als 14 Tage vor dem geplanten Anreisedatum ist keine Rückerstattung möglich."
+    }
+  ],
+  "conditionsTitle": "Zusätzliche Bedingungen",
+  "conditions": [
+    "Alle Stornierungen müssen schriftlich per E-Mail eingereicht werden.",
+    "Das Eingangsdatum der Stornierung gilt als Stornierungsdatum.",
+    "Bei vorzeitiger Abreise während Ihres Aufenthalts erfolgt keine Rückerstattung.",
+    "Die Kaution wird innerhalb von 14 Tagen nach Abreise zurückerstattet, sofern keine Schäden vorliegen.",
+    "Wir empfehlen den Abschluss einer Reiserücktrittsversicherung.",
+    "Bei Nichterscheinen (No-Show) wird der volle Betrag berechnet."
+  ],
+  "forceMajeure": {
+    "title": "Höhere Gewalt",
+    "content": "Im Falle höherer Gewalt (Naturkatastrophen, Pandemien, behördliche Maßnahmen, die Reisen unmöglich machen) werden wir gemeinsam mit Ihnen eine passende Lösung finden. Dies kann bedeuten: Verschiebung der Buchung auf ein anderes Datum oder vollständige Rückerstattung. ArdenNest behält sich das Recht vor, von Fall zu Fall zu entscheiden."
+  },
+  "contact": {
+    "title": "Fragen?",
+    "content": "Haben Sie Fragen zu unseren Stornierungsbedingungen oder möchten Sie Ihre Buchung stornieren? Kontaktieren Sie uns:",
+    "email": "E-Mail: info@ardennest.be",
+    "phone": "Telefon: +32 475 45 85 38"
+  },
+  "signature": "ArdenNest — Ihr Zuhause in den Ardennen"
+}
