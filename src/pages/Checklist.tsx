@@ -21,7 +21,7 @@ const legalDocuments = [
   },
   { 
     key: 'localTips', 
-    path: '/local-tips', 
+    path: '/shops', 
     icon: Store,
   },
   { 
