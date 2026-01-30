@@ -42,5 +42,10 @@
     "fr": "Français",
     "en": "English",
     "de": "Deutsch"
+  },
+  "notFound": {
+    "title": "Dit spoor loopt dood.",
+    "subtitle": "De pagina die je zoekt bestaat niet of is verplaatst.",
+    "backHome": "Terug naar Home"
   }
 }

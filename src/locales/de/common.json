@@ -42,5 +42,10 @@
     "fr": "Français",
     "en": "English",
     "de": "Deutsch"
+  },
+  "notFound": {
+    "title": "Dieses Gleis endet hier.",
+    "subtitle": "Die Seite, die Sie suchen, existiert nicht oder wurde verschoben.",
+    "backHome": "Zurück zur Startseite"
   }
 }
