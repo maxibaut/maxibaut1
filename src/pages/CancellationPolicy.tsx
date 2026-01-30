@@ -56,8 +56,11 @@ const CancellationPolicy = () => {
   const { t, i18n } = useTranslation(['cancellationPolicy', 'common']);
   const location = useLocation();
 
-  const tiers = t('tiers', { returnObjects: true }) as CancellationTier[];
-  const conditions = t('conditions', { returnObjects: true }) as string[];
+  const tiersData = t('tiers', { returnObjects: true });
+  const tiers = Array.isArray(tiersData) ? tiersData as CancellationTier[] : [];
+  
+  const conditionsData = t('conditions', { returnObjects: true });
+  const conditions = Array.isArray(conditionsData) ? conditionsData as string[] : [];
 
   const handleDownloadPDF = () => {
     generateCancellationPolicyPDF(t, i18n.language);
