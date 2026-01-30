@@ -85,7 +85,9 @@
     "questions": [
       {
         "q": "Can we check in earlier?",
-        "a": "The house is being cleaned until 4 PM on arrival day. To allow our cleaning team to work undisturbed, early check-in is unfortunately not possible. But don't worry — the area has plenty to offer to turn the waiting time into the start of your holiday. Check out our early arrival tips."
+        "a": "The house is being cleaned until 4 PM on arrival day. To allow our cleaning team to work undisturbed, early check-in is unfortunately not possible. But don't worry — the area has plenty to offer to turn the waiting time into the start of your holiday.",
+        "link": "/early-arrival",
+        "linkText": "Check out our early arrival tips"
       },
       {
         "q": "How far in advance should I book?",

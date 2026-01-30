@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { PageWrapper } from '@/components/layout';
 import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
 import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { z } from 'zod';
@@ -107,6 +108,8 @@ const Contact = () => {
   const faqQuestions = t('faq.questions', { returnObjects: true }) as Array<{
     q: string;
     a: string;
+    link?: string;
+    linkText?: string;
   }>;
 
   return (
@@ -459,6 +462,17 @@ const Contact = () => {
                 </AccordionTrigger>
                 <AccordionContent className="text-muted-foreground">
                   {faq.a}
+                  {faq.link && faq.linkText && (
+                    <>
+                      {' '}
+                      <Link 
+                        to={faq.link} 
+                        className="text-primary hover:underline font-medium"
+                      >
+                        {faq.linkText} →
+                      </Link>
+                    </>
+                  )}
                 </AccordionContent>
               </AccordionItem>
             ))}

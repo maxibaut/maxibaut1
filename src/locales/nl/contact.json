@@ -85,7 +85,9 @@
     "questions": [
       {
         "q": "Kunnen we eerder inchecken?",
-        "a": "De woning wordt tot 16 uur schoongemaakt op de dag van aankomst. Om onze poetsploeg in alle rust hun werk te laten doen, is eerder inchecken helaas niet mogelijk. Maar geen nood — de omgeving heeft genoeg te bieden om de wachttijd om te toveren tot het begin van jullie vakantie. Bekijk onze tips voor vroege aankomst."
+        "a": "De woning wordt tot 16 uur schoongemaakt op de dag van aankomst. Om onze poetsploeg in alle rust hun werk te laten doen, is eerder inchecken helaas niet mogelijk. Maar geen nood — de omgeving heeft genoeg te bieden om de wachttijd om te toveren tot het begin van jullie vakantie.",
+        "link": "/early-arrival",
+        "linkText": "Bekijk onze tips voor vroege aankomst"
       },
       {
         "q": "Hoe ver van tevoren moet ik boeken?",
