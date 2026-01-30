@@ -160,12 +160,22 @@ export const Header = () => {
                 ))}
               </div>
 
-              {/* Mobile Book CTA */}
-              <Button asChild className="w-full mt-2">
-                <Link to="/booking" onClick={() => setIsMenuOpen(false)}>
-                  {t('nav.bookDirect')}
+              {/* Mobile Book CTA + Printer Button */}
+              <div className="flex items-center gap-2 mt-2">
+                <Button asChild className="flex-1">
+                  <Link to="/booking" onClick={() => setIsMenuOpen(false)}>
+                    {t('nav.bookDirect')}
+                  </Link>
+                </Button>
+                <Link
+                  to="/house-rules"
+                  className="flex items-center justify-center h-10 w-10 shrink-0 rounded-md border border-primary-foreground/30 bg-primary text-primary-foreground hover:bg-primary/90 transition-colors"
+                  aria-label={t('footer.houseRules')}
+                  onClick={() => setIsMenuOpen(false)}
+                >
+                  <Printer className="h-4 w-4" />
                 </Link>
-              </Button>
+              </div>
             </nav>
           </div>
         )}
