@@ -202,17 +202,19 @@ const EarlyArrival = () => {
                             key={doc.key}
                             to={doc.path}
                             className={cn(
-                              "flex items-center gap-3 px-3 py-2.5 rounded-lg transition-colors text-sm",
-                              isActive 
-                                ? "bg-primary/10 text-primary font-medium" 
-                                : "text-muted-foreground hover:bg-muted hover:text-foreground"
+                              'flex items-center justify-between px-3 py-2.5 rounded-md text-sm transition-colors group',
+                              isActive
+                                ? 'bg-primary/10 text-primary font-medium'
+                                : 'text-muted-foreground hover:bg-accent hover:text-foreground'
                             )}
                           >
-                            <Icon className="h-4 w-4 flex-shrink-0" />
-                            <span className="flex-1">{t(`common:footer.${doc.key}`)}</span>
+                            <div className="flex items-center gap-2">
+                              <Icon className="h-4 w-4" />
+                              <span>{t(`common:footer.${doc.key}`)}</span>
+                            </div>
                             <ChevronRight className={cn(
-                              "h-4 w-4 transition-transform",
-                              isActive && "text-primary"
+                              'h-4 w-4 opacity-0 group-hover:opacity-100 transition-opacity',
+                              isActive && 'opacity-100'
                             )} />
                           </Link>
                         );
