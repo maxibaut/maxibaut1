@@ -44,8 +44,13 @@
     "de": "Deutsch"
   },
   "notFound": {
-    "title": "Cette voie est sans issue.",
-    "subtitle": "La page que vous recherchez n'existe pas ou a été déplacée.",
+    "title": "Ce tunnel ne mène nulle part.",
+    "orDoesIt": "Ou bien si ?",
+    "tunnelName": "Tunnel entre Bohan-sur-Semois et Membre",
+    "railwayLine": "Ancienne ligne de chemin de fer 163 (Bertrix–Gedinne)",
+    "outOfService": "Hors service depuis 1959",
+    "nowRavel": "Aujourd'hui piste cyclable RAVeL",
+    "distance": "À 10 minutes à vélo d'ArdenNest",
     "backHome": "Retour à l'accueil"
   }
 }
