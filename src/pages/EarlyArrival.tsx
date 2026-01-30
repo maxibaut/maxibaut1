@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import { Link, useLocation } from 'react-router-dom';
-import { Download, Clock, Phone, ScrollText, ClipboardCheck, Store, FileText, Shield, ChevronRight, Car } from 'lucide-react';
+import { Download, Clock, Phone, ScrollText, ClipboardCheck, Store, FileText, ChevronRight, Car } from 'lucide-react';
 import { PageWrapper } from '@/components/layout';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
@@ -38,11 +38,6 @@ const legalDocuments = [
     key: 'localTips', 
     path: '/shops', 
     icon: Store,
-  },
-  { 
-    key: 'privacy', 
-    path: '/privacy-policy', 
-    icon: Shield,
   },
 ];
 
