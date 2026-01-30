@@ -64,6 +64,13 @@
             "address": "Rue de Malvoisin 47, 5575 Patignies",
             "phone": "061/58 89 58",
             "note": "Fresh trout from own farm, order 2 days in advance"
+          },
+          {
+            "name": "Terracines",
+            "address": "Rue de Vencimont 3, 5575 Gedinne",
+            "phone": "0496/12 34 56",
+            "website": "www.terracines.be",
+            "note": "Organic vegetables and fruit from local growers"
           }
         ]
       },
