@@ -23,7 +23,6 @@ const legalDocuments = [
   { key: 'rentalTerms', path: '/rental-terms', icon: FileText },
   { key: 'cancellation', path: '/cancellation-policy', icon: FileText },
   { key: 'localTips', path: '/shops', icon: Store },
-  { key: 'privacy', path: '/privacy-policy', icon: Shield },
 ];
 
 interface DataItem {
