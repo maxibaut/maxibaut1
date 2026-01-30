@@ -16,6 +16,7 @@ import Checklist from "./pages/Checklist";
 import LocalTips from "./pages/LocalTips";
 import EarlyArrival from "./pages/EarlyArrival";
 import NotFound from "./pages/NotFound";
+import ScrollToTop from "./components/ScrollToTop";
 
 const queryClient = new QueryClient();
 
@@ -25,6 +26,7 @@ const App = () => (
       <Toaster />
       <Sonner />
       <BrowserRouter>
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/property" element={<Property />} />
