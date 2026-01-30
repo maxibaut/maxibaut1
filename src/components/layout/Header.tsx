@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { Menu, X, ChevronDown } from 'lucide-react';
+import { Menu, X, ChevronDown, Printer } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import {
   DropdownMenu,
@@ -97,6 +97,15 @@ export const Header = () => {
             <Button asChild className="bg-primary hover:bg-primary/90">
               <Link to="/booking">{t('nav.bookDirect')}</Link>
             </Button>
+
+            {/* House Rules / Print Icon */}
+            <Link
+              to="/house-rules"
+              className="flex items-center justify-center h-10 w-10 rounded-md border border-primary-foreground/30 bg-primary text-primary-foreground hover:bg-primary/90 transition-colors"
+              aria-label={t('footer.houseRules')}
+            >
+              <Printer className="h-4 w-4" />
+            </Link>
           </div>
 
           {/* Mobile Menu Button */}
