@@ -16,21 +16,21 @@ const legalDocuments = [
     hasDownload: true
   },
   { 
+    key: 'earlyArrival', 
+    path: '/early-arrival', 
+    icon: Car,
+    hasDownload: false
+  },
+  { 
     key: 'checklist', 
     path: '/checklist', 
     icon: ClipboardCheck,
     hasDownload: true
   },
-  { 
-    key: 'localTips', 
-    path: '/shops', 
-    icon: Store,
-    hasDownload: true
-  },
-  { 
-    key: 'earlyArrival', 
-    path: '/early-arrival', 
-    icon: Car,
+  {
+    key: 'rentalTerms', 
+    path: '/rental-terms', 
+    icon: FileText,
     hasDownload: false
   },
   {
@@ -38,6 +38,12 @@ const legalDocuments = [
     path: '/cancellation-policy', 
     icon: FileText,
     hasDownload: false
+  },
+  { 
+    key: 'localTips', 
+    path: '/shops', 
+    icon: Store,
+    hasDownload: true
   },
   { 
     key: 'privacy', 
