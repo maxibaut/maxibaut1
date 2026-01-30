@@ -6,6 +6,7 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { Separator } from '@/components/ui/separator';
 import { cn } from '@/lib/utils';
+import { generatePrivacyPDF } from '@/lib/privacyPdfGenerator';
 import {
   Table,
   TableBody,
@@ -46,8 +47,12 @@ interface CookieItem {
 }
 
 const Privacy = () => {
-  const { t } = useTranslation(['privacy', 'common']);
+  const { t, i18n } = useTranslation(['privacy', 'common']);
   const location = useLocation();
+
+  const handleDownloadPDF = () => {
+    generatePrivacyPDF(t, i18n.language);
+  };
 
   const whatDataContactForm = t('sections.whatData.contactForm.items', { returnObjects: true }) as string[];
   const whatDataBooking = t('sections.whatData.booking.items', { returnObjects: true }) as string[];
@@ -103,7 +108,7 @@ const Privacy = () => {
                           <strong>{t('version')}:</strong> {t('versionValue')}
                         </p>
                       </div>
-                      <Button variant="outline" className="gap-2 flex-shrink-0" disabled>
+                      <Button variant="outline" className="gap-2 flex-shrink-0" onClick={handleDownloadPDF}>
                         <Download className="h-4 w-4" />
                         {t('downloadButton')}
                       </Button>
