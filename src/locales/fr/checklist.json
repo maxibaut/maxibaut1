@@ -2,6 +2,14 @@
   "pageTitle": "Checklist de Départ",
   "pageSubtitle": "Merci pour votre séjour à Arden'Nest. Pour préparer la maison pour les prochains invités, nous vous demandons de parcourir cette checklist.",
   "downloadButton": "Télécharger la checklist",
+  "accommodation": "Hébergement",
+  "accommodationValue": "Rue de la Ferme 3, 5575 Malvoisin",
+  "website": "Site web",
+  "websiteValue": "www.ArdenNest.be",
+  "operator": "Exploitant",
+  "operatorValue": "Festina Lente bv",
+  "version": "Version",
+  "versionValue": "Janvier 2026",
   "intro": "Le ménage est inclus lorsque tous les points sont cochés — sinon, des frais supplémentaires peuvent s'appliquer.",
   "sections": {
     "general": {

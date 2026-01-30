@@ -2,6 +2,14 @@
   "pageTitle": "Checklist bij Vertrek",
   "pageSubtitle": "Bedankt voor jullie verblijf bij Arden'Nest. Om de woning klaar te maken voor de volgende gasten, vragen we om deze checklist even te doorlopen.",
   "downloadButton": "Download checklist",
+  "accommodation": "Accommodatie",
+  "accommodationValue": "Rue de la Ferme 3, 5575 Malvoisin",
+  "website": "Website",
+  "websiteValue": "www.ArdenNest.be",
+  "operator": "Uitbater",
+  "operatorValue": "Festina Lente bv",
+  "version": "Versie",
+  "versionValue": "Januari 2026",
   "intro": "De schoonmaak is inbegrepen wanneer alles is afgevinkt — zo niet kunnen extra kosten worden aangerekend.",
   "sections": {
     "general": {
