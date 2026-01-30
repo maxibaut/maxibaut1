@@ -1,11 +1,12 @@
 import { useTranslation } from 'react-i18next';
 import { Link, useLocation } from 'react-router-dom';
-import { Download, MapPin, Clock, Phone, ScrollText, ClipboardCheck, Store, FileText, Shield, ChevronRight, Car } from 'lucide-react';
+import { Download, Clock, Phone, ScrollText, ClipboardCheck, Store, FileText, Shield, ChevronRight, Car } from 'lucide-react';
 import { PageWrapper } from '@/components/layout';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { Separator } from '@/components/ui/separator';
 import { cn } from '@/lib/utils';
+import { generateEarlyArrivalPDF } from '@/lib/earlyArrivalPdfGenerator';
 
 const legalDocuments = [
   { 
@@ -53,10 +54,14 @@ interface Destination {
 }
 
 const EarlyArrival = () => {
-  const { t } = useTranslation(['earlyArrival', 'common']);
+  const { t, i18n } = useTranslation(['earlyArrival', 'common']);
   const location = useLocation();
 
   const destinations = t('destinations', { returnObjects: true }) as Destination[];
+
+  const handleDownloadPDF = () => {
+    generateEarlyArrivalPDF(t, i18n.language);
+  };
 
   return (
     <PageWrapper>
@@ -99,7 +104,7 @@ const EarlyArrival = () => {
                           <strong>{t('version')}:</strong> {t('versionValue')}
                         </p>
                       </div>
-                      <Button variant="outline" className="gap-2 flex-shrink-0" disabled>
+                      <Button onClick={handleDownloadPDF} variant="outline" className="gap-2 flex-shrink-0">
                         <Download className="h-4 w-4" />
                         {t('downloadButton')}
                       </Button>
