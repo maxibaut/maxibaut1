@@ -114,6 +114,14 @@ export const Footer = () => {
                 </Link>
               </li>
               <li>
+                <Link
+                  to="/local-tips"
+                  className="text-primary-foreground/80 hover:text-primary-foreground transition-colors"
+                >
+                  {t('footer.localTips')}
+                </Link>
+              </li>
+              <li>
                 <a
                   href="#"
                   className="text-primary-foreground/80 hover:text-primary-foreground transition-colors"

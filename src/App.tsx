@@ -13,6 +13,7 @@ import Surroundings from "./pages/Surroundings";
 import SurroundingsDetail from "./pages/SurroundingsDetail";
 import HouseRules from "./pages/HouseRules";
 import Checklist from "./pages/Checklist";
+import LocalTips from "./pages/LocalTips";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -34,6 +35,7 @@ const App = () => (
           <Route path="/surroundings/:category/:slug" element={<SurroundingsDetail />} />
           <Route path="/house-rules" element={<HouseRules />} />
           <Route path="/checklist" element={<Checklist />} />
+          <Route path="/local-tips" element={<LocalTips />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

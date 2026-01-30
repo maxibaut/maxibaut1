@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import { Link, useLocation } from 'react-router-dom';
-import { Download, FileText, ScrollText, Shield, ChevronRight, ClipboardCheck, Square, Phone } from 'lucide-react';
+import { Download, FileText, ScrollText, Shield, ChevronRight, ClipboardCheck, Square, Phone, Store } from 'lucide-react';
 import { PageWrapper } from '@/components/layout';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
@@ -18,6 +18,11 @@ const legalDocuments = [
     key: 'checklist', 
     path: '/checklist', 
     icon: ClipboardCheck,
+  },
+  { 
+    key: 'localTips', 
+    path: '/local-tips', 
+    icon: Store,
   },
   { 
     key: 'cancellation', 
