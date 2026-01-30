@@ -18,10 +18,11 @@ import {
 
 const legalDocuments = [
   { key: 'houseRules', path: '/house-rules', icon: ScrollText },
-  { key: 'checklist', path: '/checklist', icon: ClipboardCheck },
-  { key: 'localTips', path: '/shops', icon: Store },
   { key: 'earlyArrival', path: '/early-arrival', icon: Car },
+  { key: 'checklist', path: '/checklist', icon: ClipboardCheck },
+  { key: 'rentalTerms', path: '/rental-terms', icon: FileText },
   { key: 'cancellation', path: '/cancellation-policy', icon: FileText },
+  { key: 'localTips', path: '/shops', icon: Store },
   { key: 'privacy', path: '/privacy-policy', icon: Shield },
 ];
 
