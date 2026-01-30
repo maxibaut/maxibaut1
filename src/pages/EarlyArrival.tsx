@@ -7,7 +7,7 @@ import { Card, CardContent } from '@/components/ui/card';
 import { Separator } from '@/components/ui/separator';
 import { cn } from '@/lib/utils';
 import { generateEarlyArrivalPDF } from '@/lib/earlyArrivalPdfGenerator';
-
+import { downloadAllDocuments } from '@/lib/downloadAllDocuments';
 const legalDocuments = [
   { 
     key: 'houseRules', 
@@ -54,7 +54,7 @@ interface Destination {
 }
 
 const EarlyArrival = () => {
-  const { t, i18n } = useTranslation(['earlyArrival', 'common']);
+  const { t, i18n } = useTranslation(['earlyArrival', 'houseRules', 'checklist', 'cancellationPolicy', 'rentalTerms', 'localTips', 'common']);
   const location = useLocation();
 
   const destinations = t('destinations', { returnObjects: true }) as Destination[];
@@ -63,6 +63,24 @@ const EarlyArrival = () => {
     generateEarlyArrivalPDF(t, i18n.language);
   };
 
+  const handleDownloadAll = async () => {
+    const tHouseRules = (key: string, options?: object) => t(key, { ...options, ns: 'houseRules' });
+    const tChecklist = (key: string, options?: object) => t(key, { ...options, ns: 'checklist' });
+    const tCancellation = (key: string, options?: object) => t(key, { ...options, ns: 'cancellationPolicy' });
+    const tRentalTerms = (key: string, options?: object) => t(key, { ...options, ns: 'rentalTerms' });
+    const tEarlyArrival = (key: string, options?: object) => t(key, { ...options, ns: 'earlyArrival' });
+    const tLocalTips = (key: string, options?: object) => t(key, { ...options, ns: 'localTips' });
+    
+    await downloadAllDocuments(
+      tHouseRules as any,
+      tChecklist as any,
+      tCancellation as any,
+      tRentalTerms as any,
+      tEarlyArrival as any,
+      tLocalTips as any,
+      i18n.language
+    );
+  };
   return (
     <PageWrapper>
       {/* Hero Section */}
@@ -183,11 +201,13 @@ const EarlyArrival = () => {
             </div>
 
             {/* Sidebar */}
-            <div className="lg:col-span-1 order-1 lg:order-2">
-              <div className="sticky top-24">
+            <aside className="lg:col-span-1 order-1 lg:order-2">
+              <div className="lg:sticky lg:top-24">
                 <Card className="border-border/50">
                   <CardContent className="p-4">
-                    <h3 className="font-serif text-lg font-medium mb-4">{t('common:footer.documentsInfo')}</h3>
+                    <h3 className="font-serif text-lg font-semibold text-foreground mb-4">
+                      {t('common:footer.documentsInfo')}
+                    </h3>
                     <nav className="space-y-1">
                       {legalDocuments.map((doc) => {
                         const Icon = doc.icon;
@@ -211,10 +231,22 @@ const EarlyArrival = () => {
                         );
                       })}
                     </nav>
+                    
+                    <Separator className="my-4" />
+                    
+                    <Button 
+                      onClick={handleDownloadAll} 
+                      variant="outline" 
+                      className="w-full gap-2 text-sm"
+                      size="sm"
+                    >
+                      <Download className="h-4 w-4" />
+                      {t('common:footer.downloadAll')}
+                    </Button>
                   </CardContent>
                 </Card>
               </div>
-            </div>
+            </aside>
           </div>
         </div>
       </section>

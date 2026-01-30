@@ -7,7 +7,7 @@ import { Card, CardContent } from '@/components/ui/card';
 import { Separator } from '@/components/ui/separator';
 import { cn } from '@/lib/utils';
 import { generatePDF } from '@/lib/pdfGenerator';
-
+import { downloadAllDocuments } from '@/lib/downloadAllDocuments';
 const legalDocuments = [
   { 
     key: 'houseRules', 
@@ -48,7 +48,7 @@ const legalDocuments = [
 ];
 
 const HouseRules = () => {
-  const { t, i18n } = useTranslation(['houseRules', 'common']);
+  const { t, i18n } = useTranslation(['houseRules', 'checklist', 'cancellationPolicy', 'rentalTerms', 'earlyArrival', 'localTips', 'common']);
   const location = useLocation();
 
   const generateHouseRulesPDF = () => {
@@ -127,12 +127,22 @@ const HouseRules = () => {
   };
 
   const handleDownloadAll = async () => {
-    // Generate house rules PDF
-    generateHouseRulesPDF();
+    const tHouseRules = (key: string, options?: object) => t(key, { ...options, ns: 'houseRules' });
+    const tChecklist = (key: string, options?: object) => t(key, { ...options, ns: 'checklist' });
+    const tCancellation = (key: string, options?: object) => t(key, { ...options, ns: 'cancellationPolicy' });
+    const tRentalTerms = (key: string, options?: object) => t(key, { ...options, ns: 'rentalTerms' });
+    const tEarlyArrival = (key: string, options?: object) => t(key, { ...options, ns: 'earlyArrival' });
+    const tLocalTips = (key: string, options?: object) => t(key, { ...options, ns: 'localTips' });
     
-    // Future: Add other documents here when available
-    // await new Promise(resolve => setTimeout(resolve, 300));
-    // generateCancellationPolicyPDF();
+    await downloadAllDocuments(
+      tHouseRules as any,
+      tChecklist as any,
+      tCancellation as any,
+      tRentalTerms as any,
+      tEarlyArrival as any,
+      tLocalTips as any,
+      i18n.language
+    );
   };
 
   return (

@@ -7,7 +7,7 @@ import { Card, CardContent } from '@/components/ui/card';
 import { Separator } from '@/components/ui/separator';
 import { cn } from '@/lib/utils';
 import { generateChecklistPDF } from '@/lib/pdfGenerator';
-
+import { downloadAllDocuments } from '@/lib/downloadAllDocuments';
 const legalDocuments = [
   { 
     key: 'houseRules', 
@@ -75,7 +75,7 @@ const ChecklistSection = ({ title, subtitle, items, tip }: ChecklistSectionProps
 );
 
 const Checklist = () => {
-  const { t, i18n } = useTranslation(['checklist', 'common']);
+  const { t, i18n } = useTranslation(['checklist', 'houseRules', 'cancellationPolicy', 'rentalTerms', 'earlyArrival', 'localTips', 'common']);
   const location = useLocation();
 
   const handleDownloadPDF = () => {
@@ -125,9 +125,23 @@ const Checklist = () => {
   };
 
   const handleDownloadAll = async () => {
-    handleDownloadPDF();
+    const tHouseRules = (key: string, options?: object) => t(key, { ...options, ns: 'houseRules' });
+    const tChecklist = (key: string, options?: object) => t(key, { ...options, ns: 'checklist' });
+    const tCancellation = (key: string, options?: object) => t(key, { ...options, ns: 'cancellationPolicy' });
+    const tRentalTerms = (key: string, options?: object) => t(key, { ...options, ns: 'rentalTerms' });
+    const tEarlyArrival = (key: string, options?: object) => t(key, { ...options, ns: 'earlyArrival' });
+    const tLocalTips = (key: string, options?: object) => t(key, { ...options, ns: 'localTips' });
+    
+    await downloadAllDocuments(
+      tHouseRules as any,
+      tChecklist as any,
+      tCancellation as any,
+      tRentalTerms as any,
+      tEarlyArrival as any,
+      tLocalTips as any,
+      i18n.language
+    );
   };
-
   return (
     <PageWrapper>
       {/* Hero Section */}
