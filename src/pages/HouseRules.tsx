@@ -6,59 +6,115 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { Separator } from '@/components/ui/separator';
 import { cn } from '@/lib/utils';
+import { generatePDF } from '@/lib/pdfGenerator';
 
 const legalDocuments = [
   { 
     key: 'houseRules', 
     path: '/house-rules', 
     icon: ScrollText,
-    downloadPath: '/documents/huisregels.md'
+    hasDownload: true
   },
   { 
     key: 'cancellation', 
     path: '/cancellation-policy', 
     icon: FileText,
-    downloadPath: null
+    hasDownload: false
   },
   { 
     key: 'privacy', 
     path: '/privacy-policy', 
     icon: Shield,
-    downloadPath: null
+    hasDownload: false
   },
 ];
 
 const HouseRules = () => {
-  const { t } = useTranslation(['houseRules', 'common']);
+  const { t, i18n } = useTranslation(['houseRules', 'common']);
   const location = useLocation();
 
+  const generateHouseRulesPDF = () => {
+    generatePDF({
+      title: t('pageTitle'),
+      subtitle: t('pageSubtitle'),
+      metadata: [
+        { label: t('accommodation'), value: t('accommodationValue') },
+        { label: t('website'), value: t('websiteValue') },
+        { label: t('operator'), value: t('operatorValue') },
+        { label: t('version'), value: t('versionValue') },
+      ],
+      welcome: t('welcome'),
+      sections: [
+        {
+          title: t('sections.arrivalDeparture.title'),
+          subsections: [
+            { title: t('sections.arrivalDeparture.cleaning.title'), content: t('sections.arrivalDeparture.cleaning.content') }
+          ]
+        },
+        {
+          title: t('sections.house.title'),
+          subsections: [
+            { title: t('sections.house.bedding.title'), content: t('sections.house.bedding.content') },
+            { title: t('sections.house.beds.title'), content: t('sections.house.beds.content') },
+            { title: t('sections.house.furniture.title'), content: t('sections.house.furniture.content') },
+            { title: t('sections.house.shoes.title'), content: t('sections.house.shoes.content') },
+          ]
+        },
+        { title: t('sections.foodDrink.title'), content: t('sections.foodDrink.content') },
+        { title: t('sections.smokeFree.title'), content: t('sections.smokeFree.content') },
+        { title: t('sections.firewood.title'), content: t('sections.firewood.content') },
+        {
+          title: t('sections.kitchen.title'),
+          subsections: [
+            { title: t('sections.kitchen.frying.title'), content: t('sections.kitchen.frying.content') }
+          ]
+        },
+        {
+          title: t('sections.garden.title'),
+          subsections: [
+            { title: t('sections.garden.playground.title'), content: t('sections.garden.playground.content') },
+            { title: t('sections.garden.toys.title'), content: t('sections.garden.toys.content') },
+            { title: t('sections.garden.fire.title'), content: t('sections.garden.fire.content') },
+            { title: t('sections.garden.trampoline.title'), content: t('sections.garden.trampoline.content') },
+          ]
+        },
+        {
+          title: t('sections.quietHours.title'),
+          subsections: [
+            { title: t('sections.quietHours.outdoorMusic.title'), content: t('sections.quietHours.outdoorMusic.content') },
+            { title: `${t('sections.quietHours.quietTime.title')}: ${t('sections.quietHours.quietTime.subtitle')}`, content: t('sections.quietHours.quietTime.content') },
+          ]
+        },
+        { title: t('sections.pets.title'), content: t('sections.pets.content') },
+        { title: t('sections.damage.title'), content: t('sections.damage.content') },
+        { title: t('sections.access.title'), content: t('sections.access.content') },
+        { title: t('sections.emergencyStairs.title'), content: t('sections.emergencyStairs.content') },
+        { title: t('sections.groupSize.title'), content: t('sections.groupSize.content') },
+        { title: t('sections.liability.title'), content: t('sections.liability.content') },
+        {
+          title: t('sections.closing.title'),
+          content: `${t('sections.closing.content1')}\n\n${t('sections.closing.content2')}`
+        },
+      ],
+      emergency: [
+        { label: t('sections.emergency.emergencyNumber'), value: t('sections.emergency.emergencyNumberValue') },
+        { label: t('sections.emergency.ownerContact'), value: t('sections.emergency.ownerContactValue') },
+      ],
+      footer: t('sections.closing.signature'),
+    }, `huisregels-ardennest-${i18n.language}.pdf`);
+  };
+
   const handleDownloadPDF = () => {
-    const link = document.createElement('a');
-    link.href = '/documents/huisregels.md';
-    link.download = 'huisregels-ardennest.md';
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
+    generateHouseRulesPDF();
   };
 
   const handleDownloadAll = async () => {
-    const documentsToDownload = legalDocuments
-      .filter(doc => doc.downloadPath)
-      .map(doc => ({
-        url: doc.downloadPath!,
-        filename: doc.downloadPath!.split('/').pop() || 'document.md'
-      }));
-
-    for (const doc of documentsToDownload) {
-      const link = document.createElement('a');
-      link.href = doc.url;
-      link.download = doc.filename;
-      document.body.appendChild(link);
-      link.click();
-      document.body.removeChild(link);
-      // Small delay between downloads
-      await new Promise(resolve => setTimeout(resolve, 300));
-    }
+    // Generate house rules PDF
+    generateHouseRulesPDF();
+    
+    // Future: Add other documents here when available
+    // await new Promise(resolve => setTimeout(resolve, 300));
+    // generateCancellationPolicyPDF();
   };
 
   return (
