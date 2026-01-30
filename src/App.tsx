@@ -14,6 +14,7 @@ import SurroundingsDetail from "./pages/SurroundingsDetail";
 import HouseRules from "./pages/HouseRules";
 import Checklist from "./pages/Checklist";
 import LocalTips from "./pages/LocalTips";
+import EarlyArrival from "./pages/EarlyArrival";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -36,6 +37,7 @@ const App = () => (
           <Route path="/house-rules" element={<HouseRules />} />
           <Route path="/checklist" element={<Checklist />} />
           <Route path="/shops" element={<LocalTips />} />
+          <Route path="/early-arrival" element={<EarlyArrival />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

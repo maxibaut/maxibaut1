@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import { Link, useLocation } from 'react-router-dom';
-import { Download, FileText, ScrollText, Shield, ChevronRight, ClipboardCheck, Square, Phone, Store } from 'lucide-react';
+import { Download, FileText, ScrollText, Shield, ChevronRight, ClipboardCheck, Square, Phone, Store, Car } from 'lucide-react';
 import { PageWrapper } from '@/components/layout';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
@@ -25,6 +25,11 @@ const legalDocuments = [
     icon: Store,
   },
   { 
+    key: 'earlyArrival', 
+    path: '/early-arrival', 
+    icon: Car,
+  },
+  {
     key: 'cancellation', 
     path: '/cancellation-policy', 
     icon: FileText,
