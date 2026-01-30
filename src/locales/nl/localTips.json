@@ -1,0 +1,325 @@
+{
+  "pageTitle": "Lokale Tips",
+  "pageSubtitle": "Onze favoriete adressen in de buurt. Van verse broodjes bij de lokale bakker tot een gezellig etentje — de Ardennen hebben verrassend veel te bieden.",
+  "downloadButton": "Download PDF",
+  "accommodation": "Accommodatie",
+  "accommodationValue": "Rue de la Ferme 3, 5575 Malvoisin",
+  "website": "Website",
+  "websiteValue": "www.ArdenNest.be",
+  "operator": "Uitbater",
+  "operatorValue": "Festina Lente bv",
+  "version": "Versie",
+  "versionValue": "Januari 2026",
+  "intro": "Hieronder vinden jullie onze favoriete adressen in de buurt. Van verse broodjes bij de lokale bakker tot een gezellig etentje in een restaurant — de Ardennen hebben verrassend veel te bieden. Alle adressen zijn door ons persoonlijk getest en aanbevolen.",
+  "sections": {
+    "shops": {
+      "title": "Winkels",
+      "bakeries": {
+        "title": "Bakkers",
+        "items": [
+          {
+            "name": "Boulangerie Thibaut",
+            "address": "Place JiJé, 5575 Gedinne",
+            "phone": "061/31 56 15"
+          },
+          {
+            "name": "Boulangerie Paulet",
+            "address": "Rue Albert Marchal 6, 5575 Gedinne",
+            "phone": "061/58 95 00"
+          },
+          {
+            "name": "Boulangerie Dumont",
+            "address": "Rue du Moulin 1, 5575 Vencimont",
+            "phone": "061/58 94 40",
+            "website": "www.boulangeriedumont.be"
+          }
+        ]
+      },
+      "butchers": {
+        "title": "Slagers",
+        "items": [
+          {
+            "name": "Boucherie Darche",
+            "address": "Rue Raymond Gridlet 6, 5575 Gedinne",
+            "phone": "061/58 80 20"
+          },
+          {
+            "name": "Aux Délices de la Houille",
+            "address": "Rue Grande 36, 5575 Vencimont",
+            "phone": "061/58 81 62",
+            "website": "www.auxdelicesdelahouille.be"
+          },
+          {
+            "name": "Boucherie de la Croix-Scaille",
+            "address": "Rue Léon Mathieu 75, 5575 Rienne",
+            "phone": "061/22 23 00"
+          }
+        ]
+      },
+      "fresh": {
+        "title": "Versproducten",
+        "items": [
+          {
+            "name": "Pisciculture de la Galette",
+            "address": "Rue de Malvoisin 47, 5575 Patignies",
+            "phone": "061/58 89 58",
+            "note": "Verse forel uit eigen kweek, 2 dagen op voorhand bestellen"
+          }
+        ]
+      },
+      "supermarkets": {
+        "title": "Supermarkten",
+        "items": [
+          {
+            "name": "Proxy Delhaize",
+            "address": "Rue Raymond Gridlet 45, 5575 Gedinne"
+          },
+          {
+            "name": "Intermarché",
+            "address": "Rue Saint-Jacques 355, Dinant"
+          },
+          {
+            "name": "Carrefour Market",
+            "address": "Rue de Charleville 48, 5575 Gedinne"
+          },
+          {
+            "name": "Delhaize",
+            "address": "Rue de Rochefort 37, Beauraing"
+          },
+          {
+            "name": "Lidl",
+            "address": "Rue de Rochefort 150, Beauraing"
+          },
+          {
+            "name": "Aldi",
+            "address": "Rue de Rochefort 69, Beauraing"
+          },
+          {
+            "name": "Colruyt",
+            "address": "Rue de Rochefort 73-75, Beauraing"
+          },
+          {
+            "name": "Colruyt met Collect&Go",
+            "address": "Rue de la Station 26, Wellin",
+            "note": "Online bestellen, ter plaatse ophalen"
+          }
+        ]
+      }
+    },
+    "restaurants": {
+      "title": "Restaurants",
+      "gedinne": {
+        "title": "Gedinne",
+        "items": [
+          {
+            "name": "La Salière",
+            "address": "Rue de Gribelle 1, 5575 Gedinne",
+            "phone": "061/61 45 07",
+            "website": "www.restaurant-la-saliere.be"
+          },
+          {
+            "name": "Primitif",
+            "address": "Rue de Charleville 15 A, 5575 Gedinne",
+            "phone": "061/51 11 13",
+            "website": "www.restaurantprimitif.com"
+          },
+          {
+            "name": "Hôtel de la Poste",
+            "address": "Rue de Charleville 15, 5575 Gedinne",
+            "phone": "061/58 79 33",
+            "website": "www.hoteldelaposte-gedinne.be"
+          },
+          {
+            "name": "Restaurant Les 3 Arcs",
+            "address": "Rue Raymond Gridlet 2a, 5575 Gedinne",
+            "phone": "0473/73 04 99"
+          },
+          {
+            "name": "Camping de la Croix-Scaille",
+            "address": "Rue du Petit Rot 10, 5575 Gedinne",
+            "phone": "061/58 85 17",
+            "website": "campingcroixscaille.be/nl/restaurant-nl"
+          },
+          {
+            "name": "Zorba",
+            "address": "Rue de Dinant 16, 5575 Gedinne",
+            "phone": "061/58 87 29"
+          }
+        ]
+      },
+      "vencimont": {
+        "title": "Vencimont",
+        "items": [
+          {
+            "name": "Le Relais Gourmand",
+            "address": "Rue Grande 84, 5575 Vencimont",
+            "phone": "061/23 29 22"
+          },
+          {
+            "name": "Le bonheur à 4 mains",
+            "address": "Rue de Dinant 16, 5575 Vencimont",
+            "phone": "061/58 87 29"
+          }
+        ]
+      },
+      "bievre": {
+        "title": "Bièvre",
+        "items": [
+          {
+            "name": "Le Matefaim",
+            "address": "Rue du Progrès 4, 5555 Bièvre",
+            "phone": "061/51 25 12"
+          }
+        ]
+      },
+      "beauraing": {
+        "title": "Beauraing",
+        "items": [
+          {
+            "name": "Le Pèlerin",
+            "address": "Rue de l'Aubépine 35, 5570 Beauraing",
+            "phone": "082/71 25 49",
+            "website": "pelerin-beauraing.be"
+          },
+          {
+            "name": "Le Belvédère",
+            "address": "Rue de Bouillon 191, 5570 Beauraing",
+            "phone": "082/71 47 77"
+          }
+        ]
+      }
+    },
+    "takeaway": {
+      "title": "Afhaal",
+      "fries": {
+        "title": "Friet & Snacks",
+        "items": [
+          {
+            "name": "Au P'tit Creux",
+            "address": "Rue Raymond Gridlet 2, 5575 Gedinne",
+            "phone": "061/58 75 50",
+            "note": "Frietjes en sandwiches"
+          },
+          {
+            "name": "Au Plaisir d'une Frite",
+            "note": "Food truck — Donderdag 18:00-21:00, parking feestzaal Malvoisin (Rue de l'église 25)"
+          }
+        ]
+      },
+      "pizza": {
+        "title": "Pizza & Pasta",
+        "items": [
+          {
+            "name": "La Salière",
+            "address": "Rue de Gribelle 1, 5575 Gedinne",
+            "phone": "061/61 45 07",
+            "note": "Pizza"
+          },
+          {
+            "name": "Pizz'Ardennes",
+            "address": "Station 46, 5575 Gedinne",
+            "phone": "0472/09 53 01",
+            "note": "Pizza, pasta"
+          },
+          {
+            "name": "Le Relais Gourmand",
+            "address": "Rue Grande 84, 5575 Vencimont",
+            "phone": "061/23 29 22",
+            "note": "Pizza"
+          }
+        ]
+      },
+      "pitta": {
+        "title": "Pitta & Tacos",
+        "items": [
+          {
+            "name": "Pitt'Ardennes",
+            "address": "Station 50, 5575 Gedinne",
+            "phone": "0470/45 17 56",
+            "note": "Pitta, tacos"
+          }
+        ]
+      },
+      "chicken": {
+        "title": "Kip aan 't Spit",
+        "items": [
+          {
+            "name": "Rôtisserie Dury",
+            "phone": "0476/98 20 67",
+            "website": "rotisseriedury.be",
+            "note": "Vrijdagavond: Wellin (rondpunt centrum) • Zaterdagmorgen: Bièvre (garage Lucy) en Beauraing (naast Carrefour)"
+          }
+        ]
+      }
+    },
+    "caterers": {
+      "title": "Traiteurs",
+      "items": [
+        {
+          "name": "Célestine Baijot",
+          "address": "Rue du Londeau 1A, 5575 Gedinne",
+          "phone": "0470/29 30 04",
+          "email": "traiteurc.baijot@gmail.com",
+          "note": "Traiteur met winkel en dagmenu's"
+        },
+        {
+          "name": "Un peu de nous chez vous",
+          "address": "5575 Gedinne",
+          "phone": "0499/83 38 92",
+          "email": "unpeudenouschezvous17@gmail.com",
+          "note": "Traiteur, ook ontbijtbox mogelijk"
+        },
+        {
+          "name": "Au Plaisir d'une Frite",
+          "note": "Food truck — Privé reservatie mogelijk voor jullie groep"
+        },
+        {
+          "name": "Restaurant Les 3 Arcs",
+          "address": "Rue Raymond Gridlet 2a, 5575 Gedinne",
+          "phone": "0473/73 04 99",
+          "email": "les3arcs@proximus.be",
+          "note": "Restaurant dat ook afhaal doet"
+        },
+        {
+          "name": "Au Chaudron d'Uchy",
+          "address": "Rue du Bois d'Uchy 65, 5573 Martouzin-Neuville",
+          "phone": "082/64 77 89 of 0473/31 41 64",
+          "email": "chaudronduchy@gmail.com",
+          "note": "Uitgebreid aanbod aan maaltijden en huisgemaakt ijs. Koud buffet Orchidée is zeker een aanrader! Enkel op bestelling, levering mogelijk"
+        },
+        {
+          "name": "L'Intermezzo",
+          "address": "Rue de Bouillon 27, 5570 Beauraing",
+          "phone": "082/69 96 19",
+          "note": "Italiaanse traiteur met winkel"
+        }
+      ],
+      "bbq": {
+        "title": "Barbecuevlees",
+        "items": [
+          {
+            "name": "Aux Délices de la Houille",
+            "address": "Rue Grande 36, 5575 Vencimont",
+            "phone": "061/58 81 62",
+            "website": "www.auxdelicesdelahouille.be/winkel",
+            "note": "Heerlijk barbecuevlees, online te bestellen. Enkel afhaling, zonder groentjes"
+          },
+          {
+            "name": "Boucherie Marchal Lefebvre",
+            "address": "Rue de Naomé 5, 5555 Graide",
+            "phone": "0479/31 77 11 of 061/51 13 11",
+            "note": "Uitgebreid assortiment barbecuevlees. Ook groentjes en sausen mogelijk, levering ter plaatse mogelijk"
+          },
+          {
+            "name": "Boucherie Lefèbvre et Fils",
+            "address": "Rue de Beauraing 4, 6920 Wellin",
+            "phone": "084/38 81 64",
+            "note": "€15 voor assortiment vlees (300-350g pp, 2-3 stukken) met groentjes. Selectie van de chef, af te halen"
+          }
+        ]
+      }
+    }
+  },
+  "closing": "Nog een tip ontdekt? Laat het ons weten — we updaten deze lijst graag!",
+  "signature": "Festina Lente • Al sinds 2003 gastvrij in de Ardennen"
+}

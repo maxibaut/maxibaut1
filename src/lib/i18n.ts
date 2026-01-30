@@ -11,6 +11,7 @@ import nlBooking from '@/locales/nl/booking.json';
 import nlSurroundings from '@/locales/nl/surroundings.json';
 import nlHouseRules from '@/locales/nl/houseRules.json';
 import nlChecklist from '@/locales/nl/checklist.json';
+import nlLocalTips from '@/locales/nl/localTips.json';
 
 // French translations
 import frCommon from '@/locales/fr/common.json';
@@ -22,6 +23,7 @@ import frBooking from '@/locales/fr/booking.json';
 import frSurroundings from '@/locales/fr/surroundings.json';
 import frHouseRules from '@/locales/fr/houseRules.json';
 import frChecklist from '@/locales/fr/checklist.json';
+import frLocalTips from '@/locales/fr/localTips.json';
 
 // English translations
 import enCommon from '@/locales/en/common.json';
@@ -33,6 +35,7 @@ import enBooking from '@/locales/en/booking.json';
 import enSurroundings from '@/locales/en/surroundings.json';
 import enHouseRules from '@/locales/en/houseRules.json';
 import enChecklist from '@/locales/en/checklist.json';
+import enLocalTips from '@/locales/en/localTips.json';
 
 // German translations
 import deCommon from '@/locales/de/common.json';
@@ -44,6 +47,7 @@ import deBooking from '@/locales/de/booking.json';
 import deSurroundings from '@/locales/de/surroundings.json';
 import deHouseRules from '@/locales/de/houseRules.json';
 import deChecklist from '@/locales/de/checklist.json';
+import deLocalTips from '@/locales/de/localTips.json';
 
 const resources = {
   nl: {
@@ -56,6 +60,7 @@ const resources = {
     surroundings: nlSurroundings,
     houseRules: nlHouseRules,
     checklist: nlChecklist,
+    localTips: nlLocalTips,
   },
   fr: {
     common: frCommon,
@@ -67,6 +72,7 @@ const resources = {
     surroundings: frSurroundings,
     houseRules: frHouseRules,
     checklist: frChecklist,
+    localTips: frLocalTips,
   },
   en: {
     common: enCommon,
@@ -78,6 +84,7 @@ const resources = {
     surroundings: enSurroundings,
     houseRules: enHouseRules,
     checklist: enChecklist,
+    localTips: enLocalTips,
   },
   de: {
     common: deCommon,
@@ -89,6 +96,7 @@ const resources = {
     surroundings: deSurroundings,
     houseRules: deHouseRules,
     checklist: deChecklist,
+    localTips: deLocalTips,
   },
 };
 
@@ -114,7 +122,7 @@ i18n
     lng: getDefaultLanguage(),
     fallbackLng: 'nl',
     defaultNS: 'common',
-    ns: ['common', 'homepage', 'property', 'about', 'contact', 'booking', 'surroundings', 'houseRules', 'checklist'],
+    ns: ['common', 'homepage', 'property', 'about', 'contact', 'booking', 'surroundings', 'houseRules', 'checklist', 'localTips'],
     interpolation: {
       escapeValue: false,
     },
