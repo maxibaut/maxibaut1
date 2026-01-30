@@ -13,7 +13,7 @@ export const Footer = () => {
           <div className="space-y-4">
             <h3 className="font-serif text-2xl font-semibold">Arden'Nest</h3>
             <p className="text-primary-foreground/80 leading-relaxed">
-              Quiet luxury voor momenten samen. Al 22 jaar verwelkomen wij families in de Ardennen.
+              Quiet luxury voor momenten samen. Al sinds 2003 verwelkomen wij families in de Ardennen.
             </p>
             {/* Google Reviews Badge */}
             <div className="flex items-center space-x-2 pt-2">
