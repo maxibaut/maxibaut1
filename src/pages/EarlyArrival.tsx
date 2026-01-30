@@ -108,7 +108,7 @@ const EarlyArrival = () => {
 
                   {/* Intro Text */}
                   <div className="prose prose-slate max-w-none mb-10">
-                    <p className="text-foreground/90 leading-relaxed text-lg">
+                    <p className="text-foreground/90 leading-relaxed">
                       {t('intro')}
                     </p>
                   </div>
