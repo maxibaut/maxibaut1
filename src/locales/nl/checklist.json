@@ -1,0 +1,66 @@
+{
+  "pageTitle": "Checklist bij Vertrek",
+  "pageSubtitle": "Bedankt voor jullie verblijf bij Arden'Nest. Om de woning klaar te maken voor de volgende gasten, vragen we om deze checklist even te doorlopen.",
+  "downloadButton": "Download checklist",
+  "intro": "De schoonmaak is inbegrepen wanneer alles is afgevinkt — zo niet kunnen extra kosten worden aangerekend.",
+  "sections": {
+    "general": {
+      "title": "Algemeen",
+      "departureTime": "Vertrekuur: 10:00 uur (of 16:00 uur bij late check-out)",
+      "items": [
+        "Koelkasten en diepvriezers blijven aan — niet uitschakelen",
+        "Laat ons weten dat jullie vertrekken (aanbellen of WhatsApp/SMS)",
+        "Sleutel afgeven of in de sleutelbox deponeren",
+        "Deur goed sluiten"
+      ]
+    },
+    "house": {
+      "title": "De Woning",
+      "items": [
+        "Tafels proper achterlaten (stoelen niet op de tafels)",
+        "Gelijkvloers stofzuigen: keuken, living, salon, inkom, traphal",
+        "Tapijten niet vergeten",
+        "Gezelschapsspelen en speelgoed terug op hun plek"
+      ]
+    },
+    "kitchen": {
+      "title": "De Keuken",
+      "items": [
+        "Afwasmachine legen en servies opbergen",
+        "Alle keukengerei proper afwassen en opbergen",
+        "Fornuis en oven proper maken (enkel afwasmiddel)",
+        "Etensresten meenemen (niet in vuilniszakken)"
+      ],
+      "tip": "Tip: geschikte restjes mogen naar de kippen!"
+    },
+    "outside": {
+      "title": "Buiten",
+      "items": [
+        "Barbecue: as in de asemmer, rooster gepoetst",
+        "Ligbedden en buitenspeelgoed terug op hun plek"
+      ]
+    },
+    "bedrooms": {
+      "title": "Slaapkamers",
+      "items": [
+        "Bedden NIET afhalen (wij doen dit)",
+        "Vensters op kiepstand zetten",
+        "Verwarming slaapkamers en badkamers uitschakelen"
+      ]
+    },
+    "damage": {
+      "title": "Schade of Opmerkingen",
+      "content": "Ongelukjes gebeuren, dat begrijpen we. Noteer eventuele schade of opmerkingen en meld ze bij ons.",
+      "depositInfo": "De waarborg wordt binnen 7 tot 14 dagen na vertrek teruggestort."
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "phone1": "0478 03 03 52",
+    "phone2": "0477 33 53 70"
+  },
+  "closing": {
+    "content": "We hopen jullie snel opnieuw te mogen verwelkomen. Tot de volgende keer!",
+    "signature": "Arden'Nest • Al sinds 2003 gastvrij in de Ardennen"
+  }
+}

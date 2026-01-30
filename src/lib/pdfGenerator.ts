@@ -178,3 +178,197 @@ export const generatePDF = (options: PDFGeneratorOptions, filename: string) => {
   // Save the PDF
   doc.save(filename);
 };
+
+// Checklist PDF Generator
+interface ChecklistPDFSection {
+  title: string;
+  subtitle?: string;
+  items: string[];
+  tip?: string;
+}
+
+interface ChecklistPDFOptions {
+  title: string;
+  subtitle?: string;
+  intro?: string;
+  sections: ChecklistPDFSection[];
+  damage: {
+    title: string;
+    content: string;
+    depositInfo: string;
+  };
+  contact: {
+    title: string;
+    phone1: string;
+    phone2: string;
+  };
+  closing: {
+    content: string;
+    signature: string;
+  };
+}
+
+export const generateChecklistPDF = (options: ChecklistPDFOptions, filename: string) => {
+  const doc = new jsPDF({
+    orientation: 'portrait',
+    unit: 'mm',
+    format: 'a4',
+  });
+
+  const pageWidth = doc.internal.pageSize.getWidth();
+  const pageHeight = doc.internal.pageSize.getHeight();
+  const margin = 20;
+  const contentWidth = pageWidth - margin * 2;
+  let y = margin;
+
+  const checkPageBreak = (requiredSpace: number) => {
+    if (y + requiredSpace > pageHeight - margin) {
+      doc.addPage();
+      y = margin;
+    }
+  };
+
+  // Title
+  doc.setFont('helvetica', 'bold');
+  doc.setFontSize(24);
+  doc.text(options.title, margin, y);
+  y += 10;
+
+  // Website
+  doc.setFont('helvetica', 'normal');
+  doc.setFontSize(10);
+  doc.setTextColor(100, 100, 100);
+  doc.text('www.ardennest.be', pageWidth - margin - doc.getTextWidth('www.ardennest.be'), margin);
+  doc.setTextColor(0, 0, 0);
+
+  // Subtitle
+  if (options.subtitle) {
+    doc.setFont('helvetica', 'normal');
+    doc.setFontSize(11);
+    doc.setTextColor(100, 100, 100);
+    const subtitleLines = doc.splitTextToSize(options.subtitle, contentWidth);
+    doc.text(subtitleLines, margin, y);
+    y += subtitleLines.length * 5 + 5;
+  }
+
+  // Intro
+  if (options.intro) {
+    doc.setFont('helvetica', 'italic');
+    doc.setFontSize(10);
+    doc.setTextColor(80, 80, 80);
+    const introLines = doc.splitTextToSize(options.intro, contentWidth);
+    doc.text(introLines, margin, y);
+    y += introLines.length * 5 + 8;
+  }
+
+  // Separator
+  doc.setDrawColor(200, 200, 200);
+  doc.line(margin, y, pageWidth - margin, y);
+  y += 10;
+
+  // Sections with checkboxes
+  options.sections.forEach((section) => {
+    checkPageBreak(30);
+
+    // Section title
+    doc.setFont('helvetica', 'bold');
+    doc.setFontSize(14);
+    doc.setTextColor(0, 0, 0);
+    doc.text(section.title, margin, y);
+    y += 7;
+
+    // Section subtitle
+    if (section.subtitle) {
+      doc.setFont('helvetica', 'normal');
+      doc.setFontSize(10);
+      doc.setTextColor(100, 100, 100);
+      doc.text(section.subtitle, margin, y);
+      y += 6;
+    }
+
+    // Checkbox items
+    doc.setFont('helvetica', 'normal');
+    doc.setFontSize(10);
+    doc.setTextColor(60, 60, 60);
+
+    section.items.forEach((item) => {
+      checkPageBreak(8);
+      
+      // Draw checkbox square
+      doc.setDrawColor(150, 150, 150);
+      doc.setLineWidth(0.3);
+      doc.rect(margin, y - 3.5, 4, 4);
+      
+      // Item text
+      const itemLines = doc.splitTextToSize(item, contentWidth - 8);
+      doc.text(itemLines, margin + 7, y);
+      y += itemLines.length * 5 + 2;
+    });
+
+    // Tip
+    if (section.tip) {
+      checkPageBreak(10);
+      doc.setFont('helvetica', 'italic');
+      doc.setFontSize(9);
+      doc.setTextColor(80, 120, 80);
+      doc.text(section.tip, margin, y);
+      y += 8;
+    }
+
+    y += 5;
+
+    // Section separator
+    doc.setDrawColor(220, 220, 220);
+    doc.line(margin, y, pageWidth - margin, y);
+    y += 10;
+  });
+
+  // Damage section
+  checkPageBreak(30);
+  doc.setFont('helvetica', 'bold');
+  doc.setFontSize(14);
+  doc.setTextColor(0, 0, 0);
+  doc.text(options.damage.title, margin, y);
+  y += 7;
+
+  doc.setFont('helvetica', 'normal');
+  doc.setFontSize(10);
+  doc.setTextColor(60, 60, 60);
+  const damageLines = doc.splitTextToSize(options.damage.content, contentWidth);
+  doc.text(damageLines, margin, y);
+  y += damageLines.length * 5 + 5;
+
+  doc.setFont('helvetica', 'bold');
+  doc.setTextColor(0, 0, 0);
+  doc.text(options.damage.depositInfo, margin, y);
+  y += 10;
+
+  // Separator
+  doc.setDrawColor(220, 220, 220);
+  doc.line(margin, y, pageWidth - margin, y);
+  y += 10;
+
+  // Contact section
+  checkPageBreak(25);
+  doc.setFont('helvetica', 'bold');
+  doc.setFontSize(12);
+  doc.setTextColor(0, 0, 0);
+  doc.text(`${options.contact.title}: ${options.contact.phone1} of ${options.contact.phone2}`, margin, y);
+  y += 15;
+
+  // Closing
+  checkPageBreak(25);
+  doc.setFont('helvetica', 'normal');
+  doc.setFontSize(11);
+  doc.setTextColor(60, 60, 60);
+  doc.text(options.closing.content, margin, y);
+  y += 10;
+
+  doc.setFont('helvetica', 'italic');
+  doc.setFontSize(9);
+  doc.setTextColor(120, 120, 120);
+  doc.text(options.closing.signature, margin, y);
+
+  // Save the PDF
+  doc.save(filename);
+};
