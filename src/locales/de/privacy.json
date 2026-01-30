@@ -28,7 +28,7 @@
         "items": ["Name", "E-Mail-Adresse", "Telefonnummer", "Inhalt Ihrer Nachricht"]
       },
       "booking": {
-        "title": "Über den Buchungsprozess (Beds24)",
+        "title": "Über den Buchungsprozess (Property Management System)",
         "items": ["Name und Kontaktdaten", "Anzahl der Gäste und Gruppenzusammensetzung", "Zahlungsdaten (verarbeitet durch Mollie, nicht bei uns gespeichert)", "Buchungsdaten und Präferenzen"]
       },
       "automatic": {
@@ -59,7 +59,7 @@
       "title": "5. Mit wem teilen wir Ihre Daten?",
       "intro": "Wir teilen Ihre Daten nur, wenn es notwendig ist:",
       "partners": [
-        { "name": "Beds24", "description": "Unser Buchungssystem (Auftragsverarbeiter, EU)" },
+        { "name": "Property Management System", "description": "Unser Buchungssystem (Auftragsverarbeiter, EU)" },
         { "name": "Mollie", "description": "Zahlungsabwicklung (Auftragsverarbeiter, Niederlande)" },
         { "name": "Google Analytics", "description": "Website-Statistiken (nur mit Zustimmung, Daten anonymisiert)" }
       ],
@@ -113,7 +113,7 @@
         "title": "Externe Dienste",
         "description": "Unsere Website verwendet einige externe Dienste, die eigene Cookies setzen können:",
         "items": [
-          "Beds24: Für den Buchungskalender und Reservierungen",
+          "Property Management System: Für den Buchungskalender und Reservierungen",
           "Google Maps: Für die Standortkarte auf der Kontaktseite"
         ]
       },
