@@ -1,0 +1,57 @@
+{
+  "pageTitle": "Politique d'annulation",
+  "pageSubtitle": "Notre politique d'annulation est conçue pour protéger à la fois les hôtes et les propriétaires. Veuillez lire ci-dessous les conditions d'annulation de votre réservation.",
+  "accommodation": "Hébergement",
+  "accommodationValue": "ArdenNest",
+  "website": "Site web",
+  "websiteValue": "www.ardennest.be",
+  "operator": "Exploitant",
+  "operatorValue": "Festina Lente bv",
+  "version": "Version",
+  "versionValue": "Janvier 2025",
+  "downloadButton": "Télécharger PDF",
+  "intro": "Chez ArdenNest, nous comprenons que les plans peuvent changer. C'est pourquoi nous maintenons une politique d'annulation équitable et transparente. Vous trouverez ci-dessous les conditions qui s'appliquent à votre réservation.",
+  "tiersTitle": "Conditions d'annulation",
+  "tiers": [
+    {
+      "period": "Plus de 60 jours avant l'arrivée",
+      "refund": "Remboursement à 100%",
+      "description": "En cas d'annulation plus de 60 jours avant la date d'arrivée prévue, vous recevrez un remboursement complet moins 50€ de frais administratifs."
+    },
+    {
+      "period": "30 à 60 jours avant l'arrivée",
+      "refund": "Remboursement à 50%",
+      "description": "En cas d'annulation entre 30 et 60 jours avant l'arrivée, 50% du montant total de la réservation sera remboursé."
+    },
+    {
+      "period": "14 à 30 jours avant l'arrivée",
+      "refund": "Remboursement à 25%",
+      "description": "En cas d'annulation entre 14 et 30 jours avant l'arrivée, 25% du montant total de la réservation sera remboursé."
+    },
+    {
+      "period": "Moins de 14 jours avant l'arrivée",
+      "refund": "Pas de remboursement",
+      "description": "En cas d'annulation moins de 14 jours avant la date d'arrivée prévue, aucun remboursement n'est possible."
+    }
+  ],
+  "conditionsTitle": "Conditions supplémentaires",
+  "conditions": [
+    "Toutes les annulations doivent être soumises par écrit par e-mail.",
+    "La date de réception de l'annulation est la date d'annulation.",
+    "En cas de départ anticipé pendant votre séjour, aucun remboursement ne sera effectué.",
+    "La caution sera remboursée dans les 14 jours suivant le départ, à condition qu'il n'y ait pas de dommages.",
+    "Nous vous recommandons de souscrire une assurance annulation.",
+    "En cas de non-présentation (ne pas se présenter), le montant total sera facturé."
+  ],
+  "forceMajeure": {
+    "title": "Force majeure",
+    "content": "En cas de force majeure (catastrophes naturelles, pandémies, mesures gouvernementales rendant les voyages impossibles), nous travaillerons avec vous pour trouver une solution adaptée. Cela peut inclure : reporter la réservation à une autre date ou un remboursement complet. ArdenNest se réserve le droit de décider au cas par cas."
+  },
+  "contact": {
+    "title": "Des questions ?",
+    "content": "Vous avez des questions sur notre politique d'annulation ou souhaitez-vous annuler votre réservation ? Contactez-nous :",
+    "email": "E-mail : info@ardennest.be",
+    "phone": "Téléphone : +32 475 45 85 38"
+  },
+  "signature": "ArdenNest — Votre maison dans les Ardennes"
+}
