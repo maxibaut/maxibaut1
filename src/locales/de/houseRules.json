@@ -1,0 +1,130 @@
+{
+  "pageTitle": "Hausordnung",
+  "pageSubtitle": "Diese Hausordnung trägt dazu bei, den Aufenthalt für Sie und die folgenden Gruppen so angenehm wie möglich zu gestalten.",
+  "legalDocuments": "Rechtliche Dokumente",
+  "downloadButton": "Hausordnung herunterladen",
+  "accommodation": "Unterkunft",
+  "accommodationValue": "Rue de la ferme 3, 5575 Malvoisin",
+  "website": "Website",
+  "websiteValue": "www.ardennest.be",
+  "operator": "Betreiber",
+  "operatorValue": "Festina Lente bv",
+  "version": "Version",
+  "versionValue": "Januar 2026",
+  "welcome": "Willkommen bei Arden'Nest. Schön, dass Sie da sind. Diese Hausordnung trägt dazu bei, den Aufenthalt für Sie und die folgenden Gruppen so angenehm wie möglich zu gestalten. Die meisten Dinge verstehen sich von selbst, aber wir möchten sie gerne schriftlich festhalten. Die aktuelle Version hängt im Haus aus und ist verbindlich.",
+  "sections": {
+    "arrivalDeparture": {
+      "title": "Anreise & Abreise",
+      "cleaning": {
+        "title": "Reinigung",
+        "content": "Die Endreinigung nach Ihrer Abreise ist im Preis inbegriffen, vorausgesetzt das Haus wird ordentlich hinterlassen. Konkret bitten wir Sie, das Erdgeschoss zu staubsaugen, das Geschirr abzuwaschen und einzuräumen, den Müll zu trennen, Ihre persönlichen Sachen mitzunehmen und die Abreise-Checkliste durchzugehen. Diese Checkliste erhalten Sie vor Ihrer Ankunft und sie hängt im Haus aus."
+      }
+    },
+    "house": {
+      "title": "Das Haus",
+      "bedding": {
+        "title": "Bettwäsche",
+        "content": "Bitte verwenden Sie die Betten, Kissen und Bettdecken immer mit der von uns bereitgestellten Wäsche, damit alles frisch und hygienisch für alle bleibt. Wir bitten Sie auch, Matratzen und Bettdecken auf den Betten zu lassen und nicht auf den Boden zu legen, und unbenutzte Bettwäsche ordentlich im Schrank aufzubewahren. Betten dürfen nicht in ein anderes Zimmer verlegt werden."
+      },
+      "beds": {
+        "title": "Betten",
+        "content": "Bitte verschieben Sie die Betten nicht in ein anderes Zimmer."
+      },
+      "furniture": {
+        "title": "Möbel",
+        "content": "Wir haben die Möbel und Betten so platziert, dass sie am besten zur Geltung kommen, bitte lassen Sie sie daher an ihrem Platz."
+      },
+      "shoes": {
+        "title": "Schuhe",
+        "content": "Um die Böden und Teppiche in den oberen Etagen schön zu halten, bitten wir Sie, oben keine Außenschuhe zu tragen. Hausschuhe oder dicke Socken sind ideal und machen es auch gemütlicher."
+      }
+    },
+    "foodDrink": {
+      "title": "Essen und Getränke",
+      "content": "Bitte nehmen Sie keine Speisen oder Getränke mit nach oben in die Schlafzimmer oder auf die Treppe, damit die Zimmer ein Ort bleiben, an dem Sie wirklich zur Ruhe kommen können."
+    },
+    "smokeFree": {
+      "title": "Rauchfrei",
+      "content": "Das gesamte Haus ist rauchfrei, einschließlich E-Zigaretten und Vapes. Draußen stehen Aschenbecher für Raucher bereit, wir bitten Sie, diese zu benutzen und keine Kippen im Garten zu hinterlassen."
+    },
+    "firewood": {
+      "title": "Brennholz",
+      "content": "Brennholz ist gegen eine kleine Gebühr erhältlich. Wir bitten Sie, kein eigenes Holz mitzubringen."
+    },
+    "kitchen": {
+      "title": "Die Küche",
+      "frying": {
+        "title": "Frittieren",
+        "content": "Frittieren mit Öl sowie die Verwendung von Gourmet- oder Fonduegeräten ist im Haus, auf der Terrasse oder im Garten nicht gestattet — dies ist eine Anforderung der Feuerwehr und der Versicherung im Rahmen des Brandschutzes. Die professionelle Küche bietet mehr als genug Alternativen, um köstliche Mahlzeiten zuzubereiten."
+      }
+    },
+    "garden": {
+      "title": "Der Garten",
+      "playground": {
+        "title": "Spielparadies",
+        "content": "Es ist nicht gestattet, eigene Zelte, Wohnwagen oder aufblasbare Pools aufzustellen."
+      },
+      "toys": {
+        "title": "Spielzeug",
+        "content": "Das Spielzeug drinnen ist nur für den Innenbereich bestimmt, und das Außenspielzeug im Lagerraum ist für unser Gelände gedacht — nicht auf öffentlichen Wegen. Die Go-Karts und Fahrräder sind für Kinder bis 16 Jahre vorgesehen. Wir bitten Sie, abends alle Außengeräte wieder hineinzubringen."
+      },
+      "fire": {
+        "title": "Feuer",
+        "content": "Offenes Feuer im Garten ist nicht gestattet, und auch Feuerwerk oder Himmelslaternen sind wegen Brandgefahr und der Tiere in diesem ländlichen Dorf nicht erlaubt."
+      },
+      "trampoline": {
+        "title": "Trampolin",
+        "content": "Bitte tragen Sie keine Schuhe auf dem Trampolin."
+      }
+    },
+    "quietHours": {
+      "title": "Ruhe & Umgebung",
+      "outdoorMusic": {
+        "title": "Musik im Freien",
+        "content": "Musik im Freien ist nicht gestattet, auch nicht tagsüber. Die Stille und Ruhe der Ardennen ist genau das, was viele unserer Gäste so schätzen, und das möchten wir bewahren."
+      },
+      "quietTime": {
+        "title": "Ruhezeiten",
+        "subtitle": "22:00 – 07:00 Uhr",
+        "content": "Zwischen 22 Uhr abends und 7 Uhr morgens bitten wir Sie, den Geräuschpegel auf Gesprächslautstärke zu halten. Externe Lautsprecher oder Musikanlagen sind nicht gestattet. So kann jeder, der schlafen möchte, dies auch wirklich tun — sowohl in Ihrer Gruppe als auch bei den Nachbarn."
+      }
+    },
+    "pets": {
+      "title": "Haustiere",
+      "content": "Haustiere sind bei Arden'Nest nicht erlaubt. Wir haben das Haus allergenarm eingerichtet, damit Gäste mit Allergien hier sorgenfrei übernachten können, und das möchten wir beibehalten."
+    },
+    "damage": {
+      "title": "Schäden & Meldungen",
+      "content": "Sollte bei Ihrer Ankunft etwas nicht in Ordnung sein, teilen Sie es uns bitte sofort mit — so sind Sie abgesichert und wir können es oft noch während Ihres Aufenthalts beheben. Wenn während Ihres Aufenthalts etwas kaputt geht oder beschädigt wird, melden Sie es bitte ebenfalls, dann sorgen wir dafür, dass für die nächsten Gäste alles in Ordnung ist."
+    },
+    "access": {
+      "title": "Zugang",
+      "content": "In Notfällen oder wenn dringende Wartungsarbeiten erforderlich sind, können wir das Haus betreten. Bei allen anderen Angelegenheiten kontaktieren wir Sie immer, um einen geeigneten Zeitpunkt zu vereinbaren — wir respektieren Ihre Privatsphäre vollständig."
+    },
+    "emergencyStairs": {
+      "title": "Nottreppe",
+      "content": "Die Nottreppe an der Seitenfassade darf nur im Notfall benutzt werden."
+    },
+    "groupSize": {
+      "title": "Gruppengröße",
+      "content": "Arden'Nest ist für Familien und Gruppen konzipiert, die gemeinsam Zeit verbringen möchten, mit maximal 26 Personen (einschließlich Babys). Das Haus ist nicht für Partys oder Veranstaltungen geeignet."
+    },
+    "liability": {
+      "title": "Haftung",
+      "content": "Arden'Nest haftet nicht für Personenschäden, Verlust oder Beschädigung des Eigentums der Gäste, es sei denn, es liegt nachweisbare Fahrlässigkeit unsererseits vor. Die Aufsicht über Kinder bleibt immer in der Verantwortung der Eltern und Betreuer. Wir empfehlen den Abschluss einer Reiseversicherung, die Stornierung und Haftung abdeckt."
+    },
+    "emergency": {
+      "title": "Notfälle",
+      "emergencyNumber": "Notrufnummer",
+      "emergencyNumberValue": "112",
+      "ownerContact": "Kontakt Eigentümer",
+      "ownerContactValue": "+32 478 03 03 52"
+    },
+    "closing": {
+      "title": "Zum Schluss",
+      "content1": "Neben dieser Hausordnung gilt selbstverständlich auch das belgische Recht. Die Version der Hausordnung, die Sie mit Ihrer Buchungsbestätigung erhalten, gilt für Ihren Aufenthalt.",
+      "content2": "Wir wünschen Ihnen einen wunderbaren und unvergesslichen Aufenthalt bei Arden'Nest. Genießen Sie die Zeit miteinander und die Ruhe.",
+      "signature": "Arden'Nest • Festina Lente • Seit 2003 gastfreundlich in den Ardennen"
+    }
+  }
+}
