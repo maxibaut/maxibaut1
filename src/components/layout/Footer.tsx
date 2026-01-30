@@ -107,11 +107,35 @@ export const Footer = () => {
               </li>
               <li>
                 <Link
+                  to="/early-arrival"
+                  className="text-primary-foreground/80 hover:text-primary-foreground transition-colors"
+                >
+                  {t('footer.earlyArrival')}
+                </Link>
+              </li>
+              <li>
+                <Link
                   to="/checklist"
                   className="text-primary-foreground/80 hover:text-primary-foreground transition-colors"
                 >
                   {t('footer.checklist')}
                 </Link>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  className="text-primary-foreground/80 hover:text-primary-foreground transition-colors"
+                >
+                  {t('footer.rentalTerms')}
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  className="text-primary-foreground/80 hover:text-primary-foreground transition-colors"
+                >
+                  {t('footer.cancellation')}
+                </a>
               </li>
               <li>
                 <Link
@@ -123,27 +147,11 @@ export const Footer = () => {
               </li>
               <li>
                 <Link
-                  to="/early-arrival"
-                  className="text-primary-foreground/80 hover:text-primary-foreground transition-colors"
-                >
-                  {t('footer.earlyArrival')}
-                </Link>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  className="text-primary-foreground/80 hover:text-primary-foreground transition-colors"
-                >
-                  {t('footer.cancellation')}
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
+                  to="/privacy-policy"
                   className="text-primary-foreground/80 hover:text-primary-foreground transition-colors"
                 >
                   {t('footer.privacy')}
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
