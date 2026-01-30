@@ -1,0 +1,149 @@
+{
+  "pageTitle": "Conditions de location",
+  "pageSubtitle": "Ces conditions de location s'appliquent à toutes les réservations chez Arden'Nest.",
+  "downloadButton": "Télécharger PDF",
+  "accommodation": "Hébergement",
+  "accommodationValue": "Rue de la Ferme 3, 5575 Malvoisin",
+  "website": "Site web",
+  "websiteValue": "www.ArdenNest.be",
+  "operator": "Exploitant",
+  "operatorValue": "Festina Lente bv",
+  "vatNumber": "Numéro TVA",
+  "vatNumberValue": "BE 0475 117 084",
+  "version": "Version",
+  "versionValue": "Janvier 2026",
+  "intro": "Ces conditions de location s'appliquent à toutes les réservations chez Arden'Nest. En réservant, vous acceptez les conditions suivantes. Des questions ? N'hésitez pas à nous contacter.",
+  "articles": [
+    {
+      "number": 1,
+      "title": "Réservation et confirmation",
+      "content": "Après l'envoi du contrat, nous bloquons la période pendant 48 heures pour vous. Si nous ne recevons pas l'acompte et le contrat signé dans ce délai, la période redevient disponible. La réservation n'est définitive qu'après réception des deux."
+    },
+    {
+      "number": 2,
+      "title": "Droit de refus",
+      "content": "Nous nous réservons le droit de refuser ou d'annuler une réservation."
+    },
+    {
+      "number": 3,
+      "title": "Accord avec les conditions",
+      "content": "En payant l'acompte, vous acceptez ces conditions de location et le règlement intérieur. En cas de non-respect, nous pouvons retenir (partiellement) la caution."
+    },
+    {
+      "number": 4,
+      "title": "Capacité maximale",
+      "content": "La capacité maximale est de 26 personnes, dont un maximum de 18 adultes (18+). Le dépassement n'est pas autorisé."
+    },
+    {
+      "number": 5,
+      "title": "Enregistrement des invités",
+      "content": "Au moins 1 semaine avant l'arrivée, nous vous demandons de collecter les données pour le formulaire d'enregistrement des invités légalement requis — pour toute personne présente (même partiellement) pendant le séjour."
+    },
+    {
+      "number": 6,
+      "title": "Vérification après le séjour",
+      "content": "Après le séjour, nous vérifions le formulaire d'enregistrement des invités et le nombre de lits utilisés. Si plus de lits ont été utilisés que le nombre d'invités indiqué, nous ajusterons la taxe de séjour et les frais par personne."
+    },
+    {
+      "number": 7,
+      "title": "Visites de jour",
+      "content": "Les invités non-résidents (visites de jour) ne sont pas autorisés."
+    },
+    {
+      "number": 8,
+      "title": "Sous-location",
+      "content": "La sous-location de la propriété n'est pas autorisée."
+    },
+    {
+      "number": 9,
+      "title": "Assurance incendie",
+      "content": "Nous avons une assurance incendie avec abandon de recours. Cela signifie que vous n'êtes pas responsable en cas d'incendie, sauf en cas d'acte intentionnel. Cependant, une franchise légale s'applique (indexée annuellement) — demandez-nous le montant actuel. Conformément à la loi belge, nous avons également une assurance responsabilité objective en cas d'incendie ou d'explosion."
+    },
+    {
+      "number": 10,
+      "title": "Vol",
+      "content": "Nous ne sommes pas responsables des vols. Gardez vos objets de valeur en sécurité."
+    },
+    {
+      "number": 11,
+      "title": "Paiements",
+      "content": "• Acompte — dans les 48 heures suivant la réception du contrat\n• Solde — au plus tard 30 jours avant l'arrivée\n• Caution (750 €) — au plus tard 30 jours avant l'arrivée"
+    },
+    {
+      "number": 12,
+      "title": "Frais de dossier",
+      "content": "Pour un troisième rappel de paiement, nous facturons 60 € de frais administratifs."
+    },
+    {
+      "number": 13,
+      "title": "Remboursement de la caution",
+      "content": "Nous remboursons la caution dans les 14 jours suivant le départ, à condition qu'il n'y ait pas de dommages. Si les coûts dépassent la caution, nous vous demandons de payer la différence dans les 8 jours."
+    },
+    {
+      "number": 14,
+      "title": "Enregistrement",
+      "content": "Vous ne pouvez vous enregistrer qu'après le paiement intégral du montant total et de la caution."
+    },
+    {
+      "number": 15,
+      "title": "Non-paiement",
+      "content": "Si le calendrier de paiement n'est pas respecté, nous pouvons annuler la location. Les conditions d'annulation standard s'appliquent alors."
+    },
+    {
+      "number": 16,
+      "title": "Départ anticipé",
+      "content": "Un départ anticipé — quelle qu'en soit la raison — ne donne pas droit à un remboursement (partiel)."
+    },
+    {
+      "number": 17,
+      "title": "Frais d'annulation",
+      "content": "• Jusqu'à 56 jours avant l'arrivée — 30% du montant total\n• 55 à 30 jours avant l'arrivée — 60% du montant total\n• À partir de 29 jours avant l'arrivée — 100% du montant total"
+    },
+    {
+      "number": 18,
+      "title": "Heure d'arrivée",
+      "content": "L'enregistrement est possible à partir de l'heure indiquée sur votre contrat (standard 16h00). Veuillez nous informer de l'heure à laquelle vous prévoyez d'arriver."
+    },
+    {
+      "number": 19,
+      "title": "Explications à l'arrivée",
+      "content": "À l'arrivée, nous vous expliquons le fonctionnement des équipements, le tri des déchets et la checklist de départ."
+    },
+    {
+      "number": 20,
+      "title": "État au départ",
+      "content": "Au départ, la maison doit être dans le même état qu'à l'arrivée. Tout dommage sera déduit de la caution."
+    },
+    {
+      "number": 21,
+      "title": "Litiges et droit applicable",
+      "content": "En cas de litige, seul le tribunal de l'arrondissement de Courtrai est compétent. Le droit belge s'applique à cet accord."
+    },
+    {
+      "number": 22,
+      "title": "Responsabilité des mineurs",
+      "content": "Les parents, tuteurs ou accompagnateurs sont toujours responsables des mineurs en leur compagnie. Les dommages causés par des mineurs seront récupérés auprès du locataire et déduits de la caution."
+    },
+    {
+      "number": 23,
+      "title": "Force majeure",
+      "content": "En cas de force majeure (comme les catastrophes naturelles, pandémie, mesures gouvernementales ou autres circonstances imprévues indépendantes de notre volonté), nous ne pouvons être tenus responsables. Nous chercherons une solution adaptée en concertation, comme une date alternative. Le remboursement n'est pas garanti en cas de force majeure, mais nous nous efforçons toujours de trouver une solution équitable."
+    },
+    {
+      "number": 24,
+      "title": "Clés",
+      "content": "Lors de l'enregistrement, vous recevrez les clés de la propriété. Celles-ci doivent être restituées au départ à l'endroit convenu. En cas de perte ou de non-restitution des clés, les frais de remplacement (y compris tout changement de serrure) seront facturés et déduits de la caution."
+    },
+    {
+      "number": 25,
+      "title": "Pannes et défauts",
+      "content": "Si quelque chose tombe en panne ou ne fonctionne pas correctement pendant votre séjour (par ex. lave-vaisselle, chauffage), veuillez nous contacter dès que possible. Nous ferons de notre mieux pour résoudre le problème rapidement. Une panne ne donne pas droit à un remboursement (partiel), sauf si la propriété devient inhabitable et que nous ne pouvons pas fournir de solution."
+    }
+  ],
+  "closing": "Des questions sur ces conditions ? Nous sommes là pour vous.",
+  "contact": {
+    "email": "bieke@ardennest.be",
+    "phone": "+32 478 03 03 52"
+  },
+  "signature": "Arden'Nest • Festina Lente • Accueillant des hôtes dans les Ardennes depuis 2003"
+}

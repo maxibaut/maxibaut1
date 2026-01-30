@@ -122,12 +122,12 @@ export const Footer = () => {
                 </Link>
               </li>
               <li>
-                <a
-                  href="#"
+                <Link
+                  to="/rental-terms"
                   className="text-primary-foreground/80 hover:text-primary-foreground transition-colors"
                 >
                   {t('footer.rentalTerms')}
-                </a>
+                </Link>
               </li>
               <li>
                 <a
