@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import { Link, useLocation } from 'react-router-dom';
-import { Download, FileText, ScrollText, ChevronRight, ClipboardCheck, Store, Car } from 'lucide-react';
+import { Download, FileText, ScrollText, ClipboardCheck, Store, Car } from 'lucide-react';
 import { PageWrapper } from '@/components/layout';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
@@ -484,19 +484,16 @@ const HouseRules = () => {
                             key={doc.key}
                             to={doc.path}
                             className={cn(
-                              'flex items-center justify-between px-3 py-2.5 rounded-md text-sm transition-colors group',
+                              'flex items-center px-3 py-2.5 rounded-md text-sm transition-colors',
                               isActive
                                 ? 'bg-primary/10 text-primary font-medium'
-                                : 'text-muted-foreground hover:bg-accent hover:text-foreground'
+                                : 'text-muted-foreground hover:border hover:border-border'
                             )}
                           >
                             <div className="flex items-center gap-2">
                               <Icon className="h-4 w-4" />
                               <span>{t(`footer.${doc.key}`, { ns: 'common' })}</span>
                             </div>
-                            {!isActive && (
-                              <ChevronRight className="h-4 w-4 opacity-0 group-hover:opacity-100 transition-opacity" />
-                            )}
                           </Link>
                         );
                       })}
