@@ -13,37 +13,36 @@ const legalDocuments = [
     key: 'houseRules', 
     path: '/house-rules', 
     icon: ScrollText,
-    hasDownload: true
-  },
-  { 
-    key: 'checklist', 
-    path: '/checklist', 
-    icon: ClipboardCheck,
-    hasDownload: true
-  },
-  { 
-    key: 'localTips', 
-    path: '/shops', 
-    icon: Store,
-    hasDownload: true
   },
   { 
     key: 'earlyArrival', 
     path: '/early-arrival', 
     icon: Car,
-    hasDownload: false
+  },
+  { 
+    key: 'checklist', 
+    path: '/checklist', 
+    icon: ClipboardCheck,
+  },
+  {
+    key: 'rentalTerms', 
+    path: '/rental-terms', 
+    icon: FileText,
   },
   {
     key: 'cancellation', 
     path: '/cancellation-policy', 
     icon: FileText,
-    hasDownload: false
+  },
+  { 
+    key: 'localTips', 
+    path: '/shops', 
+    icon: Store,
   },
   { 
     key: 'privacy', 
     path: '/privacy-policy', 
     icon: Shield,
-    hasDownload: false
   },
 ];
 
