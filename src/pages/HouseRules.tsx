@@ -41,6 +41,26 @@ const HouseRules = () => {
     document.body.removeChild(link);
   };
 
+  const handleDownloadAll = async () => {
+    const documentsToDownload = legalDocuments
+      .filter(doc => doc.downloadPath)
+      .map(doc => ({
+        url: doc.downloadPath!,
+        filename: doc.downloadPath!.split('/').pop() || 'document.md'
+      }));
+
+    for (const doc of documentsToDownload) {
+      const link = document.createElement('a');
+      link.href = doc.url;
+      link.download = doc.filename;
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      // Small delay between downloads
+      await new Promise(resolve => setTimeout(resolve, 300));
+    }
+  };
+
   return (
     <PageWrapper>
       {/* Hero Section */}
@@ -379,7 +399,7 @@ const HouseRules = () => {
                 <Card className="border-border/50">
                   <CardContent className="p-4">
                     <h3 className="font-serif text-lg font-semibold text-foreground mb-4">
-                      {t('legalDocuments')}
+                      {t('footer.documentsInfo', { ns: 'common' })}
                     </h3>
                     <nav className="space-y-1">
                       {legalDocuments.map((doc) => {
@@ -412,13 +432,13 @@ const HouseRules = () => {
                     <Separator className="my-4" />
                     
                     <Button 
-                      onClick={handleDownloadPDF} 
+                      onClick={handleDownloadAll} 
                       variant="outline" 
                       className="w-full gap-2 text-sm"
                       size="sm"
                     >
                       <Download className="h-4 w-4" />
-                      {t('downloadButton')}
+                      {t('footer.downloadAll', { ns: 'common' })}
                     </Button>
                   </CardContent>
                 </Card>
