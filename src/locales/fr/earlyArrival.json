@@ -1,0 +1,81 @@
+{
+  "pageTitle": "Arrivé en avance ?",
+  "pageSubtitle": "La maison est nettoyée jusqu'à 16h. Découvrez des sorties sympa pour patienter.",
+  "downloadButton": "Télécharger PDF",
+  "accommodation": "Hébergement",
+  "accommodationValue": "Rue de la Ferme 3, 5575 Malvoisin",
+  "website": "Site web",
+  "websiteValue": "www.ArdenNest.be",
+  "version": "Version",
+  "versionValue": "Janvier 2026",
+  "intro": "La maison est nettoyée jusqu'à 16h le jour de l'arrivée. Pour permettre à notre équipe de ménage de travailler tranquillement, un check-in anticipé n'est malheureusement pas possible. Mais pas de souci — la région a beaucoup à offrir pour transformer l'attente en début de vacances.",
+  "destinations": [
+    {
+      "name": "Bouillon",
+      "distance": "± 45 minutes",
+      "description": "La ville historique avec son imposante forteresse au-dessus de la Semois. Histoires de croisés et d'intrigues médiévales.",
+      "highlights": [
+        {
+          "name": "La Forteresse",
+          "description": "Parcourez des couloirs séculaires, profitez de la vue. Les enfants adorent le spectacle de rapaces"
+        },
+        {
+          "name": "Le Marché de Nathalie",
+          "description": "Impressionnante sélection de bières régionales — emportez-en pour la soirée"
+        }
+      ]
+    },
+    {
+      "name": "Rochehaut",
+      "distance": "± 30 minutes",
+      "description": "Village pittoresque avec peut-être la plus belle vue de la région. Parfait pour un court arrêt avec tout le groupe.",
+      "highlights": [
+        {
+          "name": "Le Point de Vue",
+          "description": "Panorama époustouflant sur Frahan et la Semois sinueuse — parfait pour Instagram"
+        },
+        {
+          "name": "Agri-Musée",
+          "description": "Musée sympa sur la vie rurale. Instructif pour petits et grands"
+        }
+      ]
+    },
+    {
+      "name": "Han-sur-Lesse",
+      "distance": "± 40 minutes",
+      "description": "Surtout connu pour ses grottes, mais le village a plus à offrir. Idéal pour les familles avec enfants.",
+      "highlights": [
+        {
+          "name": "Les Grottes de Han",
+          "description": "Spectaculaire ! Prenez un vieux tram vers un monde souterrain plein de stalactites. Incontournable"
+        },
+        {
+          "name": "Parc Animalier",
+          "description": "Le plus grand de Belgique — observez loups, lynx et ours, à pied ou en voiture safari"
+        }
+      ]
+    },
+    {
+      "name": "Monthermé (France)",
+      "distance": "± 50 minutes",
+      "description": "Envie d'une escapade de l'autre côté de la frontière ? Le trajet lui-même est une aventure — routes sinueuses à travers forêts denses le long de la Meuse.",
+      "highlights": [
+        {
+          "name": "Louer un bateau",
+          "description": "Explorez la rivière à votre rythme et profitez du paysage depuis l'eau"
+        },
+        {
+          "name": "Gastronomie française",
+          "description": "Savourez un plat traditionnel avec un bon verre de vin dans un bistro local"
+        }
+      ]
+    }
+  ],
+  "contact": {
+    "title": "Questions ou besoin d'aide ?",
+    "content": "N'hésitez pas à nous contacter",
+    "phone1": "0478 03 03 52",
+    "phone2": "0477 33 53 70"
+  },
+  "signature": "Arden'Nest • Festina Lente • Hospitalité dans les Ardennes depuis 2003"
+}

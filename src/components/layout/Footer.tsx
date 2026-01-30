@@ -122,6 +122,14 @@ export const Footer = () => {
                 </Link>
               </li>
               <li>
+                <Link
+                  to="/early-arrival"
+                  className="text-primary-foreground/80 hover:text-primary-foreground transition-colors"
+                >
+                  {t('footer.earlyArrival')}
+                </Link>
+              </li>
+              <li>
                 <a
                   href="#"
                   className="text-primary-foreground/80 hover:text-primary-foreground transition-colors"
