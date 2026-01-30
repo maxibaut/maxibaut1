@@ -16,12 +16,13 @@ interface PDFGeneratorOptions {
   emergency?: { label: string; value: string }[];
 }
 
-export const generatePDF = (options: PDFGeneratorOptions, filename: string) => {
-  const doc = new jsPDF({
-    orientation: 'portrait',
-    unit: 'mm',
-    format: 'a4',
-  });
+export const generatePDF = (options: PDFGeneratorOptions, filename: string): boolean => {
+  try {
+    const doc = new jsPDF({
+      orientation: 'portrait',
+      unit: 'mm',
+      format: 'a4',
+    });
 
   const pageWidth = doc.internal.pageSize.getWidth();
   const pageHeight = doc.internal.pageSize.getHeight();
@@ -175,8 +176,13 @@ export const generatePDF = (options: PDFGeneratorOptions, filename: string) => {
     doc.text(options.footer, margin, y + 5);
   }
 
-  // Save the PDF
-  doc.save(filename);
+    // Save the PDF
+    doc.save(filename);
+    return true;
+  } catch (error) {
+    console.error('Error generating PDF:', error);
+    return false;
+  }
 };
 
 // Checklist PDF Generator
@@ -208,12 +214,13 @@ interface ChecklistPDFOptions {
   };
 }
 
-export const generateChecklistPDF = (options: ChecklistPDFOptions, filename: string) => {
-  const doc = new jsPDF({
-    orientation: 'portrait',
-    unit: 'mm',
-    format: 'a4',
-  });
+export const generateChecklistPDF = (options: ChecklistPDFOptions, filename: string): boolean => {
+  try {
+    const doc = new jsPDF({
+      orientation: 'portrait',
+      unit: 'mm',
+      format: 'a4',
+    });
 
   const pageWidth = doc.internal.pageSize.getWidth();
   const pageHeight = doc.internal.pageSize.getHeight();
@@ -369,6 +376,11 @@ export const generateChecklistPDF = (options: ChecklistPDFOptions, filename: str
   doc.setTextColor(120, 120, 120);
   doc.text(options.closing.signature, margin, y);
 
-  // Save the PDF
-  doc.save(filename);
+    // Save the PDF
+    doc.save(filename);
+    return true;
+  } catch (error) {
+    console.error('Error generating checklist PDF:', error);
+    return false;
+  }
 };

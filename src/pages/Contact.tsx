@@ -70,15 +70,24 @@ const Contact = () => {
 
   const onSubmit = async (data: ContactFormData) => {
     setIsSubmitting(true);
-    // Simulate form submission
-    await new Promise((resolve) => setTimeout(resolve, 1000));
-    console.log('Form submitted:', data);
-    toast({
-      title: 'Bericht verzonden!',
-      description: t('form.success'),
-    });
-    form.reset();
-    setIsSubmitting(false);
+    try {
+      // Simulate form submission
+      await new Promise((resolve) => setTimeout(resolve, 1000));
+      // Note: In production, send data to backend API instead of logging
+      toast({
+        title: 'Bericht verzonden!',
+        description: t('form.success'),
+      });
+      form.reset();
+    } catch (error) {
+      toast({
+        title: 'Er ging iets mis',
+        description: 'Probeer het later opnieuw.',
+        variant: 'destructive',
+      });
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   const contactOptions = [
