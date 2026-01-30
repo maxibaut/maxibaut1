@@ -42,5 +42,10 @@
     "fr": "Français",
     "en": "English",
     "de": "Deutsch"
+  },
+  "notFound": {
+    "title": "This track is a dead end.",
+    "subtitle": "The page you're looking for doesn't exist or has been moved.",
+    "backHome": "Back to Home"
   }
 }
