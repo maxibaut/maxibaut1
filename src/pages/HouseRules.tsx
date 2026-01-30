@@ -494,10 +494,9 @@ const HouseRules = () => {
                               <Icon className="h-4 w-4" />
                               <span>{t(`footer.${doc.key}`, { ns: 'common' })}</span>
                             </div>
-                            <ChevronRight className={cn(
-                              'h-4 w-4 opacity-0 group-hover:opacity-100 transition-opacity',
-                              isActive && 'opacity-100'
-                            )} />
+                            {!isActive && (
+                              <ChevronRight className="h-4 w-4 opacity-0 group-hover:opacity-100 transition-opacity" />
+                            )}
                           </Link>
                         );
                       })}
