@@ -2,6 +2,7 @@ import { PageWrapper } from '@/components/layout';
 import { useTranslation } from 'react-i18next';
 import { useParams, Link, Navigate } from 'react-router-dom';
 import { useState } from 'react';
+import DOMPurify from 'dompurify';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { Card, CardContent } from '@/components/ui/card';
@@ -323,15 +324,18 @@ const SurroundingsDetail = () => {
                     return (
                       <ul key={idx} className="space-y-2 my-4">
                         {items.map((listItem, itemIdx) => {
-                          // Convert **text** to <strong>text</strong>
+                          // Convert **text** to <strong>text</strong> and sanitize
                           const formattedText = listItem
                             .replace('- ', '')
                             .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+                          const sanitizedText = DOMPurify.sanitize(formattedText, {
+                            ALLOWED_TAGS: ['strong', 'em', 'b', 'i'],
+                          });
                           return (
                             <li 
                               key={itemIdx} 
                               className="text-muted-foreground"
-                              dangerouslySetInnerHTML={{ __html: formattedText }}
+                              dangerouslySetInnerHTML={{ __html: sanitizedText }}
                             />
                           );
                         })}
@@ -340,11 +344,14 @@ const SurroundingsDetail = () => {
                   }
                   // Handle regular paragraphs with potential bold text
                   const formattedParagraph = paragraph.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+                  const sanitizedParagraph = DOMPurify.sanitize(formattedParagraph, {
+                    ALLOWED_TAGS: ['strong', 'em', 'b', 'i'],
+                  });
                   return (
                     <p 
                       key={idx} 
                       className="text-muted-foreground leading-relaxed"
-                      dangerouslySetInnerHTML={{ __html: formattedParagraph }}
+                      dangerouslySetInnerHTML={{ __html: sanitizedParagraph }}
                     />
                   );
                 })}
