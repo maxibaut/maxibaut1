@@ -191,7 +191,7 @@ const LocalTips = () => {
                         {shops.title}
                       </h2>
                     </div>
-                    <div className="space-y-8">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-6">
                       {renderSubCategory('bakeries', shops.bakeries)}
                       {renderSubCategory('butchers', shops.butchers)}
                       {renderSubCategory('fresh', shops.fresh)}
@@ -209,7 +209,7 @@ const LocalTips = () => {
                         {restaurants.title}
                       </h2>
                     </div>
-                    <div className="space-y-8">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-6">
                       {renderSubCategory('gedinne', restaurants.gedinne)}
                       {renderSubCategory('vencimont', restaurants.vencimont)}
                       {renderSubCategory('bievre', restaurants.bievre)}
@@ -227,7 +227,7 @@ const LocalTips = () => {
                         {takeaway.title}
                       </h2>
                     </div>
-                    <div className="space-y-8">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-6">
                       {renderSubCategory('fries', takeaway.fries)}
                       {renderSubCategory('pizza', takeaway.pizza)}
                       {renderSubCategory('pitta', takeaway.pitta)}
@@ -245,10 +245,15 @@ const LocalTips = () => {
                         {caterers.title}
                       </h2>
                     </div>
-                    <div className="space-y-8">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-6">
                       <div className="divide-y divide-border/50">
-                        {caterers.items.map((item, idx) => renderItem(item, idx))}
+                        {caterers.items.slice(0, Math.ceil(caterers.items.length / 2)).map((item, idx) => renderItem(item, idx))}
                       </div>
+                      <div className="divide-y divide-border/50">
+                        {caterers.items.slice(Math.ceil(caterers.items.length / 2)).map((item, idx) => renderItem(item, idx))}
+                      </div>
+                    </div>
+                    <div className="mt-6">
                       {renderSubCategory('bbq', caterers.bbq)}
                     </div>
                   </section>
