@@ -23,8 +23,8 @@ const NotFound = () => {
         <div className="absolute inset-0 bg-black/50" />
       </div>
 
-      {/* Content */}
-      <div className="relative z-10 text-center px-6 max-w-2xl">
+      {/* Content - Upper section */}
+      <div className="relative z-10 text-center px-6 max-w-2xl pt-16 md:pt-24">
         <h1 className="font-serif text-7xl md:text-8xl font-bold text-white mb-4 drop-shadow-lg">
           404
         </h1>
@@ -35,8 +35,17 @@ const NotFound = () => {
           {t('notFound.orDoesIt')}
         </p>
         
-        {/* Tunnel Info */}
-        <div className="bg-black/40 backdrop-blur-sm rounded-lg px-6 py-4 mb-8 text-left inline-block">
+        <Button asChild size="lg" className="gap-2">
+          <Link to="/">
+            <Home className="h-5 w-5" />
+            {t('notFound.backHome')}
+          </Link>
+        </Button>
+      </div>
+
+      {/* Tunnel Info - Bottom section */}
+      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 z-10 px-6">
+        <div className="bg-black/40 backdrop-blur-sm rounded-lg px-6 py-4 text-left">
           <p className="text-white font-semibold text-lg mb-2">{t('notFound.tunnelName')}</p>
           <ul className="text-white/80 text-sm space-y-1">
             <li>• {t('notFound.railwayLine')}</li>
@@ -44,15 +53,6 @@ const NotFound = () => {
             <li>• {t('notFound.nowRavel')}</li>
             <li>• {t('notFound.distance')}</li>
           </ul>
-        </div>
-        
-        <div>
-          <Button asChild size="lg" className="gap-2">
-            <Link to="/">
-              <Home className="h-5 w-5" />
-              {t('notFound.backHome')}
-            </Link>
-          </Button>
         </div>
       </div>
     </div>
