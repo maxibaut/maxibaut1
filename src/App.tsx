@@ -11,6 +11,7 @@ import Contact from "./pages/Contact";
 import Booking from "./pages/Booking";
 import Surroundings from "./pages/Surroundings";
 import SurroundingsDetail from "./pages/SurroundingsDetail";
+import HouseRules from "./pages/HouseRules";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -30,6 +31,7 @@ const App = () => (
           <Route path="/booking" element={<Booking />} />
           <Route path="/surroundings" element={<Surroundings />} />
           <Route path="/surroundings/:category/:slug" element={<SurroundingsDetail />} />
+          <Route path="/house-rules" element={<HouseRules />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

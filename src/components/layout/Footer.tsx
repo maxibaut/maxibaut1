@@ -98,12 +98,12 @@ export const Footer = () => {
             <h4 className="font-serif text-lg font-medium">Legal</h4>
             <ul className="space-y-3">
               <li>
-                <a
-                  href="#"
+                <Link
+                  to="/house-rules"
                   className="text-primary-foreground/80 hover:text-primary-foreground transition-colors"
                 >
                   {t('footer.houseRules')}
-                </a>
+                </Link>
               </li>
               <li>
                 <a
