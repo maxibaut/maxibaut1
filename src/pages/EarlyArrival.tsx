@@ -93,6 +93,9 @@ const EarlyArrival = () => {
                           <strong>{t('website')}:</strong> {t('websiteValue')}
                         </p>
                         <p className="text-sm text-muted-foreground">
+                          <strong>{t('operator')}:</strong> {t('operatorValue')}
+                        </p>
+                        <p className="text-sm text-muted-foreground">
                           <strong>{t('version')}:</strong> {t('versionValue')}
                         </p>
                       </div>
