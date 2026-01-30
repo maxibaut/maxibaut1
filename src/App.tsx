@@ -35,7 +35,7 @@ const App = () => (
           <Route path="/surroundings/:category/:slug" element={<SurroundingsDetail />} />
           <Route path="/house-rules" element={<HouseRules />} />
           <Route path="/checklist" element={<Checklist />} />
-          <Route path="/local-tips" element={<LocalTips />} />
+          <Route path="/shops" element={<LocalTips />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
