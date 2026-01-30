@@ -16,6 +16,7 @@ import Checklist from "./pages/Checklist";
 import LocalTips from "./pages/LocalTips";
 import EarlyArrival from "./pages/EarlyArrival";
 import Privacy from "./pages/Privacy";
+import RentalTerms from "./pages/RentalTerms";
 import NotFound from "./pages/NotFound";
 import ScrollToTop from "./components/ScrollToTop";
 
@@ -41,6 +42,7 @@ const App = () => (
           <Route path="/checklist" element={<Checklist />} />
           <Route path="/shops" element={<LocalTips />} />
           <Route path="/early-arrival" element={<EarlyArrival />} />
+          <Route path="/rental-terms" element={<RentalTerms />} />
           <Route path="/privacy-policy" element={<Privacy />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
