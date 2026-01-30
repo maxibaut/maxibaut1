@@ -93,9 +93,9 @@ export const Footer = () => {
             </ul>
           </div>
 
-          {/* Legal */}
+          {/* Documents & Practical Info */}
           <div className="space-y-4">
-            <h4 className="font-serif text-lg font-medium">Legal</h4>
+            <h4 className="font-serif text-lg font-medium">{t('footer.documentsInfo')}</h4>
             <ul className="space-y-3">
               <li>
                 <Link
