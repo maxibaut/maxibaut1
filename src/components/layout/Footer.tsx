@@ -106,6 +106,14 @@ export const Footer = () => {
                 </Link>
               </li>
               <li>
+                <Link
+                  to="/checklist"
+                  className="text-primary-foreground/80 hover:text-primary-foreground transition-colors"
+                >
+                  {t('footer.checklist')}
+                </Link>
+              </li>
+              <li>
                 <a
                   href="#"
                   className="text-primary-foreground/80 hover:text-primary-foreground transition-colors"
