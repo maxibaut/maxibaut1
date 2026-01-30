@@ -85,7 +85,9 @@
     "questions": [
       {
         "q": "Können wir früher einchecken?",
-        "a": "Das Haus wird am Anreisetag bis 16 Uhr gereinigt. Damit unser Reinigungsteam in Ruhe arbeiten kann, ist ein früheres Einchecken leider nicht möglich. Aber keine Sorge — die Umgebung hat genug zu bieten, um die Wartezeit zum Urlaubsbeginn zu machen. Sehen Sie sich unsere Tipps für eine frühe Ankunft an."
+        "a": "Das Haus wird am Anreisetag bis 16 Uhr gereinigt. Damit unser Reinigungsteam in Ruhe arbeiten kann, ist ein früheres Einchecken leider nicht möglich. Aber keine Sorge — die Umgebung hat genug zu bieten, um die Wartezeit zum Urlaubsbeginn zu machen.",
+        "link": "/early-arrival",
+        "linkText": "Sehen Sie sich unsere Tipps für eine frühe Ankunft an"
       },
       {
         "q": "Wie weit im Voraus sollte ich buchen?",
