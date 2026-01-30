@@ -52,16 +52,6 @@ export const Footer = () => {
                 <span>Ardennen, België</span>
               </li>
             </ul>
-            
-            {/* Homeowners Link - aligned with reviews */}
-            <div className="pt-2">
-              <Link
-                to="/about"
-                className="text-primary-foreground/80 hover:text-primary-foreground transition-colors text-sm"
-              >
-                {t('footer.homeowners')}
-              </Link>
-            </div>
           </div>
 
           {/* Quick Links */}
@@ -101,6 +91,16 @@ export const Footer = () => {
                 </Link>
               </li>
             </ul>
+            
+            {/* Homeowners Link - with spacing */}
+            <div className="pt-4">
+              <Link
+                to="/about"
+                className="text-primary-foreground/80 hover:text-primary-foreground transition-colors"
+              >
+                {t('footer.homeowners')}
+              </Link>
+            </div>
           </div>
 
           {/* Documents & Practical Info */}
