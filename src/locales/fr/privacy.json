@@ -1,0 +1,147 @@
+{
+  "pageTitle": "Confidentialité & Cookies",
+  "pageSubtitle": "Comment nous traitons vos données",
+  "downloadButton": "Télécharger PDF",
+  "accommodation": "Hébergement",
+  "accommodationValue": "Rue de la Ferme 3, 5575 Malvoisin",
+  "website": "Site web",
+  "websiteValue": "www.ArdenNest.be",
+  "operator": "Exploitant",
+  "operatorValue": "Festina Lente bv",
+  "version": "Version",
+  "versionValue": "Janvier 2026",
+  "intro": "Chez Arden'Nest, nous attachons beaucoup d'importance à votre vie privée. Dans cette déclaration, nous expliquons clairement quelles données nous collectons, pourquoi nous le faisons et comment nous veillons à ce que vos informations restent en sécurité. Pas de jargon juridique, juste un langage clair.",
+  "sections": {
+    "whoAreWe": {
+      "title": "1. Qui sommes-nous ?",
+      "content": "Arden'Nest est une maison de vacances dans les Ardennes belges, exploitée par :",
+      "company": "Festina Lente bv",
+      "address": "Rue de la Ferme 3, 5575 Malvoisin, Belgique",
+      "email": "bieke@ardennest.be",
+      "phone": "+32 478 03 03 52",
+      "responsibility": "Nous sommes responsables du traitement de vos données personnelles tel que décrit dans cette déclaration de confidentialité."
+    },
+    "whatData": {
+      "title": "2. Quelles données collectons-nous ?",
+      "contactForm": {
+        "title": "Via le formulaire de contact",
+        "items": ["Nom", "Adresse e-mail", "Numéro de téléphone", "Contenu de votre message"]
+      },
+      "booking": {
+        "title": "Via le processus de réservation (Beds24)",
+        "items": ["Nom et coordonnées", "Nombre d'invités et composition du groupe", "Données de paiement (traitées par Mollie, non stockées par nous)", "Dates de réservation et préférences"]
+      },
+      "automatic": {
+        "title": "Automatiquement via le site web",
+        "items": ["Adresse IP (anonymisée)", "Préférence linguistique", "Statistiques de visite (via Google Analytics, uniquement avec votre consentement)"]
+      }
+    },
+    "whyCollect": {
+      "title": "3. Pourquoi collectons-nous ces données ?",
+      "items": [
+        { "purpose": "Formulaire de contact", "description": "Pour répondre à vos questions et fournir des informations" },
+        { "purpose": "Réservations", "description": "Pour traiter votre réservation et préparer votre séjour" },
+        { "purpose": "Communication", "description": "Pour envoyer des informations pratiques avant l'arrivée" },
+        { "purpose": "Statistiques du site", "description": "Pour améliorer notre site web (uniquement avec consentement)" },
+        { "purpose": "Obligation légale", "description": "Pour se conformer à la législation comptable et fiscale belge" }
+      ]
+    },
+    "legalBasis": {
+      "title": "4. Sur quelle base traitons-nous vos données ?",
+      "items": [
+        { "basis": "Exécution du contrat", "description": "Pour les réservations" },
+        { "basis": "Consentement", "description": "Pour le marketing et les analyses (bannière cookies)" },
+        { "basis": "Obligation légale", "description": "Pour les factures et la comptabilité" },
+        { "basis": "Intérêt légitime", "description": "Pour améliorer nos services" }
+      ]
+    },
+    "sharing": {
+      "title": "5. Avec qui partageons-nous vos données ?",
+      "intro": "Nous ne partageons vos données que lorsque c'est nécessaire :",
+      "partners": [
+        { "name": "Beds24", "description": "Notre système de réservation (sous-traitant, UE)" },
+        { "name": "Mollie", "description": "Traitement des paiements (sous-traitant, Pays-Bas)" },
+        { "name": "Google Analytics", "description": "Statistiques du site (uniquement avec consentement, données anonymisées)" }
+      ],
+      "noSelling": "Nous ne vendons jamais vos données à des tiers. Point final."
+    },
+    "retention": {
+      "title": "6. Combien de temps conservons-nous vos données ?",
+      "items": [
+        { "type": "Formulaire de contact", "duration": "Maximum 1 an après le dernier contact" },
+        { "type": "Données de réservation", "duration": "7 ans (obligation légale de conservation pour la facturation)" },
+        { "type": "Analytics", "duration": "26 mois (par défaut Google Analytics)" }
+      ]
+    },
+    "rights": {
+      "title": "7. Vos droits",
+      "intro": "Selon le RGPD, vous avez les droits suivants :",
+      "items": [
+        { "right": "Accès", "description": "Demandez quelles données nous avons sur vous" },
+        { "right": "Rectification", "description": "Faites corriger les données inexactes" },
+        { "right": "Effacement", "description": "Demandez la suppression de vos données" },
+        { "right": "Limitation", "description": "Limitez la façon dont nous utilisons vos données" },
+        { "right": "Portabilité", "description": "Recevez vos données dans un format standard" },
+        { "right": "Opposition", "description": "Opposez-vous à certains traitements" }
+      ],
+      "contact": "Contactez-nous à bieke@ardennest.be pour exercer l'un de ces droits. Nous répondrons dans les 30 jours.",
+      "complaint": "Pas satisfait ? Vous pouvez déposer une plainte auprès de l'Autorité belge de protection des données (www.gegevensbeschermingsautoriteit.be)."
+    },
+    "cookies": {
+      "title": "8. Cookies",
+      "intro": "Les cookies sont de petits fichiers texte stockés sur votre appareil lorsque vous visitez notre site web. Nous les utilisons pour faire fonctionner le site correctement et pour comprendre comment les visiteurs utilisent le site.",
+      "essential": {
+        "title": "Cookies essentiels (toujours actifs)",
+        "description": "Ces cookies sont nécessaires au fonctionnement du site web :",
+        "items": [
+          { "cookie": "Préférence de langue", "purpose": "Retient votre langue choisie", "duration": "1 an", "type": "Fonctionnel" },
+          { "cookie": "Consentement cookies", "purpose": "Retient votre choix de cookies", "duration": "1 an", "type": "Fonctionnel" },
+          { "cookie": "Session", "purpose": "Maintient la session du site active", "duration": "Session", "type": "Nécessaire" }
+        ]
+      },
+      "analytics": {
+        "title": "Cookies analytiques (avec consentement)",
+        "description": "Ces cookies nous aident à comprendre comment les visiteurs utilisent le site :",
+        "items": [
+          { "cookie": "_ga", "purpose": "Distingue les visiteurs uniques", "duration": "2 ans", "type": "Analytics" },
+          { "cookie": "_ga_*", "purpose": "Stocke le statut de session", "duration": "2 ans", "type": "Analytics" },
+          { "cookie": "_gid", "purpose": "Distingue les visiteurs uniques", "duration": "24 heures", "type": "Analytics" }
+        ],
+        "note": "Google Analytics est configuré avec l'anonymisation IP. Nous ne partageons pas de données personnelles avec Google à des fins publicitaires."
+      },
+      "external": {
+        "title": "Services externes",
+        "description": "Notre site web utilise certains services externes qui peuvent placer leurs propres cookies :",
+        "items": [
+          "Beds24 : Pour le calendrier de réservation et les réservations",
+          "Google Maps : Pour la carte de localisation sur la page de contact"
+        ]
+      },
+      "manage": {
+        "title": "Gérer les cookies",
+        "description": "Lors de votre première visite, nous demandons votre consentement via une bannière cookies. Vous pouvez toujours modifier ce choix via les paramètres des cookies en bas du site web, ou en supprimant les cookies dans votre navigateur."
+      }
+    },
+    "security": {
+      "title": "9. Sécurité",
+      "intro": "Nous prenons la sécurité de vos données au sérieux :",
+      "items": [
+        "Notre site web utilise le cryptage HTTPS",
+        "L'accès aux données personnelles est limité à Bieke et Christophe",
+        "Nous ne travaillons qu'avec des sous-traitants fiables au sein de l'UE",
+        "Les données de paiement ne sont jamais stockées sur nos propres serveurs"
+      ]
+    },
+    "changes": {
+      "title": "10. Modifications",
+      "content": "Nous pouvons mettre à jour cette déclaration de confidentialité de temps en temps. La version la plus récente est toujours disponible sur notre site web. Pour les modifications importantes, nous vous informerons par e-mail (si vous avez réservé) ou via un avis sur le site web."
+    }
+  },
+  "contact": {
+    "title": "Questions sur votre vie privée ?",
+    "content": "Nous sommes là pour vous aider.",
+    "email": "bieke@ardennest.be",
+    "phone": "+32 478 03 03 52"
+  },
+  "signature": "Arden'Nest • Festina Lente • Hospitalité dans les Ardennes depuis 2003"
+}
