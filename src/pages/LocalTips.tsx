@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import { Link, useLocation } from 'react-router-dom';
-import { Download, Store, UtensilsCrossed, ShoppingBag, ChefHat, MapPin, Phone, Globe, Mail, ScrollText, ClipboardCheck, FileText, ChevronRight, Car } from 'lucide-react';
+import { Download, Store, UtensilsCrossed, ShoppingBag, ChefHat, MapPin, Phone, Globe, Mail, ScrollText, ClipboardCheck, FileText, Car } from 'lucide-react';
 import { PageWrapper } from '@/components/layout';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
@@ -284,18 +284,16 @@ const LocalTips = () => {
                             key={doc.key}
                             to={doc.path}
                             className={cn(
-                              "flex items-center gap-3 px-3 py-2.5 rounded-lg transition-colors text-sm",
-                              isActive 
-                                ? "bg-primary/10 text-primary font-medium" 
-                                : "text-muted-foreground hover:bg-muted hover:text-foreground"
+                              'flex items-center px-3 py-2.5 rounded-md text-sm transition-colors',
+                              isActive
+                                ? 'bg-primary/10 text-primary font-medium'
+                                : 'text-muted-foreground hover:border hover:border-border'
                             )}
                           >
-                            <Icon className="h-4 w-4 flex-shrink-0" />
-                            <span className="flex-1">{t(`common:footer.${doc.key}`)}</span>
-                            <ChevronRight className={cn(
-                              "h-4 w-4 transition-transform",
-                              isActive && "text-primary"
-                            )} />
+                            <div className="flex items-center gap-2">
+                              <Icon className="h-4 w-4" />
+                              <span>{t(`common:footer.${doc.key}`)}</span>
+                            </div>
                           </Link>
                         );
                       })}
