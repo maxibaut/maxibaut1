@@ -2,6 +2,14 @@
   "pageTitle": "Departure Checklist",
   "pageSubtitle": "Thank you for your stay at Arden'Nest. To prepare the house for the next guests, we kindly ask you to go through this checklist.",
   "downloadButton": "Download checklist",
+  "accommodation": "Accommodation",
+  "accommodationValue": "Rue de la Ferme 3, 5575 Malvoisin",
+  "website": "Website",
+  "websiteValue": "www.ArdenNest.be",
+  "operator": "Operator",
+  "operatorValue": "Festina Lente bv",
+  "version": "Version",
+  "versionValue": "January 2026",
   "intro": "Cleaning is included when all items are checked off — otherwise, additional costs may apply.",
   "sections": {
     "general": {

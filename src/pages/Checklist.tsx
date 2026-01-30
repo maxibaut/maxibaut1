@@ -150,14 +150,32 @@ const Checklist = () => {
                   {/* Document Header */}
                   <div className="mb-8 pb-6 border-b border-border/50">
                     <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
-                      <p className="text-muted-foreground leading-relaxed max-w-xl">
-                        {t('intro')}
-                      </p>
+                      <div className="space-y-1">
+                        <p className="text-sm text-muted-foreground">
+                          <strong>{t('accommodation')}:</strong> {t('accommodationValue')}
+                        </p>
+                        <p className="text-sm text-muted-foreground">
+                          <strong>{t('website')}:</strong> {t('websiteValue')}
+                        </p>
+                        <p className="text-sm text-muted-foreground">
+                          <strong>{t('operator')}:</strong> {t('operatorValue')}
+                        </p>
+                        <p className="text-sm text-muted-foreground">
+                          <strong>{t('version')}:</strong> {t('versionValue')}
+                        </p>
+                      </div>
                       <Button onClick={handleDownloadPDF} variant="outline" className="gap-2 flex-shrink-0">
                         <Download className="h-4 w-4" />
                         {t('downloadButton')}
                       </Button>
                     </div>
+                  </div>
+
+                  {/* Intro Text */}
+                  <div className="prose prose-slate max-w-none mb-8">
+                    <p className="text-foreground/90 leading-relaxed">
+                      {t('intro')}
+                    </p>
                   </div>
 
                   {/* General Section */}
