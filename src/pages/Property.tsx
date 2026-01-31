@@ -5,9 +5,11 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { Users, Bed, Bath, TreePine, ChefHat, ArrowRight, Sofa } from 'lucide-react';
 import { propertyHero, kitchen, oakTableDetail, diningRoom } from '@/assets/property';
+import { useSEO } from '@/hooks/useSEO';
 
 const Property = () => {
   const { t } = useTranslation('property');
+  useSEO();
 
   const features = [
     { icon: Users, label: t('overview.capacity') },

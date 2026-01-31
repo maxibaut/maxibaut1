@@ -5,8 +5,11 @@ import {
   DifferentiatorsPreview,
   WhyBookDirect,
 } from '@/components/home';
+import { useSEO } from '@/hooks/useSEO';
 
 const Index = () => {
+  useSEO();
+  
   return (
     <PageWrapper>
       <HeroSection />

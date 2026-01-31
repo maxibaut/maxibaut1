@@ -3,20 +3,139 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Arden'Nest | Vakantiewoning in de Ardennen</title>
-    <meta name="description" content="Quiet luxury voor momenten samen. Al sinds 2003 verwelkomen wij families in de Ardennen." />
+    <title>ArdenNest | Vakantiewoning voor 26 personen in de Ardennen</title>
+    <meta name="description" content="Quiet luxury voor momenten samen. Vakantiewoning voor 26 personen met ensuite badkamers, professionele keuken en 2 hectare tuin. Al sinds 2003 verwelkomen wij families in de Ardennen." />
     <meta name="author" content="Festina Lente bv" />
 
     <link rel="icon" href="/favicon.png" type="image/png" />
+    <link rel="canonical" href="https://ardennest.be/" />
 
-    <meta property="og:title" content="Arden'Nest | Vakantiewoning in de Ardennen" />
-    <meta property="og:description" content="Quiet luxury voor momenten samen. Al sinds 2003 verwelkomen wij families in de Ardennen." />
+    <!-- Hreflang tags for multilingual SEO -->
+    <link rel="alternate" hreflang="nl" href="https://ardennest.be/" />
+    <link rel="alternate" hreflang="fr" href="https://ardennest.be/?lang=fr" />
+    <link rel="alternate" hreflang="en" href="https://ardennest.be/?lang=en" />
+    <link rel="alternate" hreflang="de" href="https://ardennest.be/?lang=de" />
+    <link rel="alternate" hreflang="x-default" href="https://ardennest.be/" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="ArdenNest | Vakantiewoning voor 26 personen in de Ardennen" />
+    <meta property="og:description" content="Quiet luxury voor momenten samen. Vakantiewoning voor 26 personen met ensuite badkamers, professionele keuken en 2 hectare tuin." />
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+    <meta property="og:url" content="https://ardennest.be/" />
+    <meta property="og:image" content="https://ardennest.be/og-image.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:locale" content="nl_BE" />
+    <meta property="og:locale:alternate" content="fr_BE" />
+    <meta property="og:locale:alternate" content="en_US" />
+    <meta property="og:locale:alternate" content="de_DE" />
+    <meta property="og:site_name" content="ArdenNest" />
 
+    <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@ArdenNest" />
-    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+    <meta name="twitter:title" content="ArdenNest | Vakantiewoning voor 26 personen in de Ardennen" />
+    <meta name="twitter:description" content="Quiet luxury voor momenten samen. Vakantiewoning voor 26 personen met ensuite badkamers." />
+    <meta name="twitter:image" content="https://ardennest.be/og-image.jpg" />
+
+    <!-- Structured Data: LocalBusiness + VacationRental -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "VacationRental",
+          "@id": "https://ardennest.be/#vacation-rental",
+          "name": "ArdenNest",
+          "description": "Quiet luxury vakantiewoning voor 26 personen in de Ardennen. 9 slaapkamers met ensuite badkamers, professionele keuken en 2 hectare tuin.",
+          "url": "https://ardennest.be",
+          "image": [
+            "https://ardennest.be/og-image.jpg"
+          ],
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Rue de Gedinne 22",
+            "addressLocality": "Gedinne",
+            "postalCode": "5575",
+            "addressRegion": "Wallonië",
+            "addressCountry": "BE"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 49.9789,
+            "longitude": 4.9456
+          },
+          "telephone": "+32 478 123 456",
+          "email": "bieke@ardennest.be",
+          "numberOfRooms": 9,
+          "occupancy": {
+            "@type": "QuantitativeValue",
+            "maxValue": 26
+          },
+          "amenityFeature": [
+            { "@type": "LocationFeatureSpecification", "name": "Ensuite badkamers", "value": true },
+            { "@type": "LocationFeatureSpecification", "name": "Professionele keuken", "value": true },
+            { "@type": "LocationFeatureSpecification", "name": "Gratis WiFi", "value": true },
+            { "@type": "LocationFeatureSpecification", "name": "Gratis parkeren", "value": true },
+            { "@type": "LocationFeatureSpecification", "name": "Tuin", "value": true },
+            { "@type": "LocationFeatureSpecification", "name": "Speeltuin", "value": true },
+            { "@type": "LocationFeatureSpecification", "name": "Open haard", "value": true }
+          ],
+          "checkinTime": "16:00",
+          "checkoutTime": "10:00",
+          "petsAllowed": false
+        },
+        {
+          "@type": "LocalBusiness",
+          "@id": "https://ardennest.be/#business",
+          "name": "ArdenNest",
+          "legalName": "Festina Lente bv",
+          "description": "Vakantiewoning in de Belgische Ardennen voor families en groepen tot 26 personen.",
+          "url": "https://ardennest.be",
+          "logo": "https://ardennest.be/favicon.png",
+          "image": "https://ardennest.be/og-image.jpg",
+          "telephone": "+32 478 123 456",
+          "email": "bieke@ardennest.be",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Rue de Gedinne 22",
+            "addressLocality": "Gedinne",
+            "postalCode": "5575",
+            "addressRegion": "Wallonië",
+            "addressCountry": "BE"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 49.9789,
+            "longitude": 4.9456
+          },
+          "priceRange": "€€€",
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.9",
+            "reviewCount": "50",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "sameAs": [
+            "https://www.instagram.com/ardennest",
+            "https://www.facebook.com/ardennest"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://ardennest.be/#website",
+          "url": "https://ardennest.be",
+          "name": "ArdenNest",
+          "description": "Quiet luxury vakantiewoning in de Ardennen",
+          "publisher": {
+            "@id": "https://ardennest.be/#business"
+          },
+          "inLanguage": ["nl", "fr", "en", "de"]
+        }
+      ]
+    }
+    </script>
   </head>
 
   <body>
