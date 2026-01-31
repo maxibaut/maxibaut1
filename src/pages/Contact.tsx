@@ -40,6 +40,7 @@ import {
   MegaphoneOff,
 } from 'lucide-react';
 import hostBieke from '@/assets/property/host-bieke.jpg';
+import { useSEO } from '@/hooks/useSEO';
 
 const contactSchema = z.object({
   name: z.string().trim().min(1, 'Naam is verplicht').max(100),
@@ -55,6 +56,7 @@ type ContactFormData = z.infer<typeof contactSchema>;
 const Contact = () => {
   const { t } = useTranslation('contact');
   const [isSubmitting, setIsSubmitting] = useState(false);
+  useSEO();
 
   const form = useForm<ContactFormData>({
     resolver: zodResolver(contactSchema),

@@ -18,9 +18,11 @@ import {
   ChevronRight,
 } from 'lucide-react';
 import { walks, cycling, attractions, restaurants, shops } from '@/data/surroundings';
+import { useSEO } from '@/hooks/useSEO';
 
 const Surroundings = () => {
   const { t } = useTranslation('surroundings');
+  useSEO();
 
   const getDifficultyColor = (difficulty: string) => {
     switch (difficulty) {

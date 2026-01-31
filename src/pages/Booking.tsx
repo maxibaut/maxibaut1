@@ -7,9 +7,11 @@ import { Check, Shield, Calendar, ArrowRight, Phone, Mail } from "lucide-react";
 import { heroMain } from "@/assets/property";
 import hostBieke from "@/assets/property/host-bieke.jpg";
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
+import { useSEO } from "@/hooks/useSEO";
 
 const Booking = () => {
   const { t } = useTranslation("booking");
+  useSEO();
 
   const benefits = t("whyDirect.benefits", { returnObjects: true }) as string[];
   const afterBookingSteps = t("afterBooking.steps", { returnObjects: true }) as string[];

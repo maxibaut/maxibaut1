@@ -5,9 +5,11 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { Heart, Sparkles, ArrowRight } from 'lucide-react';
 import { aboutHero, ownersPortrait } from '@/assets/property';
+import { useSEO } from '@/hooks/useSEO';
 
 const About = () => {
   const { t } = useTranslation('about');
+  useSEO();
 
   return (
     <PageWrapper>
