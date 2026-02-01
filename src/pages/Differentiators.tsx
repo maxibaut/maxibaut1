@@ -1,3 +1,4 @@
+import { useState, useMemo } from 'react';
 import { PageWrapper } from '@/components/layout';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
@@ -11,10 +12,29 @@ import {
   gameRoomPool, 
   playBarn 
 } from '@/assets/property';
+import PropertyLightbox, { LightboxImage } from '@/components/property/PropertyLightbox';
 
 const Differentiators = () => {
   const { t } = useTranslation('homepage');
 
+  const [lightboxOpen, setLightboxOpen] = useState(false);
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+  // All unique photos on the differentiators page for the lightbox
+  const allPhotos: LightboxImage[] = useMemo(() => [
+    { src: bedroomQuietLuxury, alt: 'Stijlvolle slaapkamer met ensuite badkamer' },
+    { src: kitchen, alt: 'Professionele keuken met Lacanche fornuis' },
+    { src: gardenAerial, alt: 'Luchtfoto van de 2 hectare grote tuin' },
+    { src: oakTableDetail, alt: 'Handgemaakte eiken tafel van 6 meter' },
+    { src: gameRoomPool, alt: 'Speelkamer met professionele pooltafel' },
+    { src: playBarn, alt: 'Overdekte speelschuur met go-karts' },
+  ], []);
+
+  const handleImageClick = (src: string) => {
+    const index = allPhotos.findIndex(photo => photo.src === src);
+    setCurrentImageIndex(index >= 0 ? index : 0);
+    setLightboxOpen(true);
+  };
   const sections = [
     {
       id: 'quiet-luxury',
@@ -230,6 +250,15 @@ const Differentiators = () => {
 
   return (
     <PageWrapper>
+      {/* Lightbox */}
+      <PropertyLightbox
+        images={allPhotos}
+        currentIndex={currentImageIndex}
+        isOpen={lightboxOpen}
+        onClose={() => setLightboxOpen(false)}
+        onNavigate={setCurrentImageIndex}
+      />
+
       {/* Hero */}
       <section className="bg-primary text-primary-foreground section-padding">
         <div className="container-luxury text-center">
@@ -239,7 +268,6 @@ const Differentiators = () => {
           </p>
         </div>
       </section>
-
       {/* Differentiator Sections */}
       {sections.map((section) => (
         <section
@@ -255,7 +283,10 @@ const Differentiators = () => {
             >
               {/* Image */}
               <div className={section.reverse ? 'lg:order-2' : ''}>
-                <div className="aspect-[4/3] rounded-lg overflow-hidden shadow-xl">
+                <div 
+                  className="aspect-[4/3] rounded-lg overflow-hidden shadow-xl cursor-pointer"
+                  onClick={() => handleImageClick(section.image)}
+                >
                   <img
                     src={section.image}
                     alt={section.imageAlt || section.title}
