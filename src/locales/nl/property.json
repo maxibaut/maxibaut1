@@ -53,6 +53,10 @@
       "views": "Uitzicht op de tuin"
     }
   },
+  "entertainment": {
+    "title": "Ontspanning & Spel",
+    "description": "Van pooltafel tot speelschuur - er is voor elk wat wils."
+  },
   "practical": {
     "title": "Praktische Informatie",
     "checkIn": "Check-in: 16:00",

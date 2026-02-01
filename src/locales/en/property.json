@@ -53,6 +53,10 @@
       "views": "Garden views"
     }
   },
+  "entertainment": {
+    "title": "Relaxation & Games",
+    "description": "From pool table to play barn - there's something for everyone."
+  },
   "practical": {
     "title": "Practical Information",
     "checkIn": "Check-in: 4:00 PM",

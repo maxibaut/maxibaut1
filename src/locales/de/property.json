@@ -53,6 +53,10 @@
       "views": "Gartenblick"
     }
   },
+  "entertainment": {
+    "title": "Entspannung & Spiel",
+    "description": "Vom Billardtisch bis zur Spielscheune - für jeden ist etwas dabei."
+  },
   "practical": {
     "title": "Praktische Informationen",
     "checkIn": "Check-in: 16:00 Uhr",

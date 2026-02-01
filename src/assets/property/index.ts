@@ -3,6 +3,7 @@ export { default as heroMain } from './ferme-190.jpg';
 export { default as propertyHero } from './ferme-109.jpg';
 export { default as gardenAerial } from './ferme-191.jpg';
 export { default as aboutHero } from './about-hero.jpg';
+export { default as exteriorFront } from './ferme-194.jpg';
 
 // Dining & Kitchen
 export { default as diningRoom } from './ferme-175.jpg';
