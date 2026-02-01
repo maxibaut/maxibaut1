@@ -17,18 +17,18 @@ const BentoPhotoGrid = ({ photos, viewAllLabel = 'Bekijk alle foto\'s', classNam
   const [lightboxOpen, setLightboxOpen] = useState(false);
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  // Show max 4 photos in grid (1 large + 3 small)
-  const displayPhotos = photos.slice(0, 4);
-  const hasMorePhotos = photos.length > 4;
+  // Show max 6 photos in grid (1 large + 5 small)
+  const displayPhotos = photos.slice(0, 6);
+  const hasMorePhotos = photos.length > 6;
   
-  // Ensure we always have 3 side photos (duplicate if needed)
+  // Ensure we always have 5 side photos (duplicate if needed)
   const sidePhotos = (() => {
     const available = displayPhotos.slice(1);
-    if (available.length >= 3) return available.slice(0, 3);
+    if (available.length >= 5) return available.slice(0, 5);
     if (available.length === 0) return [];
     // Fill with duplicates from available photos
     const filled = [...available];
-    while (filled.length < 3) {
+    while (filled.length < 5) {
       filled.push(available[filled.length % available.length]);
     }
     return filled;
@@ -85,7 +85,7 @@ const BentoPhotoGrid = ({ photos, viewAllLabel = 'Bekijk alle foto\'s', classNam
           )}
 
           {/* Right side stacked photos - spans 2 columns, 3 photos fill same height as main */}
-          <div className="md:col-span-2 grid grid-cols-3 md:grid-cols-1 md:grid-rows-3 gap-4 md:gap-5 md:h-full">
+          <div className="md:col-span-2 grid grid-cols-5 md:grid-cols-1 md:grid-rows-5 gap-4 md:gap-5 md:h-full">
             {sidePhotos.map((photo, index) => (
               <button
                 key={index + 1}
