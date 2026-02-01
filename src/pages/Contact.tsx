@@ -42,7 +42,7 @@ import {
 } from 'lucide-react';
 import hostBieke from '@/assets/property/host-bieke.jpg';
 import { useSEO } from '@/hooks/useSEO';
-import { sendContactEmail } from '@/lib/emailjs';
+import { sendContactEmail, EmailTranslations } from '@/lib/emailjs';
 
 const contactSchema = z.object({
   name: z.string().trim().min(1, 'Naam is verplicht').max(100),
@@ -90,18 +90,32 @@ const Contact = () => {
     }
     
     try {
-      // Map form data to EmailJS template variables with Dutch names
-      // Note: website (honeypot) field is NOT included
-      const emailData = {
-        naam: data.name,
-        email: data.email,
-        telefoon: data.phone || '-',
-        groepssamenstelling: data.groupSize || '-',
-        gewenste_periode: data.dates || '-',
-        bericht: data.message,
+      // Get localized email content from translations
+      const emailTranslations: EmailTranslations = {
+        subject: t('form.emailContent.subject'),
+        intro: t('form.emailContent.intro'),
+        labels: {
+          name: t('form.name'),
+          email: t('form.email'),
+          phone: t('form.phone'),
+          groupSize: t('form.groupSize'),
+          dates: t('form.dates'),
+          message: t('form.message'),
+        },
+        replyTip: t('form.emailContent.replyTip'),
       };
 
-      await sendContactEmail(emailData);
+      // Map form data (without honeypot field)
+      const formData = {
+        name: data.name,
+        email: data.email,
+        phone: data.phone || '',
+        groupSize: data.groupSize || '',
+        dates: data.dates || '',
+        message: data.message,
+      };
+
+      await sendContactEmail(formData, emailTranslations);
 
       toast({
         title: 'Bericht verzonden!',
