@@ -81,7 +81,7 @@ const Contact = () => {
     if (data.website) {
       // Fake success for bots - don't send to EmailJS
       toast({
-        title: 'Bericht verzonden!',
+        title: t('form.successTitle'),
         description: t('form.success'),
       });
       form.reset();
@@ -118,14 +118,14 @@ const Contact = () => {
       await sendContactEmail(formData, emailTranslations);
 
       toast({
-        title: 'Bericht verzonden!',
+        title: t('form.successTitle'),
         description: t('form.success'),
       });
       form.reset();
     } catch (error) {
       console.error('EmailJS error:', error);
       toast({
-        title: 'Er ging iets mis',
+        title: t('form.errorTitle'),
         description: t('form.error'),
         variant: 'destructive',
       });
@@ -351,7 +351,7 @@ const Contact = () => {
                       {isSubmitting ? (
                         <>
                           <Loader2 className="mr-2 h-4 w-4 animate-spin" />
-                          Verzenden...
+                          {t('form.submitting')}
                         </>
                       ) : (
                         <>

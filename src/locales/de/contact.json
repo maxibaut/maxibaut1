@@ -38,8 +38,11 @@
     "message": "Nachricht",
     "messagePlaceholder": "Erzählen Sie uns von Ihren Plänen...",
     "submit": "Nachricht senden",
-    "success": "Nachricht gesendet! Wir melden uns so schnell wie möglich.",
-    "error": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut oder kontaktieren Sie uns direkt.",
+    "submitting": "Wird gesendet...",
+    "successTitle": "Nachricht gesendet!",
+    "success": "Wir melden uns so schnell wie möglich.",
+    "errorTitle": "Etwas ist schiefgelaufen",
+    "error": "Bitte versuchen Sie es erneut oder kontaktieren Sie uns direkt.",
     "emailContent": {
       "subject": "Neue Anfrage über ArdenNest.be",
       "intro": "Hallo! Eine neue Anfrage ist über ardennest.be eingegangen.",

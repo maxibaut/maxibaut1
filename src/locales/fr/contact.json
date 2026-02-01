@@ -38,8 +38,11 @@
     "message": "Message",
     "messagePlaceholder": "Parlez-nous de vos projets...",
     "submit": "Envoyer le message",
-    "success": "Message envoyé! Nous vous contacterons dès que possible.",
-    "error": "Une erreur s'est produite. Réessayez ou contactez-nous directement.",
+    "submitting": "Envoi en cours...",
+    "successTitle": "Message envoyé!",
+    "success": "Nous vous contacterons dès que possible.",
+    "errorTitle": "Une erreur s'est produite",
+    "error": "Réessayez ou contactez-nous directement.",
     "emailContent": {
       "subject": "Nouvelle demande via ArdenNest.be",
       "intro": "Bonjour! Une nouvelle demande a été reçue via ardennest.be.",
