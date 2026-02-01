@@ -51,6 +51,7 @@ const contactSchema = z.object({
   dates: z.string().trim().optional(),
   groupSize: z.string().trim().optional(),
   message: z.string().trim().min(1, 'Bericht is verplicht').max(1000),
+  website: z.string().optional(), // Honeypot field
 });
 
 type ContactFormData = z.infer<typeof contactSchema>;
@@ -69,13 +70,28 @@ const Contact = () => {
       dates: '',
       groupSize: '',
       message: '',
+      website: '', // Honeypot field
     },
   });
 
   const onSubmit = async (data: ContactFormData) => {
     setIsSubmitting(true);
+    
+    // Honeypot check: if website field is filled, it's a bot
+    if (data.website) {
+      // Fake success for bots - don't send to EmailJS
+      toast({
+        title: 'Bericht verzonden!',
+        description: t('form.success'),
+      });
+      form.reset();
+      setIsSubmitting(false);
+      return;
+    }
+    
     try {
       // Map form data to EmailJS template variables with Dutch names
+      // Note: website (honeypot) field is NOT included
       const emailData = {
         naam: data.name,
         email: data.email,
@@ -288,6 +304,31 @@ const Contact = () => {
                             />
                           </FormControl>
                           <FormMessage />
+                        </FormItem>
+                      )}
+                    />
+
+                    {/* Honeypot field - hidden from real users */}
+                    <FormField
+                      control={form.control}
+                      name="website"
+                      render={({ field }) => (
+                        <FormItem
+                          style={{
+                            position: 'absolute',
+                            left: '-9999px',
+                            top: '-9999px',
+                          }}
+                        >
+                          <FormLabel>Website</FormLabel>
+                          <FormControl>
+                            <Input
+                              type="text"
+                              tabIndex={-1}
+                              autoComplete="off"
+                              {...field}
+                            />
+                          </FormControl>
                         </FormItem>
                       )}
                     />
