@@ -39,7 +39,12 @@
     "messagePlaceholder": "Vertel ons over uw plannen...",
     "submit": "Verstuur bericht",
     "success": "Bericht verzonden! We nemen zo snel mogelijk contact met u op.",
-    "error": "Er is iets misgegaan. Probeer het opnieuw of neem direct contact op."
+    "error": "Er is iets misgegaan. Probeer het opnieuw of neem direct contact op.",
+    "emailContent": {
+      "subject": "Nieuwe aanvraag via ArdenNest.be",
+      "intro": "Hallo! Er is een nieuwe aanvraag binnengekomen via ardennest.be.",
+      "replyTip": "Klik op reply om rechtstreeks te antwoorden naar"
+    }
   },
   "practical": {
     "title": "Praktische Informatie",
