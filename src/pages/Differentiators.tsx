@@ -24,6 +24,7 @@ import {
   familyPortrait,
 } from '@/assets/property';
 import PropertyLightbox, { LightboxImage } from '@/components/property/PropertyLightbox';
+import PropertyGalleryGrid from '@/components/property/PropertyGalleryGrid';
 
 const Differentiators = () => {
   const { t } = useTranslation('homepage');
@@ -62,7 +63,13 @@ const Differentiators = () => {
       title: t('differentiators.quietLuxury.title'),
       description: t('differentiators.quietLuxury.description'),
       image: bedroomQuietLuxury,
-      imageAlt: 'Stijlvolle slaapkamer met ensuite badkamer, massief eiken vloer en hoogwaardige afwerking in ArdenNest',
+      imageAlt: 'Stijlvolle slaapkamer met ensuite badkamer',
+      sideImages: [
+        { src: bedroomPrimary, alt: 'Hoofdslaapkamer' },
+        { src: bedroomAtmospheric, alt: 'Sfeervolle slaapkamer' },
+        { src: bedroomMezzanine, alt: 'Mezzanine slaapkamer' },
+        { src: livingFireplace, alt: 'Woonkamer met open haard' },
+      ],
       features: [
         'Ensuite badkamers bij elke slaapkamer',
         'Massieve eiken vloeren in het hele huis',
@@ -77,7 +84,13 @@ const Differentiators = () => {
       title: t('differentiators.kitchen.title'),
       description: t('differentiators.kitchen.description'),
       image: kitchen,
-      imageAlt: 'Professionele keuken met Lacanche fornuis, RVS werkbladen en dubbele Miele afwasmachine',
+      imageAlt: 'Professionele keuken met Lacanche fornuis',
+      sideImages: [
+        { src: diningRoom, alt: 'Eetkamer' },
+        { src: terraceDining, alt: 'Terras met eethoek' },
+        { src: gameRoomPool, alt: 'Speelkamer' },
+        { src: playBarn, alt: 'Speelschuur' },
+      ],
       features: [
         'Lacanche fornuis van professionele kwaliteit',
         '2x Miele afwasmachines',
@@ -92,7 +105,13 @@ const Differentiators = () => {
       title: t('differentiators.garden.title'),
       description: t('differentiators.garden.description'),
       image: gardenAerial,
-      imageAlt: 'Luchtfoto van de 2 hectare grote tuin met speeltoestellen en voetbalveld',
+      imageAlt: 'Luchtfoto van de 2 hectare grote tuin',
+      sideImages: [
+        { src: gardenSports, alt: 'Sportveld in de tuin' },
+        { src: gardenLandscape, alt: 'Landschap van de tuin' },
+        { src: terraceDining, alt: 'Terras' },
+        { src: playBarn, alt: 'Speelschuur' },
+      ],
       features: [
         '200m x 100m aan ruimte',
         'Professionele speeltoestellen',
@@ -107,7 +126,13 @@ const Differentiators = () => {
       title: 'De Eiken Tafel',
       description: 'Het hart van het huis. Waar verhalen worden gedeeld, herinneringen worden gemaakt en generaties samenkomen rond een maaltijd.',
       image: oakTableDetail,
-      imageAlt: 'Handgemaakte eiken tafel van 6 meter lang met plaats voor 26 gasten in de eetkamer',
+      imageAlt: 'Handgemaakte eiken tafel van 6 meter',
+      sideImages: [
+        { src: diningRoom, alt: 'Eetkamer overzicht' },
+        { src: kitchen, alt: 'Keuken' },
+        { src: livingFireplace, alt: 'Woonkamer' },
+        { src: terraceDining, alt: 'Terras' },
+      ],
       features: [
         '6 meter lang, handgemaakt',
         'Plaats voor 26 personen',
@@ -122,7 +147,13 @@ const Differentiators = () => {
       title: 'De Speelkamer',
       description: 'Een ruimte waar jong en oud elkaar uitdagen. Van spannende potjes pool tot fanatieke voetbalwedstrijden aan de tafel.',
       image: gameRoomPool,
-      imageAlt: 'Speelkamer met professionele pooltafel, voetbaltafel en bordspellencollectie',
+      imageAlt: 'Speelkamer met professionele pooltafel',
+      sideImages: [
+        { src: gameRoomFoosball, alt: 'Tafelvoetbal' },
+        { src: playBarn, alt: 'Speelschuur' },
+        { src: gardenSports, alt: 'Sportveld' },
+        { src: livingFireplace, alt: 'Woonkamer' },
+      ],
       features: [
         'Professionele pooltafel',
         'Voetbaltafel voor intense matches',
@@ -137,7 +168,13 @@ const Differentiators = () => {
       title: 'De Speelschuur',
       description: 'Een overdekte speelruimte speciaal voor de allerkleinsten. Vol met skelters, tractoren en speelgoed voor urenlang plezier.',
       image: playBarn,
-      imageAlt: 'Overdekte speelschuur met go-karts, skelters en tractoren voor kinderen',
+      imageAlt: 'Overdekte speelschuur met go-karts',
+      sideImages: [
+        { src: gardenSports, alt: 'Sportveld' },
+        { src: gameRoomPool, alt: 'Speelkamer' },
+        { src: gardenAerial, alt: 'Tuin overzicht' },
+        { src: gameRoomFoosball, alt: 'Tafelvoetbal' },
+      ],
       features: [
         'Go-karts en skelters',
         'Trapautootjes en tractoren',
@@ -152,7 +189,13 @@ const Differentiators = () => {
       title: t('differentiators.mattresses.title'),
       description: t('differentiators.mattresses.description'),
       image: bedroomPrimary,
-      imageAlt: 'Comfortabel boxspring bed met dikke matras in een van de 9 slaapkamers van ArdenNest',
+      imageAlt: 'Comfortabel boxspring bed',
+      sideImages: [
+        { src: bedroomQuietLuxury, alt: 'Luxe slaapkamer' },
+        { src: bedroomAtmospheric, alt: 'Sfeervolle slaapkamer' },
+        { src: bedroomMezzanine, alt: 'Mezzanine' },
+        { src: livingFireplace, alt: 'Woonkamer' },
+      ],
       features: [
         'Boxspring bedden',
         'Dikke, comfortabele matrassen',
@@ -167,7 +210,13 @@ const Differentiators = () => {
       title: t('differentiators.dishCabinet.title'),
       description: t('differentiators.dishCabinet.description'),
       image: diningRoom,
-      imageAlt: 'Volledig ingerichte eetkamer met servies en bestek voor 26 personen',
+      imageAlt: 'Volledig ingerichte eetkamer',
+      sideImages: [
+        { src: kitchen, alt: 'Keuken' },
+        { src: oakTableDetail, alt: 'Eiken tafel' },
+        { src: terraceDining, alt: 'Terras' },
+        { src: livingFireplace, alt: 'Woonkamer' },
+      ],
       features: [
         'Volledige controle na elke gast',
         'Alles compleet en in perfecte staat',
@@ -181,8 +230,14 @@ const Differentiators = () => {
       icon: UtensilsCrossed,
       title: t('differentiators.professionalEquipment.title'),
       description: t('differentiators.professionalEquipment.description'),
-      image: livingFireplace,
-      imageAlt: 'Woonkamer met sfeervolle open haard',
+      image: kitchen,
+      imageAlt: 'Horeca-kwaliteit keuken',
+      sideImages: [
+        { src: diningRoom, alt: 'Eetkamer' },
+        { src: oakTableDetail, alt: 'Eiken tafel' },
+        { src: terraceDining, alt: 'Terras' },
+        { src: livingFireplace, alt: 'Woonkamer' },
+      ],
       features: [
         'Horeca-kwaliteit potten en pannen',
         'Professioneel kookgerei',
@@ -197,7 +252,13 @@ const Differentiators = () => {
       title: t('differentiators.livingOnSite.title'),
       description: t('differentiators.livingOnSite.description'),
       image: familyPortrait,
-      imageAlt: 'Eigenaren Bieke en Christophe wonen al 25 jaar op het domein',
+      imageAlt: 'Eigenaren op het domein',
+      sideImages: [
+        { src: propertyHero, alt: 'Voorgevel' },
+        { src: gardenAerial, alt: 'Tuin overzicht' },
+        { src: terraceDining, alt: 'Terras' },
+        { src: gardenLandscape, alt: 'Landschap' },
+      ],
       features: [
         '25 jaar woonervaring ter plaatse',
         'Diepgaande kennis van het huis',
@@ -212,7 +273,13 @@ const Differentiators = () => {
       title: t('differentiators.utilities.title'),
       description: t('differentiators.utilities.description'),
       image: propertyHero,
-      imageAlt: 'Voorgevel van de hoeve - alle nutsvoorzieningen inbegrepen',
+      imageAlt: 'Voorgevel van de hoeve',
+      sideImages: [
+        { src: kitchen, alt: 'Keuken' },
+        { src: livingFireplace, alt: 'Woonkamer met haard' },
+        { src: bedroomPrimary, alt: 'Slaapkamer' },
+        { src: terraceDining, alt: 'Terras' },
+      ],
       features: [
         'Water inbegrepen',
         'Elektriciteit inbegrepen',
@@ -227,7 +294,13 @@ const Differentiators = () => {
       title: t('differentiators.greenKey.title'),
       description: t('differentiators.greenKey.description'),
       image: gardenLandscape,
-      imageAlt: 'Groene omgeving van ArdenNest - kandidaat voor het Green Key duurzaamheidslabel',
+      imageAlt: 'Groene omgeving',
+      sideImages: [
+        { src: gardenAerial, alt: 'Tuin overzicht' },
+        { src: gardenSports, alt: 'Sportveld' },
+        { src: propertyHero, alt: 'Voorgevel' },
+        { src: terraceDining, alt: 'Terras' },
+      ],
       features: [
         'Kandidaat Green Key label',
         'Duurzaam toerisme',
@@ -242,7 +315,13 @@ const Differentiators = () => {
       title: t('differentiators.certified.title'),
       description: t('differentiators.certified.description'),
       image: terraceDining,
-      imageAlt: 'Terras met eethoek - gecertificeerde vakantiewoning',
+      imageAlt: 'Terras met eethoek',
+      sideImages: [
+        { src: propertyHero, alt: 'Voorgevel' },
+        { src: gardenAerial, alt: 'Tuin' },
+        { src: kitchen, alt: 'Keuken' },
+        { src: bedroomQuietLuxury, alt: 'Slaapkamer' },
+      ],
       features: [
         'Gecertificeerd door Toerisme Wallonië',
         'Officiële erkenning',
@@ -257,7 +336,13 @@ const Differentiators = () => {
       title: t('differentiators.ventilation.title'),
       description: t('differentiators.ventilation.description'),
       image: bedroomAtmospheric,
-      imageAlt: 'Sfeervolle slaapkamer met stille centrale ventilatie',
+      imageAlt: 'Slaapkamer met ventilatie',
+      sideImages: [
+        { src: bedroomPrimary, alt: 'Hoofdslaapkamer' },
+        { src: bedroomQuietLuxury, alt: 'Luxe slaapkamer' },
+        { src: bedroomMezzanine, alt: 'Mezzanine' },
+        { src: livingFireplace, alt: 'Woonkamer' },
+      ],
       features: [
         'Stille centrale ventilatie',
         'In alle badkamers',
@@ -272,7 +357,13 @@ const Differentiators = () => {
       title: 'Persoonlijke Begeleiding',
       description: 'Van eerste contact tot vertrek: wij begeleiden u bij elke stap. Duidelijke communicatie, transparante afrekening en persoonlijke service maken het verschil.',
       image: gardenSports,
-      imageAlt: 'Tuin met sportveld - persoonlijke service en begeleiding',
+      imageAlt: 'Persoonlijke service',
+      sideImages: [
+        { src: familyPortrait, alt: 'Eigenaren' },
+        { src: propertyHero, alt: 'Voorgevel' },
+        { src: terraceDining, alt: 'Terras' },
+        { src: gardenAerial, alt: 'Tuin' },
+      ],
       features: [
         'Begeleiding tijdens boekingsproces',
         'Duidelijke betalingstermijnen',
@@ -316,19 +407,14 @@ const Differentiators = () => {
                 section.reverse ? 'lg:flex-row-reverse' : ''
               }`}
             >
-              {/* Image */}
+              {/* Image Gallery */}
               <div className={section.reverse ? 'lg:order-2' : ''}>
-                <div 
-                  className="aspect-[4/3] rounded-lg overflow-hidden shadow-xl cursor-pointer"
-                  onClick={() => handleImageClick(section.image)}
-                >
-                  <img
-                    src={section.image}
-                    alt={section.imageAlt || section.title}
-                    className="w-full h-full object-cover"
-                    loading="lazy"
-                  />
-                </div>
+                <PropertyGalleryGrid
+                  mainImage={section.image}
+                  mainImageAlt={section.imageAlt}
+                  sideImages={section.sideImages}
+                  onImageClick={handleImageClick}
+                />
               </div>
 
               {/* Content */}
