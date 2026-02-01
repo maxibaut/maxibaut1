@@ -20,31 +20,32 @@ const PropertyGalleryGrid = ({
   const displayImages = sideImages.slice(0, 4);
 
   return (
-    <div className={cn('grid grid-cols-1 lg:grid-cols-4 gap-3', className)}>
-      {/* Main image - takes 3 columns */}
-      <div className="lg:col-span-3 aspect-[4/3] rounded-lg overflow-hidden shadow-lg">
-        <img
-          src={mainImage}
-          alt={mainImageAlt}
-          className="w-full h-full object-cover"
-        />
-      </div>
+    <div className={cn('aspect-[4/3] relative', className)}>
+      <div className="absolute inset-0 grid grid-cols-1 lg:grid-cols-4 gap-3">
+        {/* Main image - takes 3 columns */}
+        <div className="lg:col-span-3 h-full rounded-lg overflow-hidden shadow-lg">
+          <img
+            src={mainImage}
+            alt={mainImageAlt}
+            className="w-full h-full object-cover"
+          />
+        </div>
 
-      {/* Side column with 4 stacked images */}
-      <div className="hidden lg:flex lg:col-span-1 flex-col gap-2">
-        {displayImages.map((image, index) => (
-          <div
-            key={index}
-            className="flex-1 rounded-md overflow-hidden shadow-md"
-            style={{ minHeight: 0 }}
-          >
-            <img
-              src={image.src}
-              alt={image.alt}
-              className="w-full h-full object-cover"
-            />
-          </div>
-        ))}
+        {/* Side column with 4 stacked images */}
+        <div className="hidden lg:flex lg:col-span-1 h-full flex-col gap-2">
+          {displayImages.map((image, index) => (
+            <div
+              key={index}
+              className="flex-1 min-h-0 rounded-md overflow-hidden shadow-md"
+            >
+              <img
+                src={image.src}
+                alt={image.alt}
+                className="w-full h-full object-cover"
+              />
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   );
