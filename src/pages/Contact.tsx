@@ -57,7 +57,7 @@ const contactSchema = z.object({
 type ContactFormData = z.infer<typeof contactSchema>;
 
 const Contact = () => {
-  const { t, i18n } = useTranslation('contact');
+  const { t } = useTranslation('contact');
   const [isSubmitting, setIsSubmitting] = useState(false);
   useSEO();
 
@@ -92,7 +92,6 @@ const Contact = () => {
     try {
       // Map form data to EmailJS template variables with Dutch names
       // Note: website (honeypot) field is NOT included
-      // Include current language for multilingual email labels
       const emailData = {
         naam: data.name,
         email: data.email,
@@ -100,7 +99,6 @@ const Contact = () => {
         groepssamenstelling: data.groupSize || '-',
         gewenste_periode: data.dates || '-',
         bericht: data.message,
-        language: i18n.language,
       };
 
       await sendContactEmail(emailData);
