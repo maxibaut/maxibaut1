@@ -53,6 +53,9 @@
       "views": "Vue sur le jardin"
     }
   },
+  "gallery": {
+    "viewAll": "Voir les {{count}} photos"
+  },
   "practical": {
     "title": "Informations Pratiques",
     "checkIn": "Arrivée: 16h00",

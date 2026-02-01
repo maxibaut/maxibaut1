@@ -53,6 +53,9 @@
       "views": "Garden views"
     }
   },
+  "gallery": {
+    "viewAll": "View all {{count}} photos"
+  },
   "practical": {
     "title": "Practical Information",
     "checkIn": "Check-in: 4:00 PM",

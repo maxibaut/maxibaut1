@@ -1,3 +1,4 @@
+import { useState, useMemo } from 'react';
 import { PageWrapper } from '@/components/layout';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
@@ -16,16 +17,48 @@ import {
   bedroomMezzanine,
   bedroomQuietLuxury,
   terraceDining,
+  gardenSports,
+  gardenLandscape,
   gameRoomPool,
   gameRoomFoosball,
   playBarn,
 } from '@/assets/property';
 import { useSEO } from '@/hooks/useSEO';
 import PropertyGalleryGrid from '@/components/property/PropertyGalleryGrid';
+import PropertyLightbox, { LightboxImage } from '@/components/property/PropertyLightbox';
 
 const Property = () => {
   const { t } = useTranslation('property');
   useSEO();
+
+  const [lightboxOpen, setLightboxOpen] = useState(false);
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+  // All photos on the property page for the lightbox
+  const allPhotos: LightboxImage[] = useMemo(() => [
+    { src: propertyHero, alt: t('hero.imageAlt', 'Voorgevel van de gerenoveerde Ardense hoeve') },
+    { src: kitchen, alt: t('kitchen.imageAlt', 'Professionele keuken met Lacanche fornuis') },
+    { src: livingFireplace, alt: 'Woonkamer met open haard' },
+    { src: terraceDining, alt: 'Terras met eethoek' },
+    { src: gameRoomPool, alt: 'Speelkamer met pooltafel' },
+    { src: playBarn, alt: 'Speelschuur voor kinderen' },
+    { src: oakTableDetail, alt: t('oakTable.imageAlt', 'Handgemaakte eiken tafel van 6 meter') },
+    { src: diningRoom, alt: 'Eetkamer overzicht' },
+    { src: livingAperitif, alt: 'Aperitief in de woonkamer' },
+    { src: bedroomPrimary, alt: 'Hoofdslaapkamer' },
+    { src: bedroomAtmospheric, alt: 'Sfeervolle slaapkamer' },
+    { src: bedroomMezzanine, alt: 'Mezzanine slaapkamer' },
+    { src: bedroomQuietLuxury, alt: 'Luxe slaapkamer' },
+    { src: gameRoomFoosball, alt: 'Tafelvoetbal' },
+    { src: gardenSports, alt: 'Sportveld in de tuin' },
+    { src: gardenLandscape, alt: 'Landschap van de tuin' },
+  ], [t]);
+
+  const handleImageClick = (src: string) => {
+    const index = allPhotos.findIndex(photo => photo.src === src);
+    setCurrentImageIndex(index >= 0 ? index : 0);
+    setLightboxOpen(true);
+  };
 
   const features = [
     { icon: Users, label: t('overview.capacity') },
@@ -36,17 +69,27 @@ const Property = () => {
 
   return (
     <PageWrapper>
+      {/* Lightbox */}
+      <PropertyLightbox
+        images={allPhotos}
+        currentIndex={currentImageIndex}
+        isOpen={lightboxOpen}
+        onClose={() => setLightboxOpen(false)}
+        onNavigate={setCurrentImageIndex}
+      />
+
       {/* Hero */}
       <section className="relative h-[50vh] min-h-[400px] flex items-center justify-center overflow-hidden" aria-label={t('title')}>
         <div
-          className="absolute inset-0 bg-cover bg-center"
+          className="absolute inset-0 bg-cover bg-center cursor-pointer"
           style={{ backgroundImage: `url('${propertyHero}')` }}
           role="img"
           aria-label={t('hero.imageAlt', 'Voorgevel van de gerenoveerde Ardense hoeve ArdenNest met authentieke stenen muren')}
+          onClick={() => handleImageClick(propertyHero)}
         >
           <div className="absolute inset-0 bg-charcoal/50" />
         </div>
-        <div className="relative z-10 text-center text-cream container-luxury">
+        <div className="relative z-10 text-center text-cream container-luxury pointer-events-none">
           <h1 className="heading-display mb-4">{t('title')}</h1>
           <p className="body-large text-cream/90">{t('subtitle')}</p>
         </div>
@@ -104,6 +147,8 @@ const Property = () => {
                   { src: gameRoomPool, alt: 'Speelkamer met pooltafel' },
                   { src: playBarn, alt: 'Speelschuur voor kinderen' },
                 ]}
+                allPhotosCount={allPhotos.length}
+                onImageClick={handleImageClick}
               />
             </div>
           </div>
@@ -124,6 +169,8 @@ const Property = () => {
                   { src: bedroomPrimary, alt: 'Hoofdslaapkamer' },
                   { src: bedroomAtmospheric, alt: 'Sfeervolle slaapkamer' },
                 ]}
+                allPhotosCount={allPhotos.length}
+                onImageClick={handleImageClick}
               />
             </div>
             <div>
@@ -186,6 +233,8 @@ const Property = () => {
                   { src: bedroomQuietLuxury, alt: 'Luxe slaapkamer' },
                   { src: gameRoomFoosball, alt: 'Tafelvoetbal' },
                 ]}
+                allPhotosCount={allPhotos.length}
+                onImageClick={handleImageClick}
               />
             </div>
             <div>
