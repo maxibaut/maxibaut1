@@ -21,10 +21,12 @@ const Property = () => {
   return (
     <PageWrapper>
       {/* Hero */}
-      <section className="relative h-[50vh] min-h-[400px] flex items-center justify-center overflow-hidden">
+      <section className="relative h-[50vh] min-h-[400px] flex items-center justify-center overflow-hidden" aria-label={t('title')}>
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{ backgroundImage: `url('${propertyHero}')` }}
+          role="img"
+          aria-label={t('hero.imageAlt', 'Voorgevel van de gerenoveerde Ardense hoeve ArdenNest met authentieke stenen muren')}
         >
           <div className="absolute inset-0 bg-charcoal/50" />
         </div>
@@ -80,7 +82,7 @@ const Property = () => {
               <div className="aspect-[4/3] rounded-lg overflow-hidden shadow-lg">
                 <img
                   src={kitchen}
-                  alt={t('kitchen.title')}
+                  alt={t('kitchen.imageAlt', 'Professionele keuken met Lacanche fornuis, RVS werkbladen en dubbele Miele afwasmachine')}
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -97,7 +99,7 @@ const Property = () => {
               <div className="aspect-[4/3] rounded-lg overflow-hidden shadow-2xl">
                 <img
                   src={oakTableDetail}
-                  alt={t('oakTable.title')}
+                  alt={t('oakTable.imageAlt', 'Handgemaakte eiken tafel van 6 meter lang met plaats voor 26 gasten in de eetkamer')}
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -156,7 +158,7 @@ const Property = () => {
               <div className="aspect-[4/3] rounded-lg overflow-hidden shadow-lg">
                 <img
                   src={diningRoom}
-                  alt={t('livingSpace.title')}
+                  alt={t('livingSpace.imageAlt', 'Sfeervolle woonkamer met open haard, comfortabele zithoek en uitzicht op de tuin')}
                   className="w-full h-full object-cover"
                 />
               </div>

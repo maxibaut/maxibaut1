@@ -22,6 +22,7 @@ const Differentiators = () => {
       title: t('differentiators.quietLuxury.title'),
       description: t('differentiators.quietLuxury.description'),
       image: bedroomQuietLuxury,
+      imageAlt: 'Stijlvolle slaapkamer met ensuite badkamer, massief eiken vloer en hoogwaardige afwerking in ArdenNest',
       features: [
         'Ensuite badkamers bij elke slaapkamer',
         'Massieve eiken vloeren in het hele huis',
@@ -36,6 +37,7 @@ const Differentiators = () => {
       title: t('differentiators.kitchen.title'),
       description: t('differentiators.kitchen.description'),
       image: kitchen,
+      imageAlt: 'Professionele keuken met Lacanche fornuis, RVS werkbladen en dubbele Miele afwasmachine',
       features: [
         'Lacanche fornuis van professionele kwaliteit',
         '2x Miele afwasmachines',
@@ -50,6 +52,7 @@ const Differentiators = () => {
       title: t('differentiators.garden.title'),
       description: t('differentiators.garden.description'),
       image: gardenAerial,
+      imageAlt: 'Luchtfoto van de 2 hectare grote tuin met speeltoestellen en voetbalveld',
       features: [
         '200m x 100m aan ruimte',
         'Professionele speeltoestellen',
@@ -64,6 +67,7 @@ const Differentiators = () => {
       title: 'De Eiken Tafel',
       description: 'Het hart van het huis. Waar verhalen worden gedeeld, herinneringen worden gemaakt en generaties samenkomen rond een maaltijd.',
       image: oakTableDetail,
+      imageAlt: 'Handgemaakte eiken tafel van 6 meter lang met plaats voor 26 gasten in de eetkamer',
       features: [
         '6 meter lang, handgemaakt',
         'Plaats voor 26 personen',
@@ -78,6 +82,7 @@ const Differentiators = () => {
       title: 'De Speelkamer',
       description: 'Een ruimte waar jong en oud elkaar uitdagen. Van spannende potjes pool tot fanatieke voetbalwedstrijden aan de tafel.',
       image: gameRoomPool,
+      imageAlt: 'Speelkamer met professionele pooltafel, voetbaltafel en bordspellencollectie',
       features: [
         'Professionele pooltafel',
         'Voetbaltafel voor intense matches',
@@ -92,6 +97,7 @@ const Differentiators = () => {
       title: 'De Speelschuur',
       description: 'Een overdekte speelruimte speciaal voor de allerkleinsten. Vol met skelters, tractoren en speelgoed voor urenlang plezier.',
       image: playBarn,
+      imageAlt: 'Overdekte speelschuur met go-karts, skelters en tractoren voor kinderen',
       features: [
         'Go-karts en skelters',
         'Trapautootjes en tractoren',
@@ -105,7 +111,8 @@ const Differentiators = () => {
       icon: Bed,
       title: t('differentiators.mattresses.title'),
       description: t('differentiators.mattresses.description'),
-      image: bedroomQuietLuxury, // Placeholder - replace with mattress photo
+      image: bedroomQuietLuxury,
+      imageAlt: 'Comfortabel boxspring bed met dikke matras in een van de 9 slaapkamers van ArdenNest',
       features: [
         'Boxspring bedden',
         'Dikke, comfortabele matrassen',
@@ -119,7 +126,8 @@ const Differentiators = () => {
       icon: ClipboardCheck,
       title: t('differentiators.dishCabinet.title'),
       description: t('differentiators.dishCabinet.description'),
-      image: kitchen, // Placeholder - replace with dish cabinet photo
+      image: kitchen,
+      imageAlt: 'Volledig ingerichte keuken met servies en bestek voor 26 personen - altijd gecontroleerd op volledigheid',
       features: [
         'Volledige controle na elke gast',
         'Alles compleet en in perfecte staat',
@@ -133,7 +141,8 @@ const Differentiators = () => {
       icon: UtensilsCrossed,
       title: t('differentiators.professionalEquipment.title'),
       description: t('differentiators.professionalEquipment.description'),
-      image: kitchen, // Placeholder - replace with pots/pans photo
+      image: kitchen,
+      imageAlt: 'Horeca-kwaliteit kookgerei, potten en pannen voor het bereiden van maaltijden voor grote groepen',
       features: [
         'Horeca-kwaliteit potten en pannen',
         'Professioneel kookgerei',
@@ -147,7 +156,8 @@ const Differentiators = () => {
       icon: Home,
       title: t('differentiators.livingOnSite.title'),
       description: t('differentiators.livingOnSite.description'),
-      image: bedroomQuietLuxury, // Placeholder - replace with owners/estate photo
+      image: bedroomQuietLuxury,
+      imageAlt: 'Eigenaren Bieke en Christophe wonen al 25 jaar op het domein en kennen elk hoekje van het huis',
       features: [
         '25 jaar woonervaring ter plaatse',
         'Diepgaande kennis van het huis',
@@ -161,7 +171,8 @@ const Differentiators = () => {
       icon: Zap,
       title: t('differentiators.utilities.title'),
       description: t('differentiators.utilities.description'),
-      image: kitchen, // Placeholder
+      image: kitchen,
+      imageAlt: 'Alle nutsvoorzieningen zijn inbegrepen in de huurprijs - water, elektriciteit en verwarming',
       features: [
         'Water inbegrepen',
         'Elektriciteit inbegrepen',
@@ -175,7 +186,8 @@ const Differentiators = () => {
       icon: Leaf,
       title: t('differentiators.greenKey.title'),
       description: t('differentiators.greenKey.description'),
-      image: gardenAerial, // Placeholder
+      image: gardenAerial,
+      imageAlt: 'Groene omgeving van ArdenNest - kandidaat voor het Green Key duurzaamheidslabel',
       features: [
         'Kandidaat Green Key label',
         'Duurzaam toerisme',
@@ -189,7 +201,8 @@ const Differentiators = () => {
       icon: Award,
       title: t('differentiators.certified.title'),
       description: t('differentiators.certified.description'),
-      image: bedroomQuietLuxury, // Placeholder
+      image: bedroomQuietLuxury,
+      imageAlt: 'Gecertificeerde vakantiewoning door Toerisme Wallonië - kwaliteitsgarantie',
       features: [
         'Gecertificeerd door Toerisme Wallonië',
         'Officiële erkenning',
@@ -203,7 +216,8 @@ const Differentiators = () => {
       icon: Fan,
       title: t('differentiators.ventilation.title'),
       description: t('differentiators.ventilation.description'),
-      image: bedroomQuietLuxury, // Placeholder - replace with bathroom photo
+      image: bedroomQuietLuxury,
+      imageAlt: 'Moderne badkamer met stille centrale ventilatie voor optimale luchtkwaliteit',
       features: [
         'Stille centrale ventilatie',
         'In alle badkamers',
@@ -244,7 +258,7 @@ const Differentiators = () => {
                 <div className="aspect-[4/3] rounded-lg overflow-hidden shadow-xl">
                   <img
                     src={section.image}
-                    alt={section.title}
+                    alt={section.imageAlt || section.title}
                     className="w-full h-full object-cover"
                     loading="lazy"
                   />

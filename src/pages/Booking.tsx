@@ -45,7 +45,7 @@ const Booking = () => {
             </div>
 
             <div className="aspect-[4/3] rounded-lg overflow-hidden shadow-lg">
-              <img src={heroMain} alt="ArdenNest property" className="w-full h-full object-cover" />
+              <img src={heroMain} alt={t('whyDirect.imageAlt', 'Luchtfoto van vakantiewoning ArdenNest met uitgestrekte tuin en bossen in de Belgische Ardennen')} className="w-full h-full object-cover" />
             </div>
           </div>
         </div>
@@ -88,7 +88,7 @@ const Booking = () => {
             {/* Bieke's Avatar */}
             <div className="flex justify-center mb-6">
               <Avatar className="h-24 w-24 border-4 border-primary/10 shadow-lg">
-                <AvatarImage src={hostBieke} alt="Bieke" className="object-cover" />
+                <AvatarImage src={hostBieke} alt={t('preferTalk.imageAlt', 'Bieke, uw gastvrouw - bel of mail voor persoonlijk advies')} className="object-cover" />
                 <AvatarFallback>B</AvatarFallback>
               </Avatar>
             </div>

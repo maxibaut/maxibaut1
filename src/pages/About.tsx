@@ -14,13 +14,15 @@ const About = () => {
   return (
     <PageWrapper>
       {/* Hero */}
-      <section className="relative h-[50vh] min-h-[400px] flex items-center justify-center overflow-hidden">
+      <section className="relative h-[50vh] min-h-[400px] flex items-center justify-center overflow-hidden" aria-label={t('title')}>
         <div
           className="absolute inset-0 bg-cover"
           style={{
             backgroundImage: `url('${aboutHero}')`,
             backgroundPosition: 'center 30%',
           }}
+          role="img"
+          aria-label={t('hero.imageAlt', 'Familie geniet van tijd samen op het terras van ArdenNest')}
         >
           <div className="absolute inset-0 bg-charcoal/50" />
         </div>
@@ -65,7 +67,7 @@ const About = () => {
             <div className="aspect-square lg:aspect-[4/3] rounded-lg overflow-hidden shadow-lg">
               <img 
                 src={ownersPortrait} 
-                alt="Bieke & Christophe" 
+                alt={t('owners.imageAlt', 'Bieke en Christophe, eigenaren van ArdenNest, verwelkomen gasten al sinds 2003')}
                 className="w-full h-full object-cover"
               />
             </div>
