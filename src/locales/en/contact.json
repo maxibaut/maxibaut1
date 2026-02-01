@@ -38,8 +38,11 @@
     "message": "Message",
     "messagePlaceholder": "Tell us about your plans...",
     "submit": "Send message",
-    "success": "Message sent! We'll get back to you as soon as possible.",
-    "error": "Something went wrong. Please try again or contact us directly.",
+    "submitting": "Sending...",
+    "successTitle": "Message sent!",
+    "success": "We'll get back to you as soon as possible.",
+    "errorTitle": "Something went wrong",
+    "error": "Please try again or contact us directly.",
     "emailContent": {
       "subject": "New enquiry via ArdenNest.be",
       "intro": "Hello! A new enquiry has been received via ardennest.be.",
