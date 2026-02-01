@@ -14,27 +14,7 @@ export type Database = {
   }
   public: {
     Tables: {
-      site_settings: {
-        Row: {
-          created_at: string
-          id: string
-          key: string
-          value: string | null
-        }
-        Insert: {
-          created_at?: string
-          id?: string
-          key: string
-          value?: string | null
-        }
-        Update: {
-          created_at?: string
-          id?: string
-          key?: string
-          value?: string | null
-        }
-        Relationships: []
-      }
+      [_ in never]: never
     }
     Views: {
       [_ in never]: never
