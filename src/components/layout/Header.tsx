@@ -71,7 +71,6 @@ export const Header = () => {
             <DropdownMenu>
               <DropdownMenuTrigger asChild>
                 <Button variant="ghost" size="sm" className="gap-1">
-                  <span>{currentLanguage.flag}</span>
                   <span>{currentLanguage.label}</span>
                   <ChevronDown className="h-3 w-3" />
                 </Button>
@@ -85,8 +84,7 @@ export const Header = () => {
                       'cursor-pointer',
                       i18n.language === lang.code && 'bg-accent'
                     )}
-                  >
-                    <span className="mr-2">{lang.flag}</span>
+                    >
                     {t(`language.${lang.code}`)}
                   </DropdownMenuItem>
                 ))}
@@ -155,7 +153,7 @@ export const Header = () => {
                         : 'bg-muted text-muted-foreground hover:bg-accent'
                     )}
                   >
-                    {lang.flag} {lang.label}
+                    {lang.label}
                   </button>
                 ))}
               </div>
