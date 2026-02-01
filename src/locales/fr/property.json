@@ -53,10 +53,6 @@
       "views": "Vue sur le jardin"
     }
   },
-  "entertainment": {
-    "title": "Détente & Jeux",
-    "description": "Du billard à la grange de jeux - il y en a pour tous les goûts."
-  },
   "practical": {
     "title": "Informations Pratiques",
     "checkIn": "Arrivée: 16h00",
