@@ -414,6 +414,7 @@ const Differentiators = () => {
                   mainImageAlt={section.imageAlt}
                   sideImages={section.sideImages}
                   onImageClick={handleImageClick}
+                  sideImagesPosition={section.reverse ? 'right' : 'left'}
                 />
               </div>
 
