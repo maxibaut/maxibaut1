@@ -3,7 +3,7 @@ import { PageWrapper } from '@/components/layout';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
-import { Sparkles, ChefHat, TreePine, Table, Gamepad2, Car, Check, ArrowRight, Bed, ClipboardCheck, UtensilsCrossed, Home, Zap, Leaf, Award, Fan } from 'lucide-react';
+import { Sparkles, ChefHat, TreePine, Table, Gamepad2, Car, Check, ArrowRight, Bed, ClipboardCheck, UtensilsCrossed, Home, Zap, Leaf, Award, Fan, Headphones } from 'lucide-react';
 import { 
   bedroomQuietLuxury, 
   bedroomPrimary,
@@ -47,6 +47,7 @@ const Differentiators = () => {
     { src: gardenLandscape, alt: 'Groene omgeving' },
     { src: terraceDining, alt: 'Terras met eethoek' },
     { src: bedroomAtmospheric, alt: 'Sfeervolle slaapkamer met ventilatie' },
+    { src: gardenSports, alt: 'Tuin met sportveld' },
   ], []);
 
   const handleImageClick = (src: string) => {
@@ -264,6 +265,21 @@ const Differentiators = () => {
         'Geen storend geluid',
       ],
       reverse: true,
+    },
+    {
+      id: 'customer-journey',
+      icon: Headphones,
+      title: 'Persoonlijke Begeleiding',
+      description: 'Van eerste contact tot vertrek: wij begeleiden u bij elke stap. Duidelijke communicatie, transparante afrekening en persoonlijke service maken het verschil.',
+      image: gardenSports,
+      imageAlt: 'Tuin met sportveld - persoonlijke service en begeleiding',
+      features: [
+        'Begeleiding tijdens boekingsproces',
+        'Duidelijke betalingstermijnen',
+        'Gedetailleerde afrekening',
+        'Achtergebleven spullen worden opgestuurd',
+      ],
+      reverse: false,
     },
   ];
 
