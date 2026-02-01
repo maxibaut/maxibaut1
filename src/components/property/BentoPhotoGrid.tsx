@@ -67,7 +67,7 @@ const BentoPhotoGrid = ({ photos, viewAllLabel = 'Bekijk alle foto\'s', classNam
     <>
       {/* Bento Grid */}
       <div className={cn('relative', className)}>
-        <div className="grid grid-cols-1 md:grid-cols-5 gap-4 md:gap-5 md:h-[500px]">
+        <div className="grid grid-cols-1 md:grid-cols-5 gap-4 md:gap-4 md:h-[600px]">
           {/* Main large photo - spans 3 columns on desktop, full height */}
           {displayPhotos[0] && (
             <button
@@ -85,7 +85,7 @@ const BentoPhotoGrid = ({ photos, viewAllLabel = 'Bekijk alle foto\'s', classNam
           )}
 
           {/* Right side stacked photos - spans 2 columns, 3 photos fill same height as main */}
-          <div className="md:col-span-2 grid grid-cols-5 md:grid-cols-1 md:grid-rows-5 gap-4 md:gap-5 md:h-full">
+          <div className="md:col-span-2 grid grid-cols-5 md:grid-cols-1 md:grid-rows-5 gap-4 md:gap-4 md:h-full">
             {sidePhotos.map((photo, index) => (
               <button
                 key={index + 1}
