@@ -1,5 +1,4 @@
 import { cn } from '@/lib/utils';
-import { useTranslation } from 'react-i18next';
 
 interface PropertyGalleryGridProps {
   mainImage: string;
@@ -17,11 +16,9 @@ const PropertyGalleryGrid = ({
   mainImage,
   mainImageAlt,
   sideImages,
-  allPhotosCount,
   onImageClick,
   className,
 }: PropertyGalleryGridProps) => {
-  const { t } = useTranslation('property');
   const displayImages = sideImages.slice(0, 4);
 
   return (
@@ -58,14 +55,6 @@ const PropertyGalleryGrid = ({
           ))}
         </div>
       </div>
-
-      {/* Subtle "View all photos" text */}
-      <button
-        onClick={() => onImageClick(mainImage)}
-        className="absolute bottom-3 right-3 text-xs text-cream/80 bg-charcoal/50 px-3 py-1.5 rounded-md backdrop-blur-sm"
-      >
-        {t('gallery.viewAll', { count: allPhotosCount })}
-      </button>
     </div>
   );
 };
