@@ -4,7 +4,23 @@ import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { Users, Bed, Bath, TreePine, ChefHat, ArrowRight, Sofa } from 'lucide-react';
-import { propertyHero, kitchen, oakTableDetail, diningRoom } from '@/assets/property';
+import { 
+  propertyHero, 
+  kitchen, 
+  oakTableDetail, 
+  diningRoom,
+  livingFireplace,
+  livingAperitif,
+  terraceDining,
+  gardenSports,
+  gardenLandscape,
+  gardenAerial,
+  gameRoomPool,
+  gameRoomFoosball,
+  playBarn,
+  exteriorFront
+} from '@/assets/property';
+import { BentoPhotoGrid, type PhotoItem } from '@/components/property';
 import { useSEO } from '@/hooks/useSEO';
 
 const Property = () => {
@@ -16,6 +32,32 @@ const Property = () => {
     { icon: Bed, label: t('overview.bedrooms') },
     { icon: Bath, label: t('overview.bathrooms') },
     { icon: TreePine, label: t('overview.garden') },
+  ];
+
+  // Photo collections for each section
+  const kitchenPhotos: PhotoItem[] = [
+    { src: kitchen, alt: t('kitchen.imageAlt', 'Professionele keuken met Lacanche fornuis') },
+    { src: oakTableDetail, alt: t('oakTable.imageAlt', 'Handgemaakte eiken tafel van 6 meter') },
+    { src: diningRoom, alt: t('kitchen.diningAlt', 'Eetkamer met uitzicht op de tuin') },
+  ];
+
+  const livingPhotos: PhotoItem[] = [
+    { src: livingFireplace, alt: t('livingSpace.fireplaceAlt', 'Woonkamer met open haard') },
+    { src: livingAperitif, alt: t('livingSpace.aperitifAlt', 'Gezellige zithoek voor aperitief') },
+    { src: diningRoom, alt: t('livingSpace.diningViewAlt', 'Eetkamer met sfeervolle verlichting') },
+  ];
+
+  const gardenPhotos: PhotoItem[] = [
+    { src: gardenAerial, alt: t('garden.aerialAlt', 'Luchtfoto van de 2 hectare grote tuin') },
+    { src: terraceDining, alt: t('garden.terraceAlt', 'Terras met buiteneethoek') },
+    { src: gardenSports, alt: t('garden.sportsAlt', 'Speelweide met voetbalveld') },
+    { src: gardenLandscape, alt: t('garden.landscapeAlt', 'Landschapstuin met bomen') },
+  ];
+
+  const entertainmentPhotos: PhotoItem[] = [
+    { src: gameRoomPool, alt: t('entertainment.poolAlt', 'Spelkamer met pooltafel') },
+    { src: gameRoomFoosball, alt: t('entertainment.foosballAlt', 'Tafelvoetbal in de spelkamer') },
+    { src: playBarn, alt: t('entertainment.barnAlt', 'Speelschuur voor kinderen') },
   ];
 
   return (
@@ -58,8 +100,8 @@ const Property = () => {
       {/* Kitchen Section */}
       <section className="section-padding bg-background">
         <div className="container-luxury">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div className="order-2 lg:order-1">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
+            <div className="order-2 lg:order-1 lg:sticky lg:top-24">
               <div className="flex items-center space-x-3 mb-4">
                 <ChefHat className="h-8 w-8 text-accent" />
                 <h2 className="heading-2">{t('kitchen.title')}</h2>
@@ -79,13 +121,10 @@ const Property = () => {
               </ul>
             </div>
             <div className="order-1 lg:order-2">
-              <div className="aspect-[4/3] rounded-lg overflow-hidden shadow-lg">
-                <img
-                  src={kitchen}
-                  alt={t('kitchen.imageAlt', 'Professionele keuken met Lacanche fornuis, RVS werkbladen en dubbele Miele afwasmachine')}
-                  className="w-full h-full object-cover"
-                />
-              </div>
+              <BentoPhotoGrid 
+                photos={kitchenPhotos} 
+                viewAllLabel={t('common:viewAllPhotos', 'Bekijk alle foto\'s')}
+              />
             </div>
           </div>
         </div>
@@ -101,6 +140,7 @@ const Property = () => {
                   src={oakTableDetail}
                   alt={t('oakTable.imageAlt', 'Handgemaakte eiken tafel van 6 meter lang met plaats voor 26 gasten in de eetkamer')}
                   className="w-full h-full object-cover"
+                  loading="lazy"
                 />
               </div>
             </div>
@@ -126,44 +166,17 @@ const Property = () => {
         </div>
       </section>
 
-      {/* Garden Section */}
+      {/* Living Space Section */}
       <section className="section-padding bg-background">
         <div className="container-luxury">
-          <div className="text-center max-w-2xl mx-auto mb-12">
-            <h2 className="heading-2 mb-4">{t('garden.title')}</h2>
-            <p className="body-large text-muted-foreground">
-              {t('garden.description')}
-            </p>
-          </div>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-            {Object.entries(t('garden.features', { returnObjects: true }) as Record<string, string>).map(
-              ([key, value]) => (
-                <Card key={key} className="text-center">
-                  <CardContent className="p-6">
-                    <TreePine className="h-8 w-8 text-primary mx-auto mb-3" />
-                    <span className="font-medium text-foreground">{value}</span>
-                  </CardContent>
-                </Card>
-              )
-            )}
-          </div>
-        </div>
-      </section>
-
-      {/* Living Space Section */}
-      <section className="section-padding bg-cream-dark">
-        <div className="container-luxury">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
             <div>
-              <div className="aspect-[4/3] rounded-lg overflow-hidden shadow-lg">
-                <img
-                  src={diningRoom}
-                  alt={t('livingSpace.imageAlt', 'Sfeervolle woonkamer met open haard, comfortabele zithoek en uitzicht op de tuin')}
-                  className="w-full h-full object-cover"
-                />
-              </div>
+              <BentoPhotoGrid 
+                photos={livingPhotos}
+                viewAllLabel={t('common:viewAllPhotos', 'Bekijk alle foto\'s')}
+              />
             </div>
-            <div>
+            <div className="lg:sticky lg:top-24">
               <div className="flex items-center space-x-3 mb-4">
                 <Sofa className="h-8 w-8 text-accent" />
                 <h2 className="heading-2">{t('livingSpace.title')}</h2>
@@ -183,6 +196,54 @@ const Property = () => {
               </ul>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* Garden Section */}
+      <section className="section-padding bg-cream-dark">
+        <div className="container-luxury">
+          <div className="text-center max-w-2xl mx-auto mb-12">
+            <h2 className="heading-2 mb-4">{t('garden.title')}</h2>
+            <p className="body-large text-muted-foreground">
+              {t('garden.description')}
+            </p>
+          </div>
+          
+          <BentoPhotoGrid 
+            photos={gardenPhotos}
+            viewAllLabel={t('common:viewAllPhotos', 'Bekijk alle foto\'s')}
+            className="mb-12"
+          />
+          
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+            {Object.entries(t('garden.features', { returnObjects: true }) as Record<string, string>).map(
+              ([key, value]) => (
+                <Card key={key} className="text-center">
+                  <CardContent className="p-6">
+                    <TreePine className="h-8 w-8 text-primary mx-auto mb-3" />
+                    <span className="font-medium text-foreground">{value}</span>
+                  </CardContent>
+                </Card>
+              )
+            )}
+          </div>
+        </div>
+      </section>
+
+      {/* Entertainment Section */}
+      <section className="section-padding bg-background">
+        <div className="container-luxury">
+          <div className="text-center max-w-2xl mx-auto mb-12">
+            <h2 className="heading-2 mb-4">{t('entertainment.title', 'Ontspanning & Spel')}</h2>
+            <p className="body-large text-muted-foreground">
+              {t('entertainment.description', 'Van pooltafel tot speelschuur - er is voor elk wat wils.')}
+            </p>
+          </div>
+          
+          <BentoPhotoGrid 
+            photos={entertainmentPhotos}
+            viewAllLabel={t('common:viewAllPhotos', 'Bekijk alle foto\'s')}
+          />
         </div>
       </section>
 
