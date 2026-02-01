@@ -149,6 +149,7 @@ const Property = () => {
                 ]}
                 allPhotosCount={allPhotos.length}
                 onImageClick={handleImageClick}
+                sideImagesPosition="left"
               />
             </div>
           </div>
@@ -171,6 +172,7 @@ const Property = () => {
                 ]}
                 allPhotosCount={allPhotos.length}
                 onImageClick={handleImageClick}
+                sideImagesPosition="right"
               />
             </div>
             <div>
@@ -235,6 +237,7 @@ const Property = () => {
                 ]}
                 allPhotosCount={allPhotos.length}
                 onImageClick={handleImageClick}
+                sideImagesPosition="right"
               />
             </div>
             <div>
