@@ -53,6 +53,9 @@
       "views": "Gartenblick"
     }
   },
+  "gallery": {
+    "viewAll": "Alle {{count}} Fotos ansehen"
+  },
   "practical": {
     "title": "Praktische Informationen",
     "checkIn": "Check-in: 16:00 Uhr",

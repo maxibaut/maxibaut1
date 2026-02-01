@@ -53,6 +53,9 @@
       "views": "Uitzicht op de tuin"
     }
   },
+  "gallery": {
+    "viewAll": "Bekijk alle {{count}} foto's"
+  },
   "practical": {
     "title": "Praktische Informatie",
     "checkIn": "Check-in: 16:00",
