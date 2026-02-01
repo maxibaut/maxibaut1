@@ -16,7 +16,12 @@ export const Footer = () => {
               Quiet luxury voor momenten samen. Al sinds 2003 verwelkomen wij families in de Ardennen.
             </p>
             {/* Google Reviews Badge */}
-            <div className="flex items-center space-x-2 pt-2">
+            <a 
+              href="https://www.google.com/travel/hotels/entity/CgoIvbmkjtmR3opzEAE/reviews?q=Ferme%20du%20Chateau%2C%20Malvoisin%20Rue%20de%20la%20ferme%203%20Malvoisin&hl=nl-BE&gl=be"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center space-x-2 pt-2 hover:opacity-80 transition-opacity"
+            >
               <div className="flex">
                 {[...Array(5)].map((_, i) => (
                   <Star
@@ -28,7 +33,7 @@ export const Footer = () => {
               <span className="text-sm text-primary-foreground/80">
                 4.8/5 {t('footer.stars')} • 50+ reviews
               </span>
-            </div>
+            </a>
           </div>
 
           {/* Contact */}
