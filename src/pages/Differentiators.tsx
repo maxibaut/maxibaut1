@@ -6,11 +6,22 @@ import { Button } from '@/components/ui/button';
 import { Sparkles, ChefHat, TreePine, Table, Gamepad2, Car, Check, ArrowRight, Bed, ClipboardCheck, UtensilsCrossed, Home, Zap, Leaf, Award, Fan } from 'lucide-react';
 import { 
   bedroomQuietLuxury, 
+  bedroomPrimary,
+  bedroomAtmospheric,
+  bedroomMezzanine,
   kitchen, 
+  diningRoom,
+  livingFireplace,
   gardenAerial, 
+  gardenSports,
+  gardenLandscape,
+  terraceDining,
   oakTableDetail, 
   gameRoomPool, 
-  playBarn 
+  gameRoomFoosball,
+  playBarn,
+  propertyHero,
+  familyPortrait,
 } from '@/assets/property';
 import PropertyLightbox, { LightboxImage } from '@/components/property/PropertyLightbox';
 
@@ -28,6 +39,14 @@ const Differentiators = () => {
     { src: oakTableDetail, alt: 'Handgemaakte eiken tafel van 6 meter' },
     { src: gameRoomPool, alt: 'Speelkamer met professionele pooltafel' },
     { src: playBarn, alt: 'Overdekte speelschuur met go-karts' },
+    { src: bedroomPrimary, alt: 'Hoofdslaapkamer met boxspring bed' },
+    { src: diningRoom, alt: 'Eetkamer met volledig servies' },
+    { src: livingFireplace, alt: 'Woonkamer met open haard' },
+    { src: familyPortrait, alt: 'Eigenaren op het domein' },
+    { src: propertyHero, alt: 'Voorgevel van de hoeve' },
+    { src: gardenLandscape, alt: 'Groene omgeving' },
+    { src: terraceDining, alt: 'Terras met eethoek' },
+    { src: bedroomAtmospheric, alt: 'Sfeervolle slaapkamer met ventilatie' },
   ], []);
 
   const handleImageClick = (src: string) => {
@@ -131,7 +150,7 @@ const Differentiators = () => {
       icon: Bed,
       title: t('differentiators.mattresses.title'),
       description: t('differentiators.mattresses.description'),
-      image: bedroomQuietLuxury,
+      image: bedroomPrimary,
       imageAlt: 'Comfortabel boxspring bed met dikke matras in een van de 9 slaapkamers van ArdenNest',
       features: [
         'Boxspring bedden',
@@ -146,8 +165,8 @@ const Differentiators = () => {
       icon: ClipboardCheck,
       title: t('differentiators.dishCabinet.title'),
       description: t('differentiators.dishCabinet.description'),
-      image: kitchen,
-      imageAlt: 'Volledig ingerichte keuken met servies en bestek voor 26 personen - altijd gecontroleerd op volledigheid',
+      image: diningRoom,
+      imageAlt: 'Volledig ingerichte eetkamer met servies en bestek voor 26 personen',
       features: [
         'Volledige controle na elke gast',
         'Alles compleet en in perfecte staat',
@@ -161,8 +180,8 @@ const Differentiators = () => {
       icon: UtensilsCrossed,
       title: t('differentiators.professionalEquipment.title'),
       description: t('differentiators.professionalEquipment.description'),
-      image: kitchen,
-      imageAlt: 'Horeca-kwaliteit kookgerei, potten en pannen voor het bereiden van maaltijden voor grote groepen',
+      image: livingFireplace,
+      imageAlt: 'Woonkamer met sfeervolle open haard',
       features: [
         'Horeca-kwaliteit potten en pannen',
         'Professioneel kookgerei',
@@ -176,8 +195,8 @@ const Differentiators = () => {
       icon: Home,
       title: t('differentiators.livingOnSite.title'),
       description: t('differentiators.livingOnSite.description'),
-      image: bedroomQuietLuxury,
-      imageAlt: 'Eigenaren Bieke en Christophe wonen al 25 jaar op het domein en kennen elk hoekje van het huis',
+      image: familyPortrait,
+      imageAlt: 'Eigenaren Bieke en Christophe wonen al 25 jaar op het domein',
       features: [
         '25 jaar woonervaring ter plaatse',
         'Diepgaande kennis van het huis',
@@ -191,8 +210,8 @@ const Differentiators = () => {
       icon: Zap,
       title: t('differentiators.utilities.title'),
       description: t('differentiators.utilities.description'),
-      image: kitchen,
-      imageAlt: 'Alle nutsvoorzieningen zijn inbegrepen in de huurprijs - water, elektriciteit en verwarming',
+      image: propertyHero,
+      imageAlt: 'Voorgevel van de hoeve - alle nutsvoorzieningen inbegrepen',
       features: [
         'Water inbegrepen',
         'Elektriciteit inbegrepen',
@@ -206,7 +225,7 @@ const Differentiators = () => {
       icon: Leaf,
       title: t('differentiators.greenKey.title'),
       description: t('differentiators.greenKey.description'),
-      image: gardenAerial,
+      image: gardenLandscape,
       imageAlt: 'Groene omgeving van ArdenNest - kandidaat voor het Green Key duurzaamheidslabel',
       features: [
         'Kandidaat Green Key label',
@@ -221,8 +240,8 @@ const Differentiators = () => {
       icon: Award,
       title: t('differentiators.certified.title'),
       description: t('differentiators.certified.description'),
-      image: bedroomQuietLuxury,
-      imageAlt: 'Gecertificeerde vakantiewoning door Toerisme Wallonië - kwaliteitsgarantie',
+      image: terraceDining,
+      imageAlt: 'Terras met eethoek - gecertificeerde vakantiewoning',
       features: [
         'Gecertificeerd door Toerisme Wallonië',
         'Officiële erkenning',
@@ -236,8 +255,8 @@ const Differentiators = () => {
       icon: Fan,
       title: t('differentiators.ventilation.title'),
       description: t('differentiators.ventilation.description'),
-      image: bedroomQuietLuxury,
-      imageAlt: 'Moderne badkamer met stille centrale ventilatie voor optimale luchtkwaliteit',
+      image: bedroomAtmospheric,
+      imageAlt: 'Sfeervolle slaapkamer met stille centrale ventilatie',
       features: [
         'Stille centrale ventilatie',
         'In alle badkamers',
