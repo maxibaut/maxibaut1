@@ -20,32 +20,30 @@ const PropertyGalleryGrid = ({
   const displayImages = sideImages.slice(0, 4);
 
   return (
-    <div className={cn('aspect-[4/3] relative', className)}>
-      <div className="absolute inset-0 grid grid-cols-1 lg:grid-cols-4 gap-3">
-        {/* Main image - takes 3 columns */}
-        <div className="lg:col-span-3 h-full rounded-lg overflow-hidden shadow-lg">
-          <img
-            src={mainImage}
-            alt={mainImageAlt}
-            className="w-full h-full object-cover"
-          />
-        </div>
+    <div className={cn('flex gap-3', className)}>
+      {/* Main image - keeps original 4/3 aspect ratio */}
+      <div className="flex-1 aspect-[4/3] rounded-lg overflow-hidden shadow-lg">
+        <img
+          src={mainImage}
+          alt={mainImageAlt}
+          className="w-full h-full object-cover"
+        />
+      </div>
 
-        {/* Side column with 4 stacked images */}
-        <div className="hidden lg:flex lg:col-span-1 h-full flex-col gap-2">
-          {displayImages.map((image, index) => (
-            <div
-              key={index}
-              className="flex-1 min-h-0 rounded-md overflow-hidden shadow-md"
-            >
-              <img
-                src={image.src}
-                alt={image.alt}
-                className="w-full h-full object-cover"
-              />
-            </div>
-          ))}
-        </div>
+      {/* Side column with 4 stacked images - matches main photo height */}
+      <div className="hidden lg:flex w-[18%] flex-col gap-2">
+        {displayImages.map((image, index) => (
+          <div
+            key={index}
+            className="flex-1 min-h-0 rounded-md overflow-hidden shadow-md"
+          >
+            <img
+              src={image.src}
+              alt={image.alt}
+              className="w-full h-full object-cover"
+            />
+          </div>
+        ))}
       </div>
     </div>
   );
