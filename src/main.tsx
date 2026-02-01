@@ -14,10 +14,7 @@ import App from './App.tsx';
 import './lib/i18n';
 import './index.css';
 
-// Initialize EmailJS with public key
-const emailjsPublicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
-if (emailjsPublicKey) {
-  emailjs.init(emailjsPublicKey);
-}
+// Initialize EmailJS with public key (safe to include in frontend)
+emailjs.init('GOWvcryg-MOYFp0nk');
 
 createRoot(document.getElementById("root")!).render(<App />);

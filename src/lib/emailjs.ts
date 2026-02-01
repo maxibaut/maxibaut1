@@ -1,5 +1,9 @@
 import emailjs from '@emailjs/browser';
 
+// EmailJS configuration (public keys - safe to include in frontend)
+const EMAILJS_SERVICE_ID = 'service_6226qav';
+const EMAILJS_TEMPLATE_ID = 'template_5n62t8r';
+
 export interface ContactFormEmailData {
   naam: string;
   email: string;
@@ -15,12 +19,5 @@ export interface ContactFormEmailData {
  * @returns Promise that resolves when email is sent successfully
  */
 export const sendContactEmail = async (formData: ContactFormEmailData): Promise<void> => {
-  const serviceId = import.meta.env.VITE_EMAILJS_SERVICE_ID;
-  const templateId = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
-
-  if (!serviceId || !templateId) {
-    throw new Error('EmailJS configuration is missing. Please set VITE_EMAILJS_SERVICE_ID and VITE_EMAILJS_TEMPLATE_ID.');
-  }
-
-  await emailjs.send(serviceId, templateId, formData as unknown as Record<string, unknown>);
+  await emailjs.send(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, formData as unknown as Record<string, unknown>);
 };
