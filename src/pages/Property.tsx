@@ -4,8 +4,24 @@ import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { Users, Bed, Bath, TreePine, ChefHat, ArrowRight, Sofa } from 'lucide-react';
-import { propertyHero, kitchen, oakTableDetail, diningRoom } from '@/assets/property';
+import { 
+  propertyHero, 
+  kitchen, 
+  oakTableDetail, 
+  diningRoom,
+  livingFireplace,
+  livingAperitif,
+  bedroomPrimary,
+  bedroomAtmospheric,
+  bedroomMezzanine,
+  bedroomQuietLuxury,
+  terraceDining,
+  gameRoomPool,
+  gameRoomFoosball,
+  playBarn,
+} from '@/assets/property';
 import { useSEO } from '@/hooks/useSEO';
+import PropertyGalleryGrid from '@/components/property/PropertyGalleryGrid';
 
 const Property = () => {
   const { t } = useTranslation('property');
@@ -79,13 +95,16 @@ const Property = () => {
               </ul>
             </div>
             <div className="order-1 lg:order-2">
-              <div className="aspect-[4/3] rounded-lg overflow-hidden shadow-lg">
-                <img
-                  src={kitchen}
-                  alt={t('kitchen.imageAlt', 'Professionele keuken met Lacanche fornuis, RVS werkbladen en dubbele Miele afwasmachine')}
-                  className="w-full h-full object-cover"
-                />
-              </div>
+              <PropertyGalleryGrid
+                mainImage={kitchen}
+                mainImageAlt={t('kitchen.imageAlt', 'Professionele keuken met Lacanche fornuis, RVS werkbladen en dubbele Miele afwasmachine')}
+                sideImages={[
+                  { src: livingFireplace, alt: 'Woonkamer met open haard' },
+                  { src: terraceDining, alt: 'Terras met eethoek' },
+                  { src: gameRoomPool, alt: 'Speelkamer met pooltafel' },
+                  { src: playBarn, alt: 'Speelschuur voor kinderen' },
+                ]}
+              />
             </div>
           </div>
         </div>
@@ -96,13 +115,16 @@ const Property = () => {
         <div className="container-luxury">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <div className="aspect-[4/3] rounded-lg overflow-hidden shadow-2xl">
-                <img
-                  src={oakTableDetail}
-                  alt={t('oakTable.imageAlt', 'Handgemaakte eiken tafel van 6 meter lang met plaats voor 26 gasten in de eetkamer')}
-                  className="w-full h-full object-cover"
-                />
-              </div>
+              <PropertyGalleryGrid
+                mainImage={oakTableDetail}
+                mainImageAlt={t('oakTable.imageAlt', 'Handgemaakte eiken tafel van 6 meter lang met plaats voor 26 gasten in de eetkamer')}
+                sideImages={[
+                  { src: diningRoom, alt: 'Eetkamer overzicht' },
+                  { src: livingAperitif, alt: 'Aperitief in de woonkamer' },
+                  { src: bedroomPrimary, alt: 'Hoofdslaapkamer' },
+                  { src: bedroomAtmospheric, alt: 'Sfeervolle slaapkamer' },
+                ]}
+              />
             </div>
             <div>
               <h2 className="heading-2 mb-4">{t('oakTable.title')}</h2>
@@ -155,13 +177,16 @@ const Property = () => {
         <div className="container-luxury">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <div className="aspect-[4/3] rounded-lg overflow-hidden shadow-lg">
-                <img
-                  src={diningRoom}
-                  alt={t('livingSpace.imageAlt', 'Sfeervolle woonkamer met open haard, comfortabele zithoek en uitzicht op de tuin')}
-                  className="w-full h-full object-cover"
-                />
-              </div>
+              <PropertyGalleryGrid
+                mainImage={livingFireplace}
+                mainImageAlt={t('livingSpace.imageAlt', 'Sfeervolle woonkamer met open haard, comfortabele zithoek en uitzicht op de tuin')}
+                sideImages={[
+                  { src: livingAperitif, alt: 'Gezellige zithoek' },
+                  { src: bedroomMezzanine, alt: 'Mezzanine slaapkamer' },
+                  { src: bedroomQuietLuxury, alt: 'Luxe slaapkamer' },
+                  { src: gameRoomFoosball, alt: 'Tafelvoetbal' },
+                ]}
+              />
             </div>
             <div>
               <div className="flex items-center space-x-3 mb-4">
