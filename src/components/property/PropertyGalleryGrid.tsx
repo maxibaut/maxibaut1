@@ -7,7 +7,7 @@ interface PropertyGalleryGridProps {
     src: string;
     alt: string;
   }>;
-  allPhotosCount: number;
+  allPhotosCount?: number;
   onImageClick: (src: string) => void;
   className?: string;
 }
