@@ -20,6 +20,19 @@ const BentoPhotoGrid = ({ photos, viewAllLabel = 'Bekijk alle foto\'s', classNam
   // Show max 4 photos in grid (1 large + 3 small)
   const displayPhotos = photos.slice(0, 4);
   const hasMorePhotos = photos.length > 4;
+  
+  // Ensure we always have 3 side photos (duplicate if needed)
+  const sidePhotos = (() => {
+    const available = displayPhotos.slice(1);
+    if (available.length >= 3) return available.slice(0, 3);
+    if (available.length === 0) return [];
+    // Fill with duplicates from available photos
+    const filled = [...available];
+    while (filled.length < 3) {
+      filled.push(available[filled.length % available.length]);
+    }
+    return filled;
+  })();
 
   const openLightbox = useCallback((index: number) => {
     setCurrentIndex(index);
@@ -54,12 +67,12 @@ const BentoPhotoGrid = ({ photos, viewAllLabel = 'Bekijk alle foto\'s', classNam
     <>
       {/* Bento Grid */}
       <div className={cn('relative', className)}>
-        <div className="grid grid-cols-1 md:grid-cols-5 gap-4 md:gap-5">
-          {/* Main large photo - spans 3 columns on desktop */}
+        <div className="grid grid-cols-1 md:grid-cols-5 gap-4 md:gap-5 md:h-[500px]">
+          {/* Main large photo - spans 3 columns on desktop, full height */}
           {displayPhotos[0] && (
             <button
               onClick={() => openLightbox(0)}
-              className="md:col-span-3 aspect-[4/3] md:aspect-[3/2] rounded-lg overflow-hidden cursor-pointer focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
+              className="md:col-span-3 aspect-[4/3] md:aspect-auto md:h-full rounded-lg overflow-hidden cursor-pointer focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
               aria-label={`Open ${displayPhotos[0].alt} in galerij`}
             >
               <img
@@ -71,13 +84,13 @@ const BentoPhotoGrid = ({ photos, viewAllLabel = 'Bekijk alle foto\'s', classNam
             </button>
           )}
 
-          {/* Right side stacked photos - spans 2 columns on desktop */}
-          <div className="md:col-span-2 grid grid-cols-2 md:grid-cols-1 gap-4 md:gap-5">
-            {displayPhotos.slice(1).map((photo, index) => (
+          {/* Right side stacked photos - spans 2 columns, 3 photos fill same height as main */}
+          <div className="md:col-span-2 grid grid-cols-3 md:grid-cols-1 md:grid-rows-3 gap-4 md:gap-5 md:h-full">
+            {sidePhotos.map((photo, index) => (
               <button
                 key={index + 1}
                 onClick={() => openLightbox(index + 1)}
-                className="aspect-[4/3] md:aspect-[3/2] rounded-lg overflow-hidden cursor-pointer focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
+                className="aspect-[4/3] md:aspect-auto md:h-full rounded-lg overflow-hidden cursor-pointer focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
                 aria-label={`Open ${photo.alt} in galerij`}
               >
                 <img
