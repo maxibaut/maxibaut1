@@ -132,7 +132,7 @@ const Contact = () => {
             {/* Small Photo */}
             <img 
               src={hostBieke} 
-              alt="Bieke - Uw gastvrouw" 
+              alt={t('hero.imageAlt', 'Bieke, uw persoonlijke gastvrouw bij ArdenNest - altijd bereikbaar voor vragen en tips')}
               className="w-24 h-24 md:w-32 md:h-32 rounded-full object-cover border-4 border-primary-foreground/20"
             />
             {/* Text */}

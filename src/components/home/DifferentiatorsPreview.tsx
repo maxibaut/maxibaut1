@@ -14,18 +14,21 @@ export const DifferentiatorsPreview = () => {
       title: t('differentiators.quietLuxury.title'),
       description: t('differentiators.quietLuxury.description'),
       image: bedroomQuietLuxury,
+      imageAlt: t('differentiators.quietLuxury.imageAlt', 'Stijlvolle slaapkamer met ensuite badkamer, massief eiken vloer en luxueuze afwerking'),
     },
     {
       icon: ChefHat,
       title: t('differentiators.kitchen.title'),
       description: t('differentiators.kitchen.description'),
       image: kitchen,
+      imageAlt: t('differentiators.kitchen.imageAlt', 'Professionele keuken met Lacanche fornuis en alle benodigdheden voor groepen tot 26 personen'),
     },
     {
       icon: TreePine,
       title: t('differentiators.garden.title'),
       description: t('differentiators.garden.description'),
       image: gardenAerial,
+      imageAlt: t('differentiators.garden.imageAlt', 'Luchtfoto van de 2 hectare grote tuin met speeltoestellen en voetbalveld'),
     },
   ];
 
@@ -53,7 +56,7 @@ export const DifferentiatorsPreview = () => {
               <div className="relative h-48 md:h-56 overflow-hidden">
                 <img
                   src={item.image}
-                  alt={item.title}
+                  alt={item.imageAlt}
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                   loading="lazy"
                 />

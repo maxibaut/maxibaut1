@@ -8,13 +8,15 @@ export const HeroSection = () => {
   const { t } = useTranslation('homepage');
 
   return (
-    <section className="relative min-h-[85vh] flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-[85vh] flex items-center justify-center overflow-hidden" aria-label={t('hero.headline')}>
       {/* Background Image with Overlay */}
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
           backgroundImage: `url('${heroMain}')`,
         }}
+        role="img"
+        aria-label={t('hero.imageAlt', 'Luchtfoto van vakantiewoning ArdenNest met 2 hectare tuin in de Belgische Ardennen')}
       >
         <div className="absolute inset-0 bg-gradient-to-b from-charcoal/40 via-charcoal/30 to-charcoal/60" />
       </div>

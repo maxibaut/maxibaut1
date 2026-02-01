@@ -220,7 +220,7 @@ const SurroundingsDetail = () => {
                     >
                       <img
                         src={image}
-                        alt={`${title} - foto ${idx + 1}`}
+                        alt={`${title} - ${t('photoNumber', { number: idx + 1, defaultValue: `afbeelding ${idx + 1}` })}`}
                         className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
                       />
                     </div>
@@ -267,7 +267,7 @@ const SurroundingsDetail = () => {
           {/* Image */}
           <img
             src={item.images[lightboxIndex]}
-            alt={`${title} - foto ${lightboxIndex + 1}`}
+            alt={`${title} - ${t('photoNumber', { number: lightboxIndex + 1, defaultValue: `afbeelding ${lightboxIndex + 1}` })}`}
             className="max-w-full max-h-[90vh] object-contain"
             onClick={(e) => e.stopPropagation()}
           />

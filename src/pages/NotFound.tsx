@@ -22,6 +22,8 @@ const NotFound = () => {
           backgroundImage: `url(${tunnelImage})`,
           backgroundPosition: 'center 60%'
         }}
+        role="img"
+        aria-label={t('notFound.tunnelImageAlt', 'Tunnel de Sart-Custinne - historische spoorwegtunnel omgebouwd tot fietspad RAVeL')}
       >
         <div className="absolute inset-0 bg-black/40" />
       </div>
