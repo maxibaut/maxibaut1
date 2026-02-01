@@ -22,8 +22,5 @@ export const sendContactEmail = async (formData: ContactFormEmailData): Promise<
     throw new Error('EmailJS configuration is missing. Please set VITE_EMAILJS_SERVICE_ID and VITE_EMAILJS_TEMPLATE_ID.');
   }
 
-  // Log form data before sending (for debugging and template setup)
-  console.log('📧 EmailJS - Form data being sent:', formData);
-
   await emailjs.send(serviceId, templateId, formData as unknown as Record<string, unknown>);
 };
