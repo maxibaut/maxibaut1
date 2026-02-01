@@ -42,7 +42,7 @@ import {
 } from 'lucide-react';
 import hostBieke from '@/assets/property/host-bieke.jpg';
 import { useSEO } from '@/hooks/useSEO';
-import { sendContactEmail } from '@/lib/emailjs';
+import { sendContactEmail } from '@/lib/web3forms';
 
 const contactSchema = z.object({
   name: z.string().trim().min(1, 'Naam is verplicht').max(100),
@@ -75,8 +75,8 @@ const Contact = () => {
   const onSubmit = async (data: ContactFormData) => {
     setIsSubmitting(true);
     try {
-      // Map form data to EmailJS template variables with Dutch names
-      const emailData = {
+      // Map form data to Web3Forms format
+      const formData = {
         naam: data.name,
         email: data.email,
         telefoon: data.phone || '-',
@@ -85,7 +85,7 @@ const Contact = () => {
         bericht: data.message,
       };
 
-      await sendContactEmail(emailData);
+      await sendContactEmail(formData);
 
       toast({
         title: 'Bericht verzonden!',
