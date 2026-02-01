@@ -38,9 +38,11 @@ import {
   PawPrint,
   Cigarette,
   MegaphoneOff,
+  Loader2,
 } from 'lucide-react';
 import hostBieke from '@/assets/property/host-bieke.jpg';
 import { useSEO } from '@/hooks/useSEO';
+import { sendContactEmail } from '@/lib/emailjs';
 
 const contactSchema = z.object({
   name: z.string().trim().min(1, 'Naam is verplicht').max(100),
@@ -73,18 +75,28 @@ const Contact = () => {
   const onSubmit = async (data: ContactFormData) => {
     setIsSubmitting(true);
     try {
-      // Simulate form submission
-      await new Promise((resolve) => setTimeout(resolve, 1000));
-      // Note: In production, send data to backend API instead of logging
+      // Map form data to EmailJS template variables with Dutch names
+      const emailData = {
+        naam: data.name,
+        email: data.email,
+        telefoon: data.phone || '-',
+        groepssamenstelling: data.groupSize || '-',
+        gewenste_periode: data.dates || '-',
+        bericht: data.message,
+      };
+
+      await sendContactEmail(emailData);
+
       toast({
         title: 'Bericht verzonden!',
         description: t('form.success'),
       });
       form.reset();
     } catch (error) {
+      console.error('EmailJS error:', error);
       toast({
         title: 'Er ging iets mis',
-        description: 'Probeer het later opnieuw.',
+        description: t('form.error'),
         variant: 'destructive',
       });
     } finally {
@@ -281,8 +293,17 @@ const Contact = () => {
                     />
 
                     <Button type="submit" className="w-full" disabled={isSubmitting}>
-                      {isSubmitting ? 'Verzenden...' : t('form.submit')}
-                      <ArrowRight className="ml-2 h-4 w-4" />
+                      {isSubmitting ? (
+                        <>
+                          <Loader2 className="mr-2 h-4 w-4 animate-spin" />
+                          Verzenden...
+                        </>
+                      ) : (
+                        <>
+                          {t('form.submit')}
+                          <ArrowRight className="ml-2 h-4 w-4" />
+                        </>
+                      )}
                     </Button>
                   </form>
                 </Form>
