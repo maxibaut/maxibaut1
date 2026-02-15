@@ -32,30 +32,7 @@ const Differentiators = () => {
   const [lightboxOpen, setLightboxOpen] = useState(false);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
-  // All unique photos on the differentiators page for the lightbox
-  const allPhotos: LightboxImage[] = useMemo(() => [
-    { src: bedroomQuietLuxury, alt: 'Stijlvolle slaapkamer met ensuite badkamer' },
-    { src: kitchen, alt: 'Professionele keuken met Lacanche fornuis' },
-    { src: gardenAerial, alt: 'Luchtfoto van de 2 hectare grote tuin' },
-    { src: oakTableDetail, alt: 'Handgemaakte eiken tafel van 6 meter' },
-    { src: gameRoomPool, alt: 'Speelkamer met professionele pooltafel' },
-    { src: playBarn, alt: 'Overdekte speelschuur met go-karts' },
-    { src: bedroomPrimary, alt: 'Hoofdslaapkamer met boxspring bed' },
-    { src: diningRoom, alt: 'Eetkamer met volledig servies' },
-    { src: livingFireplace, alt: 'Woonkamer met open haard' },
-    { src: familyPortrait, alt: 'Eigenaren op het domein' },
-    { src: propertyHero, alt: 'Voorgevel van de hoeve' },
-    { src: gardenLandscape, alt: 'Groene omgeving' },
-    { src: terraceDining, alt: 'Terras met eethoek' },
-    { src: bedroomAtmospheric, alt: 'Sfeervolle slaapkamer met ventilatie' },
-    { src: gardenSports, alt: 'Tuin met sportveld' },
-  ], []);
-
-  const handleImageClick = (src: string) => {
-    const index = allPhotos.findIndex(photo => photo.src === src);
-    setCurrentImageIndex(index >= 0 ? index : 0);
-    setLightboxOpen(true);
-  };
+  // sections is defined below, allPhotos and handleImageClick come after it
   const sections = [
     {
       id: 'quiet-luxury',
@@ -373,6 +350,31 @@ const Differentiators = () => {
       reverse: false,
     },
   ];
+
+  // Build lightbox photos from sections: main photo first, then side photos 1-4, per section, deduplicated
+  const allPhotos: LightboxImage[] = useMemo(() => {
+    const seen = new Set<string>();
+    const photos: LightboxImage[] = [];
+    sections.forEach(section => {
+      if (!seen.has(section.image)) {
+        seen.add(section.image);
+        photos.push({ src: section.image, alt: section.imageAlt });
+      }
+      section.sideImages.forEach(img => {
+        if (!seen.has(img.src)) {
+          seen.add(img.src);
+          photos.push(img);
+        }
+      });
+    });
+    return photos;
+  }, [sections]);
+
+  const handleImageClick = (src: string) => {
+    const index = allPhotos.findIndex(photo => photo.src === src);
+    setCurrentImageIndex(index >= 0 ? index : 0);
+    setLightboxOpen(true);
+  };
 
   return (
     <PageWrapper>
