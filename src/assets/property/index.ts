@@ -18,6 +18,7 @@ export { default as bedroomPrimary } from './ferme-139.jpg';
 export { default as bedroomAtmospheric } from './ferme-141.jpg';
 export { default as bedroomMezzanine } from './ferme-148.jpg';
 export { default as bedroomQuietLuxury } from './ferme-064.jpg';
+export { default as salonQuietLuxury } from './salon-quiet-luxury.jpg';
 
 // Outdoor
 export { default as terraceDining } from './ferme-116.jpg';
