@@ -79,8 +79,8 @@ const Differentiators = () => {
     {
       id: 'garden',
       icon: TreePine,
-      title: t('differentiators.garden.title'),
-      description: t('differentiators.garden.description'),
+      title: 'De Tuin',
+      description: 'Niets is recht, niets is strak. Een enorm glooiend landschap waar kinderen urenlang verdwijnen en volwassenen tot rust komen. Altijd netjes onderhouden, met ruimte voor iedereen — van schattenjacht tot petanque, van voetbal tot aperitief.',
       image: gardenAerial,
       imageAlt: 'Luchtfoto van de 2 hectare grote tuin',
       sideImages: [
@@ -90,10 +90,10 @@ const Differentiators = () => {
         { src: playBarn, alt: 'Speelschuur' },
       ],
       features: [
-        '200m x 100m aan ruimte',
-        'Professionele speeltoestellen',
-        'Voetbalveld met doelen',
-        'Schattenjacht voor de kleintjes',
+        'Groot voetbalveld met volleybalnet en petanquebaan',
+        'Verborgen plekjes doorheen de tuin — kinderen ontdekken steeds iets nieuws',
+        '3 grote banken en 10 professionele ligzetels met tafeltjes bij mooi weer',
+        'Terras tussen huis en tuin met 2 barbecues — de perfecte tussenstop',
       ],
       reverse: false,
     },
