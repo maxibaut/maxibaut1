@@ -48,10 +48,7 @@ const About = () => {
       <section className="section-padding bg-primary text-primary-foreground">
         <div className="container-luxury">
           <div className="max-w-3xl mx-auto text-center">
-            <span className="text-gold text-lg font-serif italic mb-2 block">
-              {t('story.philosophy.title')}
-            </span>
-            <h2 className="heading-2 mb-4">{t('story.philosophy.subtitle')}</h2>
+            <h2 className="heading-2 mb-4">{t('story.philosophy.title')}</h2>
             <p className="body-large text-primary-foreground/80">
               {t('story.philosophy.content')}
             </p>
