@@ -62,13 +62,13 @@ const Differentiators = () => {
       icon: Sparkles,
       title: t('differentiators.quietLuxury.title'),
       description: t('differentiators.quietLuxury.description'),
-      image: bedroomQuietLuxury,
-      imageAlt: 'Stijlvolle slaapkamer met ensuite badkamer',
+      image: livingFireplace,
+      imageAlt: 'Woonkamer met open haard',
       sideImages: [
+        { src: bedroomQuietLuxury, alt: 'Stijlvolle slaapkamer' },
         { src: bedroomPrimary, alt: 'Hoofdslaapkamer' },
         { src: bedroomAtmospheric, alt: 'Sfeervolle slaapkamer' },
         { src: bedroomMezzanine, alt: 'Mezzanine slaapkamer' },
-        { src: livingFireplace, alt: 'Woonkamer met open haard' },
       ],
       features: [
         'Verfijning zonder opsmuk – kwaliteit die voor zich spreekt',
