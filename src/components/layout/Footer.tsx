@@ -13,7 +13,7 @@ export const Footer = () => {
           <div className="space-y-4">
             <h3 className="font-serif text-2xl font-semibold">Arden'Nest</h3>
             <p className="text-primary-foreground/80 leading-relaxed">
-              Quiet luxury voor momenten samen. Al sinds 2003 verwelkomen wij families in de Ardennen.
+              {t('footer.tagline')}
             </p>
             {/* Google Reviews Badge */}
             <a 
