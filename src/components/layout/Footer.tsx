@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { Phone, Mail, MapPin, Star } from 'lucide-react';
+import { Phone, Mail, MapPin, Star, ExternalLink } from 'lucide-react';
 
 export const Footer = () => {
   const { t } = useTranslation('common');
@@ -20,19 +20,28 @@ export const Footer = () => {
               href="https://www.google.com/travel/hotels/entity/CgoIvbmkjtmR3opzEAE/reviews?q=Ferme%20du%20Chateau%2C%20Malvoisin%20Rue%20de%20la%20ferme%203%20Malvoisin&hl=nl-BE&gl=be"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center space-x-2 pt-2 hover:opacity-80 transition-opacity"
+              className="flex items-center space-x-4 pt-2 hover:opacity-80 transition-opacity"
             >
-              <div className="flex">
-                {[...Array(5)].map((_, i) => (
-                  <Star
-                    key={i}
-                    className={`h-4 w-4 ${i < 5 ? 'fill-gold text-gold' : 'text-primary-foreground/40'}`}
-                  />
-                ))}
+              <div className="flex-shrink-0 w-14 h-14 rounded-full bg-primary-foreground/10 flex items-center justify-center">
+                <Star className="h-6 w-6 text-gold" />
               </div>
-              <span className="text-sm text-primary-foreground/80">
-                4.8/5 {t('footer.stars')} • 50+ reviews
-              </span>
+              <div>
+                <div className="flex items-center space-x-2">
+                  <span className="text-xl font-serif font-semibold">4.8/5</span>
+                  <div className="flex">
+                    {[...Array(5)].map((_, i) => (
+                      <Star
+                        key={i}
+                        className="h-4 w-4 fill-gold text-gold"
+                      />
+                    ))}
+                  </div>
+                </div>
+                <p className="text-sm text-primary-foreground/80 flex items-center gap-1">
+                  {t('footer.googleReviews')} <ExternalLink className="h-3 w-3" />
+                </p>
+                <p className="text-xs text-primary-foreground/60">50+ reviews</p>
+              </div>
             </a>
           </div>
 
