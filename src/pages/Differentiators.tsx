@@ -58,8 +58,8 @@ const Differentiators = () => {
     {
       id: 'kitchen',
       icon: ChefHat,
-      title: t('differentiators.kitchen.title'),
-      description: t('differentiators.kitchen.description'),
+      title: 'Professionele Keuken',
+      description: 'De keuken waar iedereen naartoe trekt. Samen koken, aperitieven, kinderen die komen snoepen — hier gebeurt het. Volledig professioneel ingericht zodat koken voor 26 plezier is, geen corvee.',
       image: kitchen,
       imageAlt: 'Professionele keuken met Lacanche fornuis',
       sideImages: [
@@ -69,10 +69,10 @@ const Differentiators = () => {
         { src: playBarn, alt: 'Speelschuur' },
       ],
       features: [
-        'Lacanche fornuis van professionele kwaliteit',
-        '2x Miele afwasmachines',
-        'Amerikaanse koelkast met ijsmachine',
-        'Alle keukenbenodigdheden voor 26 personen',
+        'Lacanche fornuis met gastronorm oven en warmhoudkast — het hart van de keuken',
+        '2 professionele Miele vaatwassers — 30 minuten en alles is klaar',
+        'Professionele inox potten, pannen en al het bijgerief — alles wat je nodig hebt, niets wat je moet zoeken',
+        'Koele berging naast de keuken — ruimte voor al jullie boodschappen',
       ],
       reverse: true,
     },
