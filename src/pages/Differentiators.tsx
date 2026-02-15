@@ -5,7 +5,8 @@ import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Sparkles, ChefHat, TreePine, Table, Gamepad2, Car, Check, ArrowRight, Bed, ClipboardCheck, UtensilsCrossed, Home, Zap, Leaf, Award, Fan, Headphones } from 'lucide-react';
 import { 
-  bedroomQuietLuxury, 
+  salonQuietLuxury,
+  bedroomQuietLuxury,
   bedroomPrimary,
   bedroomAtmospheric,
   bedroomMezzanine,
@@ -34,7 +35,7 @@ const Differentiators = () => {
 
   // All unique photos on the differentiators page for the lightbox
   const allPhotos: LightboxImage[] = useMemo(() => [
-    { src: bedroomQuietLuxury, alt: 'Stijlvolle slaapkamer met ensuite badkamer' },
+    { src: salonQuietLuxury, alt: 'Sfeervolle salon met warme verlichting' },
     { src: kitchen, alt: 'Professionele keuken met Lacanche fornuis' },
     { src: gardenAerial, alt: 'Luchtfoto van de 2 hectare grote tuin' },
     { src: oakTableDetail, alt: 'Handgemaakte eiken tafel van 6 meter' },
@@ -65,7 +66,7 @@ const Differentiators = () => {
       image: livingFireplace,
       imageAlt: 'Woonkamer met open haard',
       sideImages: [
-        { src: bedroomQuietLuxury, alt: 'Stijlvolle slaapkamer' },
+        { src: salonQuietLuxury, alt: 'Sfeervolle salon' },
         { src: bedroomPrimary, alt: 'Hoofdslaapkamer' },
         { src: bedroomAtmospheric, alt: 'Sfeervolle slaapkamer' },
         { src: bedroomMezzanine, alt: 'Mezzanine slaapkamer' },
