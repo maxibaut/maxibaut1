@@ -101,7 +101,7 @@ const Differentiators = () => {
       id: 'oak-table',
       icon: Table,
       title: 'De Eiken Tafel',
-      description: 'Het hart van het huis. Waar verhalen worden gedeeld, herinneringen worden gemaakt en generaties samenkomen rond een maaltijd.',
+      description: 'Hier worden verhalen verteld, glazen gevuld en gerechten gedeeld. Drie massief eiken tafels, met zicht op de tuin door de grote poort — dit is waar jullie vakantie samenkomt.',
       image: oakTableDetail,
       imageAlt: 'Handgemaakte eiken tafel van 6 meter',
       sideImages: [
@@ -111,10 +111,10 @@ const Differentiators = () => {
         { src: terraceDining, alt: 'Terras' },
       ],
       features: [
-        '6 meter lang, handgemaakt',
-        'Plaats voor 26 personen',
-        'Het centrum van elke maaltijd',
-        'Waar herinneringen ontstaan',
+        '7m20 lang, 26 plaatsen — geen kindertafel apart',
+        'Extra breed zodat iedereen elkaar kan zien én horen',
+        'Comfortabele stoelen van Belgische makelij',
+        'Verlichting op maat van een originele boerderijbalk, eigen design',
       ],
       reverse: true,
     },
