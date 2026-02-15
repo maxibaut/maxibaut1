@@ -5,8 +5,7 @@ import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Sparkles, ChefHat, TreePine, Table, Gamepad2, Car, Check, ArrowRight, Bed, ClipboardCheck, UtensilsCrossed, Home, Zap, Leaf, Award, Fan, Headphones } from 'lucide-react';
 import { 
-  salonQuietLuxury,
-  bedroomQuietLuxury,
+  bedroomQuietLuxury, 
   bedroomPrimary,
   bedroomAtmospheric,
   bedroomMezzanine,
@@ -35,7 +34,7 @@ const Differentiators = () => {
 
   // All unique photos on the differentiators page for the lightbox
   const allPhotos: LightboxImage[] = useMemo(() => [
-    { src: salonQuietLuxury, alt: 'Sfeervolle salon met warme verlichting' },
+    { src: bedroomQuietLuxury, alt: 'Stijlvolle slaapkamer met ensuite badkamer' },
     { src: kitchen, alt: 'Professionele keuken met Lacanche fornuis' },
     { src: gardenAerial, alt: 'Luchtfoto van de 2 hectare grote tuin' },
     { src: oakTableDetail, alt: 'Handgemaakte eiken tafel van 6 meter' },
@@ -63,13 +62,13 @@ const Differentiators = () => {
       icon: Sparkles,
       title: t('differentiators.quietLuxury.title'),
       description: t('differentiators.quietLuxury.description'),
-      image: livingFireplace,
-      imageAlt: 'Woonkamer met open haard',
+      image: bedroomQuietLuxury,
+      imageAlt: 'Stijlvolle slaapkamer met ensuite badkamer',
       sideImages: [
-        { src: salonQuietLuxury, alt: 'Sfeervolle salon' },
         { src: bedroomPrimary, alt: 'Hoofdslaapkamer' },
         { src: bedroomAtmospheric, alt: 'Sfeervolle slaapkamer' },
         { src: bedroomMezzanine, alt: 'Mezzanine slaapkamer' },
+        { src: livingFireplace, alt: 'Woonkamer met open haard' },
       ],
       features: [
         'Verfijning zonder opsmuk – kwaliteit die voor zich spreekt',
