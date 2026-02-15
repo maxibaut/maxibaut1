@@ -6,10 +6,7 @@ export const RedirectBanner = () => {
   const { t } = useTranslation('common');
   const [dismissed, setDismissed] = useState(false);
 
-  const params = new URLSearchParams(window.location.search);
-  const fromFdc = params.get('from') === 'fdc';
-
-  if (!fromFdc || dismissed) return null;
+  if (dismissed) return null;
 
   return (
     <div className="w-full bg-accent border-b border-border text-primary text-sm text-center py-2 px-4 relative">
