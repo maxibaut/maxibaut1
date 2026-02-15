@@ -34,25 +34,39 @@ const Property = () => {
   const [lightboxOpen, setLightboxOpen] = useState(false);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
-  // All photos on the property page for the lightbox
-  const allPhotos: LightboxImage[] = useMemo(() => [
-    { src: propertyHero, alt: t('hero.imageAlt', 'Voorgevel van de gerenoveerde Ardense hoeve') },
-    { src: kitchen, alt: t('kitchen.imageAlt', 'Professionele keuken met Lacanche fornuis') },
-    { src: livingFireplace, alt: 'Woonkamer met open haard' },
-    { src: terraceDining, alt: 'Terras met eethoek' },
-    { src: gameRoomPool, alt: 'Speelkamer met pooltafel' },
-    { src: playBarn, alt: 'Speelschuur voor kinderen' },
-    { src: oakTableDetail, alt: t('oakTable.imageAlt', 'Handgemaakte eiken tafel van 6 meter') },
-    { src: diningRoom, alt: 'Eetkamer overzicht' },
-    { src: livingAperitif, alt: 'Aperitief in de woonkamer' },
-    { src: bedroomPrimary, alt: 'Hoofdslaapkamer' },
-    { src: bedroomAtmospheric, alt: 'Sfeervolle slaapkamer' },
-    { src: bedroomMezzanine, alt: 'Mezzanine slaapkamer' },
-    { src: bedroomQuietLuxury, alt: 'Luxe slaapkamer' },
-    { src: gameRoomFoosball, alt: 'Tafelvoetbal' },
-    { src: gardenSports, alt: 'Sportveld in de tuin' },
-    { src: gardenLandscape, alt: 'Landschap van de tuin' },
-  ], [t]);
+  // Lightbox photos ordered by section: main photo first, then side photos 1-4, deduplicated
+  const allPhotos: LightboxImage[] = useMemo(() => {
+    const seen = new Set<string>();
+    const photos: LightboxImage[] = [];
+    const addUnique = (src: string, alt: string) => {
+      if (!seen.has(src)) {
+        seen.add(src);
+        photos.push({ src, alt });
+      }
+    };
+    // Hero
+    addUnique(propertyHero, t('hero.imageAlt', 'Voorgevel van de gerenoveerde Ardense hoeve'));
+    // Kitchen section
+    addUnique(kitchen, t('kitchen.imageAlt', 'Professionele keuken met Lacanche fornuis'));
+    addUnique(livingFireplace, 'Woonkamer met open haard');
+    addUnique(terraceDining, 'Terras met eethoek');
+    addUnique(gameRoomPool, 'Speelkamer met pooltafel');
+    addUnique(playBarn, 'Speelschuur voor kinderen');
+    // Oak Table section
+    addUnique(oakTableDetail, t('oakTable.imageAlt', 'Handgemaakte eiken tafel van 6 meter'));
+    addUnique(diningRoom, 'Eetkamer overzicht');
+    addUnique(livingAperitif, 'Aperitief in de woonkamer');
+    addUnique(bedroomPrimary, 'Hoofdslaapkamer');
+    addUnique(bedroomAtmospheric, 'Sfeervolle slaapkamer');
+    // Living Space section
+    addUnique(bedroomMezzanine, 'Mezzanine slaapkamer');
+    addUnique(bedroomQuietLuxury, 'Luxe slaapkamer');
+    addUnique(gameRoomFoosball, 'Tafelvoetbal');
+    // Remaining photos
+    addUnique(gardenSports, 'Sportveld in de tuin');
+    addUnique(gardenLandscape, 'Landschap van de tuin');
+    return photos;
+  }, [t]);
 
   const handleImageClick = (src: string) => {
     const index = allPhotos.findIndex(photo => photo.src === src);
