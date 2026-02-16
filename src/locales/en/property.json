@@ -18,14 +18,14 @@
     "beds": "Beds"
   },
   "kitchen": {
-    "title": "The Kitchen",
-    "description": "A professionally equipped kitchen where cooking for 26 people becomes a pleasure",
-    "features": {
-      "lacanche": "Lacanche stove",
-      "dishwashers": "2x Miele dishwashers",
-      "fridge": "American fridge",
-      "equipment": "Fully equipped"
-    }
+    "title": "Professional Kitchen",
+    "description": "The kitchen where everyone gathers. Cooking together, aperitifs, children sneaking a snack — this is where it happens. Fully professionally equipped so cooking for 26 is a pleasure, not a chore.",
+    "features_list": [
+      "Lacanche stove with gastronorm oven and warming cabinet — the heart of the kitchen",
+      "2 professional Miele dishwashers — 30 minutes and everything is done",
+      "Professional stainless steel pots, pans and all accessories — everything you need, nothing to search for",
+      "Cool pantry next to the kitchen — room for all your groceries"
+    ]
   },
   "oakTable": {
     "title": "The Oak Table",

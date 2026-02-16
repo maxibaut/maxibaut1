@@ -18,14 +18,14 @@
     "beds": "Lits"
   },
   "kitchen": {
-    "title": "La Cuisine",
-    "description": "Une cuisine professionnellement équipée où cuisiner pour 26 personnes devient un plaisir",
-    "features": {
-      "lacanche": "Cuisinière Lacanche",
-      "dishwashers": "2x lave-vaisselle Miele",
-      "fridge": "Réfrigérateur américain",
-      "equipment": "Entièrement équipée"
-    }
+    "title": "Cuisine Professionnelle",
+    "description": "La cuisine où tout le monde se retrouve. Cuisiner ensemble, l'apéritif, les enfants qui viennent grignoter — c'est ici que ça se passe. Entièrement équipée pour que cuisiner pour 26 soit un plaisir, pas une corvée.",
+    "features_list": [
+      "Cuisinière Lacanche avec four gastronorm et armoire chauffante — le cœur de la cuisine",
+      "2 lave-vaisselle professionnels Miele — 30 minutes et tout est prêt",
+      "Casseroles, poêles et ustensiles professionnels en inox — tout ce qu'il faut, rien à chercher",
+      "Cellier frais à côté de la cuisine — de la place pour toutes vos courses"
+    ]
   },
   "oakTable": {
     "title": "La Table en Chêne",

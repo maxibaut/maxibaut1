@@ -18,14 +18,14 @@
     "beds": "Betten"
   },
   "kitchen": {
-    "title": "Die Küche",
-    "description": "Eine professionell ausgestattete Küche, in der das Kochen für 26 Personen zum Vergnügen wird",
-    "features": {
-      "lacanche": "Lacanche-Herd",
-      "dishwashers": "2x Miele-Geschirrspüler",
-      "fridge": "Amerikanischer Kühlschrank",
-      "equipment": "Vollständig ausgestattet"
-    }
+    "title": "Professionelle Küche",
+    "description": "Die Küche, in der sich alle treffen. Zusammen kochen, Aperitif, Kinder die naschen kommen — hier passiert es. Vollständig professionell eingerichtet, damit Kochen für 26 ein Vergnügen ist, keine Pflicht.",
+    "features_list": [
+      "Lacanche-Herd mit Gastronorm-Ofen und Wärmeschrank — das Herz der Küche",
+      "2 professionelle Miele-Geschirrspüler — 30 Minuten und alles ist fertig",
+      "Professionelle Edelstahl-Töpfe, Pfannen und alles Zubehör — alles was Sie brauchen",
+      "Kühler Vorratsraum neben der Küche — Platz für alle Ihre Einkäufe"
+    ]
   },
   "oakTable": {
     "title": "Der Eichentisch",
