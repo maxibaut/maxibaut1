@@ -21,6 +21,7 @@ import {
   livingFireplace,
   mieleDishwasher,
   gardenLoungers,
+  gardenHiddenPath,
   gardenAerial, 
   gardenSports,
   gardenLandscape,
@@ -96,7 +97,7 @@ const Differentiators = () => {
       sideImages: [
         { src: gardenSports, alt: 'Sportveld in de tuin' },
         { src: bbqTerrace, alt: 'Barbecue op het terras' },
-        { src: terraceDining, alt: 'Terras' },
+        { src: gardenHiddenPath, alt: 'Verborgen plekje in de tuin' },
         { src: gardenLoungers, alt: 'Ligzetels met parasols in de tuin' },
       ],
       features: [
