@@ -36,8 +36,12 @@
       "description": "200m x 100m d'espace, aires de jeux, terrain de football et une chasse au trésor. Les enfants s'amusent pendant des heures."
     },
     "mattresses": {
-      "title": "Matelas Épais",
-      "description": "Lits boxspring avec matelas épais pour une nuit parfaite. Se réveiller reposé est la base d'un séjour réussi."
+      "title": "Dormir avec Style",
+      "description": "Lits boxspring avec matelas de 25 cm d'épaisseur et linge de lit De Witte Lietaer — une entreprise familiale belge renommée depuis 1898. Pur satin de coton pour une douceur incomparable. Se réveiller reposé est la base d'un séjour réussi.",
+      "feature1": "Lits boxspring avec matelas de 25 cm d'épaisseur",
+      "feature2": "Linge de lit De Witte Lietaer",
+      "feature3": "Pur satin de coton — d'une douceur soyeuse",
+      "feature4": "Entreprise familiale belge, référence qualité depuis 1898"
     },
     "dishCabinet": {
       "title": "Contrôle Après Chaque Client",

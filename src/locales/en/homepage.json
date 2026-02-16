@@ -36,8 +36,12 @@
       "description": "200m x 100m of space, playground equipment, football field and a treasure hunt. Kids entertain themselves for hours."
     },
     "mattresses": {
-      "title": "Premium Mattresses",
-      "description": "Boxspring beds with thick mattresses for a perfect night's sleep. Waking up rested is the foundation of a successful stay."
+      "title": "Sleep in Style",
+      "description": "Boxspring beds with 25 cm thick mattresses and bedding by De Witte Lietaer — a renowned Belgian family business since 1898. Pure cotton sateen for a silky soft feel. Waking up rested is the foundation of a successful stay.",
+      "feature1": "Boxspring beds with 25 cm thick mattresses",
+      "feature2": "Bedding and bed linen by De Witte Lietaer",
+      "feature3": "Pure cotton sateen — silky soft with a subtle sheen",
+      "feature4": "Belgian family business, quality reference since 1898"
     },
     "dishCabinet": {
       "title": "Checked After Every Guest",
