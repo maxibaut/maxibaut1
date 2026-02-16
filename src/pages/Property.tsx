@@ -51,7 +51,7 @@ const Property = () => {
     addUnique(livingFireplace, 'Woonkamer met open haard');
     addUnique(terraceDining, 'Terras met eethoek');
     addUnique(gameRoomPool, 'Speelkamer met pooltafel');
-    addUnique(playBarn, 'Speelschuur voor kinderen');
+    addUnique(playBarn, 'Speelstal voor kinderen');
     // Oak Table section
     addUnique(oakTableDetail, t('oakTable.imageAlt', 'Handgemaakte eiken tafel van 6 meter'));
     addUnique(diningRoom, 'Eetkamer overzicht');
@@ -159,7 +159,7 @@ const Property = () => {
                   { src: livingFireplace, alt: 'Woonkamer met open haard' },
                   { src: terraceDining, alt: 'Terras met eethoek' },
                   { src: gameRoomPool, alt: 'Speelkamer met pooltafel' },
-                  { src: playBarn, alt: 'Speelschuur voor kinderen' },
+                  { src: playBarn, alt: 'Speelstal voor kinderen' },
                 ]}
                 allPhotosCount={allPhotos.length}
                 onImageClick={handleImageClick}
