@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Check, Shield, Calendar, ArrowRight, Phone, Mail } from "lucide-react";
-import { heroMain } from "@/assets/property";
+import ferme172 from "@/assets/property/ferme-172.jpg";
 import hostBieke from "@/assets/property/host-bieke.jpg";
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 import { useSEO } from "@/hooks/useSEO";
@@ -45,7 +45,7 @@ const Booking = () => {
             </div>
 
             <div className="aspect-[4/3] rounded-lg overflow-hidden shadow-lg">
-              <img src={heroMain} alt={t('whyDirect.imageAlt', 'Luchtfoto van vakantiewoning Arden\'Nest met uitgestrekte tuin en bossen in de Belgische Ardennen')} className="w-full h-full object-cover" />
+              <img src={ferme172} alt={t('whyDirect.imageAlt', 'Fruitschaal en gezelschapsspellen op eiken tafel bij Arden\'Nest')} className="w-full h-full object-cover" />
             </div>
           </div>
         </div>
