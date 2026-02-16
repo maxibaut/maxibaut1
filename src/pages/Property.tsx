@@ -98,7 +98,7 @@ const Property = () => {
           className="absolute inset-0 bg-cover bg-center cursor-pointer"
           style={{ backgroundImage: `url('${propertyHero}')` }}
           role="img"
-          aria-label={t('hero.imageAlt', 'Voorgevel van de gerenoveerde Ardense hoeve ArdenNest met authentieke stenen muren')}
+          aria-label={t('hero.imageAlt', 'Voorgevel van de gerenoveerde Ardense hoeve Arden\'Nest met authentieke stenen muren')}
           onClick={() => handleImageClick(propertyHero)}
         >
           <div className="absolute inset-0 bg-charcoal/50" />

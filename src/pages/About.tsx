@@ -22,7 +22,7 @@ const About = () => {
             backgroundPosition: 'center 30%',
           }}
           role="img"
-          aria-label={t('hero.imageAlt', 'Familie geniet van tijd samen op het terras van ArdenNest')}
+          aria-label={t('hero.imageAlt', 'Familie geniet van tijd samen op het terras van Arden\'Nest')}
         >
           <div className="absolute inset-0 bg-charcoal/50" />
         </div>
@@ -64,7 +64,7 @@ const About = () => {
             <div className="aspect-square lg:aspect-[4/3] rounded-lg overflow-hidden shadow-lg">
               <img 
                 src={ownersPortrait} 
-                alt={t('owners.imageAlt', 'Bieke en Christophe, eigenaren van ArdenNest, verwelkomen gasten al sinds 2003')}
+                alt={t('owners.imageAlt', 'Bieke en Christophe, eigenaren van Arden\'Nest, verwelkomen gasten al sinds 2003')}
                 className="w-full h-full object-cover"
               />
             </div>
