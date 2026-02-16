@@ -40,6 +40,7 @@ export { default as farmhouseFront } from './ferme-202.jpg';
 
 // Entrance / Certified
 export { default as farmhouseEntrance } from './ferme-168.jpg';
+export { default as farmhouseSide } from './ferme-161.jpg';
 
 // Owners
 export { default as ownersPortrait } from './owners-portrait.jpg';
