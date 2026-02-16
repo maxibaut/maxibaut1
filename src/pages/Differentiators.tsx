@@ -12,6 +12,7 @@ import {
   kitchen,
   farmhouseAerial,
   farmhouseFront,
+  farmhouseEntrance,
   diningRoom,
   livingFireplace,
   gardenAerial, 
@@ -153,7 +154,7 @@ const Differentiators = () => {
         { src: farmhouseAerial, alt: 'Luchtfoto hoeve met asfalt vooraan' },
         { src: farmhouseFront, alt: 'Vooraanzicht hoeve met oprit' },
         { src: gardenAerial, alt: 'Tuin overzicht' },
-        { src: gameRoomFoosball, alt: 'Tafelvoetbal' },
+        { src: farmhouseEntrance, alt: 'Ingang hoeve met kwaliteitslabels' },
       ],
       features: [
         'Go-karts en skelters',
