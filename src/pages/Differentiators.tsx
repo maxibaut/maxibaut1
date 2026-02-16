@@ -3,7 +3,7 @@ import { PageWrapper } from '@/components/layout';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
-import { Sparkles, ChefHat, TreePine, Table, Gamepad2, Car, Check, ArrowRight, Bed, ClipboardCheck, UtensilsCrossed, Home, Zap, Leaf, Award, Fan, Headphones } from 'lucide-react';
+import { Sparkles, ChefHat, TreePine, Gamepad2, Car, Check, ArrowRight, Bed, ClipboardCheck, UtensilsCrossed, Home, Zap, Leaf, Award, Fan, Headphones } from 'lucide-react';
 import { 
   bedroomQuietLuxury, 
   bedroomPrimary,
@@ -15,9 +15,6 @@ import {
   farmhouseEntrance,
   farmhouseSide,
   diningRoom,
-  diningTableSet,
-  diningTableWindow,
-  diningTableCabinet,
   livingFireplace,
   mieleDishwasher,
   gardenLoungers,
@@ -108,27 +105,6 @@ const Differentiators = () => {
         'Terras tussen huis en tuin met 2 barbecues — de perfecte tussenstop',
       ],
       reverse: false,
-    },
-    {
-      id: 'oak-table',
-      icon: Table,
-      title: 'De Eiken Tafel',
-      description: 'Hier worden verhalen verteld, glazen gevuld en gerechten gedeeld. Drie massief eiken tafels, met zicht op de tuin door de grote poort — dit is waar jullie vakantie samenkomt.',
-      image: oakTableDetail,
-      imageAlt: 'Handgemaakte eiken tafel van 6 meter',
-      sideImages: [
-        { src: diningTableSet, alt: 'Gedekte eiken tafel met zicht op tuin' },
-        { src: diningTableWindow, alt: 'Eiken tafel bij het raam met bordspellen' },
-        { src: diningTableCabinet, alt: 'Eiken tafel met servieskast' },
-        { src: diningRoom, alt: 'Eetkamer overzicht' },
-      ],
-      features: [
-        '7m20 lang, 26 plaatsen — geen kindertafel apart',
-        'Extra breed zodat iedereen elkaar kan zien én horen',
-        'Comfortabele stoelen van Belgische makelij',
-        'Verlichting op maat van een originele boerderijbalk, eigen design',
-      ],
-      reverse: true,
     },
     {
       id: 'game-room',
