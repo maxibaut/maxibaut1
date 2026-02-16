@@ -27,6 +27,16 @@
       "Kühler Vorratsraum neben der Küche — Platz für alle Ihre Einkäufe"
     ]
   },
+  "bathrooms": {
+    "title": "Eigene Badezimmer",
+    "description": "Jedes Schlafzimmer hat ein eigenes Badezimmer — kein Warten, keine geteilten Räume. Privat und komfortabel, auch mit 26 Gästen.",
+    "features_list": [
+      "9 eigene Badezimmer — jedes Zimmer hat sein eigenes Bad",
+      "Regendusche in jedem Badezimmer",
+      "Hochwertige Handtücher inklusive",
+      "Stille zentrale Belüftung für optimale Luftqualität"
+    ]
+  },
   "oakTable": {
     "title": "Der Eichentisch",
     "description": "Hier werden Geschichten erzählt, Gläser gefüllt und Gerichte geteilt. Drei massive Eichentische, mit Blick auf den Garten durch das große Tor — hier kommt Ihr Urlaub zusammen.",
