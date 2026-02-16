@@ -36,8 +36,12 @@
       "description": "200m x 100m aan ruimte, speeltoestellen, voetbalveld en een schattenjacht. Kinderen vermaken zich urenlang."
     },
     "mattresses": {
-      "title": "Dikke Matrassen",
-      "description": "Boxspring bedden met dikke matrassen voor een perfecte nachtrust. Uitgerust wakker worden is de basis van een geslaagd verblijf."
+      "title": "Slapen in Stijl",
+      "description": "Boxspring bedden met 25 cm dikke matrassen én beddengoed van De Witte Lietaer — een gerenommeerd Belgisch familiebedrijf sinds 1898. Puur katoensatijn voor een zalig zacht gevoel. Uitgerust wakker worden is de basis van een geslaagd verblijf.",
+      "feature1": "Boxspring bedden met 25 cm dikke matrassen",
+      "feature2": "Beddengoed en bedlinnen van De Witte Lietaer",
+      "feature3": "Puur katoensatijn — zalig zacht met een subtiele glans",
+      "feature4": "Belgisch familiebedrijf, kwaliteitsreferentie sinds 1898"
     },
     "dishCabinet": {
       "title": "Controle na Elke Gast",

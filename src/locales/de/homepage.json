@@ -36,8 +36,12 @@
       "description": "200m x 100m Fläche, Spielgeräte, Fußballfeld und eine Schatzsuche. Kinder beschäftigen sich stundenlang."
     },
     "mattresses": {
-      "title": "Dicke Matratzen",
-      "description": "Boxspringbetten mit dicken Matratzen für eine perfekte Nachtruhe. Ausgeruht aufwachen ist die Basis eines gelungenen Aufenthalts."
+      "title": "Schlafen mit Stil",
+      "description": "Boxspringbetten mit 25 cm dicken Matratzen und Bettwäsche von De Witte Lietaer — einem renommierten belgischen Familienunternehmen seit 1898. Reiner Baumwollsatin für ein seidig weiches Gefühl. Ausgeruht aufwachen ist die Basis eines gelungenen Aufenthalts.",
+      "feature1": "Boxspringbetten mit 25 cm dicken Matratzen",
+      "feature2": "Bettwäsche und Bettlaken von De Witte Lietaer",
+      "feature3": "Reiner Baumwollsatin — seidig weich mit dezentem Glanz",
+      "feature4": "Belgisches Familienunternehmen, Qualitätsreferenz seit 1898"
     },
     "dishCabinet": {
       "title": "Kontrolle Nach Jedem Gast",
