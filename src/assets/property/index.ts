@@ -23,6 +23,7 @@ export { default as bedroomQuietLuxury } from './ferme-064.jpg';
 export { default as terraceDining } from './ferme-116.jpg';
 export { default as gardenSports } from './ferme-089.jpg';
 export { default as gardenLandscape } from './ferme-102.jpg';
+export { default as bbqTerrace } from './bbq-terrace.jpg';
 
 // Entertainment
 export { default as gameRoomPool } from './ferme-123.jpg';
