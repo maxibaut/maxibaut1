@@ -45,7 +45,7 @@ const Booking = () => {
             </div>
 
             <div className="aspect-[4/3] rounded-lg overflow-hidden shadow-lg">
-              <img src={heroMain} alt={t('whyDirect.imageAlt', 'Luchtfoto van vakantiewoning ArdenNest met uitgestrekte tuin en bossen in de Belgische Ardennen')} className="w-full h-full object-cover" />
+              <img src={heroMain} alt={t('whyDirect.imageAlt', 'Luchtfoto van vakantiewoning Arden\'Nest met uitgestrekte tuin en bossen in de Belgische Ardennen')} className="w-full h-full object-cover" />
             </div>
           </div>
         </div>

@@ -16,7 +16,7 @@ export const HeroSection = () => {
           backgroundImage: `url('${heroMain}')`,
         }}
         role="img"
-        aria-label={t('hero.imageAlt', 'Luchtfoto van vakantiewoning ArdenNest met 2 hectare tuin in de Belgische Ardennen')}
+        aria-label={t('hero.imageAlt', 'Luchtfoto van vakantiewoning Arden\'Nest met 2 hectare tuin in de Belgische Ardennen')}
       >
         <div className="absolute inset-0 bg-gradient-to-b from-charcoal/40 via-charcoal/30 to-charcoal/60" />
       </div>

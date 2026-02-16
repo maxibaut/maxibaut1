@@ -74,7 +74,7 @@ export const WhyBookDirect = () => {
             <div className="aspect-[4/3] rounded-lg overflow-hidden shadow-2xl">
               <img
                 src={terraceDining}
-                alt="ArdenNest property"
+                alt="Arden'Nest property"
                 className="w-full h-full object-cover"
                 loading="lazy"
               />

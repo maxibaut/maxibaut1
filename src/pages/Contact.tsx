@@ -154,7 +154,7 @@ const Contact = () => {
       title: t('options.whatsapp.title'),
       description: t('options.whatsapp.description'),
       action: t('options.whatsapp.action'),
-      href: 'https://wa.me/32478030352?text=Hallo%2C%20ik%20heb%20interesse%20in%20ArdenNest.',
+      href: 'https://wa.me/32478030352?text=Hallo%2C%20ik%20heb%20interesse%20in%20Arden%27Nest.',
     },
   ];
 
@@ -174,7 +174,7 @@ const Contact = () => {
             {/* Small Photo */}
             <img 
               src={hostBieke} 
-              alt={t('hero.imageAlt', 'Bieke, uw persoonlijke gastvrouw bij ArdenNest - altijd bereikbaar voor vragen en tips')}
+              alt={t('hero.imageAlt', 'Bieke, uw persoonlijke gastvrouw bij Arden\'Nest - altijd bereikbaar voor vragen en tips')}
               className="w-24 h-24 md:w-32 md:h-32 rounded-full object-cover border-4 border-primary-foreground/20"
             />
             {/* Text */}
@@ -531,7 +531,7 @@ const Contact = () => {
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="ArdenNest Location"
+              title="Arden'Nest Location"
             />
           </div>
         </div>
