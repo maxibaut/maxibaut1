@@ -16,6 +16,7 @@ import {
   gardenSports,
   gardenLandscape,
   terraceDining,
+  bbqTerrace,
   oakTableDetail, 
   gameRoomPool, 
   gameRoomFoosball,
@@ -85,7 +86,7 @@ const Differentiators = () => {
       imageAlt: 'Luchtfoto van de 2 hectare grote tuin',
       sideImages: [
         { src: gardenSports, alt: 'Sportveld in de tuin' },
-        { src: gardenLandscape, alt: 'Landschap van de tuin' },
+        { src: bbqTerrace, alt: 'Barbecue op het terras' },
         { src: terraceDining, alt: 'Terras' },
         { src: playBarn, alt: 'Speelschuur' },
       ],
