@@ -46,13 +46,14 @@
     "de": "Deutsch"
   },
   "notFound": {
+    "heading": "Fehler 404",
     "title": "Dieser Tunnel führt ins Nichts.",
     "orDoesIt": "Oder doch?",
     "tunnelName": "Tunnel zwischen Bohan-sur-Semois und Membre",
     "railwayLine": "Alte Bahnlinie 163 (Bertrix–Gedinne)",
     "outOfService": "Außer Betrieb seit 1959",
     "nowRavel": "Heute RAVeL-Radweg",
-    "distance": "10 Minuten Radfahren von Arden'Nest",
+    "distance": "1 Std. 10 Min. Radfahren von Arden'Nest",
     "viewOnMap": "Auf Google Maps ansehen",
     "backHome": "Zurück zur Startseite"
   },
