@@ -29,9 +29,15 @@
   },
   "oakTable": {
     "title": "The Oak Table",
-    "description": "The heart of the house. Where stories are shared, memories are made and generations come together.",
-    "dimensions": "6 meters long",
-    "capacity": "26 seats"
+    "description": "This is where stories are told, glasses are filled and dishes are shared. Three solid oak tables, with a view of the garden through the large gate — this is where your holiday comes together.",
+    "dimensions": "7.2 meters long",
+    "capacity": "26 seats",
+    "features_list": [
+      "7.2 meters long, 26 seats — no separate kids' table",
+      "Extra wide so everyone can see and hear each other",
+      "Comfortable chairs of Belgian craftsmanship",
+      "Custom lighting on an original farmhouse beam, our own design"
+    ]
   },
   "garden": {
     "title": "The Garden",

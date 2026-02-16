@@ -29,9 +29,15 @@
   },
   "oakTable": {
     "title": "La Table en Chêne",
-    "description": "Le cœur de la maison. Où les histoires sont partagées, les souvenirs sont créés et les générations se réunissent.",
-    "dimensions": "6 mètres de long",
-    "capacity": "26 places"
+    "description": "C'est ici que les histoires se racontent, que les verres se remplissent et que les plats se partagent. Trois tables en chêne massif, avec vue sur le jardin par le grand portail — c'est ici que vos vacances prennent tout leur sens.",
+    "dimensions": "7m20 de long",
+    "capacity": "26 places",
+    "features_list": [
+      "7m20 de long, 26 places — pas de table enfants séparée",
+      "Extra large pour que tout le monde puisse se voir et s'entendre",
+      "Chaises confortables de fabrication belge",
+      "Éclairage sur mesure sur une poutre de ferme originale, design propre"
+    ]
   },
   "garden": {
     "title": "Le Jardin",

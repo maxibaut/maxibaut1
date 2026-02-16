@@ -29,9 +29,15 @@
   },
   "oakTable": {
     "title": "De Eiken Tafel",
-    "description": "Het hart van het huis. Waar verhalen worden gedeeld, herinneringen worden gemaakt en generaties samenkomen.",
-    "dimensions": "6 meter lang",
-    "capacity": "26 zitplaatsen"
+    "description": "Hier worden verhalen verteld, glazen gevuld en gerechten gedeeld. Drie massief eiken tafels, met zicht op de tuin door de grote poort — dit is waar jullie vakantie samenkomt.",
+    "dimensions": "7m20 lang",
+    "capacity": "26 zitplaatsen",
+    "features_list": [
+      "7m20 lang, 26 plaatsen — geen kindertafel apart",
+      "Extra breed zodat iedereen elkaar kan zien én horen",
+      "Comfortabele stoelen van Belgische makelij",
+      "Verlichting op maat van een originele boerderijbalk, eigen design"
+    ]
   },
   "garden": {
     "title": "De Tuin",
