@@ -27,6 +27,16 @@
       "Cool pantry next to the kitchen — room for all your groceries"
     ]
   },
+  "bathrooms": {
+    "title": "Ensuite Bathrooms",
+    "description": "Every bedroom has its own bathroom — no queues, no shared spaces. Private and comfortable, even with 26 guests.",
+    "features_list": [
+      "9 ensuite bathrooms — every room has its own bathroom",
+      "Rain showers in every bathroom",
+      "Quality towels included",
+      "Silent central ventilation for optimal air quality"
+    ]
+  },
   "oakTable": {
     "title": "The Oak Table",
     "description": "This is where stories are told, glasses are filled and dishes are shared. Three solid oak tables, with a view of the garden through the large gate — this is where your holiday comes together.",

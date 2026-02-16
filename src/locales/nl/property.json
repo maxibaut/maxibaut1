@@ -27,6 +27,16 @@
       "Koele berging naast de keuken — ruimte voor al jullie boodschappen"
     ]
   },
+  "bathrooms": {
+    "title": "Ensuite Badkamers",
+    "description": "Elke slaapkamer heeft een eigen badkamer — geen wachtrijen, geen gedeelde ruimtes. Privé en comfortabel, ook met 26 gasten.",
+    "features_list": [
+      "9 ensuite badkamers — elke kamer heeft een eigen badkamer",
+      "Regendouches in elke badkamer",
+      "Kwaliteitsvolle handdoeken inbegrepen",
+      "Stille centrale ventilatie voor optimale luchtkwaliteit"
+    ]
+  },
   "oakTable": {
     "title": "De Eiken Tafel",
     "description": "Hier worden verhalen verteld, glazen gevuld en gerechten gedeeld. Drie massief eiken tafels, met zicht op de tuin door de grote poort — dit is waar jullie vakantie samenkomt.",

@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
-import { Users, Bed, Bath, TreePine, ChefHat, ArrowRight, Sofa, BookOpen, Check } from 'lucide-react';
+import { Users, Bed, Bath, TreePine, ChefHat, ArrowRight, Sofa, BookOpen, Check, ShowerHead } from 'lucide-react';
 import { 
   propertyHero, 
   kitchen,
@@ -167,6 +167,46 @@ const Property = () => {
                 onImageClick={handleImageClick}
                 sideImagesPosition="right"
               />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Bathrooms Section */}
+      <section className="section-padding bg-cream-dark">
+        <div className="container-luxury">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div>
+              <PropertyGalleryGrid
+                mainImage={bedroomQuietLuxury}
+                mainImageAlt={t('bathrooms.imageAlt', 'Ensuite badkamer met regendouche')}
+                sideImages={[
+                  { src: bedroomPrimary, alt: 'Badkamer hoofdslaapkamer' },
+                  { src: bedroomAtmospheric, alt: 'Badkamer sfeervolle kamer' },
+                  { src: bedroomMezzanine, alt: 'Badkamer mezzanine' },
+                  { src: livingFireplace, alt: 'Badkamer detail' },
+                ]}
+                allPhotosCount={allPhotos.length}
+                onImageClick={handleImageClick}
+                sideImagesPosition="left"
+              />
+            </div>
+            <div>
+              <div className="flex items-center space-x-3 mb-4">
+                <ShowerHead className="h-8 w-8 text-accent" />
+                <h2 className="heading-2">{t('bathrooms.title')}</h2>
+              </div>
+              <p className="body-large text-muted-foreground mb-8">
+                {t('bathrooms.description')}
+              </p>
+              <ul className="space-y-3">
+                {(t('bathrooms.features_list', { returnObjects: true, defaultValue: [] }) as string[]).map((feature: string, index: number) => (
+                  <li key={index} className="flex items-center space-x-3">
+                    <Check className="h-5 w-5 text-primary flex-shrink-0" />
+                    <span className="text-foreground">{feature}</span>
+                  </li>
+                ))}
+              </ul>
             </div>
           </div>
         </div>
