@@ -67,7 +67,7 @@ const Differentiators = () => {
         { src: diningRoom, alt: 'Eetkamer' },
         { src: terraceDining, alt: 'Terras met eethoek' },
         { src: gameRoomPool, alt: 'Speelkamer' },
-        { src: playBarn, alt: 'Speelschuur' },
+        { src: playBarn, alt: 'Speelstal' },
       ],
       features: [
         'Lacanche fornuis met gastronorm oven en warmhoudkast — het hart van de keuken',
@@ -88,7 +88,7 @@ const Differentiators = () => {
         { src: gardenSports, alt: 'Sportveld in de tuin' },
         { src: bbqTerrace, alt: 'Barbecue op het terras' },
         { src: terraceDining, alt: 'Terras' },
-        { src: playBarn, alt: 'Speelschuur' },
+        { src: playBarn, alt: 'Speelstal' },
       ],
       features: [
         'Groot voetbalveld met volleybalnet en petanquebaan',
@@ -128,7 +128,7 @@ const Differentiators = () => {
       imageAlt: 'Speelkamer met professionele pooltafel',
       sideImages: [
         { src: gameRoomFoosball, alt: 'Tafelvoetbal' },
-        { src: playBarn, alt: 'Speelschuur' },
+        { src: playBarn, alt: 'Speelstal' },
         { src: gardenSports, alt: 'Sportveld' },
         { src: livingFireplace, alt: 'Woonkamer' },
       ],
@@ -143,10 +143,10 @@ const Differentiators = () => {
     {
       id: 'play-barn',
       icon: Car,
-      title: 'De Speelschuur',
-      description: 'Een overdekte speelruimte speciaal voor de allerkleinsten. Vol met skelters, tractoren en speelgoed voor urenlang plezier.',
+      title: 'De Speelstal',
+      description: 'De voormalige paardenstal waar ooit de trekpaarden stonden, is nu een speelparadijs voor de allerkleinsten. Vol met skelters, tractoren en speelgoed voor urenlang plezier.',
       image: playBarn,
-      imageAlt: 'Overdekte speelschuur met go-karts',
+      imageAlt: 'De speelstal met go-karts en skelters',
       sideImages: [
         { src: gardenSports, alt: 'Sportveld' },
         { src: gameRoomPool, alt: 'Speelkamer' },
@@ -157,7 +157,7 @@ const Differentiators = () => {
         'Go-karts en skelters',
         'Trapautootjes en tractoren',
         'Driewielers voor de kleintjes',
-        'Overdekt: spelen bij elk weer',
+        'Rondjes rijden op het asfalt en stoepkrijten vooraan de hoeve',
       ],
       reverse: true,
     },
