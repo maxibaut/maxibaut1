@@ -19,6 +19,7 @@ import {
   diningTableWindow,
   diningTableCabinet,
   livingFireplace,
+  mieleDishwasher,
   gardenAerial, 
   gardenSports,
   gardenLandscape,
@@ -71,9 +72,9 @@ const Differentiators = () => {
       image: kitchen,
       imageAlt: 'Professionele keuken met Lacanche fornuis',
       sideImages: [
+        { src: mieleDishwasher, alt: 'Miele professionele vaatwasser' },
         { src: diningRoom, alt: 'Eetkamer' },
         { src: terraceDining, alt: 'Terras met eethoek' },
-        { src: gameRoomPool, alt: 'Speelkamer' },
         { src: playBarn, alt: 'Speelstal' },
       ],
       features: [

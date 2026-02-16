@@ -12,6 +12,7 @@ export { default as diningTableAngle } from './ferme-030.jpg';
 export { default as diningTableCabinet } from './ferme-032.jpg';
 export { default as oakTableDetail } from './ferme-178.jpg';
 export { default as kitchen } from './ferme-010.jpg';
+export { default as mieleDishwasher } from './miele-dishwasher.webp';
 
 // Living
 export { default as livingFireplace } from './ferme-022.jpg';
