@@ -30,8 +30,8 @@ const NotFound = () => {
 
       {/* Text overlay - Top */}
       <div className="relative z-10 text-center px-6 max-w-2xl pt-16 md:pt-24">
-        <h1 className="font-serif text-7xl md:text-8xl font-bold text-white mb-4 drop-shadow-lg">
-          404
+        <h1 className="font-serif text-5xl md:text-7xl font-bold text-white mb-4 drop-shadow-lg">
+          {t('notFound.heading', 'Fout 404')}
         </h1>
         <p className="text-2xl md:text-3xl text-white font-medium mb-2 drop-shadow-md">
           {t('notFound.title')}
