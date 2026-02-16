@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
-import { Users, Bed, Bath, TreePine, ChefHat, ArrowRight, Sofa, Table, Check } from 'lucide-react';
+import { Users, Bed, Bath, TreePine, ChefHat, ArrowRight, Sofa, BookOpen, Check } from 'lucide-react';
 import { 
   propertyHero, 
   kitchen, 
@@ -174,7 +174,7 @@ const Property = () => {
       </section>
 
       {/* Oak Table Section */}
-      <section className="section-padding bg-cream-dark">
+      <section className="section-padding bg-primary text-primary-foreground">
         <div className="container-luxury">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
@@ -194,17 +194,17 @@ const Property = () => {
             </div>
             <div>
               <div className="flex items-center space-x-3 mb-4">
-                <Table className="h-8 w-8 text-accent" />
+                <BookOpen className="h-8 w-8 text-gold" />
                 <h2 className="heading-2">{t('oakTable.title')}</h2>
               </div>
-              <p className="body-large text-muted-foreground mb-8">
+              <p className="body-large text-primary-foreground/80 mb-8">
                 {t('oakTable.description')}
               </p>
               <ul className="space-y-3">
                 {(t('oakTable.features_list', { returnObjects: true, defaultValue: [] }) as string[]).map((feature: string, index: number) => (
                   <li key={index} className="flex items-center space-x-3">
-                    <Check className="h-5 w-5 text-primary flex-shrink-0" />
-                    <span className="text-foreground">{feature}</span>
+                    <Check className="h-5 w-5 text-gold flex-shrink-0" />
+                    <span className="text-primary-foreground">{feature}</span>
                   </li>
                 ))}
               </ul>
