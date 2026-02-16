@@ -22,6 +22,7 @@ import {
   mieleDishwasher,
   gardenLoungers,
   gardenHiddenPath,
+  gardenHammock,
   gardenAerial, 
   gardenSports,
   gardenLandscape,
@@ -98,7 +99,7 @@ const Differentiators = () => {
         { src: gardenSports, alt: 'Sportveld in de tuin' },
         { src: bbqTerrace, alt: 'Barbecue op het terras' },
         { src: gardenHiddenPath, alt: 'Verborgen plekje in de tuin' },
-        { src: gardenLoungers, alt: 'Ligzetels met parasols in de tuin' },
+        { src: gardenHammock, alt: 'Hangmat tussen fruitbomen in de tuin' },
       ],
       features: [
         'Groot voetbalveld met volleybalnet en petanquebaan',
