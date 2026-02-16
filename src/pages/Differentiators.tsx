@@ -89,7 +89,7 @@ const Differentiators = () => {
       id: 'kitchen',
       icon: ChefHat,
       title: 'Professionele Keuken',
-      description: 'De keuken waar iedereen naartoe trekt. Samen koken, aperitieven, kinderen die komen snoepen — hier gebeurt het. Volledig professioneel ingericht zodat koken voor 26 plezier is, geen corvee.',
+      description: 'Geen gewone vakantiekeuken. Hier staat restaurantmateriaal — gebouwd om dagelijks voor 26 personen te draaien. Alles is horeca-kwaliteit, tot en met het sproeisysteem boven het fornuis.',
       image: kitchen,
       imageAlt: 'Professionele keuken met Lacanche fornuis',
       sideImages: [
@@ -99,10 +99,10 @@ const Differentiators = () => {
         { src: playBarn, alt: 'Speelstal' },
       ],
       features: [
-        'Lacanche fornuis met gastronorm oven en warmhoudkast — het hart van de keuken',
-        '2 professionele Miele vaatwassers — 30 minuten en alles is klaar',
-        'Professionele inox potten, pannen en al het bijgerief — alles wat je nodig hebt, niets wat je moet zoeken',
-        'Koele berging naast de keuken — ruimte voor al jullie boodschappen',
+        'Lacanche Cluny — restaurantwaardig fornuis met gastronorm oven en warmhoudkast',
+        '2 Miele Professional vaatwassers — alles schoon in 30 minuten',
+        'Professionele koelkast en koele berging — ruimte voor alle boodschappen van de groep',
+        'Sproeisysteem boven het fornuis — brandveiligheid op horecastandaard',
       ],
       reverse: true,
     },
