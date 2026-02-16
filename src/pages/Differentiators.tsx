@@ -44,6 +44,27 @@ const Differentiators = () => {
   // sections is defined below, allPhotos and handleImageClick come after it
   const sections = [
     {
+      id: 'customer-journey',
+      icon: Headphones,
+      title: 'Persoonlijke Begeleiding',
+      description: 'Van eerste contact tot vertrek: wij begeleiden u bij elke stap. Duidelijke communicatie, transparante afrekening en persoonlijke service maken het verschil.',
+      image: gardenSports,
+      imageAlt: 'Persoonlijke service',
+      sideImages: [
+        { src: familyPortrait, alt: 'Eigenaren' },
+        { src: propertyHero, alt: 'Voorgevel' },
+        { src: terraceDining, alt: 'Terras' },
+        { src: gardenAerial, alt: 'Tuin' },
+      ],
+      features: [
+        'Begeleiding tijdens boekingsproces',
+        'Duidelijke betalingstermijnen',
+        'Gedetailleerde afrekening',
+        'Achtergebleven spullen worden opgestuurd',
+      ],
+      reverse: false,
+    },
+    {
       id: 'quiet-luxury',
       icon: Sparkles,
       title: t('differentiators.quietLuxury.title'),
@@ -62,7 +83,7 @@ const Differentiators = () => {
         'Authentieke beleving – focus op échte momenten',
         'Waardevol samenzijn – luxe wordt gemeten in kwaliteit van momenten',
       ],
-      reverse: false,
+      reverse: true,
     },
     {
       id: 'kitchen',
@@ -315,27 +336,6 @@ const Differentiators = () => {
         'Geen storend geluid',
       ],
       reverse: true,
-    },
-    {
-      id: 'customer-journey',
-      icon: Headphones,
-      title: 'Persoonlijke Begeleiding',
-      description: 'Van eerste contact tot vertrek: wij begeleiden u bij elke stap. Duidelijke communicatie, transparante afrekening en persoonlijke service maken het verschil.',
-      image: gardenSports,
-      imageAlt: 'Persoonlijke service',
-      sideImages: [
-        { src: familyPortrait, alt: 'Eigenaren' },
-        { src: propertyHero, alt: 'Voorgevel' },
-        { src: terraceDining, alt: 'Terras' },
-        { src: gardenAerial, alt: 'Tuin' },
-      ],
-      features: [
-        'Begeleiding tijdens boekingsproces',
-        'Duidelijke betalingstermijnen',
-        'Gedetailleerde afrekening',
-        'Achtergebleven spullen worden opgestuurd',
-      ],
-      reverse: false,
     },
   ];
 
