@@ -88,7 +88,7 @@ const Differentiators = () => {
     {
       id: 'kitchen',
       icon: ChefHat,
-      title: 'Professionele Keuken',
+      title: 'Keuken op Horecaniveau',
       description: 'Geen gewone vakantiekeuken. Hier staat restaurantmateriaal — gebouwd om dagelijks voor 26 personen te draaien. Alles is horeca-kwaliteit, tot en met het sproeisysteem boven het fornuis.',
       image: kitchen,
       imageAlt: 'Professionele keuken met Lacanche fornuis',
