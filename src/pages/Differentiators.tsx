@@ -15,7 +15,7 @@ import {
   farmhouseEntrance,
   diningRoom,
   diningTableSet,
-  diningTableAngle,
+  diningTableWindow,
   diningTableCabinet,
   livingFireplace,
   gardenAerial, 
@@ -113,7 +113,7 @@ const Differentiators = () => {
       imageAlt: 'Handgemaakte eiken tafel van 6 meter',
       sideImages: [
         { src: diningTableSet, alt: 'Gedekte eiken tafel met zicht op tuin' },
-        { src: diningTableAngle, alt: 'Eiken tafel vanuit andere hoek' },
+        { src: diningTableWindow, alt: 'Eiken tafel bij het raam met bordspellen' },
         { src: diningTableCabinet, alt: 'Eiken tafel met servieskast' },
         { src: diningRoom, alt: 'Eetkamer overzicht' },
       ],
