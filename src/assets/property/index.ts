@@ -30,6 +30,7 @@ export { default as gardenSports } from './ferme-089.jpg';
 export { default as gardenLandscape } from './ferme-102.jpg';
 export { default as bbqTerrace } from './bbq-terrace.jpg';
 export { default as gardenLoungers } from './garden-loungers.jpg';
+export { default as gardenHiddenPath } from './garden-hidden-path.jpg';
 
 // Entertainment
 export { default as gameRoomPool } from './ferme-123.jpg';
