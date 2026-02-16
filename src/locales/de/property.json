@@ -29,9 +29,15 @@
   },
   "oakTable": {
     "title": "Der Eichentisch",
-    "description": "Das Herz des Hauses. Wo Geschichten geteilt, Erinnerungen geschaffen und Generationen zusammenkommen.",
-    "dimensions": "6 Meter lang",
-    "capacity": "26 Sitzplätze"
+    "description": "Hier werden Geschichten erzählt, Gläser gefüllt und Gerichte geteilt. Drei massive Eichentische, mit Blick auf den Garten durch das große Tor — hier kommt Ihr Urlaub zusammen.",
+    "dimensions": "7,20 m lang",
+    "capacity": "26 Sitzplätze",
+    "features_list": [
+      "7,20 m lang, 26 Plätze — kein separater Kindertisch",
+      "Extra breit, damit sich alle sehen und hören können",
+      "Bequeme Stühle belgischer Handwerkskunst",
+      "Maßgefertigte Beleuchtung an einem originalen Bauernhofbalken, eigenes Design"
+    ]
   },
   "garden": {
     "title": "Der Garten",
