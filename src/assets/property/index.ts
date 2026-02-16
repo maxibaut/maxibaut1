@@ -30,6 +30,10 @@ export { default as gameRoomPool } from './ferme-123.jpg';
 export { default as gameRoomFoosball } from './ferme-126.jpg';
 export { default as playBarn } from './ferme-158.jpg';
 
+// Drone / Aerial
+export { default as farmhouseAerial } from './ferme-209.jpg';
+export { default as farmhouseFront } from './ferme-202.jpg';
+
 // Owners
 export { default as ownersPortrait } from './owners-portrait.jpg';
 export { default as familyPortrait } from './family-portrait.jpg';
