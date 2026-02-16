@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
-import { Users, Bed, Bath, TreePine, ChefHat, ArrowRight, Sofa, BookOpen, Check, ShowerHead } from 'lucide-react';
+import { Users, Bed, Bath, TreePine, ChefHat, ArrowRight, Sofa, BookOpen, Check, ShowerHead, Moon } from 'lucide-react';
 import { 
   propertyHero, 
   kitchen,
@@ -15,6 +15,8 @@ import {
   diningTableWindow,
   diningTableCabinet,
   livingFireplace,
+  bedroomPrimary,
+  bedroomAtmospheric,
   livingAperitif,
   bedroomMezzanine,
   bedroomQuietLuxury,
@@ -65,6 +67,11 @@ const Property = () => {
     addUnique(bathroomShower, 'Badkamer met inloopdouche');
     addUnique(bathroomGlassDoor, 'Badkamer met glazen douchedeur');
     addUnique(bathroomWalkIn, 'Badkamer met inloopdouche en wastafel');
+    // Bedrooms section
+    addUnique(bedroomQuietLuxury, 'Luxe slaapkamer');
+    addUnique(bedroomPrimary, 'Hoofdslaapkamer');
+    addUnique(bedroomAtmospheric, 'Sfeervolle slaapkamer');
+    addUnique(bedroomMezzanine, 'Mezzanine slaapkamer');
     // Oak Table section
     addUnique(oakTableDetail, t('oakTable.imageAlt', 'Handgemaakte eiken tafel van 6 meter'));
     addUnique(diningTableSet, 'Gedekte eiken tafel met zicht op tuin');
@@ -216,6 +223,46 @@ const Property = () => {
                   </li>
                 ))}
               </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Bedrooms Section */}
+      <section className="section-padding bg-background">
+        <div className="container-luxury">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div className="order-2 lg:order-1">
+              <div className="flex items-center space-x-3 mb-4">
+                <Moon className="h-8 w-8 text-accent" />
+                <h2 className="heading-2">{t('bedrooms.title')}</h2>
+              </div>
+              <p className="body-large text-muted-foreground mb-8">
+                {t('bedrooms.description')}
+              </p>
+              <ul className="space-y-3">
+                {(t('bedrooms.features_list', { returnObjects: true, defaultValue: [] }) as string[]).map((feature: string, index: number) => (
+                  <li key={index} className="flex items-center space-x-3">
+                    <Check className="h-5 w-5 text-primary flex-shrink-0" />
+                    <span className="text-foreground">{feature}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div className="order-1 lg:order-2">
+              <PropertyGalleryGrid
+                mainImage={bedroomQuietLuxury}
+                mainImageAlt={t('bedrooms.imageAlt', 'Luxe slaapkamer met boxspring bed')}
+                sideImages={[
+                  { src: bedroomPrimary, alt: 'Hoofdslaapkamer' },
+                  { src: bedroomAtmospheric, alt: 'Sfeervolle slaapkamer' },
+                  { src: bedroomMezzanine, alt: 'Mezzanine slaapkamer' },
+                  { src: bathroomEnsuite, alt: 'Slaapkamer met ensuite badkamer' },
+                ]}
+                allPhotosCount={allPhotos.length}
+                onImageClick={handleImageClick}
+                sideImagesPosition="right"
+              />
             </div>
           </div>
         </div>
