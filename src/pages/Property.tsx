@@ -7,7 +7,8 @@ import { Card, CardContent } from '@/components/ui/card';
 import { Users, Bed, Bath, TreePine, ChefHat, ArrowRight, Sofa, BookOpen, Check } from 'lucide-react';
 import { 
   propertyHero, 
-  kitchen, 
+  kitchen,
+  mieleDishwasher,
   oakTableDetail, 
   diningRoom,
   diningTableSet,
@@ -51,10 +52,10 @@ const Property = () => {
     addUnique(propertyHero, t('hero.imageAlt', 'Voorgevel van de gerenoveerde Ardense hoeve'));
     // Kitchen section
     addUnique(kitchen, t('kitchen.imageAlt', 'Professionele keuken met Lacanche fornuis'));
-    addUnique(livingFireplace, 'Woonkamer met open haard');
+    addUnique(mieleDishwasher, 'Miele professionele vaatwasser');
+    addUnique(diningRoom, 'Eetkamer');
     addUnique(terraceDining, 'Terras met eethoek');
-    addUnique(gameRoomPool, 'Speelkamer met pooltafel');
-    addUnique(playBarn, 'Speelstal voor kinderen');
+    addUnique(playBarn, 'Speelstal');
     // Oak Table section
     addUnique(oakTableDetail, t('oakTable.imageAlt', 'Handgemaakte eiken tafel van 6 meter'));
     addUnique(diningTableSet, 'Gedekte eiken tafel met zicht op tuin');
@@ -143,26 +144,24 @@ const Property = () => {
               <p className="body-large text-muted-foreground mb-8">
                 {t('kitchen.description')}
               </p>
-              <ul className="grid grid-cols-2 gap-4">
-                {Object.entries(t('kitchen.features', { returnObjects: true }) as Record<string, string>).map(
-                  ([key, value]) => (
-                    <li key={key} className="flex items-center space-x-2">
-                      <div className="w-2 h-2 rounded-full bg-accent" />
-                      <span className="text-muted-foreground">{value}</span>
-                    </li>
-                  )
-                )}
+              <ul className="space-y-3">
+                {(t('kitchen.features_list', { returnObjects: true, defaultValue: [] }) as string[]).map((feature: string, index: number) => (
+                  <li key={index} className="flex items-center space-x-3">
+                    <Check className="h-5 w-5 text-primary flex-shrink-0" />
+                    <span className="text-foreground">{feature}</span>
+                  </li>
+                ))}
               </ul>
             </div>
             <div className="order-1 lg:order-2">
               <PropertyGalleryGrid
                 mainImage={kitchen}
-                mainImageAlt={t('kitchen.imageAlt', 'Professionele keuken met Lacanche fornuis, RVS werkbladen en dubbele Miele afwasmachine')}
+                mainImageAlt={t('kitchen.imageAlt', 'Professionele keuken met Lacanche fornuis')}
                 sideImages={[
-                  { src: livingFireplace, alt: 'Woonkamer met open haard' },
+                  { src: mieleDishwasher, alt: 'Miele professionele vaatwasser' },
+                  { src: diningRoom, alt: 'Eetkamer' },
                   { src: terraceDining, alt: 'Terras met eethoek' },
-                  { src: gameRoomPool, alt: 'Speelkamer met pooltafel' },
-                  { src: playBarn, alt: 'Speelstal voor kinderen' },
+                  { src: playBarn, alt: 'Speelstal' },
                 ]}
                 allPhotosCount={allPhotos.length}
                 onImageClick={handleImageClick}
