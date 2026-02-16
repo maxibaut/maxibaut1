@@ -20,6 +20,7 @@ import {
   diningTableCabinet,
   livingFireplace,
   mieleDishwasher,
+  gardenLoungers,
   gardenAerial, 
   gardenSports,
   gardenLandscape,
@@ -96,7 +97,7 @@ const Differentiators = () => {
         { src: gardenSports, alt: 'Sportveld in de tuin' },
         { src: bbqTerrace, alt: 'Barbecue op het terras' },
         { src: terraceDining, alt: 'Terras' },
-        { src: playBarn, alt: 'Speelstal' },
+        { src: gardenLoungers, alt: 'Ligzetels met parasols in de tuin' },
       ],
       features: [
         'Groot voetbalveld met volleybalnet en petanquebaan',
