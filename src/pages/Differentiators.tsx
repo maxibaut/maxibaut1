@@ -13,6 +13,7 @@ import {
   farmhouseAerial,
   farmhouseFront,
   farmhouseEntrance,
+  farmhouseSide,
   diningRoom,
   diningTableSet,
   diningTableWindow,
@@ -156,7 +157,7 @@ const Differentiators = () => {
       sideImages: [
         { src: farmhouseAerial, alt: 'Luchtfoto hoeve met asfalt vooraan' },
         { src: farmhouseFront, alt: 'Vooraanzicht hoeve met oprit' },
-        { src: gardenAerial, alt: 'Tuin overzicht' },
+        { src: farmhouseSide, alt: 'Zijgevel hoeve met grote poort' },
         { src: farmhouseEntrance, alt: 'Ingang hoeve met kwaliteitslabels' },
       ],
       features: [
