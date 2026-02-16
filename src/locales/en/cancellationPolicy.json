@@ -2,7 +2,7 @@
   "pageTitle": "Cancellation Policy",
   "pageSubtitle": "Our cancellation policy is designed to protect both guests and hosts. Please read the terms and conditions for cancelling your booking below.",
   "accommodation": "Accommodation",
-  "accommodationValue": "ArdenNest",
+  "accommodationValue": "Arden'Nest",
   "website": "Website",
   "websiteValue": "www.ardennest.be",
   "operator": "Operator",
@@ -10,7 +10,7 @@
   "version": "Version",
   "versionValue": "January 2025",
   "downloadButton": "Download cancellation policy",
-  "intro": "At ArdenNest, we understand that plans can change. That's why we maintain a fair and transparent cancellation policy. Below you will find the terms that apply to your booking.",
+  "intro": "At Arden'Nest, we understand that plans can change. That's why we maintain a fair and transparent cancellation policy. Below you will find the terms that apply to your booking.",
   "tiersTitle": "Cancellation Terms",
   "tiers": [
     {
@@ -45,7 +45,7 @@
   ],
   "forceMajeure": {
     "title": "Force Majeure",
-    "content": "In case of force majeure (natural disasters, pandemics, government measures making travel impossible), we will work with you to find a suitable solution. This may include: rescheduling the booking to another date or a full refund. ArdenNest reserves the right to decide on a case-by-case basis."
+    "content": "In case of force majeure (natural disasters, pandemics, government measures making travel impossible), we will work with you to find a suitable solution. This may include: rescheduling the booking to another date or a full refund. Arden'Nest reserves the right to decide on a case-by-case basis."
   },
   "contact": {
     "title": "Questions?",
@@ -53,5 +53,5 @@
     "email": "Email: info@ardennest.be",
     "phone": "Phone: +32 475 45 85 38"
   },
-  "signature": "ArdenNest — Your home in the Ardennes"
+  "signature": "Arden'Nest — Your home in the Ardennes"
 }
