@@ -16,8 +16,6 @@ import {
   diningTableCabinet,
   livingFireplace,
   livingAperitif,
-  bedroomPrimary,
-  bedroomAtmospheric,
   bedroomMezzanine,
   bedroomQuietLuxury,
   terraceDining,
@@ -26,6 +24,11 @@ import {
   gameRoomPool,
   gameRoomFoosball,
   playBarn,
+  bathroomEnsuite,
+  bathroomSink,
+  bathroomShower,
+  bathroomGlassDoor,
+  bathroomWalkIn,
 } from '@/assets/property';
 import { useSEO } from '@/hooks/useSEO';
 import PropertyGalleryGrid from '@/components/property/PropertyGalleryGrid';
@@ -56,6 +59,12 @@ const Property = () => {
     addUnique(diningRoom, 'Eetkamer');
     addUnique(terraceDining, 'Terras met eethoek');
     addUnique(playBarn, 'Speelstal');
+    // Bathrooms section
+    addUnique(bathroomEnsuite, 'Ensuite slaapkamer met badkamer');
+    addUnique(bathroomSink, 'Slaapkamer met ensuite badkamer');
+    addUnique(bathroomShower, 'Badkamer met inloopdouche');
+    addUnique(bathroomGlassDoor, 'Badkamer met glazen douchedeur');
+    addUnique(bathroomWalkIn, 'Badkamer met inloopdouche en wastafel');
     // Oak Table section
     addUnique(oakTableDetail, t('oakTable.imageAlt', 'Handgemaakte eiken tafel van 6 meter'));
     addUnique(diningTableSet, 'Gedekte eiken tafel met zicht op tuin');
@@ -178,13 +187,13 @@ const Property = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <PropertyGalleryGrid
-                mainImage={bedroomQuietLuxury}
-                mainImageAlt={t('bathrooms.imageAlt', 'Ensuite badkamer met regendouche')}
+                mainImage={bathroomEnsuite}
+                mainImageAlt={t('bathrooms.imageAlt', 'Ensuite badkamer met douche')}
                 sideImages={[
-                  { src: bedroomPrimary, alt: 'Badkamer hoofdslaapkamer' },
-                  { src: bedroomAtmospheric, alt: 'Badkamer sfeervolle kamer' },
-                  { src: bedroomMezzanine, alt: 'Badkamer mezzanine' },
-                  { src: livingFireplace, alt: 'Badkamer detail' },
+                  { src: bathroomSink, alt: 'Slaapkamer met ensuite badkamer' },
+                  { src: bathroomShower, alt: 'Badkamer met inloopdouche' },
+                  { src: bathroomGlassDoor, alt: 'Badkamer met glazen douchedeur' },
+                  { src: bathroomWalkIn, alt: 'Badkamer met inloopdouche en wastafel' },
                 ]}
                 allPhotosCount={allPhotos.length}
                 onImageClick={handleImageClick}
