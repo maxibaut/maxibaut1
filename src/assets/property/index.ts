@@ -24,6 +24,13 @@ export { default as bedroomAtmospheric } from './ferme-141.jpg';
 export { default as bedroomMezzanine } from './ferme-148.jpg';
 export { default as bedroomQuietLuxury } from './ferme-064.jpg';
 
+// Bathrooms / Ensuite
+export { default as bathroomEnsuite } from './ferme-048.jpg';
+export { default as bathroomSink } from './ferme-067.jpg';
+export { default as bathroomShower } from './ferme-136.jpg';
+export { default as bathroomWalkIn } from './ferme-142.jpg';
+export { default as bathroomGlassDoor } from './ferme-145.jpg';
+
 // Outdoor
 export { default as terraceDining } from './ferme-116.jpg';
 export { default as gardenSports } from './ferme-089.jpg';
