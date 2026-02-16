@@ -7,6 +7,7 @@ export { default as aboutHero } from './about-hero.jpg';
 // Dining & Kitchen
 export { default as diningRoom } from './ferme-175.jpg';
 export { default as diningTableSet } from './ferme-008.jpg';
+export { default as diningTableWindow } from './ferme-122.jpg';
 export { default as diningTableAngle } from './ferme-030.jpg';
 export { default as diningTableCabinet } from './ferme-032.jpg';
 export { default as oakTableDetail } from './ferme-178.jpg';
