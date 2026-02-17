@@ -111,7 +111,10 @@ const Surroundings = () => {
                         <CardTitle className="font-serif text-lg leading-tight group-hover:text-primary transition-colors">
                           {title}
                         </CardTitle>
-                        <Train className="h-5 w-5 text-muted-foreground flex-shrink-0" />
+                        <div className="flex items-center gap-1 flex-shrink-0">
+                          {walk.trainBookingUrl && <Train className="h-5 w-5 text-muted-foreground" />}
+                          <Footprints className="h-5 w-5 text-muted-foreground" />
+                        </div>
                       </div>
                     </CardHeader>
                     <CardContent className="space-y-4 relative z-10">
