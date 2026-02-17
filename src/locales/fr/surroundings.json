@@ -156,23 +156,11 @@
       }
     },
     "restaurants": {
-      "restaurant-placeholder-1": {
-        "title": "Restaurant Placeholder 1",
-        "cuisine": "Cuisine belge",
-        "description": "Restaurant convivial avec spécialités locales.",
-        "fullDescription": "Placeholder pour vrai restaurant."
-      },
-      "restaurant-placeholder-2": {
-        "title": "Restaurant Placeholder 2",
-        "cuisine": "Français",
-        "description": "Restaurant gastronomique avec terrasse.",
-        "fullDescription": "Placeholder pour vrai restaurant."
-      },
-      "brasserie-placeholder": {
-        "title": "Brasserie Placeholder",
-        "cuisine": "Brasserie",
-        "description": "Repas décontractés avec menus enfants.",
-        "fullDescription": "Placeholder pour vraie brasserie."
+      "le-belvedere-beauraing": {
+        "title": "Le Belvédère",
+        "description": "Brasserie-restaurant avec une atmosphère de village authentique à Beauraing. Tout le monde se retrouve autour du comptoir - des motards aux touristes.",
+        "fullDescription": "Le Belvédère à Beauraing n'est pas un restaurant ordinaire. C'est le genre d'endroit où on entre et on sent immédiatement: c'est ça.\n\n## Plus qu'un restaurant\n\nLe Belvédère se situe entre un café et un restaurant. Tout le monde se retrouve autour du comptoir - et c'est exactement ce qui le rend si spécial. La patronne est incroyablement sympathique et charmante, et ça se ressent dans toute l'ambiance.\n\n## Les habitués\n\nLe mélange des habitués dit tout sur cet endroit: des motards à côté des touristes, des excursionnistes à côté des ouvriers en vêtements de travail, des commerciaux à côté des villageois. Tout le monde est le bienvenu, tout le monde se sent chez soi.\n\n## Frais et honnête\n\nOn y mange toujours très frais. Pas de prétention, juste de la qualité. La suggestion de la semaine est toujours un coup de maître.\n\n## Vous venez avec un grand groupe?\n\nSi vous venez avec un grand groupe, appelez une semaine à l'avance. Ils vous aideront volontiers et s'assureront que tout est parfaitement organisé. C'est le service qu'on reçoit ici - personnel et attentionné.\n\n## Heures d'ouverture\n\nFermé le lundi (sauf jours fériés). Mar-jeu: 9h-22h. Ven-sam: 9h-minuit. Dim: 9h-23h.\n\n## Depuis la maison de vacances\n\nLe Belvédère se trouve à Beauraing, à environ 15 minutes en voiture. Parfait pour une soirée décontractée.",
+        "openingHours": "Mar-jeu: 9h-22h · Ven-sam: 9h-minuit · Dim: 9h-23h · Lun: fermé"
       }
     },
     "shops": {

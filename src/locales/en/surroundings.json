@@ -155,23 +155,11 @@
       }
     },
     "restaurants": {
-      "restaurant-placeholder-1": {
-        "title": "Restaurant Placeholder 1",
-        "cuisine": "Belgian cuisine",
-        "description": "Cozy restaurant with local specialties.",
-        "fullDescription": "Placeholder for real restaurant."
-      },
-      "restaurant-placeholder-2": {
-        "title": "Restaurant Placeholder 2",
-        "cuisine": "French",
-        "description": "Gastronomic restaurant with terrace.",
-        "fullDescription": "Placeholder for real restaurant."
-      },
-      "brasserie-placeholder": {
-        "title": "Brasserie Placeholder",
-        "cuisine": "Brasserie",
-        "description": "Casual dining with children's menus.",
-        "fullDescription": "Placeholder for real brasserie."
+      "le-belvedere-beauraing": {
+        "title": "Le Belvédère",
+        "description": "Brasserie-restaurant with authentic village atmosphere in Beauraing. Everyone gathers around the bar - from bikers to tourists.",
+        "fullDescription": "Le Belvédère in Beauraing is not your typical restaurant. It's the kind of place where you walk in and immediately feel: this is right.\n\n## More than a restaurant\n\nLe Belvédère sits somewhere between a café and a restaurant. Everyone gathers around the bar - and that's exactly what makes it so special. The owner is incredibly friendly and charming, and it shows in the entire atmosphere.\n\n## The regulars\n\nThe mix of regulars says everything about this place: bikers next to tourists, day-trippers next to workers in dirty clothes, sales reps next to local villagers. Everyone is welcome, everyone feels at home.\n\n## Fresh and honest\n\nThe food is always very fresh. No pretension, just quality. The weekly special is always spot-on.\n\n## Coming with a large group?\n\nIf you're coming with a large group, call a week in advance. They'll happily help you out and make sure everything is perfectly arranged. That's the kind of service you get here - personal and attentive.\n\n## Opening hours\n\nClosed on Mondays (except public holidays). Tue-Thu: 9am-10pm. Fri-Sat: 9am-midnight. Sun: 9am-11pm.\n\n## From the holiday home\n\nLe Belvédère is in Beauraing, about 15 minutes drive. Perfect for a relaxed evening out.",
+        "openingHours": "Tue-Thu: 9am-10pm · Fri-Sat: 9am-midnight · Sun: 9am-11pm · Mon: closed"
       }
     },
     "shops": {
