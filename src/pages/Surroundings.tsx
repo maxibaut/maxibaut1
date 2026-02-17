@@ -9,7 +9,7 @@ import {
   Landmark,
   UtensilsCrossed,
   Pizza,
-  IceCreamCone,
+  Flame,
   ShoppingBag,
   Clock,
   MapPin,
@@ -409,7 +409,7 @@ const Surroundings = () => {
                         {restaurant.restaurantType === 'pizza' ? (
                           <Pizza className="h-5 w-5 text-muted-foreground flex-shrink-0" />
                         ) : restaurant.restaurantType === 'frituur' ? (
-                          <IceCreamCone className="h-5 w-5 text-muted-foreground flex-shrink-0" />
+                          <Flame className="h-5 w-5 text-muted-foreground flex-shrink-0" />
                         ) : (
                           <UtensilsCrossed className="h-5 w-5 text-muted-foreground flex-shrink-0" />
                         )}
