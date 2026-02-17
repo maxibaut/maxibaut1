@@ -102,7 +102,8 @@ export const walks: WalkItem[] = [
     routeDistance: '5 km',
     difficulty: 'easy',
     buggyFriendly: true,
-    distance: '5 min',
+    distance: '0 min',
+    startsFromProperty: true,
     images: [],
   },
   {
