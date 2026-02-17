@@ -18,6 +18,9 @@ export interface SurroundingsItemBase {
     lng: number;
   };
   mapQuery?: string; // Human-readable search query for Google Maps (overrides coordinates)
+  phone?: string; // Phone number
+  address?: string; // Physical address
+  openingHours?: string; // Opening hours (translated via locale key)
 }
 
 // Walk-specific fields

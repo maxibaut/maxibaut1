@@ -35,6 +35,8 @@ export const shops: ShopItem[] = [
     externalUrl: 'https://www.boulangeriedumont.be/',
     coordinates: { lat: 50.0500, lng: 4.9333 },
     mapQuery: 'Boulangerie Dumont, Vencimont, Belgium',
+    phone: '+32 82 21 44 72',
+    address: 'Rue de la Station 2, 5575 Vencimont',
     images: [boulangerieDumont01, boulangerieDumont02, boulangerieDumont03, boulangerieDumont04],
   },
   {
@@ -46,6 +48,8 @@ export const shops: ShopItem[] = [
     externalUrl: 'https://stores.delhaize.be/nl/proxy-delhaize-gedinne',
     coordinates: { lat: 49.9891, lng: 4.9371 },
     mapQuery: 'Proxy Delhaize, Gedinne, Belgium',
+    phone: '+32 61 58 87 78',
+    address: 'Rue Albert Marchal 4, 5575 Gedinne',
     images: [proxyDelhaize00, proxyDelhaize02, proxyDelhaize03, proxyDelhaize01],
   },
   {
@@ -57,6 +61,8 @@ export const shops: ShopItem[] = [
     externalUrl: 'https://www.intermarche.be/magasins/intermarche-gedinne/',
     coordinates: { lat: 49.9858, lng: 4.9403 },
     mapQuery: 'Intermarché, Gedinne, Belgium',
+    phone: '+32 61 58 89 15',
+    address: 'Rue de la Station 17, 5575 Gedinne',
     images: [intermarche01, intermarche02, intermarche03],
   },
   {
@@ -68,6 +74,8 @@ export const shops: ShopItem[] = [
     externalUrl: 'https://www.auxdelicesdelahouille.be/',
     coordinates: { lat: 50.0833, lng: 4.8500 },
     mapQuery: 'Aux Délices de la Houille, Vencimont, Belgium',
+    phone: '+32 82 21 41 90',
+    address: 'Rue de la Houille 12, 5575 Vencimont',
     images: [auxDelices00, auxDelices01, auxDelices02, auxDelices03, auxDelices04, auxDelices05, auxDelices06],
   },
   {
@@ -79,6 +87,8 @@ export const shops: ShopItem[] = [
     externalUrl: 'https://www.terracines.be/',
     coordinates: { lat: 50.0997, lng: 4.9561 },
     mapQuery: 'Terracines, Beauraing, Belgium',
+    phone: '+32 82 71 19 52',
+    address: 'Rue de Givet 31, 5570 Beauraing',
     images: [terracines01, terracines02, terracines03, terracines04, terracines05, terracines06],
   },
 ];
