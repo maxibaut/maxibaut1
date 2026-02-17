@@ -10,6 +10,7 @@ export const cycling: CyclingItem[] = [
     type: 'route',
     distance: '15 min',
     images: [],
+    mapQuery: 'RAVeL Ligne 150, Dinant, Belgium',
   },
   {
     id: 2,
@@ -20,6 +21,7 @@ export const cycling: CyclingItem[] = [
     type: 'route',
     distance: '20 min',
     images: [],
+    mapQuery: 'Beauraing, Belgium',
   },
   {
     id: 3,
@@ -30,5 +32,6 @@ export const cycling: CyclingItem[] = [
     type: 'rental',
     distance: '15 min',
     images: [],
+    mapQuery: 'Dinant, Belgium',
   },
 ];

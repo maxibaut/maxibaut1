@@ -7,10 +7,7 @@ export const attractions: AttractionItem[] = [
     category: 'attractions',
     distance: '15 min',
     images: [],
-    coordinates: {
-      lat: 50.2612,
-      lng: 4.9125,
-    },
+    mapQuery: 'Dinant, Belgium',
   },
   {
     id: 2,
@@ -18,6 +15,7 @@ export const attractions: AttractionItem[] = [
     category: 'attractions',
     distance: '25 min',
     images: [],
+    mapQuery: 'Grottes de Han, Han-sur-Lesse, Belgium',
   },
   {
     id: 3,
@@ -25,6 +23,7 @@ export const attractions: AttractionItem[] = [
     category: 'attractions',
     distance: '40 min',
     images: [],
+    mapQuery: 'Château de Bouillon, Bouillon, Belgium',
   },
   {
     id: 4,
@@ -32,5 +31,6 @@ export const attractions: AttractionItem[] = [
     category: 'attractions',
     distance: '20 min',
     images: [],
+    mapQuery: 'Abbaye de Maredsous, Denée, Belgium',
   },
 ];
