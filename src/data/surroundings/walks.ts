@@ -3,6 +3,7 @@ import { WalkItem } from './types';
 // Route maps
 import anseremmeRouteMap from '@/assets/walks/trein-anseremme-gendron-route-map.png';
 import houyetRouteMap from '@/assets/walks/houyet-gendron-route-map.png';
+import rochehautRouteMap from '@/assets/walks/laddertjeswandeling-rochehaut-route-map.png';
 
 // Treinwandeling Anseremme - Gendron photos
 import treinWalk01 from '@/assets/walks/trein-anseremme-gendron-01-kaart-lesse.jpg';
@@ -102,5 +103,6 @@ export const walks: WalkItem[] = [
     buggyFriendly: false,
     distance: '30 min',
     images: [],
+    routeMapImage: rochehautRouteMap,
   },
 ];
