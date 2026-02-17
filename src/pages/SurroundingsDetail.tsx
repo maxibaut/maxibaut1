@@ -29,6 +29,7 @@ import {
   X,
   ChevronLeft,
   ChevronRight,
+  Phone,
 } from 'lucide-react';
 import {
   getItemBySlug,
@@ -452,6 +453,38 @@ const SurroundingsDetail = () => {
                     </>
                   )}
 
+                  {/* Contact details for shops, restaurants, attractions */}
+                  {item.address && (
+                    <div className="flex items-start gap-3">
+                      <MapPin className="h-5 w-5 text-muted-foreground mt-0.5" />
+                      <div>
+                        <p className="text-sm text-muted-foreground">{t('contactInfo.address')}</p>
+                        <p className="font-medium text-sm">{item.address}</p>
+                      </div>
+                    </div>
+                  )}
+
+                  {item.phone && (
+                    <div className="flex items-center gap-3">
+                      <Phone className="h-5 w-5 text-muted-foreground" />
+                      <div>
+                        <p className="text-sm text-muted-foreground">{t('contactInfo.phone')}</p>
+                        <a href={`tel:${item.phone.replace(/\s/g, '')}`} className="font-medium text-sm text-primary hover:underline">
+                          {item.phone}
+                        </a>
+                      </div>
+                    </div>
+                  )}
+
+                  {(shopData || restaurantData) && (
+                    <div className="flex items-start gap-3">
+                      <Clock className="h-5 w-5 text-muted-foreground mt-0.5" />
+                      <div>
+                        <p className="text-sm text-muted-foreground">{t('contactInfo.openingHours')}</p>
+                        <p className="font-medium text-sm">{t(`items.${category}.${slug}.openingHours`, { defaultValue: '' })}</p>
+                      </div>
+                    </div>
+                  )}
                   {/* Action buttons */}
                   <div className="pt-4 space-y-2">
                     {walkData?.trainBookingUrl && (
