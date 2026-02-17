@@ -17,7 +17,8 @@
     "buggyFriendly": "Adapté aux poussettes",
     "highlights": "Points forts",
     "duration": "Durée",
-    "distance": "Distance"
+    "distance": "Distance",
+    "walkingMapsNote": "Des cartes de randonnée détaillées avec explications sont disponibles dans le gîte."
   },
   "cycling": {
     "title": "Cyclisme",
@@ -51,7 +52,7 @@
   "items": {
     "walks": {
       "treinwandeling-anseremme-gendron": {
-        "title": "Randonnée en train Anseremme - Gendron",
+        "title": "Randonnée en train Anseremme - Gendron - Anseremme",
         "description": "Notre randonnée familiale préférée ! Prenez le train de Dinant-Anseremme à Gendron et rentrez à pied le long de la magnifique Lesse. Adapté aux poussettes et parfait pour une journée en famille.",
         "highlights": ["Pont ferroviaire élevé", "Plage de Walzin", "Château de Walzin", "Rivière Lesse", "Vue sur Dinant"],
         "buggyNote": "Poussette à soulever 3x aux escaliers/ponts, sinon chemin pavé facile",

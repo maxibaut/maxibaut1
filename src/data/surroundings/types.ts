@@ -27,6 +27,7 @@ export interface WalkItem extends SurroundingsItemBase {
   difficulty: Difficulty;
   buggyFriendly: boolean;
   trainBookingUrl?: string; // Link to train booking website
+  routeMapImage?: string; // Route map image
 }
 
 // Cycling-specific fields

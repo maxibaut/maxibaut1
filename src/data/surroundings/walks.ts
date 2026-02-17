@@ -1,5 +1,8 @@
 import { WalkItem } from './types';
 
+// Route map
+import anseremmeRouteMap from '@/assets/walks/trein-anseremme-gendron-route-map.png';
+
 // Treinwandeling Anseremme - Gendron photos
 import treinWalk01 from '@/assets/walks/trein-anseremme-gendron-01-kaart-lesse.jpg';
 import treinWalk02 from '@/assets/walks/trein-anseremme-gendron-02-la-lesse.jpg';
@@ -48,6 +51,7 @@ export const walks: WalkItem[] = [
       treinWalk09, // Routekaart
     ],
     trainBookingUrl: 'https://www.belgiantrain.be/nl',
+    routeMapImage: anseremmeRouteMap,
   },
   {
     id: 2,

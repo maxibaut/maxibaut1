@@ -17,7 +17,8 @@
     "buggyFriendly": "Buggy-vriendelijk",
     "highlights": "Hoogtepunten",
     "duration": "Duur",
-    "distance": "Afstand"
+    "distance": "Afstand",
+    "walkingMapsNote": "Gedetailleerde wandelkaartjes met uitleg liggen klaar in de woning."
   },
   "cycling": {
     "title": "Fietsen",
@@ -51,7 +52,7 @@
   "items": {
     "walks": {
       "treinwandeling-anseremme-gendron": {
-        "title": "Treinwandeling Anseremme - Gendron",
+        "title": "Treinwandeling Anseremme - Gendron - Anseremme",
         "description": "Onze favoriete familiewandeling! Neem de trein vanuit Dinant-Anseremme naar Gendron en wandel terug langs de prachtige Lesse. Geschikt voor buggy's en perfect voor een daguitstap.",
         "highlights": ["Hoge spoorwegbrug", "Strand van Walzin", "Kasteel Walzin", "Rivier de Lesse", "Zicht op Dinant"],
         "buggyNote": "Buggy 3x optillen bij trappen/bruggen, verder vlotte verharde weg",

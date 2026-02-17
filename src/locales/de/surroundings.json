@@ -17,7 +17,8 @@
     "buggyFriendly": "Kinderwagen-freundlich",
     "highlights": "Höhepunkte",
     "duration": "Dauer",
-    "distance": "Entfernung"
+    "distance": "Entfernung",
+    "walkingMapsNote": "Detaillierte Wanderkarten mit Erklärungen liegen im Haus bereit."
   },
   "cycling": {
     "title": "Radfahren",
@@ -51,7 +52,7 @@
   "items": {
     "walks": {
       "treinwandeling-anseremme-gendron": {
-        "title": "Zugwanderung Anseremme - Gendron",
+        "title": "Zugwanderung Anseremme - Gendron - Anseremme",
         "description": "Unsere liebste Familienwanderung! Nehmen Sie den Zug von Dinant-Anseremme nach Gendron und wandern Sie zurück entlang der wunderschönen Lesse. Geeignet für Kinderwagen und perfekt für einen Tagesausflug.",
         "highlights": ["Hohe Eisenbahnbrücke", "Strand von Walzin", "Schloss Walzin", "Fluss Lesse", "Blick auf Dinant"],
         "buggyNote": "Kinderwagen 3x heben bei Treppen/Brücken, sonst glatter befestigter Weg",

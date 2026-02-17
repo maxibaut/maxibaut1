@@ -17,7 +17,8 @@
     "buggyFriendly": "Buggy-friendly",
     "highlights": "Highlights",
     "duration": "Duration",
-    "distance": "Distance"
+    "distance": "Distance",
+    "walkingMapsNote": "Detailed walking maps with instructions are available in the house."
   },
   "cycling": {
     "title": "Cycling",
@@ -51,7 +52,7 @@
   "items": {
     "walks": {
       "treinwandeling-anseremme-gendron": {
-        "title": "Train Walk Anseremme - Gendron",
+        "title": "Train Walk Anseremme - Gendron - Anseremme",
         "description": "Our favorite family walk! Take the train from Dinant-Anseremme to Gendron and walk back along the beautiful Lesse river. Suitable for buggies and perfect for a day out.",
         "highlights": ["High railway bridge", "Walzin beach", "Walzin Castle", "Lesse river", "View of Dinant"],
         "buggyNote": "Lift buggy 3x at stairs/bridges, otherwise smooth paved path",
