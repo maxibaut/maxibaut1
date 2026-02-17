@@ -66,6 +66,7 @@ export const walks: WalkItem[] = [
     ],
     trainBookingUrl: 'https://www.belgiantrain.be/nl',
     routeMapImage: anseremmeRouteMap,
+    mapQuery: 'Gare de Gendron-Celles, Houyet, Belgium',
   },
   {
     id: 2,
@@ -93,6 +94,7 @@ export const walks: WalkItem[] = [
     ],
     trainBookingUrl: 'https://www.belgiantrain.be/nl',
     routeMapImage: houyetRouteMap,
+    mapQuery: 'Gare de Houyet, Houyet, Belgium',
   },
   {
     id: 3,
@@ -128,5 +130,6 @@ export const walks: WalkItem[] = [
       rochehaut10,
     ],
     routeMapImage: rochehautRouteMap,
+    mapQuery: 'Rochehaut, Bouillon, Belgium',
   },
 ];
