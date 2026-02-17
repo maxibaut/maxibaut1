@@ -1,6 +1,6 @@
 import { PageWrapper } from "@/components/layout";
 import { useTranslation } from "react-i18next";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Check, Shield, Calendar, ArrowRight, Phone, Mail } from "lucide-react";
@@ -11,7 +11,12 @@ import { useSEO } from "@/hooks/useSEO";
 
 const Booking = () => {
   const { t } = useTranslation("booking");
+  const location = useLocation();
   useSEO();
+
+  const baseSrc = "https://beds24.com/booking2.php?propid=28947&referer=iframe";
+  const extraParams = location.search ? `&${location.search.slice(1)}` : "";
+  const iframeSrc = `${baseSrc}${extraParams}`;
 
   const benefits = t("whyDirect.benefits", { returnObjects: true }) as string[];
   const afterBookingSteps = t("afterBooking.steps", { returnObjects: true }) as string[];
@@ -65,7 +70,7 @@ const Booking = () => {
           {/* Beds24 Booking Widget */}
           <div className="max-w-4xl mx-auto bg-background rounded-lg shadow-lg overflow-hidden">
             <iframe
-              src="https://beds24.com/booking2.php?propid=28947&referer=iframe"
+              src={iframeSrc}
               width="100%"
               height="2000"
               style={{ maxWidth: "100%", border: "none", overflow: "auto" }}
