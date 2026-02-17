@@ -17,6 +17,7 @@ export interface SurroundingsItemBase {
     lat: number;
     lng: number;
   };
+  mapQuery?: string; // Human-readable search query for Google Maps (overrides coordinates)
 }
 
 // Walk-specific fields
