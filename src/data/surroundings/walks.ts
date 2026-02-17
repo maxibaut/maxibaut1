@@ -1,7 +1,8 @@
 import { WalkItem } from './types';
 
-// Route map
+// Route maps
 import anseremmeRouteMap from '@/assets/walks/trein-anseremme-gendron-route-map.png';
+import houyetRouteMap from '@/assets/walks/houyet-gendron-route-map.png';
 
 // Treinwandeling Anseremme - Gendron photos
 import treinWalk01 from '@/assets/walks/trein-anseremme-gendron-01-kaart-lesse.jpg';
@@ -78,6 +79,7 @@ export const walks: WalkItem[] = [
       houyetWalk10, // Terras afsluiter
     ],
     trainBookingUrl: 'https://www.belgiantrain.be/nl',
+    routeMapImage: houyetRouteMap,
   },
   {
     id: 3,
