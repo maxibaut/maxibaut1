@@ -29,4 +29,16 @@ export const restaurants: RestaurantItem[] = [
     address: 'Rue de Charleville 15, 5575 Gedinne',
     externalUrl: 'https://www.facebook.com/Hoteldelapostegedinne',
   },
+  {
+    id: 3,
+    slug: 'le-matefaim-graide-station',
+    category: 'restaurants',
+    priceRange: '€€',
+    distance: '10 min',
+    images: [],
+    mapQuery: 'Le Matefaim Restaurant, Graide-Station, Bièvre, Belgium',
+    phone: '+32 61 51 19 75',
+    address: 'Graide-Station, 5555 Bièvre',
+    externalUrl: 'https://wallux.com/restaurant-le-matefaim-bievre',
+  },
 ];
