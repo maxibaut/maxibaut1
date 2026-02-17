@@ -8,6 +8,8 @@ import {
   Bike,
   Landmark,
   UtensilsCrossed,
+  Pizza,
+  IceCreamCone,
   ShoppingBag,
   Clock,
   MapPin,
@@ -404,9 +406,13 @@ const Surroundings = () => {
                         <CardTitle className="font-serif text-lg group-hover:text-primary transition-colors">
                           {title}
                         </CardTitle>
-                        <span className="text-lg font-medium text-muted-foreground">
-                          {restaurant.priceRange}
-                        </span>
+                        {restaurant.restaurantType === 'pizza' ? (
+                          <Pizza className="h-5 w-5 text-muted-foreground flex-shrink-0" />
+                        ) : restaurant.restaurantType === 'frituur' ? (
+                          <IceCreamCone className="h-5 w-5 text-muted-foreground flex-shrink-0" />
+                        ) : (
+                          <UtensilsCrossed className="h-5 w-5 text-muted-foreground flex-shrink-0" />
+                        )}
                       </div>
                     </CardHeader>
                     <CardContent className="space-y-3">

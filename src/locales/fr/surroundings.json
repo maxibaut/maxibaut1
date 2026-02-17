@@ -40,8 +40,8 @@
     "description": "Les Ardennes ont beaucoup à offrir. Ces destinations sont parfaites pour une excursion d'une journée."
   },
   "restaurants": {
-    "title": "Restaurants",
-    "description": "Nos restaurants préférés dans les environs. Des brasseries conviviales aux restaurants gastronomiques."
+    "title": "Restaurants & à emporter",
+    "description": "Nos adresses préférées pour manger dans les environs. Des brasseries conviviales aux pizzas et frites fraîches."
   },
   "shops": {
     "title": "Commerces",
@@ -179,6 +179,12 @@
         "description": "Pizzas au feu de bois avec une pâte fine et croustillante. L'adresse préférée des groupes qui veulent des pizzas à emporter à la maison de vacances.",
         "fullDescription": "La Salière à Gedinne, c'est l'adresse quand vous voulez commander des pizzas pour un grand groupe. Pâte fine, four à bois, franchement délicieux — pas besoin de plus.\n\n## L'ambiance\n\nUn endroit convivial au centre de Gedinne, apprécié autant par les familles locales que par les vacanciers. Il y a suffisamment de place pour manger sur place avec un grand groupe, mais parmi nos hôtes, La Salière est surtout appréciée pour les pizzas à emporter. Commander, ramener à la maison de vacances, et tout le monde est content.\n\n## Ce qu'on y mange\n\nDes pizzas cuites dans un vrai four à bois, avec une pâte fine et croustillante. La carte est simple — des classiques qui sont tout simplement bons. Pas de chichis, juste du goût. Exactement le genre de pizza sur laquelle un groupe de 20 personnes tombe d'accord sans discussion.\n\n## Vous venez avec un grand groupe ?\n\nAbsolument possible. Ils sont habitués aux grandes commandes. Notre conseil : commandez juste avant l'heure d'ouverture pour le temps d'attente le plus court. Ainsi, les boîtes sont prêtes quand vous en avez besoin.\n\n## Depuis la maison de vacances\n\nÀ 5 minutes en voiture dans le centre de Gedinne. Commandez, passez chercher, et en une demi-heure tout le monde est à table.",
         "openingHours": "Contactez pour les horaires"
+      },
+      "le-petit-creux-by-roselle-gedinne": {
+        "title": "Le Petit Creux By Roselle",
+        "description": "Friterie fraîche au cœur de Gedinne. Tout est préparé avec soin par une patronne méticuleuse dans son travail. Parfait pour l'emporter.",
+        "fullDescription": "Parfois, on veut simplement une portion de frites fraîches. Le Petit Creux By Roselle à Gedinne offre exactement cela — et plus encore.\n\n## L'ambiance\n\nC'est une vraie friterie de village, comme elles doivent être. Petite, conviviale, et tenue par quelqu'un qui y met tout son cœur. Pas l'endroit pour s'installer avec un grand groupe — il n'y a tout simplement pas assez de place. Mais pour l'emporter, c'est parfait.\n\n## La patronne\n\nRoselle est méticuleuse dans sa finition. Chaque portion est préparée avec soin, rien n'est retiré de la friteuse à la va-vite. Ça se goûte. Tout est frais, honnête, et préparé avec attention.\n\n## Ce qu'on y mange\n\nDes frites fraîches, des snacks, et — si vous avez vraiment faim — commandez une mitraillette. La spécialité wallonne : une baguette garnie de viande, de frites et de sauce. Tous les jeunes des villages en mangent. On vous la recommande si vous voulez goûter ce que les locaux mangent.\n\n## Attention\n\nLa friterie n'est pas toujours ouverte. Vérifiez les horaires à l'avance ou passez un coup de fil.\n\n## Depuis la maison de vacances\n\nÀ 5 minutes en voiture à Gedinne. Commandez, emportez, et servez à table dans la maison de vacances.",
+        "openingHours": "Variable — appelez avant"
       }
     },
     "shops": {
