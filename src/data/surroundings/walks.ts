@@ -5,6 +5,18 @@ import anseremmeRouteMap from '@/assets/walks/trein-anseremme-gendron-route-map.
 import houyetRouteMap from '@/assets/walks/houyet-gendron-route-map.png';
 import rochehautRouteMap from '@/assets/walks/laddertjeswandeling-rochehaut-route-map.png';
 
+// Laddertjeswandeling Rochehaut photos
+import rochehaut01 from '@/assets/walks/laddertjeswandeling-rochehaut-01.jpg';
+import rochehaut02 from '@/assets/walks/laddertjeswandeling-rochehaut-02.jpg';
+import rochehaut03 from '@/assets/walks/laddertjeswandeling-rochehaut-03.jpg';
+import rochehaut04 from '@/assets/walks/laddertjeswandeling-rochehaut-04.jpg';
+import rochehaut05 from '@/assets/walks/laddertjeswandeling-rochehaut-05.jpg';
+import rochehaut06 from '@/assets/walks/laddertjeswandeling-rochehaut-06.jpg';
+import rochehaut07 from '@/assets/walks/laddertjeswandeling-rochehaut-07.jpg';
+import rochehaut08 from '@/assets/walks/laddertjeswandeling-rochehaut-08.jpg';
+import rochehaut09 from '@/assets/walks/laddertjeswandeling-rochehaut-09.jpg';
+import rochehaut10 from '@/assets/walks/laddertjeswandeling-rochehaut-10.jpg';
+
 // Treinwandeling Anseremme - Gendron photos
 import treinWalk01 from '@/assets/walks/trein-anseremme-gendron-01-kaart-lesse.jpg';
 import treinWalk02 from '@/assets/walks/trein-anseremme-gendron-02-la-lesse.jpg';
@@ -91,7 +103,18 @@ export const walks: WalkItem[] = [
     difficulty: 'easy',
     buggyFriendly: true,
     distance: '5 min',
-    images: [],
+    images: [
+      rochehaut01,
+      rochehaut02,
+      rochehaut03,
+      rochehaut04,
+      rochehaut05,
+      rochehaut06,
+      rochehaut07,
+      rochehaut08,
+      rochehaut09,
+      rochehaut10,
+    ],
   },
   {
     id: 4,
