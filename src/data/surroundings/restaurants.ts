@@ -17,4 +17,16 @@ export const restaurants: RestaurantItem[] = [
     address: 'Rue de Bouillon 191, 5570 Beauraing',
     externalUrl: 'https://wallux.com/le-belvedere',
   },
+  {
+    id: 2,
+    slug: 'hotel-de-la-poste-gedinne',
+    category: 'restaurants',
+    priceRange: '€€',
+    distance: '5 min',
+    images: [],
+    mapQuery: 'Hôtel de la Poste, Rue de Charleville 15, Gedinne, Belgium',
+    phone: '+32 61 58 79 33',
+    address: 'Rue de Charleville 15, 5575 Gedinne',
+    externalUrl: 'https://www.facebook.com/Hoteldelapostegedinne',
+  },
 ];
