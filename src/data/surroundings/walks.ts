@@ -92,4 +92,15 @@ export const walks: WalkItem[] = [
     distance: '5 min',
     images: [],
   },
+  {
+    id: 4,
+    slug: 'laddertjeswandeling-rochehaut',
+    category: 'walks',
+    duration: '3 uur',
+    routeDistance: '7 km',
+    difficulty: 'hard',
+    buggyFriendly: false,
+    distance: '30 min',
+    images: [],
+  },
 ];
