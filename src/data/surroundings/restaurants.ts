@@ -41,4 +41,16 @@ export const restaurants: RestaurantItem[] = [
     address: 'Graide-Station, 5555 Bièvre',
     externalUrl: 'https://wallux.com/restaurant-le-matefaim-bievre',
   },
+  {
+    id: 4,
+    slug: 'la-saliere-gedinne',
+    category: 'restaurants',
+    priceRange: '€',
+    distance: '5 min',
+    images: [],
+    mapQuery: 'La Salière, Rue de Gribelle 1, Gedinne, Belgium',
+    phone: '+32 61 61 45 07',
+    address: 'Rue de Gribelle 1, 5575 Gedinne',
+    externalUrl: 'https://www.restaurant-la-saliere.be',
+  },
 ];
