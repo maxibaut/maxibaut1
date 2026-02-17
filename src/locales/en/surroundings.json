@@ -40,8 +40,8 @@
     "description": "The Ardennes have a lot to offer. These destinations are perfect for a day trip."
   },
   "restaurants": {
-    "title": "Restaurants",
-    "description": "Our favorite eateries nearby. From cozy brasseries to gastronomic restaurants."
+    "title": "Restaurants & takeaway",
+    "description": "Our favourite places to eat nearby. From cozy brasseries to pizza and fresh fries."
   },
   "shops": {
     "title": "Shops",
@@ -178,6 +178,12 @@
         "description": "Wood-fired pizzas with a thin, crispy crust. The go-to takeaway for groups wanting pizza at the holiday home.",
         "fullDescription": "La Salière in Gedinne is the address when you want to order pizzas for a large group. Thin crust, wood-fired, honestly delicious — it doesn't need to be more than that.\n\n## The atmosphere\n\nA cozy place in the center of Gedinne, popular with both local families and holidaymakers. There's plenty of room to eat in with a larger group, but among our guests La Salière is especially loved as a takeaway address. Order pizzas, bring them back to the holiday home, and everyone's happy.\n\n## What you eat\n\nPizzas baked in a real wood-fired oven, with a thin, crispy crust. The menu is straightforward — classics that are simply good. No fuss, just flavour. Exactly the kind of pizza a group of 20 can agree on without discussion.\n\n## Coming with a large group?\n\nAbsolutely. They're used to large orders. Our tip: order just before opening time for the shortest wait for takeaway. That way, the boxes are ready when you need them.\n\n## From the holiday home\n\n5 minutes drive in the center of Gedinne. Order, drive over, and within half an hour everyone's sitting at the table.",
         "openingHours": "Contact for opening hours"
+      },
+      "le-petit-creux-by-roselle-gedinne": {
+        "title": "Le Petit Creux By Roselle",
+        "description": "Fresh frites shop in the heart of Gedinne. Everything prepared with care by an owner who's meticulous in her craft. Perfect for takeaway.",
+        "fullDescription": "Sometimes you just want a portion of fresh fries. Le Petit Creux By Roselle in Gedinne delivers exactly that — and more.\n\n## The atmosphere\n\nThis is a proper village chip shop, just as they should be. Small, cozy, and run by someone who puts her heart into it. Not the place to sit down with a large group — there simply isn't enough room. But for takeaway, it's perfect.\n\n## The owner\n\nRoselle is meticulous in her finishing. Every portion is prepared with care, nothing is carelessly pulled from the fryer. You can taste it. Everything is fresh, honest, and made with attention.\n\n## What you eat\n\nFresh fries, snacks, and — if you're truly hungry — order a mitraillette. The Walloon specialty: a baguette stuffed with meat, fries and sauce. All the young people in the villages eat this. We recommend it if you want to taste what locals eat.\n\n## Please note\n\nThe shop isn't always open. Check the opening hours in advance or give them a call.\n\n## From the holiday home\n\n5 minutes drive in Gedinne. Order, take away, and serve at the table in the holiday home.",
+        "openingHours": "Variable — call ahead"
       }
     },
     "shops": {

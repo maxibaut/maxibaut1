@@ -40,8 +40,8 @@
     "description": "Die Ardennen haben viel zu bieten. Diese Ziele sind perfekt für einen Tagesausflug."
   },
   "restaurants": {
-    "title": "Restaurants",
-    "description": "Unsere Lieblingsrestaurants in der Nähe. Von gemütlichen Brasserien bis zu gastronomischen Restaurants."
+    "title": "Restaurants & Imbiss",
+    "description": "Unsere Lieblingsadressen zum Essen in der Umgebung. Von gemütlichen Brasserien bis Pizza und frische Pommes."
   },
   "shops": {
     "title": "Geschäfte",
@@ -178,6 +178,12 @@
         "description": "Holzofenpizzas mit dünnem, knusprigem Rand. Die Lieblingsadresse für Gruppen, die Pizza im Ferienhaus essen möchten.",
         "fullDescription": "La Salière in Gedinne ist die Adresse, wenn Sie mit einer großen Gruppe Pizzas bestellen möchten. Dünner Rand, Holzofen, ehrlich lecker — mehr muss das nicht sein.\n\n## Die Atmosphäre\n\nEin gemütliches Lokal im Zentrum von Gedinne, beliebt bei lokalen Familien und Urlaubern gleichermaßen. Es gibt genug Platz, um auch mit einer größeren Gruppe vor Ort zu essen, aber unter unseren Gästen ist La Salière vor allem als Abholadresse beliebt. Pizzas bestellen, zum Ferienhaus mitnehmen, und alle sind zufrieden.\n\n## Was man isst\n\nPizzas aus einem echten Holzofen, mit dünnem, knusprigem Rand. Die Karte ist übersichtlich — Klassiker, die einfach gut sind. Kein Schnickschnack, nur Geschmack. Genau die Art Pizza, auf die sich eine Gruppe von 20 ohne Diskussion einigen kann.\n\n## Kommen Sie mit einer großen Gruppe?\n\nAbsolut möglich. Sie sind große Bestellungen gewohnt. Unser Tipp: Bestellen Sie kurz vor der Öffnungszeit, dann haben Sie die kürzeste Wartezeit bei der Abholung. So stehen die Kartons bereit, wenn Sie sie brauchen.\n\n## Vom Ferienhaus\n\n5 Autominuten im Zentrum von Gedinne. Bestellen, hinfahren, und innerhalb einer halben Stunde sitzt jeder am Tisch.",
         "openingHours": "Kontaktieren Sie für Öffnungszeiten"
+      },
+      "le-petit-creux-by-roselle-gedinne": {
+        "title": "Le Petit Creux By Roselle",
+        "description": "Frische Pommesbude im Herzen von Gedinne. Alles wird mit Sorgfalt von einer Besitzerin zubereitet, die akribisch arbeitet. Perfekt zum Mitnehmen.",
+        "fullDescription": "Manchmal will man einfach eine Portion frische Pommes. Le Petit Creux By Roselle in Gedinne liefert genau das — und mehr.\n\n## Die Atmosphäre\n\nDies ist eine echte Dorf-Pommesbude, wie sie sein soll. Klein, gemütlich, und geführt von jemandem, die ihr Herz hineinlegt. Nicht der Ort, um sich mit einer großen Gruppe hinzusetzen — dafür ist schlicht nicht genug Platz. Aber zum Mitnehmen ist es perfekt.\n\n## Die Besitzerin\n\nRoselle ist akribisch in ihrer Zubereitung. Jede Portion wird mit Sorgfalt bereitet, nichts wird einfach aus der Fritteuse gezogen. Das schmeckt man. Alles ist frisch, ehrlich und mit Aufmerksamkeit zubereitet.\n\n## Was man isst\n\nFrische Pommes, Snacks, und — wenn Sie wirklich Hunger haben — bestellen Sie eine Mitraillette. Die wallonische Spezialität: ein Baguette gefüllt mit Fleisch, Pommes und Sauce. Alle Jugendlichen in den Dörfern essen das. Wir empfehlen es, wenn Sie probieren möchten, was die Einheimischen essen.\n\n## Bitte beachten\n\nDie Pommesbude hat nicht immer geöffnet. Prüfen Sie die Öffnungszeiten im Voraus oder rufen Sie an.\n\n## Vom Ferienhaus\n\n5 Autominuten in Gedinne. Bestellen, mitnehmen, und am Tisch im Ferienhaus servieren.",
+        "openingHours": "Unterschiedlich — vorher anrufen"
       }
     },
     "shops": {

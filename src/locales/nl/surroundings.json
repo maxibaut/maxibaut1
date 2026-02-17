@@ -40,8 +40,8 @@
     "description": "De Ardennen hebben veel te bieden. Deze bestemmingen zijn perfect voor een daguitstap."
   },
   "restaurants": {
-    "title": "Restaurants",
-    "description": "Onze favoriete eetgelegenheden in de buurt. Van gezellige brasseries tot gastronomische restaurants."
+    "title": "Restaurants & afhaal",
+    "description": "Onze favoriete eetgelegenheden in de buurt. Van gezellige brasseries tot pizza en verse frieten."
   },
   "shops": {
     "title": "Winkels",
@@ -179,6 +179,12 @@
         "description": "Pizza's uit de houtoven met dunne, krokante rand. Dé afhaalfavoriet voor groepen die pizza willen eten in de vakantiewoning.",
         "fullDescription": "La Salière in Gedinne is het adres als je met een grote groep pizza's wilt bestellen. Dunne rand, houtoven, eerlijk lekker — meer moet dat niet zijn.\n\n## De sfeer\n\nEen gezellige zaak in het centrum van Gedinne, waar zowel lokale gezinnen als vakantiegangers graag komen. Er is ruimte genoeg om ook met een grotere groep binnen te eten, maar onder onze gasten is La Salière vooral geliefd als afhaaladres. Pizza's bestellen, meenemen naar de vakantiewoning, en iedereen is blij.\n\n## Wat je eet\n\nPizza's gebakken in een echte houtoven, met een dunne, krokante rand. De kaart is overzichtelijk — klassiekers die gewoon goed zijn. Geen fratsen, wel smaak. Exact het soort pizza waar je met een groep van 20 zonder discussie voor kiest.\n\n## Met een grote groep?\n\nAbsoluut mogelijk. Ze zijn gewend aan grote bestellingen. Onze tip: bestel iets vóór openingstijd, dan heb je de minst lange wachttijd voor afhaal. Zo staan de dozen klaar wanneer je ze nodig hebt.\n\n## Vanuit de vakantiewoning\n\nOp 5 minuten rijden in het centrum van Gedinne. Bestel, rij erheen, en binnen het halfuur zit iedereen aan tafel.",
         "openingHours": "Neem contact op voor openingsuren"
+      },
+      "le-petit-creux-by-roselle-gedinne": {
+        "title": "Le Petit Creux By Roselle",
+        "description": "Verse frituur in het hart van Gedinne. Alles wordt met zorg bereid door een bazin die minutieus te werk gaat. Perfect voor afhaal.",
+        "fullDescription": "Soms wil je gewoon een portie verse frieten. Le Petit Creux By Roselle in Gedinne levert precies dat — en meer.\n\n## De sfeer\n\nDit is een echte dorpsfrituur zoals ze moeten zijn. Klein, gezellig, en gerund door iemand die er haar hart in legt. Niet de plek om met een grote groep binnen te eten — daarvoor is er simpelweg niet genoeg plaats. Maar voor afhaal is het perfect.\n\n## De bazin\n\nRoselle is minutieus in haar afwerking. Elke portie wordt met zorg bereid, niets wordt zomaar uit de friteuse gehaald. Dat proef je. Alles is vers, eerlijk, en met aandacht klaargemaakt.\n\n## Wat je eet\n\nVerse frieten, snacks, en — als je echt honger hebt — bestel een mitraillette. Dé Waalse specialiteit: een stokbrood gevuld met vlees, frieten en saus. Alle jeugd in de dorpen eet dit. Wij raden het aan als je wilt proeven wat locals eten.\n\n## Let op\n\nDe frituur is niet altijd open. Controleer vooraf de openingsuren of bel even.\n\n## Vanuit de vakantiewoning\n\nOp 5 minuten rijden in Gedinne. Bestel, neem mee, en serveer aan tafel in de vakantiewoning.",
+        "openingHours": "Wisselend — bel vooraf"
       }
     },
     "shops": {

@@ -52,6 +52,7 @@ export interface AttractionItem extends SurroundingsItemBase {
 export interface RestaurantItem extends SurroundingsItemBase {
   category: 'restaurants';
   priceRange: '€' | '€€' | '€€€';
+  restaurantType: 'restaurant' | 'pizza' | 'frituur';
 }
 
 // Shop-specific fields
