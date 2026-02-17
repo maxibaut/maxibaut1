@@ -9,7 +9,6 @@ import {
   Landmark,
   UtensilsCrossed,
   Pizza,
-  Flame,
   ShoppingBag,
   Clock,
   MapPin,
@@ -21,6 +20,7 @@ import {
   Home,
 } from 'lucide-react';
 import { walks, cycling, attractions, restaurants, shops } from '@/data/surroundings';
+import FritesCone from '@/components/icons/FritesCone';
 import { useSEO } from '@/hooks/useSEO';
 
 const Surroundings = () => {
@@ -409,7 +409,7 @@ const Surroundings = () => {
                         {restaurant.restaurantType === 'pizza' ? (
                           <Pizza className="h-5 w-5 text-muted-foreground flex-shrink-0" />
                         ) : restaurant.restaurantType === 'frituur' ? (
-                          <Flame className="h-5 w-5 text-muted-foreground flex-shrink-0" />
+                          <FritesCone className="h-5 w-5 text-muted-foreground flex-shrink-0" />
                         ) : (
                           <UtensilsCrossed className="h-5 w-5 text-muted-foreground flex-shrink-0" />
                         )}
