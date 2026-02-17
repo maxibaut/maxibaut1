@@ -258,7 +258,7 @@ const Surroundings = () => {
       </section>
 
       {/* Fietsen */}
-      <section id="fietsen" className="section-padding bg-background">
+      <section id="fietsen" className="section-padding bg-cream-dark">
         <div className="container-luxury">
           <div className="flex items-center gap-3 mb-8">
             <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center">
@@ -319,7 +319,7 @@ const Surroundings = () => {
       </section>
 
       {/* Bezienswaardigheden */}
-      <section id="bezienswaardigheden" className="section-padding bg-cream-dark">
+      <section id="bezienswaardigheden" className="section-padding bg-background">
         <div className="container-luxury">
           <div className="flex items-center gap-3 mb-8">
             <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center">
@@ -378,7 +378,7 @@ const Surroundings = () => {
       </section>
 
       {/* Restaurants */}
-      <section id="restaurants" className="section-padding bg-background">
+      <section id="restaurants" className="section-padding bg-cream-dark">
         <div className="container-luxury">
           <div className="flex items-center gap-3 mb-8">
             <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center">
@@ -434,7 +434,7 @@ const Surroundings = () => {
       </section>
 
       {/* Winkels */}
-      <section id="winkels" className="section-padding bg-cream-dark">
+      <section id="winkels" className="section-padding bg-background">
         <div className="container-luxury">
           <div className="flex items-center gap-3 mb-8">
             <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center">
