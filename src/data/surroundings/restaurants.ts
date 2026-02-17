@@ -68,4 +68,15 @@ export const restaurants: RestaurantItem[] = [
     mapQuery: 'Le Petit Creux By Roselle, Gedinne, Belgium',
     address: 'Gedinne',
   },
+  {
+    id: 6,
+    slug: 'friterie-de-la-ferme-bievre',
+    category: 'restaurants',
+    priceRange: '€',
+    restaurantType: 'frituur',
+    distance: '10 min',
+    images: [],
+    mapQuery: 'Friterie de la Ferme, Bièvre, Belgium',
+    address: 'Bièvre',
+  },
 ];
