@@ -33,10 +33,8 @@ export const shops: ShopItem[] = [
     shopType: 'bakery',
     distance: '10 min',
     externalUrl: 'https://www.boulangeriedumont.be/',
-    coordinates: {
-      lat: 50.0500,
-      lng: 4.9333,
-    },
+    coordinates: { lat: 50.0500, lng: 4.9333 },
+    mapQuery: 'Boulangerie Dumont, Vencimont, Belgium',
     images: [boulangerieDumont01, boulangerieDumont02, boulangerieDumont03, boulangerieDumont04],
   },
   {
@@ -46,10 +44,8 @@ export const shops: ShopItem[] = [
     shopType: 'supermarket',
     distance: '5 min',
     externalUrl: 'https://stores.delhaize.be/nl/proxy-delhaize-gedinne',
-    coordinates: {
-      lat: 49.9891,
-      lng: 4.9371,
-    },
+    coordinates: { lat: 49.9891, lng: 4.9371 },
+    mapQuery: 'Proxy Delhaize, Gedinne, Belgium',
     images: [proxyDelhaize00, proxyDelhaize02, proxyDelhaize03, proxyDelhaize01],
   },
   {
@@ -59,10 +55,8 @@ export const shops: ShopItem[] = [
     shopType: 'supermarket',
     distance: '5 min',
     externalUrl: 'https://www.intermarche.be/magasins/intermarche-gedinne/',
-    coordinates: {
-      lat: 49.9858,
-      lng: 4.9403,
-    },
+    coordinates: { lat: 49.9858, lng: 4.9403 },
+    mapQuery: 'Intermarché, Gedinne, Belgium',
     images: [intermarche01, intermarche02, intermarche03],
   },
   {
@@ -72,10 +66,8 @@ export const shops: ShopItem[] = [
     shopType: 'butcher',
     distance: '10 min',
     externalUrl: 'https://www.auxdelicesdelahouille.be/',
-    coordinates: {
-      lat: 50.0833,
-      lng: 4.8500,
-    },
+    coordinates: { lat: 50.0833, lng: 4.8500 },
+    mapQuery: 'Aux Délices de la Houille, Vencimont, Belgium',
     images: [auxDelices00, auxDelices01, auxDelices02, auxDelices03, auxDelices04, auxDelices05, auxDelices06],
   },
   {
@@ -85,10 +77,8 @@ export const shops: ShopItem[] = [
     shopType: 'farmshop',
     distance: '15 min',
     externalUrl: 'https://www.terracines.be/',
-    coordinates: {
-      lat: 50.0997,
-      lng: 4.9561,
-    },
+    coordinates: { lat: 50.0997, lng: 4.9561 },
+    mapQuery: 'Terracines, Beauraing, Belgium',
     images: [terracines01, terracines02, terracines03, terracines04, terracines05, terracines06],
   },
 ];
