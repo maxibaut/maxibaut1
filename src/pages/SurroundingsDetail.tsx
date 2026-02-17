@@ -111,6 +111,12 @@ const SurroundingsDetail = () => {
   const restaurantData = item.category === 'restaurants' ? (item as RestaurantItem) : null;
   const shopData = item.category === 'shops' ? (item as ShopItem) : null;
 
+  // Combine gallery images + route map for lightbox
+  const allImages = [
+    ...(item.images || []),
+    ...(walkData?.routeMapImage ? [walkData.routeMapImage] : []),
+  ];
+
   return (
     <PageWrapper>
       {/* Hero Section */}
@@ -235,66 +241,49 @@ const SurroundingsDetail = () => {
       )}
 
       {/* Lightbox */}
-      {lightboxOpen && item.images && (
+      {lightboxOpen && allImages.length > 0 && (
         <div 
           className="fixed inset-0 bg-black/90 z-50 flex items-center justify-center p-4"
           onClick={() => setLightboxOpen(false)}
         >
-          {/* Close button */}
           <button 
             className="absolute top-4 right-4 text-white hover:text-white/80 transition-colors z-10"
-            onClick={(e) => {
-              e.stopPropagation();
-              setLightboxOpen(false);
-            }}
+            onClick={(e) => { e.stopPropagation(); setLightboxOpen(false); }}
           >
             <X className="h-8 w-8" />
           </button>
 
-          {/* Previous button */}
-          {item.images.length > 1 && (
+          {allImages.length > 1 && (
             <button
               className="absolute left-4 top-1/2 -translate-y-1/2 w-12 h-12 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center text-white transition-colors z-10"
-              onClick={(e) => {
-                e.stopPropagation();
-                setLightboxIndex((prev) => (prev === 0 ? item.images!.length - 1 : prev - 1));
-              }}
+              onClick={(e) => { e.stopPropagation(); setLightboxIndex((prev) => (prev === 0 ? allImages.length - 1 : prev - 1)); }}
             >
               <ChevronLeft className="h-8 w-8" />
             </button>
           )}
 
-          {/* Image */}
           <img
-            src={item.images[lightboxIndex]}
+            src={allImages[lightboxIndex]}
             alt={`${title} - ${t('photoNumber', { number: lightboxIndex + 1, defaultValue: `afbeelding ${lightboxIndex + 1}` })}`}
             className="max-w-full max-h-[90vh] object-contain"
             onClick={(e) => e.stopPropagation()}
           />
 
-          {/* Next button */}
-          {item.images.length > 1 && (
+          {allImages.length > 1 && (
             <button
               className="absolute right-4 top-1/2 -translate-y-1/2 w-12 h-12 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center text-white transition-colors z-10"
-              onClick={(e) => {
-                e.stopPropagation();
-                setLightboxIndex((prev) => (prev === item.images!.length - 1 ? 0 : prev + 1));
-              }}
+              onClick={(e) => { e.stopPropagation(); setLightboxIndex((prev) => (prev === allImages.length - 1 ? 0 : prev + 1)); }}
             >
               <ChevronRight className="h-8 w-8" />
             </button>
           )}
 
-          {/* Dots indicator */}
           <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2">
-            {item.images.map((_, idx) => (
+            {allImages.map((_, idx) => (
               <button
                 key={idx}
                 className={`w-2 h-2 rounded-full transition-colors ${idx === lightboxIndex ? 'bg-white' : 'bg-white/40'}`}
-                onClick={(e) => {
-                  e.stopPropagation();
-                  setLightboxIndex(idx);
-                }}
+                onClick={(e) => { e.stopPropagation(); setLightboxIndex(idx); }}
               />
             ))}
           </div>
@@ -387,6 +376,34 @@ const SurroundingsDetail = () => {
                     <span>{tip}</span>
                   </p>
                 </div>
+              )}
+
+              {/* Route Map Image */}
+              {walkData?.routeMapImage && (
+                <Card>
+                  <CardContent className="pt-6">
+                    <h3 className="heading-4 mb-4 flex items-center gap-2">
+                      <Map className="h-5 w-5 text-primary" />
+                      {t('walks.routeMap', { defaultValue: 'Routekaart' })}
+                    </h3>
+                    <img
+                      src={walkData.routeMapImage}
+                      alt={`${title} - route map`}
+                      className="w-full rounded-lg cursor-pointer"
+                      onClick={() => {
+                        // Add map as last image in lightbox
+                        if (item.images) {
+                          setLightboxIndex(item.images.length);
+                          setLightboxOpen(true);
+                        }
+                      }}
+                    />
+                    <p className="text-sm text-muted-foreground mt-3 flex items-start gap-2">
+                      <span>🗺️</span>
+                      <span>{t('walks.walkingMapsNote')}</span>
+                    </p>
+                  </CardContent>
+                </Card>
               )}
             </div>
 
