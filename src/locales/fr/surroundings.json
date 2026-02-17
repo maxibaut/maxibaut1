@@ -14,6 +14,11 @@
   "walks": {
     "title": "Randonnées",
     "description": "Nos promenades préférées dans les environs, testées par nous et nos hôtes. Des promenades villageoises tranquilles aux randonnées aventureuses en train.",
+    "fromPropertyTitle": "Randonner depuis ArdenNest",
+    "fromPropertyDescription": "Enfilez vos chaussures de marche et partez depuis la porte d'entrée. Pas besoin de voiture.",
+    "nearbyTitle": "Randonnées dans les environs",
+    "nearbyDescription": "Un peu plus loin, mais absolument à découvrir. Accessibles en voiture ou en train.",
+    "atTheDoorstep": "Au pas de la porte",
     "buggyFriendly": "Adapté aux poussettes",
     "highlights": "Points forts",
     "duration": "Durée",

@@ -14,6 +14,11 @@
   "walks": {
     "title": "Walks",
     "description": "Our favorite walks nearby, tested by us and our guests. From quiet village walks to adventurous train walks.",
+    "fromPropertyTitle": "Walk from ArdenNest",
+    "fromPropertyDescription": "Put on your hiking boots and start at the front door. No car needed.",
+    "nearbyTitle": "Walks in the area",
+    "nearbyDescription": "A bit further away, but absolutely worth it. Reachable by car or train.",
+    "atTheDoorstep": "At the doorstep",
     "buggyFriendly": "Buggy-friendly",
     "highlights": "Highlights",
     "duration": "Duration",

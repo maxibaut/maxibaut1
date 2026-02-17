@@ -14,6 +14,11 @@
   "walks": {
     "title": "Wandelingen",
     "description": "Onze favoriete wandelingen in de buurt, getest door ons en onze gasten. Van rustige dorpswandelingen tot avontuurlijke treinwandelingen.",
+    "fromPropertyTitle": "Wandelen vanaf ArdenNest",
+    "fromPropertyDescription": "Trek je wandelschoenen aan en vertrek aan de voordeur. Geen auto nodig.",
+    "nearbyTitle": "Wandelingen in de omgeving",
+    "nearbyDescription": "Iets verder weg, maar absoluut de moeite. Bereikbaar met de auto of de trein.",
+    "atTheDoorstep": "Aan de voordeur",
     "buggyFriendly": "Buggy-vriendelijk",
     "highlights": "Hoogtepunten",
     "duration": "Duur",

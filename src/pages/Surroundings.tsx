@@ -16,6 +16,7 @@ import {
   Baby,
   TreePine,
   ChevronRight,
+  Home,
 } from 'lucide-react';
 import { walks, cycling, attractions, restaurants, shops } from '@/data/surroundings';
 import { useSEO } from '@/hooks/useSEO';
@@ -73,21 +74,21 @@ const Surroundings = () => {
         </div>
       </section>
 
-      {/* Wandelingen */}
+      {/* Wandelingen vanaf ArdenNest */}
       <section id="wandelingen" className="section-padding bg-cream-dark">
         <div className="container-luxury">
           <div className="flex items-center gap-3 mb-8">
             <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center">
-              <Footprints className="h-6 w-6 text-primary" />
+              <Home className="h-6 w-6 text-primary" />
             </div>
-            <h2 className="heading-2">{t('walks.title')}</h2>
+            <h2 className="heading-2">{t('walks.fromPropertyTitle')}</h2>
           </div>
           <p className="body-large text-muted-foreground mb-8 max-w-2xl">
-            {t('walks.description')}
+            {t('walks.fromPropertyDescription')}
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {walks.map((walk) => {
+            {walks.filter(w => w.startsFromProperty).map((walk) => {
               const title = t(`items.walks.${walk.slug}.title`, { defaultValue: walk.slug });
               const description = t(`items.walks.${walk.slug}.description`, { defaultValue: '' });
               const highlights = t(`items.walks.${walk.slug}.highlights`, { returnObjects: true, defaultValue: [] }) as string[];
@@ -102,7 +103,98 @@ const Surroundings = () => {
                       backgroundPosition: 'center',
                     } : undefined}
                   >
-                    {/* Overlay voor leesbaarheid */}
+                    {walk.images?.[0] && (
+                      <div className="absolute inset-0 bg-background/80 z-0" />
+                    )}
+                    <CardHeader className="pb-2 relative z-10">
+                      <div className="flex items-start justify-between gap-2">
+                        <CardTitle className="font-serif text-lg leading-tight group-hover:text-primary transition-colors">
+                          {title}
+                        </CardTitle>
+                        <Footprints className="h-5 w-5 text-muted-foreground flex-shrink-0" />
+                      </div>
+                    </CardHeader>
+                    <CardContent className="space-y-4 relative z-10">
+                      <p className="text-sm text-muted-foreground line-clamp-2">{description}</p>
+                      
+                      <div className="flex flex-wrap gap-2">
+                        <Badge variant="secondary" className="gap-1">
+                          <Home className="h-3 w-3" />
+                          {t('walks.atTheDoorstep')}
+                        </Badge>
+                        <Badge variant="secondary" className="gap-1">
+                          <Clock className="h-3 w-3" />
+                          {walk.duration}
+                        </Badge>
+                        <Badge variant="secondary" className="gap-1">
+                          <MapPin className="h-3 w-3" />
+                          {walk.routeDistance}
+                        </Badge>
+                        <Badge className={getDifficultyColor(walk.difficulty)}>
+                          {getDifficultyLabel(walk.difficulty)}
+                        </Badge>
+                        {walk.buggyFriendly && (
+                          <Badge variant="outline" className="gap-1">
+                            <Baby className="h-3 w-3" />
+                            {t('walks.buggyFriendly')}
+                          </Badge>
+                        )}
+                      </div>
+
+                      {Array.isArray(highlights) && highlights.length > 0 && (
+                        <div className="pt-2 border-t">
+                          <div className="flex flex-wrap gap-1">
+                            {highlights.slice(0, 3).map((highlight, idx) => (
+                              <span key={idx} className="text-xs bg-muted px-2 py-0.5 rounded">
+                                {highlight}
+                              </span>
+                            ))}
+                          </div>
+                        </div>
+                      )}
+
+                      <div className="flex items-center gap-1 text-sm text-primary group-hover:gap-2 transition-all pt-2">
+                        Meer info
+                        <ChevronRight className="h-4 w-4" />
+                      </div>
+                    </CardContent>
+                  </Card>
+                </Link>
+              );
+            })}
+          </div>
+        </div>
+      </section>
+
+      {/* Wandelingen in de omgeving */}
+      <section className="section-padding bg-background">
+        <div className="container-luxury">
+          <div className="flex items-center gap-3 mb-8">
+            <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center">
+              <Footprints className="h-6 w-6 text-primary" />
+            </div>
+            <h2 className="heading-2">{t('walks.nearbyTitle')}</h2>
+          </div>
+          <p className="body-large text-muted-foreground mb-8 max-w-2xl">
+            {t('walks.nearbyDescription')}
+          </p>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {walks.filter(w => !w.startsFromProperty).map((walk) => {
+              const title = t(`items.walks.${walk.slug}.title`, { defaultValue: walk.slug });
+              const description = t(`items.walks.${walk.slug}.description`, { defaultValue: '' });
+              const highlights = t(`items.walks.${walk.slug}.highlights`, { returnObjects: true, defaultValue: [] }) as string[];
+
+              return (
+                <Link key={walk.id} to={`/surroundings/walks/${walk.slug}`}>
+                  <Card 
+                    className="hover:shadow-lg transition-all hover:-translate-y-1 h-full group cursor-pointer relative overflow-hidden"
+                    style={walk.images?.[0] ? {
+                      backgroundImage: `url(${walk.images[0]})`,
+                      backgroundSize: 'cover',
+                      backgroundPosition: 'center',
+                    } : undefined}
+                  >
                     {walk.images?.[0] && (
                       <div className="absolute inset-0 bg-background/80 z-0" />
                     )}
@@ -144,10 +236,7 @@ const Surroundings = () => {
                         <div className="pt-2 border-t">
                           <div className="flex flex-wrap gap-1">
                             {highlights.slice(0, 3).map((highlight, idx) => (
-                              <span
-                                key={idx}
-                                className="text-xs bg-muted px-2 py-0.5 rounded"
-                              >
+                              <span key={idx} className="text-xs bg-muted px-2 py-0.5 rounded">
                                 {highlight}
                               </span>
                             ))}

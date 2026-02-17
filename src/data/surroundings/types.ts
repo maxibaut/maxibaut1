@@ -26,6 +26,7 @@ export interface WalkItem extends SurroundingsItemBase {
   routeDistance: string; // Walking distance
   difficulty: Difficulty;
   buggyFriendly: boolean;
+  startsFromProperty?: boolean; // Walk starts from the house
   trainBookingUrl?: string; // Link to train booking website
   routeMapImage?: string; // Route map image
 }
