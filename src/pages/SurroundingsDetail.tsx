@@ -115,10 +115,11 @@ const SurroundingsDetail = () => {
   // Track which heading was last seen to inject inline images after it
   let bikeSectionPassed = false;
 
-  // Combine gallery images + route map for lightbox
+  // Combine gallery images + route map + bike image for lightbox
   const allImages = [
     ...(item.images || []),
     ...(walkData?.routeMapImage ? [walkData.routeMapImage] : []),
+    ...(cyclingData?.bikeImage ? [cyclingData.bikeImage] : []),
   ];
 
   return (
@@ -355,11 +356,17 @@ const SurroundingsDetail = () => {
                         dangerouslySetInnerHTML={{ __html: sanitizedParagraph }}
                       />
                       {showBikeImage && (
-                        <img
-                          src={cyclingData!.bikeImage}
-                          alt="BH Atom elektrische fiets"
-                          className="w-full max-w-sm rounded-lg my-4"
-                        />
+                        <div className="flex justify-center my-6">
+                          <img
+                            src={cyclingData!.bikeImage}
+                            alt="BH Atom elektrische fiets"
+                            className="max-w-sm w-full rounded-lg cursor-pointer hover:opacity-90 transition-opacity"
+                            onClick={() => {
+                              const bikeIdx = (item.images?.length ?? 0) + (walkData?.routeMapImage ? 1 : 0);
+                              openLightbox(bikeIdx);
+                            }}
+                          />
+                        </div>
                       )}
                     </div>
                   );
