@@ -22,7 +22,9 @@
   "preferTalk": {
     "title": "Prefer to talk first?",
     "description": "No problem! Feel free to contact Bieke for questions or to discuss the options.",
-    "cta": "Contact us"
+    "cta": "Contact us",
+    "callBieke": "Call Bieke",
+    "mailBieke": "Email Bieke"
   },
   "payment": {
     "title": "Secure payment",

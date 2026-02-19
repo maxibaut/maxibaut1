@@ -87,5 +87,11 @@
     "checkIn": "Check-in: 16:00",
     "checkOut": "Check-out: 10:00",
     "parking": "Ruime parking"
+  },
+  "cta": {
+    "title": "Klaar om te boeken?",
+    "description": "Bekijk de beschikbaarheid en boek direct bij ons voor de beste prijs.",
+    "availability": "Bekijk beschikbaarheid",
+    "contact": "Neem contact op"
   }
 }

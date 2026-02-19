@@ -22,7 +22,9 @@
   "preferTalk": {
     "title": "Lieber erst sprechen?",
     "description": "Kein Problem! Kontaktieren Sie gerne Bieke für Fragen oder um die Möglichkeiten zu besprechen.",
-    "cta": "Kontaktieren Sie uns"
+    "cta": "Kontaktieren Sie uns",
+    "callBieke": "Bieke anrufen",
+    "mailBieke": "Bieke schreiben"
   },
   "payment": {
     "title": "Sichere Zahlung",

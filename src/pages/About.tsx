@@ -135,7 +135,7 @@ const About = () => {
               className="bg-accent hover:bg-accent/90 text-accent-foreground"
             >
               <Link to="/booking">
-                Boek direct bij ons
+                {t('whyRelationship.cta')}
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Link>
             </Button>

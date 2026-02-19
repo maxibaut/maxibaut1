@@ -87,5 +87,11 @@
     "checkIn": "Arrivée: 16h00",
     "checkOut": "Départ: 10h00",
     "parking": "Parking spacieux"
+  },
+  "cta": {
+    "title": "Prêt à réserver?",
+    "description": "Consultez les disponibilités et réservez directement chez nous pour le meilleur prix.",
+    "availability": "Voir les disponibilités",
+    "contact": "Nous contacter"
   }
 }

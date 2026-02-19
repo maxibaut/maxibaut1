@@ -156,7 +156,7 @@ const Surroundings = () => {
                       )}
 
                       <div className="flex items-center gap-1 text-sm text-primary group-hover:gap-2 transition-all pt-2">
-                        Meer info
+                        {t('moreInfo')}
                         <ChevronRight className="h-4 w-4" />
                       </div>
                     </CardContent>
@@ -247,7 +247,7 @@ const Surroundings = () => {
                       )}
 
                       <div className="flex items-center gap-1 text-sm text-primary group-hover:gap-2 transition-all pt-2">
-                        Meer info
+                        {t('moreInfo')}
                         <ChevronRight className="h-4 w-4" />
                       </div>
                     </CardContent>
@@ -308,7 +308,7 @@ const Surroundings = () => {
                       </div>
 
                       <div className="flex items-center gap-1 text-sm text-primary group-hover:gap-2 transition-all pt-2">
-                        Meer info
+                        {t('moreInfo')}
                         <ChevronRight className="h-4 w-4" />
                       </div>
                     </CardContent>
@@ -367,7 +367,7 @@ const Surroundings = () => {
                       )}
 
                       <div className="flex items-center gap-1 text-sm text-primary group-hover:gap-2 transition-all pt-2">
-                        Meer info
+                        {t('moreInfo')}
                         <ChevronRight className="h-4 w-4" />
                       </div>
                     </CardContent>
@@ -427,7 +427,7 @@ const Surroundings = () => {
                       </div>
 
                       <div className="flex items-center gap-1 text-sm text-primary group-hover:gap-2 transition-all pt-2">
-                        Meer info
+                        {t('moreInfo')}
                         <ChevronRight className="h-4 w-4" />
                       </div>
                     </CardContent>

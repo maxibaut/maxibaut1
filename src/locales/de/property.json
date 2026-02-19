@@ -87,5 +87,11 @@
     "checkIn": "Check-in: 16:00 Uhr",
     "checkOut": "Check-out: 10:00 Uhr",
     "parking": "Großer Parkplatz"
+  },
+  "cta": {
+    "title": "Bereit zu buchen?",
+    "description": "Prüfen Sie die Verfügbarkeit und buchen Sie direkt bei uns für den besten Preis.",
+    "availability": "Verfügbarkeit prüfen",
+    "contact": "Kontakt aufnehmen"
   }
 }
