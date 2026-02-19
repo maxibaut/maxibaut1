@@ -87,5 +87,11 @@
     "checkIn": "Check-in: 4:00 PM",
     "checkOut": "Check-out: 10:00 AM",
     "parking": "Spacious parking"
+  },
+  "cta": {
+    "title": "Ready to book?",
+    "description": "Check availability and book directly with us for the best price.",
+    "availability": "View availability",
+    "contact": "Contact us"
   }
 }

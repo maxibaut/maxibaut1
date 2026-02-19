@@ -74,7 +74,7 @@ export const WhyBookDirect = () => {
             <div className="aspect-[4/3] rounded-lg overflow-hidden shadow-2xl">
               <img
                 src={terraceDining}
-                alt="Arden'Nest property"
+                alt={t('whyBookDirect.imageAlt', "Arden'Nest terras met eethoek voor groepen")}
                 className="w-full h-full object-cover"
                 loading="lazy"
               />

@@ -22,7 +22,9 @@
   "preferTalk": {
     "title": "Liever eerst praten?",
     "description": "Geen probleem! Neem gerust contact met Bieke op voor vragen of om de mogelijkheden te bespreken.",
-    "cta": "Neem contact op"
+    "cta": "Neem contact op",
+    "callBieke": "Bel Bieke",
+    "mailBieke": "Mail Bieke"
   },
   "payment": {
     "title": "Veilig betalen",

@@ -103,13 +103,13 @@ const Booking = () => {
               <Button asChild variant="outline" size="lg">
                 <a href="tel:+32478030352">
                   <Phone className="mr-2 h-5 w-5" />
-                  Bel Bieke
+                  {t("preferTalk.callBieke")}
                 </a>
               </Button>
               <Button asChild variant="outline" size="lg">
                 <a href="mailto:bieke@ardennest.be">
                   <Mail className="mr-2 h-5 w-5" />
-                  Mail Bieke
+                  {t("preferTalk.mailBieke")}
                 </a>
               </Button>
               <Button asChild size="lg">

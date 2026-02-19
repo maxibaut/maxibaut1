@@ -377,19 +377,19 @@ const Property = () => {
       {/* CTA Section */}
       <section className="section-padding bg-cream-dark">
         <div className="container-luxury text-center">
-          <h2 className="heading-2 mb-4">Klaar om te boeken?</h2>
+          <h2 className="heading-2 mb-4">{t('cta.title')}</h2>
           <p className="body-large text-muted-foreground mb-8 max-w-2xl mx-auto">
-            Bekijk de beschikbaarheid en boek direct bij ons voor de beste prijs.
+            {t('cta.description')}
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Button asChild size="lg" className="bg-primary hover:bg-primary/90">
               <Link to="/booking">
-                Bekijk beschikbaarheid
+                {t('cta.availability')}
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Link>
             </Button>
             <Button asChild variant="outline" size="lg">
-              <Link to="/contact">Neem contact op</Link>
+              <Link to="/contact">{t('cta.contact')}</Link>
             </Button>
           </div>
         </div>
