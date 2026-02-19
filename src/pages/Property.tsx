@@ -4,7 +4,8 @@ import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
-import { Users, Bed, Bath, TreePine, ChefHat, ArrowRight, Sofa, BookOpen, Check, ShowerHead, Moon } from 'lucide-react';
+import { Bed, Bath, TreePine, ChefHat, ArrowRight, Sofa, BookOpen, Check, ShowerHead, Moon } from 'lucide-react';
+import { MdFamilyRestroom } from 'react-icons/md';
 import { 
   propertyHero, 
   kitchen,
@@ -95,7 +96,7 @@ const Property = () => {
   };
 
   const features = [
-    { icon: Users, label: t('overview.capacity') },
+    { icon: MdFamilyRestroom, label: t('overview.capacity') },
     { icon: Bed, label: t('overview.bedrooms') },
     { icon: Bath, label: t('overview.bathrooms') },
     { icon: TreePine, label: t('overview.garden') },
