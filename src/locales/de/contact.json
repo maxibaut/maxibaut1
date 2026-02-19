@@ -55,7 +55,7 @@
       "guests": "26 Personen",
       "charging": "EV-Ladestation",
       "wifi": "WLAN",
-    "noPets": "Keine Haustiere",
+      "noPets": "Keine Haustiere",
       "noSmoking": "Nichtraucher",
       "noParties": "Keine Partys"
     },
@@ -79,7 +79,7 @@
       "brussels": "Brüssel: 1h30",
       "antwerp": "Antwerpen: 1h55",
       "hasselt": "Hasselt: 1h35",
-      "bruges": "Brügge: 2h15",
+      "brugge": "Brügge: 2h15",
       "trier": "Trier: 1h25",
       "utrecht": "Utrecht: 2h50",
       "cologne": "Köln: 2h10",
