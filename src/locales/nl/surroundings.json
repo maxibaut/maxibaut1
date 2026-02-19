@@ -35,6 +35,18 @@
     "description": "Van vlakke RAVeL-paden langs de rivier tot uitdagende mountainbike routes door de bossen.",
     "rental": "Verhuur"
   },
+  "pricing": {
+    "title": "Tarieven",
+    "perBike": "per fiets",
+    "shortRental": "Korte verhuur",
+    "longRental": "Lange verhuur",
+    "fullDay": "Volledige dag",
+    "halfDay": "Halve dag",
+    "weekend": "Weekend",
+    "extraDay": "Extra dag",
+    "included": "Inbegrepen",
+    "departure": "Vertrek"
+  },
   "attractions": {
     "title": "Bezienswaardigheden",
     "description": "De Ardennen hebben veel te bieden. Deze bestemmingen zijn perfect voor een daguitstap."
@@ -127,7 +139,10 @@
       "la-balade-de-sim": {
         "title": "La Balade de Sim — Elektrische fietsverhuur",
         "description": "Elektrische fietsen aan huis geleverd. Sim brengt de fietsen naar jullie vakantiehuis en haalt ze nadien op — jullie hoeven nergens te zijn.",
-        "fullDescription": "La Balade de Sim is een kleine, persoonlijke fietsverhuur gerund door een gepassioneerde fietser die zijn streek door en door kent.\n\n## Hoe werkt het?\n\nSim brengt de elektrische fietsen rechtstreeks naar jullie vakantiehuis — op het moment dat jullie het willen, voor de duur die jullie kiezen. Na afloop haalt hij ze gewoon weer op. Geen gedoe met autorijden naar een verhuurpunt, geen wachtrijen.\n\n## De fietsen\n\nKwaliteitsvolle elektrische fietsen (BH Atom) die zorgen voor een aangename en moeiteloze fietservaring. Iedereen — ook wie niet zo goed in conditie is — kan zo genieten van de mooie omgeving.\n\n## De routes\n\nSim stelt op aanvraag gepersonaliseerde routes samen, van Dinant tot de Semois, via Houyet en Daverdisse. Je kunt ook vertrekken vanuit het Castel de Beauraing voor een van zijn 3 vaste routes.\n\n## Vanuit Arden'Nest\n\nSim komt gewoon bij jullie aan de deur. Bestel ruim op voorhand, zeker in het hoogseizoen."
+        "fullDescription": "La Balade de Sim is een kleine, persoonlijke fietsverhuur gerund door een gepassioneerde fietser die zijn streek door en door kent.\n\n## Hoe werkt het?\n\nSim brengt de elektrische fietsen rechtstreeks naar jullie vakantiehuis — op het moment dat jullie het willen, voor de duur die jullie kiezen. Na afloop haalt hij ze gewoon weer op. Geen gedoe met autorijden naar een verhuurpunt, geen wachtrijen.\n\n## De fietsen\n\nKwaliteitsvolle elektrische fietsen (BH Atom) die zorgen voor een aangename en moeiteloze fietservaring. Iedereen — ook wie niet zo goed in conditie is — kan zo genieten van de mooie omgeving.\n\n## De routes\n\nSim stelt op aanvraag gepersonaliseerde routes samen, van Dinant tot de Semois, via Houyet en Daverdisse. Je kunt ook vertrekken vanuit het Castel de Beauraing voor een van zijn 3 vaste routes.\n\n## Vanuit Arden'Nest\n\nSim komt gewoon bij jullie aan de deur. Bestel ruim op voorhand, zeker in het hoogseizoen.",
+        "pricingShortNote": "Vertrek vanuit Castel Saint-Pierre de Beauraing",
+        "pricingLongNote": "Levering en reiniging inbegrepen",
+        "pricingIncluded": "Helm, reparatieset, gepersonaliseerde routes"
       }
     },
     "attractions": {
