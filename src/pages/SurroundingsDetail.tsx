@@ -126,8 +126,8 @@ const SurroundingsDetail = () => {
       {/* Hero Section */}
       <section 
         className="bg-primary text-primary-foreground section-padding relative overflow-hidden"
-        style={item.images?.[0] ? {
-          backgroundImage: `url(${item.images[0]})`,
+        style={(item.heroImage || item.images?.[0]) ? {
+          backgroundImage: `url(${item.heroImage || item.images![0]})`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         } : undefined}

@@ -11,7 +11,8 @@ export interface SurroundingsItemBase {
   slug: string;
   category: SurroundingsCategory;
   distance?: string; // Distance from property
-  images?: string[]; // Array of image paths
+  heroImage?: string; // Hero background image (not shown in gallery)
+  images?: string[]; // Array of gallery image paths
   externalUrl?: string;
   coordinates?: {
     lat: number;
