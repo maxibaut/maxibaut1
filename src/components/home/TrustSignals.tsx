@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next';
-import { Star, Clock, Users, ExternalLink } from 'lucide-react';
+import { Star, Clock, ExternalLink } from 'lucide-react';
+import FamilyIcon from '@/components/icons/FamilyIcon';
 
 const GOOGLE_REVIEWS_URL = 'https://www.google.com/travel/hotels/entity/CgoIvbmkjtmR3opzEAE/reviews?q=Ferme%20du%20Chateau%2C%20Malvoisin%20Rue%20de%20la%20ferme%203%20Malvoisin&hl=nl-BE&gl=be';
 
@@ -22,7 +23,7 @@ export const TrustSignals = () => {
       isReview: false,
     },
     {
-      icon: Users,
+      icon: FamilyIcon,
       title: t('trust.capacity'),
       subtitle: t('trust.capacityDetail'),
       detail: null,
@@ -38,7 +39,7 @@ export const TrustSignals = () => {
             const content = (
               <>
                 <div className="flex-shrink-0 w-14 h-14 rounded-full bg-primary/10 flex items-center justify-center">
-                  <signal.icon className="h-6 w-6 text-primary" />
+                  <signal.icon className="h-6 w-6 text-primary" size={24} />
                 </div>
                 <div>
                   <div className="flex items-center space-x-2">
