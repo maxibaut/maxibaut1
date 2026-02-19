@@ -41,26 +41,25 @@ const Differentiators = () => {
   const [lightboxOpen, setLightboxOpen] = useState(false);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
-  // sections is defined below, allPhotos and handleImageClick come after it
-  const sections = [
+  const sections = useMemo(() => [
     {
       id: 'customer-journey',
       icon: Headphones,
-      title: 'Persoonlijke Begeleiding',
-      description: 'Van eerste contact tot vertrek: wij begeleiden u bij elke stap. Duidelijke communicatie, transparante afrekening en persoonlijke service maken het verschil.',
+      title: t('differentiators.customerJourney.title'),
+      description: t('differentiators.customerJourney.description'),
       image: gardenSports,
-      imageAlt: 'Persoonlijke service',
+      imageAlt: t('differentiators.customerJourney.title'),
       sideImages: [
-        { src: familyPortrait, alt: 'Eigenaren' },
-        { src: propertyHero, alt: 'Voorgevel' },
-        { src: terraceDining, alt: 'Terras' },
-        { src: gardenAerial, alt: 'Tuin' },
+        { src: familyPortrait, alt: t('differentiators.customerJourney.title') },
+        { src: propertyHero, alt: t('differentiators.certified.title') },
+        { src: terraceDining, alt: t('differentiators.gardenFull.title') },
+        { src: gardenAerial, alt: t('differentiators.gardenFull.title') },
       ],
       features: [
-        'Begeleiding tijdens boekingsproces',
-        'Duidelijke betalingstermijnen',
-        'Gedetailleerde afrekening',
-        'Achtergebleven spullen worden opgestuurd',
+        t('differentiators.customerJourney.feature1'),
+        t('differentiators.customerJourney.feature2'),
+        t('differentiators.customerJourney.feature3'),
+        t('differentiators.customerJourney.feature4'),
       ],
       reverse: false,
     },
@@ -70,102 +69,102 @@ const Differentiators = () => {
       title: t('differentiators.quietLuxury.title'),
       description: t('differentiators.quietLuxury.description'),
       image: bedroomQuietLuxury,
-      imageAlt: 'Stijlvolle slaapkamer met ensuite badkamer',
+      imageAlt: t('differentiators.quietLuxury.title'),
       sideImages: [
-        { src: bedroomPrimary, alt: 'Hoofdslaapkamer' },
-        { src: bedroomAtmospheric, alt: 'Sfeervolle slaapkamer' },
-        { src: bedroomMezzanine, alt: 'Mezzanine slaapkamer' },
-        { src: livingFireplace, alt: 'Woonkamer met open haard' },
+        { src: bedroomPrimary, alt: t('differentiators.mattresses.title') },
+        { src: bedroomAtmospheric, alt: t('differentiators.ventilation.title') },
+        { src: bedroomMezzanine, alt: t('differentiators.mattresses.title') },
+        { src: livingFireplace, alt: t('differentiators.quietLuxury.title') },
       ],
       features: [
-        'Verfijning zonder opsmuk – kwaliteit die voor zich spreekt',
-        'Digital detox en rust – tegenwicht aan drukke, flashy vakanties',
-        'Authentieke beleving – focus op échte momenten',
-        'Waardevol samenzijn – luxe wordt gemeten in kwaliteit van momenten',
+        t('differentiators.mattresses.feature1'),
+        t('differentiators.mattresses.feature2'),
+        t('differentiators.mattresses.feature3'),
+        t('differentiators.mattresses.feature4'),
       ],
       reverse: true,
     },
     {
       id: 'kitchen',
       icon: ChefHat,
-      title: 'Keuken op Horecaniveau',
-      description: 'Geen gewone vakantiekeuken. Hier staat restaurantmateriaal — gebouwd om dagelijks voor 26 personen te draaien. Alles is horeca-kwaliteit, tot en met het sproeisysteem boven het fornuis.',
+      title: t('differentiators.kitchenPro.title'),
+      description: t('differentiators.kitchenPro.description'),
       image: kitchen,
-      imageAlt: 'Professionele keuken met Lacanche fornuis',
+      imageAlt: t('differentiators.kitchenPro.title'),
       sideImages: [
-        { src: mieleDishwasher, alt: 'Miele professionele vaatwasser' },
-        { src: diningRoom, alt: 'Eetkamer' },
-        { src: terraceDining, alt: 'Terras met eethoek' },
-        { src: playBarn, alt: 'Speelstal' },
+        { src: mieleDishwasher, alt: t('differentiators.dishCabinet.title') },
+        { src: diningRoom, alt: t('differentiators.dishCabinet.title') },
+        { src: terraceDining, alt: t('differentiators.gardenFull.title') },
+        { src: playBarn, alt: t('differentiators.playBarn.title') },
       ],
       features: [
-        'Lacanche Cluny — restaurantwaardig fornuis met gastronorm oven en warmhoudkast',
-        '2 Miele Professional vaatwassers — alles schoon in 30 minuten',
-        'Professionele koelkast en koele berging — ruimte voor alle boodschappen van de groep',
-        'Sproeisysteem boven het fornuis — brandveiligheid op horecastandaard',
+        t('differentiators.kitchenPro.feature1'),
+        t('differentiators.kitchenPro.feature2'),
+        t('differentiators.kitchenPro.feature3'),
+        t('differentiators.kitchenPro.feature4'),
       ],
       reverse: true,
     },
     {
       id: 'garden',
       icon: TreePine,
-      title: 'De Tuin',
-      description: 'Niets is recht, niets is strak. Een enorm glooiend landschap waar kinderen urenlang verdwijnen en volwassenen tot rust komen. Altijd netjes onderhouden, met ruimte voor iedereen — van schattenjacht tot petanque, van voetbal tot aperitief.',
+      title: t('differentiators.gardenFull.title'),
+      description: t('differentiators.gardenFull.description'),
       image: gardenAerial,
-      imageAlt: 'Luchtfoto van de 2 hectare grote tuin',
+      imageAlt: t('differentiators.gardenFull.title'),
       sideImages: [
-        { src: gardenSports, alt: 'Sportveld in de tuin' },
-        { src: bbqTerrace, alt: 'Barbecue op het terras' },
-        { src: gardenHiddenPath, alt: 'Verborgen plekje in de tuin' },
-        { src: gardenHammock, alt: 'Hangmat tussen fruitbomen in de tuin' },
+        { src: gardenSports, alt: t('differentiators.gardenFull.title') },
+        { src: bbqTerrace, alt: t('differentiators.gardenFull.title') },
+        { src: gardenHiddenPath, alt: t('differentiators.gardenFull.title') },
+        { src: gardenHammock, alt: t('differentiators.gardenFull.title') },
       ],
       features: [
-        'Groot voetbalveld met volleybalnet en petanquebaan',
-        'Verborgen plekjes doorheen de tuin — kinderen ontdekken steeds iets nieuws',
-        '3 grote banken en 10 professionele ligzetels met tafeltjes bij mooi weer',
-        'Terras tussen huis en tuin met 2 barbecues — de perfecte tussenstop',
+        t('differentiators.gardenFull.feature1'),
+        t('differentiators.gardenFull.feature2'),
+        t('differentiators.gardenFull.feature3'),
+        t('differentiators.gardenFull.feature4'),
       ],
       reverse: false,
     },
     {
       id: 'game-room',
       icon: Gamepad2,
-      title: 'De Speelkamer',
-      description: 'Een ruimte waar jong en oud elkaar uitdagen. Van spannende potjes pool tot fanatieke voetbalwedstrijden aan de tafel.',
+      title: t('differentiators.gameRoom.title'),
+      description: t('differentiators.gameRoom.description'),
       image: gameRoomPool,
-      imageAlt: 'Speelkamer met professionele pooltafel',
+      imageAlt: t('differentiators.gameRoom.title'),
       sideImages: [
-        { src: gameRoomFoosball, alt: 'Tafelvoetbal' },
-        { src: playBarn, alt: 'Speelstal' },
-        { src: gardenSports, alt: 'Sportveld' },
-        { src: livingFireplace, alt: 'Woonkamer' },
+        { src: gameRoomFoosball, alt: t('differentiators.gameRoom.title') },
+        { src: playBarn, alt: t('differentiators.playBarn.title') },
+        { src: gardenSports, alt: t('differentiators.gardenFull.title') },
+        { src: livingFireplace, alt: t('differentiators.quietLuxury.title') },
       ],
       features: [
-        'Professionele pooltafel',
-        'Voetbaltafel voor intense matches',
-        'Uitgebreide bordspellen collectie',
-        'Retro gaming voor de liefhebbers',
+        t('differentiators.gameRoom.feature1'),
+        t('differentiators.gameRoom.feature2'),
+        t('differentiators.gameRoom.feature3'),
+        t('differentiators.gameRoom.feature4'),
       ],
       reverse: false,
     },
     {
       id: 'play-barn',
       icon: Car,
-      title: 'De Speelstal',
-      description: 'De voormalige paardenstal waar ooit de trekpaarden stonden, is nu een speelparadijs voor de allerkleinsten. Vol met skelters, tractoren en speelgoed voor urenlang plezier.',
+      title: t('differentiators.playBarn.title'),
+      description: t('differentiators.playBarn.description'),
       image: playBarn,
-      imageAlt: 'De speelstal met go-karts en skelters',
+      imageAlt: t('differentiators.playBarn.title'),
       sideImages: [
-        { src: farmhouseAerial, alt: 'Luchtfoto hoeve met asfalt vooraan' },
-        { src: farmhouseFront, alt: 'Vooraanzicht hoeve met oprit' },
-        { src: farmhouseSide, alt: 'Zijgevel hoeve met grote poort' },
-        { src: farmhouseEntrance, alt: 'Ingang hoeve met kwaliteitslabels' },
+        { src: farmhouseAerial, alt: t('differentiators.certified.title') },
+        { src: farmhouseFront, alt: t('differentiators.certified.title') },
+        { src: farmhouseSide, alt: t('differentiators.certified.title') },
+        { src: farmhouseEntrance, alt: t('differentiators.certified.title') },
       ],
       features: [
-        'Go-karts en skelters',
-        'Trapautootjes en tractoren',
-        'Driewielers voor de kleintjes',
-        'Rondjes rijden op het asfalt en stoepkrijten vooraan de hoeve',
+        t('differentiators.playBarn.feature1'),
+        t('differentiators.playBarn.feature2'),
+        t('differentiators.playBarn.feature3'),
+        t('differentiators.playBarn.feature4'),
       ],
       reverse: true,
     },
@@ -175,12 +174,12 @@ const Differentiators = () => {
       title: t('differentiators.mattresses.title'),
       description: t('differentiators.mattresses.description'),
       image: bedroomPrimary,
-      imageAlt: 'Comfortabel boxspring bed',
+      imageAlt: t('differentiators.mattresses.title'),
       sideImages: [
-        { src: bedroomQuietLuxury, alt: 'Luxe slaapkamer' },
-        { src: bedroomAtmospheric, alt: 'Sfeervolle slaapkamer' },
-        { src: bedroomMezzanine, alt: 'Mezzanine' },
-        { src: livingFireplace, alt: 'Woonkamer' },
+        { src: bedroomQuietLuxury, alt: t('differentiators.quietLuxury.title') },
+        { src: bedroomAtmospheric, alt: t('differentiators.mattresses.title') },
+        { src: bedroomMezzanine, alt: t('differentiators.mattresses.title') },
+        { src: livingFireplace, alt: t('differentiators.quietLuxury.title') },
       ],
       features: [
         t('differentiators.mattresses.feature1'),
@@ -196,18 +195,18 @@ const Differentiators = () => {
       title: t('differentiators.dishCabinet.title'),
       description: t('differentiators.dishCabinet.description'),
       image: diningRoom,
-      imageAlt: 'Volledig ingerichte eetkamer',
+      imageAlt: t('differentiators.dishCabinet.title'),
       sideImages: [
-        { src: kitchen, alt: 'Keuken' },
-        { src: oakTableDetail, alt: 'Eiken tafel' },
-        { src: terraceDining, alt: 'Terras' },
-        { src: livingFireplace, alt: 'Woonkamer' },
+        { src: kitchen, alt: t('differentiators.kitchenPro.title') },
+        { src: oakTableDetail, alt: t('differentiators.dishCabinet.title') },
+        { src: terraceDining, alt: t('differentiators.gardenFull.title') },
+        { src: livingFireplace, alt: t('differentiators.quietLuxury.title') },
       ],
       features: [
-        'Volledige controle na elke gast',
-        'Alles compleet en in perfecte staat',
-        'Geen verrassingen bij aankomst',
-        'Aandacht voor detail',
+        t('differentiators.dishCabinetFeature1'),
+        t('differentiators.dishCabinetFeature2'),
+        t('differentiators.dishCabinetFeature3'),
+        t('differentiators.dishCabinetFeature4'),
       ],
       reverse: true,
     },
@@ -217,18 +216,18 @@ const Differentiators = () => {
       title: t('differentiators.professionalEquipment.title'),
       description: t('differentiators.professionalEquipment.description'),
       image: kitchen,
-      imageAlt: 'Horeca-kwaliteit keuken',
+      imageAlt: t('differentiators.professionalEquipment.title'),
       sideImages: [
-        { src: diningRoom, alt: 'Eetkamer' },
-        { src: oakTableDetail, alt: 'Eiken tafel' },
-        { src: terraceDining, alt: 'Terras' },
-        { src: livingFireplace, alt: 'Woonkamer' },
+        { src: diningRoom, alt: t('differentiators.dishCabinet.title') },
+        { src: oakTableDetail, alt: t('differentiators.dishCabinet.title') },
+        { src: terraceDining, alt: t('differentiators.gardenFull.title') },
+        { src: livingFireplace, alt: t('differentiators.quietLuxury.title') },
       ],
       features: [
-        'Horeca-kwaliteit potten en pannen',
-        'Professioneel kookgerei',
-        'Geschikt voor grote groepen',
-        'Alles wat u nodig heeft',
+        t('differentiators.professionalEquipmentFeature1'),
+        t('differentiators.professionalEquipmentFeature2'),
+        t('differentiators.professionalEquipmentFeature3'),
+        t('differentiators.professionalEquipmentFeature4'),
       ],
       reverse: false,
     },
@@ -238,18 +237,18 @@ const Differentiators = () => {
       title: t('differentiators.livingOnSite.title'),
       description: t('differentiators.livingOnSite.description'),
       image: familyPortrait,
-      imageAlt: 'Eigenaren op het domein',
+      imageAlt: t('differentiators.livingOnSite.title'),
       sideImages: [
-        { src: propertyHero, alt: 'Voorgevel' },
-        { src: gardenAerial, alt: 'Tuin overzicht' },
-        { src: terraceDining, alt: 'Terras' },
-        { src: gardenLandscape, alt: 'Landschap' },
+        { src: propertyHero, alt: t('differentiators.certified.title') },
+        { src: gardenAerial, alt: t('differentiators.gardenFull.title') },
+        { src: terraceDining, alt: t('differentiators.gardenFull.title') },
+        { src: gardenLandscape, alt: t('differentiators.gardenFull.title') },
       ],
       features: [
-        '25 jaar woonervaring ter plaatse',
-        'Diepgaande kennis van het huis',
-        'Kennis van de omgeving',
-        'Altijd bereikbaar indien nodig',
+        t('differentiators.livingOnSiteFeature1'),
+        t('differentiators.livingOnSiteFeature2'),
+        t('differentiators.livingOnSiteFeature3'),
+        t('differentiators.livingOnSiteFeature4'),
       ],
       reverse: true,
     },
@@ -259,18 +258,18 @@ const Differentiators = () => {
       title: t('differentiators.utilities.title'),
       description: t('differentiators.utilities.description'),
       image: propertyHero,
-      imageAlt: 'Voorgevel van de hoeve',
+      imageAlt: t('differentiators.utilities.title'),
       sideImages: [
-        { src: kitchen, alt: 'Keuken' },
-        { src: livingFireplace, alt: 'Woonkamer met haard' },
-        { src: bedroomPrimary, alt: 'Slaapkamer' },
-        { src: terraceDining, alt: 'Terras' },
+        { src: kitchen, alt: t('differentiators.kitchenPro.title') },
+        { src: livingFireplace, alt: t('differentiators.quietLuxury.title') },
+        { src: bedroomPrimary, alt: t('differentiators.mattresses.title') },
+        { src: terraceDining, alt: t('differentiators.gardenFull.title') },
       ],
       features: [
-        'Water inbegrepen',
-        'Elektriciteit inbegrepen',
-        'Verwarming inbegrepen',
-        'Geen verrassingen bij afrekening',
+        t('differentiators.utilitiesFeature1'),
+        t('differentiators.utilitiesFeature2'),
+        t('differentiators.utilitiesFeature3'),
+        t('differentiators.utilitiesFeature4'),
       ],
       reverse: false,
     },
@@ -280,18 +279,18 @@ const Differentiators = () => {
       title: t('differentiators.greenKey.title'),
       description: t('differentiators.greenKey.description'),
       image: gardenLandscape,
-      imageAlt: 'Groene omgeving',
+      imageAlt: t('differentiators.greenKey.title'),
       sideImages: [
-        { src: gardenAerial, alt: 'Tuin overzicht' },
-        { src: gardenSports, alt: 'Sportveld' },
-        { src: propertyHero, alt: 'Voorgevel' },
-        { src: terraceDining, alt: 'Terras' },
+        { src: gardenAerial, alt: t('differentiators.gardenFull.title') },
+        { src: gardenSports, alt: t('differentiators.gardenFull.title') },
+        { src: propertyHero, alt: t('differentiators.certified.title') },
+        { src: terraceDining, alt: t('differentiators.gardenFull.title') },
       ],
       features: [
-        'Kandidaat Green Key label',
-        'Duurzaam toerisme',
-        'Milieubewuste keuzes',
-        'Respect voor de natuur',
+        t('differentiators.greenKeyFeature1'),
+        t('differentiators.greenKeyFeature2'),
+        t('differentiators.greenKeyFeature3'),
+        t('differentiators.greenKeyFeature4'),
       ],
       reverse: true,
     },
@@ -301,18 +300,18 @@ const Differentiators = () => {
       title: t('differentiators.certified.title'),
       description: t('differentiators.certified.description'),
       image: terraceDining,
-      imageAlt: 'Terras met eethoek',
+      imageAlt: t('differentiators.certified.title'),
       sideImages: [
-        { src: propertyHero, alt: 'Voorgevel' },
-        { src: gardenAerial, alt: 'Tuin' },
-        { src: kitchen, alt: 'Keuken' },
-        { src: bedroomQuietLuxury, alt: 'Slaapkamer' },
+        { src: propertyHero, alt: t('differentiators.certified.title') },
+        { src: gardenAerial, alt: t('differentiators.gardenFull.title') },
+        { src: kitchen, alt: t('differentiators.kitchenPro.title') },
+        { src: bedroomQuietLuxury, alt: t('differentiators.quietLuxury.title') },
       ],
       features: [
-        'Gecertificeerd door Toerisme Wallonië',
-        'Officiële erkenning',
-        'Kwaliteitsgarantie',
-        'Betrouwbaarheid verzekerd',
+        t('differentiators.certifiedFeature1'),
+        t('differentiators.certifiedFeature2'),
+        t('differentiators.certifiedFeature3'),
+        t('differentiators.certifiedFeature4'),
       ],
       reverse: false,
     },
@@ -322,24 +321,24 @@ const Differentiators = () => {
       title: t('differentiators.ventilation.title'),
       description: t('differentiators.ventilation.description'),
       image: bedroomAtmospheric,
-      imageAlt: 'Slaapkamer met ventilatie',
+      imageAlt: t('differentiators.ventilation.title'),
       sideImages: [
-        { src: bedroomPrimary, alt: 'Hoofdslaapkamer' },
-        { src: bedroomQuietLuxury, alt: 'Luxe slaapkamer' },
-        { src: bedroomMezzanine, alt: 'Mezzanine' },
-        { src: livingFireplace, alt: 'Woonkamer' },
+        { src: bedroomPrimary, alt: t('differentiators.mattresses.title') },
+        { src: bedroomQuietLuxury, alt: t('differentiators.quietLuxury.title') },
+        { src: bedroomMezzanine, alt: t('differentiators.mattresses.title') },
+        { src: livingFireplace, alt: t('differentiators.quietLuxury.title') },
       ],
       features: [
-        'Stille centrale ventilatie',
-        'In alle badkamers',
-        'Optimale luchtkwaliteit',
-        'Geen storend geluid',
+        t('differentiators.ventilationFeature1'),
+        t('differentiators.ventilationFeature2'),
+        t('differentiators.ventilationFeature3'),
+        t('differentiators.ventilationFeature4'),
       ],
       reverse: true,
     },
-  ];
+  ], [t]);
 
-  // Build lightbox photos from sections: main photo first, then side photos 1-4, per section, deduplicated
+  // Build lightbox photos from sections: main photo first, then side photos, deduplicated
   const allPhotos: LightboxImage[] = useMemo(() => {
     const seen = new Set<string>();
     const photos: LightboxImage[] = [];
@@ -384,6 +383,7 @@ const Differentiators = () => {
           </p>
         </div>
       </section>
+
       {/* Differentiator Sections */}
       {sections.map((section) => (
         <section
@@ -438,9 +438,9 @@ const Differentiators = () => {
       {/* CTA Section */}
       <section className="section-padding bg-primary text-primary-foreground">
         <div className="container-luxury text-center">
-          <h2 className="heading-2 mb-4">Overtuigd?</h2>
+          <h2 className="heading-2 mb-4">{t('differentiators.cta.title')}</h2>
           <p className="body-large text-primary-foreground/80 mb-8 max-w-2xl mx-auto">
-            Bekijk de beschikbaarheid en boek direct bij ons voor de beste prijs en persoonlijke service.
+            {t('differentiators.cta.description')}
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Button
@@ -449,7 +449,7 @@ const Differentiators = () => {
               className="bg-accent hover:bg-accent/90 text-accent-foreground"
             >
               <Link to="/booking">
-                Bekijk beschikbaarheid
+                {t('differentiators.cta.availability')}
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Link>
             </Button>
@@ -459,7 +459,7 @@ const Differentiators = () => {
               size="lg"
               className="border-primary-foreground/40 text-primary-foreground hover:bg-primary-foreground/10"
             >
-              <Link to="/contact">Neem contact op</Link>
+              <Link to="/contact">{t('differentiators.cta.contact')}</Link>
             </Button>
           </div>
         </div>

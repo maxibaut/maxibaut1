@@ -23,6 +23,80 @@
   "differentiators": {
     "sectionTitle": "Was Arden'Nest besonders macht",
     "sectionSubtitle": "Entdecken Sie, warum Gäste immer wiederkommen",
+    "customerJourney": {
+      "title": "Persönliche Begleitung",
+      "description": "Vom ersten Kontakt bis zur Abreise: Wir begleiten Sie bei jedem Schritt. Klare Kommunikation, transparente Abrechnung und persönlicher Service machen den Unterschied.",
+      "feature1": "Begleitung während des Buchungsprozesses",
+      "feature2": "Klare Zahlungsfristen",
+      "feature3": "Detaillierte Abrechnung",
+      "feature4": "Vergessene Gegenstände werden nachgeschickt"
+    },
+    "kitchenPro": {
+      "title": "Küche auf Gastronomieniveau",
+      "description": "Keine gewöhnliche Ferienküche. Hier steht Restaurantmaterial — gebaut, um täglich für 26 Personen zu kochen. Alles ist in Gastronomiequalität, bis hin zum Löschsystem über dem Herd.",
+      "feature1": "Lacanche Cluny — restaurantwürdiger Herd mit Gastronormofen und Warmhalteschublade",
+      "feature2": "2 Miele Professional Geschirrspüler — alles sauber in 30 Minuten",
+      "feature3": "Profi-Kühlschrank und kühle Speisekammer — Platz für alle Einkäufe der Gruppe",
+      "feature4": "Löschsystem über dem Herd — Brandschutz nach Gastronomiestandard"
+    },
+    "gardenFull": {
+      "title": "Der Garten",
+      "description": "Nichts ist gerade, nichts ist starr. Eine riesige hügelige Landschaft, in der Kinder stundenlang verschwinden und Erwachsene zur Ruhe kommen. Immer gepflegt, mit Platz für alle — von der Schatzsuche bis zur Pétanque, vom Fußball bis zum Aperitif.",
+      "feature1": "Großes Fußballfeld mit Volleyballnetz und Pétanquebahn",
+      "feature2": "Versteckte Plätze im ganzen Garten — Kinder entdecken immer etwas Neues",
+      "feature3": "3 große Bänke und 10 professionelle Liegestühle mit Tischen bei schönem Wetter",
+      "feature4": "Terrasse zwischen Haus und Garten mit 2 Grills — der perfekte Zwischenstopp"
+    },
+    "gameRoom": {
+      "title": "Das Spielzimmer",
+      "description": "Ein Raum, wo Jung und Alt sich herausfordern. Von spannenden Billardpartien bis zu hitzigen Tischfußballspielen.",
+      "feature1": "Professioneller Billardtisch",
+      "feature2": "Tischfußball für intensive Matches",
+      "feature3": "Umfangreiche Brettspielsammlung",
+      "feature4": "Retro-Gaming für Liebhaber"
+    },
+    "playBarn": {
+      "title": "Der Spielstall",
+      "description": "Der ehemalige Pferdestall, in dem einst Zugpferde standen, ist jetzt ein Spielparadies für die Kleinsten. Voller Go-Karts, Traktoren und Spielzeug für stundenlangen Spaß.",
+      "feature1": "Go-Karts und Tretautos",
+      "feature2": "Tretautos und Traktoren",
+      "feature3": "Dreiräder für die Kleinsten",
+      "feature4": "Runden auf dem Asphalt und Kreidezeichnen vor dem Hof"
+    },
+    "dishCabinetFeature1": "Vollständige Kontrolle nach jedem Gast",
+    "dishCabinetFeature2": "Alles komplett und in perfektem Zustand",
+    "dishCabinetFeature3": "Keine Überraschungen bei der Ankunft",
+    "dishCabinetFeature4": "Liebe zum Detail",
+    "professionalEquipmentFeature1": "Töpfe und Pfannen in Gastronomiequalität",
+    "professionalEquipmentFeature2": "Professionelles Kochgeschirr",
+    "professionalEquipmentFeature3": "Geeignet für große Gruppen",
+    "professionalEquipmentFeature4": "Alles, was Sie brauchen",
+    "livingOnSiteFeature1": "25 Jahre Wohnerfahrung vor Ort",
+    "livingOnSiteFeature2": "Tiefes Wissen über das Haus",
+    "livingOnSiteFeature3": "Kenntnis der Umgebung",
+    "livingOnSiteFeature4": "Immer erreichbar wenn nötig",
+    "utilitiesFeature1": "Wasser inklusive",
+    "utilitiesFeature2": "Strom inklusive",
+    "utilitiesFeature3": "Heizung inklusive",
+    "utilitiesFeature4": "Keine Überraschungen bei der Abrechnung",
+    "greenKeyFeature1": "Kandidat für das Green Key Label",
+    "greenKeyFeature2": "Nachhaltiger Tourismus",
+    "greenKeyFeature3": "Umweltbewusste Entscheidungen",
+    "greenKeyFeature4": "Respekt für die Natur",
+    "certifiedFeature1": "Zertifiziert von Tourismus Wallonien",
+    "certifiedFeature2": "Offizielle Anerkennung",
+    "certifiedFeature3": "Qualitätsgarantie",
+    "certifiedFeature4": "Zuverlässigkeit gesichert",
+    "ventilationFeature1": "Leise Zentrallüftung",
+    "ventilationFeature2": "In allen Badezimmern",
+    "ventilationFeature3": "Optimale Luftqualität",
+    "ventilationFeature4": "Keine störenden Geräusche",
+    "cta": {
+      "title": "Überzeugt?",
+      "description": "Prüfen Sie die Verfügbarkeit und buchen Sie direkt bei uns für den besten Preis und persönlichen Service.",
+      "availability": "Verfügbarkeit prüfen",
+      "contact": "Kontaktieren Sie uns"
+    },
     "quietLuxury": {
       "title": "Stiller Luxus",
       "description": "Ensuite-Badezimmer, massive Eichenböden und zeitlose Einrichtung. Kein Schnickschnack, sondern echte Qualität, die man spürt."

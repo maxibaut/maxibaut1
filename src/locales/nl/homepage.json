@@ -23,6 +23,80 @@
   "differentiators": {
     "sectionTitle": "Wat Arden'Nest bijzonder maakt",
     "sectionSubtitle": "Ontdek waarom gasten steeds terugkeren",
+    "customerJourney": {
+      "title": "Persoonlijke Begeleiding",
+      "description": "Van eerste contact tot vertrek: wij begeleiden u bij elke stap. Duidelijke communicatie, transparante afrekening en persoonlijke service maken het verschil.",
+      "feature1": "Begeleiding tijdens boekingsproces",
+      "feature2": "Duidelijke betalingstermijnen",
+      "feature3": "Gedetailleerde afrekening",
+      "feature4": "Achtergebleven spullen worden opgestuurd"
+    },
+    "kitchenPro": {
+      "title": "Keuken op Horecaniveau",
+      "description": "Geen gewone vakantiekeuken. Hier staat restaurantmateriaal — gebouwd om dagelijks voor 26 personen te draaien. Alles is horeca-kwaliteit, tot en met het sproeisysteem boven het fornuis.",
+      "feature1": "Lacanche Cluny — restaurantwaardig fornuis met gastronorm oven en warmhoudkast",
+      "feature2": "2 Miele Professional vaatwassers — alles schoon in 30 minuten",
+      "feature3": "Professionele koelkast en koele berging — ruimte voor alle boodschappen van de groep",
+      "feature4": "Sproeisysteem boven het fornuis — brandveiligheid op horecastandaard"
+    },
+    "gardenFull": {
+      "title": "De Tuin",
+      "description": "Niets is recht, niets is strak. Een enorm glooiend landschap waar kinderen urenlang verdwijnen en volwassenen tot rust komen. Altijd netjes onderhouden, met ruimte voor iedereen — van schattenjacht tot petanque, van voetbal tot aperitief.",
+      "feature1": "Groot voetbalveld met volleybalnet en petanquebaan",
+      "feature2": "Verborgen plekjes doorheen de tuin — kinderen ontdekken steeds iets nieuws",
+      "feature3": "3 grote banken en 10 professionele ligzetels met tafeltjes bij mooi weer",
+      "feature4": "Terras tussen huis en tuin met 2 barbecues — de perfecte tussenstop"
+    },
+    "gameRoom": {
+      "title": "De Speelkamer",
+      "description": "Een ruimte waar jong en oud elkaar uitdagen. Van spannende potjes pool tot fanatieke voetbalwedstrijden aan de tafel.",
+      "feature1": "Professionele pooltafel",
+      "feature2": "Voetbaltafel voor intense matches",
+      "feature3": "Uitgebreide bordspellen collectie",
+      "feature4": "Retro gaming voor de liefhebbers"
+    },
+    "playBarn": {
+      "title": "De Speelstal",
+      "description": "De voormalige paardenstal waar ooit de trekpaarden stonden, is nu een speelparadijs voor de allerkleinsten. Vol met skelters, tractoren en speelgoed voor urenlang plezier.",
+      "feature1": "Go-karts en skelters",
+      "feature2": "Trapautootjes en tractoren",
+      "feature3": "Driewielers voor de kleintjes",
+      "feature4": "Rondjes rijden op het asfalt en stoepkrijten vooraan de hoeve"
+    },
+    "dishCabinetFeature1": "Volledige controle na elke gast",
+    "dishCabinetFeature2": "Alles compleet en in perfecte staat",
+    "dishCabinetFeature3": "Geen verrassingen bij aankomst",
+    "dishCabinetFeature4": "Aandacht voor detail",
+    "professionalEquipmentFeature1": "Horeca-kwaliteit potten en pannen",
+    "professionalEquipmentFeature2": "Professioneel kookgerei",
+    "professionalEquipmentFeature3": "Geschikt voor grote groepen",
+    "professionalEquipmentFeature4": "Alles wat u nodig heeft",
+    "livingOnSiteFeature1": "25 jaar woonervaring ter plaatse",
+    "livingOnSiteFeature2": "Diepgaande kennis van het huis",
+    "livingOnSiteFeature3": "Kennis van de omgeving",
+    "livingOnSiteFeature4": "Altijd bereikbaar indien nodig",
+    "utilitiesFeature1": "Water inbegrepen",
+    "utilitiesFeature2": "Elektriciteit inbegrepen",
+    "utilitiesFeature3": "Verwarming inbegrepen",
+    "utilitiesFeature4": "Geen verrassingen bij afrekening",
+    "greenKeyFeature1": "Kandidaat Green Key label",
+    "greenKeyFeature2": "Duurzaam toerisme",
+    "greenKeyFeature3": "Milieubewuste keuzes",
+    "greenKeyFeature4": "Respect voor de natuur",
+    "certifiedFeature1": "Gecertificeerd door Toerisme Wallonië",
+    "certifiedFeature2": "Officiële erkenning",
+    "certifiedFeature3": "Kwaliteitsgarantie",
+    "certifiedFeature4": "Betrouwbaarheid verzekerd",
+    "ventilationFeature1": "Stille centrale ventilatie",
+    "ventilationFeature2": "In alle badkamers",
+    "ventilationFeature3": "Optimale luchtkwaliteit",
+    "ventilationFeature4": "Geen storend geluid",
+    "cta": {
+      "title": "Overtuigd?",
+      "description": "Bekijk de beschikbaarheid en boek direct bij ons voor de beste prijs en persoonlijke service.",
+      "availability": "Bekijk beschikbaarheid",
+      "contact": "Neem contact op"
+    },
     "quietLuxury": {
       "title": "Quiet Luxury",
       "description": "Quiet luxury betekent voor ons: alles wat samenzijn dient, niets wat ervan afleidt. Doordachte kwaliteit, zodat jullie nergens aan hoeven te denken."

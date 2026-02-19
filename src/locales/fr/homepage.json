@@ -23,6 +23,80 @@
   "differentiators": {
     "sectionTitle": "Ce qui rend Arden'Nest spécial",
     "sectionSubtitle": "Découvrez pourquoi nos hôtes reviennent",
+    "customerJourney": {
+      "title": "Accompagnement Personnel",
+      "description": "Du premier contact jusqu'au départ : nous vous accompagnons à chaque étape. Communication claire, règlement transparent et service personnalisé font la différence.",
+      "feature1": "Accompagnement durant le processus de réservation",
+      "feature2": "Échéances de paiement claires",
+      "feature3": "Décompte détaillé",
+      "feature4": "Les objets oubliés sont renvoyés"
+    },
+    "kitchenPro": {
+      "title": "Cuisine de Niveau Professionnel",
+      "description": "Pas une cuisine de vacances ordinaire. Ici, c'est du matériel de restaurant — conçu pour fonctionner quotidiennement pour 26 personnes. Tout est de qualité professionnelle, jusqu'au système d'extinction au-dessus de la cuisinière.",
+      "feature1": "Lacanche Cluny — cuisinière digne d'un restaurant avec four gastronorme et compartiment chauffe-plats",
+      "feature2": "2 lave-vaisselle Miele Professional — tout propre en 30 minutes",
+      "feature3": "Réfrigérateur professionnel et cellier frais — de la place pour toutes les courses du groupe",
+      "feature4": "Système d'extinction au-dessus de la cuisinière — sécurité incendie aux normes professionnelles"
+    },
+    "gardenFull": {
+      "title": "Le Jardin",
+      "description": "Rien n'est droit, rien n'est rigide. Un immense paysage vallonné où les enfants disparaissent pendant des heures et où les adultes se détendent. Toujours soigneusement entretenu, avec de la place pour tout le monde — de la chasse au trésor à la pétanque, du football à l'apéritif.",
+      "feature1": "Grand terrain de football avec filet de volley et boulodrome",
+      "feature2": "Coins cachés à travers le jardin — les enfants découvrent toujours quelque chose de nouveau",
+      "feature3": "3 grands bancs et 10 transats professionnels avec tables par beau temps",
+      "feature4": "Terrasse entre la maison et le jardin avec 2 barbecues — l'arrêt parfait"
+    },
+    "gameRoom": {
+      "title": "La Salle de Jeux",
+      "description": "Un espace où petits et grands se défient. Des parties de billard palpitantes aux matchs de baby-foot effrénés.",
+      "feature1": "Billard professionnel",
+      "feature2": "Baby-foot pour des matches intenses",
+      "feature3": "Collection étendue de jeux de société",
+      "feature4": "Gaming rétro pour les amateurs"
+    },
+    "playBarn": {
+      "title": "L'Écurie de Jeux",
+      "description": "L'ancienne écurie qui abritait autrefois les chevaux de trait est maintenant un paradis pour les tout-petits. Pleine de karts, tracteurs et jouets pour des heures de plaisir.",
+      "feature1": "Karts et draisiennes",
+      "feature2": "Voiturettes à pédales et tracteurs",
+      "feature3": "Tricycles pour les tout-petits",
+      "feature4": "Tours sur l'asphalte et dessin à la craie devant la ferme"
+    },
+    "dishCabinetFeature1": "Contrôle complet après chaque client",
+    "dishCabinetFeature2": "Tout complet et en parfait état",
+    "dishCabinetFeature3": "Pas de surprises à l'arrivée",
+    "dishCabinetFeature4": "Attention aux détails",
+    "professionalEquipmentFeature1": "Casseroles et poêles de qualité professionnelle",
+    "professionalEquipmentFeature2": "Ustensiles de cuisine professionnels",
+    "professionalEquipmentFeature3": "Adapté aux grands groupes",
+    "professionalEquipmentFeature4": "Tout ce dont vous avez besoin",
+    "livingOnSiteFeature1": "25 ans d'expérience sur place",
+    "livingOnSiteFeature2": "Connaissance approfondie de la maison",
+    "livingOnSiteFeature3": "Connaissance des environs",
+    "livingOnSiteFeature4": "Toujours joignable si nécessaire",
+    "utilitiesFeature1": "Eau incluse",
+    "utilitiesFeature2": "Électricité incluse",
+    "utilitiesFeature3": "Chauffage inclus",
+    "utilitiesFeature4": "Pas de surprises lors du règlement",
+    "greenKeyFeature1": "Candidat label Green Key",
+    "greenKeyFeature2": "Tourisme durable",
+    "greenKeyFeature3": "Choix respectueux de l'environnement",
+    "greenKeyFeature4": "Respect de la nature",
+    "certifiedFeature1": "Certifié par le Tourisme de Wallonie",
+    "certifiedFeature2": "Reconnaissance officielle",
+    "certifiedFeature3": "Garantie de qualité",
+    "certifiedFeature4": "Fiabilité assurée",
+    "ventilationFeature1": "Ventilation centrale silencieuse",
+    "ventilationFeature2": "Dans toutes les salles de bain",
+    "ventilationFeature3": "Qualité d'air optimale",
+    "ventilationFeature4": "Pas de bruit gênant",
+    "cta": {
+      "title": "Convaincu ?",
+      "description": "Consultez les disponibilités et réservez directement chez nous pour le meilleur prix et un service personnalisé.",
+      "availability": "Voir les disponibilités",
+      "contact": "Nous contacter"
+    },
     "quietLuxury": {
       "title": "Luxe Discret",
       "description": "Salles de bain privatives, parquets en chêne massif et un intérieur intemporel. Pas de superflu, mais une vraie qualité que l'on ressent."

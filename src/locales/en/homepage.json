@@ -23,6 +23,80 @@
   "differentiators": {
     "sectionTitle": "What makes Arden'Nest special",
     "sectionSubtitle": "Discover why guests keep returning",
+    "customerJourney": {
+      "title": "Personal Guidance",
+      "description": "From first contact to departure: we guide you every step of the way. Clear communication, transparent billing and personal service make the difference.",
+      "feature1": "Support throughout the booking process",
+      "feature2": "Clear payment deadlines",
+      "feature3": "Detailed final billing",
+      "feature4": "Forgotten items are sent back to you"
+    },
+    "kitchenPro": {
+      "title": "Restaurant-Grade Kitchen",
+      "description": "Not your typical holiday kitchen. This is restaurant-grade equipment — built to run daily for 26 people. Everything is professional quality, right down to the fire suppression system above the stove.",
+      "feature1": "Lacanche Cluny — restaurant-worthy stove with gastronorm oven and warming drawer",
+      "feature2": "2 Miele Professional dishwashers — everything clean in 30 minutes",
+      "feature3": "Professional fridge and cool pantry — room for all the group's groceries",
+      "feature4": "Fire suppression system above the stove — safety to professional standards"
+    },
+    "gardenFull": {
+      "title": "The Garden",
+      "description": "Nothing is straight, nothing is rigid. A vast rolling landscape where children disappear for hours and adults unwind. Always well-maintained, with space for everyone — from treasure hunts to pétanque, from football to aperitifs.",
+      "feature1": "Large football field with volleyball net and pétanque lane",
+      "feature2": "Hidden spots throughout the garden — children always discover something new",
+      "feature3": "3 large benches and 10 professional sun loungers with side tables in good weather",
+      "feature4": "Terrace between house and garden with 2 barbecues — the perfect stopping point"
+    },
+    "gameRoom": {
+      "title": "The Games Room",
+      "description": "A space where young and old challenge each other. From thrilling games of pool to intense table football matches.",
+      "feature1": "Professional pool table",
+      "feature2": "Table football for intense matches",
+      "feature3": "Extensive board game collection",
+      "feature4": "Retro gaming for enthusiasts"
+    },
+    "playBarn": {
+      "title": "The Play Barn",
+      "description": "The former horse stable, once home to draught horses, is now a play paradise for the very young. Full of go-karts, tractors and toys for hours of fun.",
+      "feature1": "Go-karts and pedal cars",
+      "feature2": "Pedal cars and tractors",
+      "feature3": "Tricycles for the little ones",
+      "feature4": "Laps on the tarmac and chalk drawing at the front of the farmhouse"
+    },
+    "dishCabinetFeature1": "Full inspection after every guest",
+    "dishCabinetFeature2": "Everything complete and in perfect condition",
+    "dishCabinetFeature3": "No surprises on arrival",
+    "dishCabinetFeature4": "Attention to detail",
+    "professionalEquipmentFeature1": "Restaurant-quality pots and pans",
+    "professionalEquipmentFeature2": "Professional cooking utensils",
+    "professionalEquipmentFeature3": "Suitable for large groups",
+    "professionalEquipmentFeature4": "Everything you need",
+    "livingOnSiteFeature1": "25 years of on-site living experience",
+    "livingOnSiteFeature2": "In-depth knowledge of the house",
+    "livingOnSiteFeature3": "Knowledge of the surroundings",
+    "livingOnSiteFeature4": "Always reachable if needed",
+    "utilitiesFeature1": "Water included",
+    "utilitiesFeature2": "Electricity included",
+    "utilitiesFeature3": "Heating included",
+    "utilitiesFeature4": "No surprises when settling up",
+    "greenKeyFeature1": "Green Key label candidate",
+    "greenKeyFeature2": "Sustainable tourism",
+    "greenKeyFeature3": "Environmentally conscious choices",
+    "greenKeyFeature4": "Respect for nature",
+    "certifiedFeature1": "Certified by Tourism Wallonia",
+    "certifiedFeature2": "Official recognition",
+    "certifiedFeature3": "Quality guarantee",
+    "certifiedFeature4": "Reliability assured",
+    "ventilationFeature1": "Silent central ventilation",
+    "ventilationFeature2": "In all bathrooms",
+    "ventilationFeature3": "Optimal air quality",
+    "ventilationFeature4": "No disruptive noise",
+    "cta": {
+      "title": "Convinced?",
+      "description": "Check availability and book directly with us for the best price and personal service.",
+      "availability": "View availability",
+      "contact": "Contact us"
+    },
     "quietLuxury": {
       "title": "Quiet Luxury",
       "description": "Ensuite bathrooms, solid oak floors and timeless interiors. No frills, just genuine quality you can feel."
