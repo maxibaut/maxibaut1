@@ -37,6 +37,16 @@
       "Stille zentrale Belüftung für optimale Luftqualität"
     ]
   },
+  "bedrooms": {
+    "title": "9 Schlafzimmer",
+    "description": "Bei Arden'Nest glauben wir an einen sorgenfreien Urlaub für die ganze Gruppe. Kein Streit darüber, wer das größte Zimmer bekommt: Unsere neun Schlafzimmer verteilen sich auf zwei Etagen und bieten jedem genau denselben hohen Komfort.",
+    "features_list": [
+      "3 Zimmer für 2 Personen: ideal für Paare oder Großeltern.",
+      "4 Zimmer für 3 Personen: flexibel für Familien mit Kind.",
+      "2 Zimmer für 4 Personen: mit Mezzanin, Favorit bei Kindern.",
+      "Faire Eleganz: überall dieselbe hochwertige Ausstattung und makellos gepflegte Ensuite-Badezimmer."
+    ]
+  },
   "oakTable": {
     "title": "Der Eichentisch",
     "description": "Hier werden Geschichten erzählt, Gläser gefüllt und Gerichte geteilt. Drei massive Eichentische, mit Blick auf den Garten durch das große Tor — hier kommt Ihr Urlaub zusammen.",

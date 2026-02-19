@@ -37,6 +37,16 @@
       "Ventilation centrale silencieuse pour une qualité d'air optimale"
     ]
   },
+  "bedrooms": {
+    "title": "9 Chambres",
+    "description": "Chez Arden'Nest, nous croyons en des vacances sans souci pour tout le groupe. Pas de discussion sur qui a la plus grande chambre : nos neuf chambres sont réparties sur deux étages et offrent à chacun exactement le même confort élevé.",
+    "features_list": [
+      "3 chambres pour 2 personnes : idéal pour les couples ou les grands-parents.",
+      "4 chambres pour 3 personnes : flexibles pour les familles avec enfant.",
+      "2 chambres pour 4 personnes : avec mezzanine, favorites des enfants.",
+      "Luxe équitable : partout la même belle finition et des salles de bain privatives impeccablement entretenues."
+    ]
+  },
   "oakTable": {
     "title": "La Table en Chêne",
     "description": "C'est ici que les histoires se racontent, que les verres se remplissent et que les plats se partagent. Trois tables en chêne massif, avec vue sur le jardin par le grand portail — c'est ici que vos vacances prennent tout leur sens.",
