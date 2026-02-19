@@ -213,7 +213,7 @@ const CancellationPolicy = () => {
             {/* Sidebar */}
             <aside className="lg:col-span-1 order-1 lg:order-2">
               <div className="lg:sticky lg:top-24">
-                <Card className="border-border/50">
+                <Card className="border-border/50 bg-primary/5">
                   <CardContent className="p-4">
                     <h3 className="font-serif text-lg font-semibold text-foreground mb-4">
                       {t('common:footer.documentsInfo')}
@@ -241,18 +241,6 @@ const CancellationPolicy = () => {
                         );
                       })}
                     </nav>
-                    
-                    <Separator className="my-4" />
-                    
-                    <Button 
-                      onClick={handleDownloadAll} 
-                      variant="outline" 
-                      className="w-full gap-2 text-sm"
-                      size="sm"
-                    >
-                      <Download className="h-4 w-4" />
-                      {t('common:footer.downloadAll')}
-                    </Button>
                   </CardContent>
                 </Card>
               </div>
