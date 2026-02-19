@@ -6,33 +6,34 @@ interface FamilyIconProps {
 }
 
 /**
- * Family icon: two adults (left & right) with a child in the centre-front.
- * Filled silhouette style, matches the reference image provided.
+ * Family icon: 4 silhouettes standing side by side — tall adult, shorter adult,
+ * and two children of different heights. Matches the style of the reference image.
  */
 const FamilyIcon: React.FC<FamilyIconProps> = ({ className = '', size = 24 }) => (
   <svg
     width={size}
     height={size}
-    viewBox="0 0 24 24"
+    viewBox="0 0 32 32"
     fill="currentColor"
     className={className}
     aria-hidden="true"
     xmlns="http://www.w3.org/2000/svg"
   >
-    {/* Left adult – head */}
-    <circle cx="5.5" cy="4.5" r="2.5" />
-    {/* Left adult – body/shoulders */}
-    <path d="M1 19.5v-3.8a4.5 4.5 0 0 1 4.5-4.5 4.5 4.5 0 0 1 4.5 4.5v3.8H1z" />
+    {/* Figure 1 – tallest adult (left) */}
+    <circle cx="5.5" cy="5" r="2.5" />
+    <path d="M3 24V14.5a2.5 2.5 0 0 1 5 0V24H3z" />
 
-    {/* Right adult – head */}
-    <circle cx="18.5" cy="4.5" r="2.5" />
-    {/* Right adult – body/shoulders */}
-    <path d="M14 19.5v-3.8a4.5 4.5 0 0 1 4.5-4.5 4.5 4.5 0 0 1 4.5 4.5v3.8H14z" />
+    {/* Figure 2 – second adult (centre-left, slightly shorter) */}
+    <circle cx="11.5" cy="6.5" r="2.2" />
+    <path d="M9.2 24V15.5a2.3 2.3 0 0 1 4.6 0V24H9.2z" />
 
-    {/* Child – head (smaller, centred, overlapping adults) */}
-    <circle cx="12" cy="13" r="2" />
-    {/* Child – body (shorter, sits in front) */}
-    <path d="M8.5 22v-2.8a3.5 3.5 0 0 1 3.5-3.5 3.5 3.5 0 0 1 3.5 3.5V22H8.5z" />
+    {/* Figure 3 – older child (centre-right) */}
+    <circle cx="19" cy="9" r="1.9" />
+    <path d="M17 24V18a2 2 0 0 1 4 0v6h-4z" />
+
+    {/* Figure 4 – small child (right) */}
+    <circle cx="26" cy="11" r="1.6" />
+    <path d="M24.2 24V19.5a1.8 1.8 0 0 1 3.6 0V24h-3.6z" />
   </svg>
 );
 
