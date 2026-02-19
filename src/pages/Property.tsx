@@ -4,8 +4,7 @@ import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
-import { Bed, Bath, TreePine, ChefHat, ArrowRight, Sofa, BookOpen, Check, ShowerHead, Moon } from 'lucide-react';
-import FamilyIcon from '@/components/icons/FamilyIcon';
+import { Users, Bed, Bath, TreePine, ChefHat, ArrowRight, Sofa, BookOpen, Check, ShowerHead, Moon } from 'lucide-react';
 import { 
   propertyHero, 
   kitchen,
@@ -96,7 +95,7 @@ const Property = () => {
   };
 
   const features = [
-    { icon: FamilyIcon, label: t('overview.capacity') },
+    { icon: Users, label: t('overview.capacity') },
     { icon: Bed, label: t('overview.bedrooms') },
     { icon: Bath, label: t('overview.bathrooms') },
     { icon: TreePine, label: t('overview.garden') },
@@ -140,7 +139,7 @@ const Property = () => {
                 className="flex flex-col items-center text-center space-y-2"
               >
                 <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center">
-                  <feature.icon className="h-6 w-6 text-primary" size={24} />
+                  <feature.icon className="h-6 w-6 text-primary" />
                 </div>
                 <span className="font-medium text-foreground">{feature.label}</span>
               </div>

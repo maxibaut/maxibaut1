@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import FamilyIcon from '@/components/icons/FamilyIcon';
 import { PageWrapper } from '@/components/layout';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
@@ -34,6 +33,7 @@ import {
   Cable,
   Car,
   ArrowRight,
+  Users,
   Wifi,
   PawPrint,
   Cigarette,
@@ -374,7 +374,7 @@ const Contact = () => {
                 {/* 26 personen - allowed */}
                 <div className="flex flex-col items-center">
                   <div className="bg-emerald-50 rounded-full p-2">
-                    <FamilyIcon size={24} className="text-emerald-600" />
+                    <Users className="h-6 w-6 text-emerald-600" />
                   </div>
                   <span className="text-xs text-gray-600 mt-1">{t('practical.amenities.guests')}</span>
                 </div>
