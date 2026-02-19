@@ -1,4 +1,6 @@
 import { CyclingItem } from './types';
+import fietsersImg from '@/assets/cycling/la-balade-de-sim-fietsers.webp';
+import bhAtomImg from '@/assets/cycling/la-balade-de-sim-bh-atom.webp';
 
 export const cycling: CyclingItem[] = [
   {
@@ -31,7 +33,8 @@ export const cycling: CyclingItem[] = [
     difficulty: 'rental',
     type: 'rental',
     distance: '20 min',
-    images: [],
+    images: [fietsersImg],
+    bikeImage: bhAtomImg,
     mapQuery: 'La Balade de Sim, Beauraing, Belgium',
     externalUrl: 'https://www.labaladedesim.be/nl',
     phone: '',

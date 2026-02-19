@@ -112,6 +112,9 @@ const SurroundingsDetail = () => {
   const restaurantData = item.category === 'restaurants' ? (item as RestaurantItem) : null;
   const shopData = item.category === 'shops' ? (item as ShopItem) : null;
 
+  // Track which heading was last seen to inject inline images after it
+  let bikeSectionPassed = false;
+
   // Combine gallery images + route map for lightbox
   const allImages = [
     ...(item.images || []),
@@ -302,19 +305,24 @@ const SurroundingsDetail = () => {
                 {fullDescription.split('\n\n').map((paragraph, idx) => {
                   // Handle markdown-style headers
                   if (paragraph.startsWith('## ')) {
+                    const headingText = paragraph.replace('## ', '');
+                    const isBikeSection = headingText.toLowerCase().includes('fietsen') ||
+                      headingText.toLowerCase().includes('vélos') ||
+                      headingText.toLowerCase().includes('bikes') ||
+                      headingText.toLowerCase().includes('fahrräder');
+                    if (isBikeSection) bikeSectionPassed = true;
                     return (
                       <h2 key={idx} className="heading-3 mt-8 mb-4">
-                        {paragraph.replace('## ', '')}
+                        {headingText}
                       </h2>
                     );
                   }
                   // Handle lists
                   if (paragraph.startsWith('- ')) {
-                    const items = paragraph.split('\n');
+                    const listItems = paragraph.split('\n');
                     return (
                       <ul key={idx} className="space-y-2 my-4">
-                        {items.map((listItem, itemIdx) => {
-                          // Convert **text** to <strong>text</strong> and sanitize
+                        {listItems.map((listItem, itemIdx) => {
                           const formattedText = listItem
                             .replace('- ', '')
                             .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
@@ -337,12 +345,23 @@ const SurroundingsDetail = () => {
                   const sanitizedParagraph = DOMPurify.sanitize(formattedParagraph, {
                     ALLOWED_TAGS: ['strong', 'em', 'b', 'i'],
                   });
+                  // After the first paragraph following the bike section heading, inject the bike image
+                  const showBikeImage = cyclingData?.bikeImage && bikeSectionPassed;
+                  if (showBikeImage) bikeSectionPassed = false; // reset so we only show once
                   return (
-                    <p 
-                      key={idx} 
-                      className="text-muted-foreground leading-relaxed"
-                      dangerouslySetInnerHTML={{ __html: sanitizedParagraph }}
-                    />
+                    <div key={idx}>
+                      <p 
+                        className="text-muted-foreground leading-relaxed"
+                        dangerouslySetInnerHTML={{ __html: sanitizedParagraph }}
+                      />
+                      {showBikeImage && (
+                        <img
+                          src={cyclingData!.bikeImage}
+                          alt="BH Atom elektrische fiets"
+                          className="w-full max-w-sm rounded-lg my-4"
+                        />
+                      )}
+                    </div>
                   );
                 })}
               </div>

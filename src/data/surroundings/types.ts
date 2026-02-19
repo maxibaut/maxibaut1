@@ -41,6 +41,7 @@ export interface CyclingItem extends SurroundingsItemBase {
   routeDistance: string;
   difficulty: Difficulty | 'rental';
   type: 'route' | 'rental';
+  bikeImage?: string; // Optional inline bike/product image shown in description
 }
 
 // Attraction-specific fields
