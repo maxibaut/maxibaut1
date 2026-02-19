@@ -35,6 +35,18 @@
     "description": "Des chemins RAVeL plats le long de la rivière aux parcours VTT exigeants à travers les forêts.",
     "rental": "Location"
   },
+  "pricing": {
+    "title": "Tarifs",
+    "perBike": "par vélo",
+    "shortRental": "Location courte durée",
+    "longRental": "Location longue durée",
+    "fullDay": "Journée",
+    "halfDay": "Demi-journée",
+    "weekend": "Week-end",
+    "extraDay": "Jour supplémentaire",
+    "included": "Fournis",
+    "departure": "Départ"
+  },
   "attractions": {
     "title": "Attractions",
     "description": "Les Ardennes ont beaucoup à offrir. Ces destinations sont parfaites pour une excursion d'une journée."
@@ -127,7 +139,10 @@
       "la-balade-de-sim": {
         "title": "La Balade de Sim — Location de vélos électriques",
         "description": "Vélos électriques livrés à domicile. Sim livre les vélos à votre gîte et vient les récupérer — sans que vous ayez à vous déplacer.",
-        "fullDescription": "La Balade de Sim est une location de vélos conviviale tenue par un cycliste passionné qui connaît parfaitement sa région.\n\n## Comment ça marche ?\n\nSim livre les vélos électriques directement à votre hébergement — au moment qui vous convient, pour la durée que vous choisissez. Après utilisation, il vient les récupérer. Pas besoin de se déplacer jusqu'à un point de location ni de faire la queue.\n\n## Les vélos\n\nDes vélos électriques de qualité (BH Atom) pour une expérience agréable et sans effort. Tout le monde — même ceux qui ne sont pas très en forme — peut ainsi profiter du paysage environnant.\n\n## Les itinéraires\n\nSim compose des itinéraires personnalisés sur demande, de Dinant jusqu'à la Semois, via Houyet et Daverdisse. Vous pouvez aussi partir du Castel de Beauraing pour l'un de ses 3 circuits fixes.\n\n## Depuis Arden'Nest\n\nSim vient directement à votre porte. Réservez à l'avance, surtout en haute saison."
+        "fullDescription": "La Balade de Sim est une location de vélos conviviale tenue par un cycliste passionné qui connaît parfaitement sa région.\n\n## Comment ça marche ?\n\nSim livre les vélos électriques directement à votre hébergement — au moment qui vous convient, pour la durée que vous choisissez. Après utilisation, il vient les récupérer. Pas besoin de se déplacer jusqu'à un point de location ni de faire la queue.\n\n## Les vélos\n\nDes vélos électriques de qualité (BH Atom) pour une expérience agréable et sans effort. Tout le monde — même ceux qui ne sont pas très en forme — peut ainsi profiter du paysage environnant.\n\n## Les itinéraires\n\nSim compose des itinéraires personnalisés sur demande, de Dinant jusqu'à la Semois, via Houyet et Daverdisse. Vous pouvez aussi partir du Castel de Beauraing pour l'un de ses 3 circuits fixes.\n\n## Depuis Arden'Nest\n\nSim vient directement à votre porte. Réservez à l'avance, surtout en haute saison.",
+        "pricingShortNote": "Départ du Castel Saint-Pierre de Beauraing",
+        "pricingLongNote": "Livraison et nettoyage compris",
+        "pricingIncluded": "Casque, kit de réparation, parcours personnalisés"
       }
     },
     "attractions": {

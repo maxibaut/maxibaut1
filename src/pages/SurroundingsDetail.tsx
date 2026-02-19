@@ -542,6 +542,59 @@ const SurroundingsDetail = () => {
                 </CardContent>
               </Card>
 
+              {/* Pricing Card — cycling only */}
+              {cyclingData?.pricing && (
+                <Card className="border-primary/20 bg-primary/5">
+                  <CardContent className="pt-6 space-y-4">
+                    <h3 className="heading-4 flex items-center justify-between">
+                      {t('pricing.title')} {cyclingData.pricing.year}
+                    </h3>
+
+                    {/* Short rental */}
+                    <div>
+                      <p className="text-sm font-semibold text-foreground mb-2">{t('pricing.shortRental')}</p>
+                      <div className="space-y-1">
+                        <div className="flex justify-between text-sm">
+                          <span className="text-muted-foreground">{t('pricing.fullDay')}</span>
+                          <span className="font-semibold">{cyclingData.pricing.shortRental.fullDay} <span className="font-normal text-muted-foreground text-xs">{t('pricing.perBike')}</span></span>
+                        </div>
+                        <div className="flex justify-between text-sm">
+                          <span className="text-muted-foreground">{t('pricing.halfDay')}</span>
+                          <span className="font-semibold">{cyclingData.pricing.shortRental.halfDay} <span className="font-normal text-muted-foreground text-xs">{t('pricing.perBike')}</span></span>
+                        </div>
+                        <p className="text-xs text-muted-foreground mt-1">{t(`items.${category}.${slug}.pricingShortNote`, { defaultValue: cyclingData.pricing.shortRental.note })}</p>
+                      </div>
+                    </div>
+
+                    <div className="border-t border-border/50" />
+
+                    {/* Long rental */}
+                    <div>
+                      <p className="text-sm font-semibold text-foreground mb-2">{t('pricing.longRental')}</p>
+                      <div className="space-y-1">
+                        <div className="flex justify-between text-sm">
+                          <span className="text-muted-foreground">{t('pricing.weekend')}</span>
+                          <span className="font-semibold">{cyclingData.pricing.longRental.weekend} <span className="font-normal text-muted-foreground text-xs">{t('pricing.perBike')}</span></span>
+                        </div>
+                        <div className="flex justify-between text-sm">
+                          <span className="text-muted-foreground">{t('pricing.extraDay')}</span>
+                          <span className="font-semibold">{cyclingData.pricing.longRental.extraDay} <span className="font-normal text-muted-foreground text-xs">{t('pricing.perBike')}</span></span>
+                        </div>
+                        <p className="text-xs text-muted-foreground mt-1">{t(`items.${category}.${slug}.pricingLongNote`, { defaultValue: cyclingData.pricing.longRental.note })}</p>
+                      </div>
+                    </div>
+
+                    <div className="border-t border-border/50" />
+
+                    {/* Included */}
+                    <div>
+                      <p className="text-xs font-semibold text-muted-foreground uppercase tracking-wide mb-1">{t('pricing.included')}</p>
+                      <p className="text-sm text-muted-foreground">{t(`items.${category}.${slug}.pricingIncluded`, { defaultValue: cyclingData.pricing.included })}</p>
+                    </div>
+                  </CardContent>
+                </Card>
+              )}
+
               {/* Highlights */}
               {Array.isArray(highlights) && highlights.length > 0 && (
                 <Card>

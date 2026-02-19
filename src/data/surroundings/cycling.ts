@@ -40,5 +40,19 @@ export const cycling: CyclingItem[] = [
     externalUrl: 'https://www.labaladedesim.be/nl',
     phone: '',
     address: 'Castel de Beauraing, Beauraing',
+    pricing: {
+      year: 2026,
+      shortRental: {
+        fullDay: '60€',
+        halfDay: '45€',
+        note: 'Vertrek vanuit Castel Saint-Pierre de Beauraing',
+      },
+      longRental: {
+        weekend: '85€',
+        extraDay: '30€',
+        note: 'Levering en reiniging inbegrepen',
+      },
+      included: 'Helm, reparatieset, gepersonaliseerde routes',
+    },
   },
 ];

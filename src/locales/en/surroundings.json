@@ -35,6 +35,18 @@
     "description": "From flat RAVeL paths along the river to challenging mountain bike routes through the forests.",
     "rental": "Rental"
   },
+  "pricing": {
+    "title": "Rates",
+    "perBike": "per bike",
+    "shortRental": "Short rental",
+    "longRental": "Long rental",
+    "fullDay": "Full day",
+    "halfDay": "Half day",
+    "weekend": "Weekend",
+    "extraDay": "Extra day",
+    "included": "Included",
+    "departure": "Departure"
+  },
   "attractions": {
     "title": "Attractions",
     "description": "The Ardennes have a lot to offer. These destinations are perfect for a day trip."
@@ -126,7 +138,10 @@
       "la-balade-de-sim": {
         "title": "La Balade de Sim — Electric bike rental",
         "description": "Electric bikes delivered to your door. Sim brings the bikes to your holiday home and picks them up afterwards — no need to go anywhere.",
-        "fullDescription": "La Balade de Sim is a small, personal bike rental run by a passionate cyclist who knows the region inside out.\n\n## How does it work?\n\nSim delivers electric bikes directly to your accommodation — at the time of your choice, for the duration you prefer. Afterwards he simply comes to collect them. No driving to a rental point, no queuing.\n\n## The bikes\n\nQuality electric bikes (BH Atom) for a pleasant and effortless cycling experience. Everyone — even those not in top shape — can enjoy the beautiful surroundings.\n\n## The routes\n\nSim creates personalised routes on request, from Dinant to the Semois, via Houyet and Daverdisse. You can also depart from Castel de Beauraing for one of his 3 fixed routes.\n\n## From Arden'Nest\n\nSim comes right to your door. Book well in advance, especially in high season."
+        "fullDescription": "La Balade de Sim is a small, personal bike rental run by a passionate cyclist who knows the region inside out.\n\n## How does it work?\n\nSim delivers electric bikes directly to your accommodation — at the time of your choice, for the duration you prefer. Afterwards he simply comes to collect them. No driving to a rental point, no queuing.\n\n## The bikes\n\nQuality electric bikes (BH Atom) for a pleasant and effortless cycling experience. Everyone — even those not in top shape — can enjoy the beautiful surroundings.\n\n## The routes\n\nSim creates personalised routes on request, from Dinant to the Semois, via Houyet and Daverdisse. You can also depart from Castel de Beauraing for one of his 3 fixed routes.\n\n## From Arden'Nest\n\nSim comes right to your door. Book well in advance, especially in high season.",
+        "pricingShortNote": "Departure from Castel Saint-Pierre de Beauraing",
+        "pricingLongNote": "Delivery and cleaning included",
+        "pricingIncluded": "Helmet, repair kit, personalised routes"
       }
     },
     "attractions": {

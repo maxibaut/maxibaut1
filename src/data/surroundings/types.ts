@@ -36,6 +36,13 @@ export interface WalkItem extends SurroundingsItemBase {
   routeMapImage?: string; // Route map image
 }
 
+export interface CyclingPricing {
+  year: number;
+  shortRental: { fullDay: string; halfDay: string; note: string };
+  longRental: { weekend: string; extraDay: string; note: string };
+  included: string;
+}
+
 // Cycling-specific fields
 export interface CyclingItem extends SurroundingsItemBase {
   category: 'cycling';
@@ -43,6 +50,7 @@ export interface CyclingItem extends SurroundingsItemBase {
   difficulty: Difficulty | 'rental';
   type: 'route' | 'rental';
   bikeImage?: string; // Optional inline bike/product image shown in description
+  pricing?: CyclingPricing;
 }
 
 // Attraction-specific fields
