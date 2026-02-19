@@ -1,5 +1,8 @@
 import { CyclingItem } from './types';
 
+import laBaladeDeSim01 from '@/assets/cycling/la-balade-de-sim-01.webp';
+import laBaladeDeSim02 from '@/assets/cycling/la-balade-de-sim-02.webp';
+
 export const cycling: CyclingItem[] = [
   {
     id: 1,
