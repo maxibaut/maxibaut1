@@ -1,5 +1,8 @@
 import { CyclingItem } from './types';
 
+import laBaladeDeSim01 from '@/assets/cycling/la-balade-de-sim-01.webp';
+import laBaladeDeSim02 from '@/assets/cycling/la-balade-de-sim-02.webp';
+
 export const cycling: CyclingItem[] = [
   {
     id: 1,
@@ -31,10 +34,11 @@ export const cycling: CyclingItem[] = [
     difficulty: 'rental',
     type: 'rental',
     distance: '20 min',
-    images: [],
-    mapQuery: 'La Balade de Sim, Beauraing, Belgium',
+    images: [laBaladeDeSim01, laBaladeDeSim02],
+    coordinates: { lat: 50.0822, lng: 4.9636 },
+    mapQuery: 'Castel de Beauraing, Beauraing, Belgium',
     externalUrl: 'https://www.labaladedesim.be/nl',
-    phone: '',
-    address: 'Castel de Beauraing, Beauraing',
+    phone: '+32 496 23 74 51',
+    address: 'Castel de Beauraing, 5570 Beauraing',
   },
 ];
