@@ -30,7 +30,6 @@ import {
   MessageCircle,
   MapPin,
   Clock,
-  Cable,
   Car,
   ArrowRight,
   Wifi,
