@@ -1,132 +1,47 @@
 
-# SEO Verbeteringsplan voor ArdenNest
 
-## Samenvatting
-Dit plan beschrijft alle SEO-verbeteringen die nodig zijn om ArdenNest optimaal vindbaar te maken in zoekmachines. De website heeft al een goede basis, maar mist enkele essentiële technische elementen.
+## Aanpassing TrustSignals op de homepage
 
----
+Twee wijzigingen in de trust signals balk:
 
-## 1. Dynamische Meta Tags per Pagina
+### 1. Ervaring: verwijzing naar 2003 i.p.v. "22 jaar"
+- "22 jaar ervaring" wordt vervangen door "Sinds 2003" (of equivalent per taal)
+- De subtekst "Al 22 jaar verwelkomen wij families" wordt iets als "Families verwelkomen sinds 2003"
+- Voordeel: dit veroudert niet elk jaar
 
-**Wat:** Elke pagina krijgt unieke title en description tags die automatisch in de browser worden bijgewerkt.
+### 2. Capaciteit-subtekst: relevanter voor 26 personen
+- "Ensuite badkamers, professionele keuken" wordt vervangen door iets als "Gemengde groepen van klein tot groot"
+- Dit sluit beter aan bij het MdFamilyRestroom-icoon en het getal 26
 
-**Waarom:** Nu heeft elke pagina dezelfde titel ("Arden'Nest | Vakantiewoning in de Ardennen"). Google ziet dit als duplicaat content.
+### Bestanden die aangepast worden
 
-**Resultaat:** 
-- Homepage: "ArdenNest | Vakantiewoning voor 26 personen in de Ardennen"
-- Het Huis: "Het Huis | ArdenNest - Quiet luxury vakantiewoning"
-- Contact: "Contact | ArdenNest - Boek direct bij de eigenaar"
+| Bestand | Wat verandert |
+|---------|---------------|
+| `src/locales/nl/homepage.json` | `trust.experience`, `trust.experienceDetail`, `trust.capacityDetail` |
+| `src/locales/en/homepage.json` | Idem, Engelse vertaling |
+| `src/locales/fr/homepage.json` | Idem, Franse vertaling |
+| `src/locales/de/homepage.json` | Idem, Duitse vertaling |
 
----
+### Concrete teksten
 
-## 2. Sitemap.xml
+**NL:**
+- experience: "Sinds 2003"
+- experienceDetail: "Families verwelkomen sinds 2003"
+- capacityDetail: "Gemengde groepen van klein tot groot"
 
-**Wat:** Een XML-bestand dat alle pagina's van de website opsomt voor zoekmachines.
+**EN:**
+- experience: "Since 2003"
+- experienceDetail: "Welcoming families since 2003"
+- capacityDetail: "Mixed groups from small to large"
 
-**Waarom:** Helpt Google om alle pagina's te ontdekken en te indexeren.
+**FR:**
+- experience: "Depuis 2003"
+- experienceDetail: "Accueillir des familles depuis 2003"
+- capacityDetail: "Groupes mixtes, des petits aux grands"
 
-**Resultaat:** Automatisch gegenereerde sitemap met alle routes (homepage, property, about, contact, etc.)
+**DE:**
+- experience: "Seit 2003"
+- experienceDetail: "Familien willkommen seit 2003"
+- capacityDetail: "Gemischte Gruppen von klein bis groß"
 
----
-
-## 3. Hreflang Tags (Meertalige SEO)
-
-**Wat:** HTML-tags die aangeven dat dezelfde pagina in meerdere talen beschikbaar is.
-
-**Waarom:** Voorkomt dat Google de NL, FR, EN en DE versies als duplicate content ziet. Toont de juiste taalversie aan bezoekers in hun land.
-
-**Resultaat:**
-```
-<link rel="alternate" hreflang="nl" href="https://ardennest.be/" />
-<link rel="alternate" hreflang="fr" href="https://ardennest.be/?lang=fr" />
-<link rel="alternate" hreflang="en" href="https://ardennest.be/?lang=en" />
-<link rel="alternate" hreflang="de" href="https://ardennest.be/?lang=de" />
-```
-
----
-
-## 4. Canonical URLs
-
-**Wat:** Een tag die aangeeft welke URL de "officiële" versie van een pagina is.
-
-**Waarom:** Voorkomt problemen met duplicate content (bijv. met/zonder trailing slash, met/zonder www).
-
-**Resultaat:** `<link rel="canonical" href="https://ardennest.be/property" />`
-
----
-
-## 5. Structured Data (JSON-LD Schema)
-
-**Wat:** Machine-leesbare informatie over jullie vakantiewoning die Google kan tonen in zoekresultaten.
-
-**Waarom:** Kan leiden tot rich snippets in Google (sterren, prijzen, beschikbaarheid).
-
-**Schema types:**
-- **LocalBusiness**: Adres, telefoon, openingstijden
-- **VacationRental**: Capaciteit, voorzieningen, locatie
-- **BreadcrumbList**: Navigatiepad in zoekresultaten
-
-**Voorbeeld resultaat in Google:**
-```
-ArdenNest | Vakantiewoning Ardennen
-★★★★★ 4.9 (50+ reviews) · Vakantiewoning
-26 personen · 10 slaapkamers · Gedinne, Belgie
-```
-
----
-
-## 6. Eigen Open Graph Afbeelding
-
-**Wat:** Een aangepaste afbeelding die verschijnt wanneer iemand de website deelt op sociale media.
-
-**Waarom:** Nu wordt een Lovable placeholder-afbeelding getoond. Een eigen afbeelding van ArdenNest is veel aantrekkelijker.
-
-**Specificaties:** 1200x630 pixels, met een mooie foto van het huis en het logo.
-
----
-
-## 7. robots.txt Uitbreiden
-
-**Wat:** Verwijzing naar de sitemap toevoegen aan robots.txt.
-
-**Waarom:** Helpt zoekmachines de sitemap automatisch te vinden.
-
-**Toevoeging:**
-```
-Sitemap: https://ardennest.be/sitemap.xml
-```
-
----
-
-## Implementatievolgorde
-
-1. **SEO Hook Component** - Centrale component voor dynamische meta tags
-2. **Sitemap.xml** - Statisch bestand met alle pagina's
-3. **robots.txt update** - Sitemap referentie toevoegen
-4. **Structured Data** - JSON-LD voor LocalBusiness en VacationRental
-5. **Hreflang + Canonical** - Meertalige SEO tags
-6. **Open Graph afbeelding** - Eigen afbeelding uploaden en configureren
-
----
-
-## Technische Details
-
-### Bestanden die worden aangemaakt:
-- `src/hooks/useSEO.ts` - Hook voor dynamische meta tags
-- `public/sitemap.xml` - XML sitemap
-
-### Bestanden die worden aangepast:
-- `index.html` - Structured data, canonical, hreflang
-- `public/robots.txt` - Sitemap referentie
-- Alle pagina-componenten - useSEO hook integratie
-
-### Geschatte tijdsduur:
-Ongeveer 2-3 berichten om alle verbeteringen te implementeren.
-
----
-
-## Opmerking: Open Graph Afbeelding
-
-Voor de Open Graph afbeelding heb ik een mooie foto van ArdenNest nodig. Je kunt:
-1. Een bestaande foto uit de assets gebruiken (ik kan deze converteren)
-2. Een nieuwe afbeelding uploaden in het juiste formaat (1200x630 pixels)
+Geen componenten hoeven aangepast te worden -- alleen de vertalingsbestanden.
