@@ -10,11 +10,13 @@ import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 import { useSEO } from "@/hooks/useSEO";
 
 const Booking = () => {
-  const { t } = useTranslation("booking");
+  const { t, i18n } = useTranslation("booking");
   const location = useLocation();
   useSEO();
 
-  const baseSrc = "https://beds24.com/booking2.php?propid=28947&referer=iframe";
+  const langMap: Record<string, string> = { nl: "nl", fr: "fr", en: "en", de: "de" };
+  const beds24Lang = langMap[i18n.language] || "en";
+  const baseSrc = `https://beds24.com/booking2.php?propid=28947&referer=iframe&lang=${beds24Lang}`;
   const extraParams = location.search ? `&${location.search.slice(1)}` : "";
   const iframeSrc = `${baseSrc}${extraParams}`;
 
