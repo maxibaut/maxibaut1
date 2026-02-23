@@ -46,12 +46,40 @@
         {
           "@type": "VacationRental",
           "@id": "https://ardennest.be/#vacation-rental",
+          "identifier": "ardennest-gedinne-be",
           "name": "ArdenNest",
           "description": "Quiet luxury vakantiewoning voor 26 personen in de Ardennen. 9 slaapkamers met ensuite badkamers, professionele keuken en 2 hectare tuin.",
           "url": "https://ardennest.be",
           "image": [
-            "https://ardennest.be/og-image.jpg"
+            "https://ardennest.be/og-image.jpg",
+            "https://ardennest.be/favicon.png"
           ],
+          "containsPlace": {
+            "@type": "Accommodation",
+            "name": "ArdenNest Vakantiewoning",
+            "numberOfBedrooms": 9,
+            "numberOfBathroomsTotal": 9,
+            "occupancy": {
+              "@type": "QuantitativeValue",
+              "maxValue": 26
+            },
+            "floorSize": {
+              "@type": "QuantitativeValue",
+              "value": 600,
+              "unitCode": "MTK"
+            },
+            "amenityFeature": [
+              { "@type": "LocationFeatureSpecification", "name": "Ensuite badkamers", "value": true },
+              { "@type": "LocationFeatureSpecification", "name": "Professionele keuken", "value": true },
+              { "@type": "LocationFeatureSpecification", "name": "Gratis WiFi", "value": true },
+              { "@type": "LocationFeatureSpecification", "name": "Gratis parkeren", "value": true },
+              { "@type": "LocationFeatureSpecification", "name": "Tuin (2 hectare)", "value": true },
+              { "@type": "LocationFeatureSpecification", "name": "Speeltuin", "value": true },
+              { "@type": "LocationFeatureSpecification", "name": "Open haard", "value": true },
+              { "@type": "LocationFeatureSpecification", "name": "EV-laadpunt", "value": true }
+            ]
+          },
+          "additionalType": "https://schema.org/House",
           "address": {
             "@type": "PostalAddress",
             "streetAddress": "Rue de Gedinne 22",
@@ -72,15 +100,6 @@
             "@type": "QuantitativeValue",
             "maxValue": 26
           },
-          "amenityFeature": [
-            { "@type": "LocationFeatureSpecification", "name": "Ensuite badkamers", "value": true },
-            { "@type": "LocationFeatureSpecification", "name": "Professionele keuken", "value": true },
-            { "@type": "LocationFeatureSpecification", "name": "Gratis WiFi", "value": true },
-            { "@type": "LocationFeatureSpecification", "name": "Gratis parkeren", "value": true },
-            { "@type": "LocationFeatureSpecification", "name": "Tuin", "value": true },
-            { "@type": "LocationFeatureSpecification", "name": "Speeltuin", "value": true },
-            { "@type": "LocationFeatureSpecification", "name": "Open haard", "value": true }
-          ],
           "checkinTime": "16:00",
           "checkoutTime": "10:00",
           "petsAllowed": false
