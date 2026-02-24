@@ -1,4 +1,4 @@
-# Huisregels Arden'Nest
+# Huisregels ArdenNest
 
 **Accommodatie:** Rue de la ferme 3, 5575 Malvoisin  
 **Website:** www.ardennest.be  
@@ -7,7 +7,7 @@
 
 ---
 
-Welkom bij Arden'Nest. Fijn dat jullie er zijn. Deze huisregels helpen om het verblijf voor jullie én voor de groepen na jullie zo aangenaam mogelijk te houden. De meeste zaken spreken voor zich, maar we zetten ze graag even op papier. De actuele versie hangt in de woning en is bindend.
+Welkom bij ArdenNest. Fijn dat jullie er zijn. Deze huisregels helpen om het verblijf voor jullie én voor de groepen na jullie zo aangenaam mogelijk te houden. De meeste zaken spreken voor zich, maar we zetten ze graag even op papier. De actuele versie hangt in de woning en is bindend.
 
 ---
 
@@ -75,7 +75,7 @@ Haardhout is beschikbaar tegen een kleine vergoeding. We vragen om geen eigen ho
 
 ## Huisdieren
 
-Huisdieren zijn niet toegestaan bij Arden'Nest. We hebben de woning allergeen-arm ingericht zodat gasten met allergieën hier zorgeloos kunnen verblijven, en dat willen we graag zo houden.
+Huisdieren zijn niet toegestaan bij ArdenNest. We hebben de woning allergeen-arm ingericht zodat gasten met allergieën hier zorgeloos kunnen verblijven, en dat willen we graag zo houden.
 
 ---
 
@@ -99,13 +99,13 @@ De noodtrap aan de zijgevel is enkel te gebruiken in geval van nood.
 
 ## Groepsgrootte
 
-Arden'Nest is gemaakt voor families en groepen die op zoek zijn naar quality time samen, met een maximum van 26 personen (inclusief baby's). De woning is niet geschikt voor feesten of evenementen.
+ArdenNest is gemaakt voor families en groepen die op zoek zijn naar quality time samen, met een maximum van 26 personen (inclusief baby's). De woning is niet geschikt voor feesten of evenementen.
 
 ---
 
 ## Aansprakelijkheid
 
-Arden'Nest is niet aansprakelijk voor persoonlijk letsel, verlies of schade aan eigendommen van gasten, tenzij er sprake is van aantoonbare nalatigheid van onze kant. Het toezicht op kinderen blijft altijd de verantwoordelijkheid van de ouders en begeleiders. We raden aan om een reisverzekering af te sluiten die annulering en aansprakelijkheid dekt.
+ArdenNest is niet aansprakelijk voor persoonlijk letsel, verlies of schade aan eigendommen van gasten, tenzij er sprake is van aantoonbare nalatigheid van onze kant. Het toezicht op kinderen blijft altijd de verantwoordelijkheid van de ouders en begeleiders. We raden aan om een reisverzekering af te sluiten die annulering en aansprakelijkheid dekt.
 
 ---
 
@@ -122,8 +122,8 @@ Arden'Nest is niet aansprakelijk voor persoonlijk letsel, verlies of schade aan 
 
 Naast deze huisregels is uiteraard ook de Belgische wetgeving van toepassing. De versie van de huisregels die jullie bij de boekingsbevestiging ontvangen, geldt voor jullie verblijf.
 
-We wensen jullie een heerlijk en onvergetelijk verblijf bij Arden'Nest. Geniet van elkaar en van de rust.
+We wensen jullie een heerlijk en onvergetelijk verblijf bij ArdenNest. Geniet van elkaar en van de rust.
 
 ---
 
-*Arden'Nest • Festina Lente • Al sinds 2003 gastvrij in de Ardennen*
+*ArdenNest • Festina Lente • Al sinds 2003 gastvrij in de Ardennen*
