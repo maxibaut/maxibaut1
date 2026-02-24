@@ -1,10 +1,10 @@
 {
   "seo": {
-    "title": "Huurvoorwaarden | Arden'Nest - Vakantiewoning Ardennen",
-    "description": "Algemene huurvoorwaarden voor uw verblijf bij Arden'Nest. Betalingsvoorwaarden, annulering en huisregels."
+    "title": "Huurvoorwaarden | ArdenNest - Vakantiewoning Ardennen",
+    "description": "Algemene huurvoorwaarden voor uw verblijf bij ArdenNest. Betalingsvoorwaarden, annulering en huisregels."
   },
   "pageTitle": "Huurvoorwaarden",
-  "pageSubtitle": "Deze huurvoorwaarden zijn van toepassing op alle reserveringen bij Arden'Nest. Door te boeken gaan jullie akkoord met onderstaande bepalingen.",
+  "pageSubtitle": "Deze huurvoorwaarden zijn van toepassing op alle reserveringen bij ArdenNest. Door te boeken gaan jullie akkoord met onderstaande bepalingen.",
   "downloadButton": "Download huurvoorwaarden",
   "accommodation": "Accommodatie",
   "accommodationValue": "Rue de la Ferme 3, 5575 Malvoisin",
@@ -16,7 +16,7 @@
   "vatNumberValue": "BE 0475 117 084",
   "version": "Versie",
   "versionValue": "Januari 2026",
-  "intro": "Deze huurvoorwaarden zijn van toepassing op alle reserveringen bij Arden'Nest. Door te boeken gaan jullie akkoord met onderstaande bepalingen. Vragen? Neem gerust contact met ons op.",
+  "intro": "Deze huurvoorwaarden zijn van toepassing op alle reserveringen bij ArdenNest. Door te boeken gaan jullie akkoord met onderstaande bepalingen. Vragen? Neem gerust contact met ons op.",
   "articles": [
     {
       "number": 1,
@@ -149,5 +149,5 @@
     "email": "bieke@ardennest.be",
     "phone": "+32 478 03 03 52"
   },
-  "signature": "Arden'Nest • Festina Lente • Al sinds 2003 gastvrij in de Ardennen"
+  "signature": "ArdenNest • Festina Lente • Al sinds 2003 gastvrij in de Ardennen"
 }

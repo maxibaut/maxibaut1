@@ -22,7 +22,7 @@ const About = () => {
             backgroundPosition: 'center 30%',
           }}
           role="img"
-          aria-label={t('hero.imageAlt', 'Familie geniet van tijd samen op het terras van Arden\'Nest')}
+          aria-label={t('hero.imageAlt', 'Familie geniet van tijd samen op het terras van ArdenNest')}
         >
           <div className="absolute inset-0 bg-charcoal/50" />
         </div>

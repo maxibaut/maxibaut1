@@ -1,10 +1,10 @@
 {
   "seo": {
-    "title": "Vertrekchecklist | Arden'Nest - Vakantiewoning Ardennen",
+    "title": "Vertrekchecklist | ArdenNest - Vakantiewoning Ardennen",
     "description": "Checklist voor een vlot vertrek. Wat te doen bij het uitchecken uit Arden'Nest."
   },
   "pageTitle": "Checklist bij Vertrek",
-  "pageSubtitle": "Bedankt voor jullie verblijf bij Arden'Nest. Om de woning klaar te maken voor de volgende gasten, vragen we om deze checklist even te doorlopen.",
+  "pageSubtitle": "Bedankt voor jullie verblijf bij ArdenNest. Om de woning klaar te maken voor de volgende gasten, vragen we om deze checklist even te doorlopen.",
   "downloadButton": "Download checklist",
   "accommodation": "Accommodatie",
   "accommodationValue": "Rue de la Ferme 3, 5575 Malvoisin",
@@ -73,6 +73,6 @@
   },
   "closing": {
     "content": "We hopen jullie snel opnieuw te mogen verwelkomen. Tot de volgende keer!",
-    "signature": "Arden'Nest • Al sinds 2003 gastvrij in de Ardennen"
+    "signature": "ArdenNest • Al sinds 2003 gastvrij in de Ardennen"
   }
 }

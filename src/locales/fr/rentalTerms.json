@@ -1,6 +1,6 @@
 {
   "pageTitle": "Conditions de location",
-  "pageSubtitle": "Ces conditions de location s'appliquent à toutes les réservations chez Arden'Nest. En réservant, vous acceptez les conditions suivantes.",
+  "pageSubtitle": "Ces conditions de location s'appliquent à toutes les réservations chez ArdenNest. En réservant, vous acceptez les conditions suivantes.",
   "downloadButton": "Télécharger les conditions de location",
   "accommodation": "Hébergement",
   "accommodationValue": "Rue de la Ferme 3, 5575 Malvoisin",
@@ -12,7 +12,7 @@
   "vatNumberValue": "BE 0475 117 084",
   "version": "Version",
   "versionValue": "Janvier 2026",
-  "intro": "Ces conditions de location s'appliquent à toutes les réservations chez Arden'Nest. En réservant, vous acceptez les conditions suivantes. Des questions ? N'hésitez pas à nous contacter.",
+  "intro": "Ces conditions de location s'appliquent à toutes les réservations chez ArdenNest. En réservant, vous acceptez les conditions suivantes. Des questions ? N'hésitez pas à nous contacter.",
   "articles": [
     {
       "number": 1,
@@ -145,5 +145,5 @@
     "email": "bieke@ardennest.be",
     "phone": "+32 478 03 03 52"
   },
-  "signature": "Arden'Nest • Festina Lente • Accueillant des hôtes dans les Ardennes depuis 2003"
+  "signature": "ArdenNest • Festina Lente • Accueillant des hôtes dans les Ardennes depuis 2003"
 }

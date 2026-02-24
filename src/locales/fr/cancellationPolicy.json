@@ -2,7 +2,7 @@
   "pageTitle": "Politique d'annulation",
   "pageSubtitle": "Notre politique d'annulation est conçue pour protéger à la fois les hôtes et les propriétaires. Veuillez lire ci-dessous les conditions d'annulation de votre réservation.",
   "accommodation": "Hébergement",
-  "accommodationValue": "Arden'Nest",
+  "accommodationValue": "ArdenNest",
   "website": "Site web",
   "websiteValue": "www.ardennest.be",
   "operator": "Exploitant",
@@ -10,7 +10,7 @@
   "version": "Version",
   "versionValue": "Janvier 2025",
   "downloadButton": "Télécharger la politique d'annulation",
-  "intro": "Chez Arden'Nest, nous comprenons que les plans peuvent changer. C'est pourquoi nous maintenons une politique d'annulation équitable et transparente. Vous trouverez ci-dessous les conditions qui s'appliquent à votre réservation.",
+  "intro": "Chez ArdenNest, nous comprenons que les plans peuvent changer. C'est pourquoi nous maintenons une politique d'annulation équitable et transparente. Vous trouverez ci-dessous les conditions qui s'appliquent à votre réservation.",
   "tiersTitle": "Conditions d'annulation",
   "tiers": [
     {
@@ -45,7 +45,7 @@
   ],
   "forceMajeure": {
     "title": "Force majeure",
-    "content": "En cas de force majeure (catastrophes naturelles, pandémies, mesures gouvernementales rendant les voyages impossibles), nous travaillerons avec vous pour trouver une solution adaptée. Cela peut inclure : reporter la réservation à une autre date ou un remboursement complet. Arden'Nest se réserve le droit de décider au cas par cas."
+    "content": "En cas de force majeure (catastrophes naturelles, pandémies, mesures gouvernementales rendant les voyages impossibles), nous travaillerons avec vous pour trouver une solution adaptée. Cela peut inclure : reporter la réservation à une autre date ou un remboursement complet. ArdenNest se réserve le droit de décider au cas par cas."
   },
   "contact": {
     "title": "Des questions ?",
@@ -53,5 +53,5 @@
     "email": "E-mail : info@ardennest.be",
     "phone": "Téléphone : +32 475 45 85 38"
   },
-  "signature": "Arden'Nest — Votre maison dans les Ardennes"
+  "signature": "ArdenNest — Votre maison dans les Ardennes"
 }

@@ -1,10 +1,10 @@
 {
   "seo": {
-    "title": "Checklist de départ | Arden'Nest - Gîte Ardennes",
+    "title": "Checklist de départ | ArdenNest - Gîte Ardennes",
     "description": "Checklist pour un départ en douceur. Ce qu'il faut faire lors du check-out d'Arden'Nest."
   },
   "pageTitle": "Checklist de Départ",
-  "pageSubtitle": "Merci pour votre séjour à Arden'Nest. Pour préparer la maison pour les prochains invités, nous vous demandons de parcourir cette checklist.",
+  "pageSubtitle": "Merci pour votre séjour à ArdenNest. Pour préparer la maison pour les prochains invités, nous vous demandons de parcourir cette checklist.",
   "downloadButton": "Télécharger la checklist",
   "accommodation": "Hébergement",
   "accommodationValue": "Rue de la Ferme 3, 5575 Malvoisin",
@@ -73,6 +73,6 @@
   },
   "closing": {
     "content": "Nous espérons vous accueillir à nouveau bientôt. À la prochaine !",
-    "signature": "Arden'Nest • Hospitalier dans les Ardennes depuis 2003"
+    "signature": "ArdenNest • Hospitalier dans les Ardennes depuis 2003"
   }
 }
