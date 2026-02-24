@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 80" width="400" height="80">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&amp;display=swap');
+    </style>
+  </defs>
+  
+  <!-- ArdenNest text -->
+  <text 
+    x="200" 
+    y="58" 
+    font-family="'Playfair Display', Georgia, serif" 
+    font-weight="600" 
+    font-size="48" 
+    fill="#2D5016" 
+    text-anchor="middle"
+    letter-spacing="1"
+  >ArdenNest</text>
+  
+  <!-- Leaf accent growing from the top of the first 'n' -->
+  <!-- Stem -->
+  <path 
+    d="M207 38 Q209 28 214 18" 
+    stroke="#2D5016" 
+    stroke-width="1.2" 
+    fill="none" 
+    stroke-linecap="round"
+  />
+  <!-- Leaf shape -->
+  <path 
+    d="M214 18 Q220 10 218 4 Q212 8 208 16 Q210 12 214 18Z" 
+    fill="#2D5016"
+  />
+  <!-- Leaf vein -->
+  <path 
+    d="M214 17 Q216 12 217 7" 
+    stroke="#F5F0E8" 
+    stroke-width="0.5" 
+    fill="none" 
+    stroke-linecap="round"
+  />
+</svg>
