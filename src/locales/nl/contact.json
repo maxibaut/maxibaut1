@@ -51,6 +51,8 @@
   },
   "practical": {
     "title": "Praktische Informatie",
+    "onSiteHost": "Uw gastheer en gastvrouw wonen op het domein",
+    "availability": "Bereikbaar van 9:00 tot 20:00",
     "amenities": {
       "guests": "26 personen",
       "charging": "Oplaadpunt EV",

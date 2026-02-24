@@ -51,6 +51,8 @@
   },
   "practical": {
     "title": "Praktische Informationen",
+    "onSiteHost": "Ihre Gastgeber wohnen auf dem Anwesen",
+    "availability": "Erreichbar von 9:00 bis 20:00 Uhr",
     "amenities": {
       "guests": "26 Personen",
       "charging": "EV-Ladestation",

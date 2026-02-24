@@ -51,6 +51,8 @@
   },
   "practical": {
     "title": "Informations Pratiques",
+    "onSiteHost": "Vos hôtes vivent sur le domaine",
+    "availability": "Joignables de 9h00 à 20h00",
     "amenities": {
       "guests": "26 personnes",
       "charging": "Recharge VE",

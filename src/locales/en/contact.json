@@ -51,6 +51,8 @@
   },
   "practical": {
     "title": "Practical Information",
+    "onSiteHost": "Your host and hostess live on the property",
+    "availability": "Available from 9:00 AM to 8:00 PM",
     "amenities": {
       "guests": "26 guests",
       "charging": "EV charging point",

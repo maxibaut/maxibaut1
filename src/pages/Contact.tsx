@@ -37,6 +37,7 @@ import {
   Cigarette,
   MegaphoneOff,
   Loader2,
+  Heart,
 } from 'lucide-react';
 import { MdFamilyRestroom } from 'react-icons/md';
 import { FaChargingStation } from 'react-icons/fa6';
@@ -368,6 +369,21 @@ const Contact = () => {
             {/* Practical Information */}
             <div className="space-y-6">
               <h2 className="heading-3">{t('practical.title')}</h2>
+
+              {/* On-site host badge */}
+              <Card className="border-primary/20 bg-primary/5">
+                <CardContent className="p-4 flex items-start space-x-3">
+                  <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
+                    <Heart className="h-5 w-5 text-primary" />
+                  </div>
+                  <div>
+                    <h4 className="font-medium">{t('practical.onSiteHost')}</h4>
+                    <p className="text-sm text-muted-foreground">
+                      {t('practical.availability')}
+                    </p>
+                  </div>
+                </CardContent>
+              </Card>
 
               {/* House Rules Icons */}
               <div className="flex flex-wrap justify-center gap-6">

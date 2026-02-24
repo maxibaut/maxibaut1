@@ -72,8 +72,11 @@ const About = () => {
             {/* Content */}
             <div>
               <h2 className="heading-2 mb-4">{t('owners.title')}</h2>
-              <p className="body-large text-muted-foreground mb-6">
+              <p className="body-large text-muted-foreground mb-4">
                 {t('owners.description')}
+              </p>
+              <p className="text-base text-primary font-medium mb-6">
+                {t('owners.onSite')}
               </p>
               <Button asChild>
                 <Link to="/contact">
