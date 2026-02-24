@@ -1,6 +1,6 @@
 {
   "pageTitle": "Rental Terms",
-  "pageSubtitle": "These rental terms apply to all reservations at Arden'Nest. By booking, you agree to the following conditions.",
+  "pageSubtitle": "These rental terms apply to all reservations at ArdenNest. By booking, you agree to the following conditions.",
   "downloadButton": "Download rental terms",
   "accommodation": "Accommodation",
   "accommodationValue": "Rue de la Ferme 3, 5575 Malvoisin",
@@ -12,7 +12,7 @@
   "vatNumberValue": "BE 0475 117 084",
   "version": "Version",
   "versionValue": "January 2026",
-  "intro": "These rental terms apply to all reservations at Arden'Nest. By booking, you agree to the following conditions. Questions? Feel free to contact us.",
+  "intro": "These rental terms apply to all reservations at ArdenNest. By booking, you agree to the following conditions. Questions? Feel free to contact us.",
   "articles": [
     {
       "number": 1,
@@ -145,5 +145,5 @@
     "email": "bieke@ardennest.be",
     "phone": "+32 478 03 03 52"
   },
-  "signature": "Arden'Nest • Festina Lente • Welcoming guests in the Ardennes since 2003"
+  "signature": "ArdenNest • Festina Lente • Welcoming guests in the Ardennes since 2003"
 }

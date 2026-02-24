@@ -1,7 +1,7 @@
 {
   "seo": {
-    "title": "Privacy & Cookies | Arden'Nest - Vakantiewoning Ardennen",
-    "description": "Hoe Arden'Nest omgaat met uw gegevens. Onze privacyverklaring en cookiebeleid in duidelijke taal."
+    "title": "Privacy & Cookies | ArdenNest - Vakantiewoning Ardennen",
+    "description": "Hoe ArdenNest omgaat met uw gegevens. Onze privacyverklaring en cookiebeleid in duidelijke taal."
   },
   "pageTitle": "Privacy & Cookies",
   "pageSubtitle": "Hoe wij omgaan met jullie gegevens",
@@ -14,11 +14,11 @@
   "operatorValue": "Festina Lente bv",
   "version": "Versie",
   "versionValue": "Januari 2026",
-  "intro": "Bij Arden'Nest hechten we veel waarde aan jullie privacy. In deze verklaring leggen we helder uit welke gegevens we verzamelen, waarom we dat doen, en hoe we ervoor zorgen dat jullie informatie veilig blijft. Geen juridisch jargon, gewoon duidelijke taal.",
+  "intro": "Bij ArdenNest hechten we veel waarde aan jullie privacy. In deze verklaring leggen we helder uit welke gegevens we verzamelen, waarom we dat doen, en hoe we ervoor zorgen dat jullie informatie veilig blijft. Geen juridisch jargon, gewoon duidelijke taal.",
   "sections": {
     "whoAreWe": {
       "title": "1. Wie zijn wij?",
-      "content": "Arden'Nest is een vakantiewoning in de Belgische Ardennen, uitgebaat door:",
+      "content": "ArdenNest is een vakantiewoning in de Belgische Ardennen, uitgebaat door:",
       "company": "Festina Lente bv",
       "address": "Rue de la Ferme 3, 5575 Malvoisin, België",
       "email": "bieke@ardennest.be",
@@ -147,5 +147,5 @@
     "email": "bieke@ardennest.be",
     "phone": "+32 478 03 03 52"
   },
-  "signature": "Arden'Nest • Festina Lente • Al sinds 2003 gastvrij in de Ardennen"
+  "signature": "ArdenNest • Festina Lente • Al sinds 2003 gastvrij in de Ardennen"
 }

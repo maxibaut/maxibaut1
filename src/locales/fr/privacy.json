@@ -10,11 +10,11 @@
   "operatorValue": "Festina Lente bv",
   "version": "Version",
   "versionValue": "Janvier 2026",
-  "intro": "Chez Arden'Nest, nous attachons beaucoup d'importance à votre vie privée. Dans cette déclaration, nous expliquons clairement quelles données nous collectons, pourquoi nous le faisons et comment nous veillons à ce que vos informations restent en sécurité. Pas de jargon juridique, juste un langage clair.",
+  "intro": "Chez ArdenNest, nous attachons beaucoup d'importance à votre vie privée. Dans cette déclaration, nous expliquons clairement quelles données nous collectons, pourquoi nous le faisons et comment nous veillons à ce que vos informations restent en sécurité. Pas de jargon juridique, juste un langage clair.",
   "sections": {
     "whoAreWe": {
       "title": "1. Qui sommes-nous ?",
-      "content": "Arden'Nest est une maison de vacances dans les Ardennes belges, exploitée par :",
+      "content": "ArdenNest est une maison de vacances dans les Ardennes belges, exploitée par :",
       "company": "Festina Lente bv",
       "address": "Rue de la Ferme 3, 5575 Malvoisin, Belgique",
       "email": "bieke@ardennest.be",
@@ -143,5 +143,5 @@
     "email": "bieke@ardennest.be",
     "phone": "+32 478 03 03 52"
   },
-  "signature": "Arden'Nest • Festina Lente • Hospitalité dans les Ardennes depuis 2003"
+  "signature": "ArdenNest • Festina Lente • Hospitalité dans les Ardennes depuis 2003"
 }

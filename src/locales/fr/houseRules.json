@@ -11,7 +11,7 @@
   "operatorValue": "Festina Lente bv",
   "version": "Version",
   "versionValue": "Janvier 2026",
-  "welcome": "Bienvenue chez Arden'Nest. Nous sommes ravis de vous accueillir. Ce règlement intérieur contribue à rendre le séjour agréable pour vous et pour les groupes qui vous suivront. La plupart des règles vont de soi, mais nous préférons les mettre par écrit. La version actuelle est affichée dans la maison et fait foi.",
+  "welcome": "Bienvenue chez ArdenNest. Nous sommes ravis de vous accueillir. Ce règlement intérieur contribue à rendre le séjour agréable pour vous et pour les groupes qui vous suivront. La plupart des règles vont de soi, mais nous préférons les mettre par écrit. La version actuelle est affichée dans la maison et fait foi.",
   "sections": {
     "arrivalDeparture": {
       "title": "Arrivée & Départ",
@@ -91,7 +91,7 @@
     },
     "pets": {
       "title": "Animaux domestiques",
-      "content": "Les animaux domestiques ne sont pas autorisés chez Arden'Nest. Nous avons aménagé la maison pour être hypoallergénique afin que les hôtes souffrant d'allergies puissent séjourner ici en toute tranquillité, et nous souhaitons maintenir cela."
+      "content": "Les animaux domestiques ne sont pas autorisés chez ArdenNest. Nous avons aménagé la maison pour être hypoallergénique afin que les hôtes souffrant d'allergies puissent séjourner ici en toute tranquillité, et nous souhaitons maintenir cela."
     },
     "damage": {
       "title": "Dégâts & Signalements",
@@ -107,11 +107,11 @@
     },
     "groupSize": {
       "title": "Taille du groupe",
-      "content": "Arden'Nest est conçu pour les familles et les groupes à la recherche de moments de qualité ensemble, avec un maximum de 26 personnes (bébés inclus). La maison n'est pas adaptée aux fêtes ou événements."
+      "content": "ArdenNest est conçu pour les familles et les groupes à la recherche de moments de qualité ensemble, avec un maximum de 26 personnes (bébés inclus). La maison n'est pas adaptée aux fêtes ou événements."
     },
     "liability": {
       "title": "Responsabilité",
-      "content": "Arden'Nest n'est pas responsable des blessures corporelles, pertes ou dommages aux biens des hôtes, sauf en cas de négligence avérée de notre part. La surveillance des enfants reste toujours la responsabilité des parents et accompagnateurs. Nous recommandons de souscrire une assurance voyage couvrant l'annulation et la responsabilité."
+      "content": "ArdenNest n'est pas responsable des blessures corporelles, pertes ou dommages aux biens des hôtes, sauf en cas de négligence avérée de notre part. La surveillance des enfants reste toujours la responsabilité des parents et accompagnateurs. Nous recommandons de souscrire une assurance voyage couvrant l'annulation et la responsabilité."
     },
     "emergency": {
       "title": "Urgences",
@@ -123,8 +123,8 @@
     "closing": {
       "title": "Pour Conclure",
       "content1": "En plus de ce règlement intérieur, la législation belge s'applique évidemment. La version du règlement intérieur que vous recevez lors de la confirmation de réservation s'applique à votre séjour.",
-      "content2": "Nous vous souhaitons un séjour merveilleux et inoubliable chez Arden'Nest. Profitez les uns des autres et de la tranquillité.",
-      "signature": "Arden'Nest • Festina Lente • Accueil chaleureux dans les Ardennes depuis 2003"
+      "content2": "Nous vous souhaitons un séjour merveilleux et inoubliable chez ArdenNest. Profitez les uns des autres et de la tranquillité.",
+      "signature": "ArdenNest • Festina Lente • Accueil chaleureux dans les Ardennes depuis 2003"
     }
   }
 }

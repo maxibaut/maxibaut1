@@ -11,7 +11,7 @@
   "operatorValue": "Festina Lente bv",
   "version": "Version",
   "versionValue": "January 2026",
-  "welcome": "Welcome to Arden'Nest. We're delighted to have you here. These house rules help make your stay and the stays of future groups as pleasant as possible. Most things are self-explanatory, but we like to put them in writing. The current version is displayed in the house and is binding.",
+  "welcome": "Welcome to ArdenNest. We're delighted to have you here. These house rules help make your stay and the stays of future groups as pleasant as possible. Most things are self-explanatory, but we like to put them in writing. The current version is displayed in the house and is binding.",
   "sections": {
     "arrivalDeparture": {
       "title": "Arrival & Departure",
@@ -91,7 +91,7 @@
     },
     "pets": {
       "title": "Pets",
-      "content": "Pets are not allowed at Arden'Nest. We have set up the house to be hypoallergenic so guests with allergies can stay here without worry, and we want to keep it that way."
+      "content": "Pets are not allowed at ArdenNest. We have set up the house to be hypoallergenic so guests with allergies can stay here without worry, and we want to keep it that way."
     },
     "damage": {
       "title": "Damage & Reports",
@@ -107,11 +107,11 @@
     },
     "groupSize": {
       "title": "Group size",
-      "content": "Arden'Nest is designed for families and groups looking for quality time together, with a maximum of 26 people (including babies). The house is not suitable for parties or events."
+      "content": "ArdenNest is designed for families and groups looking for quality time together, with a maximum of 26 people (including babies). The house is not suitable for parties or events."
     },
     "liability": {
       "title": "Liability",
-      "content": "Arden'Nest is not liable for personal injury, loss, or damage to guests' property, unless there is demonstrable negligence on our part. Supervision of children always remains the responsibility of parents and guardians. We recommend taking out travel insurance that covers cancellation and liability."
+      "content": "ArdenNest is not liable for personal injury, loss, or damage to guests' property, unless there is demonstrable negligence on our part. Supervision of children always remains the responsibility of parents and guardians. We recommend taking out travel insurance that covers cancellation and liability."
     },
     "emergency": {
       "title": "Emergencies",
@@ -123,8 +123,8 @@
     "closing": {
       "title": "In Closing",
       "content1": "In addition to these house rules, Belgian law naturally applies. The version of the house rules you receive with your booking confirmation applies to your stay.",
-      "content2": "We wish you a wonderful and unforgettable stay at Arden'Nest. Enjoy each other and the tranquility.",
-      "signature": "Arden'Nest • Festina Lente • Welcoming guests in the Ardennes since 2003"
+      "content2": "We wish you a wonderful and unforgettable stay at ArdenNest. Enjoy each other and the tranquility.",
+      "signature": "ArdenNest • Festina Lente • Welcoming guests in the Ardennes since 2003"
     }
   }
 }

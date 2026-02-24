@@ -11,7 +11,7 @@
   "operatorValue": "Festina Lente bv",
   "version": "Version",
   "versionValue": "Januar 2026",
-  "welcome": "Willkommen bei Arden'Nest. Schön, dass Sie da sind. Diese Hausordnung trägt dazu bei, den Aufenthalt für Sie und die folgenden Gruppen so angenehm wie möglich zu gestalten. Die meisten Dinge verstehen sich von selbst, aber wir möchten sie gerne schriftlich festhalten. Die aktuelle Version hängt im Haus aus und ist verbindlich.",
+  "welcome": "Willkommen bei ArdenNest. Schön, dass Sie da sind. Diese Hausordnung trägt dazu bei, den Aufenthalt für Sie und die folgenden Gruppen so angenehm wie möglich zu gestalten. Die meisten Dinge verstehen sich von selbst, aber wir möchten sie gerne schriftlich festhalten. Die aktuelle Version hängt im Haus aus und ist verbindlich.",
   "sections": {
     "arrivalDeparture": {
       "title": "Anreise & Abreise",
@@ -91,7 +91,7 @@
     },
     "pets": {
       "title": "Haustiere",
-      "content": "Haustiere sind bei Arden'Nest nicht erlaubt. Wir haben das Haus allergenarm eingerichtet, damit Gäste mit Allergien hier sorgenfrei übernachten können, und das möchten wir beibehalten."
+      "content": "Haustiere sind bei ArdenNest nicht erlaubt. Wir haben das Haus allergenarm eingerichtet, damit Gäste mit Allergien hier sorgenfrei übernachten können, und das möchten wir beibehalten."
     },
     "damage": {
       "title": "Schäden & Meldungen",
@@ -107,11 +107,11 @@
     },
     "groupSize": {
       "title": "Gruppengröße",
-      "content": "Arden'Nest ist für Familien und Gruppen konzipiert, die gemeinsam Zeit verbringen möchten, mit maximal 26 Personen (einschließlich Babys). Das Haus ist nicht für Partys oder Veranstaltungen geeignet."
+      "content": "ArdenNest ist für Familien und Gruppen konzipiert, die gemeinsam Zeit verbringen möchten, mit maximal 26 Personen (einschließlich Babys). Das Haus ist nicht für Partys oder Veranstaltungen geeignet."
     },
     "liability": {
       "title": "Haftung",
-      "content": "Arden'Nest haftet nicht für Personenschäden, Verlust oder Beschädigung des Eigentums der Gäste, es sei denn, es liegt nachweisbare Fahrlässigkeit unsererseits vor. Die Aufsicht über Kinder bleibt immer in der Verantwortung der Eltern und Betreuer. Wir empfehlen den Abschluss einer Reiseversicherung, die Stornierung und Haftung abdeckt."
+      "content": "ArdenNest haftet nicht für Personenschäden, Verlust oder Beschädigung des Eigentums der Gäste, es sei denn, es liegt nachweisbare Fahrlässigkeit unsererseits vor. Die Aufsicht über Kinder bleibt immer in der Verantwortung der Eltern und Betreuer. Wir empfehlen den Abschluss einer Reiseversicherung, die Stornierung und Haftung abdeckt."
     },
     "emergency": {
       "title": "Notfälle",
@@ -123,8 +123,8 @@
     "closing": {
       "title": "Zum Schluss",
       "content1": "Neben dieser Hausordnung gilt selbstverständlich auch das belgische Recht. Die Version der Hausordnung, die Sie mit Ihrer Buchungsbestätigung erhalten, gilt für Ihren Aufenthalt.",
-      "content2": "Wir wünschen Ihnen einen wunderbaren und unvergesslichen Aufenthalt bei Arden'Nest. Genießen Sie die Zeit miteinander und die Ruhe.",
-      "signature": "Arden'Nest • Festina Lente • Seit 2003 gastfreundlich in den Ardennen"
+      "content2": "Wir wünschen Ihnen einen wunderbaren und unvergesslichen Aufenthalt bei ArdenNest. Genießen Sie die Zeit miteinander und die Ruhe.",
+      "signature": "ArdenNest • Festina Lente • Seit 2003 gastfreundlich in den Ardennen"
     }
   }
 }

@@ -1,12 +1,12 @@
 {
   "seo": {
-    "title": "Annuleringsbeleid | Arden'Nest - Vakantiewoning Ardennen",
-    "description": "Ons transparante annuleringsbeleid. Wat gebeurt er bij annulering van uw boeking bij Arden'Nest."
+    "title": "Annuleringsbeleid | ArdenNest - Vakantiewoning Ardennen",
+    "description": "Ons transparante annuleringsbeleid. Wat gebeurt er bij annulering van uw boeking bij ArdenNest."
   },
   "pageTitle": "Annuleringsbeleid",
   "pageSubtitle": "Ons annuleringsbeleid is ontworpen om zowel gasten als verhuurder te beschermen. Lees hieronder de voorwaarden voor annulering van uw boeking.",
   "accommodation": "Accommodatie",
-  "accommodationValue": "Arden'Nest",
+  "accommodationValue": "ArdenNest",
   "website": "Website",
   "websiteValue": "www.ardennest.be",
   "operator": "Uitbater",
@@ -14,7 +14,7 @@
   "version": "Versie",
   "versionValue": "Januari 2025",
   "downloadButton": "Download annuleringsbeleid",
-  "intro": "Bij Arden'Nest begrijpen we dat plannen kunnen veranderen. Daarom hanteren we een eerlijk en transparant annuleringsbeleid. Hieronder vindt u de voorwaarden die van toepassing zijn op uw boeking.",
+  "intro": "Bij ArdenNest begrijpen we dat plannen kunnen veranderen. Daarom hanteren we een eerlijk en transparant annuleringsbeleid. Hieronder vindt u de voorwaarden die van toepassing zijn op uw boeking.",
   "tiersTitle": "Annuleringsvoorwaarden",
   "tiers": [
     {
@@ -49,7 +49,7 @@
   ],
   "forceMajeure": {
     "title": "Overmacht",
-    "content": "In geval van overmacht (natuurrampen, pandemieën, overheidsmaatregelen die reizen onmogelijk maken) zullen wij in overleg met u een passende oplossing zoeken. Dit kan betekenen: verplaatsing van de boeking naar een andere datum of een volledige terugbetaling. Arden'Nest behoudt zich het recht voor om per situatie te beslissen."
+    "content": "In geval van overmacht (natuurrampen, pandemieën, overheidsmaatregelen die reizen onmogelijk maken) zullen wij in overleg met u een passende oplossing zoeken. Dit kan betekenen: verplaatsing van de boeking naar een andere datum of een volledige terugbetaling. ArdenNest behoudt zich het recht voor om per situatie te beslissen."
   },
   "contact": {
     "title": "Vragen?",
@@ -57,5 +57,5 @@
     "email": "E-mail: info@ardennest.be",
     "phone": "Telefoon: +32 475 45 85 38"
   },
-  "signature": "Arden'Nest — Uw thuis in de Ardennen"
+  "signature": "ArdenNest — Uw thuis in de Ardennen"
 }

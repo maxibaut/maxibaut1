@@ -44,7 +44,7 @@ export const Header = () => {
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <span className="font-serif text-2xl font-semibold text-primary">Arden'Nest</span>
+            <span className="font-serif text-2xl font-semibold text-primary">ArdenNest</span>
           </Link>
 
           {/* Desktop Navigation */}
