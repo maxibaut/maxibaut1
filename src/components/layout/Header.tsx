@@ -44,7 +44,7 @@ export const Header = () => {
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex items-center">
-            <img src="/logo-ardennest.png" alt="ArdenNest" className="h-10" />
+            <img src="/logo-ardennest-header.png" alt="ArdenNest" className="h-10" />
           </Link>
 
           {/* Desktop Navigation */}
