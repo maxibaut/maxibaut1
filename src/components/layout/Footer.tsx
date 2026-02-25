@@ -154,12 +154,12 @@ export const Footer = () => {
                 </Link>
               </li>
               <li>
-                <a
-                  href="#"
+                <Link
+                  to="/cancellation-policy"
                   className="text-primary-foreground/80 hover:text-primary-foreground transition-colors"
                 >
                   {t('footer.cancellation')}
-                </a>
+                </Link>
               </li>
               <li>
                 <Link
