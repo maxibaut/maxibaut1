@@ -12,79 +12,43 @@ interface SEOConfig {
 const BASE_URL = 'https://ardennest.be';
 const SUPPORTED_LANGUAGES = ['nl', 'fr', 'en', 'de'];
 
-// Default SEO per route
+// Default SEO per route (base paths without language prefix)
 const routeSEOConfig: Record<string, SEOConfig> = {
-  '/': {
-    titleKey: 'seo.title',
-    descriptionKey: 'seo.description',
-    namespace: 'homepage',
-  },
-  '/property': {
-    titleKey: 'seo.title',
-    descriptionKey: 'seo.description',
-    namespace: 'property',
-  },
-  '/differentiators': {
-    titleKey: 'seo.title',
-    descriptionKey: 'seo.description',
-    namespace: 'homepage',
-  },
-  '/about': {
-    titleKey: 'seo.title',
-    descriptionKey: 'seo.description',
-    namespace: 'about',
-  },
-  '/contact': {
-    titleKey: 'seo.title',
-    descriptionKey: 'seo.description',
-    namespace: 'contact',
-  },
-  '/booking': {
-    titleKey: 'seo.title',
-    descriptionKey: 'seo.description',
-    namespace: 'booking',
-  },
-  '/surroundings': {
-    titleKey: 'seo.title',
-    descriptionKey: 'seo.description',
-    namespace: 'surroundings',
-  },
-  '/house-rules': {
-    titleKey: 'seo.title',
-    descriptionKey: 'seo.description',
-    namespace: 'houseRules',
-  },
-  '/checklist': {
-    titleKey: 'seo.title',
-    descriptionKey: 'seo.description',
-    namespace: 'checklist',
-  },
-  '/shops': {
-    titleKey: 'seo.title',
-    descriptionKey: 'seo.description',
-    namespace: 'localTips',
-  },
-  '/early-arrival': {
-    titleKey: 'seo.title',
-    descriptionKey: 'seo.description',
-    namespace: 'earlyArrival',
-  },
-  '/rental-terms': {
-    titleKey: 'seo.title',
-    descriptionKey: 'seo.description',
-    namespace: 'rentalTerms',
-  },
-  '/cancellation-policy': {
-    titleKey: 'seo.title',
-    descriptionKey: 'seo.description',
-    namespace: 'cancellationPolicy',
-  },
-  '/privacy-policy': {
-    titleKey: 'seo.title',
-    descriptionKey: 'seo.description',
-    namespace: 'privacy',
-  },
+  '/': { titleKey: 'seo.title', descriptionKey: 'seo.description', namespace: 'homepage' },
+  '/property': { titleKey: 'seo.title', descriptionKey: 'seo.description', namespace: 'property' },
+  '/differentiators': { titleKey: 'seo.title', descriptionKey: 'seo.description', namespace: 'homepage' },
+  '/about': { titleKey: 'seo.title', descriptionKey: 'seo.description', namespace: 'about' },
+  '/contact': { titleKey: 'seo.title', descriptionKey: 'seo.description', namespace: 'contact' },
+  '/booking': { titleKey: 'seo.title', descriptionKey: 'seo.description', namespace: 'booking' },
+  '/surroundings': { titleKey: 'seo.title', descriptionKey: 'seo.description', namespace: 'surroundings' },
+  '/house-rules': { titleKey: 'seo.title', descriptionKey: 'seo.description', namespace: 'houseRules' },
+  '/checklist': { titleKey: 'seo.title', descriptionKey: 'seo.description', namespace: 'checklist' },
+  '/shops': { titleKey: 'seo.title', descriptionKey: 'seo.description', namespace: 'localTips' },
+  '/early-arrival': { titleKey: 'seo.title', descriptionKey: 'seo.description', namespace: 'earlyArrival' },
+  '/rental-terms': { titleKey: 'seo.title', descriptionKey: 'seo.description', namespace: 'rentalTerms' },
+  '/cancellation-policy': { titleKey: 'seo.title', descriptionKey: 'seo.description', namespace: 'cancellationPolicy' },
+  '/privacy-policy': { titleKey: 'seo.title', descriptionKey: 'seo.description', namespace: 'privacy' },
 };
+
+/** Extract the base path (without language prefix) from a full pathname */
+function getBasePath(pathname: string): string {
+  for (const lang of SUPPORTED_LANGUAGES) {
+    if (lang === 'nl') continue;
+    if (pathname === `/${lang}`) return '/';
+    if (pathname.startsWith(`/${lang}/`)) return pathname.slice(lang.length + 1);
+  }
+  return pathname;
+}
+
+/** Build the full URL for a given base path and language */
+function buildUrl(basePath: string, lang: string): string {
+  if (lang === 'nl') {
+    return `${BASE_URL}${basePath}`;
+  }
+  return basePath === '/'
+    ? `${BASE_URL}/${lang}`
+    : `${BASE_URL}/${lang}${basePath}`;
+}
 
 export const useSEO = (customConfig?: SEOConfig) => {
   const { t, i18n } = useTranslation();
@@ -93,7 +57,8 @@ export const useSEO = (customConfig?: SEOConfig) => {
   
   useEffect(() => {
     const pathname = location.pathname;
-    const config = customConfig || routeSEOConfig[pathname] || {};
+    const basePath = getBasePath(pathname);
+    const config = customConfig || routeSEOConfig[basePath] || {};
     
     // Get title and description
     let title = 'ArdenNest | Vakantiewoning in de Ardennen';
@@ -101,16 +66,12 @@ export const useSEO = (customConfig?: SEOConfig) => {
     
     if (config.titleKey && config.namespace) {
       const translatedTitle = t(config.titleKey, { ns: config.namespace, defaultValue: '' });
-      if (translatedTitle) {
-        title = translatedTitle;
-      }
+      if (translatedTitle) title = translatedTitle;
     }
     
     if (config.descriptionKey && config.namespace) {
       const translatedDesc = t(config.descriptionKey, { ns: config.namespace, defaultValue: '' });
-      if (translatedDesc) {
-        description = translatedDesc;
-      }
+      if (translatedDesc) description = translatedDesc;
     }
     
     // Update document title
@@ -125,26 +86,29 @@ export const useSEO = (customConfig?: SEOConfig) => {
     }
     metaDescription.setAttribute('content', description);
     
+    // Current page URL for this language
+    const currentUrl = buildUrl(basePath, currentLang);
+    
     // Update OG tags
     updateMetaTag('og:title', title);
     updateMetaTag('og:description', description);
-    updateMetaTag('og:url', `${BASE_URL}${pathname}`);
+    updateMetaTag('og:url', currentUrl);
     
     // Update Twitter tags
     updateMetaTag('twitter:title', title);
     updateMetaTag('twitter:description', description);
     
-    // Update canonical URL
+    // Canonical points to THIS language version (not always NL)
     let canonical = document.querySelector('link[rel="canonical"]');
     if (!canonical) {
       canonical = document.createElement('link');
       canonical.setAttribute('rel', 'canonical');
       document.head.appendChild(canonical);
     }
-    canonical.setAttribute('href', `${BASE_URL}${pathname}`);
+    canonical.setAttribute('href', currentUrl);
     
-    // Update hreflang tags
-    updateHreflangTags(pathname, currentLang);
+    // Update hreflang tags with path-based URLs
+    updateHreflangTags(basePath);
     
     // Update robots meta if noIndex
     if (config.noIndex) {
@@ -182,36 +146,27 @@ function updateMetaTag(property: string, content: string) {
 
 function removeMetaTag(name: string) {
   const meta = document.querySelector(`meta[name="${name}"]`);
-  if (meta) {
-    meta.remove();
-  }
+  if (meta) meta.remove();
 }
 
-function updateHreflangTags(pathname: string, currentLang: string) {
+function updateHreflangTags(basePath: string) {
   // Remove existing hreflang tags
   document.querySelectorAll('link[rel="alternate"][hreflang]').forEach(el => el.remove());
   
-  // Add hreflang tags for each language
+  // Add hreflang tags for each language — each pointing to its own path-based URL
   SUPPORTED_LANGUAGES.forEach(lang => {
     const link = document.createElement('link');
     link.setAttribute('rel', 'alternate');
     link.setAttribute('hreflang', lang);
-    
-    // For the current language, no query param needed
-    // For others, add ?lang= param
-    const href = lang === 'nl' 
-      ? `${BASE_URL}${pathname}`
-      : `${BASE_URL}${pathname}${pathname.includes('?') ? '&' : '?'}lang=${lang}`;
-    
-    link.setAttribute('href', href);
+    link.setAttribute('href', buildUrl(basePath, lang));
     document.head.appendChild(link);
   });
   
-  // Add x-default (points to Dutch as default)
+  // x-default points to Dutch (default language)
   const xDefault = document.createElement('link');
   xDefault.setAttribute('rel', 'alternate');
   xDefault.setAttribute('hreflang', 'x-default');
-  xDefault.setAttribute('href', `${BASE_URL}${pathname}`);
+  xDefault.setAttribute('href', buildUrl(basePath, 'nl'));
   document.head.appendChild(xDefault);
 }
 

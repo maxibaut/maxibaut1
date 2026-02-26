@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import { useNavigate, useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { Menu, X, ChevronDown, Printer } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -10,6 +10,8 @@ import {
   DropdownMenuTrigger,
 } from '@/components/ui/dropdown-menu';
 import { cn } from '@/lib/utils';
+import { LocalizedLink } from '@/components/LocalizedLink';
+import { useLanguagePrefix } from '@/hooks/useLanguagePrefix';
 
 const languages = [
   { code: 'nl', label: 'NL', flag: '🇳🇱' },
@@ -22,6 +24,8 @@ export const Header = () => {
   const { t, i18n } = useTranslation('common');
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const location = useLocation();
+  const navigate = useNavigate();
+  const { getBasePath, pathForLanguage } = useLanguagePrefix();
 
   const navItems = [
     { path: '/', label: t('nav.home') },
@@ -35,7 +39,18 @@ export const Header = () => {
   const currentLanguage = languages.find((l) => l.code === i18n.language) || languages[0];
 
   const changeLanguage = (code: string) => {
+    // Get the base path without current language prefix
+    const basePath = getBasePath(location.pathname);
+    // Navigate to the new language path
+    const newPath = pathForLanguage(basePath, code);
     i18n.changeLanguage(code);
+    navigate(newPath);
+  };
+
+  // Check if current path matches a nav item (accounting for language prefix)
+  const isActive = (itemPath: string) => {
+    const basePath = getBasePath(location.pathname);
+    return basePath === itemPath;
   };
 
   return (
@@ -43,25 +58,25 @@ export const Header = () => {
       <div className="container-luxury">
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
-          <Link to="/" className="flex items-center">
+          <LocalizedLink to="/" className="flex items-center">
             <img src="/logo-ardennest-header.png" alt="ArdenNest" className="h-10" />
-          </Link>
+          </LocalizedLink>
 
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center space-x-8">
             {navItems.map((item) => (
-              <Link
+              <LocalizedLink
                 key={item.path}
                 to={item.path}
                 className={cn(
                   'text-sm font-medium transition-colors hover:text-primary',
-                  location.pathname === item.path
+                  isActive(item.path)
                     ? 'text-primary'
                     : 'text-muted-foreground'
                 )}
               >
                 {item.label}
-              </Link>
+              </LocalizedLink>
             ))}
           </nav>
 
@@ -93,17 +108,17 @@ export const Header = () => {
 
             {/* Book Direct CTA */}
             <Button asChild className="bg-primary hover:bg-primary/90">
-              <Link to="/booking">{t('nav.bookDirect')}</Link>
+              <LocalizedLink to="/booking">{t('nav.bookDirect')}</LocalizedLink>
             </Button>
 
             {/* House Rules / Print Icon */}
-            <Link
+            <LocalizedLink
               to="/house-rules"
               className="flex items-center justify-center h-10 w-10 rounded-md border border-primary-foreground/30 bg-primary text-primary-foreground hover:bg-primary/90 transition-colors"
               aria-label={t('footer.houseRules')}
             >
               <Printer className="h-4 w-4" />
-            </Link>
+            </LocalizedLink>
           </div>
 
           {/* Mobile Menu Button */}
@@ -125,19 +140,19 @@ export const Header = () => {
           <div className="lg:hidden py-4 border-t border-border/40 animate-fade-in">
             <nav className="flex flex-col space-y-4">
               {navItems.map((item) => (
-                <Link
+                <LocalizedLink
                   key={item.path}
                   to={item.path}
                   className={cn(
                     'text-base font-medium transition-colors hover:text-primary py-2',
-                    location.pathname === item.path
+                    isActive(item.path)
                       ? 'text-primary'
                       : 'text-muted-foreground'
                   )}
                   onClick={() => setIsMenuOpen(false)}
                 >
                   {item.label}
-                </Link>
+                </LocalizedLink>
               ))}
               
               {/* Mobile Language Switcher */}
@@ -145,7 +160,10 @@ export const Header = () => {
                 {languages.map((lang) => (
                   <button
                     key={lang.code}
-                    onClick={() => changeLanguage(lang.code)}
+                    onClick={() => {
+                      changeLanguage(lang.code);
+                      setIsMenuOpen(false);
+                    }}
                     className={cn(
                       'px-3 py-1.5 rounded-md text-sm font-medium transition-colors',
                       i18n.language === lang.code
@@ -161,18 +179,18 @@ export const Header = () => {
               {/* Mobile Book CTA + Printer Button */}
               <div className="flex items-center gap-2 mt-2">
                 <Button asChild className="flex-1">
-                  <Link to="/booking" onClick={() => setIsMenuOpen(false)}>
+                  <LocalizedLink to="/booking" onClick={() => setIsMenuOpen(false)}>
                     {t('nav.bookDirect')}
-                  </Link>
+                  </LocalizedLink>
                 </Button>
-                <Link
+                <LocalizedLink
                   to="/house-rules"
                   className="flex items-center justify-center h-10 w-10 shrink-0 rounded-md border border-primary-foreground/30 bg-primary text-primary-foreground hover:bg-primary/90 transition-colors"
                   aria-label={t('footer.houseRules')}
                   onClick={() => setIsMenuOpen(false)}
                 >
                   <Printer className="h-4 w-4" />
-                </Link>
+                </LocalizedLink>
               </div>
             </nav>
           </div>
