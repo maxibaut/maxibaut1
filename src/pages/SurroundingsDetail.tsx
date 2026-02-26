@@ -58,7 +58,7 @@ const SurroundingsDetail = () => {
   // Get item data
   const item = getItemBySlug(category as SurroundingsCategory, slug || '');
   if (!item) {
-    return <Navigate to="/surroundings" replace />;
+    return <Navigate to={localizedPath('/surroundings')} replace />;
   }
 
   // Get translated content
