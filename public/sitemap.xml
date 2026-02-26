@@ -6,9 +6,39 @@
   <url>
     <loc>https://ardennest.be/</loc>
     <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/?lang=fr"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/?lang=en"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/"/>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/fr</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/"/>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/en</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/"/>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/de</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/"/>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -18,9 +48,39 @@
   <url>
     <loc>https://ardennest.be/property</loc>
     <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/property"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/property?lang=fr"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/property?lang=en"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/property?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/property"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/property"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/property"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/property"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/fr/property</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/property"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/property"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/property"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/property"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/property"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/en/property</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/property"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/property"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/property"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/property"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/property"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/de/property</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/property"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/property"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/property"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/property"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/property"/>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
@@ -30,21 +90,81 @@
   <url>
     <loc>https://ardennest.be/differentiators</loc>
     <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/differentiators"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/differentiators?lang=fr"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/differentiators?lang=en"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/differentiators?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/differentiators"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/differentiators"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/differentiators"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/differentiators"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/fr/differentiators</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/differentiators"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/differentiators"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/differentiators"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/differentiators"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/differentiators"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/en/differentiators</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/differentiators"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/differentiators"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/differentiators"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/differentiators"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/differentiators"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/de/differentiators</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/differentiators"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/differentiators"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/differentiators"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/differentiators"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/differentiators"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
-  <!-- About / Over Ons -->
+  <!-- About -->
   <url>
     <loc>https://ardennest.be/about</loc>
     <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/about"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/about?lang=fr"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/about?lang=en"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/about?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/about"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/about"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/about"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/about"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/fr/about</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/about"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/about"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/about"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/about"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/about"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/en/about</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/about"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/about"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/about"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/about"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/about"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/de/about</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/about"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/about"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/about"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/about"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/about"/>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -54,33 +174,123 @@
   <url>
     <loc>https://ardennest.be/contact</loc>
     <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/contact"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/contact?lang=fr"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/contact?lang=en"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/contact?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/contact"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/contact"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/contact"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/contact"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/fr/contact</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/contact"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/contact"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/contact"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/contact"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/contact"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/en/contact</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/contact"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/contact"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/contact"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/contact"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/contact"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/de/contact</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/contact"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/contact"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/contact"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/contact"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/contact"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
-  <!-- Booking / Beschikbaarheid -->
+  <!-- Booking -->
   <url>
     <loc>https://ardennest.be/booking</loc>
     <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/booking"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/booking?lang=fr"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/booking?lang=en"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/booking?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/booking"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/booking"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/booking"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/booking"/>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/fr/booking</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/booking"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/booking"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/booking"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/booking"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/booking"/>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/en/booking</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/booking"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/booking"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/booking"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/booking"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/booking"/>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/de/booking</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/booking"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/booking"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/booking"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/booking"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/booking"/>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   
-  <!-- Surroundings / Omgeving -->
+  <!-- Surroundings -->
   <url>
     <loc>https://ardennest.be/surroundings</loc>
     <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/surroundings?lang=fr"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/surroundings?lang=en"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/surroundings?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/fr/surroundings</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/en/surroundings</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/de/surroundings</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings"/>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -90,9 +300,39 @@
   <url>
     <loc>https://ardennest.be/house-rules</loc>
     <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/house-rules"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/house-rules?lang=fr"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/house-rules?lang=en"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/house-rules?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/house-rules"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/house-rules"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/house-rules"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/house-rules"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/fr/house-rules</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/house-rules"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/house-rules"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/house-rules"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/house-rules"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/house-rules"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/en/house-rules</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/house-rules"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/house-rules"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/house-rules"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/house-rules"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/house-rules"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/de/house-rules</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/house-rules"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/house-rules"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/house-rules"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/house-rules"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/house-rules"/>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
@@ -102,21 +342,81 @@
   <url>
     <loc>https://ardennest.be/checklist</loc>
     <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/checklist"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/checklist?lang=fr"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/checklist?lang=en"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/checklist?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/checklist"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/checklist"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/checklist"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/checklist"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/fr/checklist</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/checklist"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/checklist"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/checklist"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/checklist"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/checklist"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/en/checklist</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/checklist"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/checklist"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/checklist"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/checklist"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/checklist"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/de/checklist</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/checklist"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/checklist"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/checklist"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/checklist"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/checklist"/>
     <changefreq>yearly</changefreq>
     <priority>0.4</priority>
   </url>
   
-  <!-- Shops / Winkels -->
+  <!-- Shops -->
   <url>
     <loc>https://ardennest.be/shops</loc>
     <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/shops"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/shops?lang=fr"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/shops?lang=en"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/shops?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/shops"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/shops"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/shops"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/shops"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/fr/shops</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/shops"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/shops"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/shops"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/shops"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/shops"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/en/shops</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/shops"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/shops"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/shops"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/shops"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/shops"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/de/shops</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/shops"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/shops"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/shops"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/shops"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/shops"/>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -126,9 +426,39 @@
   <url>
     <loc>https://ardennest.be/early-arrival</loc>
     <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/early-arrival"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/early-arrival?lang=fr"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/early-arrival?lang=en"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/early-arrival?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/early-arrival"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/early-arrival"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/early-arrival"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/early-arrival"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/fr/early-arrival</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/early-arrival"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/early-arrival"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/early-arrival"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/early-arrival"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/early-arrival"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/en/early-arrival</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/early-arrival"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/early-arrival"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/early-arrival"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/early-arrival"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/early-arrival"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/de/early-arrival</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/early-arrival"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/early-arrival"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/early-arrival"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/early-arrival"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/early-arrival"/>
     <changefreq>yearly</changefreq>
     <priority>0.4</priority>
@@ -138,9 +468,39 @@
   <url>
     <loc>https://ardennest.be/rental-terms</loc>
     <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/rental-terms"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/rental-terms?lang=fr"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/rental-terms?lang=en"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/rental-terms?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/rental-terms"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/rental-terms"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/rental-terms"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/rental-terms"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/fr/rental-terms</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/rental-terms"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/rental-terms"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/rental-terms"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/rental-terms"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/rental-terms"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/en/rental-terms</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/rental-terms"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/rental-terms"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/rental-terms"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/rental-terms"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/rental-terms"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/de/rental-terms</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/rental-terms"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/rental-terms"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/rental-terms"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/rental-terms"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/rental-terms"/>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
@@ -150,9 +510,39 @@
   <url>
     <loc>https://ardennest.be/cancellation-policy</loc>
     <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/cancellation-policy"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/cancellation-policy?lang=fr"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/cancellation-policy?lang=en"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/cancellation-policy?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/cancellation-policy"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/cancellation-policy"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/cancellation-policy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/cancellation-policy"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/fr/cancellation-policy</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/cancellation-policy"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/cancellation-policy"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/cancellation-policy"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/cancellation-policy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/cancellation-policy"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/en/cancellation-policy</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/cancellation-policy"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/cancellation-policy"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/cancellation-policy"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/cancellation-policy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/cancellation-policy"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/de/cancellation-policy</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/cancellation-policy"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/cancellation-policy"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/cancellation-policy"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/cancellation-policy"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/cancellation-policy"/>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
@@ -162,9 +552,39 @@
   <url>
     <loc>https://ardennest.be/privacy-policy</loc>
     <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/privacy-policy"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/privacy-policy?lang=fr"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/privacy-policy?lang=en"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/privacy-policy?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/privacy-policy"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/privacy-policy"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/privacy-policy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/privacy-policy"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/fr/privacy-policy</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/privacy-policy"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/privacy-policy"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/privacy-policy"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/privacy-policy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/privacy-policy"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/en/privacy-policy</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/privacy-policy"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/privacy-policy"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/privacy-policy"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/privacy-policy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/privacy-policy"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/de/privacy-policy</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/privacy-policy"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/privacy-policy"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/privacy-policy"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/privacy-policy"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/privacy-policy"/>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
