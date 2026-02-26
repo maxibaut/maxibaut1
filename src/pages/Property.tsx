@@ -1,7 +1,7 @@
 import { useState, useMemo } from 'react';
 import { PageWrapper } from '@/components/layout';
 import { useTranslation } from 'react-i18next';
-import { Link } from 'react-router-dom';
+import { LocalizedLink as Link } from '@/components/LocalizedLink';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { Bed, Bath, TreePine, ChefHat, ArrowRight, Sofa, BookOpen, Check, ShowerHead, Moon } from 'lucide-react';

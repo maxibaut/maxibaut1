@@ -1,7 +1,7 @@
 import { useState, useMemo } from 'react';
 import { PageWrapper } from '@/components/layout';
 import { useTranslation } from 'react-i18next';
-import { Link } from 'react-router-dom';
+import { LocalizedLink as Link } from '@/components/LocalizedLink';
 import { Button } from '@/components/ui/button';
 import { Sparkles, ChefHat, TreePine, Gamepad2, Car, Check, ArrowRight, Bed, ClipboardCheck, UtensilsCrossed, Home, Zap, Leaf, Award, Fan, Headphones } from 'lucide-react';
 import { 

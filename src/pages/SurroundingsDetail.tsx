@@ -1,6 +1,8 @@
 import { PageWrapper } from '@/components/layout';
 import { useTranslation } from 'react-i18next';
-import { useParams, Link, Navigate } from 'react-router-dom';
+import { useParams, Navigate } from 'react-router-dom';
+import { LocalizedLink as Link } from '@/components/LocalizedLink';
+import { useLanguagePrefix } from '@/hooks/useLanguagePrefix';
 import { useState } from 'react';
 import DOMPurify from 'dompurify';
 import { Button } from '@/components/ui/button';
@@ -45,17 +47,18 @@ const SurroundingsDetail = () => {
   const { category, slug } = useParams<{ category: SurroundingsCategory; slug: string }>();
   const [lightboxOpen, setLightboxOpen] = useState(false);
   const [lightboxIndex, setLightboxIndex] = useState(0);
+  const { localizedPath } = useLanguagePrefix();
 
   // Validate category
   const validCategories: SurroundingsCategory[] = ['walks', 'cycling', 'attractions', 'restaurants', 'shops'];
   if (!category || !validCategories.includes(category as SurroundingsCategory)) {
-    return <Navigate to="/surroundings" replace />;
+    return <Navigate to={localizedPath('/surroundings')} replace />;
   }
 
   // Get item data
   const item = getItemBySlug(category as SurroundingsCategory, slug || '');
   if (!item) {
-    return <Navigate to="/surroundings" replace />;
+    return <Navigate to={localizedPath('/surroundings')} replace />;
   }
 
   // Get translated content

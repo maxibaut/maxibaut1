@@ -1,6 +1,6 @@
-import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { Phone, Mail, MapPin, Star, ExternalLink } from 'lucide-react';
+import { LocalizedLink } from '@/components/LocalizedLink';
 
 export const Footer = () => {
   const { t } = useTranslation('common');
@@ -73,47 +73,32 @@ export const Footer = () => {
             <h4 className="font-serif text-lg font-medium">{t('footer.quickLinks')}</h4>
             <ul className="space-y-3">
               <li>
-                <Link
-                  to="/property"
-                  className="text-primary-foreground/80 hover:text-primary-foreground transition-colors"
-                >
+                <LocalizedLink to="/property" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">
                   {t('nav.property')}
-                </Link>
+                </LocalizedLink>
               </li>
               <li>
-                <Link
-                  to="/booking"
-                  className="text-primary-foreground/80 hover:text-primary-foreground transition-colors"
-                >
+                <LocalizedLink to="/booking" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">
                   {t('nav.booking')}
-                </Link>
+                </LocalizedLink>
               </li>
               <li>
-                <Link
-                  to="/about"
-                  className="text-primary-foreground/80 hover:text-primary-foreground transition-colors"
-                >
+                <LocalizedLink to="/about" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">
                   {t('nav.about')}
-                </Link>
+                </LocalizedLink>
               </li>
               <li>
-                <Link
-                  to="/contact"
-                  className="text-primary-foreground/80 hover:text-primary-foreground transition-colors"
-                >
+                <LocalizedLink to="/contact" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">
                   {t('nav.contact')}
-                </Link>
+                </LocalizedLink>
               </li>
             </ul>
             
             {/* Homeowners Link - with spacing */}
             <div className="pt-4">
-              <Link
-                to="/about"
-                className="text-primary-foreground/80 hover:text-primary-foreground transition-colors"
-              >
+              <LocalizedLink to="/about" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">
                 {t('footer.homeowners')}
-              </Link>
+              </LocalizedLink>
             </div>
           </div>
 
@@ -122,60 +107,39 @@ export const Footer = () => {
             <h4 className="font-serif text-lg font-medium">{t('footer.documentsInfo')}</h4>
             <ul className="space-y-3">
               <li>
-                <Link
-                  to="/house-rules"
-                  className="text-primary-foreground/80 hover:text-primary-foreground transition-colors"
-                >
+                <LocalizedLink to="/house-rules" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">
                   {t('footer.houseRules')}
-                </Link>
+                </LocalizedLink>
               </li>
               <li>
-                <Link
-                  to="/early-arrival"
-                  className="text-primary-foreground/80 hover:text-primary-foreground transition-colors"
-                >
+                <LocalizedLink to="/early-arrival" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">
                   {t('footer.earlyArrival')}
-                </Link>
+                </LocalizedLink>
               </li>
               <li>
-                <Link
-                  to="/checklist"
-                  className="text-primary-foreground/80 hover:text-primary-foreground transition-colors"
-                >
+                <LocalizedLink to="/checklist" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">
                   {t('footer.checklist')}
-                </Link>
+                </LocalizedLink>
               </li>
               <li>
-                <Link
-                  to="/rental-terms"
-                  className="text-primary-foreground/80 hover:text-primary-foreground transition-colors"
-                >
+                <LocalizedLink to="/rental-terms" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">
                   {t('footer.rentalTerms')}
-                </Link>
+                </LocalizedLink>
               </li>
               <li>
-                <Link
-                  to="/cancellation-policy"
-                  className="text-primary-foreground/80 hover:text-primary-foreground transition-colors"
-                >
+                <LocalizedLink to="/cancellation-policy" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">
                   {t('footer.cancellation')}
-                </Link>
+                </LocalizedLink>
               </li>
               <li>
-                <Link
-                  to="/shops"
-                  className="text-primary-foreground/80 hover:text-primary-foreground transition-colors"
-                >
+                <LocalizedLink to="/shops" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">
                   {t('footer.localTips')}
-                </Link>
+                </LocalizedLink>
               </li>
               <li>
-                <Link
-                  to="/privacy-policy"
-                  className="text-primary-foreground/80 hover:text-primary-foreground transition-colors"
-                >
+                <LocalizedLink to="/privacy-policy" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">
                   {t('footer.privacy')}
-                </Link>
+                </LocalizedLink>
               </li>
             </ul>
           </div>
