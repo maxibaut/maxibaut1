@@ -46,11 +46,12 @@ const SurroundingsDetail = () => {
   const { category, slug } = useParams<{ category: SurroundingsCategory; slug: string }>();
   const [lightboxOpen, setLightboxOpen] = useState(false);
   const [lightboxIndex, setLightboxIndex] = useState(0);
+  const { localizedPath } = useLanguagePrefix();
 
   // Validate category
   const validCategories: SurroundingsCategory[] = ['walks', 'cycling', 'attractions', 'restaurants', 'shops'];
   if (!category || !validCategories.includes(category as SurroundingsCategory)) {
-    return <Navigate to="/surroundings" replace />;
+    return <Navigate to={localizedPath('/surroundings')} replace />;
   }
 
   // Get item data
