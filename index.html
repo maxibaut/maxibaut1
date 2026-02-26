@@ -72,19 +72,24 @@
           "containsPlace": {
             "@type": "Accommodation",
             "additionalType": "https://schema.org/House",
-            "name": "ArdenNest Vakantiewoning",
+            "name": "ArdenNest",
             "numberOfBedrooms": 9,
             "numberOfBathroomsTotal": 9,
             "occupancy": {
               "@type": "QuantitativeValue",
               "value": 26,
-              "maxValue": 26
+              "unitText": "persons"
             },
             "floorSize": {
               "@type": "QuantitativeValue",
               "value": 600,
               "unitCode": "MTK"
             },
+            "bed": [
+              { "@type": "BedDetails", "typeOfBed": "Double", "numberOfBeds": 7 },
+              { "@type": "BedDetails", "typeOfBed": "Single", "numberOfBeds": 6 },
+              { "@type": "BedDetails", "typeOfBed": "Bunk", "numberOfBeds": 3 }
+            ],
             "amenityFeature": [
               { "@type": "LocationFeatureSpecification", "name": "Ensuite badkamers", "value": true },
               { "@type": "LocationFeatureSpecification", "name": "Professionele keuken", "value": true },
@@ -115,7 +120,8 @@
           "numberOfRooms": 9,
           "occupancy": {
             "@type": "QuantitativeValue",
-            "maxValue": 26
+            "value": 26,
+            "unitText": "persons"
           },
           "checkinTime": "16:00",
           "checkoutTime": "10:00",
