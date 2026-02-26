@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next';
-import { Link, useLocation } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
+import { LocalizedLink as Link } from '@/components/LocalizedLink';
 import { Download, ScrollText, ClipboardCheck, Store, FileText, Car } from 'lucide-react';
 import { PageWrapper } from '@/components/layout';
 import { Button } from '@/components/ui/button';

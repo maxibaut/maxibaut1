@@ -1,4 +1,5 @@
-import { useLocation, Link } from "react-router-dom";
+import { useLocation } from "react-router-dom";
+import { LocalizedLink as Link } from "@/components/LocalizedLink";
 import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import { Home } from "lucide-react";
