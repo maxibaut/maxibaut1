@@ -2,6 +2,7 @@ import { PageWrapper } from '@/components/layout';
 import { useTranslation } from 'react-i18next';
 import { useParams, Navigate } from 'react-router-dom';
 import { LocalizedLink as Link } from '@/components/LocalizedLink';
+import { useLanguagePrefix } from '@/hooks/useLanguagePrefix';
 import { useState } from 'react';
 import DOMPurify from 'dompurify';
 import { Button } from '@/components/ui/button';
