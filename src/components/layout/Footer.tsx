@@ -106,9 +106,14 @@ export const Footer = () => {
                 <span>Instagram</span>
               </a>
               <div>
-                <LocalizedLink to="/about" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">
+                <a
+                  href="https://geo-scan.be"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-primary-foreground/80 hover:text-primary-foreground transition-colors"
+                >
                   {t('footer.homeowners')}
-                </LocalizedLink>
+                </a>
               </div>
             </div>
           </div>
