@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import { Phone, Mail, MapPin, Star, ExternalLink } from 'lucide-react';
+import { Phone, Mail, MapPin, Star, ExternalLink, Instagram } from 'lucide-react';
 import { LocalizedLink } from '@/components/LocalizedLink';
 
 export const Footer = () => {
