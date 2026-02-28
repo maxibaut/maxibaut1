@@ -75,10 +75,10 @@
     "livingOnSiteFeature2": "Tiefes Wissen über das Haus",
     "livingOnSiteFeature3": "Kenntnis der Umgebung",
     "livingOnSiteFeature4": "Immer erreichbar wenn nötig",
-    "utilitiesFeature1": "Wasser inklusive",
-    "utilitiesFeature2": "Strom inklusive",
-    "utilitiesFeature3": "Heizung inklusive",
-    "utilitiesFeature4": "Keine Überraschungen bei der Abrechnung",
+    "utilitiesFeature1": "Warmer Empfang — das Haus hat bei Ankunft immer eine angenehme Grundtemperatur",
+    "utilitiesFeature2": "Klare Abrechnung — detaillierte Verbrauchsübersicht nach Ihrem Aufenthalt",
+    "utilitiesFeature3": "Nachhaltiger Luxus — bewusster Verbrauch ohne Kompromisse beim Komfort",
+    "utilitiesFeature4": "Kontrolle & Vertrauen — Zählerstände werden bei An- und Abreise fotografisch festgehalten",
     "greenKeyFeature1": "Kandidat für das Green Key Label",
     "greenKeyFeature2": "Nachhaltiger Tourismus",
     "greenKeyFeature3": "Umweltbewusste Entscheidungen",
@@ -130,8 +130,8 @@
       "description": "Wir leben seit 25 Jahren auf dem Anwesen. Niemand kennt das Haus und die Umgebung besser als wir."
     },
     "utilities": {
-      "title": "Nebenkosten Inklusive",
-      "description": "Wasser, Strom und Heizung sind im Preis inbegriffen. Keine Überraschungen bei der Abrechnung."
+      "title": "Fairer Verbrauch",
+      "description": "Bei ArdenNest glauben wir an Transparenz. Statt eines hohen Pauschalpreises zahlen Sie bei einer Direktbuchung nur für das, was Sie tatsächlich an Heizung, Wasser und Abfallentsorgung verbrauchen. Fairer für Ihre Gruppe und besser für die Natur unserer Ardennenwälder."
     },
     "greenKey": {
       "title": "Green Key Kandidat",

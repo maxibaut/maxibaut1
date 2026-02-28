@@ -75,10 +75,10 @@
     "livingOnSiteFeature2": "Connaissance approfondie de la maison",
     "livingOnSiteFeature3": "Connaissance des environs",
     "livingOnSiteFeature4": "Toujours joignable si nécessaire",
-    "utilitiesFeature1": "Eau incluse",
-    "utilitiesFeature2": "Électricité incluse",
-    "utilitiesFeature3": "Chauffage inclus",
-    "utilitiesFeature4": "Pas de surprises lors du règlement",
+    "utilitiesFeature1": "Accueil chaleureux — la maison a toujours une température de base agréable à votre arrivée",
+    "utilitiesFeature2": "Facturation claire — aperçu détaillé de la consommation après votre séjour",
+    "utilitiesFeature3": "Luxe durable — consommation consciente sans compromis sur le confort",
+    "utilitiesFeature4": "Contrôle & confiance — les relevés de compteurs sont photographiés à l'arrivée et au départ",
     "greenKeyFeature1": "Candidat label Green Key",
     "greenKeyFeature2": "Tourisme durable",
     "greenKeyFeature3": "Choix respectueux de l'environnement",
@@ -130,8 +130,8 @@
       "description": "Nous vivons sur le domaine depuis 25 ans. Personne ne connaît mieux la maison et les environs que nous."
     },
     "utilities": {
-      "title": "Charges Incluses",
-      "description": "Eau, électricité et chauffage sont inclus dans le prix. Pas de surprises lors du règlement."
+      "title": "Consommation Équitable",
+      "description": "Chez ArdenNest, nous croyons en la transparence. Au lieu d'un forfait élevé, en réservation directe vous ne payez que ce que vous consommez réellement en chauffage, eau et traitement des déchets. Plus juste pour votre groupe, et meilleur pour la nature de nos forêts ardennaises."
     },
     "greenKey": {
       "title": "Candidat Green Key",
