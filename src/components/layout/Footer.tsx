@@ -94,11 +94,22 @@ export const Footer = () => {
               </li>
             </ul>
             
-            {/* Homeowners Link - with spacing */}
-            <div className="pt-4">
-              <LocalizedLink to="/about" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">
-                {t('footer.homeowners')}
-              </LocalizedLink>
+            {/* Social & Homeowners */}
+            <div className="pt-4 space-y-3">
+              <a
+                href="https://www.instagram.com/ardennest.be"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 text-primary-foreground/80 hover:text-primary-foreground transition-colors"
+              >
+                <Instagram className="h-5 w-5" />
+                <span>Instagram</span>
+              </a>
+              <div>
+                <LocalizedLink to="/about" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">
+                  {t('footer.homeowners')}
+                </LocalizedLink>
+              </div>
             </div>
           </div>
 
