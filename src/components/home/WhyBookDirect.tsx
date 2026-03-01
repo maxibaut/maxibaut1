@@ -34,7 +34,7 @@ export const WhyBookDirect = () => {
           <div className="space-y-8">
             <div>
               <h2 className="heading-2 mb-4">{t('whyBookDirect.title')}</h2>
-              <p className="body-large text-primary-foreground/80">
+              <p className="body-large text-primary-foreground/90">
                 {t('whyBookDirect.subtitle')}
               </p>
             </div>
