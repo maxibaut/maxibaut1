@@ -14,6 +14,7 @@ const Booking = () => {
   const { t, i18n } = useTranslation("booking");
   const location = useLocation();
   useSEO();
+  const { ref: iframeRef, isVisible: iframeVisible } = useLazyIframe('400px');
 
   const langMap: Record<string, string> = { nl: "nl", fr: "fr", en: "en", de: "de" };
   const beds24Lang = langMap[i18n.language] || "en";
