@@ -8,6 +8,7 @@ import ferme172 from "@/assets/property/ferme-172.jpg";
 import hostBieke from "@/assets/property/host-bieke.jpg";
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 import { useSEO } from "@/hooks/useSEO";
+import { useLazyIframe } from "@/hooks/useLazyIframe";
 
 const Booking = () => {
   const { t, i18n } = useTranslation("booking");
