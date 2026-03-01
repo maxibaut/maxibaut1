@@ -1,47 +1,47 @@
 import { WalkItem } from './types';
 
 // Route maps
-import anseremmeRouteMap from '@/assets/walks/trein-anseremme-gendron-route-map.png';
-import houyetRouteMap from '@/assets/walks/houyet-gendron-route-map.png';
-import rochehautRouteMap from '@/assets/walks/laddertjeswandeling-rochehaut-route-map.png';
+import anseremmeRouteMap from '@/assets/walks/trein-anseremme-gendron-route-map.png?format=webp';
+import houyetRouteMap from '@/assets/walks/houyet-gendron-route-map.png?format=webp';
+import rochehautRouteMap from '@/assets/walks/laddertjeswandeling-rochehaut-route-map.png?format=webp';
 
 // Laddertjeswandeling Rochehaut photos
-import rochehaut01 from '@/assets/walks/laddertjeswandeling-rochehaut-01.jpg';
-import rochehaut02 from '@/assets/walks/laddertjeswandeling-rochehaut-02.jpg';
-import rochehaut03 from '@/assets/walks/laddertjeswandeling-rochehaut-03.jpg';
-import rochehaut04 from '@/assets/walks/laddertjeswandeling-rochehaut-04.jpg';
-import rochehaut05 from '@/assets/walks/laddertjeswandeling-rochehaut-05.jpg';
-import rochehaut06 from '@/assets/walks/laddertjeswandeling-rochehaut-06.jpg';
-import rochehaut07 from '@/assets/walks/laddertjeswandeling-rochehaut-07.jpg';
-import rochehaut08 from '@/assets/walks/laddertjeswandeling-rochehaut-08.jpg';
-import rochehaut09 from '@/assets/walks/laddertjeswandeling-rochehaut-09.jpg';
-import rochehaut10 from '@/assets/walks/laddertjeswandeling-rochehaut-10.jpg';
+import rochehaut01 from '@/assets/walks/laddertjeswandeling-rochehaut-01.jpg?format=webp';
+import rochehaut02 from '@/assets/walks/laddertjeswandeling-rochehaut-02.jpg?format=webp';
+import rochehaut03 from '@/assets/walks/laddertjeswandeling-rochehaut-03.jpg?format=webp';
+import rochehaut04 from '@/assets/walks/laddertjeswandeling-rochehaut-04.jpg?format=webp';
+import rochehaut05 from '@/assets/walks/laddertjeswandeling-rochehaut-05.jpg?format=webp';
+import rochehaut06 from '@/assets/walks/laddertjeswandeling-rochehaut-06.jpg?format=webp';
+import rochehaut07 from '@/assets/walks/laddertjeswandeling-rochehaut-07.jpg?format=webp';
+import rochehaut08 from '@/assets/walks/laddertjeswandeling-rochehaut-08.jpg?format=webp';
+import rochehaut09 from '@/assets/walks/laddertjeswandeling-rochehaut-09.jpg?format=webp';
+import rochehaut10 from '@/assets/walks/laddertjeswandeling-rochehaut-10.jpg?format=webp';
 
 // Treinwandeling Anseremme - Gendron photos
-import treinWalk01 from '@/assets/walks/trein-anseremme-gendron-01-kaart-lesse.jpg';
-import treinWalk02 from '@/assets/walks/trein-anseremme-gendron-02-la-lesse.jpg';
-import treinWalk03 from '@/assets/walks/trein-anseremme-gendron-03-rotsen.jpg';
-import treinWalk04 from '@/assets/walks/trein-anseremme-gendron-04-kasteel-walzin.jpg';
-import treinWalk05 from '@/assets/walks/trein-anseremme-gendron-05-wegwijzer.jpg';
-import treinWalk06 from '@/assets/walks/trein-anseremme-gendron-06-brug.jpg';
-import treinWalk07 from '@/assets/walks/trein-anseremme-gendron-07-brug-uitzicht.jpg';
-import treinWalk08 from '@/assets/walks/trein-anseremme-gendron-08-grot.jpg';
-import treinWalk09 from '@/assets/walks/trein-anseremme-gendron-09-routekaart.jpg';
+import treinWalk01 from '@/assets/walks/trein-anseremme-gendron-01-kaart-lesse.jpg?format=webp';
+import treinWalk02 from '@/assets/walks/trein-anseremme-gendron-02-la-lesse.jpg?format=webp';
+import treinWalk03 from '@/assets/walks/trein-anseremme-gendron-03-rotsen.jpg?format=webp';
+import treinWalk04 from '@/assets/walks/trein-anseremme-gendron-04-kasteel-walzin.jpg?format=webp';
+import treinWalk05 from '@/assets/walks/trein-anseremme-gendron-05-wegwijzer.jpg?format=webp';
+import treinWalk06 from '@/assets/walks/trein-anseremme-gendron-06-brug.jpg?format=webp';
+import treinWalk07 from '@/assets/walks/trein-anseremme-gendron-07-brug-uitzicht.jpg?format=webp';
+import treinWalk08 from '@/assets/walks/trein-anseremme-gendron-08-grot.jpg?format=webp';
+import treinWalk09 from '@/assets/walks/trein-anseremme-gendron-09-routekaart.jpg?format=webp';
 
 // Treinwandeling Houyet - Gendron photos
-import houyetWalk00 from '@/assets/walks/houyet-gendron-00-brug-lesse.jpg';
-import houyetWalk01 from '@/assets/walks/houyet-gendron-01-station.jpg';
-import houyetWalk02 from '@/assets/walks/houyet-gendron-02-bospad-trap.jpg';
-import houyetWalk03 from '@/assets/walks/houyet-gendron-03-wegwijzer.jpg';
-import houyetWalk04 from '@/assets/walks/houyet-gendron-04-lesse.jpg';
-import houyetWalk05 from '@/assets/walks/houyet-gendron-05-bospad.jpg';
-import houyetWalk06 from '@/assets/walks/houyet-gendron-06-rotsen.jpg';
-import houyetWalk07 from '@/assets/walks/houyet-gendron-07-panorama.jpg';
-import houyetWalk08 from '@/assets/walks/houyet-gendron-08-pad.jpg';
-import houyetWalk09 from '@/assets/walks/houyet-gendron-09-brug.jpg';
-import houyetWalk10 from '@/assets/walks/houyet-gendron-10-terras.jpg';
-import houyetWalk11 from '@/assets/walks/houyet-gendron-11-klimmen.jpg';
-import houyetWalk12 from '@/assets/walks/houyet-gendron-12-steile-trap.jpg';
+import houyetWalk00 from '@/assets/walks/houyet-gendron-00-brug-lesse.jpg?format=webp';
+import houyetWalk01 from '@/assets/walks/houyet-gendron-01-station.jpg?format=webp';
+import houyetWalk02 from '@/assets/walks/houyet-gendron-02-bospad-trap.jpg?format=webp';
+import houyetWalk03 from '@/assets/walks/houyet-gendron-03-wegwijzer.jpg?format=webp';
+import houyetWalk04 from '@/assets/walks/houyet-gendron-04-lesse.jpg?format=webp';
+import houyetWalk05 from '@/assets/walks/houyet-gendron-05-bospad.jpg?format=webp';
+import houyetWalk06 from '@/assets/walks/houyet-gendron-06-rotsen.jpg?format=webp';
+import houyetWalk07 from '@/assets/walks/houyet-gendron-07-panorama.jpg?format=webp';
+import houyetWalk08 from '@/assets/walks/houyet-gendron-08-pad.jpg?format=webp';
+import houyetWalk09 from '@/assets/walks/houyet-gendron-09-brug.jpg?format=webp';
+import houyetWalk10 from '@/assets/walks/houyet-gendron-10-terras.jpg?format=webp';
+import houyetWalk11 from '@/assets/walks/houyet-gendron-11-klimmen.jpg?format=webp';
+import houyetWalk12 from '@/assets/walks/houyet-gendron-12-steile-trap.jpg?format=webp';
 
 export const walks: WalkItem[] = [
   {

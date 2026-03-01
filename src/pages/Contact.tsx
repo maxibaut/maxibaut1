@@ -42,7 +42,7 @@ import {
 } from 'lucide-react';
 import { MdFamilyRestroom } from 'react-icons/md';
 import { FaChargingStation } from 'react-icons/fa6';
-import hostBieke from '@/assets/property/host-bieke.jpg';
+import hostBieke from '@/assets/property/host-bieke.jpg?format=webp';
 import { useSEO } from '@/hooks/useSEO';
 import { sendContactEmail, EmailTranslations } from '@/lib/emailjs';
 

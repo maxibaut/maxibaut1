@@ -4,7 +4,7 @@ import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import { Home } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import tunnelImage from "@/assets/404-tunnel.jpg";
+import tunnelImage from "@/assets/404-tunnel.jpg?format=webp";
 
 const NotFound = () => {
   const location = useLocation();
