@@ -59,6 +59,8 @@ const PropertyGalleryGrid = ({
         <img
           src={mainImage}
           alt={mainImageAlt}
+          width={800}
+          height={600}
           loading="lazy"
           className="w-full h-full object-cover"
         />

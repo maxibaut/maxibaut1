@@ -425,6 +425,9 @@ const SurroundingsDetail = () => {
                     <img
                       src={walkData.routeMapImage}
                       alt={`${title} - route map`}
+                      width={800}
+                      height={600}
+                      loading="lazy"
                       className="w-full rounded-lg cursor-pointer"
                       onClick={() => {
                         // Add map as last image in lightbox
