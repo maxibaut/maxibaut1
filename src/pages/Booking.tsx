@@ -31,7 +31,7 @@ const Booking = () => {
       <section className="bg-primary text-primary-foreground section-padding">
         <div className="container-luxury text-center">
           <h1 className="heading-display mb-4">{t("title")}</h1>
-          <p className="body-large text-primary-foreground/80">{t("subtitle")}</p>
+          <p className="body-large text-primary-foreground/90">{t("subtitle")}</p>
         </div>
       </section>
 
