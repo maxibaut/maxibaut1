@@ -11,7 +11,7 @@ export const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           {/* Brand & Description */}
           <div className="space-y-4">
-            <img src="/logo-ardennest-footer.png" alt="ArdenNest" className="h-10 brightness-0 invert" />
+            <img src="/logo-ardennest-dark.svg" alt="ArdenNest" className="h-10" />
             <p className="text-primary-foreground/80 leading-relaxed">
               {t('footer.tagline')}
             </p>

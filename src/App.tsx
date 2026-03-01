@@ -1,3 +1,4 @@
+import { lazy, Suspense } from 'react';
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -5,22 +6,24 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { LanguageLayout, QueryParamRedirect } from "./components/LanguageRouter";
 import Index from "./pages/Index";
-import Property from "./pages/Property";
-import Differentiators from "./pages/Differentiators";
-import About from "./pages/About";
-import Contact from "./pages/Contact";
-import Booking from "./pages/Booking";
-import Surroundings from "./pages/Surroundings";
-import SurroundingsDetail from "./pages/SurroundingsDetail";
-import HouseRules from "./pages/HouseRules";
-import Checklist from "./pages/Checklist";
-import LocalTips from "./pages/LocalTips";
-import EarlyArrival from "./pages/EarlyArrival";
-import Privacy from "./pages/Privacy";
-import RentalTerms from "./pages/RentalTerms";
-import CancellationPolicy from "./pages/CancellationPolicy";
-import NotFound from "./pages/NotFound";
 import ScrollToTop from "./components/ScrollToTop";
+
+// Lazy-loaded pages for reduced initial bundle
+const Property = lazy(() => import("./pages/Property"));
+const Differentiators = lazy(() => import("./pages/Differentiators"));
+const About = lazy(() => import("./pages/About"));
+const Contact = lazy(() => import("./pages/Contact"));
+const Booking = lazy(() => import("./pages/Booking"));
+const Surroundings = lazy(() => import("./pages/Surroundings"));
+const SurroundingsDetail = lazy(() => import("./pages/SurroundingsDetail"));
+const HouseRules = lazy(() => import("./pages/HouseRules"));
+const Checklist = lazy(() => import("./pages/Checklist"));
+const LocalTips = lazy(() => import("./pages/LocalTips"));
+const EarlyArrival = lazy(() => import("./pages/EarlyArrival"));
+const Privacy = lazy(() => import("./pages/Privacy"));
+const RentalTerms = lazy(() => import("./pages/RentalTerms"));
+const CancellationPolicy = lazy(() => import("./pages/CancellationPolicy"));
+const NotFound = lazy(() => import("./pages/NotFound"));
 
 const queryClient = new QueryClient();
 
@@ -53,18 +56,20 @@ const App = () => (
       <BrowserRouter>
         <ScrollToTop />
         <QueryParamRedirect />
-        <Routes>
-          {/* Dutch (default, no prefix) */}
-          <Route element={<LanguageLayout />}>
-            {pageRoutes}
-          </Route>
-          {/* FR / EN / DE with language prefix */}
-          <Route path=":lang" element={<LanguageLayout />}>
-            {pageRoutes}
-          </Route>
-          {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
-          <Route path="*" element={<NotFound />} />
-        </Routes>
+        <Suspense fallback={<div className="min-h-screen bg-background" />}>
+          <Routes>
+            {/* Dutch (default, no prefix) */}
+            <Route element={<LanguageLayout />}>
+              {pageRoutes}
+            </Route>
+            {/* FR / EN / DE with language prefix */}
+            <Route path=":lang" element={<LanguageLayout />}>
+              {pageRoutes}
+            </Route>
+            {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
+            <Route path="*" element={<NotFound />} />
+          </Routes>
+        </Suspense>
       </BrowserRouter>
     </TooltipProvider>
   </QueryClientProvider>
