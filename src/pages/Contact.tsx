@@ -176,6 +176,9 @@ const Contact = () => {
             <img 
               src={hostBieke} 
               alt={t('hero.imageAlt', 'Bieke, uw persoonlijke gastvrouw bij Arden\'Nest - altijd bereikbaar voor vragen en tips')}
+              width={128}
+              height={128}
+              loading="lazy"
               className="w-24 h-24 md:w-32 md:h-32 rounded-full object-cover border-4 border-primary-foreground/20"
             />
             {/* Text */}

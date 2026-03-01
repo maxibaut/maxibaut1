@@ -13,6 +13,8 @@ export const HeroSection = () => {
       <img
         src={heroMain}
         alt={t('hero.imageAlt', 'Luchtfoto van vakantiewoning Arden\'Nest met 2 hectare tuin in de Belgische Ardennen')}
+        width={1920}
+        height={1080}
         fetchPriority="high"
         decoding="async"
         className="absolute inset-0 w-full h-full object-cover"

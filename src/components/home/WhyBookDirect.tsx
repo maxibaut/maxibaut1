@@ -75,8 +75,10 @@ export const WhyBookDirect = () => {
               <img
                 src={terraceDining}
                 alt={t('whyBookDirect.imageAlt', "ArdenNest terras met eethoek voor groepen")}
-                className="w-full h-full object-cover"
+                width={800}
+                height={600}
                 loading="lazy"
+                className="w-full h-full object-cover"
               />
             </div>
             {/* Decorative element */}

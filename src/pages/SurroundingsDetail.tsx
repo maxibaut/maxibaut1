@@ -235,6 +235,9 @@ const SurroundingsDetail = () => {
                       <img
                         src={image}
                         alt={`${title} - ${t('photoNumber', { number: idx + 1, defaultValue: `afbeelding ${idx + 1}` })}`}
+                        width={600}
+                        height={450}
+                        loading="lazy"
                         className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
                       />
                     </div>
@@ -363,6 +366,9 @@ const SurroundingsDetail = () => {
                           <img
                             src={cyclingData!.bikeImage}
                             alt="BH Atom elektrische fiets"
+                            width={400}
+                            height={300}
+                            loading="lazy"
                             className="max-w-sm w-full rounded-lg cursor-pointer hover:opacity-90 transition-opacity"
                             onClick={() => {
                               const bikeIdx = (item.images?.length ?? 0) + (walkData?.routeMapImage ? 1 : 0);
@@ -419,6 +425,9 @@ const SurroundingsDetail = () => {
                     <img
                       src={walkData.routeMapImage}
                       alt={`${title} - route map`}
+                      width={800}
+                      height={600}
+                      loading="lazy"
                       className="w-full rounded-lg cursor-pointer"
                       onClick={() => {
                         // Add map as last image in lightbox

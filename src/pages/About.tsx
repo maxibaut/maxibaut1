@@ -65,6 +65,9 @@ const About = () => {
               <img 
                 src={ownersPortrait} 
                 alt={t('owners.imageAlt', 'Bieke en Christophe, eigenaren van Arden\'Nest, verwelkomen gasten al sinds 2003')}
+                width={800}
+                height={600}
+                loading="lazy"
                 className="w-full h-full object-cover"
               />
             </div>

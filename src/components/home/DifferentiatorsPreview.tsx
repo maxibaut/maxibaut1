@@ -57,8 +57,10 @@ export const DifferentiatorsPreview = () => {
                 <img
                   src={item.image}
                   alt={item.imageAlt}
-                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                  width={600}
+                  height={400}
                   loading="lazy"
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-charcoal/60 to-transparent" />
                 <div className="absolute bottom-4 left-4">
