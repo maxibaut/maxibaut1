@@ -163,7 +163,7 @@ export const Footer = () => {
 
         {/* Bottom Bar */}
         <div className="mt-12 pt-8 border-t border-primary-foreground/20">
-          <p className="text-sm text-primary-foreground/60 text-center">
+          <p className="text-sm text-primary-foreground/80 text-center">
             {t('footer.copyright')}
           </p>
         </div>

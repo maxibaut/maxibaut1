@@ -46,10 +46,10 @@ export const WhyBookDirect = () => {
                     <Check className="h-4 w-4 text-gold" />
                   </div>
                   <div>
-                    <h4 className="font-medium text-primary-foreground">
+                    <h3 className="font-medium text-primary-foreground text-base">
                       {benefit.title}
-                    </h4>
-                    <p className="text-sm text-primary-foreground/70 mt-0.5">
+                    </h3>
+                    <p className="text-sm text-primary-foreground/90 mt-0.5">
                       {benefit.description}
                     </p>
                   </div>
