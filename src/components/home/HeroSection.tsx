@@ -9,17 +9,15 @@ export const HeroSection = () => {
 
   return (
     <section className="relative min-h-[85vh] flex items-center justify-center overflow-hidden" aria-label={t('hero.headline')}>
-      {/* Background Image with Overlay */}
-      <div
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{
-          backgroundImage: `url('${heroMain}')`,
-        }}
-        role="img"
-        aria-label={t('hero.imageAlt', 'Luchtfoto van vakantiewoning Arden\'Nest met 2 hectare tuin in de Belgische Ardennen')}
-      >
-        <div className="absolute inset-0 bg-gradient-to-b from-charcoal/40 via-charcoal/30 to-charcoal/60" />
-      </div>
+      {/* Background Image — native <img> for fast LCP discovery */}
+      <img
+        src={heroMain}
+        alt={t('hero.imageAlt', 'Luchtfoto van vakantiewoning Arden\'Nest met 2 hectare tuin in de Belgische Ardennen')}
+        fetchPriority="high"
+        decoding="async"
+        className="absolute inset-0 w-full h-full object-cover"
+      />
+      <div className="absolute inset-0 bg-gradient-to-b from-charcoal/40 via-charcoal/30 to-charcoal/60" />
 
       {/* Content */}
       <div className="relative z-10 container-luxury text-center">
