@@ -366,6 +366,9 @@ const SurroundingsDetail = () => {
                           <img
                             src={cyclingData!.bikeImage}
                             alt="BH Atom elektrische fiets"
+                            width={400}
+                            height={300}
+                            loading="lazy"
                             className="max-w-sm w-full rounded-lg cursor-pointer hover:opacity-90 transition-opacity"
                             onClick={() => {
                               const bikeIdx = (item.images?.length ?? 0) + (walkData?.routeMapImage ? 1 : 0);
