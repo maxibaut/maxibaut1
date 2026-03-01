@@ -138,7 +138,7 @@ const Booking = () => {
               <Shield className="h-8 w-8 text-gold" />
             </div>
             <h2 className="heading-2 mb-4">{t("payment.title")}</h2>
-            <p className="body-large text-primary-foreground/80">{t("payment.description")}</p>
+            <p className="body-large text-primary-foreground/90">{t("payment.description")}</p>
           </div>
         </div>
       </section>
