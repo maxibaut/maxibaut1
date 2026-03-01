@@ -1,0 +1,19 @@
+# Cache hashed Vite assets for 1 year (immutable)
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# Cache static images for 1 month
+/photos/*
+  Cache-Control: public, max-age=2592000
+
+# Cache fonts for 1 year
+*.woff2
+  Cache-Control: public, max-age=31536000, immutable
+
+# Cache SVG logos for 1 week
+/*.svg
+  Cache-Control: public, max-age=604800
+
+# Cache favicon
+/favicon.png
+  Cache-Control: public, max-age=2592000
