@@ -16,6 +16,7 @@ export default defineConfig(({ mode }) => ({
   },
   plugins: [
     react(),
+    imagetools(),
     mode === "development" && componentTagger(),
     ViteImageOptimizer({
       jpg: {
