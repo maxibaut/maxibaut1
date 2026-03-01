@@ -8,13 +8,17 @@ import '@fontsource/inter/500.css';
 import '@fontsource/inter/600.css';
 import '@fontsource/inter/700.css';
 
-import emailjs from '@emailjs/browser';
 import { createRoot } from 'react-dom/client';
 import App from './App.tsx';
 import './lib/i18n';
 import './index.css';
 
-// Initialize EmailJS with public key (safe to include in frontend)
-emailjs.init('GOWvcryg-MOYFp0nk');
+// Defer EmailJS initialization until after first paint
+const initEmailJS = () => import('@emailjs/browser').then(m => m.default.init('GOWvcryg-MOYFp0nk'));
+if ('requestIdleCallback' in window) {
+  (window as any).requestIdleCallback(initEmailJS);
+} else {
+  setTimeout(initEmailJS, 2000);
+}
 
 createRoot(document.getElementById("root")!).render(<App />);

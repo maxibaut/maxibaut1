@@ -8,11 +8,13 @@ import ferme172 from "@/assets/property/ferme-172.jpg";
 import hostBieke from "@/assets/property/host-bieke.jpg";
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 import { useSEO } from "@/hooks/useSEO";
+import { useLazyIframe } from "@/hooks/useLazyIframe";
 
 const Booking = () => {
   const { t, i18n } = useTranslation("booking");
   const location = useLocation();
   useSEO();
+  const { ref: iframeRef, isVisible: iframeVisible } = useLazyIframe('400px');
 
   const langMap: Record<string, string> = { nl: "nl", fr: "fr", en: "en", de: "de" };
   const beds24Lang = langMap[i18n.language] || "en";
@@ -70,20 +72,26 @@ const Booking = () => {
           </div>
 
           {/* Beds24 Booking Widget */}
-          <div className="max-w-4xl mx-auto bg-background rounded-lg shadow-lg overflow-hidden">
-            <iframe
-              src={iframeSrc}
-              width="100%"
-              height="2000"
-              style={{ maxWidth: "100%", border: "none", overflow: "auto" }}
-              title={t("availability.title")}
-            >
-              <p>
-                <a href="https://beds24.com/booking2.php?propid=28947&referer=iframe" title="Book Now">
-                  {t("availability.button")}
-                </a>
-              </p>
-            </iframe>
+          <div ref={iframeRef} className="max-w-4xl mx-auto bg-background rounded-lg shadow-lg overflow-hidden">
+            {iframeVisible ? (
+              <iframe
+                src={iframeSrc}
+                width="100%"
+                height="2000"
+                style={{ maxWidth: "100%", border: "none", overflow: "auto" }}
+                title={t("availability.title")}
+              >
+                <p>
+                  <a href="https://beds24.com/booking2.php?propid=28947&referer=iframe" title="Book Now">
+                    {t("availability.button")}
+                  </a>
+                </p>
+              </iframe>
+            ) : (
+              <div className="h-[400px] flex items-center justify-center text-muted-foreground">
+                {t("availability.title")}...
+              </div>
+            )}
           </div>
         </div>
       </section>
