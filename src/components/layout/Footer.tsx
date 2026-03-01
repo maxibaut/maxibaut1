@@ -40,7 +40,7 @@ export const Footer = () => {
                 <p className="text-sm text-primary-foreground/80 flex items-center gap-1">
                   {t('footer.googleReviews')} <ExternalLink className="h-3 w-3" />
                 </p>
-                <p className="text-xs text-primary-foreground/60">50+ reviews</p>
+                <p className="text-xs text-primary-foreground/80">50+ reviews</p>
               </div>
             </a>
           </div>
@@ -163,7 +163,7 @@ export const Footer = () => {
 
         {/* Bottom Bar */}
         <div className="mt-12 pt-8 border-t border-primary-foreground/20">
-          <p className="text-sm text-primary-foreground/60 text-center">
+          <p className="text-sm text-primary-foreground/80 text-center">
             {t('footer.copyright')}
           </p>
         </div>

@@ -34,7 +34,7 @@ export const WhyBookDirect = () => {
           <div className="space-y-8">
             <div>
               <h2 className="heading-2 mb-4">{t('whyBookDirect.title')}</h2>
-              <p className="body-large text-primary-foreground/80">
+              <p className="body-large text-primary-foreground/90">
                 {t('whyBookDirect.subtitle')}
               </p>
             </div>
@@ -46,10 +46,10 @@ export const WhyBookDirect = () => {
                     <Check className="h-4 w-4 text-gold" />
                   </div>
                   <div>
-                    <h4 className="font-medium text-primary-foreground">
+                    <h3 className="font-medium text-primary-foreground text-base">
                       {benefit.title}
-                    </h4>
-                    <p className="text-sm text-primary-foreground/70 mt-0.5">
+                    </h3>
+                    <p className="text-sm text-primary-foreground/90 mt-0.5">
                       {benefit.description}
                     </p>
                   </div>

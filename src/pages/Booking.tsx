@@ -31,7 +31,7 @@ const Booking = () => {
       <section className="bg-primary text-primary-foreground section-padding">
         <div className="container-luxury text-center">
           <h1 className="heading-display mb-4">{t("title")}</h1>
-          <p className="body-large text-primary-foreground/80">{t("subtitle")}</p>
+          <p className="body-large text-primary-foreground/90">{t("subtitle")}</p>
         </div>
       </section>
 
@@ -138,7 +138,7 @@ const Booking = () => {
               <Shield className="h-8 w-8 text-gold" />
             </div>
             <h2 className="heading-2 mb-4">{t("payment.title")}</h2>
-            <p className="body-large text-primary-foreground/80">{t("payment.description")}</p>
+            <p className="body-large text-primary-foreground/90">{t("payment.description")}</p>
           </div>
         </div>
       </section>

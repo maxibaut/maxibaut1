@@ -62,7 +62,7 @@ export const TrustSignals = () => {
                     {signal.isReview && <ExternalLink className="h-3 w-3" />}
                   </p>
                   {signal.detail && (
-                    <p className="text-xs text-muted-foreground/80">{signal.detail}</p>
+                    <p className="text-xs text-muted-foreground">{signal.detail}</p>
                   )}
                 </div>
               </>
