@@ -24,15 +24,15 @@ export const HeroSection = () => {
       {/* Content */}
       <div className="relative z-10 container-luxury text-center">
         <div className="max-w-4xl mx-auto space-y-8 animate-fade-in-up">
-          {/* Headline */}
-          <h1 className="heading-display text-cream leading-tight">
+          {/* Sfeerslogan — visueel prominent maar geen H1 */}
+          <p className="heading-display text-cream leading-tight">
             {t('hero.headline')}
-          </h1>
-
-          {/* Subheadline */}
-          <p className="body-large text-cream/90 max-w-2xl mx-auto">
-            {t('hero.subheadline')}
           </p>
+
+          {/* H1 — beschrijvend voor SEO en AI */}
+          <h1 className="font-serif text-2xl md:text-3xl text-cream/90 max-w-2xl mx-auto font-normal">
+            {t('hero.h1')}
+          </h1>
 
           {/* CTAs */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
