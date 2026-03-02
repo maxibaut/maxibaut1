@@ -60,7 +60,8 @@ const Surroundings = () => {
       {/* Hero */}
       <section className="bg-primary text-primary-foreground section-padding">
         <div className="container-luxury text-center">
-          <h1 className="heading-display mb-4">{t('title')}</h1>
+          <p className="heading-display mb-4">{t('title')}</p>
+          <h1 className="font-serif text-2xl md:text-3xl text-primary-foreground/90 max-w-2xl mx-auto font-normal mb-4">{t('h1')}</h1>
           <p className="body-large text-primary-foreground/80 max-w-2xl mx-auto">
             {t('subtitle')}
           </p>
