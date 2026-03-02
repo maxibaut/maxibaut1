@@ -63,7 +63,7 @@ export const Header = () => {
           </LocalizedLink>
 
           {/* Desktop Navigation */}
-          <nav className="hidden lg:flex items-center space-x-8">
+          <nav className="hidden lg:flex items-center space-x-8" aria-label="Hoofdnavigatie">
             {navItems.map((item) => (
               <LocalizedLink
                 key={item.path}
