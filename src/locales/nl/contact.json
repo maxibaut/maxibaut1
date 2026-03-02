@@ -4,8 +4,8 @@
     "description": "Neem contact op met Bieke voor vragen of boekingen. Direct contact, geen tussenpersonen. Telefonisch, per mail of via WhatsApp."
   },
   "title": "Contact",
+  "h1": "Neem direct contact op met Bieke — telefonisch, per mail of WhatsApp",
   "subtitle": "Ik help u graag verder",
-  "signature": "Bieke",
   "options": {
     "phone": {
       "title": "Bel Bieke",
