@@ -152,8 +152,11 @@ const HouseRules = () => {
       <section className="relative bg-primary/5 py-16 lg:py-24">
         <div className="container-luxury">
           <div className="max-w-3xl">
-            <h1 className="font-serif text-4xl md:text-5xl font-semibold text-foreground mb-4">
+            <p className="font-serif text-4xl md:text-5xl font-semibold text-foreground mb-4">
               {t('pageTitle')}
+            </p>
+            <h1 className="font-serif text-2xl md:text-3xl text-foreground/80 font-normal mb-4">
+              {t('h1')}
             </h1>
             <p className="text-lg text-muted-foreground leading-relaxed">
               {t('pageSubtitle')}
