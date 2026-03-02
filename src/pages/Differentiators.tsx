@@ -377,10 +377,10 @@ const Differentiators = () => {
       {/* Hero */}
       <section className="bg-primary text-primary-foreground section-padding">
         <div className="container-luxury text-center">
-          <h1 className="heading-display mb-4">{t('differentiators.sectionTitle')}</h1>
-          <p className="body-large text-primary-foreground/80 max-w-2xl mx-auto">
-            {t('differentiators.sectionSubtitle')}
-          </p>
+          <p className="heading-display mb-4 text-primary-foreground">{t('differentiators.sectionTitle')}</p>
+          <h1 className="font-serif text-2xl md:text-3xl text-primary-foreground/80 max-w-2xl mx-auto font-normal">
+            {t('differentiators.h1')}
+          </h1>
         </div>
       </section>
 
