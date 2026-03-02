@@ -34,6 +34,7 @@ export const TrustSignals = () => {
   return (
     <section className="bg-cream-dark py-12 md:py-16">
       <div className="container-luxury">
+        <h2 className="sr-only">{t('trust.sectionTitle', 'Waarom gezinnen ArdenNest vertrouwen')}</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {signals.map((signal, index) => {
             const content = (
