@@ -125,8 +125,8 @@ const Property = () => {
           <div className="absolute inset-0 bg-charcoal/50" />
         </div>
         <div className="relative z-10 text-center text-cream container-luxury pointer-events-none">
-          <h1 className="heading-display mb-4">{t('title')}</h1>
-          <p className="body-large text-cream/90">{t('subtitle')}</p>
+          <p className="heading-display mb-4">{t('title')}</p>
+          <h1 className="font-serif text-2xl md:text-3xl text-cream/90 font-normal">{t('h1')}</h1>
         </div>
       </section>
 
