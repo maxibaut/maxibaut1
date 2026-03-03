@@ -62,6 +62,11 @@ const Property = () => {
     addUnique(diningRoom, 'Eetkamer');
     addUnique(terraceDining, 'Terras met eethoek');
     addUnique(playBarn, 'Speelstal');
+    // Oak Table section
+    addUnique(oakTableDetail, t('oakTable.imageAlt', 'Handgemaakte eiken tafel van 6 meter'));
+    addUnique(diningTableSet, 'Gedekte eiken tafel met zicht op tuin');
+    addUnique(diningTableWindow, 'Eiken tafel bij het raam');
+    addUnique(diningTableCabinet, 'Eiken tafel met servieskast');
     // Bathrooms section
     addUnique(bathroomEnsuite, 'Ensuite slaapkamer met badkamer');
     addUnique(bathroomSink, 'Slaapkamer met ensuite badkamer');
@@ -73,15 +78,9 @@ const Property = () => {
     addUnique(bedroomPrimary, 'Hoofdslaapkamer');
     addUnique(bedroomAtmospheric, 'Sfeervolle slaapkamer');
     addUnique(bedroomMezzanine, 'Mezzanine slaapkamer');
-    // Oak Table section
-    addUnique(oakTableDetail, t('oakTable.imageAlt', 'Handgemaakte eiken tafel van 6 meter'));
-    addUnique(diningTableSet, 'Gedekte eiken tafel met zicht op tuin');
-    addUnique(diningTableWindow, 'Eiken tafel bij het raam');
-    addUnique(diningTableCabinet, 'Eiken tafel met servieskast');
-    addUnique(diningRoom, 'Eetkamer overzicht');
     // Living Space section
-    addUnique(bedroomMezzanine, 'Mezzanine slaapkamer');
-    addUnique(bedroomQuietLuxury, 'Luxe slaapkamer');
+    addUnique(livingFireplace, t('livingSpace.imageAlt', 'Sfeervolle woonkamer'));
+    addUnique(livingAperitif, 'Gezellige zithoek');
     addUnique(gameRoomFoosball, 'Tafelvoetbal');
     // Remaining photos
     addUnique(gardenSports, 'Sportveld in de tuin');
