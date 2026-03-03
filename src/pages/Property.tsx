@@ -386,14 +386,22 @@ const Property = () => {
           </div>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             {Object.entries(t('garden.features', { returnObjects: true }) as Record<string, string>).map(
-              ([key, value]) => (
-                <Card key={key} className="text-center">
-                  <CardContent className="p-6">
-                    <TreePine className="h-8 w-8 text-primary mx-auto mb-3" />
-                    <span className="font-medium text-foreground">{value}</span>
-                  </CardContent>
-                </Card>
-              )
+              ([key, value]) => {
+                const iconMap: Record<string, React.ReactNode> = {
+                  size: <Moon className="h-8 w-8 text-primary mx-auto mb-3" />,
+                  playground: <Footprints className="h-8 w-8 text-primary mx-auto mb-3" />,
+                  football: <Trophy className="h-8 w-8 text-primary mx-auto mb-3" />,
+                  treasureHunt: <Laugh className="h-8 w-8 text-primary mx-auto mb-3" />,
+                };
+                return (
+                  <Card key={key} className="text-center">
+                    <CardContent className="p-6">
+                      {iconMap[key] || <TreePine className="h-8 w-8 text-primary mx-auto mb-3" />}
+                      <span className="font-medium text-foreground">{value}</span>
+                    </CardContent>
+                  </Card>
+                );
+              }
             )}
           </div>
         </div>
