@@ -252,27 +252,6 @@ const Differentiators = () => {
       ],
       reverse: false,
     },
-    {
-      id: 'ventilation',
-      icon: Fan,
-      title: t('differentiators.ventilation.title'),
-      description: t('differentiators.ventilation.description'),
-      image: bedroomAtmospheric,
-      imageAlt: t('differentiators.ventilation.title'),
-      sideImages: [
-        { src: bedroomPrimary, alt: t('differentiators.mattresses.title') },
-        { src: bedroomQuietLuxury, alt: t('differentiators.quietLuxury.title') },
-        { src: bedroomMezzanine, alt: t('differentiators.mattresses.title') },
-        { src: livingFireplace, alt: t('differentiators.quietLuxury.title') },
-      ],
-      features: [
-        t('differentiators.ventilationFeature1'),
-        t('differentiators.ventilationFeature2'),
-        t('differentiators.ventilationFeature3'),
-        t('differentiators.ventilationFeature4'),
-      ],
-      reverse: true,
-    },
   ], [t]);
 
   // Build lightbox photos from sections: main photo first, then side photos, deduplicated
