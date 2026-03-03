@@ -52,11 +52,11 @@
     },
     "gameRoom": {
       "title": "The Games Room",
-      "description": "A space where young and old challenge each other. From thrilling games of pool to intense table football matches.",
-      "feature1": "Professional pool table",
-      "feature2": "Table football for intense matches",
-      "feature3": "Extensive board game collection",
-      "feature4": "Retro gaming for enthusiasts"
+      "description": "The place where teenagers put down their phones and adults become twelve again. A separate building with space to play without disturbing the rest of the house — or being disturbed. Ideal for a rainy afternoon or a tournament after dinner.",
+      "feature1": "Professional pool table — the centrepiece of every evening. Expect heated debates about house rules.",
+      "feature2": "Table football — for the competitive matches between generations. Grandparents vs. grandchildren is a classic.",
+      "feature3": "Extensive board game collection — from quick card games to long strategic evenings. Something for every group.",
+      "feature4": "Retro gaming — for enthusiasts who want to drift back to the '80s and '90s."
     },
     "playBarn": {
       "title": "The Play Barn",

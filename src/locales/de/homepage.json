@@ -52,11 +52,11 @@
     },
     "gameRoom": {
       "title": "Das Spielzimmer",
-      "description": "Ein Raum, wo Jung und Alt sich herausfordern. Von spannenden Billardpartien bis zu hitzigen Tischfußballspielen.",
-      "feature1": "Professioneller Billardtisch",
-      "feature2": "Tischfußball für intensive Matches",
-      "feature3": "Umfangreiche Brettspielsammlung",
-      "feature4": "Retro-Gaming für Liebhaber"
+      "description": "Der Ort, an dem Teenager ihr Handy weglegen und Erwachsene wieder zwölf sind. Ein separates Gebäude mit Platz zum Spielen, ohne den Rest des Hauses zu stören — oder gestört zu werden. Ideal für einen regnerischen Nachmittag oder ein Turnier nach dem Abendessen.",
+      "feature1": "Professioneller Billardtisch — der Mittelpunkt jedes Abends. Erwarten Sie hitzige Diskussionen über Hausregeln.",
+      "feature2": "Tischfußball — für die fanatischen Matches zwischen Generationen. Großeltern gegen Enkelkinder ist ein Klassiker.",
+      "feature3": "Umfangreiche Brettspielsammlung — von schnellen Kartenspielen bis zu langen strategischen Abenden. Für jede Gesellschaft etwas.",
+      "feature4": "Retro-Gaming — für Liebhaber, die in die 80er und 90er Jahre zurückreisen möchten."
     },
     "playBarn": {
       "title": "Der Spielstall",
