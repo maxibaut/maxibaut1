@@ -102,7 +102,11 @@
     },
     "quietLuxury": {
       "title": "Quiet Luxury",
-      "description": "Ensuite bathrooms, solid oak floors and timeless interiors. No frills, just genuine quality you can feel."
+      "description": "No swimming pool, no sauna — by design. We invest in what truly matters when a large group comes together: a professional kitchen where cooking for 26 is a pleasure, an ensuite bathroom with every bedroom, and one table where everyone sits together. Thoughtful quality you feel, without having to think about it.",
+      "feature1": "Togetherness over entertainment — a house built for living together, not for seeking amusement.",
+      "feature2": "Ease over embellishment — everything works, everything is there, everything is clean. You just need to arrive.",
+      "feature3": "Space over busyness — 2 hectares of garden where children disappear and adults find peace.",
+      "feature4": "Quality over quantity — from the Lacanche stove to the De Witte Lietaer bedding: fewer features, higher standards."
     },
     "kitchen": {
       "title": "Commercial-Grade Kitchen",

@@ -102,7 +102,11 @@
     },
     "quietLuxury": {
       "title": "Stiller Luxus",
-      "description": "Ensuite-Badezimmer, massive Eichenböden und zeitlose Einrichtung. Kein Schnickschnack, sondern echte Qualität, die man spürt."
+      "description": "Kein Schwimmbad, keine Sauna — bewusst. Wir investieren in das, was wirklich zählt, wenn eine große Gruppe zusammenkommt: eine professionelle Küche, in der das Kochen für 26 ein Vergnügen ist, ein eigenes Badezimmer bei jedem Schlafzimmer und ein Tisch, an dem alle zusammensitzen. Durchdachte Qualität, die Sie spüren, ohne darüber nachdenken zu müssen.",
+      "feature1": "Zusammensein statt Unterhaltung — ein Haus, das zum Zusammenleben gebaut wurde, nicht zur Zerstreuung.",
+      "feature2": "Entlastung statt Verzierung — alles funktioniert, alles ist da, alles ist sauber. Sie müssen nur noch kommen.",
+      "feature3": "Raum statt Hektik — 2 Hektar Garten, in dem Kinder verschwinden und Erwachsene zur Ruhe kommen.",
+      "feature4": "Qualität statt Quantität — vom Lacanche-Herd bis zur De Witte Lietaer-Bettwäsche: weniger Features, höhere Standards."
     },
     "kitchen": {
       "title": "Küche auf Gastronomie-Niveau",
