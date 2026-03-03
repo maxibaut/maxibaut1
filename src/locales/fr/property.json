@@ -29,13 +29,13 @@
     ]
   },
   "bathrooms": {
-    "title": "Salles de Bain Privatives",
-    "description": "Chaque chambre dispose de sa propre salle de bain — pas de files d'attente, pas d'espaces partagés. Privé et confortable, même avec 26 invités.",
+    "title": "9 Salles de Bain Privatives",
+    "description": "Le plus grand stress avec un grand groupe ? Les embouteillages matinaux dans la salle de bain. Chez ArdenNest, ça n'existe pas. Chaque chambre dispose de sa propre salle de bain — entièrement fermée, avec douche ou baignoire, toilettes et lavabo. Pas de file d'attente, pas de planning, pas de tracas. 9 chambres, 9 salles de bain.",
     "features_list": [
-      "9 salles de bain privatives — chaque chambre a sa propre salle de bain",
-      "Douches à l'italienne dans chaque salle de bain",
-      "Serviettes de qualité incluses",
-      "Ventilation centrale silencieuse pour une qualité d'air optimale"
+      "Pas de discussion matinale : Chacun se douche quand ça lui convient. Pas de planning, pas de file d'attente, pas de 'qui a utilisé toute l'eau chaude.' C'est le confort qui fait la différence.",
+      "Entièrement privé : Chaque salle de bain est entièrement fermée avec ses propres toilettes, lavabo et douche ou baignoire. Aucun espace partagé, même avec 26 invités.",
+      "Ventilation silencieuse : Toutes les salles de bain sont équipées d'une ventilation centrale silencieuse. Une qualité d'air optimale sans réveiller personne.",
+      "Service serviettes : Serviettes de qualité en option. Une chose de moins à emballer, une chose de moins à organiser."
     ]
   },
   "bedrooms": {
