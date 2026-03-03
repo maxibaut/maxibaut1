@@ -72,13 +72,13 @@
   },
   "livingSpace": {
     "title": "Espace de Vie Chaleureux",
-    "description": "Malgré la capacité de 26 personnes, la maison ne ressemble jamais à une salle. Différents coins salon confortables vous font toujours sentir chez vous.",
-    "features": {
-      "fireplace": "Cheminée",
-      "cozyCorners": "Coins salon chaleureux",
-      "intimacy": "Atmosphère intime",
-      "views": "Vue sur le jardin"
-    }
+    "description": "Une maison pour 26 qui ressemble à une maison — pas à une salle. Différents coins salon font qu'après le dîner, vous vous retrouvez naturellement en petits groupes : une conversation au coin du feu, un jeu à table, un verre de vin avec vue sur le jardin. Être ensemble sans être constamment les uns sur les autres.",
+    "features_list": [
+      "Cheminée : Le point central de la soirée. Blottissez-vous ensemble près du feu pendant que les enfants dorment déjà.",
+      "Différents coins salon : Pas une grande salle, mais plusieurs endroits pour s'installer. Chacun trouve son coin — ou se joint aux autres.",
+      "Atmosphère intime : Matériaux authentiques, éclairage chaleureux et aménagement réfléchi. On se sent chez soi, même en grand groupe.",
+      "Vue sur le jardin : Les grandes fenêtres offrent une vue sur le paysage vallonné. Garder un œil sur les enfants depuis le canapé — c'est possible ici."
+    ]
   },
   "gallery": {
     "viewAll": "Voir les {{count}} photos"
