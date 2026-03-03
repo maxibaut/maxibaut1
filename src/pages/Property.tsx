@@ -103,6 +103,12 @@ const Property = () => {
     addUnique(gardenHiddenPath, 'Verborgen pad in de tuin');
     addUnique(gardenHammock, 'Hangmat in de tuin');
     addUnique(gardenLandscape, 'Landschap van de tuin');
+    // Play barn section
+    addUnique(playBarn, 'De Speelstal met go-karts en skelters');
+    addUnique(farmhouseAerial, 'Luchtfoto van de hoeve');
+    addUnique(farmhouseFront, 'Voorgevel van de hoeve');
+    addUnique(farmhouseSide, 'Zijkant van de hoeve');
+    addUnique(farmhouseEntrance, 'Ingang van de hoeve');
     return photos;
   }, [t]);
 
