@@ -61,13 +61,13 @@
     ]
   },
   "garden": {
-    "title": "Der Garten",
-    "description": "2 Hektar Platz zum Entspannen, Spielen und Genießen",
+    "title": "Spielen & Genießen",
+    "description": "Endloser Raum für alle Altersgruppen — draußen, drinnen und überdacht",
     "features": {
-      "size": "200m x 100m",
-      "playground": "Spielgeräte",
-      "football": "Fußballfeld",
-      "treasureHunt": "Schatzsuche"
+      "size": "Stundenlang verschwinden",
+      "playground": "Schmutzige Knie",
+      "football": "Fanatische Matches",
+      "treasureHunt": "Zusammen lachen"
     }
   },
   "livingSpace": {

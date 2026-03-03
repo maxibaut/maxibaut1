@@ -61,13 +61,13 @@
     ]
   },
   "garden": {
-    "title": "De Tuin",
-    "description": "2 hectare aan ruimte om te ontspannen, spelen en genieten",
+    "title": "Spelen & Genieten",
+    "description": "Eindeloze ruimte voor alle leeftijden — buiten, binnen en overdekt",
     "features": {
-      "size": "200m x 100m",
-      "playground": "Speeltoestellen",
-      "football": "Voetbalveld",
-      "treasureHunt": "Schattenjacht"
+      "size": "Urenlang verdwijnen",
+      "playground": "Vuile knieën",
+      "football": "Fanatieke matches",
+      "treasureHunt": "Samen lachen"
     }
   },
   "livingSpace": {
