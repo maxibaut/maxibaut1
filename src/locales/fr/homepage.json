@@ -52,11 +52,11 @@
     },
     "gameRoom": {
       "title": "La Salle de Jeux",
-      "description": "Un espace où petits et grands se défient. Des parties de billard palpitantes aux matchs de baby-foot effrénés.",
-      "feature1": "Billard professionnel",
-      "feature2": "Baby-foot pour des matches intenses",
-      "feature3": "Collection étendue de jeux de société",
-      "feature4": "Gaming rétro pour les amateurs"
+      "description": "L'endroit où les ados lâchent leur téléphone et les adultes redeviennent des gamins. Un bâtiment séparé avec de l'espace pour jouer sans déranger le reste de la maison — ni être dérangé. Idéal pour un après-midi pluvieux ou un tournoi après le dîner.",
+      "feature1": "Billard professionnel — le point central de chaque soirée. Attendez-vous à des débats animés sur les règles maison.",
+      "feature2": "Baby-foot — pour les matches acharnés entre générations. Grands-parents contre petits-enfants, un classique.",
+      "feature3": "Collection étendue de jeux de société — des jeux de cartes rapides aux longues soirées stratégiques. Quelque chose pour chaque groupe.",
+      "feature4": "Gaming rétro — pour les amateurs qui veulent replonger dans les années 80 et 90."
     },
     "playBarn": {
       "title": "L'Écurie de Jeux",
