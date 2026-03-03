@@ -479,10 +479,25 @@ const Property = () => {
         </div>
       </section>
 
-      <section className="section-padding bg-cream-dark">
+      <section className="section-padding">
         <div className="container-luxury">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div className="order-2 lg:order-1">
+            <div className="order-1 lg:order-1">
+              <PropertyGalleryGrid
+                mainImage={playBarn}
+                mainImageAlt="De Speelstal met go-karts en skelters"
+                sideImages={[
+                  { src: farmhouseAerial, alt: 'Luchtfoto van de hoeve' },
+                  { src: farmhouseFront, alt: 'Voorgevel van de hoeve' },
+                  { src: farmhouseSide, alt: 'Zijkant van de hoeve' },
+                  { src: farmhouseEntrance, alt: 'Ingang van de hoeve' },
+                ]}
+                allPhotosCount={allPhotos.length}
+                onImageClick={handleImageClick}
+                sideImagesPosition="left"
+              />
+            </div>
+            <div className="order-2 lg:order-2">
               <div className="flex items-center space-x-3 mb-4">
                 <Car className="h-8 w-8 text-accent" />
                 <h2 className="heading-2">{tHome('differentiators.playBarn.title')}</h2>
@@ -498,21 +513,6 @@ const Property = () => {
                   </li>
                 ))}
               </ul>
-            </div>
-            <div className="order-1 lg:order-2">
-              <PropertyGalleryGrid
-                mainImage={playBarn}
-                mainImageAlt="De Speelstal met go-karts en skelters"
-                sideImages={[
-                  { src: farmhouseAerial, alt: 'Luchtfoto van de hoeve' },
-                  { src: farmhouseFront, alt: 'Voorgevel van de hoeve' },
-                  { src: farmhouseSide, alt: 'Zijkant van de hoeve' },
-                  { src: farmhouseEntrance, alt: 'Ingang van de hoeve' },
-                ]}
-                allPhotosCount={allPhotos.length}
-                onImageClick={handleImageClick}
-                sideImagesPosition="right"
-              />
             </div>
           </div>
         </div>
