@@ -335,30 +335,6 @@ const Property = () => {
         </div>
       </section>
 
-      {/* Garden Section */}
-      <section className="section-padding bg-background">
-        <div className="container-luxury">
-          <div className="text-center max-w-2xl mx-auto mb-12">
-            <h2 className="heading-2 mb-4">{t('garden.title')}</h2>
-            <p className="body-large text-muted-foreground">
-              {t('garden.description')}
-            </p>
-          </div>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-            {Object.entries(t('garden.features', { returnObjects: true }) as Record<string, string>).map(
-              ([key, value]) => (
-                <Card key={key} className="text-center">
-                  <CardContent className="p-6">
-                    <TreePine className="h-8 w-8 text-primary mx-auto mb-3" />
-                    <span className="font-medium text-foreground">{value}</span>
-                  </CardContent>
-                </Card>
-              )
-            )}
-          </div>
-        </div>
-      </section>
-
       {/* Living Space Section */}
       <section className="section-padding bg-cream-dark">
         <div className="container-luxury">
@@ -395,6 +371,30 @@ const Property = () => {
                 sideImagesPosition="right"
               />
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Garden Summary */}
+      <section className="section-padding bg-background">
+        <div className="container-luxury">
+          <div className="text-center max-w-2xl mx-auto mb-12">
+            <h2 className="heading-2 mb-4">{t('garden.title')}</h2>
+            <p className="body-large text-muted-foreground">
+              {t('garden.description')}
+            </p>
+          </div>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+            {Object.entries(t('garden.features', { returnObjects: true }) as Record<string, string>).map(
+              ([key, value]) => (
+                <Card key={key} className="text-center">
+                  <CardContent className="p-6">
+                    <TreePine className="h-8 w-8 text-primary mx-auto mb-3" />
+                    <span className="font-medium text-foreground">{value}</span>
+                  </CardContent>
+                </Card>
+              )
+            )}
           </div>
         </div>
       </section>
