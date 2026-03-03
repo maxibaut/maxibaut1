@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 import { LocalizedLink as Link } from '@/components/LocalizedLink';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
-import { Bed, Bath, TreePine, ChefHat, ArrowRight, Sofa, BookOpen, Check, ShowerHead, Moon } from 'lucide-react';
+import { Bed, Bath, TreePine, ChefHat, ArrowRight, Sofa, BookOpen, Check, ShowerHead, Moon, Car } from 'lucide-react';
 import { MdFamilyRestroom } from 'react-icons/md';
 import { 
   propertyHero, 
@@ -31,6 +31,10 @@ import {
   gardenHiddenPath,
   gardenHammock,
   bbqTerrace,
+  farmhouseAerial,
+  farmhouseFront,
+  farmhouseSide,
+  farmhouseEntrance,
   gameRoomPool,
   gameRoomFoosball,
   playBarn,
@@ -99,6 +103,12 @@ const Property = () => {
     addUnique(gardenHiddenPath, 'Verborgen pad in de tuin');
     addUnique(gardenHammock, 'Hangmat in de tuin');
     addUnique(gardenLandscape, 'Landschap van de tuin');
+    // Play barn section
+    addUnique(playBarn, 'De Speelstal met go-karts en skelters');
+    addUnique(farmhouseAerial, 'Luchtfoto van de hoeve');
+    addUnique(farmhouseFront, 'Voorgevel van de hoeve');
+    addUnique(farmhouseSide, 'Zijkant van de hoeve');
+    addUnique(farmhouseEntrance, 'Ingang van de hoeve');
     return photos;
   }, [t]);
 
@@ -426,6 +436,47 @@ const Property = () => {
         </div>
       </section>
 
+      {/* Play Barn Section */}
+      <section className="section-padding bg-cream-dark">
+        <div className="container-luxury">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div className="order-2 lg:order-1">
+              <div className="flex items-center space-x-3 mb-4">
+                <Car className="h-8 w-8 text-accent" />
+                <h2 className="heading-2">{tHome('differentiators.playBarn.title')}</h2>
+              </div>
+              <p className="body-large text-muted-foreground mb-8">
+                {tHome('differentiators.playBarn.description')}
+              </p>
+              <ul className="space-y-3">
+                {[1, 2, 3, 4].map((i) => (
+                  <li key={i} className="flex items-center space-x-3">
+                    <Check className="h-5 w-5 text-primary flex-shrink-0" />
+                    <span className="text-foreground">{tHome(`differentiators.playBarn.feature${i}`)}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div className="order-1 lg:order-2">
+              <PropertyGalleryGrid
+                mainImage={playBarn}
+                mainImageAlt="De Speelstal met go-karts en skelters"
+                sideImages={[
+                  { src: farmhouseAerial, alt: 'Luchtfoto van de hoeve' },
+                  { src: farmhouseFront, alt: 'Voorgevel van de hoeve' },
+                  { src: farmhouseSide, alt: 'Zijkant van de hoeve' },
+                  { src: farmhouseEntrance, alt: 'Ingang van de hoeve' },
+                ]}
+                allPhotosCount={allPhotos.length}
+                onImageClick={handleImageClick}
+                sideImagesPosition="right"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* CTA Section */}
       <section className="section-padding bg-cream-dark">
         <div className="container-luxury text-center">
           <h2 className="heading-2 mb-4">{t('cta.title')}</h2>

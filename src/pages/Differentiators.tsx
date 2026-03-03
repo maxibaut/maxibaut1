@@ -106,27 +106,6 @@ const Differentiators = () => {
       reverse: false,
     },
     {
-      id: 'play-barn',
-      icon: Car,
-      title: t('differentiators.playBarn.title'),
-      description: t('differentiators.playBarn.description'),
-      image: playBarn,
-      imageAlt: t('differentiators.playBarn.title'),
-      sideImages: [
-        { src: farmhouseAerial, alt: t('differentiators.certified.title') },
-        { src: farmhouseFront, alt: t('differentiators.certified.title') },
-        { src: farmhouseSide, alt: t('differentiators.certified.title') },
-        { src: farmhouseEntrance, alt: t('differentiators.certified.title') },
-      ],
-      features: [
-        t('differentiators.playBarn.feature1'),
-        t('differentiators.playBarn.feature2'),
-        t('differentiators.playBarn.feature3'),
-        t('differentiators.playBarn.feature4'),
-      ],
-      reverse: true,
-    },
-    {
       id: 'dish-cabinet',
       icon: ClipboardCheck,
       title: t('differentiators.dishCabinet.title'),
