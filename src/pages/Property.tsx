@@ -62,6 +62,11 @@ const Property = () => {
     addUnique(diningRoom, 'Eetkamer');
     addUnique(terraceDining, 'Terras met eethoek');
     addUnique(playBarn, 'Speelstal');
+    // Oak Table section
+    addUnique(oakTableDetail, t('oakTable.imageAlt', 'Handgemaakte eiken tafel van 6 meter'));
+    addUnique(diningTableSet, 'Gedekte eiken tafel met zicht op tuin');
+    addUnique(diningTableWindow, 'Eiken tafel bij het raam');
+    addUnique(diningTableCabinet, 'Eiken tafel met servieskast');
     // Bathrooms section
     addUnique(bathroomEnsuite, 'Ensuite slaapkamer met badkamer');
     addUnique(bathroomSink, 'Slaapkamer met ensuite badkamer');
@@ -73,15 +78,9 @@ const Property = () => {
     addUnique(bedroomPrimary, 'Hoofdslaapkamer');
     addUnique(bedroomAtmospheric, 'Sfeervolle slaapkamer');
     addUnique(bedroomMezzanine, 'Mezzanine slaapkamer');
-    // Oak Table section
-    addUnique(oakTableDetail, t('oakTable.imageAlt', 'Handgemaakte eiken tafel van 6 meter'));
-    addUnique(diningTableSet, 'Gedekte eiken tafel met zicht op tuin');
-    addUnique(diningTableWindow, 'Eiken tafel bij het raam');
-    addUnique(diningTableCabinet, 'Eiken tafel met servieskast');
-    addUnique(diningRoom, 'Eetkamer overzicht');
     // Living Space section
-    addUnique(bedroomMezzanine, 'Mezzanine slaapkamer');
-    addUnique(bedroomQuietLuxury, 'Luxe slaapkamer');
+    addUnique(livingFireplace, t('livingSpace.imageAlt', 'Sfeervolle woonkamer'));
+    addUnique(livingAperitif, 'Gezellige zithoek');
     addUnique(gameRoomFoosball, 'Tafelvoetbal');
     // Remaining photos
     addUnique(gardenSports, 'Sportveld in de tuin');
@@ -189,8 +188,48 @@ const Property = () => {
         </div>
       </section>
 
+      {/* Oak Table Section */}
+      <section className="section-padding bg-primary text-primary-foreground">
+        <div className="container-luxury">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div>
+              <PropertyGalleryGrid
+                mainImage={oakTableDetail}
+                mainImageAlt={t('oakTable.imageAlt', 'Handgemaakte eiken tafel van 6 meter')}
+                sideImages={[
+                  { src: diningTableSet, alt: 'Gedekte eiken tafel met zicht op tuin' },
+                  { src: diningTableWindow, alt: 'Eiken tafel bij het raam met bordspellen' },
+                  { src: diningTableCabinet, alt: 'Eiken tafel met servieskast' },
+                  { src: diningRoom, alt: 'Eetkamer overzicht' },
+                ]}
+                allPhotosCount={allPhotos.length}
+                onImageClick={handleImageClick}
+                sideImagesPosition="left"
+              />
+            </div>
+            <div>
+              <div className="flex items-center space-x-3 mb-4">
+                <BookOpen className="h-8 w-8 text-gold" />
+                <h2 className="heading-2">{t('oakTable.title')}</h2>
+              </div>
+              <p className="body-large text-primary-foreground/80 mb-8">
+                {t('oakTable.description')}
+              </p>
+              <ul className="space-y-3">
+                {(t('oakTable.features_list', { returnObjects: true, defaultValue: [] }) as string[]).map((feature: string, index: number) => (
+                  <li key={index} className="flex items-center space-x-3">
+                    <Check className="h-5 w-5 text-gold flex-shrink-0" />
+                    <span className="text-primary-foreground">{feature}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Bathrooms Section */}
-      <section className="section-padding bg-cream-dark">
+      <section className="section-padding bg-background">
         <div className="container-luxury">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
@@ -230,7 +269,7 @@ const Property = () => {
       </section>
 
       {/* Bedrooms Section */}
-      <section className="section-padding bg-background">
+      <section className="section-padding bg-cream-dark">
         <div className="container-luxury">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="order-2 lg:order-1">
@@ -264,46 +303,6 @@ const Property = () => {
                 onImageClick={handleImageClick}
                 sideImagesPosition="right"
               />
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Oak Table Section */}
-      <section className="section-padding bg-primary text-primary-foreground">
-        <div className="container-luxury">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <PropertyGalleryGrid
-                mainImage={oakTableDetail}
-                mainImageAlt={t('oakTable.imageAlt', 'Handgemaakte eiken tafel van 6 meter')}
-                sideImages={[
-                  { src: diningTableSet, alt: 'Gedekte eiken tafel met zicht op tuin' },
-                  { src: diningTableWindow, alt: 'Eiken tafel bij het raam met bordspellen' },
-                  { src: diningTableCabinet, alt: 'Eiken tafel met servieskast' },
-                  { src: diningRoom, alt: 'Eetkamer overzicht' },
-                ]}
-                allPhotosCount={allPhotos.length}
-                onImageClick={handleImageClick}
-                sideImagesPosition="left"
-              />
-            </div>
-            <div>
-              <div className="flex items-center space-x-3 mb-4">
-                <BookOpen className="h-8 w-8 text-gold" />
-                <h2 className="heading-2">{t('oakTable.title')}</h2>
-              </div>
-              <p className="body-large text-primary-foreground/80 mb-8">
-                {t('oakTable.description')}
-              </p>
-              <ul className="space-y-3">
-                {(t('oakTable.features_list', { returnObjects: true, defaultValue: [] }) as string[]).map((feature: string, index: number) => (
-                  <li key={index} className="flex items-center space-x-3">
-                    <Check className="h-5 w-5 text-gold flex-shrink-0" />
-                    <span className="text-primary-foreground">{feature}</span>
-                  </li>
-                ))}
-              </ul>
             </div>
           </div>
         </div>
