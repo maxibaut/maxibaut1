@@ -17,6 +17,9 @@ export { default as mieleDishwasher } from './miele-dishwasher.webp';
 // Living
 export { default as livingFireplace } from './ferme-022.jpg?format=webp';
 export { default as livingAperitif } from './ferme-179.jpg?format=webp';
+export { default as livingLounge } from './ferme-019.jpg?format=webp';
+export { default as livingTvCorner } from './ferme-021.jpg?format=webp';
+export { default as livingRetroGaming } from './ferme-180.jpg?format=webp';
 
 // Bedrooms
 export { default as bedroomPrimary } from './ferme-139.jpg?format=webp';
