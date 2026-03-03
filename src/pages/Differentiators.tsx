@@ -85,27 +85,6 @@ const Differentiators = () => {
       reverse: true,
     },
     {
-      id: 'garden',
-      icon: TreePine,
-      title: t('differentiators.gardenFull.title'),
-      description: t('differentiators.gardenFull.description'),
-      image: gardenAerial,
-      imageAlt: t('differentiators.gardenFull.title'),
-      sideImages: [
-        { src: gardenSports, alt: t('differentiators.gardenFull.title') },
-        { src: bbqTerrace, alt: t('differentiators.gardenFull.title') },
-        { src: gardenHiddenPath, alt: t('differentiators.gardenFull.title') },
-        { src: gardenHammock, alt: t('differentiators.gardenFull.title') },
-      ],
-      features: [
-        t('differentiators.gardenFull.feature1'),
-        t('differentiators.gardenFull.feature2'),
-        t('differentiators.gardenFull.feature3'),
-        t('differentiators.gardenFull.feature4'),
-      ],
-      reverse: false,
-    },
-    {
       id: 'game-room',
       icon: Gamepad2,
       title: t('differentiators.gameRoom.title'),

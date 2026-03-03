@@ -27,6 +27,10 @@ import {
   terraceDining,
   gardenSports,
   gardenLandscape,
+  gardenAerial,
+  gardenHiddenPath,
+  gardenHammock,
+  bbqTerrace,
   gameRoomPool,
   gameRoomFoosball,
   playBarn,
@@ -42,6 +46,7 @@ import PropertyLightbox, { LightboxImage } from '@/components/property/PropertyL
 
 const Property = () => {
   const { t } = useTranslation('property');
+  const { t: tHome } = useTranslation('homepage');
   useSEO();
 
   const [lightboxOpen, setLightboxOpen] = useState(false);
@@ -87,8 +92,12 @@ const Property = () => {
     addUnique(livingAperitif, 'Gezellige zithoek met aperitief');
     addUnique(livingTvCorner, 'TV-hoek met authentieke bakstenen muur');
     addUnique(livingRetroGaming, 'Retro gaming controllers');
-    // Remaining photos
+    // Garden section
+    addUnique(gardenAerial, 'Luchtfoto van de tuin');
     addUnique(gardenSports, 'Sportveld in de tuin');
+    addUnique(bbqTerrace, 'BBQ terras');
+    addUnique(gardenHiddenPath, 'Verborgen pad in de tuin');
+    addUnique(gardenHammock, 'Hangmat in de tuin');
     addUnique(gardenLandscape, 'Landschap van de tuin');
     return photos;
   }, [t]);
@@ -377,7 +386,46 @@ const Property = () => {
         </div>
       </section>
 
-      {/* CTA Section */}
+      {/* Garden Section */}
+      <section className="section-padding bg-background">
+        <div className="container-luxury">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div>
+              <PropertyGalleryGrid
+                mainImage={gardenAerial}
+                mainImageAlt="Luchtfoto van de tuin"
+                sideImages={[
+                  { src: gardenSports, alt: 'Sportveld in de tuin' },
+                  { src: bbqTerrace, alt: 'BBQ terras' },
+                  { src: gardenHiddenPath, alt: 'Verborgen pad in de tuin' },
+                  { src: gardenHammock, alt: 'Hangmat in de tuin' },
+                ]}
+                allPhotosCount={allPhotos.length}
+                onImageClick={handleImageClick}
+                sideImagesPosition="left"
+              />
+            </div>
+            <div>
+              <div className="flex items-center space-x-3 mb-4">
+                <TreePine className="h-8 w-8 text-accent" />
+                <h2 className="heading-2">{tHome('differentiators.gardenFull.title')}</h2>
+              </div>
+              <p className="body-large text-muted-foreground mb-8">
+                {tHome('differentiators.gardenFull.description')}
+              </p>
+              <ul className="space-y-3">
+                {[1, 2, 3, 4].map((i) => (
+                  <li key={i} className="flex items-center space-x-3">
+                    <Check className="h-5 w-5 text-primary flex-shrink-0" />
+                    <span className="text-foreground">{tHome(`differentiators.gardenFull.feature${i}`)}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className="section-padding bg-cream-dark">
         <div className="container-luxury text-center">
           <h2 className="heading-2 mb-4">{t('cta.title')}</h2>
