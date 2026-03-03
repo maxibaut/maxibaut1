@@ -44,11 +44,11 @@
     },
     "gardenFull": {
       "title": "Le Jardin",
-      "description": "Rien n'est droit, rien n'est rigide. Un immense paysage vallonné où les enfants disparaissent pendant des heures et où les adultes se détendent. Toujours soigneusement entretenu, avec de la place pour tout le monde — de la chasse au trésor à la pétanque, du football à l'apéritif.",
-      "feature1": "Grand terrain de football avec filet de volley et boulodrome",
-      "feature2": "Coins cachés à travers le jardin — les enfants découvrent toujours quelque chose de nouveau",
-      "feature3": "3 grands bancs et 10 transats professionnels avec tables par beau temps",
-      "feature4": "Terrasse entre la maison et le jardin avec 2 barbecues — l'arrêt parfait"
+      "description": "Rien n'est droit, rien n'est rigide — un immense paysage vallonné où les enfants disparaissent pendant des heures et où les adultes se détendent. Plus qu'assez d'espace pour courir, jouer et découvrir, sans se gêner mutuellement. Pas de piscine à surveiller, juste un espace sans fin. Toujours soigneusement entretenu.",
+      "feature1": "Terrain de football, filet de volley et boulodrome — assez de choix pour tous les âges, sans rien devoir apporter.",
+      "feature2": "Coins cachés à travers le jardin — les enfants découvrent toujours quelque chose de nouveau. Construire des cabanes, jouer à cache-cache, chasse au trésor.",
+      "feature3": "3 grands bancs et 10 transats professionnels avec tables — les adultes se détendent pendant que les enfants jouent. Tout le monde en vue.",
+      "feature4": "Terrasse entre la maison et le jardin avec 2 barbecues — la transition parfaite entre intérieur et extérieur. Apéritifs en groupe pendant que les enfants s'amusent encore."
     },
     "gameRoom": {
       "title": "La Salle de Jeux",
