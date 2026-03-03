@@ -148,27 +148,6 @@ const Differentiators = () => {
       reverse: true,
     },
     {
-      id: 'mattresses',
-      icon: Bed,
-      title: t('differentiators.mattresses.title'),
-      description: t('differentiators.mattresses.description'),
-      image: bedroomPrimary,
-      imageAlt: t('differentiators.mattresses.title'),
-      sideImages: [
-        { src: bedroomQuietLuxury, alt: t('differentiators.quietLuxury.title') },
-        { src: bedroomAtmospheric, alt: t('differentiators.mattresses.title') },
-        { src: bedroomMezzanine, alt: t('differentiators.mattresses.title') },
-        { src: livingFireplace, alt: t('differentiators.quietLuxury.title') },
-      ],
-      features: [
-        t('differentiators.mattresses.feature1'),
-        t('differentiators.mattresses.feature2'),
-        t('differentiators.mattresses.feature3'),
-        t('differentiators.mattresses.feature4'),
-      ],
-      reverse: false,
-    },
-    {
       id: 'dish-cabinet',
       icon: ClipboardCheck,
       title: t('differentiators.dishCabinet.title'),
