@@ -83,8 +83,10 @@ const Property = () => {
     addUnique(bedroomMezzanine, 'Mezzanine slaapkamer');
     // Living Space section
     addUnique(livingFireplace, t('livingSpace.imageAlt', 'Sfeervolle woonkamer'));
-    addUnique(livingAperitif, 'Gezellige zithoek');
-    addUnique(gameRoomFoosball, 'Tafelvoetbal');
+    addUnique(livingLounge, 'Ruime lounge met zithoeken');
+    addUnique(livingAperitif, 'Gezellige zithoek met aperitief');
+    addUnique(livingTvCorner, 'TV-hoek met authentieke bakstenen muur');
+    addUnique(livingRetroGaming, 'Retro gaming controllers');
     // Remaining photos
     addUnique(gardenSports, 'Sportveld in de tuin');
     addUnique(gardenLandscape, 'Landschap van de tuin');
