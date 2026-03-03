@@ -74,10 +74,10 @@
     "professionalEquipmentFeature2": "Professionelles Kochgeschirr",
     "professionalEquipmentFeature3": "Geeignet für große Gruppen",
     "professionalEquipmentFeature4": "Alles, was Sie brauchen",
-    "livingOnSiteFeature1": "25 Jahre Wohnerfahrung vor Ort",
-    "livingOnSiteFeature2": "Tiefes Wissen über das Haus",
-    "livingOnSiteFeature3": "Kenntnis der Umgebung",
-    "livingOnSiteFeature4": "Immer erreichbar wenn nötig",
+    "livingOnSiteFeature1": "Eigentümer auf dem Anwesen — kein Fernverwalter, sondern Bieke und Christophe direkt nebenan.",
+    "livingOnSiteFeature2": "Jedes Problem innerhalb von Minuten gelöst — von einem verstopften Abfluss bis zu einem vergessenen Korkenzieher.",
+    "livingOnSiteFeature3": "Lokale Tipps, die Sie nirgends finden — die beste Wanderung, das Restaurant, in dem Einheimische essen, der Markt, der nur donnerstags geöffnet ist.",
+    "livingOnSiteFeature4": "Das Haus wächst mit — nach 25 Jahren wissen wir genau, was große Gruppen brauchen, und wir investieren weiter.",
     "utilitiesFeature1": "Warmer Empfang — das Haus hat bei Ankunft immer eine angenehme Grundtemperatur",
     "utilitiesFeature2": "Klare Abrechnung — detaillierte Verbrauchsübersicht nach Ihrem Aufenthalt",
     "utilitiesFeature3": "Nachhaltiger Luxus — bewusster Verbrauch ohne Kompromisse beim Komfort",
@@ -134,7 +134,7 @@
     },
     "livingOnSite": {
       "title": "25 Jahre Vor Ort",
-      "description": "Wir leben seit 25 Jahren auf dem Anwesen. Niemand kennt das Haus und die Umgebung besser als wir."
+      "description": "Dies ist keine Investition aus der Ferne — wir leben hier. Seit 2000 ist dieses Bauernhaus von 1849 unser Zuhause. Wir haben jede Wand selbst restauriert, kennen jede Ecke des Hauses und jede Biegung im Wald. Das merken Sie: wenn die Heizung spinnt, wenn Sie eine Wanderung suchen, die nicht im Reiseführer steht, oder wenn die Kinder das Pferd streicheln möchten."
     },
     "utilities": {
       "title": "Fairer Verbrauch",

@@ -74,10 +74,10 @@
     "professionalEquipmentFeature2": "Professional cooking utensils",
     "professionalEquipmentFeature3": "Suitable for large groups",
     "professionalEquipmentFeature4": "Everything you need",
-    "livingOnSiteFeature1": "25 years of on-site living experience",
-    "livingOnSiteFeature2": "In-depth knowledge of the house",
-    "livingOnSiteFeature3": "Knowledge of the surroundings",
-    "livingOnSiteFeature4": "Always reachable if needed",
+    "livingOnSiteFeature1": "Owner on the estate — no remote manager, but Bieke and Christophe right next door.",
+    "livingOnSiteFeature2": "Every problem solved within minutes — from a blocked drain to a forgotten corkscrew.",
+    "livingOnSiteFeature3": "Local tips you won't find anywhere — the best walk, the restaurant where locals eat, the market that's only open on Thursdays.",
+    "livingOnSiteFeature4": "The house grows with us — after 25 years we know exactly what large groups need, and we keep investing.",
     "utilitiesFeature1": "Warm welcome — the house always has a comfortable base temperature on arrival",
     "utilitiesFeature2": "Clear billing — detailed consumption overview after your stay",
     "utilitiesFeature3": "Sustainable luxury — conscious consumption without compromising on comfort",
@@ -134,7 +134,7 @@
     },
     "livingOnSite": {
       "title": "25 Years On-Site",
-      "description": "We have lived on the estate for 25 years. Nobody knows the house and surroundings better than we do."
+      "description": "This is not a remote investment — we live here. Since 2000, this 1849 farmhouse has been our home. We restored every wall ourselves, know every nook of the house and every bend in the forest. You'll notice: when the heating acts up, when you're looking for a walk that's not in the guidebook, or when the children want to pet the horse."
     },
     "utilities": {
       "title": "Fair Consumption",
