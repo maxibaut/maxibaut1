@@ -19,13 +19,13 @@
     "beds": "Lits"
   },
   "kitchen": {
-    "title": "Cuisine Professionnelle",
-    "description": "La cuisine où tout le monde se retrouve. Cuisiner ensemble, l'apéritif, les enfants qui viennent grignoter — c'est ici que ça se passe. Entièrement équipée pour que cuisiner pour 26 soit un plaisir, pas une corvée.",
+    "title": "Cuisine de Niveau Professionnel",
+    "description": "Cuisiner pour 26 n'est pas une corvée ici — c'est le moment fort de la journée. Deux lave-vaisselle professionnels nettoient tout en une seule fois après le dîner. Un fourneau Lacanche où quatre cuisiniers peuvent travailler côte à côte. Et assez de place au frais pour les courses de tout le week-end. Pas de discussion vaisselle, pas de manque de casseroles, pas de stress.",
     "features_list": [
-      "Cuisinière Lacanche avec four gastronorm et armoire chauffante — le cœur de la cuisine",
-      "2 lave-vaisselle professionnels Miele — 30 minutes et tout est prêt",
-      "Casseroles, poêles et ustensiles professionnels en inox — tout ce qu'il faut, rien à chercher",
-      "Cellier frais à côté de la cuisine — de la place pour toutes vos courses"
+      "2 lave-vaisselle Miele Professional : 26 assiettes, 26 verres, 26 couverts — tout est propre en 30 minutes. Pas de corvée, pas de discussion sur qui fait la vaisselle.",
+      "Fourneau Lacanche Cluny : Fourneau de niveau restaurant avec four gastronorm et armoire chauffante. De la place pour cuisiner à plusieurs en même temps.",
+      "Équipement complet de cuisine pro : Marmites, poêles et ustensiles professionnels pour 26 personnes. Tout ce qu'il faut pour cuisiner avec ambition — ou simplement facilement pour un grand groupe.",
+      "Réfrigération et rangement sur mesure : Réfrigérateur professionnel et cellier frais avec de la place pour les courses de tout le groupe. Pas de Tetris avec des frigos pleins."
     ]
   },
   "bathrooms": {

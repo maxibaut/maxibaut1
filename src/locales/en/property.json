@@ -19,13 +19,13 @@
     "beds": "Beds"
   },
   "kitchen": {
-    "title": "Professional Kitchen",
-    "description": "The kitchen where everyone gathers. Cooking together, aperitifs, children sneaking a snack — this is where it happens. Fully professionally equipped so cooking for 26 is a pleasure, not a chore.",
+    "title": "Commercial-Grade Kitchen",
+    "description": "Cooking for 26 is not a chore here — it's the highlight of the day. Two professional dishwashers clean everything in one go after dinner. A Lacanche stove where four cooks can work side by side. And enough cold storage for the entire weekend shop. No washing-up arguments, no shortage of pans, no stress.",
     "features_list": [
-      "Lacanche stove with gastronorm oven and warming cabinet — the heart of the kitchen",
-      "2 professional Miele dishwashers — 30 minutes and everything is done",
-      "Professional stainless steel pots, pans and all accessories — everything you need, nothing to search for",
-      "Cool pantry next to the kitchen — room for all your groceries"
+      "2 Miele Professional dishwashers: 26 plates, 26 glasses, 26 sets of cutlery — all clean in 30 minutes. No chore, no discussion about who does the dishes.",
+      "Lacanche Cluny stove: Restaurant-grade stove with gastronorm oven and warming cabinet. Room for multiple cooks to work at the same time.",
+      "Full commercial equipment: Professional pots, pans and utensils for 26 guests. Everything you need to cook ambitiously — or simply easily for a large group.",
+      "Custom cold storage: Professional fridge and cool pantry with room for the entire group's groceries. No Tetris with packed fridges."
     ]
   },
   "bathrooms": {
