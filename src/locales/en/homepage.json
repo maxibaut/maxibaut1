@@ -78,10 +78,10 @@
     "livingOnSiteFeature2": "Local tips you won't find anywhere — the best walk, the restaurant where locals eat, the market that's only open on Thursdays.",
     "livingOnSiteFeature3": "Thoughtful design — two heating boilers for precaution and efficient consumption. Nothing is coincidence, everything is a deliberate choice.",
     "livingOnSiteFeature4": "The house grows with us — after 25 years we know exactly what large groups need, and we keep investing.",
-    "utilitiesFeature1": "Warm welcome — the house always has a comfortable base temperature on arrival",
-    "utilitiesFeature2": "Clear billing — detailed consumption overview after your stay",
-    "utilitiesFeature3": "Sustainable luxury — conscious consumption without compromising on comfort",
-    "utilitiesFeature4": "Control & trust — meter readings are photographically recorded on arrival and departure",
+    "utilitiesFeature1": "Warm welcome — the house is always heated to a comfortable temperature on arrival. You start in comfort.",
+    "utilitiesFeature2": "Clear billing — after your stay you receive a detailed overview. No estimates, no flat rates.",
+    "utilitiesFeature3": "Control & trust — meter readings are photographically recorded on arrival and departure. Transparent for both sides.",
+    "utilitiesFeature4": "Green Key candidate — we are working towards the international label for sustainable tourism. Fair consumption is the first step.",
     "greenKeyFeature1": "Green Key label candidate",
     "greenKeyFeature2": "Sustainable tourism",
     "greenKeyFeature3": "Environmentally conscious choices",
@@ -138,7 +138,7 @@
     },
     "utilities": {
       "title": "Fair Consumption",
-      "description": "At ArdenNest, we believe in transparency. Instead of a high flat rate, with a direct booking you only pay for what you actually use in heating, water and waste processing. Fairer for your group, and better for the nature in our Ardennes forests."
+      "description": "At ArdenNest, we believe in transparency. Instead of a high flat rate, with a direct booking you only pay for what you actually use in heating, water and waste processing. A small group pays less than a large one — it doesn't get fairer than that."
     },
     "greenKey": {
       "title": "Green Key Candidate",
