@@ -71,14 +71,14 @@
     }
   },
   "livingSpace": {
-    "title": "Cozy Living Space",
-    "description": "Despite the capacity for 26 guests, the house never feels like a hall. Various cozy seating areas ensure you always feel at home.",
-    "features": {
-      "fireplace": "Fireplace",
-      "cozyCorners": "Cozy seating corners",
-      "intimacy": "Intimate atmosphere",
-      "views": "Garden views"
-    }
+    "title": "Cosy Living Space",
+    "description": "A house for 26 that feels like a home — not a hall. Different seating areas mean you naturally split into smaller groups after dinner: a chat by the fireplace, a board game at the table, a glass of wine overlooking the garden. Being together without being on top of each other.",
+    "features_list": [
+      "Fireplace: The centrepiece of the evening. Gather by the fire while the children are already in bed.",
+      "Multiple seating areas: Not one big hall, but several spots to settle into. Everyone finds their own corner — or joins in.",
+      "Intimate atmosphere: Authentic materials, warm lighting and thoughtful furnishing. It feels like home, even with a large group.",
+      "Garden views: The large windows overlook the rolling landscape. Keeping an eye on the children while sitting on the sofa — that's possible here."
+    ]
   },
   "gallery": {
     "viewAll": "View all {{count}} photos"

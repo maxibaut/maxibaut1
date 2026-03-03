@@ -72,13 +72,13 @@
   },
   "livingSpace": {
     "title": "Gemütlicher Wohnbereich",
-    "description": "Trotz der Kapazität für 26 Gäste fühlt sich das Haus nie wie ein Saal an. Verschiedene gemütliche Sitzecken sorgen dafür, dass Sie sich immer zu Hause fühlen.",
-    "features": {
-      "fireplace": "Kamin",
-      "cozyCorners": "Gemütliche Sitzecken",
-      "intimacy": "Intime Atmosphäre",
-      "views": "Gartenblick"
-    }
+    "description": "Ein Haus für 26, das sich wie ein Zuhause anfühlt — nicht wie ein Saal. Verschiedene Sitzecken sorgen dafür, dass man nach dem Essen ganz natürlich in kleinere Gruppen kommt: ein Gespräch am Kamin, ein Spiel am Tisch, ein Glas Wein mit Blick auf den Garten. Zusammen sein, ohne sich ständig auf die Pelle zu rücken.",
+    "features_list": [
+      "Kamin: Der Mittelpunkt des Abends. Kuscheln Sie sich gemeinsam ans Feuer, während die Kinder schon im Bett liegen.",
+      "Verschiedene Sitzecken: Kein großer Saal, sondern mehrere Plätze zum Niederlassen. Jeder findet seine eigene Ecke — oder setzt sich dazu.",
+      "Intime Atmosphäre: Authentische Materialien, warme Beleuchtung und durchdachte Einrichtung. Es fühlt sich wie zu Hause an, auch mit einer großen Gruppe.",
+      "Gartenblick: Die großen Fenster bieten Blick auf die hügelige Landschaft. Die Kinder im Auge behalten, während man selbst auf dem Sofa sitzt — das geht hier."
+    ]
   },
   "gallery": {
     "viewAll": "Alle {{count}} Fotos ansehen"

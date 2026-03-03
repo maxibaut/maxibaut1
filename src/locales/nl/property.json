@@ -72,13 +72,13 @@
   },
   "livingSpace": {
     "title": "Gezellige Leefruimte",
-    "description": "Ondanks de capaciteit voor 26 gasten, voelt het huis nooit als een zaal. Verschillende knusse zithoeken zorgen ervoor dat u zich altijd thuis voelt.",
-    "features": {
-      "fireplace": "Open haard",
-      "cozyCorners": "Knusse zithoeken",
-      "intimacy": "Intieme sfeer",
-      "views": "Uitzicht op de tuin"
-    }
+    "description": "Een huis voor 26 dat aanvoelt als een huis — niet als een zaal. Verschillende zithoeken zorgen ervoor dat je na het eten vanzelf in kleinere groepjes terechtkomt: een gesprek bij de open haard, een spelletje aan tafel, een glas wijn met uitzicht op de tuin. Samen zijn zonder constant op elkaars lip te zitten.",
+    "features_list": [
+      "Open haard: Het middelpunt van de avond. Kruip samen bij het vuur terwijl de kinderen al op bed liggen.",
+      "Verschillende zithoeken: Niet één grote zaal, maar meerdere plekken om neer te ploffen. Iedereen vindt zijn eigen hoekje — of schuift juist aan.",
+      "Intieme sfeer: Authentieke materialen, warme verlichting en doordachte inrichting. Het voelt als thuis, ook met een groot gezelschap.",
+      "Uitzicht op de tuin: De grote ramen geven zicht op het glooiende landschap. Kinderen in de gaten houden terwijl je zelf op de bank zit — dat kan hier."
+    ]
   },
   "gallery": {
     "viewAll": "Bekijk alle {{count}} foto's"
