@@ -376,7 +376,7 @@ const Property = () => {
       </section>
 
       {/* Garden Summary */}
-      <section className="section-padding bg-background">
+      <section className="section-padding bg-primary">
         <div className="container-luxury">
           <div className="text-center max-w-2xl mx-auto mb-12">
             <h2 className="heading-2 mb-4">{t('garden.title')}</h2>
