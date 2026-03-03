@@ -336,7 +336,7 @@ const Property = () => {
       </section>
 
       {/* Living Space Section */}
-      <section className="section-padding bg-cream-dark">
+      <section className="section-padding bg-background">
         <div className="container-luxury">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="order-2 lg:order-1">
