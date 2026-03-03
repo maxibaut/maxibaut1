@@ -85,27 +85,6 @@ const Differentiators = () => {
       reverse: true,
     },
     {
-      id: 'kitchen',
-      icon: ChefHat,
-      title: t('differentiators.kitchenPro.title'),
-      description: t('differentiators.kitchenPro.description'),
-      image: kitchen,
-      imageAlt: t('differentiators.kitchenPro.title'),
-      sideImages: [
-        { src: mieleDishwasher, alt: t('differentiators.dishCabinet.title') },
-        { src: diningRoom, alt: t('differentiators.dishCabinet.title') },
-        { src: terraceDining, alt: t('differentiators.gardenFull.title') },
-        { src: playBarn, alt: t('differentiators.playBarn.title') },
-      ],
-      features: [
-        t('differentiators.kitchenPro.feature1'),
-        t('differentiators.kitchenPro.feature2'),
-        t('differentiators.kitchenPro.feature3'),
-        t('differentiators.kitchenPro.feature4'),
-      ],
-      reverse: true,
-    },
-    {
       id: 'garden',
       icon: TreePine,
       title: t('differentiators.gardenFull.title'),
