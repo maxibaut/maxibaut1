@@ -189,8 +189,48 @@ const Property = () => {
         </div>
       </section>
 
+      {/* Oak Table Section */}
+      <section className="section-padding bg-primary text-primary-foreground">
+        <div className="container-luxury">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div>
+              <PropertyGalleryGrid
+                mainImage={oakTableDetail}
+                mainImageAlt={t('oakTable.imageAlt', 'Handgemaakte eiken tafel van 6 meter')}
+                sideImages={[
+                  { src: diningTableSet, alt: 'Gedekte eiken tafel met zicht op tuin' },
+                  { src: diningTableWindow, alt: 'Eiken tafel bij het raam met bordspellen' },
+                  { src: diningTableCabinet, alt: 'Eiken tafel met servieskast' },
+                  { src: diningRoom, alt: 'Eetkamer overzicht' },
+                ]}
+                allPhotosCount={allPhotos.length}
+                onImageClick={handleImageClick}
+                sideImagesPosition="left"
+              />
+            </div>
+            <div>
+              <div className="flex items-center space-x-3 mb-4">
+                <BookOpen className="h-8 w-8 text-gold" />
+                <h2 className="heading-2">{t('oakTable.title')}</h2>
+              </div>
+              <p className="body-large text-primary-foreground/80 mb-8">
+                {t('oakTable.description')}
+              </p>
+              <ul className="space-y-3">
+                {(t('oakTable.features_list', { returnObjects: true, defaultValue: [] }) as string[]).map((feature: string, index: number) => (
+                  <li key={index} className="flex items-center space-x-3">
+                    <Check className="h-5 w-5 text-gold flex-shrink-0" />
+                    <span className="text-primary-foreground">{feature}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Bathrooms Section */}
-      <section className="section-padding bg-cream-dark">
+      <section className="section-padding bg-background">
         <div className="container-luxury">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
@@ -230,7 +270,7 @@ const Property = () => {
       </section>
 
       {/* Bedrooms Section */}
-      <section className="section-padding bg-background">
+      <section className="section-padding bg-cream-dark">
         <div className="container-luxury">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="order-2 lg:order-1">
@@ -264,46 +304,6 @@ const Property = () => {
                 onImageClick={handleImageClick}
                 sideImagesPosition="right"
               />
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Oak Table Section */}
-      <section className="section-padding bg-primary text-primary-foreground">
-        <div className="container-luxury">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <PropertyGalleryGrid
-                mainImage={oakTableDetail}
-                mainImageAlt={t('oakTable.imageAlt', 'Handgemaakte eiken tafel van 6 meter')}
-                sideImages={[
-                  { src: diningTableSet, alt: 'Gedekte eiken tafel met zicht op tuin' },
-                  { src: diningTableWindow, alt: 'Eiken tafel bij het raam met bordspellen' },
-                  { src: diningTableCabinet, alt: 'Eiken tafel met servieskast' },
-                  { src: diningRoom, alt: 'Eetkamer overzicht' },
-                ]}
-                allPhotosCount={allPhotos.length}
-                onImageClick={handleImageClick}
-                sideImagesPosition="left"
-              />
-            </div>
-            <div>
-              <div className="flex items-center space-x-3 mb-4">
-                <BookOpen className="h-8 w-8 text-gold" />
-                <h2 className="heading-2">{t('oakTable.title')}</h2>
-              </div>
-              <p className="body-large text-primary-foreground/80 mb-8">
-                {t('oakTable.description')}
-              </p>
-              <ul className="space-y-3">
-                {(t('oakTable.features_list', { returnObjects: true, defaultValue: [] }) as string[]).map((feature: string, index: number) => (
-                  <li key={index} className="flex items-center space-x-3">
-                    <Check className="h-5 w-5 text-gold flex-shrink-0" />
-                    <span className="text-primary-foreground">{feature}</span>
-                  </li>
-                ))}
-              </ul>
             </div>
           </div>
         </div>
