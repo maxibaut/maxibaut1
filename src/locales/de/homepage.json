@@ -86,10 +86,10 @@
     "greenKeyFeature2": "Nachhaltiger Tourismus",
     "greenKeyFeature3": "Umweltbewusste Entscheidungen",
     "greenKeyFeature4": "Respekt für die Natur",
-    "certifiedFeature1": "Zertifiziert von Tourismus Wallonien",
-    "certifiedFeature2": "Offizielle Anerkennung",
-    "certifiedFeature3": "Qualitätsgarantie",
-    "certifiedFeature4": "Zuverlässigkeit gesichert",
+    "certifiedFeature1": "Zertifiziert von Tourismus Wallonien — offizielle Anerkennung nach Inspektion von Komfort, Sicherheit und Ausstattung.",
+    "certifiedFeature2": "Regelmäßige Brandschutzprüfung — das Haus wird regelmäßig von der Feuerwehr kontrolliert. Inklusive Löschanlage über dem Herd.",
+    "certifiedFeature3": "Maßgeschneiderte Versicherung — speziell auf Gruppenaufenthalte bis 26 Personen abgestimmt. Sie sind vollständig abgesichert.",
+    "certifiedFeature4": "Mit Vertrauen buchen — keine Grauzone, kein Risiko. Alles ist in Ordnung, alles ist geprüft, alles ist versichert.",
     "ventilationFeature1": "Leise Zentrallüftung",
     "ventilationFeature2": "In allen Badezimmern",
     "ventilationFeature3": "Optimale Luftqualität",
@@ -146,7 +146,7 @@
     },
     "certified": {
       "title": "Zertifiziertes Ferienhaus",
-      "description": "Offiziell anerkannt und zertifiziert von Tourismus Wallonien. Ihre Garantie für Qualität und Zuverlässigkeit."
+      "description": "Keine selbsterklärte Qualität — ArdenNest ist offiziell anerkannt und zertifiziert von Tourismus Wallonien. Das bedeutet, dass das Haus strenge Normen für Sicherheit, Komfort und Hygiene erfüllt. Für Sie ist das die Garantie, dass Sie bei einem professionellen Vermieter buchen, nicht bei einem Amateur."
     },
     "ventilation": {
       "title": "Leise Zentrallüftung",

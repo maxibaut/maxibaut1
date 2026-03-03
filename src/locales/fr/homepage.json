@@ -86,10 +86,10 @@
     "greenKeyFeature2": "Tourisme durable",
     "greenKeyFeature3": "Choix respectueux de l'environnement",
     "greenKeyFeature4": "Respect de la nature",
-    "certifiedFeature1": "Certifié par le Tourisme de Wallonie",
-    "certifiedFeature2": "Reconnaissance officielle",
-    "certifiedFeature3": "Garantie de qualité",
-    "certifiedFeature4": "Fiabilité assurée",
+    "certifiedFeature1": "Certifié par le Tourisme de Wallonie — reconnaissance officielle après inspection du confort, de la sécurité et de l'équipement.",
+    "certifiedFeature2": "Contrôle périodique de sécurité incendie — la maison est régulièrement contrôlée par les pompiers. Y compris un système d'extinction au-dessus du fourneau.",
+    "certifiedFeature3": "Assurance adaptée — spécifiquement conçue pour les séjours de groupe jusqu'à 26 personnes. Vous êtes entièrement couverts.",
+    "certifiedFeature4": "Réservez en toute confiance — pas de zone grise, pas de risque. Tout est en ordre, tout est contrôlé, tout est assuré.",
     "ventilationFeature1": "Ventilation centrale silencieuse",
     "ventilationFeature2": "Dans toutes les salles de bain",
     "ventilationFeature3": "Qualité d'air optimale",
@@ -146,7 +146,7 @@
     },
     "certified": {
       "title": "Gîte Certifié",
-      "description": "Officiellement reconnu et certifié par le Tourisme de Wallonie. Votre garantie de qualité et de fiabilité."
+      "description": "Pas de qualité auto-déclarée — ArdenNest est officiellement reconnu et certifié par le Tourisme de Wallonie. Cela signifie que la maison répond à des normes strictes de sécurité, de confort et d'hygiène. Pour vous, c'est la garantie de réserver chez un hébergeur professionnel, pas chez un amateur."
     },
     "ventilation": {
       "title": "Ventilation Centrale Silencieuse",

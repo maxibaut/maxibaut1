@@ -86,10 +86,10 @@
     "greenKeyFeature2": "Duurzaam toerisme",
     "greenKeyFeature3": "Milieubewuste keuzes",
     "greenKeyFeature4": "Respect voor de natuur",
-    "certifiedFeature1": "Gecertificeerd door Toerisme Wallonië",
-    "certifiedFeature2": "Officiële erkenning",
-    "certifiedFeature3": "Kwaliteitsgarantie",
-    "certifiedFeature4": "Betrouwbaarheid verzekerd",
+    "certifiedFeature1": "Gecertificeerd door Toerisme Wallonië — officiële erkenning na inspectie op comfort, veiligheid en uitrusting.",
+    "certifiedFeature2": "Periodieke brandveiligheidscontrole — het huis wordt regelmatig gecontroleerd door de brandweer. Inclusief sproeisysteem boven het fornuis.",
+    "certifiedFeature3": "Aangepaste verzekering — specifiek afgestemd op groepsverblijf tot 26 personen. Jullie zijn volledig gedekt.",
+    "certifiedFeature4": "Boeken met vertrouwen — geen grijze zone, geen risico. Alles is in orde, alles is gekeurd, alles is verzekerd.",
     "ventilationFeature1": "Stille centrale ventilatie",
     "ventilationFeature2": "In alle badkamers",
     "ventilationFeature3": "Optimale luchtkwaliteit",
@@ -146,7 +146,7 @@
     },
     "certified": {
       "title": "Gecertificeerde Vakantiewoning",
-      "description": "Officieel erkend en gecertificeerd door Toerisme Wallonië. Uw garantie voor kwaliteit en betrouwbaarheid."
+      "description": "Geen zelfverklaarde kwaliteit — ArdenNest is officieel erkend en gecertificeerd door Toerisme Wallonië. Dat betekent dat het huis voldoet aan strenge normen voor veiligheid, comfort en hygiëne. Voor jullie is dat de garantie dat je boekt bij een professionele verhuurder, niet bij een amateur."
     },
     "ventilation": {
       "title": "Stille Centrale Ventilatie",
