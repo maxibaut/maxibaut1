@@ -92,8 +92,12 @@ const Property = () => {
     addUnique(livingAperitif, 'Gezellige zithoek met aperitief');
     addUnique(livingTvCorner, 'TV-hoek met authentieke bakstenen muur');
     addUnique(livingRetroGaming, 'Retro gaming controllers');
-    // Remaining photos
+    // Garden section
+    addUnique(gardenAerial, 'Luchtfoto van de tuin');
     addUnique(gardenSports, 'Sportveld in de tuin');
+    addUnique(bbqTerrace, 'BBQ terras');
+    addUnique(gardenHiddenPath, 'Verborgen pad in de tuin');
+    addUnique(gardenHammock, 'Hangmat in de tuin');
     addUnique(gardenLandscape, 'Landschap van de tuin');
     return photos;
   }, [t]);
