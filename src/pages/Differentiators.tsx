@@ -190,27 +190,6 @@ const Differentiators = () => {
       reverse: true,
     },
     {
-      id: 'professional-equipment',
-      icon: UtensilsCrossed,
-      title: t('differentiators.professionalEquipment.title'),
-      description: t('differentiators.professionalEquipment.description'),
-      image: kitchen,
-      imageAlt: t('differentiators.professionalEquipment.title'),
-      sideImages: [
-        { src: diningRoom, alt: t('differentiators.dishCabinet.title') },
-        { src: oakTableDetail, alt: t('differentiators.dishCabinet.title') },
-        { src: terraceDining, alt: t('differentiators.gardenFull.title') },
-        { src: livingFireplace, alt: t('differentiators.quietLuxury.title') },
-      ],
-      features: [
-        t('differentiators.professionalEquipmentFeature1'),
-        t('differentiators.professionalEquipmentFeature2'),
-        t('differentiators.professionalEquipmentFeature3'),
-        t('differentiators.professionalEquipmentFeature4'),
-      ],
-      reverse: false,
-    },
-    {
       id: 'living-on-site',
       icon: Home,
       title: t('differentiators.livingOnSite.title'),
