@@ -61,13 +61,13 @@
     ]
   },
   "garden": {
-    "title": "Le Jardin",
-    "description": "2 hectares d'espace pour se détendre, jouer et profiter",
+    "title": "Jouer & Profiter",
+    "description": "Un espace sans fin pour tous les âges — dehors, dedans et couvert",
     "features": {
-      "size": "200m x 100m",
-      "playground": "Aires de jeux",
-      "football": "Terrain de football",
-      "treasureHunt": "Chasse au trésor"
+      "size": "Disparaître pendant des heures",
+      "playground": "Genoux sales",
+      "football": "Matches acharnés",
+      "treasureHunt": "Rire ensemble"
     }
   },
   "livingSpace": {

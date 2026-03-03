@@ -61,13 +61,13 @@
     ]
   },
   "garden": {
-    "title": "The Garden",
-    "description": "2 hectares of space to relax, play and enjoy",
+    "title": "Play & Enjoy",
+    "description": "Endless space for all ages — outside, inside and covered",
     "features": {
-      "size": "200m x 100m",
-      "playground": "Playground equipment",
-      "football": "Football field",
-      "treasureHunt": "Treasure hunt"
+      "size": "Disappear for hours",
+      "playground": "Dirty knees",
+      "football": "Competitive matches",
+      "treasureHunt": "Laughing together"
     }
   },
   "livingSpace": {
