@@ -46,6 +46,7 @@ import PropertyLightbox, { LightboxImage } from '@/components/property/PropertyL
 
 const Property = () => {
   const { t } = useTranslation('property');
+  const { t: tHome } = useTranslation('homepage');
   useSEO();
 
   const [lightboxOpen, setLightboxOpen] = useState(false);
