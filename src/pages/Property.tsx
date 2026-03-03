@@ -470,6 +470,8 @@ const Property = () => {
         </div>
       </section>
 
+      {/* CTA Section */}
+      <section className="section-padding bg-cream-dark">
         <div className="container-luxury text-center">
           <h2 className="heading-2 mb-4">{t('cta.title')}</h2>
           <p className="body-large text-muted-foreground mb-8 max-w-2xl mx-auto">
