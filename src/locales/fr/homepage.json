@@ -102,7 +102,11 @@
     },
     "quietLuxury": {
       "title": "Luxe Discret",
-      "description": "Salles de bain privatives, parquets en chêne massif et un intérieur intemporel. Pas de superflu, mais une vraie qualité que l'on ressent."
+      "description": "Pas de piscine, pas de sauna — c'est un choix. Nous investissons dans ce qui compte vraiment quand un grand groupe se retrouve : une cuisine professionnelle où cuisiner pour 26 est un plaisir, une salle de bain privative dans chaque chambre, et une table où tout le monde s'assoit ensemble. Une qualité réfléchie que vous ressentez, sans avoir à y penser.",
+      "feature1": "L'être-ensemble avant le divertissement — une maison conçue pour vivre ensemble, pas pour chercher l'amusement.",
+      "feature2": "Le confort avant l'apparat — tout fonctionne, tout est là, tout est propre. Vous n'avez qu'à venir.",
+      "feature3": "L'espace avant l'agitation — 2 hectares de jardin où les enfants disparaissent et les adultes retrouvent le calme.",
+      "feature4": "La qualité avant la quantité — du fourneau Lacanche à la literie De Witte Lietaer : moins de features, des standards plus élevés."
     },
     "kitchen": {
       "title": "Cuisine de Niveau Professionnel",
