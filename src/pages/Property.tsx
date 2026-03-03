@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 import { LocalizedLink as Link } from '@/components/LocalizedLink';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
-import { Bed, Bath, TreePine, ChefHat, ArrowRight, Sofa, BookOpen, Check, ShowerHead, Moon } from 'lucide-react';
+import { Bed, Bath, TreePine, ChefHat, ArrowRight, Sofa, BookOpen, Check, ShowerHead, Moon, Car } from 'lucide-react';
 import { MdFamilyRestroom } from 'react-icons/md';
 import { 
   propertyHero, 
