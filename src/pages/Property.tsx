@@ -336,22 +336,7 @@ const Property = () => {
       <section className="section-padding bg-cream-dark">
         <div className="container-luxury">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <PropertyGalleryGrid
-                mainImage={livingFireplace}
-                mainImageAlt={t('livingSpace.imageAlt', 'Sfeervolle woonkamer met open haard, comfortabele zithoek en uitzicht op de tuin')}
-                sideImages={[
-                  { src: livingAperitif, alt: 'Gezellige zithoek' },
-                  { src: bedroomMezzanine, alt: 'Mezzanine slaapkamer' },
-                  { src: bedroomQuietLuxury, alt: 'Luxe slaapkamer' },
-                  { src: gameRoomFoosball, alt: 'Tafelvoetbal' },
-                ]}
-                allPhotosCount={allPhotos.length}
-                onImageClick={handleImageClick}
-                sideImagesPosition="left"
-              />
-            </div>
-            <div>
+            <div className="order-2 lg:order-1">
               <div className="flex items-center space-x-3 mb-4">
                 <Sofa className="h-8 w-8 text-accent" />
                 <h2 className="heading-2">{t('livingSpace.title')}</h2>
@@ -367,6 +352,21 @@ const Property = () => {
                   </li>
                 ))}
               </ul>
+            </div>
+            <div className="order-1 lg:order-2">
+              <PropertyGalleryGrid
+                mainImage={livingFireplace}
+                mainImageAlt={t('livingSpace.imageAlt', 'Sfeervolle woonkamer met open haard, comfortabele zithoek en uitzicht op de tuin')}
+                sideImages={[
+                  { src: livingAperitif, alt: 'Gezellige zithoek' },
+                  { src: bedroomMezzanine, alt: 'Mezzanine slaapkamer' },
+                  { src: bedroomQuietLuxury, alt: 'Luxe slaapkamer' },
+                  { src: gameRoomFoosball, alt: 'Tafelvoetbal' },
+                ]}
+                allPhotosCount={allPhotos.length}
+                onImageClick={handleImageClick}
+                sideImagesPosition="right"
+              />
             </div>
           </div>
         </div>
