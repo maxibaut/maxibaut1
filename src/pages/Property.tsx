@@ -436,7 +436,46 @@ const Property = () => {
         </div>
       </section>
 
-      {/* Play Barn Section */}
+      {/* Game Room Section */}
+      <section className="section-padding bg-cream-dark">
+        <div className="container-luxury">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div className="order-2 lg:order-1">
+              <div className="flex items-center space-x-3 mb-4">
+                <Gamepad2 className="h-8 w-8 text-accent" />
+                <h2 className="heading-2">{tHome('differentiators.gameRoom.title')}</h2>
+              </div>
+              <p className="body-large text-muted-foreground mb-8">
+                {tHome('differentiators.gameRoom.description')}
+              </p>
+              <ul className="space-y-3">
+                {[1, 2, 3, 4].map((i) => (
+                  <li key={i} className="flex items-center space-x-3">
+                    <Check className="h-5 w-5 text-primary flex-shrink-0" />
+                    <span className="text-foreground">{tHome(`differentiators.gameRoom.feature${i}`)}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div className="order-1 lg:order-2">
+              <PropertyGalleryGrid
+                mainImage={gameRoomPool}
+                mainImageAlt="Speelkamer met professionele pooltafel"
+                sideImages={[
+                  { src: gameRoomFoosball, alt: 'Tafelvoetbal' },
+                  { src: playBarn, alt: 'De Speelstal' },
+                  { src: gardenSports, alt: 'Sportveld in de tuin' },
+                  { src: livingFireplace, alt: 'Woonkamer' },
+                ]}
+                allPhotosCount={allPhotos.length}
+                onImageClick={handleImageClick}
+                sideImagesPosition="right"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className="section-padding bg-cream-dark">
         <div className="container-luxury">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
