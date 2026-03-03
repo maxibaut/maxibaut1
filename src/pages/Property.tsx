@@ -19,6 +19,9 @@ import {
   bedroomPrimary,
   bedroomAtmospheric,
   livingAperitif,
+  livingLounge,
+  livingTvCorner,
+  livingRetroGaming,
   bedroomMezzanine,
   bedroomQuietLuxury,
   terraceDining,
@@ -80,8 +83,10 @@ const Property = () => {
     addUnique(bedroomMezzanine, 'Mezzanine slaapkamer');
     // Living Space section
     addUnique(livingFireplace, t('livingSpace.imageAlt', 'Sfeervolle woonkamer'));
-    addUnique(livingAperitif, 'Gezellige zithoek');
-    addUnique(gameRoomFoosball, 'Tafelvoetbal');
+    addUnique(livingLounge, 'Ruime lounge met zithoeken');
+    addUnique(livingAperitif, 'Gezellige zithoek met aperitief');
+    addUnique(livingTvCorner, 'TV-hoek met authentieke bakstenen muur');
+    addUnique(livingRetroGaming, 'Retro gaming controllers');
     // Remaining photos
     addUnique(gardenSports, 'Sportveld in de tuin');
     addUnique(gardenLandscape, 'Landschap van de tuin');
@@ -358,10 +363,10 @@ const Property = () => {
                 mainImage={livingFireplace}
                 mainImageAlt={t('livingSpace.imageAlt', 'Sfeervolle woonkamer met open haard, comfortabele zithoek en uitzicht op de tuin')}
                 sideImages={[
-                  { src: livingAperitif, alt: 'Gezellige zithoek' },
-                  { src: bedroomMezzanine, alt: 'Mezzanine slaapkamer' },
-                  { src: bedroomQuietLuxury, alt: 'Luxe slaapkamer' },
-                  { src: gameRoomFoosball, alt: 'Tafelvoetbal' },
+                  { src: livingLounge, alt: 'Ruime lounge met zithoeken' },
+                  { src: livingAperitif, alt: 'Gezellige zithoek met aperitief' },
+                  { src: livingTvCorner, alt: 'TV-hoek met authentieke bakstenen muur' },
+                  { src: livingRetroGaming, alt: 'Retro gaming controllers' },
                 ]}
                 allPhotosCount={allPhotos.length}
                 onImageClick={handleImageClick}
