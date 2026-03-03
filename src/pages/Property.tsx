@@ -232,22 +232,7 @@ const Property = () => {
       <section className="section-padding bg-background">
         <div className="container-luxury">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <PropertyGalleryGrid
-                mainImage={bathroomEnsuite}
-                mainImageAlt={t('bathrooms.imageAlt', 'Ensuite badkamer met douche')}
-                sideImages={[
-                  { src: bathroomSink, alt: 'Slaapkamer met ensuite badkamer' },
-                  { src: bathroomShower, alt: 'Badkamer met inloopdouche' },
-                  { src: bathroomGlassDoor, alt: 'Badkamer met glazen douchedeur' },
-                  { src: bathroomWalkIn, alt: 'Badkamer met inloopdouche en wastafel' },
-                ]}
-                allPhotosCount={allPhotos.length}
-                onImageClick={handleImageClick}
-                sideImagesPosition="left"
-              />
-            </div>
-            <div>
+            <div className="order-2 lg:order-1">
               <div className="flex items-center space-x-3 mb-4">
                 <ShowerHead className="h-8 w-8 text-accent" />
                 <h2 className="heading-2">{t('bathrooms.title')}</h2>
@@ -263,6 +248,21 @@ const Property = () => {
                   </li>
                 ))}
               </ul>
+            </div>
+            <div className="order-1 lg:order-2">
+              <PropertyGalleryGrid
+                mainImage={bathroomEnsuite}
+                mainImageAlt={t('bathrooms.imageAlt', 'Ensuite badkamer met douche')}
+                sideImages={[
+                  { src: bathroomSink, alt: 'Slaapkamer met ensuite badkamer' },
+                  { src: bathroomShower, alt: 'Badkamer met inloopdouche' },
+                  { src: bathroomGlassDoor, alt: 'Badkamer met glazen douchedeur' },
+                  { src: bathroomWalkIn, alt: 'Badkamer met inloopdouche en wastafel' },
+                ]}
+                allPhotosCount={allPhotos.length}
+                onImageClick={handleImageClick}
+                sideImagesPosition="right"
+              />
             </div>
           </div>
         </div>
