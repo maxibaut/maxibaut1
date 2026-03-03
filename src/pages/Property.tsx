@@ -272,7 +272,22 @@ const Property = () => {
       <section className="section-padding bg-cream-dark">
         <div className="container-luxury">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div className="order-2 lg:order-1">
+            <div>
+              <PropertyGalleryGrid
+                mainImage={bedroomQuietLuxury}
+                mainImageAlt={t('bedrooms.imageAlt', 'Luxe slaapkamer met boxspring bed')}
+                sideImages={[
+                  { src: bedroomPrimary, alt: 'Hoofdslaapkamer' },
+                  { src: bedroomAtmospheric, alt: 'Sfeervolle slaapkamer' },
+                  { src: bedroomMezzanine, alt: 'Mezzanine slaapkamer' },
+                  { src: bathroomEnsuite, alt: 'Slaapkamer met ensuite badkamer' },
+                ]}
+                allPhotosCount={allPhotos.length}
+                onImageClick={handleImageClick}
+                sideImagesPosition="left"
+              />
+            </div>
+            <div>
               <div className="flex items-center space-x-3 mb-4">
                 <Moon className="h-8 w-8 text-accent" />
                 <h2 className="heading-2">{t('bedrooms.title')}</h2>
@@ -288,21 +303,6 @@ const Property = () => {
                   </li>
                 ))}
               </ul>
-            </div>
-            <div className="order-1 lg:order-2">
-              <PropertyGalleryGrid
-                mainImage={bedroomQuietLuxury}
-                mainImageAlt={t('bedrooms.imageAlt', 'Luxe slaapkamer met boxspring bed')}
-                sideImages={[
-                  { src: bedroomPrimary, alt: 'Hoofdslaapkamer' },
-                  { src: bedroomAtmospheric, alt: 'Sfeervolle slaapkamer' },
-                  { src: bedroomMezzanine, alt: 'Mezzanine slaapkamer' },
-                  { src: bathroomEnsuite, alt: 'Slaapkamer met ensuite badkamer' },
-                ]}
-                allPhotosCount={allPhotos.length}
-                onImageClick={handleImageClick}
-                sideImagesPosition="right"
-              />
             </div>
           </div>
         </div>
