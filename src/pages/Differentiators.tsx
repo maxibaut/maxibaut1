@@ -3,7 +3,7 @@ import { PageWrapper } from '@/components/layout';
 import { useTranslation } from 'react-i18next';
 import { LocalizedLink as Link } from '@/components/LocalizedLink';
 import { Button } from '@/components/ui/button';
-import { Sparkles, ChefHat, TreePine, Gamepad2, Car, Check, ArrowRight, Bed, ClipboardCheck, UtensilsCrossed, Home, Zap, Leaf, Award, Fan, Headphones } from 'lucide-react';
+import { Sparkles, ChefHat, TreePine, Gamepad2, Car, Check, ArrowRight, Bed, ClipboardCheck, UtensilsCrossed, Home, Zap, Award, Fan, Headphones } from 'lucide-react';
 import { 
   bedroomQuietLuxury, 
   bedroomPrimary,
@@ -146,27 +146,6 @@ const Differentiators = () => {
         t('differentiators.utilitiesFeature4'),
       ],
       reverse: false,
-    },
-    {
-      id: 'green-key',
-      icon: Leaf,
-      title: t('differentiators.greenKey.title'),
-      description: t('differentiators.greenKey.description'),
-      image: gardenLandscape,
-      imageAlt: t('differentiators.greenKey.title'),
-      sideImages: [
-        { src: gardenAerial, alt: t('differentiators.gardenFull.title') },
-        { src: gardenSports, alt: t('differentiators.gardenFull.title') },
-        { src: propertyHero, alt: t('differentiators.certified.title') },
-        { src: terraceDining, alt: t('differentiators.gardenFull.title') },
-      ],
-      features: [
-        t('differentiators.greenKeyFeature1'),
-        t('differentiators.greenKeyFeature2'),
-        t('differentiators.greenKeyFeature3'),
-        t('differentiators.greenKeyFeature4'),
-      ],
-      reverse: true,
     },
     {
       id: 'certified',
