@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 import { LocalizedLink as Link } from '@/components/LocalizedLink';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
-import { Bed, Bath, TreePine, ChefHat, ArrowRight, Sofa, BookOpen, Check, ShowerHead, Moon, Car } from 'lucide-react';
+import { Bed, Bath, TreePine, ChefHat, ArrowRight, Sofa, BookOpen, Check, ShowerHead, Moon, Car, Gamepad2 } from 'lucide-react';
 import { MdFamilyRestroom } from 'react-icons/md';
 import { 
   propertyHero, 
@@ -103,6 +103,9 @@ const Property = () => {
     addUnique(gardenHiddenPath, 'Verborgen pad in de tuin');
     addUnique(gardenHammock, 'Hangmat in de tuin');
     addUnique(gardenLandscape, 'Landschap van de tuin');
+    // Game room section
+    addUnique(gameRoomPool, 'Speelkamer met professionele pooltafel');
+    addUnique(gameRoomFoosball, 'Tafelvoetbal');
     // Play barn section
     addUnique(playBarn, 'De Speelstal met go-karts en skelters');
     addUnique(farmhouseAerial, 'Luchtfoto van de hoeve');
@@ -436,7 +439,46 @@ const Property = () => {
         </div>
       </section>
 
-      {/* Play Barn Section */}
+      {/* Game Room Section */}
+      <section className="section-padding bg-cream-dark">
+        <div className="container-luxury">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div className="order-2 lg:order-1">
+              <div className="flex items-center space-x-3 mb-4">
+                <Gamepad2 className="h-8 w-8 text-accent" />
+                <h2 className="heading-2">{tHome('differentiators.gameRoom.title')}</h2>
+              </div>
+              <p className="body-large text-muted-foreground mb-8">
+                {tHome('differentiators.gameRoom.description')}
+              </p>
+              <ul className="space-y-3">
+                {[1, 2, 3, 4].map((i) => (
+                  <li key={i} className="flex items-center space-x-3">
+                    <Check className="h-5 w-5 text-primary flex-shrink-0" />
+                    <span className="text-foreground">{tHome(`differentiators.gameRoom.feature${i}`)}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div className="order-1 lg:order-2">
+              <PropertyGalleryGrid
+                mainImage={gameRoomPool}
+                mainImageAlt="Speelkamer met professionele pooltafel"
+                sideImages={[
+                  { src: gameRoomFoosball, alt: 'Tafelvoetbal' },
+                  { src: playBarn, alt: 'De Speelstal' },
+                  { src: gardenSports, alt: 'Sportveld in de tuin' },
+                  { src: livingFireplace, alt: 'Woonkamer' },
+                ]}
+                allPhotosCount={allPhotos.length}
+                onImageClick={handleImageClick}
+                sideImagesPosition="right"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className="section-padding bg-cream-dark">
         <div className="container-luxury">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
