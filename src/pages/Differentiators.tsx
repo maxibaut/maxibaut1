@@ -268,29 +268,20 @@ const Differentiators = () => {
       ))}
 
       {/* CTA Section */}
-      <section className="section-padding bg-primary text-primary-foreground">
+      <section className="section-padding bg-cream-dark">
         <div className="container-luxury text-center">
           <h2 className="heading-2 mb-4">{t('differentiators.cta.title')}</h2>
-          <p className="body-large text-primary-foreground/80 mb-8 max-w-2xl mx-auto">
+          <p className="body-large text-muted-foreground mb-8 max-w-2xl mx-auto">
             {t('differentiators.cta.description')}
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Button
-              asChild
-              size="lg"
-              className="bg-accent hover:bg-accent/90 text-accent-foreground"
-            >
+            <Button asChild size="lg" className="bg-primary hover:bg-primary/90">
               <Link to="/booking">
                 {t('differentiators.cta.availability')}
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Link>
             </Button>
-            <Button
-              asChild
-              variant="outline"
-              size="lg"
-              className="border-primary-foreground/40 text-primary-foreground hover:bg-primary-foreground/10"
-            >
+            <Button asChild variant="outline" size="lg">
               <Link to="/contact">{t('differentiators.cta.contact')}</Link>
             </Button>
           </div>
