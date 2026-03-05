@@ -1,0 +1,43 @@
+{
+  "seo": {
+    "title": "Für Hauseigentümer & Vermieter | ArdenNest",
+    "description": "Wie ArdenNest für KI-Assistenten sichtbar wurde — und was andere Vermieter davon lernen können."
+  },
+  "title": "Von Ferienhaus zu auffindbarem Unternehmen",
+  "intro": "Ich bin Christophe — zusammen mit Bieke Eigentümer von ArdenNest. In den letzten Monaten habe ich diese Website komplett neu geschrieben, nicht für Google, sondern für die Art und Weise, wie Menschen heute nach Informationen suchen: über KI-Assistenten wie ChatGPT und Claude. Was ich dabei gelernt habe, möchte ich mit anderen Vermietern und kleinen Unternehmern teilen.",
+  "learnings": {
+    "subtitle": "Was ich bei der Optimierung von ArdenNest gelernt habe",
+    "answers": {
+      "title": "Antworten statt auflisten",
+      "text": "Unsere alte Seite listete Features auf. Die neue beantwortet die Fragen, die Menschen wirklich stellen: „Ist Kochen für 26 ein Problem?" oder „Brauche ich einen Duschplan?" KI-Assistenten arbeiten mit Antworten, nicht mit Listen."
+    },
+    "concrete": {
+      "title": "Konkret schlägt vage",
+      "text": "„Große Küche" sagt nichts. „2 Miele Professional Geschirrspüler, 26 Teller sauber in 30 Minuten" — das zitiert eine KI, wenn jemand nach einem Ferienhaus mit Profiküche fragt."
+    },
+    "honesty": {
+      "title": "Mut zu benennen, was man nicht hat",
+      "text": "ArdenNest hat keinen Pool und keine Sauna — bewusst. Wenn man das auf der Website als bewusste Entscheidung erklärt, statt es totzuschweigen, kann eine KI diesen Kontext weitergeben. Schweigen wird zum Nachteil, Erklärung wird zum Argument."
+    },
+    "consistency": {
+      "title": "Konsistenz ist alles",
+      "text": "Wenn Ihre Website „26 Personen" sagt, aber Ihr Google-Eintrag „20 Personen", weiß eine KI nicht, was stimmt — und wählt einen Mitbewerber, bei dem die Zahlen übereinstimmen."
+    }
+  },
+  "geoScan": {
+    "subtitle": "geo-scan.be — prüfen Sie, wie KI Ihr Unternehmen sieht",
+    "intro": "Auf Basis meiner Erfahrungen mit ArdenNest habe ich geo-scan.be entwickelt: einen kostenlosen Scan, der misst, wie gut Ihre Website für KI-Assistenten lesbar ist. Das Tool prüft sechs Säulen:",
+    "pillars": {
+      "readability": "Strukturelle Lesbarkeit — kann eine KI Ihre Seite technisch lesen und verstehen?",
+      "identity": "Entitäts-Identität — weiß eine KI, wer Sie sind und was Sie tun?",
+      "answerability": "Inhaltliche Beantwortbarkeit — beantwortet Ihre Seite die Fragen, die Menschen stellen?",
+      "authority": "Quellenautorität — wird Ihr Unternehmen durch externe Quellen bestätigt?",
+      "specificity": "Faktische Spezifität — enthält Ihre Seite konkrete, überprüfbare Fakten?",
+      "consistency": "Konsistenz — stimmen Ihre Informationen überall überein?"
+    }
+  },
+  "cta": "Scannen Sie Ihre eigene Website",
+  "closing": "Der Scan ist kostenlos und unverbindlich. Kein Konto nötig, kein Verkaufsgespräch — nur Einblick, wie KI Ihr Unternehmen heute sieht. Fragen? Senden Sie mir eine Nachricht über das",
+  "contactLink": "Kontaktformular",
+  "attribution": "geo-scan.be ist eine Initiative von Christophe, Miteigentümer von ArdenNest."
+}

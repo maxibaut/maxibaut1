@@ -1,0 +1,43 @@
+{
+  "seo": {
+    "title": "Pour Propriétaires & Loueurs | ArdenNest",
+    "description": "Comment ArdenNest est devenu visible pour les assistants IA — et ce que d'autres loueurs peuvent en apprendre."
+  },
+  "title": "De location de vacances à entreprise trouvable",
+  "intro": "Je suis Christophe — copropriétaire d'ArdenNest avec Bieke. Ces derniers mois, j'ai entièrement réécrit ce site web, non pas pour Google, mais pour la manière dont les gens cherchent l'information aujourd'hui : via des assistants IA comme ChatGPT et Claude. Ce que j'ai appris en chemin, je veux le partager avec d'autres loueurs et petits entrepreneurs.",
+  "learnings": {
+    "subtitle": "Ce que j'ai appris en optimisant ArdenNest",
+    "answers": {
+      "title": "Répondre au lieu d'énumérer",
+      "text": "Notre ancien site énumérait des caractéristiques. Le nouveau répond aux questions que les gens posent vraiment : « Cuisiner pour 26, c'est un problème ? » ou « Faut-il un planning pour les douches ? » Les assistants IA fonctionnent avec des réponses, pas des listes."
+    },
+    "concrete": {
+      "title": "Le concret bat le vague",
+      "text": "« Grande cuisine » ne dit rien. « 2 lave-vaisselle Miele Professional, 26 assiettes propres en 30 minutes » — voilà ce qu'un assistant IA cite quand quelqu'un cherche une location avec cuisine professionnelle."
+    },
+    "honesty": {
+      "title": "Oser nommer ce que vous n'avez pas",
+      "text": "ArdenNest n'a pas de piscine ni de sauna — volontairement. En l'expliquant sur le site comme un choix délibéré plutôt que de le taire, un assistant IA peut transmettre ce contexte. Le silence joue contre vous ; une explication devient un argument."
+    },
+    "consistency": {
+      "title": "La cohérence est essentielle",
+      "text": "Si votre site dit « 26 personnes » mais votre fiche Google dit « 20 personnes », un assistant IA ne sait pas ce qui est correct — et choisit un concurrent dont les chiffres correspondent."
+    }
+  },
+  "geoScan": {
+    "subtitle": "geo-scan.be — vérifiez comment l'IA voit votre entreprise",
+    "intro": "Sur base de ce que j'ai appris avec ArdenNest, j'ai créé geo-scan.be : un scan gratuit qui mesure à quel point votre site web est lisible pour les assistants IA. L'outil vérifie six piliers :",
+    "pillars": {
+      "readability": "Lisibilité structurelle — un assistant IA peut-il techniquement lire et comprendre votre site ?",
+      "identity": "Identité d'entité — un assistant IA sait-il qui vous êtes et ce que vous faites ?",
+      "answerability": "Capacité de réponse — votre site répond-il aux questions que les gens posent ?",
+      "authority": "Autorité de source — votre entreprise est-elle confirmée par des sources externes ?",
+      "specificity": "Spécificité factuelle — votre site contient-il des faits concrets et vérifiables ?",
+      "consistency": "Cohérence — vos informations sont-elles correctes partout ?"
+    }
+  },
+  "cta": "Scannez votre propre site web",
+  "closing": "Le scan est gratuit et sans engagement. Pas de compte nécessaire, pas de discours commercial — juste un aperçu de la façon dont l'IA voit votre entreprise aujourd'hui. Des questions ? Envoyez-moi un message via le",
+  "contactLink": "formulaire de contact",
+  "attribution": "geo-scan.be est une initiative de Christophe, copropriétaire d'ArdenNest."
+}
