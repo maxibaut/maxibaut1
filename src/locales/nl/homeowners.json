@@ -1,44 +1,46 @@
 {
   "seo": {
-    "title": "Voor Huiseigenaars & Verhuurders | ArdenNest",
-    "description": "Hoe ArdenNest zichtbaar werd voor AI-assistenten — en wat andere verhuurders daarvan kunnen leren."
+    "title": "Wordt jouw vakantiewoning aanbevolen door AI? | ArdenNest",
+    "description": "Hoe ArdenNest zichtbaar werd voor AI-assistenten zoals ChatGPT en Claude — en wat andere verhuurders daarvan kunnen leren. Gratis scan op geo-scan.be."
   },
-  "title": "Van vakantiewoning naar vindbaar bedrijf",
-  "intro": "Ik ben Christophe — samen met Bieke de eigenaar van ArdenNest. Maar ik ben niet alleen verhuurder. Ik ben opgeleid als programmeur aan de Lernout & Hauspie Speech Products Academy, werkte jarenlang als developer en technisch consultant bij Wolters Kluwer Financial Services, en werk vandaag als ClickUp Expert en procesautomatiseerder bij Fourcast. Technologie en digitale strategie zijn mijn vak, niet mijn hobby. Mijn hobby's zijn paddenstoelen plukken en bereiden, blokhutten bouwen, houthakken, kippen houden, de moestuin — en extreem creatief zijn om kinderen de ruimte te geven zich uit te leven en te ontwikkelen in onze tuin. Zelfvoorziening in de Ardennen, zeg maar.",
-  "intro2": "Begin 2026 heb ik deze website volledig herschreven — niet voor Google, maar voor de manier waarop mensen vandaag informatie zoeken: via AI-assistenten zoals ChatGPT en Claude. Wat ik daarbij leerde, wil ik delen met andere verhuurders en kleine ondernemers.",
+  "title": "Wordt jouw vakantiewoning aanbevolen door AI?",
+  "hook": "ChatGPT, Claude en Perplexity beantwoorden steeds vaker de vragen die jouw gasten vroeger aan Google stelden. De vraag is niet meer óf je site gevonden wordt — maar of een AI jouw adres noemt als iemand vraagt: \"Welke vakantiewoning in de Ardennen is geschikt voor 20 personen?\"",
   "learnings": {
-    "subtitle": "Wat ik leerde bij het optimaliseren van ArdenNest",
+    "subtitle": "Wat ik leerde bij het herschrijven van ArdenNest",
     "answers": {
-      "title": "Antwoorden in plaats van opsommen",
-      "text": "Onze oude site somde features op. De nieuwe beantwoordt de vragen die mensen écht stellen: \"Is koken voor 26 een probleem?\" of \"Moet ik een doucheschema maken?\" AI-assistenten werken met antwoorden, niet met lijstjes."
+      "title": "Beantwoord, som niet op",
+      "text": "Onze oude site somde features op. De nieuwe beantwoordt vragen: \"Is koken voor 26 een probleem?\" — \"Nee, twee professionele vaatwassers, alles schoon in 30 minuten.\" Dát is wat een AI citeert."
     },
     "concrete": {
-      "title": "Concreet verslaat vaag",
-      "text": "\"Grote keuken\" zegt niets. \"2 Miele Professional vaatwassers, 26 borden schoon in 30 minuten\" is wat een AI citeert als iemand vraagt naar een vakantiewoning met professionele keuken."
+      "title": "Wees concreet",
+      "text": "\"Grote keuken\" zegt een AI niets. \"Lacanche fornuis, 2 Miele vaatwassers, koeling voor 26\" is wat het verschil maakt tussen aanbevolen worden of overgeslagen."
     },
     "honesty": {
-      "title": "Durven benoemen wat je niet hebt",
-      "text": "ArdenNest heeft geen zwembad en geen sauna — bewust. Door dat op de site uit te leggen als een keuze in plaats van het dood te zwijgen, kan een AI die context meegeven. Stilte wordt een streep door je rekening, uitleg wordt een argument."
+      "title": "Benoem wat je níet hebt",
+      "text": "Wij hebben geen zwembad — bewust. Door dat uit te leggen als filosofie in plaats van het dood te zwijgen, kan een AI die context meegeven. Stilte is een streep, uitleg is een argument."
     },
     "consistency": {
-      "title": "Consistentie is alles",
-      "text": "Als je site \"26 personen\" zegt maar je Google-vermelding \"20 personen\", dan weet een AI niet wat juist is — en kiest een concurrent waar de cijfers wél kloppen."
+      "title": "Zorg dat je cijfers kloppen",
+      "text": "Als je site \"26 personen\" zegt maar je Google-vermelding \"20\", dan weet een AI niet wat juist is — en kiest een concurrent waar alles klopt."
     }
   },
   "geoScan": {
     "subtitle": "geo-scan.be — check hoe AI jouw bedrijf ziet",
-    "intro": "Op basis van wat ik leerde bij ArdenNest heb ik geo-scan.be gebouwd: een gratis scan die meet hoe goed jouw website leesbaar is voor AI-assistenten. De tool controleert zes pijlers:",
+    "intro": "Op basis van deze ervaring bouwde ik geo-scan.be: een gratis scan op zes pijlers.",
     "pillars": {
-      "readability": "Structurele leesbaarheid — kan een AI je site technisch lezen en begrijpen?",
-      "identity": "Entiteit-identiteit — weet een AI wie je bent en wat je doet?",
-      "answerability": "Content-beantwoordbaarheid — beantwoordt je site de vragen die mensen stellen?",
-      "authority": "Bron-autoriteit — wordt je bedrijf bevestigd door externe bronnen?",
-      "specificity": "Feitelijke specificiteit — bevat je site concrete, verifieerbare feiten?",
-      "consistency": "Consistentie — klopt je informatie overal?"
+      "readability": "Structurele leesbaarheid — kan AI je site technisch lezen?",
+      "identity": "Entiteit-identiteit — weet AI wie je bent en wat je doet?",
+      "answerability": "Content-beantwoordbaarheid — beantwoord je de juiste vragen?",
+      "authority": "Bron-autoriteit — bevestigen externe bronnen jouw verhaal?",
+      "specificity": "Feitelijke specificiteit — staan er concrete, verifieerbare feiten?",
+      "consistency": "Consistentie — klopt je info overal?"
     }
   },
   "cta": "Scan je eigen website",
-  "closing": "De scan is gratis en vrijblijvend. Geen account nodig, geen verkooppraatje — gewoon inzicht in hoe AI jouw bedrijf vandaag ziet. Vragen? Stuur me een bericht via het",
-  "contactLink": "contactformulier",
+  "closing": "Gratis, geen account, geen verkooppraatje — gewoon inzicht in hoe AI jouw bedrijf vandaag ziet.",
+  "about": {
+    "subtitle": "Over Christophe",
+    "text": "Ik ben Christophe, samen met Bieke eigenaar van ArdenNest. Maar ik ben niet alleen verhuurder. Ik ben opgeleid als programmeur aan de Lernout & Hauspie Speech Products Academy, werkte jarenlang als developer en technisch consultant bij Wolters Kluwer Financial Services, en werk vandaag als ClickUp Expert en procesautomatiseerder bij Fourcast. Technologie en digitale strategie zijn mijn vak — mijn hobby's zijn paddenstoelen plukken en bereiden, blokhutten bouwen, houthakken, kippen houden, de moestuin, en extreem creatief zijn om kinderen de ruimte te geven zich uit te leven in onze tuin."
+  },
   "attribution": "geo-scan.be is een initiatief van Christophe, mede-eigenaar van ArdenNest."
 }
