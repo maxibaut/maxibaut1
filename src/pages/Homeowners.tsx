@@ -3,7 +3,7 @@ import { PageWrapper } from '@/components/layout/PageWrapper';
 import { Button } from '@/components/ui/button';
 import { ExternalLink } from 'lucide-react';
 import useSEO from '@/hooks/useSEO';
-import LocalizedLink from '@/components/LocalizedLink';
+import { LocalizedLink } from '@/components/LocalizedLink';
 
 const Homeowners = () => {
   const { t } = useTranslation('homeowners');
