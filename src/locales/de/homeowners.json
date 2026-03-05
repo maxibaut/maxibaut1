@@ -4,16 +4,16 @@
     "description": "Wie ArdenNest für KI-Assistenten wie ChatGPT und Claude sichtbar wurde — und was andere Vermieter davon lernen können. Kostenloser Scan auf geo-scan.be."
   },
   "title": "Wird Ihre Ferienwohnung von KI empfohlen?",
-  "hook": "ChatGPT, Claude und Perplexity beantworten zunehmend die Fragen, die Ihre Gäste früher Google gestellt haben. Die Frage ist nicht mehr, ob Ihre Website gefunden wird — sondern ob eine KI Ihre Adresse nennt, wenn jemand fragt: „Welches Ferienhaus in den Ardennen eignet sich für 20 Personen?"",
+  "hook": "ChatGPT, Claude und Perplexity beantworten zunehmend die Fragen, die Ihre Gäste früher Google gestellt haben. Die Frage ist nicht mehr, ob Ihre Website gefunden wird — sondern ob eine KI Ihre Adresse nennt, wenn jemand fragt: \"Welches Ferienhaus in den Ardennen eignet sich für 20 Personen?\"",
   "learnings": {
     "subtitle": "Was ich beim Umschreiben von ArdenNest gelernt habe",
     "answers": {
       "title": "Antworten, nicht auflisten",
-      "text": "Unsere alte Seite listete Features auf. Die neue beantwortet Fragen: „Ist Kochen für 26 ein Problem?" — „Nein, zwei professionelle Geschirrspüler, alles sauber in 30 Minuten." Das zitiert eine KI."
+      "text": "Unsere alte Seite listete Features auf. Die neue beantwortet Fragen: \"Ist Kochen für 26 ein Problem?\" — \"Nein, zwei professionelle Geschirrspüler, alles sauber in 30 Minuten.\" Das zitiert eine KI."
     },
     "concrete": {
       "title": "Seien Sie konkret",
-      "text": "„Große Küche" sagt einer KI nichts. „Lacanche-Herd, 2 Miele-Geschirrspüler, Kühlung für 26" — das macht den Unterschied zwischen empfohlen werden oder übersprungen."
+      "text": "\"Große Küche\" sagt einer KI nichts. \"Lacanche-Herd, 2 Miele-Geschirrspüler, Kühlung für 26\" — das macht den Unterschied zwischen empfohlen werden oder übersprungen."
     },
     "honesty": {
       "title": "Benennen Sie, was Sie nicht haben",
@@ -21,7 +21,7 @@
     },
     "consistency": {
       "title": "Stellen Sie sicher, dass Ihre Zahlen stimmen",
-      "text": "Wenn Ihre Website „26 Personen" sagt, aber Ihr Google-Eintrag „20", weiß eine KI nicht, was stimmt — und wählt einen Mitbewerber, bei dem alles übereinstimmt."
+      "text": "Wenn Ihre Website \"26 Personen\" sagt, aber Ihr Google-Eintrag \"20\", weiß eine KI nicht, was stimmt — und wählt einen Mitbewerber, bei dem alles übereinstimmt."
     }
   },
   "geoScan": {
