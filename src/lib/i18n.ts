@@ -104,6 +104,7 @@ const resources = {
     cancellationPolicy: frCancellationPolicy,
     homeowners: frHomeowners,
   },
+  en: {
     common: enCommon,
     homepage: enHomepage,
     property: enProperty,
@@ -120,6 +121,7 @@ const resources = {
     cancellationPolicy: enCancellationPolicy,
     homeowners: enHomeowners,
   },
+  de: {
     common: deCommon,
     homepage: deHomepage,
     property: deProperty,
@@ -137,7 +139,6 @@ const resources = {
     homeowners: deHomeowners,
   },
 };
-
 const SUPPORTED_LANGUAGES = ['nl', 'fr', 'en', 'de'];
 
 // Detect language from URL path first, then stored preference, then browser
