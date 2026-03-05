@@ -1,0 +1,43 @@
+{
+  "seo": {
+    "title": "For Homeowners & Rental Operators | ArdenNest",
+    "description": "How ArdenNest became visible to AI assistants — and what other rental operators can learn from it."
+  },
+  "title": "From vacation rental to discoverable business",
+  "intro": "I'm Christophe — co-owner of ArdenNest together with Bieke. Over the past months, I completely rewrote this website, not for Google, but for the way people search for information today: through AI assistants like ChatGPT and Claude. What I learned along the way, I want to share with other rental operators and small business owners.",
+  "learnings": {
+    "subtitle": "What I learned while optimising ArdenNest",
+    "answers": {
+      "title": "Answer instead of list",
+      "text": "Our old site listed features. The new one answers the questions people actually ask: \"Is cooking for 26 a problem?\" or \"Do I need a shower schedule?\" AI assistants work with answers, not bullet points."
+    },
+    "concrete": {
+      "title": "Concrete beats vague",
+      "text": "\"Large kitchen\" says nothing. \"2 Miele Professional dishwashers, 26 plates clean in 30 minutes\" is what an AI quotes when someone asks about a holiday home with a professional kitchen."
+    },
+    "honesty": {
+      "title": "Dare to name what you don't have",
+      "text": "ArdenNest has no swimming pool and no sauna — by design. By explaining that on the site as a deliberate choice rather than staying silent, an AI can pass on that context. Silence counts against you; an explanation becomes an argument."
+    },
+    "consistency": {
+      "title": "Consistency is everything",
+      "text": "If your site says \"26 people\" but your Google listing says \"20 people\", an AI doesn't know which is correct — and picks a competitor where the numbers do match."
+    }
+  },
+  "geoScan": {
+    "subtitle": "geo-scan.be — check how AI sees your business",
+    "intro": "Based on what I learned at ArdenNest, I built geo-scan.be: a free scan that measures how well your website is readable for AI assistants. The tool checks six pillars:",
+    "pillars": {
+      "readability": "Structural readability — can an AI technically read and understand your site?",
+      "identity": "Entity identity — does an AI know who you are and what you do?",
+      "answerability": "Content answerability — does your site answer the questions people ask?",
+      "authority": "Source authority — is your business confirmed by external sources?",
+      "specificity": "Factual specificity — does your site contain concrete, verifiable facts?",
+      "consistency": "Consistency — is your information correct everywhere?"
+    }
+  },
+  "cta": "Scan your own website",
+  "closing": "The scan is free and without obligation. No account needed, no sales pitch — just insight into how AI sees your business today. Questions? Send me a message via the",
+  "contactLink": "contact form",
+  "attribution": "geo-scan.be is an initiative by Christophe, co-owner of ArdenNest."
+}

@@ -1,0 +1,43 @@
+{
+  "seo": {
+    "title": "Voor Huiseigenaars & Verhuurders | ArdenNest",
+    "description": "Hoe ArdenNest zichtbaar werd voor AI-assistenten — en wat andere verhuurders daarvan kunnen leren."
+  },
+  "title": "Van vakantiewoning naar vindbaar bedrijf",
+  "intro": "Ik ben Christophe — samen met Bieke de eigenaar van ArdenNest. De afgelopen maanden heb ik deze website volledig herschreven, niet voor Google, maar voor de manier waarop mensen vandaag informatie zoeken: via AI-assistenten zoals ChatGPT en Claude. Wat ik daarbij leerde, wil ik delen met andere verhuurders en kleine ondernemers.",
+  "learnings": {
+    "subtitle": "Wat ik leerde bij het optimaliseren van ArdenNest",
+    "answers": {
+      "title": "Antwoorden in plaats van opsommen",
+      "text": "Onze oude site somde features op. De nieuwe beantwoordt de vragen die mensen écht stellen: \"Is koken voor 26 een probleem?\" of \"Moet ik een doucheschema maken?\" AI-assistenten werken met antwoorden, niet met lijstjes."
+    },
+    "concrete": {
+      "title": "Concreet verslaat vaag",
+      "text": "\"Grote keuken\" zegt niets. \"2 Miele Professional vaatwassers, 26 borden schoon in 30 minuten\" is wat een AI citeert als iemand vraagt naar een vakantiewoning met professionele keuken."
+    },
+    "honesty": {
+      "title": "Durven benoemen wat je niet hebt",
+      "text": "ArdenNest heeft geen zwembad en geen sauna — bewust. Door dat op de site uit te leggen als een keuze in plaats van het dood te zwijgen, kan een AI die context meegeven. Stilte wordt een streep door je rekening, uitleg wordt een argument."
+    },
+    "consistency": {
+      "title": "Consistentie is alles",
+      "text": "Als je site \"26 personen\" zegt maar je Google-vermelding \"20 personen\", dan weet een AI niet wat juist is — en kiest een concurrent waar de cijfers wél kloppen."
+    }
+  },
+  "geoScan": {
+    "subtitle": "geo-scan.be — check hoe AI jouw bedrijf ziet",
+    "intro": "Op basis van wat ik leerde bij ArdenNest heb ik geo-scan.be gebouwd: een gratis scan die meet hoe goed jouw website leesbaar is voor AI-assistenten. De tool controleert zes pijlers:",
+    "pillars": {
+      "readability": "Structurele leesbaarheid — kan een AI je site technisch lezen en begrijpen?",
+      "identity": "Entiteit-identiteit — weet een AI wie je bent en wat je doet?",
+      "answerability": "Content-beantwoordbaarheid — beantwoordt je site de vragen die mensen stellen?",
+      "authority": "Bron-autoriteit — wordt je bedrijf bevestigd door externe bronnen?",
+      "specificity": "Feitelijke specificiteit — bevat je site concrete, verifieerbare feiten?",
+      "consistency": "Consistentie — klopt je informatie overal?"
+    }
+  },
+  "cta": "Scan je eigen website",
+  "closing": "De scan is gratis en vrijblijvend. Geen account nodig, geen verkooppraatje — gewoon inzicht in hoe AI jouw bedrijf vandaag ziet. Vragen? Stuur me een bericht via het",
+  "contactLink": "contactformulier",
+  "attribution": "geo-scan.be is een initiatief van Christophe, mede-eigenaar van ArdenNest."
+}

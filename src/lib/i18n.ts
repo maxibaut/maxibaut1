@@ -16,6 +16,7 @@ import nlEarlyArrival from '@/locales/nl/earlyArrival.json';
 import nlPrivacy from '@/locales/nl/privacy.json';
 import nlRentalTerms from '@/locales/nl/rentalTerms.json';
 import nlCancellationPolicy from '@/locales/nl/cancellationPolicy.json';
+import nlHomeowners from '@/locales/nl/homeowners.json';
 
 // French translations
 import frCommon from '@/locales/fr/common.json';
@@ -32,6 +33,7 @@ import frEarlyArrival from '@/locales/fr/earlyArrival.json';
 import frPrivacy from '@/locales/fr/privacy.json';
 import frRentalTerms from '@/locales/fr/rentalTerms.json';
 import frCancellationPolicy from '@/locales/fr/cancellationPolicy.json';
+import frHomeowners from '@/locales/fr/homeowners.json';
 
 // English translations
 import enCommon from '@/locales/en/common.json';
@@ -48,6 +50,7 @@ import enEarlyArrival from '@/locales/en/earlyArrival.json';
 import enPrivacy from '@/locales/en/privacy.json';
 import enRentalTerms from '@/locales/en/rentalTerms.json';
 import enCancellationPolicy from '@/locales/en/cancellationPolicy.json';
+import enHomeowners from '@/locales/en/homeowners.json';
 
 // German translations
 import deCommon from '@/locales/de/common.json';
@@ -64,6 +67,7 @@ import deEarlyArrival from '@/locales/de/earlyArrival.json';
 import dePrivacy from '@/locales/de/privacy.json';
 import deRentalTerms from '@/locales/de/rentalTerms.json';
 import deCancellationPolicy from '@/locales/de/cancellationPolicy.json';
+import deHomeowners from '@/locales/de/homeowners.json';
 
 const resources = {
   nl: {
@@ -81,6 +85,7 @@ const resources = {
     privacy: nlPrivacy,
     rentalTerms: nlRentalTerms,
     cancellationPolicy: nlCancellationPolicy,
+    homeowners: nlHomeowners,
   },
   fr: {
     common: frCommon,
@@ -97,6 +102,7 @@ const resources = {
     privacy: frPrivacy,
     rentalTerms: frRentalTerms,
     cancellationPolicy: frCancellationPolicy,
+    homeowners: frHomeowners,
   },
   en: {
     common: enCommon,
@@ -113,6 +119,7 @@ const resources = {
     privacy: enPrivacy,
     rentalTerms: enRentalTerms,
     cancellationPolicy: enCancellationPolicy,
+    homeowners: enHomeowners,
   },
   de: {
     common: deCommon,
@@ -129,9 +136,9 @@ const resources = {
     privacy: dePrivacy,
     rentalTerms: deRentalTerms,
     cancellationPolicy: deCancellationPolicy,
+    homeowners: deHomeowners,
   },
 };
-
 const SUPPORTED_LANGUAGES = ['nl', 'fr', 'en', 'de'];
 
 // Detect language from URL path first, then stored preference, then browser
@@ -169,7 +176,7 @@ i18n
     lng: getDefaultLanguage(),
     fallbackLng: 'nl',
     defaultNS: 'common',
-    ns: ['common', 'homepage', 'property', 'about', 'contact', 'booking', 'surroundings', 'houseRules', 'checklist', 'localTips', 'earlyArrival', 'privacy', 'rentalTerms', 'cancellationPolicy'],
+    ns: ['common', 'homepage', 'property', 'about', 'contact', 'booking', 'surroundings', 'houseRules', 'checklist', 'localTips', 'earlyArrival', 'privacy', 'rentalTerms', 'cancellationPolicy', 'homeowners'],
     interpolation: {
       escapeValue: false,
     },

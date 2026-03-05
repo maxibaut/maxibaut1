@@ -23,6 +23,7 @@ const EarlyArrival = lazy(() => import("./pages/EarlyArrival"));
 const Privacy = lazy(() => import("./pages/Privacy"));
 const RentalTerms = lazy(() => import("./pages/RentalTerms"));
 const CancellationPolicy = lazy(() => import("./pages/CancellationPolicy"));
+const Homeowners = lazy(() => import("./pages/Homeowners"));
 const NotFound = lazy(() => import("./pages/NotFound"));
 
 const queryClient = new QueryClient();
@@ -45,6 +46,7 @@ const pageRoutes = (
     <Route path="rental-terms" element={<RentalTerms />} />
     <Route path="cancellation-policy" element={<CancellationPolicy />} />
     <Route path="privacy-policy" element={<Privacy />} />
+    <Route path="huiseigenaars" element={<Homeowners />} />
   </>
 );
 
