@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next';
+import { useEffect } from 'react';
 import { PageWrapper } from '@/components/layout/PageWrapper';
 import { Button } from '@/components/ui/button';
 import { ExternalLink, Search, Building2, MessageSquareText, Shield, ListChecks, RefreshCw } from 'lucide-react';
@@ -6,13 +7,57 @@ import useSEO from '@/hooks/useSEO';
 import { LocalizedLink } from '@/components/LocalizedLink';
 
 const Homeowners = () => {
-  const { t } = useTranslation('homeowners');
+  const { t, i18n } = useTranslation('homeowners');
 
   useSEO({
     titleKey: 'seo.title',
     descriptionKey: 'seo.description',
     namespace: 'homeowners',
   });
+
+  // JSON-LD structured data for the page
+  useEffect(() => {
+    const lang = i18n.language;
+    const basePath = lang === 'nl' ? '' : `/${lang}`;
+    const jsonLd = {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": t('title'),
+      "description": t('seo.description'),
+      "author": {
+        "@type": "Person",
+        "name": "Christophe",
+        "jobTitle": "ClickUp Expert & Process Automation Specialist",
+        "worksFor": { "@type": "Organization", "name": "Fourcast" },
+        "affiliation": { "@type": "LodgingBusiness", "name": "ArdenNest", "url": "https://ardennest.be" }
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "ArdenNest",
+        "url": "https://ardennest.be",
+        "logo": "https://ardennest.be/favicon.png"
+      },
+      "url": `https://ardennest.be${basePath}/huiseigenaars`,
+      "inLanguage": lang,
+      "mainEntityOfPage": `https://ardennest.be${basePath}/huiseigenaars`,
+      "about": [
+        { "@type": "Thing", "name": "AI-optimized websites" },
+        { "@type": "Thing", "name": "Generative Engine Optimization" },
+        { "@type": "SoftwareApplication", "name": "geo-scan.be", "url": "https://geo-scan.be", "applicationCategory": "WebApplication" }
+      ]
+    };
+
+    let script = document.querySelector('script[data-page-jsonld="homeowners"]') as HTMLScriptElement | null;
+    if (!script) {
+      script = document.createElement('script');
+      script.type = 'application/ld+json';
+      script.setAttribute('data-page-jsonld', 'homeowners');
+      document.head.appendChild(script);
+    }
+    script.textContent = JSON.stringify(jsonLd);
+
+    return () => { script?.remove(); };
+  }, [t, i18n.language]);
 
   const learnings = [
     { title: t('learnings.answers.title'), text: t('learnings.answers.text') },
