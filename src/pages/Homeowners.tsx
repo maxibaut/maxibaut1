@@ -57,6 +57,7 @@ const Homeowners = () => {
                 </p>
               </div>
             ))}
+          </div>
         </div>
       </section>
 
