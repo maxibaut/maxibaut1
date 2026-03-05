@@ -25,8 +25,8 @@
     }
   },
   "geoScan": {
-    "subtitle": "geo-scan.be — check how AI sees your business",
-    "intro": "Based on this experience, I built geo-scan.be: a free scan across six pillars.",
+    "subtitle": "GEO-Scan.be — check how AI sees your business",
+    "intro": "Based on this experience, I built GEO-Scan.be: a free scan across six pillars.",
     "pillars": {
       "readability": "Structural readability — can AI technically read your site?",
       "identity": "Entity identity — does AI know who you are and what you do?",
