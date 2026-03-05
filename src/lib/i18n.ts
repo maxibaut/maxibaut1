@@ -102,8 +102,8 @@ const resources = {
     privacy: frPrivacy,
     rentalTerms: frRentalTerms,
     cancellationPolicy: frCancellationPolicy,
+    homeowners: frHomeowners,
   },
-  en: {
     common: enCommon,
     homepage: enHomepage,
     property: enProperty,
