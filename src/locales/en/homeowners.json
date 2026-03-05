@@ -1,44 +1,46 @@
 {
   "seo": {
-    "title": "For Homeowners & Rental Operators | ArdenNest",
-    "description": "How ArdenNest became visible to AI assistants — and what other rental operators can learn from it."
+    "title": "Is Your Rental Recommended by AI? | ArdenNest",
+    "description": "How ArdenNest became visible to AI assistants like ChatGPT and Claude — and what other rental operators can learn. Free scan at geo-scan.be."
   },
-  "title": "From vacation rental to discoverable business",
-  "intro": "I'm Christophe — co-owner of ArdenNest together with Bieke. But I'm not just a rental operator. I trained as a programmer at the Lernout & Hauspie Speech Products Academy, worked for years as a developer and technical consultant at Wolters Kluwer Financial Services, and today I work as a ClickUp Expert and process automation specialist at Fourcast. Technology and digital strategy are my profession, not my hobby. My hobbies are foraging and preparing mushrooms, building log cabins, chopping wood, keeping chickens, tending the vegetable garden — and being extremely creative in giving children the space to play and grow in our garden. Self-sufficiency in the Ardennes, you could say.",
-  "intro2": "In early 2026, I completely rewrote this website — not for Google, but for the way people search for information today: through AI assistants like ChatGPT and Claude. What I learned along the way, I want to share with other rental operators and small business owners.",
+  "title": "Is your vacation rental recommended by AI?",
+  "hook": "ChatGPT, Claude and Perplexity increasingly answer the questions your guests used to ask Google. The question is no longer whether your site gets found — but whether an AI mentions your address when someone asks: \"Which holiday home in the Ardennes fits 20 people?\"",
   "learnings": {
-    "subtitle": "What I learned while optimising ArdenNest",
+    "subtitle": "What I learned rewriting ArdenNest",
     "answers": {
-      "title": "Answer instead of list",
-      "text": "Our old site listed features. The new one answers the questions people actually ask: \"Is cooking for 26 a problem?\" or \"Do I need a shower schedule?\" AI assistants work with answers, not bullet points."
+      "title": "Answer, don't list",
+      "text": "Our old site listed features. The new one answers questions: \"Is cooking for 26 a problem?\" — \"No, two professional dishwashers, everything clean in 30 minutes.\" That's what an AI quotes."
     },
     "concrete": {
-      "title": "Concrete beats vague",
-      "text": "\"Large kitchen\" says nothing. \"2 Miele Professional dishwashers, 26 plates clean in 30 minutes\" is what an AI quotes when someone asks about a holiday home with a professional kitchen."
+      "title": "Be specific",
+      "text": "\"Large kitchen\" means nothing to an AI. \"Lacanche range, 2 Miele dishwashers, cooling for 26\" is what makes the difference between being recommended or skipped."
     },
     "honesty": {
-      "title": "Dare to name what you don't have",
-      "text": "ArdenNest has no swimming pool and no sauna — by design. By explaining that on the site as a deliberate choice rather than staying silent, an AI can pass on that context. Silence counts against you; an explanation becomes an argument."
+      "title": "Name what you don't have",
+      "text": "We don't have a swimming pool — by design. By explaining that as a philosophy rather than staying silent, an AI can pass on that context. Silence counts against you; an explanation becomes an argument."
     },
     "consistency": {
-      "title": "Consistency is everything",
-      "text": "If your site says \"26 people\" but your Google listing says \"20 people\", an AI doesn't know which is correct — and picks a competitor where the numbers do match."
+      "title": "Make sure your numbers match",
+      "text": "If your site says \"26 people\" but your Google listing says \"20\", an AI doesn't know which is correct — and picks a competitor where everything checks out."
     }
   },
   "geoScan": {
     "subtitle": "geo-scan.be — check how AI sees your business",
-    "intro": "Based on what I learned at ArdenNest, I built geo-scan.be: a free scan that measures how well your website is readable for AI assistants. The tool checks six pillars:",
+    "intro": "Based on this experience, I built geo-scan.be: a free scan across six pillars.",
     "pillars": {
-      "readability": "Structural readability — can an AI technically read and understand your site?",
-      "identity": "Entity identity — does an AI know who you are and what you do?",
-      "answerability": "Content answerability — does your site answer the questions people ask?",
-      "authority": "Source authority — is your business confirmed by external sources?",
+      "readability": "Structural readability — can AI technically read your site?",
+      "identity": "Entity identity — does AI know who you are and what you do?",
+      "answerability": "Content answerability — do you answer the right questions?",
+      "authority": "Source authority — do external sources confirm your story?",
       "specificity": "Factual specificity — does your site contain concrete, verifiable facts?",
       "consistency": "Consistency — is your information correct everywhere?"
     }
   },
   "cta": "Scan your own website",
-  "closing": "The scan is free and without obligation. No account needed, no sales pitch — just insight into how AI sees your business today. Questions? Send me a message via the",
-  "contactLink": "contact form",
+  "closing": "Free, no account needed, no sales pitch — just insight into how AI sees your business today.",
+  "about": {
+    "subtitle": "About Christophe",
+    "text": "I'm Christophe, co-owner of ArdenNest together with Bieke. But I'm not just a rental operator. I trained as a programmer at the Lernout & Hauspie Speech Products Academy, worked for years as a developer and technical consultant at Wolters Kluwer Financial Services, and today I work as a ClickUp Expert and process automation specialist at Fourcast. Technology and digital strategy are my profession — my hobbies are foraging and preparing mushrooms, building log cabins, chopping wood, keeping chickens, tending the vegetable garden, and being extremely creative in giving children the space to play and grow in our garden."
+  },
   "attribution": "geo-scan.be is an initiative by Christophe, co-owner of ArdenNest."
 }

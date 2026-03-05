@@ -1,44 +1,46 @@
 {
   "seo": {
-    "title": "Für Hauseigentümer & Vermieter | ArdenNest",
-    "description": "Wie ArdenNest für KI-Assistenten sichtbar wurde — und was andere Vermieter davon lernen können."
+    "title": "Wird Ihre Ferienwohnung von KI empfohlen? | ArdenNest",
+    "description": "Wie ArdenNest für KI-Assistenten wie ChatGPT und Claude sichtbar wurde — und was andere Vermieter davon lernen können. Kostenloser Scan auf geo-scan.be."
   },
-  "title": "Von Ferienhaus zu auffindbarem Unternehmen",
-  "intro": "Ich bin Christophe — zusammen mit Bieke Eigentümer von ArdenNest. Aber ich bin nicht nur Vermieter. Ich wurde als Programmierer an der Lernout & Hauspie Speech Products Academy ausgebildet, arbeitete jahrelang als Entwickler und technischer Berater bei Wolters Kluwer Financial Services und arbeite heute als ClickUp-Experte und Prozessautomatisierer bei Fourcast. Technologie und digitale Strategie sind mein Beruf, nicht mein Hobby. Meine Hobbys sind Pilze sammeln und zubereiten, Blockhütten bauen, Holzhacken, Hühner halten, den Gemüsegarten pflegen — und extrem kreativ sein, um Kindern den Raum zu geben, sich in unserem Garten auszutoben und zu entwickeln. Selbstversorgung in den Ardennen, sozusagen.",
-  "intro2": "Anfang 2026 habe ich diese Website komplett neu geschrieben — nicht für Google, sondern für die Art und Weise, wie Menschen heute nach Informationen suchen: über KI-Assistenten wie ChatGPT und Claude. Was ich dabei gelernt habe, möchte ich mit anderen Vermietern und kleinen Unternehmern teilen.",
+  "title": "Wird Ihre Ferienwohnung von KI empfohlen?",
+  "hook": "ChatGPT, Claude und Perplexity beantworten zunehmend die Fragen, die Ihre Gäste früher Google gestellt haben. Die Frage ist nicht mehr, ob Ihre Website gefunden wird — sondern ob eine KI Ihre Adresse nennt, wenn jemand fragt: „Welches Ferienhaus in den Ardennen eignet sich für 20 Personen?"",
   "learnings": {
-    "subtitle": "Was ich bei der Optimierung von ArdenNest gelernt habe",
+    "subtitle": "Was ich beim Umschreiben von ArdenNest gelernt habe",
     "answers": {
-      "title": "Antworten statt auflisten",
-      "text": "Unsere alte Seite listete Features auf. Die neue beantwortet die Fragen, die Menschen wirklich stellen: 'Ist Kochen für 26 ein Problem?' oder 'Brauche ich einen Duschplan?' KI-Assistenten arbeiten mit Antworten, nicht mit Listen."
+      "title": "Antworten, nicht auflisten",
+      "text": "Unsere alte Seite listete Features auf. Die neue beantwortet Fragen: „Ist Kochen für 26 ein Problem?" — „Nein, zwei professionelle Geschirrspüler, alles sauber in 30 Minuten." Das zitiert eine KI."
     },
     "concrete": {
-      "title": "Konkret schlägt vage",
-      "text": "'Große Küche' sagt nichts. '2 Miele Professional Geschirrspüler, 26 Teller sauber in 30 Minuten' — das zitiert eine KI, wenn jemand nach einem Ferienhaus mit Profiküche fragt."
+      "title": "Seien Sie konkret",
+      "text": "„Große Küche" sagt einer KI nichts. „Lacanche-Herd, 2 Miele-Geschirrspüler, Kühlung für 26" — das macht den Unterschied zwischen empfohlen werden oder übersprungen."
     },
     "honesty": {
-      "title": "Mut zu benennen, was man nicht hat",
-      "text": "ArdenNest hat keinen Pool und keine Sauna — bewusst. Wenn man das auf der Website als bewusste Entscheidung erklärt, statt es totzuschweigen, kann eine KI diesen Kontext weitergeben. Schweigen wird zum Nachteil, Erklärung wird zum Argument."
+      "title": "Benennen Sie, was Sie nicht haben",
+      "text": "Wir haben keinen Pool — bewusst. Wenn man das als Philosophie erklärt, statt es totzuschweigen, kann eine KI diesen Kontext weitergeben. Schweigen wird zum Nachteil, Erklärung zum Argument."
     },
     "consistency": {
-      "title": "Konsistenz ist alles",
-      "text": "Wenn Ihre Website '26 Personen' sagt, aber Ihr Google-Eintrag '20 Personen', weiß eine KI nicht, was stimmt — und wählt einen Mitbewerber, bei dem die Zahlen übereinstimmen."
+      "title": "Stellen Sie sicher, dass Ihre Zahlen stimmen",
+      "text": "Wenn Ihre Website „26 Personen" sagt, aber Ihr Google-Eintrag „20", weiß eine KI nicht, was stimmt — und wählt einen Mitbewerber, bei dem alles übereinstimmt."
     }
   },
   "geoScan": {
     "subtitle": "geo-scan.be — prüfen Sie, wie KI Ihr Unternehmen sieht",
-    "intro": "Auf Basis meiner Erfahrungen mit ArdenNest habe ich geo-scan.be entwickelt: einen kostenlosen Scan, der misst, wie gut Ihre Website für KI-Assistenten lesbar ist. Das Tool prüft sechs Säulen:",
+    "intro": "Auf Basis dieser Erfahrung habe ich geo-scan.be entwickelt: einen kostenlosen Scan auf sechs Säulen.",
     "pillars": {
-      "readability": "Strukturelle Lesbarkeit — kann eine KI Ihre Seite technisch lesen und verstehen?",
-      "identity": "Entitäts-Identität — weiß eine KI, wer Sie sind und was Sie tun?",
-      "answerability": "Inhaltliche Beantwortbarkeit — beantwortet Ihre Seite die Fragen, die Menschen stellen?",
-      "authority": "Quellenautorität — wird Ihr Unternehmen durch externe Quellen bestätigt?",
+      "readability": "Strukturelle Lesbarkeit — kann KI Ihre Seite technisch lesen?",
+      "identity": "Entitäts-Identität — weiß KI, wer Sie sind und was Sie tun?",
+      "answerability": "Inhaltliche Beantwortbarkeit — beantworten Sie die richtigen Fragen?",
+      "authority": "Quellenautorität — bestätigen externe Quellen Ihre Geschichte?",
       "specificity": "Faktische Spezifität — enthält Ihre Seite konkrete, überprüfbare Fakten?",
       "consistency": "Konsistenz — stimmen Ihre Informationen überall überein?"
     }
   },
   "cta": "Scannen Sie Ihre eigene Website",
-  "closing": "Der Scan ist kostenlos und unverbindlich. Kein Konto nötig, kein Verkaufsgespräch — nur Einblick, wie KI Ihr Unternehmen heute sieht. Fragen? Senden Sie mir eine Nachricht über das",
-  "contactLink": "Kontaktformular",
+  "closing": "Kostenlos, kein Konto nötig, kein Verkaufsgespräch — nur Einblick, wie KI Ihr Unternehmen heute sieht.",
+  "about": {
+    "subtitle": "Über Christophe",
+    "text": "Ich bin Christophe, zusammen mit Bieke Eigentümer von ArdenNest. Aber ich bin nicht nur Vermieter. Ich wurde als Programmierer an der Lernout & Hauspie Speech Products Academy ausgebildet, arbeitete jahrelang als Entwickler und technischer Berater bei Wolters Kluwer Financial Services und arbeite heute als ClickUp-Experte und Prozessautomatisierer bei Fourcast. Technologie und digitale Strategie sind mein Beruf — meine Hobbys sind Pilze sammeln und zubereiten, Blockhütten bauen, Holzhacken, Hühner halten, den Gemüsegarten pflegen und extrem kreativ sein, um Kindern den Raum zu geben, sich in unserem Garten auszutoben."
+  },
   "attribution": "geo-scan.be ist eine Initiative von Christophe, Miteigentümer von ArdenNest."
 }
