@@ -85,6 +85,7 @@ const resources = {
     privacy: nlPrivacy,
     rentalTerms: nlRentalTerms,
     cancellationPolicy: nlCancellationPolicy,
+    homeowners: nlHomeowners,
   },
   fr: {
     common: frCommon,
