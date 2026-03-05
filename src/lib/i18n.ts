@@ -136,6 +136,7 @@ const resources = {
     cancellationPolicy: deCancellationPolicy,
     homeowners: deHomeowners,
   },
+};
 
 const SUPPORTED_LANGUAGES = ['nl', 'fr', 'en', 'de'];
 
