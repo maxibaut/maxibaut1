@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import { PageWrapper } from '@/components/layout/PageWrapper';
 import { Button } from '@/components/ui/button';
-import { ExternalLink } from 'lucide-react';
+import { ExternalLink, Search, Building2, MessageSquareText, Shield, ListChecks, RefreshCw } from 'lucide-react';
 import useSEO from '@/hooks/useSEO';
 import { LocalizedLink } from '@/components/LocalizedLink';
 
