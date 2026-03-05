@@ -176,7 +176,7 @@ i18n
     lng: getDefaultLanguage(),
     fallbackLng: 'nl',
     defaultNS: 'common',
-    ns: ['common', 'homepage', 'property', 'about', 'contact', 'booking', 'surroundings', 'houseRules', 'checklist', 'localTips', 'earlyArrival', 'privacy', 'rentalTerms', 'cancellationPolicy'],
+    ns: ['common', 'homepage', 'property', 'about', 'contact', 'booking', 'surroundings', 'houseRules', 'checklist', 'localTips', 'earlyArrival', 'privacy', 'rentalTerms', 'cancellationPolicy', 'homeowners'],
     interpolation: {
       escapeValue: false,
     },

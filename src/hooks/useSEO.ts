@@ -28,6 +28,7 @@ const routeSEOConfig: Record<string, SEOConfig> = {
   '/rental-terms': { titleKey: 'seo.title', descriptionKey: 'seo.description', namespace: 'rentalTerms' },
   '/cancellation-policy': { titleKey: 'seo.title', descriptionKey: 'seo.description', namespace: 'cancellationPolicy' },
   '/privacy-policy': { titleKey: 'seo.title', descriptionKey: 'seo.description', namespace: 'privacy' },
+  '/huiseigenaars': { titleKey: 'seo.title', descriptionKey: 'seo.description', namespace: 'homeowners' },
 };
 
 /** Extract the base path (without language prefix) from a full pathname */
