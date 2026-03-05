@@ -1,7 +1,7 @@
 {
   "seo": {
     "title": "Wordt jouw vakantiewoning aanbevolen door AI? | ArdenNest",
-    "description": "Hoe ArdenNest zichtbaar werd voor AI-assistenten zoals ChatGPT en Claude — en wat andere verhuurders daarvan kunnen leren. Gratis scan op geo-scan.be."
+    "description": "Hoe ArdenNest zichtbaar werd voor AI-assistenten zoals ChatGPT en Claude — en wat andere verhuurders daarvan kunnen leren. Gratis scan op GEO-Scan.be."
   },
   "title": "Wordt jouw vakantiewoning aanbevolen door AI?",
   "hook": "ChatGPT, Claude en Perplexity beantwoorden steeds vaker de vragen die jouw gasten vroeger aan Google stelden. De vraag is niet meer óf je site gevonden wordt — maar of een AI jouw adres noemt als iemand vraagt: \"Welke vakantiewoning in de Ardennen is geschikt voor 20 personen?\"",
@@ -25,8 +25,8 @@
     }
   },
   "geoScan": {
-    "subtitle": "geo-scan.be — check hoe AI jouw bedrijf ziet",
-    "intro": "Op basis van deze ervaring bouwde ik geo-scan.be: een gratis scan op zes pijlers.",
+    "subtitle": "GEO-Scan.be — check hoe AI jouw bedrijf ziet",
+    "intro": "Op basis van deze ervaring bouwde ik GEO-Scan.be: een gratis scan op zes pijlers.",
     "pillars": {
       "readability": "Structurele leesbaarheid — kan AI je site technisch lezen?",
       "identity": "Entiteit-identiteit — weet AI wie je bent en wat je doet?",
@@ -42,5 +42,5 @@
     "subtitle": "Over Christophe",
     "text": "Ik ben Christophe, samen met Bieke eigenaar van ArdenNest. Maar ik ben niet alleen verhuurder. Ik ben opgeleid als programmeur aan de Lernout & Hauspie Speech Products Academy, werkte jarenlang als developer en technisch consultant bij Wolters Kluwer Financial Services, en werk vandaag als ClickUp Expert en procesautomatiseerder bij Fourcast. Technologie en digitale strategie zijn mijn vak — mijn hobby's zijn paddenstoelen plukken en bereiden, blokhutten bouwen, houthakken, kippen houden, de moestuin, en extreem creatief zijn om kinderen de ruimte te geven zich uit te leven in onze tuin."
   },
-  "attribution": "geo-scan.be is een initiatief van Christophe, mede-eigenaar van ArdenNest."
+  "attribution": "GEO-Scan.be is een initiatief van Christophe, mede-eigenaar van ArdenNest."
 }

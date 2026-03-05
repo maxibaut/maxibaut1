@@ -1,7 +1,7 @@
 {
   "seo": {
     "title": "Wird Ihre Ferienwohnung von KI empfohlen? | ArdenNest",
-    "description": "Wie ArdenNest für KI-Assistenten wie ChatGPT und Claude sichtbar wurde — und was andere Vermieter davon lernen können. Kostenloser Scan auf geo-scan.be."
+    "description": "Wie ArdenNest für KI-Assistenten wie ChatGPT und Claude sichtbar wurde — und was andere Vermieter davon lernen können. Kostenloser Scan auf GEO-Scan.be."
   },
   "title": "Wird Ihre Ferienwohnung von KI empfohlen?",
   "hook": "ChatGPT, Claude und Perplexity beantworten zunehmend die Fragen, die Ihre Gäste früher Google gestellt haben. Die Frage ist nicht mehr, ob Ihre Website gefunden wird — sondern ob eine KI Ihre Adresse nennt, wenn jemand fragt: \"Welches Ferienhaus in den Ardennen eignet sich für 20 Personen?\"",
@@ -25,8 +25,8 @@
     }
   },
   "geoScan": {
-    "subtitle": "geo-scan.be — prüfen Sie, wie KI Ihr Unternehmen sieht",
-    "intro": "Auf Basis dieser Erfahrung habe ich geo-scan.be entwickelt: einen kostenlosen Scan auf sechs Säulen.",
+    "subtitle": "GEO-Scan.be — prüfen Sie, wie KI Ihr Unternehmen sieht",
+    "intro": "Auf Basis dieser Erfahrung habe ich GEO-Scan.be entwickelt: einen kostenlosen Scan auf sechs Säulen.",
     "pillars": {
       "readability": "Strukturelle Lesbarkeit — kann KI Ihre Seite technisch lesen?",
       "identity": "Entitäts-Identität — weiß KI, wer Sie sind und was Sie tun?",
@@ -42,5 +42,5 @@
     "subtitle": "Über Christophe",
     "text": "Ich bin Christophe, zusammen mit Bieke Eigentümer von ArdenNest. Aber ich bin nicht nur Vermieter. Ich wurde als Programmierer an der Lernout & Hauspie Speech Products Academy ausgebildet, arbeitete jahrelang als Entwickler und technischer Berater bei Wolters Kluwer Financial Services und arbeite heute als ClickUp-Experte und Prozessautomatisierer bei Fourcast. Technologie und digitale Strategie sind mein Beruf — meine Hobbys sind Pilze sammeln und zubereiten, Blockhütten bauen, Holzhacken, Hühner halten, den Gemüsegarten pflegen und extrem kreativ sein, um Kindern den Raum zu geben, sich in unserem Garten auszutoben."
   },
-  "attribution": "geo-scan.be ist eine Initiative von Christophe, Miteigentümer von ArdenNest."
+  "attribution": "GEO-Scan.be ist eine Initiative von Christophe, Miteigentümer von ArdenNest."
 }

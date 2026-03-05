@@ -42,7 +42,7 @@ const Homeowners = () => {
       "about": [
         { "@type": "Thing", "name": "AI-optimized websites" },
         { "@type": "Thing", "name": "Generative Engine Optimization" },
-        { "@type": "SoftwareApplication", "name": "geo-scan.be", "url": "https://geo-scan.be", "applicationCategory": "WebApplication" }
+        { "@type": "SoftwareApplication", "name": "GEO-Scan.be", "url": "https://geo-scan.be", "applicationCategory": "WebApplication" }
       ]
     };
 
