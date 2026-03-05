@@ -118,8 +118,8 @@ const resources = {
     privacy: enPrivacy,
     rentalTerms: enRentalTerms,
     cancellationPolicy: enCancellationPolicy,
+    homeowners: enHomeowners,
   },
-  de: {
     common: deCommon,
     homepage: deHomepage,
     property: deProperty,
