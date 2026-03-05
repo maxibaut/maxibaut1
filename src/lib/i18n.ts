@@ -16,6 +16,7 @@ import nlEarlyArrival from '@/locales/nl/earlyArrival.json';
 import nlPrivacy from '@/locales/nl/privacy.json';
 import nlRentalTerms from '@/locales/nl/rentalTerms.json';
 import nlCancellationPolicy from '@/locales/nl/cancellationPolicy.json';
+import nlHomeowners from '@/locales/nl/homeowners.json';
 
 // French translations
 import frCommon from '@/locales/fr/common.json';
