@@ -22,12 +22,12 @@ const Homeowners = () => {
   ];
 
   const pillars = [
-    t('geoScan.pillars.readability'),
-    t('geoScan.pillars.identity'),
-    t('geoScan.pillars.answerability'),
-    t('geoScan.pillars.authority'),
-    t('geoScan.pillars.specificity'),
-    t('geoScan.pillars.consistency'),
+    { text: t('geoScan.pillars.readability'), icon: Search },
+    { text: t('geoScan.pillars.identity'), icon: Building2 },
+    { text: t('geoScan.pillars.answerability'), icon: MessageSquareText },
+    { text: t('geoScan.pillars.authority'), icon: Shield },
+    { text: t('geoScan.pillars.specificity'), icon: ListChecks },
+    { text: t('geoScan.pillars.consistency'), icon: RefreshCw },
   ];
 
   return (
