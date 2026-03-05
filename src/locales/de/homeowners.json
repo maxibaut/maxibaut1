@@ -25,8 +25,8 @@
     }
   },
   "geoScan": {
-    "subtitle": "geo-scan.be — prüfen Sie, wie KI Ihr Unternehmen sieht",
-    "intro": "Auf Basis dieser Erfahrung habe ich geo-scan.be entwickelt: einen kostenlosen Scan auf sechs Säulen.",
+    "subtitle": "GEO-Scan.be — prüfen Sie, wie KI Ihr Unternehmen sieht",
+    "intro": "Auf Basis dieser Erfahrung habe ich GEO-Scan.be entwickelt: einen kostenlosen Scan auf sechs Säulen.",
     "pillars": {
       "readability": "Strukturelle Lesbarkeit — kann KI Ihre Seite technisch lesen?",
       "identity": "Entitäts-Identität — weiß KI, wer Sie sind und was Sie tun?",
