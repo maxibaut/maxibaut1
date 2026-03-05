@@ -25,8 +25,8 @@
     }
   },
   "geoScan": {
-    "subtitle": "geo-scan.be — vérifiez comment l'IA voit votre entreprise",
-    "intro": "Sur base de cette expérience, j'ai créé geo-scan.be : un scan gratuit sur six piliers.",
+    "subtitle": "GEO-Scan.be — vérifiez comment l'IA voit votre entreprise",
+    "intro": "Sur base de cette expérience, j'ai créé GEO-Scan.be : un scan gratuit sur six piliers.",
     "pillars": {
       "readability": "Lisibilité structurelle — l'IA peut-elle techniquement lire votre site ?",
       "identity": "Identité d'entité — l'IA sait-elle qui vous êtes et ce que vous faites ?",
