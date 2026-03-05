@@ -38,8 +38,11 @@ const Homeowners = () => {
           <h1 className="font-serif text-3xl md:text-4xl font-bold text-primary mb-6">
             {t('title')}
           </h1>
-          <p className="text-foreground/90 text-lg leading-relaxed mb-16">
+          <p className="text-foreground/90 text-lg leading-relaxed mb-6">
             {t('intro')}
+          </p>
+          <p className="text-foreground/90 text-lg leading-relaxed mb-16">
+            {t('intro2')}
           </p>
 
           {/* Wat ik leerde */}
