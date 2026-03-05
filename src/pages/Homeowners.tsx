@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import { PageWrapper } from '@/components/layout/PageWrapper';
 import { Button } from '@/components/ui/button';
-import { ExternalLink } from 'lucide-react';
+import { ExternalLink, Search, Building2, MessageSquareText, Shield, ListChecks, RefreshCw } from 'lucide-react';
 import useSEO from '@/hooks/useSEO';
 import { LocalizedLink } from '@/components/LocalizedLink';
 
@@ -22,12 +22,12 @@ const Homeowners = () => {
   ];
 
   const pillars = [
-    t('geoScan.pillars.readability'),
-    t('geoScan.pillars.identity'),
-    t('geoScan.pillars.answerability'),
-    t('geoScan.pillars.authority'),
-    t('geoScan.pillars.specificity'),
-    t('geoScan.pillars.consistency'),
+    { text: t('geoScan.pillars.readability'), icon: Search },
+    { text: t('geoScan.pillars.identity'), icon: Building2 },
+    { text: t('geoScan.pillars.answerability'), icon: MessageSquareText },
+    { text: t('geoScan.pillars.authority'), icon: Shield },
+    { text: t('geoScan.pillars.specificity'), icon: ListChecks },
+    { text: t('geoScan.pillars.consistency'), icon: RefreshCw },
   ];
 
   return (
@@ -58,25 +58,41 @@ const Homeowners = () => {
               </div>
             ))}
           </div>
+        </div>
+      </section>
 
-          {/* geo-scan.be */}
+      {/* geo-scan.be — accent background block */}
+      <section className="bg-accent py-16 md:py-20">
+        <div className="container max-w-3xl mx-auto px-4">
           <h2 className="font-serif text-2xl md:text-3xl font-semibold text-primary mb-4">
             {t('geoScan.subtitle')}
           </h2>
-          <p className="text-foreground/90 leading-relaxed mb-6">
+          <p className="text-foreground/90 leading-relaxed mb-10">
             {t('geoScan.intro')}
           </p>
-          <ul className="space-y-3 mb-10">
-            {pillars.map((pillar, i) => (
-              <li key={i} className="flex items-start gap-3">
-                <span className="mt-1.5 h-2 w-2 rounded-full bg-primary shrink-0" />
-                <span className="text-foreground/80 leading-relaxed">{pillar}</span>
-              </li>
-            ))}
-          </ul>
+
+          {/* Pillars as 2x3 grid */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-12">
+            {pillars.map((pillar, i) => {
+              const Icon = pillar.icon;
+              return (
+                <div
+                  key={i}
+                  className="flex items-start gap-3 rounded-lg border border-border bg-background p-4"
+                >
+                  <div className="mt-0.5 shrink-0 rounded-md bg-primary/10 p-2">
+                    <Icon className="h-4 w-4 text-primary" />
+                  </div>
+                  <span className="text-foreground/80 text-sm leading-relaxed">
+                    {pillar.text}
+                  </span>
+                </div>
+              );
+            })}
+          </div>
 
           {/* CTA */}
-          <div className="flex justify-center mb-16">
+          <div className="flex justify-center">
             <Button asChild size="lg" className="gap-2">
               <a href="https://geo-scan.be" target="_blank" rel="noopener noreferrer">
                 {t('cta')}
@@ -84,6 +100,12 @@ const Homeowners = () => {
               </a>
             </Button>
           </div>
+        </div>
+      </section>
+
+      {/* Closing section */}
+      <section className="py-16 md:py-20">
+        <div className="container max-w-3xl mx-auto px-4">
 
           {/* Closing */}
           <p className="text-foreground/90 leading-relaxed mb-12">
