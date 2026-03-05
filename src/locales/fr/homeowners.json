@@ -4,7 +4,7 @@
     "description": "Comment ArdenNest est devenu visible pour les assistants IA comme ChatGPT et Claude — et ce que d'autres loueurs peuvent en apprendre. Scan gratuit sur GEO-Scan.be."
   },
   "title": "Votre location de vacances est-elle recommandée par l'IA ?",
-  "hook": "ChatGPT, Claude et Perplexity répondent de plus en plus aux questions que vos hôtes posaient autrefois à Google. La question n'est plus de savoir si votre site est trouvé — mais si une IA mentionne votre adresse quand quelqu'un demande : « Quel gîte dans les Ardennes convient à 20 personnes ? »",
+  "hook": "ChatGPT, Google Gemini, Microsoft Copilot, Grok (xAI) répondent de plus en plus aux questions que vos hôtes posaient autrefois à Google. La question n'est plus de savoir si votre site est trouvé — mais si une IA mentionne votre adresse quand quelqu'un demande : « Quel gîte dans les Ardennes convient à 20 personnes ? »",
   "learnings": {
     "subtitle": "Ce que j'ai appris en réécrivant ArdenNest",
     "answers": {

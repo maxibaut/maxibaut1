@@ -4,7 +4,7 @@
     "description": "Wie ArdenNest für KI-Assistenten wie ChatGPT und Claude sichtbar wurde — und was andere Vermieter davon lernen können. Kostenloser Scan auf GEO-Scan.be."
   },
   "title": "Wird Ihre Ferienwohnung von KI empfohlen?",
-  "hook": "ChatGPT, Claude und Perplexity beantworten zunehmend die Fragen, die Ihre Gäste früher Google gestellt haben. Die Frage ist nicht mehr, ob Ihre Website gefunden wird — sondern ob eine KI Ihre Adresse nennt, wenn jemand fragt: \"Welches Ferienhaus in den Ardennen eignet sich für 20 Personen?\"",
+  "hook": "ChatGPT, Google Gemini, Microsoft Copilot, Grok (xAI) beantworten zunehmend die Fragen, die Ihre Gäste früher Google gestellt haben. Die Frage ist nicht mehr, ob Ihre Website gefunden wird — sondern ob eine KI Ihre Adresse nennt, wenn jemand fragt: \"Welches Ferienhaus in den Ardennen eignet sich für 20 Personen?\"",
   "learnings": {
     "subtitle": "Was ich beim Umschreiben von ArdenNest gelernt habe",
     "answers": {

@@ -4,7 +4,7 @@
     "description": "How ArdenNest became visible to AI assistants like ChatGPT and Claude — and what other rental operators can learn. Free scan at GEO-Scan.be."
   },
   "title": "Is your vacation rental recommended by AI?",
-  "hook": "ChatGPT, Claude and Perplexity increasingly answer the questions your guests used to ask Google. The question is no longer whether your site gets found — but whether an AI mentions your address when someone asks: \"Which holiday home in the Ardennes fits 20 people?\"",
+  "hook": "ChatGPT, Google Gemini, Microsoft Copilot, Grok (xAI) increasingly answer the questions your guests used to ask Google. The question is no longer whether your site gets found — but whether an AI mentions your address when someone asks: \"Which holiday home in the Ardennes fits 20 people?\"",
   "learnings": {
     "subtitle": "What I learned rewriting ArdenNest",
     "answers": {
