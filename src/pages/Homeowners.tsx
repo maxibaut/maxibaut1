@@ -4,7 +4,6 @@ import { PageWrapper } from '@/components/layout/PageWrapper';
 import { Button } from '@/components/ui/button';
 import { ExternalLink, Search, Building2, MessageSquareText, Shield, ListChecks, RefreshCw } from 'lucide-react';
 import useSEO from '@/hooks/useSEO';
-import { LocalizedLink } from '@/components/LocalizedLink';
 
 const Homeowners = () => {
   const { t, i18n } = useTranslation('homeowners');
@@ -15,7 +14,7 @@ const Homeowners = () => {
     namespace: 'homeowners',
   });
 
-  // JSON-LD structured data for the page
+  // JSON-LD structured data
   useEffect(() => {
     const lang = i18n.language;
     const basePath = lang === 'nl' ? '' : `/${lang}`;
@@ -77,24 +76,25 @@ const Homeowners = () => {
 
   return (
     <PageWrapper>
+      {/* 1. Title + Hook */}
       <section className="py-16 md:py-24">
         <div className="container max-w-3xl mx-auto px-4">
-          {/* Title & Intro */}
           <h1 className="font-serif text-3xl md:text-4xl font-bold text-primary mb-6">
             {t('title')}
           </h1>
-          <p className="text-foreground/90 text-lg leading-relaxed mb-6">
-            {t('intro')}
+          <p className="text-foreground/90 text-lg leading-relaxed">
+            {t('hook')}
           </p>
-          <p className="text-foreground/90 text-lg leading-relaxed mb-16">
-            {t('intro2')}
-          </p>
+        </div>
+      </section>
 
-          {/* Wat ik leerde */}
+      {/* 2. Wat ik leerde */}
+      <section className="pb-16 md:pb-20">
+        <div className="container max-w-3xl mx-auto px-4">
           <h2 className="font-serif text-2xl md:text-3xl font-semibold text-primary mb-8">
             {t('learnings.subtitle')}
           </h2>
-          <div className="space-y-8 mb-16">
+          <div className="space-y-8">
             {learnings.map((item, i) => (
               <div key={i}>
                 <h3 className="font-sans text-lg font-semibold text-foreground mb-2">
@@ -109,7 +109,7 @@ const Homeowners = () => {
         </div>
       </section>
 
-      {/* geo-scan.be — accent background block */}
+      {/* 3. geo-scan.be — accent background */}
       <section className="bg-accent py-16 md:py-20">
         <div className="container max-w-3xl mx-auto px-4">
           <h2 className="font-serif text-2xl md:text-3xl font-semibold text-primary mb-4">
@@ -119,7 +119,6 @@ const Homeowners = () => {
             {t('geoScan.intro')}
           </p>
 
-          {/* Pillars as 2x3 grid */}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-12">
             {pillars.map((pillar, i) => {
               const Icon = pillar.icon;
@@ -139,7 +138,6 @@ const Homeowners = () => {
             })}
           </div>
 
-          {/* CTA */}
           <div className="flex justify-center">
             <Button asChild size="lg" className="gap-2">
               <a href="https://geo-scan.be" target="_blank" rel="noopener noreferrer">
@@ -151,20 +149,30 @@ const Homeowners = () => {
         </div>
       </section>
 
-      {/* Closing section */}
-      <section className="py-16 md:py-20">
+      {/* 4. Afsluiter */}
+      <section className="py-12 md:py-16">
         <div className="container max-w-3xl mx-auto px-4">
-
-          {/* Closing */}
-          <p className="text-foreground/90 leading-relaxed mb-12">
-            {t('closing')}{' '}
-            <LocalizedLink to="/contact" className="text-primary hover:underline">
-              {t('contactLink')}
-            </LocalizedLink>
-            .
+          <p className="text-foreground/90 leading-relaxed text-center text-lg">
+            {t('closing')}
           </p>
+        </div>
+      </section>
 
-          {/* Attribution */}
+      {/* 5. Over Christophe */}
+      <section className="pb-16 md:pb-20">
+        <div className="container max-w-3xl mx-auto px-4">
+          <h2 className="font-serif text-2xl md:text-3xl font-semibold text-primary mb-4">
+            {t('about.subtitle')}
+          </h2>
+          <p className="text-foreground/80 leading-relaxed">
+            {t('about.text')}
+          </p>
+        </div>
+      </section>
+
+      {/* 6. Footer-lijn */}
+      <section className="pb-16 md:pb-20">
+        <div className="container max-w-3xl mx-auto px-4">
           <p className="text-sm text-muted-foreground text-center border-t border-border pt-8">
             {t('attribution')}
           </p>
