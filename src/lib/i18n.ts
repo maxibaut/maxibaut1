@@ -134,8 +134,8 @@ const resources = {
     privacy: dePrivacy,
     rentalTerms: deRentalTerms,
     cancellationPolicy: deCancellationPolicy,
+    homeowners: deHomeowners,
   },
-};
 
 const SUPPORTED_LANGUAGES = ['nl', 'fr', 'en', 'de'];
 
