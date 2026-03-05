@@ -33,6 +33,7 @@ import frEarlyArrival from '@/locales/fr/earlyArrival.json';
 import frPrivacy from '@/locales/fr/privacy.json';
 import frRentalTerms from '@/locales/fr/rentalTerms.json';
 import frCancellationPolicy from '@/locales/fr/cancellationPolicy.json';
+import frHomeowners from '@/locales/fr/homeowners.json';
 
 // English translations
 import enCommon from '@/locales/en/common.json';
