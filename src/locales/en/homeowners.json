@@ -1,46 +1,17 @@
 {
   "seo": {
-    "title": "Is Your Rental Recommended by AI? | ArdenNest",
-    "description": "How ArdenNest became visible to AI assistants like ChatGPT and Claude — and what other rental operators can learn. Free scan at GEO-Scan.be."
+    "title": "Built by an entrepreneur, for entrepreneurs | ArdenNest",
+    "description": "How ArdenNest discovered that AI systems couldn't find their business — and why that led to GEO-Scan.be. Free scan for every entrepreneur."
   },
-  "title": "Is your vacation rental recommended by AI?",
-  "hook": "ChatGPT, Google Gemini, Microsoft Copilot, Grok (xAI) increasingly answer the questions your guests used to ask Google. The question is no longer whether your site gets found — but whether an AI mentions your address when someone asks: \"Which holiday home in the Ardennes fits 20 people?\"",
-  "learnings": {
-    "subtitle": "What I learned rewriting ArdenNest",
-    "answers": {
-      "title": "Answer, don't list",
-      "text": "Our old site listed features. The new one answers questions: \"Is cooking for 26 a problem?\" — \"No, two professional dishwashers, everything clean in 30 minutes.\" That's what an AI quotes."
-    },
-    "concrete": {
-      "title": "Be specific",
-      "text": "\"Large kitchen\" means nothing to an AI. \"Lacanche range, 2 Miele dishwashers, cooling for 26\" is what makes the difference between being recommended or skipped."
-    },
-    "honesty": {
-      "title": "Name what you don't have",
-      "text": "We don't have a swimming pool — by design. By explaining that as a philosophy rather than staying silent, an AI can pass on that context. Silence counts against you; an explanation becomes an argument."
-    },
-    "consistency": {
-      "title": "Make sure your numbers match",
-      "text": "If your site says \"26 people\" but your Google listing says \"20\", an AI doesn't know which is correct — and picks a competitor where everything checks out."
-    }
-  },
-  "geoScan": {
-    "subtitle": "GEO-Scan.be — check how AI sees your business",
-    "intro": "Based on this experience, I built GEO-Scan.be: a free scan across six pillars.",
-    "pillars": {
-      "readability": "Structural readability — can AI technically read your site?",
-      "identity": "Entity identity — does AI know who you are and what you do?",
-      "answerability": "Content answerability — do you answer the right questions?",
-      "authority": "Source authority — do external sources confirm your story?",
-      "specificity": "Factual specificity — does your site contain concrete, verifiable facts?",
-      "consistency": "Consistency — is your information correct everywhere?"
-    }
-  },
+  "title": "Built by an entrepreneur, for entrepreneurs",
+  "story1": "Christophe has been running a holiday rental in the Belgian Ardennes for 17 years — ArdenNest. When AI systems like ChatGPT and Google AI Overviews became increasingly popular, he noticed something: when you asked ChatGPT about holiday homes in the Ardennes, his business was nowhere to be found.",
+  "story2": "That was the trigger to investigate how AI systems read, understand and recommend websites. The result? An entirely new way of looking at online visibility: Generative Engine Optimization (GEO).",
+  "story3": "GEO-Scan is the tool he first built for himself. It analyses your website on the factors that determine whether AI systems can find, understand and recommend your business to potential customers.",
   "cta": "Scan your own website",
-  "closing": "Free, no account needed, no sales pitch — just insight into how AI sees your business today.",
-  "about": {
-    "subtitle": "About Christophe",
-    "text": "I'm Christophe, co-owner of ArdenNest together with Bieke. But I'm not just a rental operator. I trained as a programmer at the Lernout & Hauspie Speech Products Academy, worked for years as a developer and technical consultant at Wolters Kluwer Financial Services, and today I work as a ClickUp Expert and process automation specialist at Fourcast. Technology and digital strategy are my profession — my hobbies are foraging and preparing mushrooms, building log cabins, chopping wood, keeping chickens, tending the vegetable garden, and being extremely creative in giving children the space to play and grow in our garden."
+  "festinaLente": {
+    "subtitle": "Festina Lente",
+    "text1": "GEO-Scan is an initiative of Festina Lente bv. The name — Latin for \"make haste slowly\" — reflects our philosophy: research thoroughly, build thoughtfully, and deliver value step by step.",
+    "text2": "We believe that every Belgian entrepreneur deserves clear, actionable insights about their online visibility — without jargon, without expensive consultants."
   },
   "attribution": "GEO-Scan.be is an initiative by Christophe, co-owner of ArdenNest."
 }

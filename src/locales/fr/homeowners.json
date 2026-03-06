@@ -1,46 +1,17 @@
 {
   "seo": {
-    "title": "Votre location est-elle recommandée par l'IA ? | ArdenNest",
-    "description": "Comment ArdenNest est devenu visible pour les assistants IA comme ChatGPT et Claude — et ce que d'autres loueurs peuvent en apprendre. Scan gratuit sur GEO-Scan.be."
+    "title": "Conçu par un entrepreneur, pour les entrepreneurs | ArdenNest",
+    "description": "Comment ArdenNest a découvert que les systèmes d'IA ne trouvaient pas leur entreprise — et pourquoi cela a mené à GEO-Scan.be. Scan gratuit pour chaque entrepreneur."
   },
-  "title": "Votre location de vacances est-elle recommandée par l'IA ?",
-  "hook": "ChatGPT, Google Gemini, Microsoft Copilot, Grok (xAI) répondent de plus en plus aux questions que vos hôtes posaient autrefois à Google. La question n'est plus de savoir si votre site est trouvé — mais si une IA mentionne votre adresse quand quelqu'un demande : « Quel gîte dans les Ardennes convient à 20 personnes ? »",
-  "learnings": {
-    "subtitle": "Ce que j'ai appris en réécrivant ArdenNest",
-    "answers": {
-      "title": "Répondre, pas énumérer",
-      "text": "Notre ancien site énumérait des caractéristiques. Le nouveau répond aux questions : « Cuisiner pour 26, c'est un problème ? » — « Non, deux lave-vaisselle professionnels, tout propre en 30 minutes. » Voilà ce qu'une IA cite."
-    },
-    "concrete": {
-      "title": "Soyez concret",
-      "text": "« Grande cuisine » ne dit rien à une IA. « Fourneau Lacanche, 2 lave-vaisselle Miele, réfrigération pour 26 » — voilà ce qui fait la différence entre être recommandé ou ignoré."
-    },
-    "honesty": {
-      "title": "Nommez ce que vous n'avez pas",
-      "text": "Nous n'avons pas de piscine — volontairement. En l'expliquant comme une philosophie plutôt que de le taire, une IA peut transmettre ce contexte. Le silence joue contre vous ; une explication devient un argument."
-    },
-    "consistency": {
-      "title": "Vérifiez que vos chiffres correspondent",
-      "text": "Si votre site dit « 26 personnes » mais votre fiche Google dit « 20 », une IA ne sait pas ce qui est correct — et choisit un concurrent dont tout correspond."
-    }
-  },
-  "geoScan": {
-    "subtitle": "GEO-Scan.be — vérifiez comment l'IA voit votre entreprise",
-    "intro": "Sur base de cette expérience, j'ai créé GEO-Scan.be : un scan gratuit sur six piliers.",
-    "pillars": {
-      "readability": "Lisibilité structurelle — l'IA peut-elle techniquement lire votre site ?",
-      "identity": "Identité d'entité — l'IA sait-elle qui vous êtes et ce que vous faites ?",
-      "answerability": "Capacité de réponse — répondez-vous aux bonnes questions ?",
-      "authority": "Autorité de source — des sources externes confirment-elles votre histoire ?",
-      "specificity": "Spécificité factuelle — votre site contient-il des faits concrets et vérifiables ?",
-      "consistency": "Cohérence — vos informations sont-elles correctes partout ?"
-    }
-  },
+  "title": "Conçu par un entrepreneur, pour les entrepreneurs",
+  "story1": "Christophe gère une location de vacances dans les Ardennes belges depuis 17 ans — ArdenNest. Lorsque les systèmes d'IA comme ChatGPT et Google AI Overviews sont devenus de plus en plus populaires, il a remarqué quelque chose : quand on demandait à ChatGPT des locations de vacances dans les Ardennes, son entreprise n'apparaissait nulle part.",
+  "story2": "C'est ce qui l'a poussé à étudier comment les systèmes d'IA lisent, comprennent et recommandent les sites web. Le résultat ? Une toute nouvelle façon de voir la visibilité en ligne : la Generative Engine Optimization (GEO).",
+  "story3": "GEO-Scan est l'outil qu'il a d'abord construit pour lui-même. Il analyse votre site web sur les facteurs qui déterminent si les systèmes d'IA peuvent trouver, comprendre et recommander votre entreprise à des clients potentiels.",
   "cta": "Scannez votre propre site web",
-  "closing": "Gratuit, sans compte, sans discours commercial — juste un aperçu de la façon dont l'IA voit votre entreprise aujourd'hui.",
-  "about": {
-    "subtitle": "À propos de Christophe",
-    "text": "Je suis Christophe, copropriétaire d'ArdenNest avec Bieke. Mais je ne suis pas seulement loueur. J'ai été formé comme programmeur à la Lernout & Hauspie Speech Products Academy, j'ai travaillé pendant des années comme développeur et consultant technique chez Wolters Kluwer Financial Services, et aujourd'hui je travaille comme expert ClickUp et automatiseur de processus chez Fourcast. La technologie et la stratégie digitale sont mon métier — mes hobbies sont la cueillette et la préparation de champignons, la construction de cabanes en bois, le bûcheronnage, l'élevage de poules, le potager, et être extrêmement créatif pour donner aux enfants l'espace de s'épanouir dans notre jardin."
+  "festinaLente": {
+    "subtitle": "Festina Lente",
+    "text1": "GEO-Scan est une initiative de Festina Lente bv. Le nom — du latin « hâtez-vous lentement » — reflète notre philosophie : investiguer en profondeur, construire avec réflexion, et livrer de la valeur pas à pas.",
+    "text2": "Nous croyons que chaque entrepreneur belge mérite des informations claires et exploitables sur sa visibilité en ligne — sans jargon, sans consultants coûteux."
   },
   "attribution": "GEO-Scan.be est une initiative de Christophe, copropriétaire d'ArdenNest."
 }
