@@ -6,6 +6,7 @@ import { Badge } from '@/components/ui/badge';
 import { Card, CardContent } from '@/components/ui/card';
 import { ExternalLink, Code, Brain, Shield, TrendingUp, Building2 } from 'lucide-react';
 import useSEO from '@/hooks/useSEO';
+import ardennestScore from '@/assets/ardennest-score.png';
 
 const expertiseCards = [
   { icon: Code, key: 'software' },
