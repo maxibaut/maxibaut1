@@ -157,7 +157,7 @@ const Homeowners = () => {
             <div className="space-y-4">
               <p className="text-foreground/90 leading-relaxed">{t('origin.story1')}</p>
               <p className="text-foreground/90 leading-relaxed">{t('origin.story2')}</p>
-              <p className="text-foreground/90 leading-relaxed font-medium">{t('origin.story3')}</p>
+              <p className="text-foreground/90 leading-relaxed font-medium">{linkify(t('origin.story3'))}</p>
               <p className="text-foreground/90 leading-relaxed font-medium">
                 {t('origin.story3_link_prefix')}
                 <a href="https://geo-scan.be" target="_blank" rel="noopener noreferrer" className="text-primary underline hover:text-primary/80 transition-colors">
