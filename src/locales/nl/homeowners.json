@@ -5,8 +5,7 @@
   },
   "badge": "20+ jaar tech · software · strategie",
   "title": "Wordt jouw vakantiewoning gevonden door AI?",
-  "intro": "GEO-Scan is geen bijproject van een marketeer. Het is gebouwd door een software engineer met 20+ jaar ervaring in enterprise software, process automation en AI — die sinds 2003 ook een vakantieverhuur runt in de Belgische Ardennen.",
-  "ardennestLink": "ardennest.be",
+  "intro": "Grote kans van niet. AI-systemen zoals ChatGPT en Google AI Overviews lezen websites anders dan mensen — en de meeste vakantiewoningen zijn daar niet op gebouwd. GEO-Scan laat je in één klik zien hoe zichtbaar jouw woning is voor AI. Gebouwd door een software engineer met 20+ jaar ervaring, die dit probleem zelf ondervond met deze website.",
   "whyRelevant": {
     "title": "Waarom dit relevant is",
     "content": "GEO-Scan analyseert technische factoren die bepalen of AI-systemen je website kunnen lezen en aanbevelen: structured data, HTML-semantiek, crawlability en machine-leesbare markup. Die expertise komt niet uit een marketingboek, maar uit 11 jaar enterprise software bij Wolters Kluwer en dagelijkse AI-toepassingen als ClickUp Expert & Claude Code Architect bij Fourcast."
