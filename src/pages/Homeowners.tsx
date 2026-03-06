@@ -208,7 +208,7 @@ const Homeowners = () => {
 
           {/* Footer attribution */}
           <p className="text-sm text-muted-foreground text-center border-t border-border pt-8">
-            {t('attribution')}
+            {linkify(t('attribution'))}
           </p>
         </div>
       </div>
