@@ -5,8 +5,7 @@
   },
   "badge": "20+ years tech · software · strategy",
   "title": "Is your holiday rental found by AI?",
-  "intro": "GEO-Scan is not a side project by a marketer. It was built by a software engineer with 20+ years of experience in enterprise software, process automation and AI — who has also been running a holiday rental in the Belgian Ardennes since 2003.",
-  "ardennestLink": "ardennest.be",
+  "intro": "Most likely not. AI systems like ChatGPT and Google AI Overviews read websites differently than humans — and most holiday rentals aren't built for that. GEO-Scan shows you in one click how visible your property is to AI. Built by a software engineer with 20+ years of experience, who discovered this problem firsthand with this very website.",
   "whyRelevant": {
     "title": "Why this matters",
     "content": "GEO-Scan analyses technical factors that determine whether AI systems can read and recommend your website: structured data, HTML semantics, crawlability and machine-readable markup. That expertise doesn't come from a marketing book, but from 11 years of enterprise software at Wolters Kluwer and daily AI applications as ClickUp Expert & Claude Code Architect at Fourcast."
