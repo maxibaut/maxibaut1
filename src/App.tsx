@@ -46,7 +46,7 @@ const pageRoutes = (
     <Route path="rental-terms" element={<RentalTerms />} />
     <Route path="cancellation-policy" element={<CancellationPolicy />} />
     <Route path="privacy-policy" element={<Privacy />} />
-    <Route path="huiseigenaars" element={<Homeowners />} />
+    <Route path="geo-scan" element={<Homeowners />} />
   </>
 );
 

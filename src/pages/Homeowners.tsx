@@ -36,9 +36,9 @@ const Homeowners = () => {
         "url": "https://ardennest.be",
         "logo": "https://ardennest.be/favicon.png"
       },
-      "url": `https://ardennest.be${basePath}/huiseigenaars`,
+      "url": `https://ardennest.be${basePath}/geo-scan`,
       "inLanguage": lang,
-      "mainEntityOfPage": `https://ardennest.be${basePath}/huiseigenaars`,
+      "mainEntityOfPage": `https://ardennest.be${basePath}/geo-scan`,
       "about": [
         { "@type": "Thing", "name": "AI-optimized websites" },
         { "@type": "Thing", "name": "Generative Engine Optimization" },
