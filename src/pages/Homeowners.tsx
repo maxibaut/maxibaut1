@@ -176,12 +176,14 @@ const Homeowners = () => {
               {t('score.title')}
             </h2>
             <div className="flex justify-center">
-              <img
-                src={ardennestScore}
-                alt={t('score.alt')}
-                className="rounded-lg border border-border shadow-sm max-w-md w-full"
-                loading="lazy"
-              />
+              <a href="https://geo-scan.be" target="_blank" rel="noopener noreferrer">
+                <img
+                  src={ardennestScore}
+                  alt={t('score.alt')}
+                  className="rounded-lg border border-border shadow-sm max-w-md w-full hover:shadow-md transition-shadow cursor-pointer"
+                  loading="lazy"
+                />
+              </a>
             </div>
           </section>
 
