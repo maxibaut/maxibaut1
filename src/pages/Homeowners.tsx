@@ -82,13 +82,7 @@ const Homeowners = () => {
               {t('title')}
             </h1>
             <p className="text-foreground/90 text-lg leading-relaxed">
-              {t('intro')}{' '}
-              <a
-                href="https://ardennest.be"
-                className="text-primary underline underline-offset-2 hover:text-primary/80"
-              >
-                {t('ardennestLink')}
-              </a>
+              {t('intro')}
             </p>
           </section>
 
