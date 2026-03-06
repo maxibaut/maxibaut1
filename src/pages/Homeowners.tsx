@@ -115,7 +115,7 @@ const Homeowners = () => {
                   {t('whyRelevant.title')}
                 </h2>
                 <p className="text-foreground/80 leading-relaxed">
-                  {t('whyRelevant.content')}
+                  {linkify(t('whyRelevant.content'))}
                 </p>
               </div>
             </div>
