@@ -6,6 +6,7 @@ import { Badge } from '@/components/ui/badge';
 import { Card, CardContent } from '@/components/ui/card';
 import { ExternalLink, Code, Brain, Shield, TrendingUp, Building2 } from 'lucide-react';
 import useSEO from '@/hooks/useSEO';
+import ardennestScore from '@/assets/ardennest-score.png';
 
 const expertiseCards = [
   { icon: Code, key: 'software' },
@@ -176,7 +177,7 @@ const Homeowners = () => {
             </h2>
             <div className="flex justify-center">
               <img
-                src="/assets/ardennest-score.png"
+                src={ardennestScore}
                 alt={t('score.alt')}
                 className="rounded-lg border border-border shadow-sm max-w-md w-full"
                 loading="lazy"
