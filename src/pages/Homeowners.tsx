@@ -148,18 +148,25 @@ const Homeowners = () => {
               <p className="text-foreground/90 leading-relaxed">{t('origin.story1')}</p>
               <p className="text-foreground/90 leading-relaxed">{t('origin.story2')}</p>
               <p className="text-foreground/90 leading-relaxed font-medium">{t('origin.story3')}</p>
-            </div>
-
-            {/* CTA */}
-            <div className="mt-8">
-              <Button asChild size="lg" className="gap-2">
-                <a href="https://geo-scan.be" target="_blank" rel="noopener noreferrer">
-                  {t('cta')}
-                  <ExternalLink className="h-4 w-4" />
+              <p className="text-foreground/90 leading-relaxed font-medium">
+                {t('origin.story3_link_prefix')}
+                <a href="https://geo-scan.be" target="_blank" rel="noopener noreferrer" className="text-primary underline hover:text-primary/80 transition-colors">
+                  {t('origin.story3_link_text')}
                 </a>
-              </Button>
+                {t('origin.story3_link_suffix')}
+              </p>
             </div>
           </section>
+
+          {/* CTA na verhaal */}
+          <div className="flex justify-center">
+            <Button asChild size="lg" className="gap-2">
+              <a href="https://geo-scan.be" target="_blank" rel="noopener noreferrer">
+                {t('cta')}
+                <ExternalLink className="h-4 w-4" />
+              </a>
+            </Button>
+          </div>
 
           {/* 5. Festina Lente */}
           <section className="bg-muted/30 rounded-lg p-6">

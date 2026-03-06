@@ -33,7 +33,10 @@
     "title": "Het ontstaan van GEO-Scan",
     "story1": "Toen Christophe & Bieke in 2003 hun groepsaccommodatie opstartten, bouwde hij zelf de website. De verhuur gebeurde zonder Booking.com, zonder Airbnb — puur op eigen kracht. Met een fascinatie voor SEO slaagde hij erin de kalender gevuld te krijgen en jarenlang goed zichtbaar te blijven in Google.",
     "story2": "Er is sindsdien veel veranderd, maar die fascinatie bleef: hoe claim je als kleine speler je plek in de zoekresultaten? Met de opkomst van AI herhaalt de geschiedenis zich. Nieuwe regels, dezelfde vraag.",
-    "story3": "GEO-Scan ontstond toen begin 2026 de nieuwe ArdenNest-website gebouwd werd met behulp van AI. Christophe zag dat zelfs bouwen via AI geen garantie biedt op alle nodige stappen om vindbaarheid te optimaliseren. Dat deed hem beslissen om die stappen niet langer alleen voor zichzelf te noteren — maar te delen met anderen. Een scan via GEO-Scan is een kleine investering, met potentieel grote gevolgen voor je zichtbaarheid."
+    "story3": "GEO-Scan ontstond toen begin 2026 de nieuwe ArdenNest-website gebouwd werd met behulp van AI. Christophe zag dat zelfs bouwen via AI geen garantie biedt op alle nodige stappen om vindbaarheid te optimaliseren. Dat deed hem beslissen om die stappen niet langer alleen voor zichzelf te noteren — maar te delen met anderen.",
+    "story3_link_prefix": "Een scan via ",
+    "story3_link_text": "geo-scan.be",
+    "story3_link_suffix": " is een kleine investering, met potentieel grote gevolgen voor je zichtbaarheid."
   },
   "cta": "Scan je eigen website",
   "festinaLente": {
