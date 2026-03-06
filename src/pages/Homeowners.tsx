@@ -92,7 +92,7 @@ const Homeowners = () => {
               {t('title')}
             </h1>
             <p className="text-foreground/90 text-lg leading-relaxed">
-              {t('intro')}
+              {linkify(t('intro'))}
             </p>
             <div className="mt-6 flex justify-center">
               <Button asChild size="lg" className="gap-2">
