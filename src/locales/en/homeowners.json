@@ -8,7 +8,7 @@
   "intro": "Most likely not. AI systems like ChatGPT and Google AI Overviews read websites differently than humans — and most holiday rentals aren't built for that. GEO-Scan shows you in one click how visible your property is to AI. Built by a software engineer with 20+ years of experience, who discovered this problem firsthand with this very website.",
   "whyRelevant": {
     "title": "Why this matters",
-    "content": "GEO-Scan analyses technical factors that determine whether AI systems can read and recommend your website: structured data, HTML semantics, crawlability and machine-readable markup. That expertise doesn't come from a marketing book, but from 11 years of enterprise software at Wolters Kluwer and daily AI applications as ClickUp Expert & Claude Code Architect at Fourcast."
+    "content": "GEO-Scan analyses technical factors that determine whether AI systems can read and recommend your website: structured data, HTML semantics, crawlability and machine-readable markup. More and more travellers are asking their questions not to Google, but to ChatGPT, Gemini or Copilot. If your website isn't readable by those systems, you simply don't exist in their answer."
   },
   "expertise": {
     "title": "Technical background",
