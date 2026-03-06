@@ -1,17 +1,50 @@
 {
   "seo": {
-    "title": "Conçu par un entrepreneur, pour les entrepreneurs | ArdenNest",
+    "title": "À propos de Christophe — GEO-Scan | 20+ ans tech & stratégie",
     "description": "Comment ArdenNest a découvert que les systèmes d'IA ne trouvaient pas leur entreprise — et pourquoi cela a mené à GEO-Scan.be. Scan gratuit pour chaque entrepreneur."
   },
-  "title": "Conçu par un entrepreneur, pour les entrepreneurs",
-  "story1": "Christophe gère une location de vacances dans les Ardennes belges depuis 17 ans — ArdenNest. Lorsque les systèmes d'IA comme ChatGPT et Google AI Overviews sont devenus de plus en plus populaires, il a remarqué quelque chose : quand on demandait à ChatGPT des locations de vacances dans les Ardennes, son entreprise n'apparaissait nulle part.",
-  "story2": "C'est ce qui l'a poussé à étudier comment les systèmes d'IA lisent, comprennent et recommandent les sites web. Le résultat ? Une toute nouvelle façon de voir la visibilité en ligne : la Generative Engine Optimization (GEO).",
-  "story3": "GEO-Scan est l'outil qu'il a d'abord construit pour lui-même. Il analyse votre site web sur les facteurs qui déterminent si les systèmes d'IA peuvent trouver, comprendre et recommander votre entreprise à des clients potentiels.",
+  "badge": "20+ ans tech · logiciel · stratégie",
+  "title": "Conçu par quelqu'un qui connaît le logiciel et l'entrepreneuriat",
+  "intro": "GEO-Scan n'est pas un projet annexe d'un marketeur. Il a été construit par un ingénieur logiciel avec plus de 20 ans d'expérience en logiciels d'entreprise, automatisation des processus et IA — qui gère également une location de vacances dans les Ardennes belges depuis 2003.",
+  "ardennestLink": "ardennest.be",
+  "whyRelevant": {
+    "title": "Pourquoi c'est pertinent",
+    "content": "GEO-Scan analyse les facteurs techniques qui déterminent si les systèmes d'IA peuvent lire et recommander votre site web : données structurées, sémantique HTML, crawlability et balisage lisible par les machines. Cette expertise ne vient pas d'un livre de marketing, mais de 11 ans de logiciel d'entreprise chez Wolters Kluwer et d'applications quotidiennes de l'IA en tant que ClickUp Expert & Claude Code Architect chez Fourcast."
+  },
+  "expertise": {
+    "title": "Parcours technique",
+    "software": {
+      "title": "Software Engineering",
+      "description": "11+ ans chez Wolters Kluwer Financial Services — quality automation, implémentations sur site, logiciel d'entreprise (FinArch/Fibre)"
+    },
+    "ai": {
+      "title": "Process Automation & IA",
+      "description": "ClickUp Expert & Claude Code Architect chez Fourcast — transformation digitale avec outils IA et automatisation des processus"
+    },
+    "bid": {
+      "title": "Bid Management & Stratégie",
+      "description": "Processus complet d'appels d'offres — du scanning de marché à la soumission. Marchés publics en Flandre et en Wallonie"
+    },
+    "platform": {
+      "title": "Spécialiste Plateformes en Ligne",
+      "description": "Construction et optimisation de plateformes d'apprentissage en ligne (dont Fourcast Academy)"
+    }
+  },
+  "origin": {
+    "title": "L'origine de GEO-Scan",
+    "story1": "Christophe gère une location de vacances dans les Ardennes belges depuis 17 ans — ArdenNest. Lorsque les systèmes d'IA comme ChatGPT et Google AI Overviews sont devenus de plus en plus populaires, il a remarqué quelque chose : quand on demandait à ChatGPT des locations de vacances dans les Ardennes, son entreprise n'apparaissait nulle part.",
+    "story2": "Pas parce que le site était mauvais, mais parce que l'IA ne pouvait pas le lire. C'est ce qui l'a poussé à étudier comment les systèmes d'IA lisent, comprennent et recommandent les sites web.",
+    "story3": "GEO-Scan est l'outil qu'il a d'abord construit pour lui-même. Maintenant disponible pour chaque entrepreneur."
+  },
   "cta": "Scannez votre propre site web",
   "festinaLente": {
     "subtitle": "Festina Lente",
     "text1": "GEO-Scan est une initiative de Festina Lente bv. Le nom — du latin « hâtez-vous lentement » — reflète notre philosophie : investiguer en profondeur, construire avec réflexion, et livrer de la valeur pas à pas.",
     "text2": "Nous croyons que chaque entrepreneur belge mérite des informations claires et exploitables sur sa visibilité en ligne — sans jargon, sans consultants coûteux."
+  },
+  "score": {
+    "title": "Notre propre score : 96/100",
+    "alt": "Résultat GEO-Scan pour ardennest.be : score 96 sur 100 — Excellent"
   },
   "attribution": "GEO-Scan.be est une initiative de Christophe, copropriétaire d'ArdenNest."
 }
