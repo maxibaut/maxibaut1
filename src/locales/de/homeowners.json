@@ -1,46 +1,17 @@
 {
   "seo": {
-    "title": "Wird Ihre Ferienwohnung von KI empfohlen? | ArdenNest",
-    "description": "Wie ArdenNest für KI-Assistenten wie ChatGPT und Claude sichtbar wurde — und was andere Vermieter davon lernen können. Kostenloser Scan auf GEO-Scan.be."
+    "title": "Von einem Unternehmer gebaut, für Unternehmer | ArdenNest",
+    "description": "Wie ArdenNest entdeckte, dass KI-Systeme ihr Unternehmen nicht finden konnten — und warum das zu GEO-Scan.be führte. Kostenloser Scan für jeden Unternehmer."
   },
-  "title": "Wird Ihre Ferienwohnung von KI empfohlen?",
-  "hook": "ChatGPT, Google Gemini, Microsoft Copilot, Grok (xAI) beantworten zunehmend die Fragen, die Ihre Gäste früher Google gestellt haben. Die Frage ist nicht mehr, ob Ihre Website gefunden wird — sondern ob eine KI Ihre Adresse nennt, wenn jemand fragt: \"Welches Ferienhaus in den Ardennen eignet sich für 20 Personen?\"",
-  "learnings": {
-    "subtitle": "Was ich beim Umschreiben von ArdenNest gelernt habe",
-    "answers": {
-      "title": "Antworten, nicht auflisten",
-      "text": "Unsere alte Seite listete Features auf. Die neue beantwortet Fragen: \"Ist Kochen für 26 ein Problem?\" — \"Nein, zwei professionelle Geschirrspüler, alles sauber in 30 Minuten.\" Das zitiert eine KI."
-    },
-    "concrete": {
-      "title": "Seien Sie konkret",
-      "text": "\"Große Küche\" sagt einer KI nichts. \"Lacanche-Herd, 2 Miele-Geschirrspüler, Kühlung für 26\" — das macht den Unterschied zwischen empfohlen werden oder übersprungen."
-    },
-    "honesty": {
-      "title": "Benennen Sie, was Sie nicht haben",
-      "text": "Wir haben keinen Pool — bewusst. Wenn man das als Philosophie erklärt, statt es totzuschweigen, kann eine KI diesen Kontext weitergeben. Schweigen wird zum Nachteil, Erklärung zum Argument."
-    },
-    "consistency": {
-      "title": "Stellen Sie sicher, dass Ihre Zahlen stimmen",
-      "text": "Wenn Ihre Website \"26 Personen\" sagt, aber Ihr Google-Eintrag \"20\", weiß eine KI nicht, was stimmt — und wählt einen Mitbewerber, bei dem alles übereinstimmt."
-    }
-  },
-  "geoScan": {
-    "subtitle": "GEO-Scan.be — prüfen Sie, wie KI Ihr Unternehmen sieht",
-    "intro": "Auf Basis dieser Erfahrung habe ich GEO-Scan.be entwickelt: einen kostenlosen Scan auf sechs Säulen.",
-    "pillars": {
-      "readability": "Strukturelle Lesbarkeit — kann KI Ihre Seite technisch lesen?",
-      "identity": "Entitäts-Identität — weiß KI, wer Sie sind und was Sie tun?",
-      "answerability": "Inhaltliche Beantwortbarkeit — beantworten Sie die richtigen Fragen?",
-      "authority": "Quellenautorität — bestätigen externe Quellen Ihre Geschichte?",
-      "specificity": "Faktische Spezifität — enthält Ihre Seite konkrete, überprüfbare Fakten?",
-      "consistency": "Konsistenz — stimmen Ihre Informationen überall überein?"
-    }
-  },
+  "title": "Von einem Unternehmer gebaut, für Unternehmer",
+  "story1": "Christophe betreibt seit 17 Jahren eine Ferienvermietung in den belgischen Ardennen — ArdenNest. Als KI-Systeme wie ChatGPT und Google AI Overviews immer beliebter wurden, fiel ihm etwas auf: Wenn man ChatGPT nach Ferienunterkünften in den Ardennen fragte, tauchte sein Unternehmen nirgends auf.",
+  "story2": "Das war der Anlass zu untersuchen, wie KI-Systeme Websites lesen, verstehen und empfehlen. Das Ergebnis? Eine völlig neue Sichtweise auf Online-Sichtbarkeit: Generative Engine Optimization (GEO).",
+  "story3": "GEO-Scan ist das Werkzeug, das er zuerst für sich selbst gebaut hat. Es analysiert Ihre Website anhand der Faktoren, die bestimmen, ob KI-Systeme Ihr Unternehmen finden, verstehen und potenziellen Kunden empfehlen können.",
   "cta": "Scannen Sie Ihre eigene Website",
-  "closing": "Kostenlos, kein Konto nötig, kein Verkaufsgespräch — nur Einblick, wie KI Ihr Unternehmen heute sieht.",
-  "about": {
-    "subtitle": "Über Christophe",
-    "text": "Ich bin Christophe, zusammen mit Bieke Eigentümer von ArdenNest. Aber ich bin nicht nur Vermieter. Ich wurde als Programmierer an der Lernout & Hauspie Speech Products Academy ausgebildet, arbeitete jahrelang als Entwickler und technischer Berater bei Wolters Kluwer Financial Services und arbeite heute als ClickUp-Experte und Prozessautomatisierer bei Fourcast. Technologie und digitale Strategie sind mein Beruf — meine Hobbys sind Pilze sammeln und zubereiten, Blockhütten bauen, Holzhacken, Hühner halten, den Gemüsegarten pflegen und extrem kreativ sein, um Kindern den Raum zu geben, sich in unserem Garten auszutoben."
+  "festinaLente": {
+    "subtitle": "Festina Lente",
+    "text1": "GEO-Scan ist eine Initiative der Festina Lente bv. Der Name — Latein für „eile mit Weile" — steht für unsere Philosophie: gründlich recherchieren, durchdacht bauen und Schritt für Schritt Wert liefern.",
+    "text2": "Wir glauben, dass jeder belgische Unternehmer klare, umsetzbare Einblicke in seine Online-Sichtbarkeit verdient — ohne Fachjargon, ohne teure Berater."
   },
   "attribution": "GEO-Scan.be ist eine Initiative von Christophe, Miteigentümer von ArdenNest."
 }

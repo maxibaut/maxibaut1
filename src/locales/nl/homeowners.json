@@ -1,46 +1,17 @@
 {
   "seo": {
-    "title": "Wordt jouw vakantiewoning aanbevolen door AI? | ArdenNest",
-    "description": "Hoe ArdenNest zichtbaar werd voor AI-assistenten zoals ChatGPT en Claude — en wat andere verhuurders daarvan kunnen leren. Gratis scan op GEO-Scan.be."
+    "title": "Gebouwd door een ondernemer, voor ondernemers | ArdenNest",
+    "description": "Hoe ArdenNest ontdekte dat AI-systemen hun bedrijf niet konden vinden — en waarom dat leidde tot GEO-Scan.be. Gratis scan voor elke ondernemer."
   },
-  "title": "Wordt jouw vakantiewoning aanbevolen door AI?",
-  "hook": "ChatGPT, Google Gemini, Microsoft Copilot, Grok (xAI) beantwoorden steeds vaker de vragen die jouw gasten vroeger aan Google stelden. De vraag is niet meer óf je site gevonden wordt — maar of een AI jouw adres noemt als iemand vraagt: \"Welke vakantiewoning in de Ardennen is geschikt voor 20 personen?\"",
-  "learnings": {
-    "subtitle": "Wat ik leerde bij het herschrijven van ArdenNest",
-    "answers": {
-      "title": "Beantwoord, som niet op",
-      "text": "Onze oude site somde features op. De nieuwe beantwoordt vragen: \"Is koken voor 26 een probleem?\" — \"Nee, twee professionele vaatwassers, alles schoon in 30 minuten.\" Dát is wat een AI citeert."
-    },
-    "concrete": {
-      "title": "Wees concreet",
-      "text": "\"Grote keuken\" zegt een AI niets. \"Lacanche fornuis, 2 Miele vaatwassers, koeling voor 26\" is wat het verschil maakt tussen aanbevolen worden of overgeslagen."
-    },
-    "honesty": {
-      "title": "Benoem wat je níet hebt",
-      "text": "Wij hebben geen zwembad — bewust. Door dat uit te leggen als filosofie in plaats van het dood te zwijgen, kan een AI die context meegeven. Stilte is een streep, uitleg is een argument."
-    },
-    "consistency": {
-      "title": "Zorg dat je cijfers kloppen",
-      "text": "Als je site \"26 personen\" zegt maar je Google-vermelding \"20\", dan weet een AI niet wat juist is — en kiest een concurrent waar alles klopt."
-    }
-  },
-  "geoScan": {
-    "subtitle": "GEO-Scan.be — check hoe AI jouw bedrijf ziet",
-    "intro": "Op basis van deze ervaring bouwde ik GEO-Scan.be: een gratis scan op zes pijlers.",
-    "pillars": {
-      "readability": "Structurele leesbaarheid — kan AI je site technisch lezen?",
-      "identity": "Entiteit-identiteit — weet AI wie je bent en wat je doet?",
-      "answerability": "Content-beantwoordbaarheid — beantwoord je de juiste vragen?",
-      "authority": "Bron-autoriteit — bevestigen externe bronnen jouw verhaal?",
-      "specificity": "Feitelijke specificiteit — staan er concrete, verifieerbare feiten?",
-      "consistency": "Consistentie — klopt je info overal?"
-    }
-  },
+  "title": "Gebouwd door een ondernemer, voor ondernemers",
+  "story1": "Christophe runt al 17 jaar een vakantieverhuur in de Belgische Ardennen — ArdenNest. Toen AI-systemen als ChatGPT en Google AI Overviews steeds populairder werden, viel het hem op: als je aan ChatGPT vroeg naar vakantieverblijven in de Ardennen, kwam zijn bedrijf nergens voor.",
+  "story2": "Dat was de aanleiding om te onderzoeken hóé AI-systemen websites lezen, begrijpen en aanbevelen. Het resultaat? Een hele nieuwe manier van kijken naar online zichtbaarheid: Generative Engine Optimization (GEO).",
+  "story3": "GEO-Scan is het hulpmiddel dat hij eerst voor zichzelf bouwde. Het analyseert je website op de factoren die bepalen of AI-systemen je bedrijf kunnen vinden, begrijpen en aanbevelen aan potentiële klanten.",
   "cta": "Scan je eigen website",
-  "closing": "Gratis, geen account, geen verkooppraatje — gewoon inzicht in hoe AI jouw bedrijf vandaag ziet.",
-  "about": {
-    "subtitle": "Over Christophe",
-    "text": "Ik ben Christophe, samen met Bieke eigenaar van ArdenNest. Maar ik ben niet alleen verhuurder. Ik ben opgeleid als programmeur aan de Lernout & Hauspie Speech Products Academy, werkte jarenlang als developer en technisch consultant bij Wolters Kluwer Financial Services, en werk vandaag als ClickUp Expert en procesautomatiseerder bij Fourcast. Technologie en digitale strategie zijn mijn vak — mijn hobby's zijn paddenstoelen plukken en bereiden, blokhutten bouwen, houthakken, kippen houden, de moestuin, en extreem creatief zijn om kinderen de ruimte te geven zich uit te leven in onze tuin."
+  "festinaLente": {
+    "subtitle": "Festina Lente",
+    "text1": "GEO-Scan is een initiatief van Festina Lente bv. De naam — Latijn voor \"maak voortvarend langzaam\" — staat voor onze filosofie: grondig onderzoeken, doordacht bouwen, en stap voor stap waarde leveren.",
+    "text2": "We geloven dat elke Belgische ondernemer recht heeft op heldere, actionable inzichten over hun online zichtbaarheid — zonder jargon, zonder dure consultants."
   },
   "attribution": "GEO-Scan.be is een initiatief van Christophe, mede-eigenaar van ArdenNest."
 }
