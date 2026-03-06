@@ -177,7 +177,7 @@ const Homeowners = () => {
             </h2>
             <div className="flex justify-center">
               <img
-                src="/assets/ardennest-score.png"
+                src={ardennestScore}
                 alt={t('score.alt')}
                 className="rounded-lg border border-border shadow-sm max-w-md w-full"
                 loading="lazy"
