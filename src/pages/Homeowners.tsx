@@ -184,8 +184,8 @@ const Homeowners = () => {
               {t('festinaLente.subtitle')}
             </h2>
             <div className="space-y-4">
-              <p className="text-foreground/80 leading-relaxed">{t('festinaLente.text1')}</p>
-              <p className="text-foreground/80 leading-relaxed">{t('festinaLente.text2')}</p>
+              <p className="text-foreground/80 leading-relaxed">{linkify(t('festinaLente.text1'))}</p>
+              <p className="text-foreground/80 leading-relaxed">{linkify(t('festinaLente.text2'))}</p>
             </div>
           </section>
 
