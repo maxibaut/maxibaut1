@@ -12,15 +12,21 @@ interface LocalizedLinkProps extends Omit<LinkProps, 'to'> {
  * External URLs (starting with http) are passed through unchanged.
  */
 const LocalizedLink = forwardRef<HTMLAnchorElement, LocalizedLinkProps>(
-  ({ to, ...props }, ref) => {
+  ({ to, onClick, ...props }, ref) => {
     const { localizedPath } = useLanguagePrefix();
 
     // Don't localize external URLs or anchor links
-    const resolvedTo = to.startsWith('http') || to.startsWith('#') || to.startsWith('mailto:')
-      ? to
-      : localizedPath(to);
+    const isExternal = to.startsWith('http') || to.startsWith('#') || to.startsWith('mailto:');
+    const resolvedTo = isExternal ? to : localizedPath(to);
 
-    return <Link ref={ref} to={resolvedTo} {...props} />;
+    const handleClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
+      if (!isExternal) {
+        window.scrollTo(0, 0);
+      }
+      onClick?.(e);
+    };
+
+    return <Link ref={ref} to={resolvedTo} onClick={handleClick} {...props} />;
   }
 );
 
