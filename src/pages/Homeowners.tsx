@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import { useEffect } from 'react';
+import { useEffect, ReactNode } from 'react';
 import { PageWrapper } from '@/components/layout/PageWrapper';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
@@ -14,6 +14,16 @@ const expertiseCards = [
   { icon: TrendingUp, key: 'bid' },
   { icon: Building2, key: 'platform' },
 ] as const;
+
+/** Replace every "GEO-Scan" (case-sensitive) in a string with a clickable link */
+const linkify = (text: string): ReactNode[] =>
+  text.split(/(GEO-Scan(?:\.be)?)/g).map((part, i) =>
+    /^GEO-Scan/.test(part) ? (
+      <a key={i} href="https://geo-scan.be" target="_blank" rel="noopener noreferrer" className="text-primary underline hover:text-primary/80 transition-colors">
+        geo-scan.be
+      </a>
+    ) : part
+  );
 
 const Homeowners = () => {
   const { t, i18n } = useTranslation('homeowners');
@@ -82,7 +92,7 @@ const Homeowners = () => {
               {t('title')}
             </h1>
             <p className="text-foreground/90 text-lg leading-relaxed">
-              {t('intro')}
+              {linkify(t('intro'))}
             </p>
             <div className="mt-6 flex justify-center">
               <Button asChild size="lg" className="gap-2">
@@ -105,7 +115,7 @@ const Homeowners = () => {
                   {t('whyRelevant.title')}
                 </h2>
                 <p className="text-foreground/80 leading-relaxed">
-                  {t('whyRelevant.content')}
+                  {linkify(t('whyRelevant.content'))}
                 </p>
               </div>
             </div>
@@ -147,7 +157,7 @@ const Homeowners = () => {
             <div className="space-y-4">
               <p className="text-foreground/90 leading-relaxed">{t('origin.story1')}</p>
               <p className="text-foreground/90 leading-relaxed">{t('origin.story2')}</p>
-              <p className="text-foreground/90 leading-relaxed font-medium">{t('origin.story3')}</p>
+              <p className="text-foreground/90 leading-relaxed font-medium">{linkify(t('origin.story3'))}</p>
               <p className="text-foreground/90 leading-relaxed font-medium">
                 {t('origin.story3_link_prefix')}
                 <a href="https://geo-scan.be" target="_blank" rel="noopener noreferrer" className="text-primary underline hover:text-primary/80 transition-colors">
@@ -174,8 +184,8 @@ const Homeowners = () => {
               {t('festinaLente.subtitle')}
             </h2>
             <div className="space-y-4">
-              <p className="text-foreground/80 leading-relaxed">{t('festinaLente.text1')}</p>
-              <p className="text-foreground/80 leading-relaxed">{t('festinaLente.text2')}</p>
+              <p className="text-foreground/80 leading-relaxed">{linkify(t('festinaLente.text1'))}</p>
+              <p className="text-foreground/80 leading-relaxed">{linkify(t('festinaLente.text2'))}</p>
             </div>
           </section>
 
@@ -198,7 +208,7 @@ const Homeowners = () => {
 
           {/* Footer attribution */}
           <p className="text-sm text-muted-foreground text-center border-t border-border pt-8">
-            {t('attribution')}
+            {linkify(t('attribution'))}
           </p>
         </div>
       </div>
