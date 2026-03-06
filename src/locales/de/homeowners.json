@@ -33,7 +33,10 @@
     "title": "Die Entstehung von GEO-Scan",
     "story1": "Als Christophe & Bieke 2003 ihre Gruppenunterkunft gründeten, baute er die Website selbst. Die Vermietung lief ohne Booking.com, ohne Airbnb — rein aus eigener Kraft. Mit einer Faszination für SEO gelang es ihm, den Kalender gefüllt zu halten und jahrelang gut sichtbar bei Google zu bleiben.",
     "story2": "Seitdem hat sich viel verändert, aber diese Faszination blieb: Wie behauptet man als kleiner Anbieter seinen Platz in den Suchergebnissen? Mit dem Aufstieg von KI wiederholt sich die Geschichte. Neue Regeln, dieselbe Frage.",
-    "story3": "GEO-Scan entstand, als er Anfang 2026 seine neue Website mit KI erstellte und feststellte, dass KI gute Arbeit leistet, aber ohne alle notwendigen Schritte zur Optimierung der Auffindbarkeit. Das veranlasste ihn, diese Schritte nicht mehr nur für sich selbst zu notieren — sondern sie mit anderen zu teilen. Eine kleine Investition mit potenziell großer Wirkung auf Ihre Sichtbarkeit."
+    "story3": "GEO-Scan entstand, als er Anfang 2026 seine neue Website mit KI erstellte und feststellte, dass KI gute Arbeit leistet, aber ohne alle notwendigen Schritte zur Optimierung der Auffindbarkeit. Das veranlasste ihn, diese Schritte nicht mehr nur für sich selbst zu notieren — sondern sie mit anderen zu teilen.",
+    "story3_link_prefix": "Ein Scan über ",
+    "story3_link_text": "geo-scan.be",
+    "story3_link_suffix": " ist eine kleine Investition mit potenziell großer Wirkung auf Ihre Sichtbarkeit."
   },
   "cta": "Scannen Sie Ihre eigene Website",
   "festinaLente": {
