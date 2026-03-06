@@ -1,17 +1,50 @@
 {
   "seo": {
-    "title": "Gebouwd door een ondernemer, voor ondernemers | ArdenNest",
+    "title": "Over Christophe — GEO-Scan | 20+ jaar tech & strategie",
     "description": "Hoe ArdenNest ontdekte dat AI-systemen hun bedrijf niet konden vinden — en waarom dat leidde tot GEO-Scan.be. Gratis scan voor elke ondernemer."
   },
-  "title": "Gebouwd door een ondernemer, voor ondernemers",
-  "story1": "Christophe runt al 17 jaar een vakantieverhuur in de Belgische Ardennen — ArdenNest. Toen AI-systemen als ChatGPT en Google AI Overviews steeds populairder werden, viel het hem op: als je aan ChatGPT vroeg naar vakantieverblijven in de Ardennen, kwam zijn bedrijf nergens voor.",
-  "story2": "Dat was de aanleiding om te onderzoeken hóé AI-systemen websites lezen, begrijpen en aanbevelen. Het resultaat? Een hele nieuwe manier van kijken naar online zichtbaarheid: Generative Engine Optimization (GEO).",
-  "story3": "GEO-Scan is het hulpmiddel dat hij eerst voor zichzelf bouwde. Het analyseert je website op de factoren die bepalen of AI-systemen je bedrijf kunnen vinden, begrijpen en aanbevelen aan potentiële klanten.",
+  "badge": "20+ jaar tech · software · strategie",
+  "title": "Gebouwd door iemand die software én ondernemen kent",
+  "intro": "GEO-Scan is geen bijproject van een marketeer. Het is gebouwd door een software engineer met 20+ jaar ervaring in enterprise software, process automation en AI — die sinds 2003 ook een vakantieverhuur runt in de Belgische Ardennen.",
+  "ardennestLink": "ardennest.be",
+  "whyRelevant": {
+    "title": "Waarom dit relevant is",
+    "content": "GEO-Scan analyseert technische factoren die bepalen of AI-systemen je website kunnen lezen en aanbevelen: structured data, HTML-semantiek, crawlability en machine-leesbare markup. Die expertise komt niet uit een marketingboek, maar uit 11 jaar enterprise software bij Wolters Kluwer en dagelijkse AI-toepassingen als ClickUp Expert & Claude Code Architect bij Fourcast."
+  },
+  "expertise": {
+    "title": "Technische achtergrond",
+    "software": {
+      "title": "Software Engineering",
+      "description": "11+ jaar bij Wolters Kluwer Financial Services — quality automation, on-site implementaties, enterprise-software (FinArch/Fibre)"
+    },
+    "ai": {
+      "title": "Process Automation & AI",
+      "description": "ClickUp Expert & Claude Code Architect bij Fourcast — digitale transformatie met AI-tools en process automation"
+    },
+    "bid": {
+      "title": "Bid Management & Strategie",
+      "description": "Volledig tenderproces — van marktscanning tot indiening. Aanbestedingen in Vlaanderen en Wallonië"
+    },
+    "platform": {
+      "title": "Online Platform Specialist",
+      "description": "Bouw en optimalisatie van online leerplatformen (o.a. Fourcast Academy)"
+    }
+  },
+  "origin": {
+    "title": "Het ontstaan van GEO-Scan",
+    "story1": "Christophe runt al 17 jaar een vakantieverhuur in de Belgische Ardennen — ArdenNest. Toen AI-systemen als ChatGPT en Google AI Overviews steeds populairder werden, viel het hem op: als je aan ChatGPT vroeg naar vakantieverblijven in de Ardennen, kwam zijn bedrijf nergens voor.",
+    "story2": "Niet omdat de website slecht was, maar omdat AI hem niet kon lézen. Dat was de aanleiding om te onderzoeken hóé AI-systemen websites lezen, begrijpen en aanbevelen.",
+    "story3": "GEO-Scan is het hulpmiddel dat hij eerst voor zichzelf bouwde. Nu beschikbaar voor elke ondernemer."
+  },
   "cta": "Scan je eigen website",
   "festinaLente": {
     "subtitle": "Festina Lente",
     "text1": "GEO-Scan is een initiatief van Festina Lente bv. De naam — Latijn voor \"maak voortvarend langzaam\" — staat voor onze filosofie: grondig onderzoeken, doordacht bouwen, en stap voor stap waarde leveren.",
     "text2": "We geloven dat elke Belgische ondernemer recht heeft op heldere, actionable inzichten over hun online zichtbaarheid — zonder jargon, zonder dure consultants."
+  },
+  "score": {
+    "title": "Eigen score: 96/100",
+    "alt": "GEO-Scan resultaat van ardennest.be: score 96 van 100 — Uitstekend"
   },
   "attribution": "GEO-Scan.be is een initiatief van Christophe, mede-eigenaar van ArdenNest."
 }
