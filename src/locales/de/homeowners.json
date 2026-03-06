@@ -8,7 +8,7 @@
   "intro": "Höchstwahrscheinlich nicht. KI-Systeme wie ChatGPT und Google AI Overviews lesen Websites anders als Menschen — und die meisten Ferienunterkünfte sind darauf nicht ausgelegt. GEO-Scan zeigt Ihnen mit einem Klick, wie sichtbar Ihre Unterkunft für KI ist. Entwickelt von einem Software-Ingenieur mit 20+ Jahren Erfahrung, der dieses Problem mit dieser Website selbst entdeckt hat.",
   "whyRelevant": {
     "title": "Warum das relevant ist",
-    "content": "GEO-Scan analysiert technische Faktoren, die bestimmen, ob KI-Systeme Ihre Website lesen und empfehlen können: strukturierte Daten, HTML-Semantik, Crawlability und maschinenlesbare Auszeichnung. Diese Expertise stammt nicht aus einem Marketingbuch, sondern aus 11 Jahren Enterprise-Software bei Wolters Kluwer und täglichen KI-Anwendungen als ClickUp Expert & Claude Code Architect bei Fourcast."
+    "content": "GEO-Scan analysiert technische Faktoren, die bestimmen, ob KI-Systeme Ihre Website lesen und empfehlen können: strukturierte Daten, HTML-Semantik, Crawlability und maschinenlesbare Auszeichnung. Immer mehr Reisende stellen ihre Fragen nicht mehr an Google, sondern an ChatGPT, Gemini oder Copilot. Wenn Ihre Website für diese Systeme nicht lesbar ist, existieren Sie in deren Antwort schlicht nicht."
   },
   "expertise": {
     "title": "Technischer Hintergrund",
