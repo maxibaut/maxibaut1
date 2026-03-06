@@ -15,6 +15,16 @@ const expertiseCards = [
   { icon: Building2, key: 'platform' },
 ] as const;
 
+/** Replace every "GEO-Scan" (case-sensitive) in a string with a clickable link */
+const linkify = (text: string): ReactNode[] =>
+  text.split(/(GEO-Scan(?:\.be)?)/g).map((part, i) =>
+    /^GEO-Scan/.test(part) ? (
+      <a key={i} href="https://geo-scan.be" target="_blank" rel="noopener noreferrer" className="text-primary underline hover:text-primary/80 transition-colors">
+        geo-scan.be
+      </a>
+    ) : part
+  );
+
 const Homeowners = () => {
   const { t, i18n } = useTranslation('homeowners');
 
