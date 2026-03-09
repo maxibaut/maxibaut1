@@ -93,6 +93,19 @@
     "parking": {
       "title": "Parking",
       "description": "Free spacious parking for all guests"
+    },
+    "accessibility": {
+      "title": "Getting here",
+      "bus": {
+        "title": "Bus",
+        "text": "Bus stop Malvoisin Kewet is right at the door. Lines 141 and 241 — operated by TEC.",
+        "link": "View timetable"
+      },
+      "train": {
+        "title": "Train",
+        "text": "Nearest station: Gedinne-Station.",
+        "link": "Plan your train journey"
+      }
     }
   },
   "faq": {

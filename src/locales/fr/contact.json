@@ -93,6 +93,19 @@
     "parking": {
       "title": "Parking",
       "description": "Grand parking gratuit pour tous les invités"
+    },
+    "accessibility": {
+      "title": "Accessibilité",
+      "bus": {
+        "title": "Bus",
+        "text": "L'arrêt Malvoisin Kewet se trouve juste devant la porte. Lignes 141 et 241 — desservies par TEC.",
+        "link": "Voir les horaires"
+      },
+      "train": {
+        "title": "Train",
+        "text": "Gare la plus proche : Gedinne-Station.",
+        "link": "Planifiez votre trajet en train"
+      }
     }
   },
   "faq": {

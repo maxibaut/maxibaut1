@@ -39,6 +39,8 @@ import {
   MegaphoneOff,
   Loader2,
   Heart,
+  Bus,
+  TrainFront,
 } from 'lucide-react';
 import { MdFamilyRestroom } from 'react-icons/md';
 import { FaChargingStation } from 'react-icons/fa6';
@@ -563,6 +565,51 @@ const Contact = () => {
                   </ul>
                 </CardContent>
               </Card>
+              {/* Bereikbaarheid */}
+              <h3 className="heading-3 mt-4">{t('practical.accessibility.title')}</h3>
+
+              <div className="grid grid-cols-2 gap-4">
+                <Card>
+                  <CardContent className="p-4 flex items-start space-x-3">
+                    <Bus className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
+                    <div>
+                      <h4 className="font-medium">{t('practical.accessibility.bus.title')}</h4>
+                      <p className="text-sm text-muted-foreground mb-2">
+                        {t('practical.accessibility.bus.text')}
+                      </p>
+                      <a
+                        href="https://www.letec.be"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-sm text-primary hover:underline flex items-center gap-1"
+                      >
+                        {t('practical.accessibility.bus.link')}
+                        <ArrowRight className="h-3 w-3" />
+                      </a>
+                    </div>
+                  </CardContent>
+                </Card>
+                <Card>
+                  <CardContent className="p-4 flex items-start space-x-3">
+                    <TrainFront className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
+                    <div>
+                      <h4 className="font-medium">{t('practical.accessibility.train.title')}</h4>
+                      <p className="text-sm text-muted-foreground mb-2">
+                        {t('practical.accessibility.train.text')}
+                      </p>
+                      <a
+                        href="https://www.belgiantrain.be"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-sm text-primary hover:underline flex items-center gap-1"
+                      >
+                        {t('practical.accessibility.train.link')}
+                        <ArrowRight className="h-3 w-3" />
+                      </a>
+                    </div>
+                  </CardContent>
+                </Card>
+              </div>
             </div>
           </div>
         </div>
