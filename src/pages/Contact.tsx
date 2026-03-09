@@ -611,8 +611,8 @@ const Contact = () => {
                 </Card>
               </div>
             </div>
+          </div>
         </div>
-      </section>
 
       {/* Google Maps — lazy loaded on scroll */}
       <LazyGoogleMap />
