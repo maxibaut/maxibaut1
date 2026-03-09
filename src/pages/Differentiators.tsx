@@ -256,9 +256,9 @@ const Differentiators = () => {
 
                 <ul className="space-y-3">
                   {section.features.map((feature, index) => (
-                    <li key={index} className="flex items-center space-x-3">
-                      <Check className="h-5 w-5 text-primary flex-shrink-0" />
-                      <span className="text-foreground">{feature}</span>
+                    <li key={index} className="flex items-start space-x-3">
+                      <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
+                      <span className="text-foreground">{linkifyGreentripper(feature)}</span>
                     </li>
                   ))}
                 </ul>
