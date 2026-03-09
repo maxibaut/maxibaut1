@@ -5,6 +5,14 @@ import anseremmeRouteMap from '@/assets/walks/trein-anseremme-gendron-route-map.
 import houyetRouteMap from '@/assets/walks/houyet-gendron-route-map.png?format=webp';
 import rochehautRouteMap from '@/assets/walks/laddertjeswandeling-rochehaut-route-map.png?format=webp';
 
+// CapRando wandelgids photos
+import caprando01 from '@/assets/walks/caprando-01-groep-picknick.jpg?format=webp';
+import caprando02 from '@/assets/walks/caprando-02-natuur-wandeling.jpg?format=webp';
+import caprando03 from '@/assets/walks/caprando-03-semois-meanders.jpg?format=webp';
+import caprando04 from '@/assets/walks/caprando-04-boswandeling.jpg?format=webp';
+import caprando05 from '@/assets/walks/caprando-05-lesse-vallei.jpg?format=webp';
+import caprando06 from '@/assets/walks/caprando-06-orientatie.jpg?format=webp';
+
 // Laddertjeswandeling Rochehaut photos
 import rochehaut01 from '@/assets/walks/laddertjeswandeling-rochehaut-01.jpg?format=webp';
 import rochehaut02 from '@/assets/walks/laddertjeswandeling-rochehaut-02.jpg?format=webp';
