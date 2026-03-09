@@ -93,6 +93,19 @@
     "parking": {
       "title": "Parkplatz",
       "description": "Großer kostenloser Parkplatz für alle Gäste"
+    },
+    "accessibility": {
+      "title": "Erreichbarkeit",
+      "bus": {
+        "title": "Bus",
+        "text": "Die Bushaltestelle Malvoisin Kewet liegt direkt vor der Tür. Linien 141 und 241 — bedient von TEC.",
+        "link": "Fahrplan ansehen"
+      },
+      "train": {
+        "title": "Zug",
+        "text": "Nächster Bahnhof: Gedinne-Station.",
+        "link": "Planen Sie Ihre Zugreise"
+      }
     }
   },
   "faq": {
