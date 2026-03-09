@@ -1,4 +1,4 @@
-import { useState, useMemo } from 'react';
+import { useState, useMemo, type ReactNode } from 'react';
 import { PageWrapper } from '@/components/layout';
 import { useTranslation } from 'react-i18next';
 import { LocalizedLink as Link } from '@/components/LocalizedLink';
@@ -34,6 +34,18 @@ import {
 } from '@/assets/property';
 import PropertyLightbox, { LightboxImage } from '@/components/property/PropertyLightbox';
 import PropertyGalleryGrid from '@/components/property/PropertyGalleryGrid';
+
+const linkifyGreentripper = (text: string): ReactNode => {
+  const parts = text.split(/(Greentripper)/g);
+  if (parts.length === 1) return text;
+  return parts.map((part, i) =>
+    part === 'Greentripper' ? (
+      <a key={i} href="https://greentripper.org/default.aspx?cl=nl" target="_blank" rel="noopener noreferrer" className="text-primary underline underline-offset-2 hover:text-primary/80 transition-colors">
+        Greentripper
+      </a>
+    ) : part
+  );
+};
 
 const Differentiators = () => {
   const { t } = useTranslation('homepage');
@@ -256,9 +268,9 @@ const Differentiators = () => {
 
                 <ul className="space-y-3">
                   {section.features.map((feature, index) => (
-                    <li key={index} className="flex items-center space-x-3">
-                      <Check className="h-5 w-5 text-primary flex-shrink-0" />
-                      <span className="text-foreground">{feature}</span>
+                    <li key={index} className="flex items-start space-x-3">
+                      <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
+                      <span className="text-foreground">{linkifyGreentripper(feature)}</span>
                     </li>
                   ))}
                 </ul>
