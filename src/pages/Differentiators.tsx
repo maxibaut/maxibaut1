@@ -144,6 +144,7 @@ const Differentiators = () => {
         t('differentiators.utilitiesFeature2'),
         t('differentiators.utilitiesFeature3'),
         t('differentiators.utilitiesFeature4'),
+        t('differentiators.utilitiesFeature5'),
       ],
       reverse: false,
     },
