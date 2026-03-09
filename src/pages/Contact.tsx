@@ -613,6 +613,7 @@ const Contact = () => {
             </div>
           </div>
         </div>
+      </section>
 
       {/* Google Maps — lazy loaded on scroll */}
       <LazyGoogleMap />
