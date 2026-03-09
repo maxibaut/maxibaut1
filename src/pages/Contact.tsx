@@ -39,6 +39,8 @@ import {
   MegaphoneOff,
   Loader2,
   Heart,
+  Bus,
+  TrainFront,
 } from 'lucide-react';
 import { MdFamilyRestroom } from 'react-icons/md';
 import { FaChargingStation } from 'react-icons/fa6';
