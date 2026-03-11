@@ -32,6 +32,7 @@ import {
   ChevronLeft,
   ChevronRight,
   Phone,
+  Home,
 } from 'lucide-react';
 import {
   getItemBySlug,
