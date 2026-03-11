@@ -52,14 +52,14 @@ const SectionAnchor = ({ id, title, t }: { id: string; title: string; t: (key: s
 
   return (
     <div className="flex items-center gap-3">
-      <h2 className="heading-2 group">
+      <h2 className="heading-1 group">
         {title}
         <button
           onClick={copyLink}
           className="inline-flex items-center ml-2 opacity-0 group-hover:opacity-100 transition-opacity text-muted-foreground hover:text-primary"
           aria-label="Copy link"
         >
-          <LinkIcon className="h-4 w-4" />
+          <LinkIcon className="h-5 w-5" />
         </button>
       </h2>
     </div>
