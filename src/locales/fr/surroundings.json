@@ -48,6 +48,15 @@
     "included": "Fournis",
     "departure": "Départ"
   },
+  "active": {
+    "title": "Actif & Aventure",
+    "description": "Grimpez, volez et escaladez — les Ardennes sont un immense terrain de jeu pour les enfants et les ados."
+  },
+  "exclusive": {
+    "title": "Exclusif pour nos hôtes",
+    "description": "Des expériences introuvables ailleurs — réservées exclusivement aux hôtes d'ArdenNest."
+  },
+  "askUs": "Demandez",
   "attractions": {
     "title": "Attractions",
     "description": "Les Ardennes ont beaucoup à offrir. Ces destinations sont parfaites pour une excursion d'une journée."
