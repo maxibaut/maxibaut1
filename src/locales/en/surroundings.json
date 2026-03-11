@@ -48,6 +48,15 @@
     "included": "Included",
     "departure": "Departure"
   },
+  "active": {
+    "title": "Active & Adventure",
+    "description": "Climb, fly and scramble — the Ardennes are one big playground for kids and teens."
+  },
+  "exclusive": {
+    "title": "Exclusive for guests",
+    "description": "Experiences you can't book anywhere else — exclusively for ArdenNest guests."
+  },
+  "askUs": "Ask us",
   "attractions": {
     "title": "Attractions",
     "description": "The Ardennes have a lot to offer. These destinations are perfect for a day trip."
