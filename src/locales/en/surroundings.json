@@ -160,6 +160,46 @@
         "pricingIncluded": "Helmet, repair kit, personalised routes"
       }
     },
+    "active": {
+      "dinant-evasion": {
+        "title": "Dinant Evasion — Adventure Park",
+        "description": "Spectacular adventure park set in an old quarry above the Meuse. Various courses, death rides and climbing walls.",
+        "highlights": ["Open year-round", "Teens"]
+      },
+      "bomenparcours-han": {
+        "title": "Treetop Course — Caves of Han",
+        "description": "Unique treetop course in the Wildlife Park of Han. A combination of nature and physical challenge.",
+        "highlights": ["All ages", "Combine with Wildlife Park"]
+      },
+      "terraltitude-fumay": {
+        "title": "Terraltitude — Fantasticable",
+        "description": "Just across the French border: a zipline at 100 km/h over the Meuse. Pure adrenaline.",
+        "highlights": ["Adrenaline", "Seasonal"]
+      },
+      "cap-nature-bertrix": {
+        "title": "Cap Nature (Bertrix)",
+        "description": "Adventure courses and outdoor sports near the slate quarry. Great mix of sports and nature.",
+        "highlights": ["From Easter"]
+      },
+      "recrealle": {
+        "title": "Récréalle",
+        "description": "Complete recreation area on the Semois with kayak rental, mountain bikes, mini golf and indoor playground.",
+        "highlights": ["Something for everyone"]
+      },
+      "leisteengroeve-bertrix": {
+        "title": "Au Cœur de l'Ardoise — Slate Quarry",
+        "description": "Descend into the region's history. Fascinating visit to the old slate quarry deep underground. Always 10°C — perfect on rainy days.",
+        "highlights": ["Rain-proof", "Underground"]
+      }
+    },
+    "exclusive": {
+      "ardennest-dropping": {
+        "title": "The ArdenNest Dropping",
+        "description": "A personalised adventure where Christophe maps out a route. Parents drop off the kids — they have to find their way back home. Day edition or Twilight edition (12+).",
+        "highlights": ["Exclusive", "Ages 12+"],
+        "distance": "At your doorstep"
+      }
+    },
     "attractions": {
       "dinant": {
         "title": "Dinant",

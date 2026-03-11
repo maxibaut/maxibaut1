@@ -161,6 +161,46 @@
         "pricingIncluded": "Casque, kit de réparation, parcours personnalisés"
       }
     },
+    "active": {
+      "dinant-evasion": {
+        "title": "Dinant Evasion — Parc Aventure",
+        "description": "Parc d'aventure spectaculaire dans une ancienne carrière surplombant la Meuse. Parcours variés, tyroliennes et murs d'escalade.",
+        "highlights": ["Ouvert toute l'année", "Ados"]
+      },
+      "bomenparcours-han": {
+        "title": "Parcours dans les arbres — Grottes de Han",
+        "description": "Parcours unique dans la canopée du Parc Animalier de Han. Une combinaison d'immersion nature et de défi physique.",
+        "highlights": ["Tous âges", "À combiner avec le Parc Animalier"]
+      },
+      "terraltitude-fumay": {
+        "title": "Terraltitude — Fantasticable",
+        "description": "Juste de l'autre côté de la frontière française : une tyrolienne à 100 km/h au-dessus de la Meuse. Adrénaline garantie.",
+        "highlights": ["Adrénaline", "Saisonnier"]
+      },
+      "cap-nature-bertrix": {
+        "title": "Cap Nature (Bertrix)",
+        "description": "Parcours aventure et sports outdoor près de l'ardoisière. Belle combinaison sport et nature.",
+        "highlights": ["Dès Pâques"]
+      },
+      "recrealle": {
+        "title": "Récréalle",
+        "description": "Domaine récréatif complet au bord de la Semois avec location de kayaks, VTT, minigolf et plaine de jeux intérieure.",
+        "highlights": ["Pour tous les goûts"]
+      },
+      "leisteengroeve-bertrix": {
+        "title": "Au Cœur de l'Ardoise — Ardoisière",
+        "description": "Plongez dans l'histoire de la région. Visite captivante de l'ancienne ardoisière en profondeur. Toujours 10°C — idéal par temps de pluie.",
+        "highlights": ["Par tous les temps", "Souterrain"]
+      }
+    },
+    "exclusive": {
+      "ardennest-dropping": {
+        "title": "Le Dropping ArdenNest",
+        "description": "Une aventure personnalisée où Christophe trace l'itinéraire. Les parents déposent les enfants — à eux de retrouver le chemin du retour. Édition jour ou Twilight (+12 ans).",
+        "highlights": ["Exclusif", "+12 ans"],
+        "distance": "À la porte"
+      }
+    },
     "attractions": {
       "dinant": {
         "title": "Dinant",

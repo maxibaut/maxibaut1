@@ -160,6 +160,46 @@
         "pricingIncluded": "Helm, Reparaturset, personalisierte Routen"
       }
     },
+    "active": {
+      "dinant-evasion": {
+        "title": "Dinant Evasion — Abenteuerpark",
+        "description": "Spektakulärer Abenteuerpark in einem alten Steinbruch über der Maas. Verschiedene Parcours, Seilrutschen und Kletterwände.",
+        "highlights": ["Ganzjährig geöffnet", "Jugendliche"]
+      },
+      "bomenparcours-han": {
+        "title": "Baumwipfelparcours — Grotten von Han",
+        "description": "Einzigartiger Baumwipfelparcours im Wildpark von Han. Kombination aus Naturerlebnis und körperlicher Herausforderung.",
+        "highlights": ["Alle Altersgruppen", "Mit Wildpark kombinieren"]
+      },
+      "terraltitude-fumay": {
+        "title": "Terraltitude — Fantasticable",
+        "description": "Direkt hinter der französischen Grenze: eine Seilrutsche mit 100 km/h über die Maas. Purer Adrenalinkick.",
+        "highlights": ["Adrenalin", "Saisonabhängig"]
+      },
+      "cap-nature-bertrix": {
+        "title": "Cap Nature (Bertrix)",
+        "description": "Abenteuer-Parcours und Outdoor-Sport am Schiefersteinbruch. Tolle Kombination aus Sport und Natur.",
+        "highlights": ["Ab Ostern"]
+      },
+      "recrealle": {
+        "title": "Récréalle",
+        "description": "Komplettes Freizeitgelände an der Semois mit Kajakverleih, Mountainbikes, Minigolf und Indoor-Spielplatz.",
+        "highlights": ["Für jeden etwas"]
+      },
+      "leisteengroeve-bertrix": {
+        "title": "Au Cœur de l'Ardoise — Schiefersteinbruch",
+        "description": "Tauchen Sie ein in die Geschichte der Region. Faszinierender Besuch des alten Schiefersteinbruchs tief unter der Erde. Immer 10°C — ideal bei Regenwetter.",
+        "highlights": ["Wetterunabhängig", "Unterirdisch"]
+      }
+    },
+    "exclusive": {
+      "ardennest-dropping": {
+        "title": "Das ArdenNest Dropping",
+        "description": "Ein personalisiertes Abenteuer, bei dem Christophe die Route festlegt. Die Eltern setzen die Kinder ab — sie müssen den Weg nach Hause selbst finden. Tages- oder Twilight-Edition (ab 12 J.).",
+        "highlights": ["Exklusiv", "Ab 12 Jahren"],
+        "distance": "Vor der Haustür"
+      }
+    },
     "attractions": {
       "dinant": {
         "title": "Dinant",
