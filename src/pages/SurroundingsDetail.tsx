@@ -117,8 +117,12 @@ const SurroundingsDetail = () => {
   // Type-specific data
   const walkData = item.category === 'walks' ? (item as WalkItem) : null;
   const cyclingData = item.category === 'cycling' ? (item as CyclingItem) : null;
+  const exclusiveData = item.category === 'exclusive' ? (item as ExclusiveItem) : null;
   const restaurantData = item.category === 'restaurants' ? (item as RestaurantItem) : null;
   const shopData = item.category === 'shops' ? (item as ShopItem) : null;
+
+  // Translated distance for exclusive items
+  const exclusiveDistance = exclusiveData ? t(`items.exclusive.${slug}.distance`, { defaultValue: '' }) : '';
 
   // Track which heading was last seen to inject inline images after it
   let bikeSectionPassed = false;
