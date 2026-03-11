@@ -181,3 +181,12 @@
     @apply py-16 md:py-20 lg:py-24;
   }
 }
+
+/* Hide scrollbar for category nav */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
