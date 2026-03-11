@@ -55,7 +55,7 @@ import {
 } from '@/components/ui/breadcrumb';
 
 const SurroundingsDetail = () => {
-  const { t } = useTranslation('surroundings');
+  const { t, i18n } = useTranslation('surroundings');
   const { category, slug } = useParams<{ category: SurroundingsCategory; slug: string }>();
   const [lightboxOpen, setLightboxOpen] = useState(false);
   const [lightboxIndex, setLightboxIndex] = useState(0);
@@ -82,6 +82,44 @@ const SurroundingsDetail = () => {
   const tip = t(`items.${category}.${slug}.tip`, { defaultValue: '' });
   const routeSteps = t(`items.${category}.${slug}.routeSteps`, { returnObjects: true, defaultValue: [] }) as string[];
   const trainBookingButton = t(`items.${category}.${slug}.trainBookingButton`, { defaultValue: '' });
+  const openingHours = t(`items.${category}.${slug}.openingHours`, { defaultValue: '' });
+  const askUponArrival = t(`items.${category}.${slug}.askUponArrival`, { defaultValue: t('askUs') });
+
+  // Per-subpage SEO
+  const seoTitle = t(`items.${category}.${slug}.seo.title`, { defaultValue: '' });
+  const seoDescription = t(`items.${category}.${slug}.seo.description`, { defaultValue: '' });
+  useSEO(seoTitle ? {
+    titleKey: `items.${category}.${slug}.seo.title`,
+    descriptionKey: `items.${category}.${slug}.seo.description`,
+    namespace: 'surroundings',
+  } : undefined);
+
+  // JSON-LD structured data for active/exclusive items
+  useEffect(() => {
+    if ((category === 'active' || category === 'exclusive') && item.coordinates) {
+      const jsonLd = {
+        '@context': 'https://schema.org',
+        '@type': 'TouristAttraction',
+        name: title,
+        description: description,
+        ...(item.address && { address: { '@type': 'PostalAddress', streetAddress: item.address } }),
+        geo: {
+          '@type': 'GeoCoordinates',
+          latitude: item.coordinates.lat,
+          longitude: item.coordinates.lng,
+        },
+        ...(item.externalUrl && { url: item.externalUrl }),
+        ...(item.images?.[0] && { image: item.images[0] }),
+        ...(openingHours && { openingHours }),
+      };
+      const script = document.createElement('script');
+      script.type = 'application/ld+json';
+      script.id = `jsonld-${slug}`;
+      script.textContent = JSON.stringify(jsonLd);
+      document.head.appendChild(script);
+      return () => { document.getElementById(`jsonld-${slug}`)?.remove(); };
+    }
+  }, [category, slug, title, description, item, openingHours]);
 
   // Open lightbox
   const openLightbox = (index: number) => {
