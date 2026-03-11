@@ -85,6 +85,10 @@ const SurroundingsDetail = () => {
         return <Footprints className="h-6 w-6" />;
       case 'cycling':
         return <Bike className="h-6 w-6" />;
+      case 'active':
+        return <Landmark className="h-6 w-6" />;
+      case 'exclusive':
+        return <MapPin className="h-6 w-6" />;
       case 'attractions':
         return <Landmark className="h-6 w-6" />;
       case 'restaurants':
