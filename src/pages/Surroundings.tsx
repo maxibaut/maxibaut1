@@ -325,6 +325,137 @@ const Surroundings = () => {
         </div>
       </section>
 
+      {/* Actief & Avontuur */}
+      <section id="actief" className="section-padding bg-background">
+        <div className="container-luxury">
+          <div className="flex items-center gap-3 mb-8">
+            <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center">
+              <Zap className="h-6 w-6 text-primary" />
+            </div>
+            <h2 className="heading-2">{t('active.title')}</h2>
+          </div>
+          <p className="body-large text-muted-foreground mb-8 max-w-2xl">
+            {t('active.description')}
+          </p>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {active.map((item) => {
+              const title = t(`items.active.${item.slug}.title`, { defaultValue: item.slug });
+              const description = t(`items.active.${item.slug}.description`, { defaultValue: '' });
+              const highlights = t(`items.active.${item.slug}.highlights`, { returnObjects: true, defaultValue: [] }) as string[];
+
+              return (
+                <Link key={item.id} to={`/surroundings/active/${item.slug}`}>
+                  <Card className="hover:shadow-lg transition-all hover:-translate-y-1 h-full group cursor-pointer">
+                    <CardHeader className="pb-2">
+                      <div className="flex items-start justify-between gap-2">
+                        <CardTitle className="font-serif text-lg leading-tight group-hover:text-primary transition-colors">
+                          {title}
+                        </CardTitle>
+                        <Badge variant="secondary" className="gap-1 flex-shrink-0">
+                          <MapPin className="h-3 w-3" />
+                          {item.distance}
+                        </Badge>
+                      </div>
+                    </CardHeader>
+                    <CardContent className="space-y-4">
+                      <p className="text-sm text-muted-foreground line-clamp-2">{description}</p>
+                      
+                      {Array.isArray(highlights) && highlights.length > 0 && (
+                        <div className="flex flex-wrap gap-2">
+                          {highlights.map((highlight, idx) => (
+                            <Badge key={idx} variant="outline">
+                              {highlight}
+                            </Badge>
+                          ))}
+                        </div>
+                      )}
+
+                      <div className="flex items-center gap-1 text-sm text-primary group-hover:gap-2 transition-all pt-2">
+                        {t('moreInfo')}
+                        <ChevronRight className="h-4 w-4" />
+                      </div>
+                    </CardContent>
+                  </Card>
+                </Link>
+              );
+            })}
+          </div>
+        </div>
+      </section>
+
+      {/* Exclusief voor gasten */}
+      <section id="exclusief" className="section-padding bg-cream-dark">
+        <div className="container-luxury">
+          <div className="flex items-center gap-3 mb-8">
+            <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center">
+              <Star className="h-6 w-6 text-primary" />
+            </div>
+            <h2 className="heading-2">{t('exclusive.title')}</h2>
+          </div>
+          <p className="body-large text-muted-foreground mb-8 max-w-2xl">
+            {t('exclusive.description')}
+          </p>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {exclusive.map((item) => {
+              const title = t(`items.exclusive.${item.slug}.title`, { defaultValue: item.slug });
+              const description = t(`items.exclusive.${item.slug}.description`, { defaultValue: '' });
+              const highlights = t(`items.exclusive.${item.slug}.highlights`, { returnObjects: true, defaultValue: [] }) as string[];
+              const distanceLabel = t(`items.exclusive.${item.slug}.distance`, { defaultValue: '' });
+              const isInternal = (item as ExclusiveItem).isInternal;
+
+              return (
+                <Link key={item.id} to={`/surroundings/exclusive/${item.slug}`}>
+                  <Card className="hover:shadow-lg transition-all hover:-translate-y-1 h-full group cursor-pointer border-primary/20">
+                    <CardHeader className="pb-2">
+                      <div className="flex items-start justify-between gap-2">
+                        <CardTitle className="font-serif text-lg leading-tight group-hover:text-primary transition-colors">
+                          {title}
+                        </CardTitle>
+                        {distanceLabel && (
+                          <Badge variant="secondary" className="gap-1 flex-shrink-0">
+                            <Home className="h-3 w-3" />
+                            {distanceLabel}
+                          </Badge>
+                        )}
+                      </div>
+                    </CardHeader>
+                    <CardContent className="space-y-4">
+                      <p className="text-sm text-muted-foreground line-clamp-3">{description}</p>
+                      
+                      {Array.isArray(highlights) && highlights.length > 0 && (
+                        <div className="flex flex-wrap gap-2">
+                          {highlights.map((highlight, idx) => (
+                            <Badge key={idx} variant="outline" className="border-primary/30 text-primary">
+                              {highlight}
+                            </Badge>
+                          ))}
+                        </div>
+                      )}
+
+                      <div className="flex items-center gap-1 text-sm text-primary group-hover:gap-2 transition-all pt-2">
+                        {isInternal ? (
+                          <>
+                            <MessageCircle className="h-4 w-4" />
+                            {t('askUs')}
+                          </>
+                        ) : (
+                          <>
+                            {t('moreInfo')}
+                            <ChevronRight className="h-4 w-4" />
+                          </>
+                        )}
+                      </div>
+                    </CardContent>
+                  </Card>
+                </Link>
+              );
+            })}
+          </div>
+        </div>
+      </section>
+
       {/* Bezienswaardigheden */}
       <section id="bezienswaardigheden" className="section-padding bg-background">
         <div className="container-luxury">
