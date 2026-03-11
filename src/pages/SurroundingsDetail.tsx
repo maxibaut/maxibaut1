@@ -626,7 +626,7 @@ const SurroundingsDetail = () => {
                       <Button asChild variant="default" className="w-full">
                         <Link to="/contact">
                           <Phone className="h-4 w-4 mr-2" />
-                          {t('askUs')}
+                          {askUponArrival}
                         </Link>
                       </Button>
                     )}
