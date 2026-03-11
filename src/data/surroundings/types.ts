@@ -1,7 +1,7 @@
 // Types for surroundings items - technical data structure
 // Translations are handled in locale JSON files
 
-export type SurroundingsCategory = 'walks' | 'cycling' | 'attractions' | 'restaurants' | 'shops';
+export type SurroundingsCategory = 'walks' | 'cycling' | 'active' | 'exclusive' | 'attractions' | 'restaurants' | 'shops';
 
 export type Difficulty = 'easy' | 'medium' | 'hard';
 
