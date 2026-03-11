@@ -29,8 +29,97 @@ import FritesCone from '@/components/icons/FritesCone';
 import { useSEO } from '@/hooks/useSEO';
 
 const Surroundings = () => {
-  const { t } = useTranslation('surroundings');
+  const { t, i18n } = useTranslation('surroundings');
   useSEO();
+
+  // Add geo meta tags and JSON-LD structured data
+  useEffect(() => {
+    // Geo meta tags
+    const geoTags = [
+      { name: 'geo.region', content: 'BE-WNA' },
+      { name: 'geo.placename', content: 'Malvoisin, Gedinne' },
+      { name: 'geo.position', content: '49.9750;4.9380' },
+      { name: 'ICBM', content: '49.9750, 4.9380' },
+    ];
+    
+    const createdMetas: HTMLMetaElement[] = [];
+    geoTags.forEach(({ name, content }) => {
+      let meta = document.querySelector(`meta[name="${name}"]`) as HTMLMetaElement;
+      if (!meta) {
+        meta = document.createElement('meta');
+        meta.setAttribute('name', name);
+        document.head.appendChild(meta);
+        createdMetas.push(meta);
+      }
+      meta.setAttribute('content', content);
+    });
+
+    // JSON-LD structured data for activities
+    const jsonLd = {
+      '@context': 'https://schema.org',
+      '@graph': [
+        {
+          '@type': 'TouristAttraction',
+          name: 'Dinant Evasion — Adventure Park',
+          url: 'https://www.dinant-evasion.be/nl/adventure-park.html',
+          geo: { '@type': 'GeoCoordinates', latitude: 50.2603, longitude: 4.9122 },
+          address: { '@type': 'PostalAddress', addressLocality: 'Dinant', addressCountry: 'BE' },
+        },
+        {
+          '@type': 'TouristAttraction',
+          name: 'Bomenparcours — Grotten van Han',
+          url: 'https://grotte-de-han.be/nl/bomenparcours',
+          geo: { '@type': 'GeoCoordinates', latitude: 50.1260, longitude: 5.1870 },
+          address: { '@type': 'PostalAddress', addressLocality: 'Han-sur-Lesse', addressCountry: 'BE' },
+        },
+        {
+          '@type': 'TouristAttraction',
+          name: 'Terraltitude — Fantasticable',
+          url: 'https://www.terraltitude.com',
+          geo: { '@type': 'GeoCoordinates', latitude: 49.9890, longitude: 4.7080 },
+          address: { '@type': 'PostalAddress', addressLocality: 'Fumay', addressCountry: 'FR' },
+        },
+        {
+          '@type': 'TouristAttraction',
+          name: 'Cap Nature Bertrix',
+          url: 'https://www.capnature.be',
+          geo: { '@type': 'GeoCoordinates', latitude: 49.8560, longitude: 5.2530 },
+          address: { '@type': 'PostalAddress', addressLocality: 'Bertrix', addressCountry: 'BE' },
+        },
+        {
+          '@type': 'TouristAttraction',
+          name: 'Récréalle',
+          url: 'https://www.recrealle.com',
+          geo: { '@type': 'GeoCoordinates', latitude: 49.8030, longitude: 5.0380 },
+          address: { '@type': 'PostalAddress', addressLocality: 'Alle-sur-Semois', addressCountry: 'BE' },
+        },
+        {
+          '@type': 'TouristAttraction',
+          name: "Au Cœur de l'Ardoise",
+          url: 'http://www.aucoeurdelardoise.be',
+          geo: { '@type': 'GeoCoordinates', latitude: 49.8560, longitude: 5.2530 },
+          address: { '@type': 'PostalAddress', addressLocality: 'Bertrix', addressCountry: 'BE' },
+        },
+        {
+          '@type': 'TouristAttraction',
+          name: 'De ArdenNest Dropping',
+          description: 'Exclusive personalised adventure for ArdenNest guests',
+          geo: { '@type': 'GeoCoordinates', latitude: 49.9750, longitude: 4.9380 },
+          address: { '@type': 'PostalAddress', addressLocality: 'Gedinne', addressCountry: 'BE' },
+        },
+      ],
+    };
+
+    const script = document.createElement('script');
+    script.type = 'application/ld+json';
+    script.textContent = JSON.stringify(jsonLd);
+    document.head.appendChild(script);
+
+    return () => {
+      createdMetas.forEach(m => m.remove());
+      script.remove();
+    };
+  }, [i18n.language]);
 
   const getDifficultyColor = (difficulty: string) => {
     switch (difficulty) {
