@@ -407,10 +407,13 @@ const SurroundingsDetail = () => {
                       </ul>
                     );
                   }
-                  // Handle regular paragraphs with potential bold text
-                  const formattedParagraph = paragraph.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+                  // Handle regular paragraphs with bold text and markdown links
+                  let formattedParagraph = paragraph
+                    .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+                    .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" class="text-primary underline hover:text-primary/80">$1</a>');
                   const sanitizedParagraph = DOMPurify.sanitize(formattedParagraph, {
-                    ALLOWED_TAGS: ['strong', 'em', 'b', 'i'],
+                    ALLOWED_TAGS: ['strong', 'em', 'b', 'i', 'a'],
+                    ALLOWED_ATTR: ['href', 'class'],
                   });
                   // After the first paragraph following the bike section heading, inject the bike image
                   const showBikeImage = cyclingData?.bikeImage && bikeSectionPassed;
