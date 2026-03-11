@@ -184,8 +184,6 @@ const SurroundingsDetail = () => {
                 {item.distance} {t('fromProperty')}
               </Badge>
             ) : null}
-              </Badge>
-            )}
             {walkData && (
               <>
                 <Badge variant="secondary" className="gap-1 bg-primary-foreground/20 text-primary-foreground">
