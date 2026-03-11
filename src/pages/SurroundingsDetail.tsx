@@ -40,10 +40,19 @@ import {
   SurroundingsCategory,
   WalkItem,
   CyclingItem,
+  ActiveItem,
   RestaurantItem,
   ShopItem,
   ExclusiveItem,
 } from '@/data/surroundings';
+import {
+  Breadcrumb,
+  BreadcrumbList,
+  BreadcrumbItem,
+  BreadcrumbLink,
+  BreadcrumbSeparator,
+  BreadcrumbPage,
+} from '@/components/ui/breadcrumb';
 
 const SurroundingsDetail = () => {
   const { t } = useTranslation('surroundings');
