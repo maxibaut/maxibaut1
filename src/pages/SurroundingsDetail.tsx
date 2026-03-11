@@ -602,7 +602,7 @@ const SurroundingsDetail = () => {
                         </a>
                       </Button>
                     )}
-                    {(item.mapQuery || item.coordinates) && (
+                    {(item.mapQuery || item.coordinates) && !exclusiveData?.isInternal && (
                       <Button asChild variant={walkData?.trainBookingUrl ? 'outline' : 'default'} className="w-full">
                         <a
                           href={`https://www.google.com/maps/dir/?api=1&origin=${encodeURIComponent('ArdenNest, Malvoisin, Belgium')}&destination=${item.mapQuery ? encodeURIComponent(item.mapQuery) : `${item.coordinates!.lat},${item.coordinates!.lng}`}`}
