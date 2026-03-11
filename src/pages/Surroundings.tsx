@@ -52,14 +52,14 @@ const SectionAnchor = ({ id, title, t }: { id: string; title: string; t: (key: s
 
   return (
     <div className="flex items-center gap-3">
-      <h2 className="heading-2 group">
+      <h2 className="heading-1 group">
         {title}
         <button
           onClick={copyLink}
           className="inline-flex items-center ml-2 opacity-0 group-hover:opacity-100 transition-opacity text-muted-foreground hover:text-primary"
           aria-label="Copy link"
         >
-          <LinkIcon className="h-4 w-4" />
+          <LinkIcon className="h-5 w-5" />
         </button>
       </h2>
     </div>
@@ -288,14 +288,14 @@ const Surroundings = () => {
               const Icon = section.icon;
               const isActive = activeSection === section.id;
               return (
-                <button
+                 <button
                   key={section.id}
                   ref={isActive ? activeTabRef : undefined}
                   onClick={() => scrollToSection(section.id)}
-                  className={`flex items-center gap-1.5 px-3 py-2 text-sm font-medium whitespace-nowrap rounded-md transition-all flex-shrink-0 ${
+                  className={`flex items-center gap-1.5 px-3 py-2.5 text-sm font-medium whitespace-nowrap transition-all flex-shrink-0 border-b-[3px] ${
                     isActive
-                      ? 'text-primary border-b-2 border-primary bg-primary/5'
-                      : 'text-muted-foreground hover:text-foreground hover:bg-muted/50'
+                      ? 'text-primary border-primary'
+                      : 'text-muted-foreground border-transparent hover:text-foreground hover:border-muted'
                   }`}
                 >
                   <Icon className="h-4 w-4" />
@@ -311,9 +311,9 @@ const Surroundings = () => {
       {isNavSticky && <div className="h-[52px]" />}
 
       {/* Wandelingen vanaf ArdenNest */}
-      <section id="wandelen-dichtbij" className="section-padding bg-cream-dark">
+      <section id="wandelen-dichtbij" className="section-padding bg-background">
         <div className="container-luxury">
-          <div className="flex items-center gap-3 mb-8">
+          <div className="flex items-center gap-3 pt-12 pb-6 mb-8">
             <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center">
               <Home className="h-6 w-6 text-primary" />
             </div>
@@ -403,9 +403,9 @@ const Surroundings = () => {
       </section>
 
       {/* Wandelingen in de omgeving */}
-      <section id="wandelen-omgeving" className="section-padding bg-background">
+      <section id="wandelen-omgeving" className="section-padding bg-cream-dark">
         <div className="container-luxury">
-          <div className="flex items-center gap-3 mb-8">
+          <div className="flex items-center gap-3 pt-12 pb-6 mb-8">
             <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center">
               <Footprints className="h-6 w-6 text-primary" />
             </div>
@@ -494,9 +494,9 @@ const Surroundings = () => {
       </section>
 
       {/* Fietsen */}
-      <section id="fietsen" className="section-padding bg-cream-dark">
+      <section id="fietsen" className="section-padding bg-background">
         <div className="container-luxury">
-          <div className="flex items-center gap-3 mb-8">
+          <div className="flex items-center gap-3 pt-12 pb-6 mb-8">
             <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center">
               <Bike className="h-6 w-6 text-primary" />
             </div>
@@ -555,9 +555,9 @@ const Surroundings = () => {
       </section>
 
       {/* Actief & Avontuur */}
-      <section id="actief-avontuur" className="section-padding bg-background">
+      <section id="actief-avontuur" className="section-padding bg-cream-dark">
         <div className="container-luxury">
-          <div className="flex items-center gap-3 mb-8">
+          <div className="flex items-center gap-3 pt-12 pb-6 mb-8">
             <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center">
               <Zap className="h-6 w-6 text-primary" />
             </div>
@@ -614,9 +614,9 @@ const Surroundings = () => {
       </section>
 
       {/* Bezienswaardigheden */}
-      <section id="bezienswaardigheden" className="section-padding bg-cream-dark">
+      <section id="bezienswaardigheden" className="section-padding bg-background">
         <div className="container-luxury">
-          <div className="flex items-center gap-3 mb-8">
+          <div className="flex items-center gap-3 pt-12 pb-6 mb-8">
             <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center">
               <Landmark className="h-6 w-6 text-primary" />
             </div>
@@ -673,9 +673,9 @@ const Surroundings = () => {
       </section>
 
       {/* Restaurants */}
-      <section id="restaurants" className="section-padding bg-background">
+      <section id="restaurants" className="section-padding bg-cream-dark">
         <div className="container-luxury">
-          <div className="flex items-center gap-3 mb-8">
+          <div className="flex items-center gap-3 pt-12 pb-6 mb-8">
             <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center">
               <UtensilsCrossed className="h-6 w-6 text-primary" />
             </div>
@@ -733,9 +733,9 @@ const Surroundings = () => {
       </section>
 
       {/* Winkels */}
-      <section id="winkels" className="section-padding bg-cream-dark">
+      <section id="winkels" className="section-padding bg-background">
         <div className="container-luxury">
-          <div className="flex items-center gap-3 mb-8">
+          <div className="flex items-center gap-3 pt-12 pb-6 mb-8">
             <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center">
               <ShoppingBag className="h-6 w-6 text-primary" />
             </div>
@@ -775,9 +775,9 @@ const Surroundings = () => {
       </section>
 
       {/* Exclusief voor gasten — distinct green background */}
-      <section id="exclusief" className="py-16 md:py-20" style={{ backgroundColor: 'hsl(150 25% 92%)' }}>
+      <section id="exclusief" className="py-20 md:py-28" style={{ backgroundColor: 'hsl(150 25% 92%)' }}>
         <div className="container-luxury">
-          <div className="flex items-center gap-3 mb-2">
+          <div className="flex items-center gap-3 pt-12 pb-6 mb-2">
             <div className="w-12 h-12 rounded-full bg-primary/15 flex items-center justify-center">
               <Star className="h-6 w-6 text-primary" />
             </div>
