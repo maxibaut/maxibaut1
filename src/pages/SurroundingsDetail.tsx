@@ -51,7 +51,7 @@ const SurroundingsDetail = () => {
   const { localizedPath } = useLanguagePrefix();
 
   // Validate category
-  const validCategories: SurroundingsCategory[] = ['walks', 'cycling', 'attractions', 'restaurants', 'shops'];
+  const validCategories: SurroundingsCategory[] = ['walks', 'cycling', 'active', 'exclusive', 'attractions', 'restaurants', 'shops'];
   if (!category || !validCategories.includes(category as SurroundingsCategory)) {
     return <Navigate to={localizedPath('/surroundings')} replace />;
   }
