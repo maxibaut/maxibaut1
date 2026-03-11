@@ -177,32 +177,66 @@
       "dinant-evasion": {
         "title": "Dinant Evasion — Parc Aventure",
         "description": "Parc d'aventure spectaculaire dans une ancienne carrière surplombant la Meuse. Parcours variés, tyroliennes et murs d'escalade.",
-        "highlights": ["Ouvert toute l'année", "Ados"]
+        "highlights": ["Ouvert toute l'année", "Ados"],
+        "fullDescription": "Dinant Evasion est un parc d'aventure dans une ancienne carrière de pierre surplombant la Meuse, juste à côté de Dinant. Ce n'est pas un simple parcours d'accrobranche — le cadre dans les parois rocheuses brutes le rend plus spectaculaire que n'importe quel autre parc de la région.\n\n## Ce que vous pouvez faire\n\n- 4 tyroliennes où vous volez jusqu'à 60 mètres au-dessus de la carrière\n- Différents défis : Challenge Ardennes (dès 10 ans), Challenge Alpes (dès 12 ans), Challenge Mont-Blanc (dès 10 ans)\n- XL Swing, Funkabel et murs d'escalade\n- Paintball et jeu de ville à Dinant\n\n## Pourquoi nous le recommandons\n\nLe parc est ouvert toute l'année — même hors saison. Parfait pour les ados en quête d'adrénaline. La réservation est recommandée.\n\n## Depuis ArdenNest\n\nÀ 30 minutes en voiture. Via Dinant, direction la Citadelle. Le parc est situé en hauteur au-dessus de la ville dans une ancienne carrière — le trajet fait déjà partie de l'aventure.",
+        "openingHours": "Toute l'année — consultez le site pour les horaires exacts",
+        "seo": {
+          "title": "Dinant Evasion — Parc Aventure | ArdenNest",
+          "description": "Parc d'aventure spectaculaire dans une ancienne carrière au-dessus de la Meuse. Tyroliennes, murs d'escalade et défis pour ados. 30 min d'ArdenNest."
+        }
       },
       "bomenparcours-han": {
         "title": "Parcours dans les arbres — Grottes de Han",
         "description": "Parcours unique dans la canopée du Parc Animalier de Han. Une combinaison d'immersion nature et de défi physique.",
-        "highlights": ["Tous âges", "À combiner avec le Parc Animalier"]
+        "highlights": ["Tous âges", "À combiner avec le Parc Animalier"],
+        "fullDescription": "Tree Experience est le tout nouveau parcours dans les arbres du Parc Animalier de Han-sur-Lesse. Pas un simple accrobranche, mais un parcours bien pensé dans la canopée avec 5 niveaux différents.\n\n## Ce que vous pouvez faire\n\n- Parcours Everjong & Wolfje : facile, pour enfants dès 4 ans (max 150 cm)\n- Parcours Beertje : un peu plus haut, à 2 mètres, dès 120 cm avec accompagnement\n- Parcours Uil & Vleermuis : à 10 mètres de haut, pour les vrais aventuriers (dès 10 ans, min 130 cm) avec tyroliennes de 140 mètres\n- Mur d'escalade (dès 4 ans) et chute libre (min 130 cm)\n\n## Pourquoi nous le recommandons\n\nCombinez le parcours dans les arbres avec une visite du Parc Animalier ou des célèbres Grottes de Han. Un billet, toute une journée de plaisir. Durée estimée du parcours : 1h30. Prévoyez 11h30 pour le meilleur confort.\n\n## Conseils pratiques\n\nCheveux longs attachés, pas de chaussures ouvertes, gants recommandés, max 120kg. Enfants de moins de 12 ans accompagnés d'un adulte.\n\n## Depuis ArdenNest\n\nÀ 20 minutes en voiture direction Rochefort. Combinez avec les Grottes de Han pour une journée complète.",
+        "seo": {
+          "title": "Parcours dans les arbres Tree Experience — Grottes de Han | ArdenNest",
+          "description": "5 parcours dans la canopée du Parc Animalier de Han. Tyroliennes de 140m, mur d'escalade et chute libre. Dès 4 ans. 20 min d'ArdenNest."
+        }
       },
       "terraltitude-fumay": {
         "title": "Terraltitude — Fantasticable",
         "description": "Juste de l'autre côté de la frontière française : une tyrolienne à 100 km/h au-dessus de la Meuse. Adrénaline garantie.",
-        "highlights": ["Adrénaline", "Saisonnier"]
+        "highlights": ["Adrénaline", "Saisonnier"],
+        "fullDescription": "Juste de l'autre côté de la frontière française, à Fumay, se trouve Terraltitude — le parc d'aventure des Ardennes. L'attraction phare : la Fantasticable, une tyrolienne de 1,2 km où vous volez à plus de 100 km/h au-dessus de la Meuse. Pas pour les âmes sensibles.\n\n## Ce que vous pouvez faire\n\n- **Fantasticable** : tyrolienne de 1,2 km au-dessus de la Meuse à 100+ km/h\n- **Accrobranche** : parcours dans les arbres pour tous niveaux avec ponts suspendus, cordes et filets\n- **Catapulte** : être catapulté à 18 mètres de hauteur par des élastiques — en 2 secondes\n- **Tour des Aventuriers** : tour de saut pour ceux qui veulent encore plus de sensations\n- **Bois des Nutons** : zone de jeux pour les petits (2-11 ans) avec cabanes, trampolines, karts et sentier pieds nus\n- Paintball\n\n## Pourquoi nous le recommandons\n\nC'est le seul parc de la région avec une activité de ce calibre. La Fantasticable à elle seule vaut le déplacement. Et avec le Bois des Nutons, il y en a aussi pour les plus jeunes. Saisonnier — généralement ouvert à partir d'avril.\n\n## Depuis ArdenNest\n\nÀ 20 minutes en voiture, juste de l'autre côté de la frontière française près de Fumay. N'oubliez pas votre passeport ou carte d'identité.",
+        "openingHours": "Avril - novembre (consultez le calendrier sur le site)",
+        "seo": {
+          "title": "Terraltitude Fumay — Fantasticable & Parc Aventure | ArdenNest",
+          "description": "Volez à 100 km/h au-dessus de la Meuse sur la Fantasticable. Accrobranche, catapulte et zone de jeux pour les petits. Juste de l'autre côté de la frontière française, 20 min d'ArdenNest."
+        }
       },
       "cap-nature-bertrix": {
         "title": "Cap Nature (Bertrix)",
         "description": "Parcours aventure et sports outdoor près de l'ardoisière. Belle combinaison sport et nature.",
-        "highlights": ["Dès Pâques"]
+        "highlights": ["Dès Pâques"],
+        "fullDescription": "Cap Nature à Bertrix est un accrobranche juste à côté de l'ardoisière Au Cœur de l'Ardoise — parfait à combiner donc. Le parc propose 10 parcours pour tous les âges et niveaux, avec au total 500 mètres de tyroliennes sur 12 lignes différentes et 70 exercices différents.\n\n## Ce que vous pouvez faire\n\n- 10 parcours aventure de facile à vertigineux\n- Pom-Pom Adventure pour les tout-petits\n- Pont de singe, pont tibétain, saut de Tarzan, filets acrobatiques et tyroliennes\n- Sécurité comme priorité : contrôle annuel par Vinçotte\n\n## Pourquoi nous le recommandons\n\nLa combinaison avec l'ardoisière à côté en fait une journée complète. Le matin dans les profondeurs, l'après-midi dans les hauteurs. Ouvert dès les vacances de Pâques.\n\n**Conseil :** Combinez avec [Au Cœur de l'Ardoise](/surroundings/active/leisteengroeve-bertrix) pour une journée complète à Bertrix.\n\n## Depuis ArdenNest\n\nÀ 25 minutes en voiture direction Bertrix.",
+        "openingHours": "Dès les vacances de Pâques",
+        "seo": {
+          "title": "Cap Nature Bertrix — Accrobranche & Parcours Aventure | ArdenNest",
+          "description": "10 parcours d'escalade, 500m de tyroliennes et 70 exercices à Bertrix. Pour tous les âges. Combinez avec l'ardoisière. 25 min d'ArdenNest."
+        }
       },
       "recrealle": {
         "title": "Récréalle",
         "description": "Domaine récréatif complet au bord de la Semois avec location de kayaks, VTT, minigolf et plaine de jeux intérieure.",
-        "highlights": ["Pour tous les goûts"]
+        "highlights": ["Pour tous les goûts"],
+        "fullDescription": "Récréalle à Alle-sur-Semois est le couteau suisse des domaines récréatifs. En un seul endroit, vous trouvez tout : kayak sur la Semois, minigolf, mur d'escalade, bowling, paintball, château gonflable, patinoire, tir à l'arc et même une zone de baignade en rivière.\n\n## Ce que vous pouvez faire\n\n- Kayak sur la Semois (parcours de 7-11 km, €22-€25)\n- Mur d'escalade de 11 mètres (dès 8 ans)\n- Bowling, minigolf 18 trous, tennis de table\n- Château gonflable + Acro Game pour enfants\n- Aqua-bike, Segway, e-bike et location de VTT\n- Bazooka ball, paintball, tir à l'arc\n- Zone de baignade gratuite et plaine de jeux\n- Restaurant, brasserie et possibilité BBQ\n\n## Pourquoi nous le recommandons\n\nLa destination idéale par temps de pluie (bowling, mur d'escalade, snooker en intérieur) mais aussi parfait par beau temps (kayak, baignade, minigolf). Pratique quand vous avez un groupe d'âges variés — chacun trouve quelque chose ici.\n\n## Depuis ArdenNest\n\nÀ 25 minutes en voiture direction Vresse-sur-Semois et Alle-sur-Semois.",
+        "seo": {
+          "title": "Récréalle — Domaine récréatif sur la Semois | ArdenNest",
+          "description": "Kayak, mur d'escalade, bowling, minigolf, baignade et plus en un seul endroit sur la Semois. Idéal pour les familles avec enfants. 25 min d'ArdenNest."
+        }
       },
       "leisteengroeve-bertrix": {
         "title": "Au Cœur de l'Ardoise — Ardoisière",
         "description": "Plongez dans l'histoire de la région. Visite captivante de l'ancienne ardoisière en profondeur. Toujours 10°C — idéal par temps de pluie.",
-        "highlights": ["Par tous les temps", "Souterrain"]
+        "highlights": ["Par tous les temps", "Souterrain"],
+        "fullDescription": "Au Cœur de l'Ardoise est une ancienne ardoisière à Bertrix où vous descendez 25 mètres sous terre dans l'histoire des Ardennes. La mine était active jusqu'en 1976, et aujourd'hui vous traversez des salles gigantesques taillées dans la roche à l'explosif.\n\n## Ce que vous pouvez faire\n\n- Visite souterraine guidée d'1 heure à travers près d'1 km de galeries\n- Audioguide en NL, FR et même wallon (haut-parleurs, pas de casque, pour pouvoir parler avec les enfants)\n- Optionnel : visite avec un ancien mineur (réserver 10 jours à l'avance, max 25 personnes)\n- Mine Gourmande : visite + repas 3 services avec produits locaux (à partir de 10 personnes)\n- Dégustation de bières souterraine (groupes à partir de 10 personnes)\n- Combinaison avec Cap Nature accrobranche à côté (€32/élève pour une journée complète)\n\n## Pourquoi nous le recommandons\n\nIndépendant de la météo — il fait toujours 10°C sous terre. Parfait par temps de pluie. Habillez-vous chaudement. Combinez avec Cap Nature pour une journée complète : matin sous terre, après-midi dans les arbres.\n\n**Attention :** Le domaine est actuellement en rénovation. Visites, apéros et repas restent possibles. E-Train et trottinettes temporairement indisponibles.\n\n**Conseil :** Combinez avec [Cap Nature](/surroundings/active/cap-nature-bertrix) pour une journée complète à Bertrix.\n\n## Depuis ArdenNest\n\nÀ 25 minutes en voiture direction Bertrix.",
+        "openingHours": "Weekends + vacances scolaires (sauf lundi). Groupes quotidiennement sur réservation.",
+        "seo": {
+          "title": "Au Cœur de l'Ardoise — Ardoisière Bertrix | ArdenNest",
+          "description": "Descendez 25 mètres dans une ancienne ardoisière. Toujours 10°C, idéal par temps de pluie. Audioguide en NL/FR. Combinez avec accrobranche Cap Nature. 25 min d'ArdenNest."
+        }
       }
     },
     "exclusive": {
@@ -210,7 +244,13 @@
         "title": "Le Dropping ArdenNest",
         "description": "Une aventure personnalisée où Christophe trace l'itinéraire. Les parents déposent les enfants — à eux de retrouver le chemin du retour. Édition jour ou Twilight (+12 ans).",
         "highlights": ["Exclusif", "+12 ans"],
-        "distance": "À la porte"
+        "distance": "À la porte",
+        "fullDescription": "Le Dropping ArdenNest est l'une de ces expériences qu'on ne peut réserver nulle part. Christophe — le propriétaire — trace un itinéraire à travers les forêts et les champs autour de Malvoisin. Les parents déposent les enfants à un endroit secret, et ensemble ils doivent retrouver le chemin de la maison de vacances.\n\n## Deux éditions\n\n- **Édition jour** : en journée, sur un beau parcours à travers les environs. Adapté aux enfants dès 12 ans.\n- **Édition Twilight** : au crépuscule, pour ceux qui veulent plus de sensations. Uniquement pour les +12 ans.\n\n## Comment ça marche ?\n\nDemandez simplement à Christophe à l'arrivée ou à l'avance par mail. Il adapte le parcours à l'âge et au nombre de participants. Cartes, indices et numéro d'urgence sont fournis.\n\n## Pourquoi nous le recommandons\n\nParce que ça n'existe pas en dehors d'ArdenNest. Pas de billets, pas de file d'attente, pas de commerce. Juste une aventure sur mesure, dans votre propre jardin temporaire.",
+        "askUponArrival": "Demandez à l'arrivée",
+        "seo": {
+          "title": "Le Dropping ArdenNest — Exclusif pour nos hôtes | ArdenNest",
+          "description": "Un dropping sur mesure à travers les forêts de Malvoisin. Édition jour ou twilight. Exclusivement pour les hôtes d'ArdenNest. Dès 12 ans."
+        }
       }
     },
     "attractions": {
