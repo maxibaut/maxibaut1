@@ -775,9 +775,9 @@ const Surroundings = () => {
       </section>
 
       {/* Exclusief voor gasten — distinct green background */}
-      <section id="exclusief" className="py-16 md:py-20" style={{ backgroundColor: 'hsl(150 25% 92%)' }}>
+      <section id="exclusief" className="py-20 md:py-28" style={{ backgroundColor: 'hsl(150 25% 92%)' }}>
         <div className="container-luxury">
-          <div className="flex items-center gap-3 mb-2">
+          <div className="flex items-center gap-3 pt-12 pb-6 mb-2">
             <div className="w-12 h-12 rounded-full bg-primary/15 flex items-center justify-center">
               <Star className="h-6 w-6 text-primary" />
             </div>
