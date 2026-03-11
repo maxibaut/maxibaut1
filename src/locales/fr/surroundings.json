@@ -68,7 +68,7 @@
     "title": "Exclusif pour nos hôtes",
     "description": "Des expériences introuvables ailleurs — réservées exclusivement aux hôtes d'ArdenNest."
   },
-  "askUs": "Demandez",
+  "askUs": "Réservez par e-mail",
   "attractions": {
     "title": "Attractions",
     "description": "Les Ardennes ont beaucoup à offrir. Ces destinations sont parfaites pour une excursion d'une journée."
@@ -245,8 +245,8 @@
         "description": "Une aventure personnalisée où Christophe trace l'itinéraire. Les parents déposent les enfants — à eux de retrouver le chemin du retour. Édition jour ou Twilight (+12 ans).",
         "highlights": ["Exclusif", "+12 ans"],
         "distance": "À la porte",
-        "fullDescription": "Le Dropping ArdenNest est l'une de ces expériences qu'on ne peut réserver nulle part. Christophe — le propriétaire — trace un itinéraire à travers les forêts et les champs autour de Malvoisin. Les parents déposent les enfants à un endroit secret, et ensemble ils doivent retrouver le chemin de la maison de vacances.\n\n## Deux éditions\n\n- **Édition jour** : en journée, sur un beau parcours à travers les environs. Adapté aux enfants dès 12 ans.\n- **Édition Twilight** : au crépuscule, pour ceux qui veulent plus de sensations. Uniquement pour les +12 ans.\n\n## Comment ça marche ?\n\nDemandez simplement à Christophe à l'arrivée ou à l'avance par mail. Il adapte le parcours à l'âge et au nombre de participants. Cartes, indices et numéro d'urgence sont fournis.\n\n## Pourquoi nous le recommandons\n\nParce que ça n'existe pas en dehors d'ArdenNest. Pas de billets, pas de file d'attente, pas de commerce. Juste une aventure sur mesure, dans votre propre jardin temporaire.",
-        "askUponArrival": "Demandez à l'arrivée",
+        "fullDescription": "Le Dropping ArdenNest est l'une de ces expériences qu'on ne peut réserver nulle part. Christophe — le propriétaire — trace un itinéraire à travers les forêts et les champs autour de Malvoisin. Les parents déposent les enfants à un endroit secret, et ensemble ils doivent retrouver le chemin de la maison de vacances.\n\n## Deux éditions\n\n- **Édition jour** : en journée, sur un beau parcours à travers les environs. Adapté aux enfants dès 12 ans.\n- **Édition Twilight** : au crépuscule, pour ceux qui veulent plus de sensations. Uniquement pour les +12 ans.\n\n## Comment ça marche ?\n\nEnvoyez un e-mail à Christophe avant votre séjour. Il adapte le parcours à l'âge et au nombre de participants. Cartes, indices et numéro d'urgence sont fournis.\n\n## Pourquoi nous le recommandons\n\nParce que ça n'existe pas en dehors d'ArdenNest. Pas de billets, pas de file d'attente, pas de commerce. Juste une aventure sur mesure, dans votre propre jardin temporaire.",
+        "askUponArrival": "Réservez par e-mail",
         "seo": {
           "title": "Le Dropping ArdenNest — Exclusif pour nos hôtes | ArdenNest",
           "description": "Un dropping sur mesure à travers les forêts de Malvoisin. Édition jour ou twilight. Exclusivement pour les hôtes d'ArdenNest. Dès 12 ans."

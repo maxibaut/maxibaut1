@@ -68,7 +68,7 @@
     "title": "Exclusief voor gasten",
     "description": "Ervaringen die je nergens kunt boeken — enkel voor gasten van ArdenNest."
   },
-  "askUs": "Vraag aan",
+  "askUs": "Reserveer via e-mail",
   "attractions": {
     "title": "Bezienswaardigheden",
     "description": "De Ardennen hebben veel te bieden. Deze bestemmingen zijn perfect voor een daguitstap."
@@ -245,8 +245,8 @@
         "description": "Een gepersonaliseerd avontuur waarbij Christophe een route uitstippelt. De ouders droppen de kinderen — zij moeten hun weg terug naar huis vinden. Dag-editie of Twilight-editie (+12j).",
         "highlights": ["Exclusief", "+12 jaar"],
         "distance": "Aan de voordeur",
-        "fullDescription": "De ArdenNest Dropping is een van die ervaringen die je nergens kunt boeken. Christophe — de eigenaar — stippelt een route uit door de bossen en velden rondom Malvoisin. De ouders droppen de kinderen op een geheime locatie, en zij moeten samen hun weg terug naar het vakantiehuis vinden.\n\n## Twee edities\n\n- **Dag-editie**: overdag, op een mooie route door de omgeving. Geschikt voor kinderen vanaf 12 jaar.\n- **Twilight-editie**: in de schemering, voor wie het spannender wil. Enkel voor +12 jaar.\n\n## Hoe werkt het?\n\nVraag het gewoon aan Christophe bij aankomst of op voorhand via mail. Hij past de route aan op de leeftijd en het aantal deelnemers. Kaarten, hints en een noodtelefoonnummer worden voorzien.\n\n## Waarom wij het aanraden\n\nOmdat het niet bestaat buiten ArdenNest. Geen tickets, geen wachtrij, geen commercieel gedoe. Gewoon een avontuur op maat, in jullie eigen tijdelijke achtertuin.",
-        "askUponArrival": "Vraag aan bij aankomst",
+        "fullDescription": "De ArdenNest Dropping is een van die ervaringen die je nergens kunt boeken. Christophe — de eigenaar — stippelt een route uit door de bossen en velden rondom Malvoisin. De ouders droppen de kinderen op een geheime locatie, en zij moeten samen hun weg terug naar het vakantiehuis vinden.\n\n## Twee edities\n\n- **Dag-editie**: overdag, op een mooie route door de omgeving. Geschikt voor kinderen vanaf 12 jaar.\n- **Twilight-editie**: in de schemering, voor wie het spannender wil. Enkel voor +12 jaar.\n\n## Hoe werkt het?\n\nStuur Christophe een mailtje vóór jullie verblijf. Hij past de route aan op de leeftijd en het aantal deelnemers. Kaarten, hints en een noodtelefoonnummer worden voorzien.\n\n## Waarom wij het aanraden\n\nOmdat het niet bestaat buiten ArdenNest. Geen tickets, geen wachtrij, geen commercieel gedoe. Gewoon een avontuur op maat, in jullie eigen tijdelijke achtertuin.",
+        "askUponArrival": "Reserveer via e-mail",
         "seo": {
           "title": "De ArdenNest Dropping — Exclusief voor gasten | ArdenNest",
           "description": "Een dropping op maat door de bossen van Malvoisin. Dag- of twilight-editie. Enkel voor gasten van ArdenNest. Vanaf 12 jaar."

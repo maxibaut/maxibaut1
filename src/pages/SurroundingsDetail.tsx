@@ -602,7 +602,7 @@ const SurroundingsDetail = () => {
                         </a>
                       </Button>
                     )}
-                    {(item.mapQuery || item.coordinates) && (
+                    {(item.mapQuery || item.coordinates) && !exclusiveData?.isInternal && (
                       <Button asChild variant={walkData?.trainBookingUrl ? 'outline' : 'default'} className="w-full">
                         <a
                           href={`https://www.google.com/maps/dir/?api=1&origin=${encodeURIComponent('ArdenNest, Malvoisin, Belgium')}&destination=${item.mapQuery ? encodeURIComponent(item.mapQuery) : `${item.coordinates!.lat},${item.coordinates!.lng}`}`}
@@ -624,10 +624,10 @@ const SurroundingsDetail = () => {
                     )}
                     {exclusiveData?.isInternal && (
                       <Button asChild variant="default" className="w-full">
-                        <Link to="/contact">
-                          <Phone className="h-4 w-4 mr-2" />
+                        <a href="mailto:christophe@ardennest.be">
+                          <ExternalLink className="h-4 w-4 mr-2" />
                           {askUponArrival}
-                        </Link>
+                        </a>
                       </Button>
                     )}
                   </div>

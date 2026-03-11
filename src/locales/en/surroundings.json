@@ -68,7 +68,7 @@
     "title": "Exclusive for guests",
     "description": "Experiences you can't book anywhere else — exclusively for ArdenNest guests."
   },
-  "askUs": "Ask us",
+  "askUs": "Book via email",
   "attractions": {
     "title": "Attractions",
     "description": "The Ardennes have a lot to offer. These destinations are perfect for a day trip."
@@ -244,8 +244,8 @@
         "description": "A personalised adventure where Christophe maps out a route. Parents drop off the kids — they have to find their way back home. Day edition or Twilight edition (12+).",
         "highlights": ["Exclusive", "Ages 12+"],
         "distance": "At your doorstep",
-        "fullDescription": "The ArdenNest Dropping is one of those experiences you can't book anywhere. Christophe — the owner — maps out a route through the forests and fields around Malvoisin. The parents drop off the kids at a secret location, and together they have to find their way back to the holiday home.\n\n## Two editions\n\n- **Day edition**: during the day, on a scenic route through the surroundings. Suitable for children from 12 years.\n- **Twilight edition**: at dusk, for those who want more excitement. Only for 12+.\n\n## How does it work?\n\nJust ask Christophe upon arrival or in advance by email. He adjusts the route to the age and number of participants. Maps, hints and an emergency phone number are provided.\n\n## Why we recommend it\n\nBecause it doesn't exist outside ArdenNest. No tickets, no queue, no commercial fuss. Just a tailor-made adventure in your own temporary backyard.",
-        "askUponArrival": "Ask upon arrival",
+        "fullDescription": "The ArdenNest Dropping is one of those experiences you can't book anywhere. Christophe — the owner — maps out a route through the forests and fields around Malvoisin. The parents drop off the kids at a secret location, and together they have to find their way back to the holiday home.\n\n## Two editions\n\n- **Day edition**: during the day, on a scenic route through the surroundings. Suitable for children from 12 years.\n- **Twilight edition**: at dusk, for those who want more excitement. Only for 12+.\n\n## How does it work?\n\nEmail Christophe before your stay. He tailors the route to the age and number of participants. Maps, hints and an emergency phone number are provided.\n\n## Why we recommend it\n\nBecause it doesn't exist outside ArdenNest. No tickets, no queue, no commercial fuss. Just a tailor-made adventure in your own temporary backyard.",
+        "askUponArrival": "Book via email",
         "seo": {
           "title": "The ArdenNest Dropping — Exclusive for Guests | ArdenNest",
           "description": "A tailor-made dropping through the forests of Malvoisin. Day or twilight edition. Exclusively for ArdenNest guests. From age 12."
