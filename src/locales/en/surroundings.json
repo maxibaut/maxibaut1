@@ -176,32 +176,66 @@
       "dinant-evasion": {
         "title": "Dinant Evasion — Adventure Park",
         "description": "Spectacular adventure park set in an old quarry above the Meuse. Various courses, death rides and climbing walls.",
-        "highlights": ["Open year-round", "Teens"]
+        "highlights": ["Open year-round", "Teens"],
+        "fullDescription": "Dinant Evasion is an adventure park in an old quarry high above the Meuse, just outside Dinant. It's not your average climbing forest — the setting in the raw rock faces makes it more spectacular than any other park in the region.\n\n## What you can do\n\n- 4 ziplines where you fly up to 60 metres above the quarry\n- Various challenges: Ardennes Challenge (from 10y), Alps Challenge (from 12y), Mont-Blanc Challenge (from 10y)\n- XL Swing, Fun cable and climbing walls\n- Paintball and city game in Dinant\n\n## Why we recommend it\n\nThe park is open year-round — even off-season. Perfect for teens who need an adrenaline fix. Booking is recommended.\n\n## From ArdenNest\n\n30 minutes by car. Via Dinant, towards the Citadel. The park is set high above the town in an old quarry — the drive there is already an experience.",
+        "openingHours": "Year-round — check the website for exact hours",
+        "seo": {
+          "title": "Dinant Evasion — Adventure Park | ArdenNest",
+          "description": "Spectacular adventure park in an old quarry above the Meuse. Ziplines, climbing walls and challenges for teens. 30 min from ArdenNest."
+        }
       },
       "bomenparcours-han": {
         "title": "Treetop Course — Caves of Han",
         "description": "Unique treetop course in the Wildlife Park of Han. A combination of nature and physical challenge.",
-        "highlights": ["All ages", "Combine with Wildlife Park"]
+        "highlights": ["All ages", "Combine with Wildlife Park"],
+        "fullDescription": "Tree Experience is the brand-new treetop course in the Wildlife Park of Han-sur-Lesse. Not a standard climbing forest, but a well-designed course through the canopy with 5 different levels.\n\n## What you can do\n\n- Courses Everjong & Wolfje: easy, for children from 4 years (max 150 cm)\n- Course Beertje: slightly higher, at 2 metres, from 120 cm with supervision\n- Courses Uil & Vleermuis: 10 metres high, for real adventurers (from 10 years, min 130 cm) with 140-metre ziplines\n- Climbing wall (from 4 years) and free fall (min 130 cm)\n\n## Why we recommend it\n\nCombine the treetop course with a visit to the Wildlife Park or the famous Caves of Han. One ticket, a whole day of fun. Estimated duration treetop course: 1h30. Plan for 11:30 for the best comfort.\n\n## Practical tips\n\nLong hair in ponytail, no open shoes, gloves recommended, max 120kg. Children under 12 accompanied by adult.\n\n## From ArdenNest\n\n20 minutes by car towards Rochefort. Combine with the Caves of Han for a full day.",
+        "seo": {
+          "title": "Treetop Course Tree Experience — Caves of Han | ArdenNest",
+          "description": "5 courses through the treetops in the Wildlife Park of Han. 140m ziplines, climbing wall and free fall. From age 4. 20 min from ArdenNest."
+        }
       },
       "terraltitude-fumay": {
         "title": "Terraltitude — Fantasticable",
         "description": "Just across the French border: a zipline at 100 km/h over the Meuse. Pure adrenaline.",
-        "highlights": ["Adrenaline", "Seasonal"]
+        "highlights": ["Adrenaline", "Seasonal"],
+        "fullDescription": "Just across the French border, in Fumay, lies Terraltitude — the adventure park of the Ardennes. The absolute showstopper: the Fantasticable, a 1.2 km zipline where you fly at over 100 km/h above the Meuse. Not for the faint-hearted.\n\n## What you can do\n\n- **Fantasticable**: 1.2 km zipline over the Meuse at 100+ km/h\n- **Accrobranche**: tree climbing course for all levels with suspension bridges, ropes and nets\n- **Catapulte**: get catapulted 18 metres into the air by elastic cords — in 2 seconds\n- **Tour des Aventuriers**: jump tower for those wanting even more thrills\n- **Bois des Nutons**: play area for little ones (2-11 years) with huts, trampolines, karts and barefoot path\n- Paintball\n\n## Why we recommend it\n\nThis is the only park in the region with an activity of this calibre. The Fantasticable alone is worth the trip. And with the Bois des Nutons, there's plenty for younger children too. Seasonal — usually open from April.\n\n## From ArdenNest\n\n20 minutes by car, just across the French border near Fumay. Bring passport or ID card.",
+        "openingHours": "April - November (check the calendar on the website)",
+        "seo": {
+          "title": "Terraltitude Fumay — Fantasticable & Adventure Park | ArdenNest",
+          "description": "Fly at 100 km/h over the Meuse on the Fantasticable. Accrobranche, catapult and play area for little ones. Just across the French border, 20 min from ArdenNest."
+        }
       },
       "cap-nature-bertrix": {
         "title": "Cap Nature (Bertrix)",
         "description": "Adventure courses and outdoor sports near the slate quarry. Great mix of sports and nature.",
-        "highlights": ["From Easter"]
+        "highlights": ["From Easter"],
+        "fullDescription": "Cap Nature in Bertrix is a climbing forest right next to the Au Coeur de l'Ardoise slate quarry — perfect to combine. The park offers 10 courses for all ages and levels, with a total of 500 metres of ziplines across 12 different lines and 70 different exercises.\n\n## What you can do\n\n- 10 adventure courses from easy to vertigo\n- Pom-Pom Adventure for the very youngest\n- Monkey bridge, Tibetan bridge, Tarzan jump, acrobatic nets and ziplines\n- Safety as priority: annual inspection by Vinçotte\n\n## Why we recommend it\n\nThe combination with the slate quarry next door makes for a full day out. Morning underground, afternoon in the trees. Open from Easter holidays.\n\n**Tip:** Combine with [Au Cœur de l'Ardoise](/surroundings/active/leisteengroeve-bertrix) for a full day in Bertrix.\n\n## From ArdenNest\n\n25 minutes by car towards Bertrix.",
+        "openingHours": "From Easter holidays",
+        "seo": {
+          "title": "Cap Nature Bertrix — Climbing Forest & Adventure Courses | ArdenNest",
+          "description": "10 climbing courses, 500m ziplines and 70 exercises in Bertrix. For all ages. Combine with the slate quarry. 25 min from ArdenNest."
+        }
       },
       "recrealle": {
         "title": "Récréalle",
         "description": "Complete recreation area on the Semois with kayak rental, mountain bikes, mini golf and indoor playground.",
-        "highlights": ["Something for everyone"]
+        "highlights": ["Something for everyone"],
+        "fullDescription": "Récréalle in Alle-sur-Semois is the Swiss army knife of recreation areas. In one place you'll find everything: kayaking on the Semois, mini golf, climbing wall, bowling, paintball, bouncy castle, ice rink, archery and even a swimming zone by the river.\n\n## What you can do\n\n- Kayaking on the Semois (7-11 km routes, €22-€25)\n- 11-metre climbing wall (from age 8)\n- Bowling, 18-hole mini golf, table tennis\n- Bouncy castle + Acro Game for children\n- Aqua-bike, Segway, e-bike and mountain bike rental\n- Bazooka ball, paintball, archery\n- Free swimming zone and playground\n- Restaurant, brasserie and BBQ option\n\n## Why we recommend it\n\nThe ideal rainy day destination (bowling, climbing wall, snooker indoors) but also perfect in good weather (kayaking, swimming, mini golf). Handy when you have a group with different ages — everyone finds something here.\n\n## From ArdenNest\n\n25 minutes by car towards Vresse-sur-Semois and Alle-sur-Semois.",
+        "seo": {
+          "title": "Récréalle — Recreation Area on the Semois | ArdenNest",
+          "description": "Kayaking, climbing wall, bowling, mini golf, swimming and more in one place on the Semois. Ideal for families with children. 25 min from ArdenNest."
+        }
       },
       "leisteengroeve-bertrix": {
         "title": "Au Cœur de l'Ardoise — Slate Quarry",
         "description": "Descend into the region's history. Fascinating visit to the old slate quarry deep underground. Always 10°C — perfect on rainy days.",
-        "highlights": ["Rain-proof", "Underground"]
+        "highlights": ["Rain-proof", "Underground"],
+        "fullDescription": "Au Cœur de l'Ardoise is an old slate quarry in Bertrix where you descend 25 metres underground into the history of the Ardennes. The mine was active until 1976, and today you walk through gigantic halls blasted from the rock.\n\n## What you can do\n\n- Underground guided tour of 1 hour through nearly 1 km of galleries\n- Audio guide in NL, FR and even Walloon (speakers, not headphones, so you can talk to the children)\n- Optional: tour with a real former miner (book 10 days ahead, max 25 people)\n- Mine Gourmande: visit + 3-course meal with local produce (from 10 people)\n- Underground beer tasting (groups from 10 people)\n- Combination with Cap Nature climbing forest next door (€32/student for a full day)\n\n## Why we recommend it\n\nWeather-proof — it's always 10°C underground. Perfect on rainy days. Dress warmly. Combine with Cap Nature for a full day: morning underground, afternoon in the trees.\n\n**Note:** The site is currently under renovation. Visits, apéros and meals remain possible. E-Train and e-steps temporarily unavailable.\n\n**Tip:** Combine with [Cap Nature](/surroundings/active/cap-nature-bertrix) for a full day in Bertrix.\n\n## From ArdenNest\n\n25 minutes by car towards Bertrix.",
+        "openingHours": "Weekends + school holidays (except Monday). Groups daily by reservation.",
+        "seo": {
+          "title": "Au Cœur de l'Ardoise — Slate Quarry Bertrix | ArdenNest",
+          "description": "Descend 25 metres into an old slate quarry. Always 10°C, ideal on rainy days. Audio guide in NL/FR. Combine with Cap Nature climbing forest. 25 min from ArdenNest."
+        }
       }
     },
     "exclusive": {
@@ -209,7 +243,13 @@
         "title": "The ArdenNest Dropping",
         "description": "A personalised adventure where Christophe maps out a route. Parents drop off the kids — they have to find their way back home. Day edition or Twilight edition (12+).",
         "highlights": ["Exclusive", "Ages 12+"],
-        "distance": "At your doorstep"
+        "distance": "At your doorstep",
+        "fullDescription": "The ArdenNest Dropping is one of those experiences you can't book anywhere. Christophe — the owner — maps out a route through the forests and fields around Malvoisin. The parents drop off the kids at a secret location, and together they have to find their way back to the holiday home.\n\n## Two editions\n\n- **Day edition**: during the day, on a scenic route through the surroundings. Suitable for children from 12 years.\n- **Twilight edition**: at dusk, for those who want more excitement. Only for 12+.\n\n## How does it work?\n\nJust ask Christophe upon arrival or in advance by email. He adjusts the route to the age and number of participants. Maps, hints and an emergency phone number are provided.\n\n## Why we recommend it\n\nBecause it doesn't exist outside ArdenNest. No tickets, no queue, no commercial fuss. Just a tailor-made adventure in your own temporary backyard.",
+        "askUponArrival": "Ask upon arrival",
+        "seo": {
+          "title": "The ArdenNest Dropping — Exclusive for Guests | ArdenNest",
+          "description": "A tailor-made dropping through the forests of Malvoisin. Day or twilight edition. Exclusively for ArdenNest guests. From age 12."
+        }
       }
     },
     "attractions": {

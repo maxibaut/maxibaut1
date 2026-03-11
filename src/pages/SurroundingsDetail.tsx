@@ -3,8 +3,9 @@ import { useTranslation } from 'react-i18next';
 import { useParams, Navigate } from 'react-router-dom';
 import { LocalizedLink as Link } from '@/components/LocalizedLink';
 import { useLanguagePrefix } from '@/hooks/useLanguagePrefix';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import DOMPurify from 'dompurify';
+import { useSEO } from '@/hooks/useSEO';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { Card, CardContent } from '@/components/ui/card';
@@ -39,13 +40,22 @@ import {
   SurroundingsCategory,
   WalkItem,
   CyclingItem,
+  ActiveItem,
   RestaurantItem,
   ShopItem,
   ExclusiveItem,
 } from '@/data/surroundings';
+import {
+  Breadcrumb,
+  BreadcrumbList,
+  BreadcrumbItem,
+  BreadcrumbLink,
+  BreadcrumbSeparator,
+  BreadcrumbPage,
+} from '@/components/ui/breadcrumb';
 
 const SurroundingsDetail = () => {
-  const { t } = useTranslation('surroundings');
+  const { t, i18n } = useTranslation('surroundings');
   const { category, slug } = useParams<{ category: SurroundingsCategory; slug: string }>();
   const [lightboxOpen, setLightboxOpen] = useState(false);
   const [lightboxIndex, setLightboxIndex] = useState(0);
@@ -53,18 +63,11 @@ const SurroundingsDetail = () => {
 
   // Validate category
   const validCategories: SurroundingsCategory[] = ['walks', 'cycling', 'active', 'exclusive', 'attractions', 'restaurants', 'shops'];
-  if (!category || !validCategories.includes(category as SurroundingsCategory)) {
-    return <Navigate to={localizedPath('/surroundings')} replace />;
-  }
+  const isValidCategory = category && validCategories.includes(category as SurroundingsCategory);
+  const item = isValidCategory ? getItemBySlug(category as SurroundingsCategory, slug || '') : undefined;
 
-  // Get item data
-  const item = getItemBySlug(category as SurroundingsCategory, slug || '');
-  if (!item) {
-    return <Navigate to={localizedPath('/surroundings')} replace />;
-  }
-
-  // Get translated content
-  const title = t(`items.${category}.${slug}.title`, { defaultValue: slug });
+  // Get translated content (safe to call even when item doesn't exist — t() returns defaults)
+  const title = t(`items.${category}.${slug}.title`, { defaultValue: slug || '' });
   const description = t(`items.${category}.${slug}.description`, { defaultValue: '' });
   const fullDescription = t(`items.${category}.${slug}.fullDescription`, { defaultValue: description });
   const highlights = t(`items.${category}.${slug}.highlights`, { returnObjects: true, defaultValue: [] }) as string[];
@@ -72,6 +75,48 @@ const SurroundingsDetail = () => {
   const tip = t(`items.${category}.${slug}.tip`, { defaultValue: '' });
   const routeSteps = t(`items.${category}.${slug}.routeSteps`, { returnObjects: true, defaultValue: [] }) as string[];
   const trainBookingButton = t(`items.${category}.${slug}.trainBookingButton`, { defaultValue: '' });
+  const openingHours = t(`items.${category}.${slug}.openingHours`, { defaultValue: '' });
+  const askUponArrival = t(`items.${category}.${slug}.askUponArrival`, { defaultValue: t('askUs') });
+
+  // Per-subpage SEO
+  const seoTitle = t(`items.${category}.${slug}.seo.title`, { defaultValue: '' });
+  useSEO(seoTitle ? {
+    titleKey: `items.${category}.${slug}.seo.title`,
+    descriptionKey: `items.${category}.${slug}.seo.description`,
+    namespace: 'surroundings',
+  } : undefined);
+
+  // JSON-LD structured data for active/exclusive items
+  useEffect(() => {
+    if ((category === 'active' || category === 'exclusive') && item?.coordinates) {
+      const jsonLd = {
+        '@context': 'https://schema.org',
+        '@type': 'TouristAttraction',
+        name: title,
+        description: description,
+        ...(item.address && { address: { '@type': 'PostalAddress', streetAddress: item.address } }),
+        geo: {
+          '@type': 'GeoCoordinates',
+          latitude: item.coordinates.lat,
+          longitude: item.coordinates.lng,
+        },
+        ...(item.externalUrl && { url: item.externalUrl }),
+        ...(item.images?.[0] && { image: item.images[0] }),
+        ...(openingHours && { openingHours }),
+      };
+      const script = document.createElement('script');
+      script.type = 'application/ld+json';
+      script.id = `jsonld-${slug}`;
+      script.textContent = JSON.stringify(jsonLd);
+      document.head.appendChild(script);
+      return () => { document.getElementById(`jsonld-${slug}`)?.remove(); };
+    }
+  }, [category, slug, title, description, item, openingHours]);
+
+  // Redirect if invalid
+  if (!isValidCategory || !item) {
+    return <Navigate to={localizedPath('/surroundings')} replace />;
+  }
 
   // Open lightbox
   const openLightbox = (index: number) => {
@@ -347,9 +392,11 @@ const SurroundingsDetail = () => {
                         {listItems.map((listItem, itemIdx) => {
                           const formattedText = listItem
                             .replace('- ', '')
-                            .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+                            .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+                            .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" class="text-primary underline hover:text-primary/80">$1</a>');
                           const sanitizedText = DOMPurify.sanitize(formattedText, {
-                            ALLOWED_TAGS: ['strong', 'em', 'b', 'i'],
+                            ALLOWED_TAGS: ['strong', 'em', 'b', 'i', 'a'],
+                            ALLOWED_ATTR: ['href', 'class'],
                           });
                           return (
                             <li 
@@ -362,10 +409,13 @@ const SurroundingsDetail = () => {
                       </ul>
                     );
                   }
-                  // Handle regular paragraphs with potential bold text
-                  const formattedParagraph = paragraph.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+                  // Handle regular paragraphs with bold text and markdown links
+                  let formattedParagraph = paragraph
+                    .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+                    .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" class="text-primary underline hover:text-primary/80">$1</a>');
                   const sanitizedParagraph = DOMPurify.sanitize(formattedParagraph, {
-                    ALLOWED_TAGS: ['strong', 'em', 'b', 'i'],
+                    ALLOWED_TAGS: ['strong', 'em', 'b', 'i', 'a'],
+                    ALLOWED_ATTR: ['href', 'class'],
                   });
                   // After the first paragraph following the bike section heading, inject the bike image
                   const showBikeImage = cyclingData?.bikeImage && bikeSectionPassed;
@@ -529,12 +579,12 @@ const SurroundingsDetail = () => {
                     </div>
                   )}
 
-                  {(shopData || restaurantData) && (
+                  {openingHours && (
                     <div className="flex items-start gap-3">
                       <Clock className="h-5 w-5 text-muted-foreground mt-0.5" />
                       <div>
                         <p className="text-sm text-muted-foreground">{t('contactInfo.openingHours')}</p>
-                        <p className="font-medium text-sm">{t(`items.${category}.${slug}.openingHours`, { defaultValue: '' })}</p>
+                        <p className="font-medium text-sm">{openingHours}</p>
                       </div>
                     </div>
                   )}
@@ -576,7 +626,7 @@ const SurroundingsDetail = () => {
                       <Button asChild variant="default" className="w-full">
                         <Link to="/contact">
                           <Phone className="h-4 w-4 mr-2" />
-                          {t('askUs')}
+                          {askUponArrival}
                         </Link>
                       </Button>
                     )}

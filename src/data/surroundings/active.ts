@@ -1,4 +1,5 @@
 import { ActiveItem } from './types';
+import { activeImages } from '@/assets/active';
 
 export const active: ActiveItem[] = [
   {
@@ -6,9 +7,12 @@ export const active: ActiveItem[] = [
     slug: 'dinant-evasion',
     category: 'active',
     distance: '30 min',
-    externalUrl: 'https://www.dinant-evasion.be/nl/adventure-park.html',
+    externalUrl: 'https://www.dinant-evasion.be/nl/activites',
     coordinates: { lat: 50.2603, lng: 4.9122 },
-    mapQuery: 'Dinant Evasion, Dinant, Belgium',
+    mapQuery: 'Dinant Evasion, Rue de la Carrière 1, 5500 Dinant, Belgium',
+    heroImage: activeImages.dinantEvasion[0],
+    images: activeImages.dinantEvasion,
+    address: 'Rue de la Carrière 1, 5500 Dinant',
   },
   {
     id: 2,
@@ -17,7 +21,10 @@ export const active: ActiveItem[] = [
     distance: '20 min',
     externalUrl: 'https://grotte-de-han.be/nl/bomenparcours',
     coordinates: { lat: 50.1260, lng: 5.1870 },
-    mapQuery: 'Grotte de Han, Han-sur-Lesse, Belgium',
+    mapQuery: 'Domaine des Grottes de Han, Han-sur-Lesse, Belgium',
+    heroImage: activeImages.bomenparcours[0],
+    images: activeImages.bomenparcours,
+    address: 'Domaine des Grottes de Han, Han-sur-Lesse',
   },
   {
     id: 3,
@@ -27,6 +34,9 @@ export const active: ActiveItem[] = [
     externalUrl: 'https://www.terraltitude.com',
     coordinates: { lat: 49.9890, lng: 4.7080 },
     mapQuery: 'Terraltitude, Fumay, France',
+    heroImage: activeImages.terraltitude[0],
+    images: activeImages.terraltitude,
+    address: 'Fumay, France',
   },
   {
     id: 4,
@@ -36,6 +46,9 @@ export const active: ActiveItem[] = [
     externalUrl: 'https://www.capnature.be',
     coordinates: { lat: 49.8560, lng: 5.2530 },
     mapQuery: 'Cap Nature, Bertrix, Belgium',
+    heroImage: activeImages.capNature[0],
+    images: activeImages.capNature,
+    address: 'Bertrix',
   },
   {
     id: 5,
@@ -45,6 +58,9 @@ export const active: ActiveItem[] = [
     externalUrl: 'https://www.recrealle.com',
     coordinates: { lat: 49.8030, lng: 5.0380 },
     mapQuery: 'Récréalle, Alle-sur-Semois, Belgium',
+    heroImage: activeImages.recrealle[0],
+    images: activeImages.recrealle,
+    address: 'Alle-sur-Semois',
   },
   {
     id: 6,
@@ -53,6 +69,9 @@ export const active: ActiveItem[] = [
     distance: '25 min',
     externalUrl: 'http://www.aucoeurdelardoise.be',
     coordinates: { lat: 49.8560, lng: 5.2530 },
-    mapQuery: 'Au Coeur de l\'Ardoise, Bertrix, Belgium',
+    mapQuery: "Au Coeur de l'Ardoise, Bertrix, Belgium",
+    heroImage: activeImages.leisteengroeve[0],
+    images: activeImages.leisteengroeve,
+    address: 'Domaine La Morépire, Bertrix',
   },
 ];
