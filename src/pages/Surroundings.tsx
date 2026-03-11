@@ -614,9 +614,9 @@ const Surroundings = () => {
       </section>
 
       {/* Bezienswaardigheden */}
-      <section id="bezienswaardigheden" className="section-padding bg-cream-dark">
+      <section id="bezienswaardigheden" className="section-padding bg-background">
         <div className="container-luxury">
-          <div className="flex items-center gap-3 mb-8">
+          <div className="flex items-center gap-3 pt-12 pb-6 mb-8">
             <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center">
               <Landmark className="h-6 w-6 text-primary" />
             </div>
