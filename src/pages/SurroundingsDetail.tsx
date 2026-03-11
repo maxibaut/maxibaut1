@@ -572,6 +572,14 @@ const SurroundingsDetail = () => {
                         </a>
                       </Button>
                     )}
+                    {exclusiveData?.isInternal && (
+                      <Button asChild variant="default" className="w-full">
+                        <Link to="/contact">
+                          <Phone className="h-4 w-4 mr-2" />
+                          {t('askUs')}
+                        </Link>
+                      </Button>
+                    )}
                   </div>
                 </CardContent>
               </Card>
