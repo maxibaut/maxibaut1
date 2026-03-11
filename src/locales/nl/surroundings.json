@@ -48,6 +48,15 @@
     "included": "Inbegrepen",
     "departure": "Vertrek"
   },
+  "active": {
+    "title": "Actief & Avontuur",
+    "description": "Klim, vlieg en klauter — de Ardennen zijn één groot speelterrein voor kinderen en tieners."
+  },
+  "exclusive": {
+    "title": "Exclusief voor gasten",
+    "description": "Ervaringen die je nergens kunt boeken — enkel voor gasten van ArdenNest."
+  },
+  "askUs": "Vraag aan",
   "attractions": {
     "title": "Bezienswaardigheden",
     "description": "De Ardennen hebben veel te bieden. Deze bestemmingen zijn perfect voor een daguitstap."
