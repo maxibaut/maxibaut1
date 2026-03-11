@@ -63,18 +63,11 @@ const SurroundingsDetail = () => {
 
   // Validate category
   const validCategories: SurroundingsCategory[] = ['walks', 'cycling', 'active', 'exclusive', 'attractions', 'restaurants', 'shops'];
-  if (!category || !validCategories.includes(category as SurroundingsCategory)) {
-    return <Navigate to={localizedPath('/surroundings')} replace />;
-  }
+  const isValidCategory = category && validCategories.includes(category as SurroundingsCategory);
+  const item = isValidCategory ? getItemBySlug(category as SurroundingsCategory, slug || '') : undefined;
 
-  // Get item data
-  const item = getItemBySlug(category as SurroundingsCategory, slug || '');
-  if (!item) {
-    return <Navigate to={localizedPath('/surroundings')} replace />;
-  }
-
-  // Get translated content
-  const title = t(`items.${category}.${slug}.title`, { defaultValue: slug });
+  // Get translated content (safe to call even when item doesn't exist — t() returns defaults)
+  const title = t(`items.${category}.${slug}.title`, { defaultValue: slug || '' });
   const description = t(`items.${category}.${slug}.description`, { defaultValue: '' });
   const fullDescription = t(`items.${category}.${slug}.fullDescription`, { defaultValue: description });
   const highlights = t(`items.${category}.${slug}.highlights`, { returnObjects: true, defaultValue: [] }) as string[];
@@ -87,7 +80,6 @@ const SurroundingsDetail = () => {
 
   // Per-subpage SEO
   const seoTitle = t(`items.${category}.${slug}.seo.title`, { defaultValue: '' });
-  const seoDescription = t(`items.${category}.${slug}.seo.description`, { defaultValue: '' });
   useSEO(seoTitle ? {
     titleKey: `items.${category}.${slug}.seo.title`,
     descriptionKey: `items.${category}.${slug}.seo.description`,
@@ -96,7 +88,7 @@ const SurroundingsDetail = () => {
 
   // JSON-LD structured data for active/exclusive items
   useEffect(() => {
-    if ((category === 'active' || category === 'exclusive') && item.coordinates) {
+    if ((category === 'active' || category === 'exclusive') && item?.coordinates) {
       const jsonLd = {
         '@context': 'https://schema.org',
         '@type': 'TouristAttraction',
@@ -120,6 +112,11 @@ const SurroundingsDetail = () => {
       return () => { document.getElementById(`jsonld-${slug}`)?.remove(); };
     }
   }, [category, slug, title, description, item, openingHours]);
+
+  // Redirect if invalid
+  if (!isValidCategory || !item) {
+    return <Navigate to={localizedPath('/surroundings')} replace />;
+  }
 
   // Open lightbox
   const openLightbox = (index: number) => {
