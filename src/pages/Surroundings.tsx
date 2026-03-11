@@ -18,6 +18,9 @@ import {
   TreePine,
   ChevronRight,
   Home,
+  Zap,
+  Star,
+  MessageCircle,
 } from 'lucide-react';
 import { walks, cycling, attractions, restaurants, shops } from '@/data/surroundings';
 import FritesCone from '@/components/icons/FritesCone';
