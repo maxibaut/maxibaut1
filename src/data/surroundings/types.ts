@@ -1,7 +1,7 @@
 // Types for surroundings items - technical data structure
 // Translations are handled in locale JSON files
 
-export type SurroundingsCategory = 'walks' | 'cycling' | 'attractions' | 'restaurants' | 'shops';
+export type SurroundingsCategory = 'walks' | 'cycling' | 'active' | 'exclusive' | 'attractions' | 'restaurants' | 'shops';
 
 export type Difficulty = 'easy' | 'medium' | 'hard';
 
@@ -71,8 +71,19 @@ export interface ShopItem extends SurroundingsItemBase {
   shopType: string; // Will be translated via locale key
 }
 
+// Active adventure-specific fields
+export interface ActiveItem extends SurroundingsItemBase {
+  category: 'active';
+}
+
+// Exclusive experience-specific fields
+export interface ExclusiveItem extends SurroundingsItemBase {
+  category: 'exclusive';
+  isInternal?: boolean; // No external URL, internal ArdenNest experience
+}
+
 // Union type for all item types
-export type SurroundingsItem = WalkItem | CyclingItem | AttractionItem | RestaurantItem | ShopItem;
+export type SurroundingsItem = WalkItem | CyclingItem | ActiveItem | ExclusiveItem | AttractionItem | RestaurantItem | ShopItem;
 
 // Helper to get locale key path for an item
 export const getLocaleKey = (item: SurroundingsItemBase, field: string): string => {

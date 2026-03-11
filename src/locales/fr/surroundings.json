@@ -1,7 +1,7 @@
 {
   "seo": {
-    "title": "Environs | ArdenNest - Randonnées, vélo et attractions",
-    "description": "Découvrez les plus beaux endroits autour d'ArdenNest. Sentiers de randonnée, pistes cyclables, restaurants et attractions dans les Ardennes."
+    "title": "Environs | ArdenNest — Randonnées, vélo, aventure et curiosités",
+    "description": "Découvrez les plus beaux endroits autour d'ArdenNest. Sentiers de randonnée, pistes cyclables, parcs d'aventure pour enfants et ados, restaurants et curiosités dans les Ardennes."
   },
   "title": "Les Environs",
   "h1": "Randonnées, pistes cyclables et attractions près d'ArdenNest",
@@ -48,6 +48,15 @@
     "included": "Fournis",
     "departure": "Départ"
   },
+  "active": {
+    "title": "Actif & Aventure",
+    "description": "Grimpez, volez et escaladez — les Ardennes sont un immense terrain de jeu pour les enfants et les ados."
+  },
+  "exclusive": {
+    "title": "Exclusif pour nos hôtes",
+    "description": "Des expériences introuvables ailleurs — réservées exclusivement aux hôtes d'ArdenNest."
+  },
+  "askUs": "Demandez",
   "attractions": {
     "title": "Attractions",
     "description": "Les Ardennes ont beaucoup à offrir. Ces destinations sont parfaites pour une excursion d'une journée."
@@ -150,6 +159,46 @@
         "pricingShortNote": "Départ du Castel Saint-Pierre de Beauraing",
         "pricingLongNote": "Livraison et nettoyage compris",
         "pricingIncluded": "Casque, kit de réparation, parcours personnalisés"
+      }
+    },
+    "active": {
+      "dinant-evasion": {
+        "title": "Dinant Evasion — Parc Aventure",
+        "description": "Parc d'aventure spectaculaire dans une ancienne carrière surplombant la Meuse. Parcours variés, tyroliennes et murs d'escalade.",
+        "highlights": ["Ouvert toute l'année", "Ados"]
+      },
+      "bomenparcours-han": {
+        "title": "Parcours dans les arbres — Grottes de Han",
+        "description": "Parcours unique dans la canopée du Parc Animalier de Han. Une combinaison d'immersion nature et de défi physique.",
+        "highlights": ["Tous âges", "À combiner avec le Parc Animalier"]
+      },
+      "terraltitude-fumay": {
+        "title": "Terraltitude — Fantasticable",
+        "description": "Juste de l'autre côté de la frontière française : une tyrolienne à 100 km/h au-dessus de la Meuse. Adrénaline garantie.",
+        "highlights": ["Adrénaline", "Saisonnier"]
+      },
+      "cap-nature-bertrix": {
+        "title": "Cap Nature (Bertrix)",
+        "description": "Parcours aventure et sports outdoor près de l'ardoisière. Belle combinaison sport et nature.",
+        "highlights": ["Dès Pâques"]
+      },
+      "recrealle": {
+        "title": "Récréalle",
+        "description": "Domaine récréatif complet au bord de la Semois avec location de kayaks, VTT, minigolf et plaine de jeux intérieure.",
+        "highlights": ["Pour tous les goûts"]
+      },
+      "leisteengroeve-bertrix": {
+        "title": "Au Cœur de l'Ardoise — Ardoisière",
+        "description": "Plongez dans l'histoire de la région. Visite captivante de l'ancienne ardoisière en profondeur. Toujours 10°C — idéal par temps de pluie.",
+        "highlights": ["Par tous les temps", "Souterrain"]
+      }
+    },
+    "exclusive": {
+      "ardennest-dropping": {
+        "title": "Le Dropping ArdenNest",
+        "description": "Une aventure personnalisée où Christophe trace l'itinéraire. Les parents déposent les enfants — à eux de retrouver le chemin du retour. Édition jour ou Twilight (+12 ans).",
+        "highlights": ["Exclusif", "+12 ans"],
+        "distance": "À la porte"
       }
     },
     "attractions": {

@@ -1,7 +1,7 @@
 {
   "seo": {
-    "title": "Omgeving | ArdenNest - Wandelingen, fietsen en bezienswaardigheden",
-    "description": "Ontdek de mooiste plekjes rondom ArdenNest. Wandelroutes, fietsroutes, restaurants en bezienswaardigheden in de Ardennen."
+    "title": "Omgeving | ArdenNest — Wandelingen, fietsen, avontuur en bezienswaardigheden",
+    "description": "Ontdek de mooiste plekjes rondom ArdenNest. Wandelroutes, fietsroutes, avonturenparken voor kinderen en tieners, restaurants en bezienswaardigheden in de Ardennen."
   },
   "title": "De Omgeving",
   "h1": "Wandelingen, fietsroutes en bezienswaardigheden bij ArdenNest",
@@ -48,6 +48,15 @@
     "included": "Inbegrepen",
     "departure": "Vertrek"
   },
+  "active": {
+    "title": "Actief & Avontuur",
+    "description": "Klim, vlieg en klauter — de Ardennen zijn één groot speelterrein voor kinderen en tieners."
+  },
+  "exclusive": {
+    "title": "Exclusief voor gasten",
+    "description": "Ervaringen die je nergens kunt boeken — enkel voor gasten van ArdenNest."
+  },
+  "askUs": "Vraag aan",
   "attractions": {
     "title": "Bezienswaardigheden",
     "description": "De Ardennen hebben veel te bieden. Deze bestemmingen zijn perfect voor een daguitstap."
@@ -150,6 +159,46 @@
         "pricingShortNote": "Vertrek vanuit Castel Saint-Pierre de Beauraing",
         "pricingLongNote": "Levering en reiniging inbegrepen",
         "pricingIncluded": "Helm, reparatieset, gepersonaliseerde routes"
+      }
+    },
+    "active": {
+      "dinant-evasion": {
+        "title": "Dinant Evasion — Adventure Park",
+        "description": "Spectaculair uitdagingspark in een oude steengroeve boven de Maas. Diverse parcours, deathrides en klimmuren.",
+        "highlights": ["Hele jaar open", "Pubers & tieners"]
+      },
+      "bomenparcours-han": {
+        "title": "Bomenparcours — Grotten van Han",
+        "description": "Uniek parcours tussen de boomtoppen in het Wildpark van Han. Combinatie van natuurbeleving en fysieke uitdaging.",
+        "highlights": ["Alle leeftijden", "Combineer met Wildpark"]
+      },
+      "terraltitude-fumay": {
+        "title": "Terraltitude — Fantasticable",
+        "description": "Net over de Franse grens: een zipline waarbij je met 100 km/u over de Maas vliegt. Adrenaline ten top.",
+        "highlights": ["Adrenaline", "Seizoensgebonden"]
+      },
+      "cap-nature-bertrix": {
+        "title": "Cap Nature (Bertrix)",
+        "description": "Avontuurlijke parcours en outdoorsporten bij de leisteengroeve. Mooie combinatie van sport en natuur.",
+        "highlights": ["Vanaf Pasen"]
+      },
+      "recrealle": {
+        "title": "Récréalle",
+        "description": "Compleet recreatiedomein aan de Semois met kajakverhuur, mountainbikes, minigolf en binnenspeeltuin.",
+        "highlights": ["Voor elk wat wils"]
+      },
+      "leisteengroeve-bertrix": {
+        "title": "Au Cœur de l'Ardoise — Leisteengroeve",
+        "description": "Daal af in de geschiedenis van de regio. Boeiend bezoek aan de oude leisteengroeve diep onder de grond. Altijd 10°C — ideaal bij regenweer.",
+        "highlights": ["Weersonafhankelijk", "Ondergronds"]
+      }
+    },
+    "exclusive": {
+      "ardennest-dropping": {
+        "title": "De ArdenNest Dropping",
+        "description": "Een gepersonaliseerd avontuur waarbij Christophe een route uitstippelt. De ouders droppen de kinderen — zij moeten hun weg terug naar huis vinden. Dag-editie of Twilight-editie (+12j).",
+        "highlights": ["Exclusief", "+12 jaar"],
+        "distance": "Aan de voordeur"
       }
     },
     "attractions": {

@@ -3,12 +3,16 @@
 export * from './types';
 export { walks } from './walks';
 export { cycling } from './cycling';
+export { active } from './active';
+export { exclusive } from './exclusive';
 export { attractions } from './attractions';
 export { restaurants } from './restaurants';
 export { shops } from './shops';
 
 import { walks } from './walks';
 import { cycling } from './cycling';
+import { active } from './active';
+import { exclusive } from './exclusive';
 import { attractions } from './attractions';
 import { restaurants } from './restaurants';
 import { shops } from './shops';
@@ -21,6 +25,10 @@ export const getItemsByCategory = (category: SurroundingsCategory): Surroundings
       return walks;
     case 'cycling':
       return cycling;
+    case 'active':
+      return active;
+    case 'exclusive':
+      return exclusive;
     case 'attractions':
       return attractions;
     case 'restaurants':
@@ -43,5 +51,5 @@ export const getItemBySlug = (
 
 // Get all items
 export const getAllItems = (): SurroundingsItem[] => {
-  return [...walks, ...cycling, ...attractions, ...restaurants, ...shops];
+  return [...walks, ...cycling, ...active, ...exclusive, ...attractions, ...restaurants, ...shops];
 };

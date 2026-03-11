@@ -32,6 +32,7 @@ import {
   ChevronLeft,
   ChevronRight,
   Phone,
+  Home,
 } from 'lucide-react';
 import {
   getItemBySlug,
@@ -40,6 +41,7 @@ import {
   CyclingItem,
   RestaurantItem,
   ShopItem,
+  ExclusiveItem,
 } from '@/data/surroundings';
 
 const SurroundingsDetail = () => {
@@ -50,7 +52,7 @@ const SurroundingsDetail = () => {
   const { localizedPath } = useLanguagePrefix();
 
   // Validate category
-  const validCategories: SurroundingsCategory[] = ['walks', 'cycling', 'attractions', 'restaurants', 'shops'];
+  const validCategories: SurroundingsCategory[] = ['walks', 'cycling', 'active', 'exclusive', 'attractions', 'restaurants', 'shops'];
   if (!category || !validCategories.includes(category as SurroundingsCategory)) {
     return <Navigate to={localizedPath('/surroundings')} replace />;
   }
@@ -84,6 +86,10 @@ const SurroundingsDetail = () => {
         return <Footprints className="h-6 w-6" />;
       case 'cycling':
         return <Bike className="h-6 w-6" />;
+      case 'active':
+        return <Landmark className="h-6 w-6" />;
+      case 'exclusive':
+        return <MapPin className="h-6 w-6" />;
       case 'attractions':
         return <Landmark className="h-6 w-6" />;
       case 'restaurants':
@@ -112,8 +118,12 @@ const SurroundingsDetail = () => {
   // Type-specific data
   const walkData = item.category === 'walks' ? (item as WalkItem) : null;
   const cyclingData = item.category === 'cycling' ? (item as CyclingItem) : null;
+  const exclusiveData = item.category === 'exclusive' ? (item as ExclusiveItem) : null;
   const restaurantData = item.category === 'restaurants' ? (item as RestaurantItem) : null;
   const shopData = item.category === 'shops' ? (item as ShopItem) : null;
+
+  // Translated distance for exclusive items
+  const exclusiveDistance = exclusiveData ? t(`items.exclusive.${slug}.distance`, { defaultValue: '' }) : '';
 
   // Track which heading was last seen to inject inline images after it
   let bikeSectionPassed = false;
@@ -164,12 +174,17 @@ const SurroundingsDetail = () => {
 
           {/* Quick info badges */}
           <div className="flex flex-wrap gap-3 mt-6">
-            {item.distance && (
+            {exclusiveDistance ? (
+              <Badge variant="secondary" className="gap-1 bg-primary-foreground/20 text-primary-foreground">
+                <Home className="h-3 w-3" />
+                {exclusiveDistance}
+              </Badge>
+            ) : item.distance ? (
               <Badge variant="secondary" className="gap-1 bg-primary-foreground/20 text-primary-foreground">
                 <MapPin className="h-3 w-3" />
                 {item.distance} {t('fromProperty')}
               </Badge>
-            )}
+            ) : null}
             {walkData && (
               <>
                 <Badge variant="secondary" className="gap-1 bg-primary-foreground/20 text-primary-foreground">
@@ -555,6 +570,14 @@ const SurroundingsDetail = () => {
                           <ExternalLink className="h-4 w-4 mr-2" />
                           {t('visitWebsite')}
                         </a>
+                      </Button>
+                    )}
+                    {exclusiveData?.isInternal && (
+                      <Button asChild variant="default" className="w-full">
+                        <Link to="/contact">
+                          <Phone className="h-4 w-4 mr-2" />
+                          {t('askUs')}
+                        </Link>
                       </Button>
                     )}
                   </div>

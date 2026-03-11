@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { PageWrapper } from '@/components/layout';
 import { useTranslation } from 'react-i18next';
 import { LocalizedLink as Link } from '@/components/LocalizedLink';
@@ -18,14 +19,107 @@ import {
   TreePine,
   ChevronRight,
   Home,
+  Zap,
+  Star,
+  MessageCircle,
 } from 'lucide-react';
-import { walks, cycling, attractions, restaurants, shops } from '@/data/surroundings';
+import { walks, cycling, active, exclusive, attractions, restaurants, shops } from '@/data/surroundings';
+import { ExclusiveItem } from '@/data/surroundings/types';
 import FritesCone from '@/components/icons/FritesCone';
 import { useSEO } from '@/hooks/useSEO';
 
 const Surroundings = () => {
-  const { t } = useTranslation('surroundings');
+  const { t, i18n } = useTranslation('surroundings');
   useSEO();
+
+  // Add geo meta tags and JSON-LD structured data
+  useEffect(() => {
+    // Geo meta tags
+    const geoTags = [
+      { name: 'geo.region', content: 'BE-WNA' },
+      { name: 'geo.placename', content: 'Malvoisin, Gedinne' },
+      { name: 'geo.position', content: '49.9750;4.9380' },
+      { name: 'ICBM', content: '49.9750, 4.9380' },
+    ];
+    
+    const createdMetas: HTMLMetaElement[] = [];
+    geoTags.forEach(({ name, content }) => {
+      let meta = document.querySelector(`meta[name="${name}"]`) as HTMLMetaElement;
+      if (!meta) {
+        meta = document.createElement('meta');
+        meta.setAttribute('name', name);
+        document.head.appendChild(meta);
+        createdMetas.push(meta);
+      }
+      meta.setAttribute('content', content);
+    });
+
+    // JSON-LD structured data for activities
+    const jsonLd = {
+      '@context': 'https://schema.org',
+      '@graph': [
+        {
+          '@type': 'TouristAttraction',
+          name: 'Dinant Evasion — Adventure Park',
+          url: 'https://www.dinant-evasion.be/nl/adventure-park.html',
+          geo: { '@type': 'GeoCoordinates', latitude: 50.2603, longitude: 4.9122 },
+          address: { '@type': 'PostalAddress', addressLocality: 'Dinant', addressCountry: 'BE' },
+        },
+        {
+          '@type': 'TouristAttraction',
+          name: 'Bomenparcours — Grotten van Han',
+          url: 'https://grotte-de-han.be/nl/bomenparcours',
+          geo: { '@type': 'GeoCoordinates', latitude: 50.1260, longitude: 5.1870 },
+          address: { '@type': 'PostalAddress', addressLocality: 'Han-sur-Lesse', addressCountry: 'BE' },
+        },
+        {
+          '@type': 'TouristAttraction',
+          name: 'Terraltitude — Fantasticable',
+          url: 'https://www.terraltitude.com',
+          geo: { '@type': 'GeoCoordinates', latitude: 49.9890, longitude: 4.7080 },
+          address: { '@type': 'PostalAddress', addressLocality: 'Fumay', addressCountry: 'FR' },
+        },
+        {
+          '@type': 'TouristAttraction',
+          name: 'Cap Nature Bertrix',
+          url: 'https://www.capnature.be',
+          geo: { '@type': 'GeoCoordinates', latitude: 49.8560, longitude: 5.2530 },
+          address: { '@type': 'PostalAddress', addressLocality: 'Bertrix', addressCountry: 'BE' },
+        },
+        {
+          '@type': 'TouristAttraction',
+          name: 'Récréalle',
+          url: 'https://www.recrealle.com',
+          geo: { '@type': 'GeoCoordinates', latitude: 49.8030, longitude: 5.0380 },
+          address: { '@type': 'PostalAddress', addressLocality: 'Alle-sur-Semois', addressCountry: 'BE' },
+        },
+        {
+          '@type': 'TouristAttraction',
+          name: "Au Cœur de l'Ardoise",
+          url: 'http://www.aucoeurdelardoise.be',
+          geo: { '@type': 'GeoCoordinates', latitude: 49.8560, longitude: 5.2530 },
+          address: { '@type': 'PostalAddress', addressLocality: 'Bertrix', addressCountry: 'BE' },
+        },
+        {
+          '@type': 'TouristAttraction',
+          name: 'De ArdenNest Dropping',
+          description: 'Exclusive personalised adventure for ArdenNest guests',
+          geo: { '@type': 'GeoCoordinates', latitude: 49.9750, longitude: 4.9380 },
+          address: { '@type': 'PostalAddress', addressLocality: 'Gedinne', addressCountry: 'BE' },
+        },
+      ],
+    };
+
+    const script = document.createElement('script');
+    script.type = 'application/ld+json';
+    script.textContent = JSON.stringify(jsonLd);
+    document.head.appendChild(script);
+
+    return () => {
+      createdMetas.forEach(m => m.remove());
+      script.remove();
+    };
+  }, [i18n.language]);
 
   const getDifficultyColor = (difficulty: string) => {
     switch (difficulty) {
@@ -311,6 +405,137 @@ const Surroundings = () => {
                       <div className="flex items-center gap-1 text-sm text-primary group-hover:gap-2 transition-all pt-2">
                         {t('moreInfo')}
                         <ChevronRight className="h-4 w-4" />
+                      </div>
+                    </CardContent>
+                  </Card>
+                </Link>
+              );
+            })}
+          </div>
+        </div>
+      </section>
+
+      {/* Actief & Avontuur */}
+      <section id="actief" className="section-padding bg-background">
+        <div className="container-luxury">
+          <div className="flex items-center gap-3 mb-8">
+            <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center">
+              <Zap className="h-6 w-6 text-primary" />
+            </div>
+            <h2 className="heading-2">{t('active.title')}</h2>
+          </div>
+          <p className="body-large text-muted-foreground mb-8 max-w-2xl">
+            {t('active.description')}
+          </p>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {active.map((item) => {
+              const title = t(`items.active.${item.slug}.title`, { defaultValue: item.slug });
+              const description = t(`items.active.${item.slug}.description`, { defaultValue: '' });
+              const highlights = t(`items.active.${item.slug}.highlights`, { returnObjects: true, defaultValue: [] }) as string[];
+
+              return (
+                <Link key={item.id} to={`/surroundings/active/${item.slug}`}>
+                  <Card className="hover:shadow-lg transition-all hover:-translate-y-1 h-full group cursor-pointer">
+                    <CardHeader className="pb-2">
+                      <div className="flex items-start justify-between gap-2">
+                        <CardTitle className="font-serif text-lg leading-tight group-hover:text-primary transition-colors">
+                          {title}
+                        </CardTitle>
+                        <Badge variant="secondary" className="gap-1 flex-shrink-0">
+                          <MapPin className="h-3 w-3" />
+                          {item.distance}
+                        </Badge>
+                      </div>
+                    </CardHeader>
+                    <CardContent className="space-y-4">
+                      <p className="text-sm text-muted-foreground line-clamp-2">{description}</p>
+                      
+                      {Array.isArray(highlights) && highlights.length > 0 && (
+                        <div className="flex flex-wrap gap-2">
+                          {highlights.map((highlight, idx) => (
+                            <Badge key={idx} variant="outline">
+                              {highlight}
+                            </Badge>
+                          ))}
+                        </div>
+                      )}
+
+                      <div className="flex items-center gap-1 text-sm text-primary group-hover:gap-2 transition-all pt-2">
+                        {t('moreInfo')}
+                        <ChevronRight className="h-4 w-4" />
+                      </div>
+                    </CardContent>
+                  </Card>
+                </Link>
+              );
+            })}
+          </div>
+        </div>
+      </section>
+
+      {/* Exclusief voor gasten */}
+      <section id="exclusief" className="section-padding bg-cream-dark">
+        <div className="container-luxury">
+          <div className="flex items-center gap-3 mb-8">
+            <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center">
+              <Star className="h-6 w-6 text-primary" />
+            </div>
+            <h2 className="heading-2">{t('exclusive.title')}</h2>
+          </div>
+          <p className="body-large text-muted-foreground mb-8 max-w-2xl">
+            {t('exclusive.description')}
+          </p>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {exclusive.map((item) => {
+              const title = t(`items.exclusive.${item.slug}.title`, { defaultValue: item.slug });
+              const description = t(`items.exclusive.${item.slug}.description`, { defaultValue: '' });
+              const highlights = t(`items.exclusive.${item.slug}.highlights`, { returnObjects: true, defaultValue: [] }) as string[];
+              const distanceLabel = t(`items.exclusive.${item.slug}.distance`, { defaultValue: '' });
+              const isInternal = (item as ExclusiveItem).isInternal;
+
+              return (
+                <Link key={item.id} to={`/surroundings/exclusive/${item.slug}`}>
+                  <Card className="hover:shadow-lg transition-all hover:-translate-y-1 h-full group cursor-pointer border-primary/20">
+                    <CardHeader className="pb-2">
+                      <div className="flex items-start justify-between gap-2">
+                        <CardTitle className="font-serif text-lg leading-tight group-hover:text-primary transition-colors">
+                          {title}
+                        </CardTitle>
+                        {distanceLabel && (
+                          <Badge variant="secondary" className="gap-1 flex-shrink-0">
+                            <Home className="h-3 w-3" />
+                            {distanceLabel}
+                          </Badge>
+                        )}
+                      </div>
+                    </CardHeader>
+                    <CardContent className="space-y-4">
+                      <p className="text-sm text-muted-foreground line-clamp-3">{description}</p>
+                      
+                      {Array.isArray(highlights) && highlights.length > 0 && (
+                        <div className="flex flex-wrap gap-2">
+                          {highlights.map((highlight, idx) => (
+                            <Badge key={idx} variant="outline" className="border-primary/30 text-primary">
+                              {highlight}
+                            </Badge>
+                          ))}
+                        </div>
+                      )}
+
+                      <div className="flex items-center gap-1 text-sm text-primary group-hover:gap-2 transition-all pt-2">
+                        {isInternal ? (
+                          <>
+                            <MessageCircle className="h-4 w-4" />
+                            {t('askUs')}
+                          </>
+                        ) : (
+                          <>
+                            {t('moreInfo')}
+                            <ChevronRight className="h-4 w-4" />
+                          </>
+                        )}
                       </div>
                     </CardContent>
                   </Card>

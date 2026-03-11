@@ -1,0 +1,58 @@
+import { ActiveItem } from './types';
+
+export const active: ActiveItem[] = [
+  {
+    id: 1,
+    slug: 'dinant-evasion',
+    category: 'active',
+    distance: '30 min',
+    externalUrl: 'https://www.dinant-evasion.be/nl/adventure-park.html',
+    coordinates: { lat: 50.2603, lng: 4.9122 },
+    mapQuery: 'Dinant Evasion, Dinant, Belgium',
+  },
+  {
+    id: 2,
+    slug: 'bomenparcours-han',
+    category: 'active',
+    distance: '20 min',
+    externalUrl: 'https://grotte-de-han.be/nl/bomenparcours',
+    coordinates: { lat: 50.1260, lng: 5.1870 },
+    mapQuery: 'Grotte de Han, Han-sur-Lesse, Belgium',
+  },
+  {
+    id: 3,
+    slug: 'terraltitude-fumay',
+    category: 'active',
+    distance: '20 min',
+    externalUrl: 'https://www.terraltitude.com',
+    coordinates: { lat: 49.9890, lng: 4.7080 },
+    mapQuery: 'Terraltitude, Fumay, France',
+  },
+  {
+    id: 4,
+    slug: 'cap-nature-bertrix',
+    category: 'active',
+    distance: '25 min',
+    externalUrl: 'https://www.capnature.be',
+    coordinates: { lat: 49.8560, lng: 5.2530 },
+    mapQuery: 'Cap Nature, Bertrix, Belgium',
+  },
+  {
+    id: 5,
+    slug: 'recrealle',
+    category: 'active',
+    distance: '25 min',
+    externalUrl: 'https://www.recrealle.com',
+    coordinates: { lat: 49.8030, lng: 5.0380 },
+    mapQuery: 'Récréalle, Alle-sur-Semois, Belgium',
+  },
+  {
+    id: 6,
+    slug: 'leisteengroeve-bertrix',
+    category: 'active',
+    distance: '25 min',
+    externalUrl: 'http://www.aucoeurdelardoise.be',
+    coordinates: { lat: 49.8560, lng: 5.2530 },
+    mapQuery: 'Au Coeur de l\'Ardoise, Bertrix, Belgium',
+  },
+];
