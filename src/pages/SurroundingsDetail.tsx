@@ -40,6 +40,7 @@ import {
   CyclingItem,
   RestaurantItem,
   ShopItem,
+  ExclusiveItem,
 } from '@/data/surroundings';
 
 const SurroundingsDetail = () => {
