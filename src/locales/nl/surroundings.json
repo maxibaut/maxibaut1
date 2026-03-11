@@ -161,6 +161,46 @@
         "pricingIncluded": "Helm, reparatieset, gepersonaliseerde routes"
       }
     },
+    "active": {
+      "dinant-evasion": {
+        "title": "Dinant Evasion — Adventure Park",
+        "description": "Spectaculair uitdagingspark in een oude steengroeve boven de Maas. Diverse parcours, deathrides en klimmuren.",
+        "highlights": ["Hele jaar open", "Pubers & tieners"]
+      },
+      "bomenparcours-han": {
+        "title": "Bomenparcours — Grotten van Han",
+        "description": "Uniek parcours tussen de boomtoppen in het Wildpark van Han. Combinatie van natuurbeleving en fysieke uitdaging.",
+        "highlights": ["Alle leeftijden", "Combineer met Wildpark"]
+      },
+      "terraltitude-fumay": {
+        "title": "Terraltitude — Fantasticable",
+        "description": "Net over de Franse grens: een zipline waarbij je met 100 km/u over de Maas vliegt. Adrenaline ten top.",
+        "highlights": ["Adrenaline", "Seizoensgebonden"]
+      },
+      "cap-nature-bertrix": {
+        "title": "Cap Nature (Bertrix)",
+        "description": "Avontuurlijke parcours en outdoorsporten bij de leisteengroeve. Mooie combinatie van sport en natuur.",
+        "highlights": ["Vanaf Pasen"]
+      },
+      "recrealle": {
+        "title": "Récréalle",
+        "description": "Compleet recreatiedomein aan de Semois met kajakverhuur, mountainbikes, minigolf en binnenspeeltuin.",
+        "highlights": ["Voor elk wat wils"]
+      },
+      "leisteengroeve-bertrix": {
+        "title": "Au Cœur de l'Ardoise — Leisteengroeve",
+        "description": "Daal af in de geschiedenis van de regio. Boeiend bezoek aan de oude leisteengroeve diep onder de grond. Altijd 10°C — ideaal bij regenweer.",
+        "highlights": ["Weersonafhankelijk", "Ondergronds"]
+      }
+    },
+    "exclusive": {
+      "ardennest-dropping": {
+        "title": "De ArdenNest Dropping",
+        "description": "Een gepersonaliseerd avontuur waarbij Christophe een route uitstippelt. De ouders droppen de kinderen — zij moeten hun weg terug naar huis vinden. Dag-editie of Twilight-editie (+12j).",
+        "highlights": ["Exclusief", "+12 jaar"],
+        "distance": "Aan de voordeur"
+      }
+    },
     "attractions": {
       "dinant": {
         "title": "Dinant",
