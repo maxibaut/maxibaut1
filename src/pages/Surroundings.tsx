@@ -22,7 +22,8 @@ import {
   Star,
   MessageCircle,
 } from 'lucide-react';
-import { walks, cycling, attractions, restaurants, shops } from '@/data/surroundings';
+import { walks, cycling, active, exclusive, attractions, restaurants, shops } from '@/data/surroundings';
+import { ExclusiveItem } from '@/data/surroundings/types';
 import FritesCone from '@/components/icons/FritesCone';
 import { useSEO } from '@/hooks/useSEO';
 
