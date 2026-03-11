@@ -392,9 +392,11 @@ const SurroundingsDetail = () => {
                         {listItems.map((listItem, itemIdx) => {
                           const formattedText = listItem
                             .replace('- ', '')
-                            .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+                            .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+                            .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" class="text-primary underline hover:text-primary/80">$1</a>');
                           const sanitizedText = DOMPurify.sanitize(formattedText, {
-                            ALLOWED_TAGS: ['strong', 'em', 'b', 'i'],
+                            ALLOWED_TAGS: ['strong', 'em', 'b', 'i', 'a'],
+                            ALLOWED_ATTR: ['href', 'class'],
                           });
                           return (
                             <li 
