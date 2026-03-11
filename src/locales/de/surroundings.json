@@ -7,6 +7,18 @@
   "h1": "Wanderungen, Radrouten und Sehenswürdigkeiten bei ArdenNest",
   "subtitle": "Entdecken Sie die schönsten Orte rund um ArdenNest",
   "intro": "Obwohl die meisten Gäste lieber auf dem Gelände bleiben - der Garten ist schließlich groß genug - gibt es in der Umgebung viel zu erleben. Hier finden Sie unsere persönlichen Empfehlungen.",
+  "nav": {
+    "walksNearby": "Wandern (nah)",
+    "walksArea": "Wandern (Umgebung)",
+    "cycling": "Radfahren",
+    "active": "Aktiv & Abenteuer",
+    "attractions": "Sehenswürdigkeiten",
+    "restaurants": "Restaurants",
+    "shops": "Geschäfte",
+    "exclusive": "Exklusiv"
+  },
+  "exclusiveBadge": "Exklusiv für ArdenNest-Gäste",
+  "linkCopied": "Link kopiert!",
   "backToOverview": "Zurück zur Übersicht",
   "practicalInfo": "Praktische Infos",
   "openInMaps": "Sehen Sie Ihre Route ab dem Ferienhaus",

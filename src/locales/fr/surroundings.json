@@ -7,6 +7,18 @@
   "h1": "Randonnées, pistes cyclables et attractions près d'ArdenNest",
   "subtitle": "Découvrez les plus beaux endroits autour d'ArdenNest",
   "intro": "Bien que la plupart des invités préfèrent rester sur le domaine - le jardin est assez grand après tout - il y a beaucoup à découvrir dans les environs. Voici nos recommandations personnelles.",
+  "nav": {
+    "walksNearby": "Rando (proches)",
+    "walksArea": "Rando (environs)",
+    "cycling": "Vélo",
+    "active": "Actif & Aventure",
+    "attractions": "Curiosités",
+    "restaurants": "Restaurants",
+    "shops": "Magasins",
+    "exclusive": "Exclusif"
+  },
+  "exclusiveBadge": "Exclusif pour nos hôtes",
+  "linkCopied": "Lien copié !",
   "backToOverview": "Retour à l'aperçu",
   "practicalInfo": "Infos pratiques",
   "openInMaps": "Voir votre itinéraire depuis la maison de vacances",

@@ -7,6 +7,18 @@
   "h1": "Walks, cycling routes and attractions near ArdenNest",
   "subtitle": "Discover the most beautiful spots around ArdenNest",
   "intro": "Although most guests prefer to stay on the property - the garden is big enough after all - there is plenty to experience in the area. Below you'll find our personal recommendations.",
+  "nav": {
+    "walksNearby": "Walks (nearby)",
+    "walksArea": "Walks (area)",
+    "cycling": "Cycling",
+    "active": "Active & Adventure",
+    "attractions": "Attractions",
+    "restaurants": "Restaurants",
+    "shops": "Shops",
+    "exclusive": "Exclusive"
+  },
+  "exclusiveBadge": "ArdenNest guests only",
+  "linkCopied": "Link copied!",
   "backToOverview": "Back to overview",
   "practicalInfo": "Practical info",
   "openInMaps": "View your route from the holiday home",

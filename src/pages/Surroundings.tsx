@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { useEffect, useRef, useState, useCallback } from 'react';
 import { PageWrapper } from '@/components/layout';
 import { useTranslation } from 'react-i18next';
 import { LocalizedLink as Link } from '@/components/LocalizedLink';
@@ -22,15 +22,109 @@ import {
   Zap,
   Star,
   MessageCircle,
+  Link as LinkIcon,
 } from 'lucide-react';
 import { walks, cycling, active, exclusive, attractions, restaurants, shops } from '@/data/surroundings';
 import { ExclusiveItem } from '@/data/surroundings/types';
 import FritesCone from '@/components/icons/FritesCone';
 import { useSEO } from '@/hooks/useSEO';
+import { toast } from 'sonner';
+
+const NAV_SECTIONS = [
+  { id: 'wandelen-dichtbij', key: 'walksNearby', icon: Footprints },
+  { id: 'wandelen-omgeving', key: 'walksArea', icon: MapPin },
+  { id: 'fietsen', key: 'cycling', icon: Bike },
+  { id: 'actief-avontuur', key: 'active', icon: Zap },
+  { id: 'bezienswaardigheden', key: 'attractions', icon: Landmark },
+  { id: 'restaurants', key: 'restaurants', icon: UtensilsCrossed },
+  { id: 'winkels', key: 'shops', icon: ShoppingBag },
+  { id: 'exclusief', key: 'exclusive', icon: Star },
+] as const;
+
+const SectionAnchor = ({ id, title, t }: { id: string; title: string; t: (key: string) => string }) => {
+  const copyLink = useCallback((e: React.MouseEvent) => {
+    e.preventDefault();
+    e.stopPropagation();
+    const url = `${window.location.origin}${window.location.pathname}#${id}`;
+    navigator.clipboard.writeText(url);
+    toast.success(t('linkCopied'));
+  }, [id, t]);
+
+  return (
+    <div className="flex items-center gap-3">
+      <h2 className="heading-2 group">
+        {title}
+        <button
+          onClick={copyLink}
+          className="inline-flex items-center ml-2 opacity-0 group-hover:opacity-100 transition-opacity text-muted-foreground hover:text-primary"
+          aria-label="Copy link"
+        >
+          <LinkIcon className="h-4 w-4" />
+        </button>
+      </h2>
+    </div>
+  );
+};
 
 const Surroundings = () => {
   const { t, i18n } = useTranslation('surroundings');
   useSEO();
+
+  const [activeSection, setActiveSection] = useState<string>('wandelen-dichtbij');
+  const [isNavSticky, setIsNavSticky] = useState(false);
+  const navRef = useRef<HTMLDivElement>(null);
+  const navSentinelRef = useRef<HTMLDivElement>(null);
+  const activeTabRef = useRef<HTMLButtonElement>(null);
+
+  // Sticky nav detection
+  useEffect(() => {
+    const sentinel = navSentinelRef.current;
+    if (!sentinel) return;
+    const observer = new IntersectionObserver(
+      ([entry]) => setIsNavSticky(!entry.isIntersecting),
+      { threshold: 0, rootMargin: '-64px 0px 0px 0px' } // 64px = header height
+    );
+    observer.observe(sentinel);
+    return () => observer.disconnect();
+  }, []);
+
+  // Active section detection via intersection observer
+  useEffect(() => {
+    const sectionEls = NAV_SECTIONS.map(s => document.getElementById(s.id)).filter(Boolean) as HTMLElement[];
+    if (!sectionEls.length) return;
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        // Find the most visible section
+        const visible = entries
+          .filter(e => e.isIntersecting)
+          .sort((a, b) => b.intersectionRatio - a.intersectionRatio);
+        if (visible.length > 0) {
+          setActiveSection(visible[0].target.id);
+        }
+      },
+      { threshold: [0.1, 0.3, 0.5], rootMargin: '-80px 0px -40% 0px' }
+    );
+
+    sectionEls.forEach(el => observer.observe(el));
+    return () => observer.disconnect();
+  }, []);
+
+  // Auto-scroll active tab into view on mobile
+  useEffect(() => {
+    if (activeTabRef.current) {
+      activeTabRef.current.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+    }
+  }, [activeSection]);
+
+  const scrollToSection = (id: string) => {
+    const el = document.getElementById(id);
+    if (el) {
+      const headerOffset = 64 + 56; // header + nav height
+      const y = el.getBoundingClientRect().top + window.scrollY - headerOffset;
+      window.scrollTo({ top: y, behavior: 'smooth' });
+    }
+  };
 
   // Add geo meta tags and JSON-LD structured data
   useEffect(() => {
@@ -171,14 +265,59 @@ const Surroundings = () => {
         </div>
       </section>
 
+      {/* Nav sentinel — when this scrolls out of view, nav becomes sticky */}
+      <div ref={navSentinelRef} className="h-0" />
+
+      {/* Sticky Category Navigation */}
+      <div
+        ref={navRef}
+        className={`${
+          isNavSticky ? 'fixed top-16 left-0 right-0 z-40 shadow-md' : 'relative'
+        } bg-background border-b border-border/40 transition-shadow duration-200`}
+      >
+        <div className="container-luxury">
+          <nav
+            className="flex items-center gap-1 overflow-x-auto scrollbar-hide py-2 relative"
+            aria-label="Section navigation"
+            style={{
+              maskImage: 'linear-gradient(to right, transparent 0, black 16px, black calc(100% - 16px), transparent 100%)',
+              WebkitMaskImage: 'linear-gradient(to right, transparent 0, black 16px, black calc(100% - 16px), transparent 100%)',
+            }}
+          >
+            {NAV_SECTIONS.map((section) => {
+              const Icon = section.icon;
+              const isActive = activeSection === section.id;
+              return (
+                <button
+                  key={section.id}
+                  ref={isActive ? activeTabRef : undefined}
+                  onClick={() => scrollToSection(section.id)}
+                  className={`flex items-center gap-1.5 px-3 py-2 text-sm font-medium whitespace-nowrap rounded-md transition-all flex-shrink-0 ${
+                    isActive
+                      ? 'text-primary border-b-2 border-primary bg-primary/5'
+                      : 'text-muted-foreground hover:text-foreground hover:bg-muted/50'
+                  }`}
+                >
+                  <Icon className="h-4 w-4" />
+                  {t(`nav.${section.key}`)}
+                </button>
+              );
+            })}
+          </nav>
+        </div>
+      </div>
+
+      {/* Spacer when nav is sticky */}
+      {isNavSticky && <div className="h-[52px]" />}
+
       {/* Wandelingen vanaf ArdenNest */}
-      <section id="wandelingen" className="section-padding bg-cream-dark">
+      <section id="wandelen-dichtbij" className="section-padding bg-cream-dark">
         <div className="container-luxury">
           <div className="flex items-center gap-3 mb-8">
             <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center">
               <Home className="h-6 w-6 text-primary" />
             </div>
-            <h2 className="heading-2">{t('walks.fromPropertyTitle')}</h2>
+            <SectionAnchor id="wandelen-dichtbij" title={t('walks.fromPropertyTitle')} t={t} />
           </div>
           <p className="body-large text-muted-foreground mb-8 max-w-2xl">
             {t('walks.fromPropertyDescription')}
@@ -264,13 +403,13 @@ const Surroundings = () => {
       </section>
 
       {/* Wandelingen in de omgeving */}
-      <section className="section-padding bg-background">
+      <section id="wandelen-omgeving" className="section-padding bg-background">
         <div className="container-luxury">
           <div className="flex items-center gap-3 mb-8">
             <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center">
               <Footprints className="h-6 w-6 text-primary" />
             </div>
-            <h2 className="heading-2">{t('walks.nearbyTitle')}</h2>
+            <SectionAnchor id="wandelen-omgeving" title={t('walks.nearbyTitle')} t={t} />
           </div>
           <p className="body-large text-muted-foreground mb-8 max-w-2xl">
             {t('walks.nearbyDescription')}
@@ -361,7 +500,7 @@ const Surroundings = () => {
             <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center">
               <Bike className="h-6 w-6 text-primary" />
             </div>
-            <h2 className="heading-2">{t('cycling.title')}</h2>
+            <SectionAnchor id="fietsen" title={t('cycling.title')} t={t} />
           </div>
           <p className="body-large text-muted-foreground mb-8 max-w-2xl">
             {t('cycling.description')}
@@ -416,13 +555,13 @@ const Surroundings = () => {
       </section>
 
       {/* Actief & Avontuur */}
-      <section id="actief" className="section-padding bg-background">
+      <section id="actief-avontuur" className="section-padding bg-background">
         <div className="container-luxury">
           <div className="flex items-center gap-3 mb-8">
             <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center">
               <Zap className="h-6 w-6 text-primary" />
             </div>
-            <h2 className="heading-2">{t('active.title')}</h2>
+            <SectionAnchor id="actief-avontuur" title={t('active.title')} t={t} />
           </div>
           <p className="body-large text-muted-foreground mb-8 max-w-2xl">
             {t('active.description')}
@@ -474,86 +613,14 @@ const Surroundings = () => {
         </div>
       </section>
 
-      {/* Exclusief voor gasten */}
-      <section id="exclusief" className="section-padding bg-cream-dark">
-        <div className="container-luxury">
-          <div className="flex items-center gap-3 mb-8">
-            <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center">
-              <Star className="h-6 w-6 text-primary" />
-            </div>
-            <h2 className="heading-2">{t('exclusive.title')}</h2>
-          </div>
-          <p className="body-large text-muted-foreground mb-8 max-w-2xl">
-            {t('exclusive.description')}
-          </p>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {exclusive.map((item) => {
-              const title = t(`items.exclusive.${item.slug}.title`, { defaultValue: item.slug });
-              const description = t(`items.exclusive.${item.slug}.description`, { defaultValue: '' });
-              const highlights = t(`items.exclusive.${item.slug}.highlights`, { returnObjects: true, defaultValue: [] }) as string[];
-              const distanceLabel = t(`items.exclusive.${item.slug}.distance`, { defaultValue: '' });
-              const isInternal = (item as ExclusiveItem).isInternal;
-
-              return (
-                <Link key={item.id} to={`/surroundings/exclusive/${item.slug}`}>
-                  <Card className="hover:shadow-lg transition-all hover:-translate-y-1 h-full group cursor-pointer border-primary/20">
-                    <CardHeader className="pb-2">
-                      <div className="flex items-start justify-between gap-2">
-                        <CardTitle className="font-serif text-lg leading-tight group-hover:text-primary transition-colors">
-                          {title}
-                        </CardTitle>
-                        {distanceLabel && (
-                          <Badge variant="secondary" className="gap-1 flex-shrink-0">
-                            <Home className="h-3 w-3" />
-                            {distanceLabel}
-                          </Badge>
-                        )}
-                      </div>
-                    </CardHeader>
-                    <CardContent className="space-y-4">
-                      <p className="text-sm text-muted-foreground line-clamp-3">{description}</p>
-                      
-                      {Array.isArray(highlights) && highlights.length > 0 && (
-                        <div className="flex flex-wrap gap-2">
-                          {highlights.map((highlight, idx) => (
-                            <Badge key={idx} variant="outline" className="border-primary/30 text-primary">
-                              {highlight}
-                            </Badge>
-                          ))}
-                        </div>
-                      )}
-
-                      <div className="flex items-center gap-1 text-sm text-primary group-hover:gap-2 transition-all pt-2">
-                        {isInternal ? (
-                          <>
-                            <MessageCircle className="h-4 w-4" />
-                            {t('askUs')}
-                          </>
-                        ) : (
-                          <>
-                            {t('moreInfo')}
-                            <ChevronRight className="h-4 w-4" />
-                          </>
-                        )}
-                      </div>
-                    </CardContent>
-                  </Card>
-                </Link>
-              );
-            })}
-          </div>
-        </div>
-      </section>
-
       {/* Bezienswaardigheden */}
-      <section id="bezienswaardigheden" className="section-padding bg-background">
+      <section id="bezienswaardigheden" className="section-padding bg-cream-dark">
         <div className="container-luxury">
           <div className="flex items-center gap-3 mb-8">
             <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center">
               <Landmark className="h-6 w-6 text-primary" />
             </div>
-            <h2 className="heading-2">{t('attractions.title')}</h2>
+            <SectionAnchor id="bezienswaardigheden" title={t('attractions.title')} t={t} />
           </div>
           <p className="body-large text-muted-foreground mb-8 max-w-2xl">
             {t('attractions.description')}
@@ -606,13 +673,13 @@ const Surroundings = () => {
       </section>
 
       {/* Restaurants */}
-      <section id="restaurants" className="section-padding bg-cream-dark">
+      <section id="restaurants" className="section-padding bg-background">
         <div className="container-luxury">
           <div className="flex items-center gap-3 mb-8">
             <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center">
               <UtensilsCrossed className="h-6 w-6 text-primary" />
             </div>
-            <h2 className="heading-2">{t('restaurants.title')}</h2>
+            <SectionAnchor id="restaurants" title={t('restaurants.title')} t={t} />
           </div>
           <p className="body-large text-muted-foreground mb-8 max-w-2xl">
             {t('restaurants.description')}
@@ -666,13 +733,13 @@ const Surroundings = () => {
       </section>
 
       {/* Winkels */}
-      <section id="winkels" className="section-padding bg-background">
+      <section id="winkels" className="section-padding bg-cream-dark">
         <div className="container-luxury">
           <div className="flex items-center gap-3 mb-8">
             <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center">
               <ShoppingBag className="h-6 w-6 text-primary" />
             </div>
-            <h2 className="heading-2">{t('shops.title')}</h2>
+            <SectionAnchor id="winkels" title={t('shops.title')} t={t} />
           </div>
           <p className="body-large text-muted-foreground mb-8 max-w-2xl">
             {t('shops.description')}
@@ -697,6 +764,84 @@ const Surroundings = () => {
                           {shop.distance}
                         </div>
                         <ChevronRight className="h-4 w-4 text-primary" />
+                      </div>
+                    </CardContent>
+                  </Card>
+                </Link>
+              );
+            })}
+          </div>
+        </div>
+      </section>
+
+      {/* Exclusief voor gasten — distinct green background */}
+      <section id="exclusief" className="py-16 md:py-20" style={{ backgroundColor: 'hsl(150 25% 92%)' }}>
+        <div className="container-luxury">
+          <div className="flex items-center gap-3 mb-2">
+            <div className="w-12 h-12 rounded-full bg-primary/15 flex items-center justify-center">
+              <Star className="h-6 w-6 text-primary" />
+            </div>
+            <SectionAnchor id="exclusief" title={t('exclusive.title')} t={t} />
+          </div>
+          <div className="flex items-center gap-2 mb-8 ml-15">
+            <Badge className="bg-primary/10 text-primary border-primary/20 gap-1">
+              <Star className="h-3 w-3" />
+              {t('exclusiveBadge')}
+            </Badge>
+          </div>
+          <p className="body-large text-muted-foreground mb-8 max-w-2xl">
+            {t('exclusive.description')}
+          </p>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {exclusive.map((item) => {
+              const title = t(`items.exclusive.${item.slug}.title`, { defaultValue: item.slug });
+              const description = t(`items.exclusive.${item.slug}.description`, { defaultValue: '' });
+              const highlights = t(`items.exclusive.${item.slug}.highlights`, { returnObjects: true, defaultValue: [] }) as string[];
+              const distanceLabel = t(`items.exclusive.${item.slug}.distance`, { defaultValue: '' });
+              const isInternal = (item as ExclusiveItem).isInternal;
+
+              return (
+                <Link key={item.id} to={`/surroundings/exclusive/${item.slug}`}>
+                  <Card className="hover:shadow-lg transition-all hover:-translate-y-1 h-full group cursor-pointer border-primary/20 bg-card">
+                    <CardHeader className="pb-2">
+                      <div className="flex items-start justify-between gap-2">
+                        <CardTitle className="font-serif text-lg leading-tight group-hover:text-primary transition-colors">
+                          {title}
+                        </CardTitle>
+                        {distanceLabel && (
+                          <Badge variant="secondary" className="gap-1 flex-shrink-0">
+                            <Home className="h-3 w-3" />
+                            {distanceLabel}
+                          </Badge>
+                        )}
+                      </div>
+                    </CardHeader>
+                    <CardContent className="space-y-4">
+                      <p className="text-sm text-muted-foreground line-clamp-3">{description}</p>
+                      
+                      {Array.isArray(highlights) && highlights.length > 0 && (
+                        <div className="flex flex-wrap gap-2">
+                          {highlights.map((highlight, idx) => (
+                            <Badge key={idx} variant="outline" className="border-primary/30 text-primary">
+                              {highlight}
+                            </Badge>
+                          ))}
+                        </div>
+                      )}
+
+                      <div className="flex items-center gap-1 text-sm text-primary group-hover:gap-2 transition-all pt-2">
+                        {isInternal ? (
+                          <>
+                            <MessageCircle className="h-4 w-4" />
+                            {t('askUs')}
+                          </>
+                        ) : (
+                          <>
+                            {t('moreInfo')}
+                            <ChevronRight className="h-4 w-4" />
+                          </>
+                        )}
                       </div>
                     </CardContent>
                   </Card>

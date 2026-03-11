@@ -7,6 +7,18 @@
   "h1": "Wandelingen, fietsroutes en bezienswaardigheden bij ArdenNest",
   "subtitle": "Ontdek de mooiste plekjes rondom ArdenNest",
   "intro": "Hoewel de meeste gasten het liefst op het terrein blijven - de tuin is immers groot genoeg - is er in de omgeving veel te beleven. Hieronder vind je onze persoonlijke aanbevelingen.",
+  "nav": {
+    "walksNearby": "Wandelen (dichtbij)",
+    "walksArea": "Wandelen (omgeving)",
+    "cycling": "Fietsen",
+    "active": "Actief & Avontuur",
+    "attractions": "Bezienswaardigheden",
+    "restaurants": "Restaurants",
+    "shops": "Winkels",
+    "exclusive": "Exclusief"
+  },
+  "exclusiveBadge": "Enkel voor ArdenNest-gasten",
+  "linkCopied": "Link gekopieerd!",
   "backToOverview": "Terug naar overzicht",
   "practicalInfo": "Praktische info",
   "openInMaps": "Bekijk uw route vanaf de vakantiewoning",
