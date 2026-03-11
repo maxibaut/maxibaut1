@@ -624,10 +624,10 @@ const SurroundingsDetail = () => {
                     )}
                     {exclusiveData?.isInternal && (
                       <Button asChild variant="default" className="w-full">
-                        <Link to="/contact">
-                          <Phone className="h-4 w-4 mr-2" />
+                        <a href="mailto:christophe@ardennest.be">
+                          <ExternalLink className="h-4 w-4 mr-2" />
                           {askUponArrival}
-                        </Link>
+                        </a>
                       </Button>
                     )}
                   </div>
