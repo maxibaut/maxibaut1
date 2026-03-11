@@ -173,10 +173,17 @@ const SurroundingsDetail = () => {
 
           {/* Quick info badges */}
           <div className="flex flex-wrap gap-3 mt-6">
-            {item.distance && (
+            {exclusiveDistance ? (
+              <Badge variant="secondary" className="gap-1 bg-primary-foreground/20 text-primary-foreground">
+                <Home className="h-3 w-3" />
+                {exclusiveDistance}
+              </Badge>
+            ) : item.distance ? (
               <Badge variant="secondary" className="gap-1 bg-primary-foreground/20 text-primary-foreground">
                 <MapPin className="h-3 w-3" />
                 {item.distance} {t('fromProperty')}
+              </Badge>
+            ) : null}
               </Badge>
             )}
             {walkData && (
