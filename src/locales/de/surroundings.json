@@ -276,6 +276,46 @@
         "description": "Benediktinerabtei mit berühmtem Käse und Bieren.",
         "highlights": ["Abteikäse", "Trappistenbier", "Buchhandlung"],
         "fullDescription": "Eine Oase der Ruhe mit köstlichen regionalen Produkten."
+      },
+      "natuurreservaat-furfooz": {
+        "title": "Naturschutzgebiet Furfooz",
+        "description": "Naturschutzgebiet mit Wanderung entlang Höhlen und römischen Ruinen.",
+        "highlights": ["Natur", "Archäologie", "Panorama"],
+        "fullDescription": "Ein verstecktes Juwel im Lesse-Tal. Ein ausgeschilderter 4 km Wanderweg führt Sie an Höhlen, Panorama-Aussichtspunkten und gallo-römischen Ruinen vorbei. Verwaltet vom Verein Ardenne & Gaume.\n\n## Was Sie unternehmen können\n\n- Ausgeschilderter 4 km Wanderweg entlang der Lesse\n- Höhlen und prähistorische Unterstände\n- Gallo-römische Ruinen (Thermengebäude)\n- Spektakuläre Aussichtspunkte über das Lesse-Tal\n- Informationstafeln zu Flora, Fauna und Geschichte\n\n## Warum wir es empfehlen\n\nFurfooz vereint Natur, Archäologie und atemberaubende Panoramen in einer einzigen Wanderung. Es ist ruhig, unberührt und fühlt sich wie eine Entdeckung an. Eine Mitgliedschaft bei Ardenne & Gaume gewährt Ihnen freien Eintritt.\n\n## Kombinationstipp\n\nPerfekt zu kombinieren mit der Zugwanderung nach Gendron — Furfooz liegt nur wenige Minuten vom Bahnhof Gendron-Celles entfernt.\n\n## Von ArdenNest\n\n20 Minuten Fahrt Richtung Dinant.",
+        "seo": {
+          "title": "Naturschutzgebiet Furfooz — Höhlen & Ruinen | ArdenNest",
+          "description": "4 km Wanderung entlang Höhlen, gallo-römischen Ruinen und Panoramen über das Lesse-Tal. Verstecktes Juwel 20 Min von ArdenNest."
+        }
+      },
+      "kasteel-lavaux-sainte-anne": {
+        "title": "Burg Lavaux-Sainte-Anne",
+        "description": "Mittelalterliche Burg mit Feuchtgebiets-Naturschutzgebiet.",
+        "highlights": ["Burg", "Feuchtgebiete", "Veranstaltungen"],
+        "fullDescription": "Eine der schönsten Burgen Walloniens, als großes Erbe klassifiziert. Durchstreifen Sie 32 Räume vom Keller bis zum Bergfried und entdecken Sie das angrenzende Feuchtgebiets-Naturschutzgebiet.\n\n## Was Sie unternehmen können\n\n- Besichtigung von 32 Räumen in 3 Museen (Burg, Natur, Landleben)\n- Feuchtgebiets-Naturschutzgebiet mit Beobachtungsposten\n- Boutique mit regionalen Produkten\n- Regelmäßige Veranstaltungen: Trödelmärkte, venezianische Kostümshows, mittelalterliches Wochenende\n\n## Ein wenig Geschichte\n\nDie Burg stammt aus dem Jahr 1244, als Jacques de Wellin einen Wachturm entlang der Römerstraße Bavay-Nassogne errichtete. Im 15. Jahrhundert wurde sie zu einer imposanten Festung mit vier Türmen ausgebaut. Heute ist sie eine der besterhaltenen Burgen der Famenne.\n\n## Warum wir es empfehlen\n\nDie Kombination aus Burg und Feuchtgebiets-Naturschutzgebiet macht dies zu einem Ausflug für Jung und Alt. Die Veranstaltungen sind oft ein zusätzlicher Grund für einen Besuch. Prüfen Sie den Kalender!\n\n## Von ArdenNest\n\n25 Minuten Fahrt Richtung Rochefort.",
+        "seo": {
+          "title": "Burg Lavaux-Sainte-Anne — Mittelalterliche Burg | ArdenNest",
+          "description": "Mittelalterliche Burg aus 1244 mit 32 Räumen und Feuchtgebiets-Naturschutzgebiet. Veranstaltungen und Trödelmärkte. 25 Min von ArdenNest."
+        }
+      },
+      "brasserie-de-la-lesse": {
+        "title": "Brasserie de la Lesse",
+        "description": "Genossenschaftliche Handwerksbrauerei mit Besichtigung und Verkostung.",
+        "highlights": ["Brauerei", "Verkostung", "Bio"],
+        "fullDescription": "Eine Genossenschaftsbrauerei mit über 500 Genossenschaftern. Eine Brauerei, die sich Zeit nimmt, Bier zu brauen, nicht Geld.\n\n## Was Sie unternehmen können\n\n- Führung (±1,5 Std.) mit Verkostung von 4 Bio-Bieren für 12€/Person\n- Führung ohne Verkostung: 7€/Person\n- Bar und Terrasse am Wochenende geöffnet (Sa 10-17 Uhr, So 11-16 Uhr)\n- Bier im Laden kaufen (Mo-Fr außer Do)\n- Keine Mindestteilnehmerzahl für Besichtigungen\n\n## Die Biere\n\n100% biologisch, hergestellt mit lokalen Rohstoffen. Keine Konservierungsmittel, Farbstoffe oder künstliche Zusätze. Von der erfrischenden TopLesse (Pils 4,2%) bis zur kräftigen Brune des Braves (7,5%). Saisonbier L'HIVEResse im Winter.\n\n## Warum wir es empfehlen\n\nWeil man hier schmeckt, was eine Brauerei mit Überzeugung sein kann. Bier zum Mitnehmen ins Ferienhaus — perfekt für einen Abend auf der Terrasse.\n\n## Von ArdenNest\n\n25 Minuten Fahrt Richtung Rochefort/Éprave.",
+        "seo": {
+          "title": "Brasserie de la Lesse — Handwerksbrauerei | ArdenNest",
+          "description": "Genossenschaftliche Bio-Brauerei in Éprave. Führung mit Verkostung 12€/pp. Bar, Terrasse und Laden. 25 Min von ArdenNest."
+        }
+      },
+      "domaine-de-chevetogne": {
+        "title": "Domaine de Chevetogne",
+        "description": "Provinziales Freizeitgebiet mit 14 Spielplätzen und Schwimmbädern.",
+        "highlights": ["Spielplätze", "Schwimmbäder", "Natur"],
+        "fullDescription": "Der ultimative Familienausflug. Auf 600 Hektar Natur finden Sie 14 Spielplätze, Freibäder, zwei Museen und Kilometer an Wanderwegen.\n\n## Was Sie unternehmen können\n\n- 14 Spielplätze — vom Piraten-Spielplatz 'Bout du Monde' bis zur Hobbit-Hütte\n- Freibäder (Sommer)\n- 10 Wanderwege durch 600 Hektar Natur\n- Zwei Museen\n- Gärten mit bemerkenswerten Bäumen und Skulpturen\n- Aktivitäten für Schulen und Gruppen\n\n## Warum wir es empfehlen\n\nKinder wollen nicht mehr weg. Wörtlich. Planen Sie einen ganzen Tag ein — es gibt genug zu tun. Die Kombination aus Spielplätzen, Natur und Schwimmbädern macht dies zum idealen Ausflug für Familien mit Kindern jeden Alters.\n\n## Tipp\n\nFragen Sie uns nach Rabattgutscheinen — wir haben manchmal welche!\n\n## Von ArdenNest\n\n30 Minuten Fahrt Richtung Ciney/Rochefort.",
+        "seo": {
+          "title": "Domaine de Chevetogne — 14 Spielplätze | ArdenNest",
+          "description": "Provinziales Gebiet mit 14 Spielplätzen, Schwimmbädern und 600 Hektar Natur. Der ultimative Familienausflug. 30 Min von ArdenNest."
+        }
       }
     },
     "restaurants": {
