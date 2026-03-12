@@ -254,7 +254,7 @@
     <priority>0.9</priority>
   </url>
   
-  <!-- Surroundings -->
+  <!-- Surroundings (overview) -->
   <url>
     <loc>https://ardennest.be/surroundings</loc>
     <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings"/>
@@ -295,7 +295,1271 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
-  
+
+  <!-- ===================== SURROUNDINGS DETAIL PAGES ===================== -->
+
+  <!-- Walks: Treinwandeling Anseremme-Gendron -->
+  <url>
+    <loc>https://ardennest.be/surroundings/walks/treinwandeling-anseremme-gendron</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/walks/treinwandeling-anseremme-gendron"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/walks/treinwandeling-anseremme-gendron"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/walks/treinwandeling-anseremme-gendron"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/walks/treinwandeling-anseremme-gendron"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/walks/treinwandeling-anseremme-gendron"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/fr/surroundings/walks/treinwandeling-anseremme-gendron</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/walks/treinwandeling-anseremme-gendron"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/walks/treinwandeling-anseremme-gendron"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/walks/treinwandeling-anseremme-gendron"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/walks/treinwandeling-anseremme-gendron"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/walks/treinwandeling-anseremme-gendron"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/en/surroundings/walks/treinwandeling-anseremme-gendron</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/walks/treinwandeling-anseremme-gendron"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/walks/treinwandeling-anseremme-gendron"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/walks/treinwandeling-anseremme-gendron"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/walks/treinwandeling-anseremme-gendron"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/walks/treinwandeling-anseremme-gendron"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/de/surroundings/walks/treinwandeling-anseremme-gendron</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/walks/treinwandeling-anseremme-gendron"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/walks/treinwandeling-anseremme-gendron"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/walks/treinwandeling-anseremme-gendron"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/walks/treinwandeling-anseremme-gendron"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/walks/treinwandeling-anseremme-gendron"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Walks: Treinwandeling Houyet-Gendron -->
+  <url>
+    <loc>https://ardennest.be/surroundings/walks/treinwandeling-houyet-gendron</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/walks/treinwandeling-houyet-gendron"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/walks/treinwandeling-houyet-gendron"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/walks/treinwandeling-houyet-gendron"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/walks/treinwandeling-houyet-gendron"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/walks/treinwandeling-houyet-gendron"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/fr/surroundings/walks/treinwandeling-houyet-gendron</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/walks/treinwandeling-houyet-gendron"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/walks/treinwandeling-houyet-gendron"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/walks/treinwandeling-houyet-gendron"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/walks/treinwandeling-houyet-gendron"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/walks/treinwandeling-houyet-gendron"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/en/surroundings/walks/treinwandeling-houyet-gendron</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/walks/treinwandeling-houyet-gendron"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/walks/treinwandeling-houyet-gendron"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/walks/treinwandeling-houyet-gendron"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/walks/treinwandeling-houyet-gendron"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/walks/treinwandeling-houyet-gendron"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/de/surroundings/walks/treinwandeling-houyet-gendron</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/walks/treinwandeling-houyet-gendron"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/walks/treinwandeling-houyet-gendron"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/walks/treinwandeling-houyet-gendron"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/walks/treinwandeling-houyet-gendron"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/walks/treinwandeling-houyet-gendron"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Walks: Wandeling rond Malvoisin -->
+  <url>
+    <loc>https://ardennest.be/surroundings/walks/wandeling-rond-malvoisin</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/walks/wandeling-rond-malvoisin"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/walks/wandeling-rond-malvoisin"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/walks/wandeling-rond-malvoisin"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/walks/wandeling-rond-malvoisin"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/walks/wandeling-rond-malvoisin"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/fr/surroundings/walks/wandeling-rond-malvoisin</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/walks/wandeling-rond-malvoisin"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/walks/wandeling-rond-malvoisin"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/walks/wandeling-rond-malvoisin"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/walks/wandeling-rond-malvoisin"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/walks/wandeling-rond-malvoisin"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/en/surroundings/walks/wandeling-rond-malvoisin</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/walks/wandeling-rond-malvoisin"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/walks/wandeling-rond-malvoisin"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/walks/wandeling-rond-malvoisin"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/walks/wandeling-rond-malvoisin"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/walks/wandeling-rond-malvoisin"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/de/surroundings/walks/wandeling-rond-malvoisin</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/walks/wandeling-rond-malvoisin"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/walks/wandeling-rond-malvoisin"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/walks/wandeling-rond-malvoisin"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/walks/wandeling-rond-malvoisin"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/walks/wandeling-rond-malvoisin"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Walks: Laddertjeswandeling Rochehaut -->
+  <url>
+    <loc>https://ardennest.be/surroundings/walks/laddertjeswandeling-rochehaut</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/walks/laddertjeswandeling-rochehaut"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/walks/laddertjeswandeling-rochehaut"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/walks/laddertjeswandeling-rochehaut"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/walks/laddertjeswandeling-rochehaut"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/walks/laddertjeswandeling-rochehaut"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/fr/surroundings/walks/laddertjeswandeling-rochehaut</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/walks/laddertjeswandeling-rochehaut"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/walks/laddertjeswandeling-rochehaut"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/walks/laddertjeswandeling-rochehaut"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/walks/laddertjeswandeling-rochehaut"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/walks/laddertjeswandeling-rochehaut"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/en/surroundings/walks/laddertjeswandeling-rochehaut</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/walks/laddertjeswandeling-rochehaut"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/walks/laddertjeswandeling-rochehaut"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/walks/laddertjeswandeling-rochehaut"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/walks/laddertjeswandeling-rochehaut"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/walks/laddertjeswandeling-rochehaut"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/de/surroundings/walks/laddertjeswandeling-rochehaut</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/walks/laddertjeswandeling-rochehaut"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/walks/laddertjeswandeling-rochehaut"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/walks/laddertjeswandeling-rochehaut"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/walks/laddertjeswandeling-rochehaut"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/walks/laddertjeswandeling-rochehaut"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Walks: CapRando Wandelgids -->
+  <url>
+    <loc>https://ardennest.be/surroundings/walks/caprando-wandelgids</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/walks/caprando-wandelgids"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/walks/caprando-wandelgids"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/walks/caprando-wandelgids"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/walks/caprando-wandelgids"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/walks/caprando-wandelgids"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/fr/surroundings/walks/caprando-wandelgids</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/walks/caprando-wandelgids"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/walks/caprando-wandelgids"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/walks/caprando-wandelgids"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/walks/caprando-wandelgids"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/walks/caprando-wandelgids"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/en/surroundings/walks/caprando-wandelgids</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/walks/caprando-wandelgids"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/walks/caprando-wandelgids"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/walks/caprando-wandelgids"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/walks/caprando-wandelgids"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/walks/caprando-wandelgids"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/de/surroundings/walks/caprando-wandelgids</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/walks/caprando-wandelgids"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/walks/caprando-wandelgids"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/walks/caprando-wandelgids"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/walks/caprando-wandelgids"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/walks/caprando-wandelgids"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Cycling: RAVeL Dinant-Givet -->
+  <url>
+    <loc>https://ardennest.be/surroundings/cycling/ravel-dinant-givet</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/cycling/ravel-dinant-givet"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/cycling/ravel-dinant-givet"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/cycling/ravel-dinant-givet"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/cycling/ravel-dinant-givet"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/cycling/ravel-dinant-givet"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/fr/surroundings/cycling/ravel-dinant-givet</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/cycling/ravel-dinant-givet"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/cycling/ravel-dinant-givet"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/cycling/ravel-dinant-givet"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/cycling/ravel-dinant-givet"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/cycling/ravel-dinant-givet"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/en/surroundings/cycling/ravel-dinant-givet</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/cycling/ravel-dinant-givet"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/cycling/ravel-dinant-givet"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/cycling/ravel-dinant-givet"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/cycling/ravel-dinant-givet"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/cycling/ravel-dinant-givet"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/de/surroundings/cycling/ravel-dinant-givet</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/cycling/ravel-dinant-givet"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/cycling/ravel-dinant-givet"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/cycling/ravel-dinant-givet"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/cycling/ravel-dinant-givet"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/cycling/ravel-dinant-givet"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Cycling: Mountainbike Beauraing -->
+  <url>
+    <loc>https://ardennest.be/surroundings/cycling/mountainbike-beauraing</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/cycling/mountainbike-beauraing"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/cycling/mountainbike-beauraing"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/cycling/mountainbike-beauraing"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/cycling/mountainbike-beauraing"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/cycling/mountainbike-beauraing"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/fr/surroundings/cycling/mountainbike-beauraing</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/cycling/mountainbike-beauraing"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/cycling/mountainbike-beauraing"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/cycling/mountainbike-beauraing"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/cycling/mountainbike-beauraing"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/cycling/mountainbike-beauraing"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/en/surroundings/cycling/mountainbike-beauraing</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/cycling/mountainbike-beauraing"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/cycling/mountainbike-beauraing"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/cycling/mountainbike-beauraing"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/cycling/mountainbike-beauraing"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/cycling/mountainbike-beauraing"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/de/surroundings/cycling/mountainbike-beauraing</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/cycling/mountainbike-beauraing"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/cycling/mountainbike-beauraing"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/cycling/mountainbike-beauraing"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/cycling/mountainbike-beauraing"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/cycling/mountainbike-beauraing"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Cycling: La Balade de Sim -->
+  <url>
+    <loc>https://ardennest.be/surroundings/cycling/la-balade-de-sim</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/cycling/la-balade-de-sim"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/cycling/la-balade-de-sim"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/cycling/la-balade-de-sim"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/cycling/la-balade-de-sim"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/cycling/la-balade-de-sim"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/fr/surroundings/cycling/la-balade-de-sim</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/cycling/la-balade-de-sim"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/cycling/la-balade-de-sim"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/cycling/la-balade-de-sim"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/cycling/la-balade-de-sim"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/cycling/la-balade-de-sim"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/en/surroundings/cycling/la-balade-de-sim</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/cycling/la-balade-de-sim"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/cycling/la-balade-de-sim"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/cycling/la-balade-de-sim"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/cycling/la-balade-de-sim"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/cycling/la-balade-de-sim"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/de/surroundings/cycling/la-balade-de-sim</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/cycling/la-balade-de-sim"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/cycling/la-balade-de-sim"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/cycling/la-balade-de-sim"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/cycling/la-balade-de-sim"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/cycling/la-balade-de-sim"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Active: Dinant Evasion -->
+  <url>
+    <loc>https://ardennest.be/surroundings/active/dinant-evasion</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/active/dinant-evasion"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/active/dinant-evasion"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/active/dinant-evasion"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/active/dinant-evasion"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/active/dinant-evasion"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/fr/surroundings/active/dinant-evasion</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/active/dinant-evasion"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/active/dinant-evasion"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/active/dinant-evasion"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/active/dinant-evasion"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/active/dinant-evasion"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/en/surroundings/active/dinant-evasion</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/active/dinant-evasion"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/active/dinant-evasion"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/active/dinant-evasion"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/active/dinant-evasion"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/active/dinant-evasion"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/de/surroundings/active/dinant-evasion</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/active/dinant-evasion"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/active/dinant-evasion"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/active/dinant-evasion"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/active/dinant-evasion"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/active/dinant-evasion"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Active: Bomenparcours Han -->
+  <url>
+    <loc>https://ardennest.be/surroundings/active/bomenparcours-han</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/active/bomenparcours-han"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/active/bomenparcours-han"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/active/bomenparcours-han"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/active/bomenparcours-han"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/active/bomenparcours-han"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/fr/surroundings/active/bomenparcours-han</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/active/bomenparcours-han"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/active/bomenparcours-han"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/active/bomenparcours-han"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/active/bomenparcours-han"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/active/bomenparcours-han"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/en/surroundings/active/bomenparcours-han</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/active/bomenparcours-han"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/active/bomenparcours-han"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/active/bomenparcours-han"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/active/bomenparcours-han"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/active/bomenparcours-han"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/de/surroundings/active/bomenparcours-han</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/active/bomenparcours-han"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/active/bomenparcours-han"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/active/bomenparcours-han"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/active/bomenparcours-han"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/active/bomenparcours-han"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Active: Terraltitude Fumay -->
+  <url>
+    <loc>https://ardennest.be/surroundings/active/terraltitude-fumay</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/active/terraltitude-fumay"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/active/terraltitude-fumay"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/active/terraltitude-fumay"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/active/terraltitude-fumay"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/active/terraltitude-fumay"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/fr/surroundings/active/terraltitude-fumay</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/active/terraltitude-fumay"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/active/terraltitude-fumay"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/active/terraltitude-fumay"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/active/terraltitude-fumay"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/active/terraltitude-fumay"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/en/surroundings/active/terraltitude-fumay</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/active/terraltitude-fumay"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/active/terraltitude-fumay"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/active/terraltitude-fumay"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/active/terraltitude-fumay"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/active/terraltitude-fumay"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/de/surroundings/active/terraltitude-fumay</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/active/terraltitude-fumay"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/active/terraltitude-fumay"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/active/terraltitude-fumay"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/active/terraltitude-fumay"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/active/terraltitude-fumay"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Active: Cap Nature Bertrix -->
+  <url>
+    <loc>https://ardennest.be/surroundings/active/cap-nature-bertrix</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/active/cap-nature-bertrix"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/active/cap-nature-bertrix"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/active/cap-nature-bertrix"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/active/cap-nature-bertrix"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/active/cap-nature-bertrix"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/fr/surroundings/active/cap-nature-bertrix</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/active/cap-nature-bertrix"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/active/cap-nature-bertrix"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/active/cap-nature-bertrix"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/active/cap-nature-bertrix"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/active/cap-nature-bertrix"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/en/surroundings/active/cap-nature-bertrix</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/active/cap-nature-bertrix"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/active/cap-nature-bertrix"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/active/cap-nature-bertrix"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/active/cap-nature-bertrix"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/active/cap-nature-bertrix"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/de/surroundings/active/cap-nature-bertrix</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/active/cap-nature-bertrix"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/active/cap-nature-bertrix"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/active/cap-nature-bertrix"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/active/cap-nature-bertrix"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/active/cap-nature-bertrix"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Active: Récréalle -->
+  <url>
+    <loc>https://ardennest.be/surroundings/active/recrealle</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/active/recrealle"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/active/recrealle"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/active/recrealle"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/active/recrealle"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/active/recrealle"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/fr/surroundings/active/recrealle</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/active/recrealle"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/active/recrealle"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/active/recrealle"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/active/recrealle"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/active/recrealle"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/en/surroundings/active/recrealle</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/active/recrealle"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/active/recrealle"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/active/recrealle"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/active/recrealle"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/active/recrealle"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/de/surroundings/active/recrealle</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/active/recrealle"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/active/recrealle"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/active/recrealle"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/active/recrealle"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/active/recrealle"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Active: Leisteengroeve Bertrix -->
+  <url>
+    <loc>https://ardennest.be/surroundings/active/leisteengroeve-bertrix</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/active/leisteengroeve-bertrix"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/active/leisteengroeve-bertrix"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/active/leisteengroeve-bertrix"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/active/leisteengroeve-bertrix"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/active/leisteengroeve-bertrix"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/fr/surroundings/active/leisteengroeve-bertrix</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/active/leisteengroeve-bertrix"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/active/leisteengroeve-bertrix"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/active/leisteengroeve-bertrix"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/active/leisteengroeve-bertrix"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/active/leisteengroeve-bertrix"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/en/surroundings/active/leisteengroeve-bertrix</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/active/leisteengroeve-bertrix"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/active/leisteengroeve-bertrix"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/active/leisteengroeve-bertrix"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/active/leisteengroeve-bertrix"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/active/leisteengroeve-bertrix"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/de/surroundings/active/leisteengroeve-bertrix</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/active/leisteengroeve-bertrix"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/active/leisteengroeve-bertrix"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/active/leisteengroeve-bertrix"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/active/leisteengroeve-bertrix"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/active/leisteengroeve-bertrix"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Exclusive: ArdenNest Dropping -->
+  <url>
+    <loc>https://ardennest.be/surroundings/exclusive/ardennest-dropping</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/exclusive/ardennest-dropping"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/exclusive/ardennest-dropping"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/exclusive/ardennest-dropping"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/exclusive/ardennest-dropping"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/exclusive/ardennest-dropping"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/fr/surroundings/exclusive/ardennest-dropping</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/exclusive/ardennest-dropping"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/exclusive/ardennest-dropping"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/exclusive/ardennest-dropping"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/exclusive/ardennest-dropping"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/exclusive/ardennest-dropping"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/en/surroundings/exclusive/ardennest-dropping</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/exclusive/ardennest-dropping"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/exclusive/ardennest-dropping"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/exclusive/ardennest-dropping"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/exclusive/ardennest-dropping"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/exclusive/ardennest-dropping"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/de/surroundings/exclusive/ardennest-dropping</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/exclusive/ardennest-dropping"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/exclusive/ardennest-dropping"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/exclusive/ardennest-dropping"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/exclusive/ardennest-dropping"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/exclusive/ardennest-dropping"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Attractions: Dinant -->
+  <url>
+    <loc>https://ardennest.be/surroundings/attractions/dinant</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/attractions/dinant"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/attractions/dinant"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/attractions/dinant"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/attractions/dinant"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/attractions/dinant"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/fr/surroundings/attractions/dinant</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/attractions/dinant"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/attractions/dinant"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/attractions/dinant"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/attractions/dinant"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/attractions/dinant"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/en/surroundings/attractions/dinant</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/attractions/dinant"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/attractions/dinant"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/attractions/dinant"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/attractions/dinant"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/attractions/dinant"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/de/surroundings/attractions/dinant</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/attractions/dinant"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/attractions/dinant"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/attractions/dinant"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/attractions/dinant"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/attractions/dinant"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Attractions: Grotten van Han -->
+  <url>
+    <loc>https://ardennest.be/surroundings/attractions/grotten-van-han</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/attractions/grotten-van-han"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/attractions/grotten-van-han"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/attractions/grotten-van-han"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/attractions/grotten-van-han"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/attractions/grotten-van-han"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/fr/surroundings/attractions/grotten-van-han</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/attractions/grotten-van-han"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/attractions/grotten-van-han"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/attractions/grotten-van-han"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/attractions/grotten-van-han"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/attractions/grotten-van-han"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/en/surroundings/attractions/grotten-van-han</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/attractions/grotten-van-han"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/attractions/grotten-van-han"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/attractions/grotten-van-han"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/attractions/grotten-van-han"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/attractions/grotten-van-han"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/de/surroundings/attractions/grotten-van-han</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/attractions/grotten-van-han"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/attractions/grotten-van-han"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/attractions/grotten-van-han"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/attractions/grotten-van-han"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/attractions/grotten-van-han"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Attractions: Kasteel Bouillon -->
+  <url>
+    <loc>https://ardennest.be/surroundings/attractions/kasteel-bouillon</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/attractions/kasteel-bouillon"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/attractions/kasteel-bouillon"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/attractions/kasteel-bouillon"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/attractions/kasteel-bouillon"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/attractions/kasteel-bouillon"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/fr/surroundings/attractions/kasteel-bouillon</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/attractions/kasteel-bouillon"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/attractions/kasteel-bouillon"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/attractions/kasteel-bouillon"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/attractions/kasteel-bouillon"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/attractions/kasteel-bouillon"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/en/surroundings/attractions/kasteel-bouillon</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/attractions/kasteel-bouillon"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/attractions/kasteel-bouillon"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/attractions/kasteel-bouillon"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/attractions/kasteel-bouillon"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/attractions/kasteel-bouillon"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/de/surroundings/attractions/kasteel-bouillon</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/attractions/kasteel-bouillon"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/attractions/kasteel-bouillon"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/attractions/kasteel-bouillon"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/attractions/kasteel-bouillon"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/attractions/kasteel-bouillon"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Attractions: Abdij Maredsous -->
+  <url>
+    <loc>https://ardennest.be/surroundings/attractions/abdij-maredsous</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/attractions/abdij-maredsous"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/attractions/abdij-maredsous"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/attractions/abdij-maredsous"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/attractions/abdij-maredsous"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/attractions/abdij-maredsous"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/fr/surroundings/attractions/abdij-maredsous</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/attractions/abdij-maredsous"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/attractions/abdij-maredsous"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/attractions/abdij-maredsous"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/attractions/abdij-maredsous"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/attractions/abdij-maredsous"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/en/surroundings/attractions/abdij-maredsous</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/attractions/abdij-maredsous"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/attractions/abdij-maredsous"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/attractions/abdij-maredsous"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/attractions/abdij-maredsous"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/attractions/abdij-maredsous"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/de/surroundings/attractions/abdij-maredsous</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/attractions/abdij-maredsous"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/attractions/abdij-maredsous"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/attractions/abdij-maredsous"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/attractions/abdij-maredsous"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/attractions/abdij-maredsous"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Restaurants: Le Belvédère -->
+  <url>
+    <loc>https://ardennest.be/surroundings/restaurants/le-belvedere-beauraing</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/restaurants/le-belvedere-beauraing"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/restaurants/le-belvedere-beauraing"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/restaurants/le-belvedere-beauraing"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/restaurants/le-belvedere-beauraing"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/restaurants/le-belvedere-beauraing"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/fr/surroundings/restaurants/le-belvedere-beauraing</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/restaurants/le-belvedere-beauraing"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/restaurants/le-belvedere-beauraing"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/restaurants/le-belvedere-beauraing"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/restaurants/le-belvedere-beauraing"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/restaurants/le-belvedere-beauraing"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/en/surroundings/restaurants/le-belvedere-beauraing</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/restaurants/le-belvedere-beauraing"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/restaurants/le-belvedere-beauraing"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/restaurants/le-belvedere-beauraing"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/restaurants/le-belvedere-beauraing"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/restaurants/le-belvedere-beauraing"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/de/surroundings/restaurants/le-belvedere-beauraing</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/restaurants/le-belvedere-beauraing"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/restaurants/le-belvedere-beauraing"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/restaurants/le-belvedere-beauraing"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/restaurants/le-belvedere-beauraing"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/restaurants/le-belvedere-beauraing"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Restaurants: Hôtel de la Poste -->
+  <url>
+    <loc>https://ardennest.be/surroundings/restaurants/hotel-de-la-poste-gedinne</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/restaurants/hotel-de-la-poste-gedinne"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/restaurants/hotel-de-la-poste-gedinne"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/restaurants/hotel-de-la-poste-gedinne"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/restaurants/hotel-de-la-poste-gedinne"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/restaurants/hotel-de-la-poste-gedinne"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/fr/surroundings/restaurants/hotel-de-la-poste-gedinne</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/restaurants/hotel-de-la-poste-gedinne"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/restaurants/hotel-de-la-poste-gedinne"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/restaurants/hotel-de-la-poste-gedinne"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/restaurants/hotel-de-la-poste-gedinne"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/restaurants/hotel-de-la-poste-gedinne"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/en/surroundings/restaurants/hotel-de-la-poste-gedinne</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/restaurants/hotel-de-la-poste-gedinne"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/restaurants/hotel-de-la-poste-gedinne"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/restaurants/hotel-de-la-poste-gedinne"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/restaurants/hotel-de-la-poste-gedinne"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/restaurants/hotel-de-la-poste-gedinne"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/de/surroundings/restaurants/hotel-de-la-poste-gedinne</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/restaurants/hotel-de-la-poste-gedinne"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/restaurants/hotel-de-la-poste-gedinne"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/restaurants/hotel-de-la-poste-gedinne"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/restaurants/hotel-de-la-poste-gedinne"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/restaurants/hotel-de-la-poste-gedinne"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Restaurants: Le Matefaim -->
+  <url>
+    <loc>https://ardennest.be/surroundings/restaurants/le-matefaim-graide-station</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/restaurants/le-matefaim-graide-station"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/restaurants/le-matefaim-graide-station"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/restaurants/le-matefaim-graide-station"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/restaurants/le-matefaim-graide-station"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/restaurants/le-matefaim-graide-station"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/fr/surroundings/restaurants/le-matefaim-graide-station</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/restaurants/le-matefaim-graide-station"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/restaurants/le-matefaim-graide-station"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/restaurants/le-matefaim-graide-station"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/restaurants/le-matefaim-graide-station"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/restaurants/le-matefaim-graide-station"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/en/surroundings/restaurants/le-matefaim-graide-station</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/restaurants/le-matefaim-graide-station"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/restaurants/le-matefaim-graide-station"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/restaurants/le-matefaim-graide-station"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/restaurants/le-matefaim-graide-station"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/restaurants/le-matefaim-graide-station"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/de/surroundings/restaurants/le-matefaim-graide-station</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/restaurants/le-matefaim-graide-station"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/restaurants/le-matefaim-graide-station"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/restaurants/le-matefaim-graide-station"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/restaurants/le-matefaim-graide-station"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/restaurants/le-matefaim-graide-station"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Restaurants: La Salière -->
+  <url>
+    <loc>https://ardennest.be/surroundings/restaurants/la-saliere-gedinne</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/restaurants/la-saliere-gedinne"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/restaurants/la-saliere-gedinne"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/restaurants/la-saliere-gedinne"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/restaurants/la-saliere-gedinne"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/restaurants/la-saliere-gedinne"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/fr/surroundings/restaurants/la-saliere-gedinne</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/restaurants/la-saliere-gedinne"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/restaurants/la-saliere-gedinne"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/restaurants/la-saliere-gedinne"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/restaurants/la-saliere-gedinne"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/restaurants/la-saliere-gedinne"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/en/surroundings/restaurants/la-saliere-gedinne</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/restaurants/la-saliere-gedinne"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/restaurants/la-saliere-gedinne"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/restaurants/la-saliere-gedinne"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/restaurants/la-saliere-gedinne"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/restaurants/la-saliere-gedinne"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/de/surroundings/restaurants/la-saliere-gedinne</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/restaurants/la-saliere-gedinne"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/restaurants/la-saliere-gedinne"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/restaurants/la-saliere-gedinne"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/restaurants/la-saliere-gedinne"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/restaurants/la-saliere-gedinne"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Restaurants: Le Petit Creux by Roselle -->
+  <url>
+    <loc>https://ardennest.be/surroundings/restaurants/le-petit-creux-by-roselle-gedinne</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/restaurants/le-petit-creux-by-roselle-gedinne"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/restaurants/le-petit-creux-by-roselle-gedinne"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/restaurants/le-petit-creux-by-roselle-gedinne"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/restaurants/le-petit-creux-by-roselle-gedinne"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/restaurants/le-petit-creux-by-roselle-gedinne"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/fr/surroundings/restaurants/le-petit-creux-by-roselle-gedinne</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/restaurants/le-petit-creux-by-roselle-gedinne"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/restaurants/le-petit-creux-by-roselle-gedinne"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/restaurants/le-petit-creux-by-roselle-gedinne"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/restaurants/le-petit-creux-by-roselle-gedinne"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/restaurants/le-petit-creux-by-roselle-gedinne"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/en/surroundings/restaurants/le-petit-creux-by-roselle-gedinne</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/restaurants/le-petit-creux-by-roselle-gedinne"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/restaurants/le-petit-creux-by-roselle-gedinne"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/restaurants/le-petit-creux-by-roselle-gedinne"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/restaurants/le-petit-creux-by-roselle-gedinne"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/restaurants/le-petit-creux-by-roselle-gedinne"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/de/surroundings/restaurants/le-petit-creux-by-roselle-gedinne</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/restaurants/le-petit-creux-by-roselle-gedinne"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/restaurants/le-petit-creux-by-roselle-gedinne"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/restaurants/le-petit-creux-by-roselle-gedinne"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/restaurants/le-petit-creux-by-roselle-gedinne"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/restaurants/le-petit-creux-by-roselle-gedinne"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Restaurants: Friterie de la Ferme -->
+  <url>
+    <loc>https://ardennest.be/surroundings/restaurants/friterie-de-la-ferme-bievre</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/restaurants/friterie-de-la-ferme-bievre"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/restaurants/friterie-de-la-ferme-bievre"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/restaurants/friterie-de-la-ferme-bievre"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/restaurants/friterie-de-la-ferme-bievre"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/restaurants/friterie-de-la-ferme-bievre"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/fr/surroundings/restaurants/friterie-de-la-ferme-bievre</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/restaurants/friterie-de-la-ferme-bievre"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/restaurants/friterie-de-la-ferme-bievre"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/restaurants/friterie-de-la-ferme-bievre"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/restaurants/friterie-de-la-ferme-bievre"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/restaurants/friterie-de-la-ferme-bievre"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/en/surroundings/restaurants/friterie-de-la-ferme-bievre</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/restaurants/friterie-de-la-ferme-bievre"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/restaurants/friterie-de-la-ferme-bievre"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/restaurants/friterie-de-la-ferme-bievre"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/restaurants/friterie-de-la-ferme-bievre"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/restaurants/friterie-de-la-ferme-bievre"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/de/surroundings/restaurants/friterie-de-la-ferme-bievre</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/restaurants/friterie-de-la-ferme-bievre"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/restaurants/friterie-de-la-ferme-bievre"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/restaurants/friterie-de-la-ferme-bievre"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/restaurants/friterie-de-la-ferme-bievre"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/restaurants/friterie-de-la-ferme-bievre"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Shops: Boulangerie Dumont -->
+  <url>
+    <loc>https://ardennest.be/surroundings/shops/boulangerie-dumont</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/shops/boulangerie-dumont"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/shops/boulangerie-dumont"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/shops/boulangerie-dumont"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/shops/boulangerie-dumont"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/shops/boulangerie-dumont"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/fr/surroundings/shops/boulangerie-dumont</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/shops/boulangerie-dumont"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/shops/boulangerie-dumont"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/shops/boulangerie-dumont"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/shops/boulangerie-dumont"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/shops/boulangerie-dumont"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/en/surroundings/shops/boulangerie-dumont</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/shops/boulangerie-dumont"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/shops/boulangerie-dumont"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/shops/boulangerie-dumont"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/shops/boulangerie-dumont"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/shops/boulangerie-dumont"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/de/surroundings/shops/boulangerie-dumont</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/shops/boulangerie-dumont"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/shops/boulangerie-dumont"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/shops/boulangerie-dumont"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/shops/boulangerie-dumont"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/shops/boulangerie-dumont"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- Shops: Proxy Delhaize Gedinne -->
+  <url>
+    <loc>https://ardennest.be/surroundings/shops/proxy-delhaize-gedinne</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/shops/proxy-delhaize-gedinne"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/shops/proxy-delhaize-gedinne"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/shops/proxy-delhaize-gedinne"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/shops/proxy-delhaize-gedinne"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/shops/proxy-delhaize-gedinne"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/fr/surroundings/shops/proxy-delhaize-gedinne</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/shops/proxy-delhaize-gedinne"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/shops/proxy-delhaize-gedinne"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/shops/proxy-delhaize-gedinne"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/shops/proxy-delhaize-gedinne"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/shops/proxy-delhaize-gedinne"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/en/surroundings/shops/proxy-delhaize-gedinne</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/shops/proxy-delhaize-gedinne"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/shops/proxy-delhaize-gedinne"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/shops/proxy-delhaize-gedinne"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/shops/proxy-delhaize-gedinne"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/shops/proxy-delhaize-gedinne"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/de/surroundings/shops/proxy-delhaize-gedinne</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/shops/proxy-delhaize-gedinne"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/shops/proxy-delhaize-gedinne"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/shops/proxy-delhaize-gedinne"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/shops/proxy-delhaize-gedinne"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/shops/proxy-delhaize-gedinne"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- Shops: Intermarché Gedinne -->
+  <url>
+    <loc>https://ardennest.be/surroundings/shops/intermarche-gedinne</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/shops/intermarche-gedinne"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/shops/intermarche-gedinne"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/shops/intermarche-gedinne"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/shops/intermarche-gedinne"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/shops/intermarche-gedinne"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/fr/surroundings/shops/intermarche-gedinne</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/shops/intermarche-gedinne"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/shops/intermarche-gedinne"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/shops/intermarche-gedinne"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/shops/intermarche-gedinne"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/shops/intermarche-gedinne"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/en/surroundings/shops/intermarche-gedinne</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/shops/intermarche-gedinne"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/shops/intermarche-gedinne"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/shops/intermarche-gedinne"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/shops/intermarche-gedinne"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/shops/intermarche-gedinne"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/de/surroundings/shops/intermarche-gedinne</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/shops/intermarche-gedinne"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/shops/intermarche-gedinne"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/shops/intermarche-gedinne"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/shops/intermarche-gedinne"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/shops/intermarche-gedinne"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- Shops: Aux Délices de la Houille -->
+  <url>
+    <loc>https://ardennest.be/surroundings/shops/aux-delices-de-la-houille</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/shops/aux-delices-de-la-houille"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/shops/aux-delices-de-la-houille"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/shops/aux-delices-de-la-houille"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/shops/aux-delices-de-la-houille"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/shops/aux-delices-de-la-houille"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/fr/surroundings/shops/aux-delices-de-la-houille</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/shops/aux-delices-de-la-houille"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/shops/aux-delices-de-la-houille"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/shops/aux-delices-de-la-houille"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/shops/aux-delices-de-la-houille"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/shops/aux-delices-de-la-houille"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/en/surroundings/shops/aux-delices-de-la-houille</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/shops/aux-delices-de-la-houille"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/shops/aux-delices-de-la-houille"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/shops/aux-delices-de-la-houille"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/shops/aux-delices-de-la-houille"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/shops/aux-delices-de-la-houille"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/de/surroundings/shops/aux-delices-de-la-houille</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/shops/aux-delices-de-la-houille"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/shops/aux-delices-de-la-houille"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/shops/aux-delices-de-la-houille"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/shops/aux-delices-de-la-houille"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/shops/aux-delices-de-la-houille"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- Shops: Terracines -->
+  <url>
+    <loc>https://ardennest.be/surroundings/shops/terracines</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/shops/terracines"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/shops/terracines"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/shops/terracines"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/shops/terracines"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/shops/terracines"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/fr/surroundings/shops/terracines</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/shops/terracines"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/shops/terracines"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/shops/terracines"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/shops/terracines"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/shops/terracines"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/en/surroundings/shops/terracines</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/shops/terracines"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/shops/terracines"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/shops/terracines"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/shops/terracines"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/shops/terracines"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/de/surroundings/shops/terracines</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/shops/terracines"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/shops/terracines"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/shops/terracines"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/shops/terracines"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/shops/terracines"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- ===================== OTHER PAGES ===================== -->
+
   <!-- House Rules -->
   <url>
     <loc>https://ardennest.be/house-rules</loc>
@@ -380,7 +1644,7 @@
     <priority>0.4</priority>
   </url>
   
-  <!-- Shops -->
+  <!-- Shops (local tips page) -->
   <url>
     <loc>https://ardennest.be/shops</loc>
     <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/shops"/>
@@ -589,6 +1853,7 @@
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
+
   <!-- GEO-Scan -->
   <url>
     <loc>https://ardennest.be/geo-scan</loc>
