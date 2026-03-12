@@ -17,9 +17,26 @@ import brasserieLesseHero from './brasserie-lesse-hero-01.jpg';
 import brasserieLesseToplesse from './brasserie-lesse-toplesse-02.png';
 import brasserieLesseHiveresse from './brasserie-lesse-hiveresse-03.jpg';
 
+// Grotten van Han
+import grottenHanHero from './grotten-han-hero-01.jpg';
+import grottenHanBear from './grotten-han-bear-02.jpg';
+
+// Kasteel Bouillon
+import kasteelBouillonHero from './kasteel-bouillon-hero-01.jpg';
+import kasteelBouillonFest from './kasteel-bouillon-middeleeuwsfest-02.jpg';
+import kasteelBouillonNacht from './kasteel-bouillon-nachtbezoek-03.jpg';
+import kasteelBouillonLucht from './kasteel-bouillon-luchtfoto-04.jpg';
+
+// Abdij Maredsous
+import abdijMaredsousHero from './abdij-maredsous-hero-01.jpg';
+import abdijMaredsousBreviaire from './abdij-maredsous-breviaire-02.jpg';
+
 export const attractionImages = {
   chevetogne: [chevetogneHero, chevetogneBoutDuMonde, chevetogneJardins],
   furfooz: [furfoozPanorama, furfoozEscalier],
   lavaux: [lavauxHero, lavauxVisite, lavauxEvenement],
   brasserieLesse: [brasserieLesseHero, brasserieLesseToplesse, brasserieLesseHiveresse],
+  grottenHan: [grottenHanHero, grottenHanBear],
+  bouillon: [kasteelBouillonHero, kasteelBouillonFest, kasteelBouillonNacht, kasteelBouillonLucht],
+  maredsous: [abdijMaredsousHero, abdijMaredsousBreviaire],
 };

@@ -136,9 +136,13 @@
       },
       "wandeling-rond-malvoisin": {
         "title": "Promenade autour de Malvoisin",
-        "description": "Promenade villageoise tranquille avec de belles vues panoramiques.",
-        "highlights": ["Église du village", "Prairies", "Panorama"],
-        "fullDescription": "Une promenade tranquille depuis notre propre village."
+        "description": "Promenade villageoise tranquille depuis la maison de vacances avec vues panoramiques sur les Ardennes. Pas besoin de voiture.",
+        "highlights": ["Au pas de la porte", "Panorama", "Prairies", "Église du village", "Adapté aux poussettes"],
+        "fullDescription": "Enfilez vos chaussures et partez depuis la porte d'entrée — cette promenade commence et se termine à la maison de vacances.\n\n## L'itinéraire\n\nUne boucle de 5 km à travers le hameau de Malvoisin et les prairies et bois environnants. Vous marchez sur des chemins de campagne tranquilles avec à peine de circulation, le long de fermes, de prairies avec des vaches et à travers de petits bouts de forêt.\n\n## Points forts\n\n- **Vues panoramiques** — Au point le plus haut, une vue large sur les collines des Ardennes. Par temps clair, on voit jusqu'à la frontière française.\n- **L'église du village de Malvoisin** — Une petite église charmante au cœur du hameau.\n- **Prairies** — Les enfants adorent repérer les vaches et les chevaux.\n- **Calme** — Vous ne croisez pratiquement personne. Les Ardennes dans toute leur pureté.\n\n## Avec une poussette ?\n\nL'itinéraire est principalement sur des chemins de campagne goudronnés et est adapté aux poussettes. Pas de pentes raides ni de passages difficiles.\n\n## Astuce\n\nCette promenade est idéale comme mise en jambe le premier jour ou comme fin de séjour tranquille. Une carte de promenade détaillée est disponible dans la maison.",
+        "seo": {
+          "title": "Promenade autour de Malvoisin — Départ à la porte | ArdenNest",
+          "description": "Promenade villageoise de 5 km depuis la maison de vacances. Vues panoramiques, prairies et pas besoin de voiture. Adapté aux poussettes."
+        }
       },
       "laddertjeswandeling-rochehaut": {
         "title": "Randonnée des échelles de Rochehaut",
@@ -156,13 +160,21 @@
     "cycling": {
       "ravel-dinant-givet": {
         "title": "Piste cyclable RAVeL Dinant - Givet",
-        "description": "Piste cyclable plate le long de la Meuse, parfaite pour les familles.",
-        "fullDescription": "Le réseau RAVeL offre de magnifiques pistes cyclables sans voitures le long de la Meuse."
+        "description": "Piste cyclable plate et sans voiture le long de la Meuse de Dinant à Givet en France. 20 km aller simple, parfait pour les familles.",
+        "fullDescription": "La piste cyclable RAVeL sur l'ancienne ligne ferroviaire 150 est l'un des itinéraires cyclistes les plus populaires de la région. Totalement plate, sans voiture et goudronnée — parfaite pour les familles avec enfants.\n\n## L'itinéraire\n\nLe chemin suit l'ancienne voie ferrée le long de la Meuse, de Dinant (Anseremme) à Givet en France. Environ 20 km aller simple, soit 40 km aller-retour. Mais vous n'êtes pas obligé de faire tout le trajet — vous pouvez faire demi-tour à tout moment.\n\n## Points forts en chemin\n\n- **Le long de la Meuse** — Le chemin longe la rivière avec de belles vues\n- **Château de Freÿr** — À mi-chemin, vous passez ce magnifique château aux jardins baroques\n- **Hastière** — Village charmant avec terrasses pour une pause\n- **Givet (FR)** — Le point d'arrivée en France, avec l'imposant Fort de Charlemont\n\n## Pratique\n\n- Chemin goudronné, adapté à tout vélo\n- Totalement plat — pas de dénivelé\n- Eau potable et toilettes dans les villages\n- Apportez vos vélos ou louez chez La Balade de Sim\n\n## Astuce\n\nPédalez jusqu'à Hastière (10 km), prenez un verre en terrasse, et revenez. 20 km — parfait pour une demi-journée avec enfants.\n\n## Depuis ArdenNest\n\nPoint de départ Anseremme à 15 minutes en voiture.",
+        "seo": {
+          "title": "Piste RAVeL Dinant - Givet — Plate le long de la Meuse | ArdenNest",
+          "description": "Piste cyclable plate et sans voiture le long de la Meuse. 20 km Dinant-Givet, parfait pour les familles. 15 min d'ArdenNest."
+        }
       },
       "mountainbike-beauraing": {
         "title": "Parcours VTT Beauraing",
-        "description": "Parcours exigeants à travers les forêts des Ardennes.",
-        "fullDescription": "Pour les cyclistes sportifs, il existe divers parcours VTT."
+        "description": "Parcours exigeants à travers les forêts des Ardennes. Divers trajets de 15 à 45 km pour tous les niveaux.",
+        "fullDescription": "Les forêts autour de Beauraing offrent d'excellentes possibilités de VTT. Divers parcours balisés de 15 à 45 km vous emmènent à travers des forêts denses, sur des collines et le long de rivières.\n\n## Les parcours\n\nPlusieurs itinéraires VTT balisés partent de Beauraing :\n\n- **Boucle courte (±15 km)** — Idéale pour tester les jambes. Légèrement vallonnée avec de beaux chemins forestiers.\n- **Boucle moyenne (±25 km)** — Plus de dénivelé et de passages techniques. Beaux single trails.\n- **Grande boucle (±45 km)** — Pour les vététistes expérimentés. Dénivelé sérieux et terrain exigeant.\n\n## Le terrain\n\nTypiquement ardennais : alternance de chemins forestiers, single trails, chemins de campagne et parfois un bout de goudron. Terrain vallonné avec des montées courtes et raides et des descentes techniques.\n\n## Pratique\n\n- Apportez votre VTT ou louez chez La Balade de Sim (e-VTT)\n- Parcours balisés avec panneaux VTT\n- Traces GPX disponibles\n- Casque obligatoire\n\n## Depuis ArdenNest\n\nPoint de départ Beauraing à 20 minutes en voiture.",
+        "seo": {
+          "title": "VTT Beauraing — Parcours à travers les Ardennes | ArdenNest",
+          "description": "Parcours VTT balisés de 15-45 km à travers les forêts de Beauraing. Vallonné, technique et aventureux. 20 min d'ArdenNest."
+        }
       },
       "la-balade-de-sim": {
         "title": "La Balade de Sim — Location de vélos électriques",
@@ -256,27 +268,43 @@
     "attractions": {
       "dinant": {
         "title": "Dinant",
-        "description": "Ville pittoresque sur la Meuse avec citadelle et collégiale.",
-        "highlights": ["Citadelle", "Téléphérique", "Adolphe Sax"],
-        "fullDescription": "Dinant est la ville la plus proche et offre une excursion parfaite."
+        "description": "Ville pittoresque sur la Meuse avec citadelle, téléphérique et collégiale. Lieu de naissance d'Adolphe Sax.",
+        "highlights": ["Citadelle", "Téléphérique", "Adolphe Sax", "Collégiale", "Shopping"],
+        "fullDescription": "Dinant est la ville la plus proche et offre une excursion parfaite. La ville s'accroche entre la falaise et la Meuse — l'un des plus beaux paysages urbains de Belgique.\n\n## Ce que vous pouvez faire\n\n- **La Citadelle** — Accessible par téléphérique ou via 408 marches. Vue panoramique sur la vallée de la Meuse. À l'intérieur, un musée sur l'histoire de Dinant et les deux guerres mondiales.\n- **La Collégiale** — Le clocher en forme de poire est l'icône de Dinant. Visite gratuite.\n- **Adolphe Sax** — L'inventeur du saxophone est né ici en 1814. Sa maison natale est un musée. Des saxophones colorés ornent toute la ville.\n- **La Meuse** — Croisières vers Anseremme ou Freÿr. Kayak sur la Lesse.\n- **Shopping et restaurants** — Rues commerçantes charmantes, glaciers et brasseries le long de la Meuse.\n\n## Avec des enfants\n\nLe téléphérique est une aventure en soi. À la citadelle, aire de jeux et musée interactif. Après la visite, une glace au bord de la Meuse — les enfants sont ravis.\n\n## Astuce\n\nCombinez Dinant avec la randonnée en train Anseremme-Gendron. Vous marchez le long de la Lesse et terminez à Dinant.\n\n## Depuis ArdenNest\n\nÀ 15 minutes en voiture. Parking le long de la Meuse (payant) ou gratuit au parking du pont d'Anseremme.",
+        "seo": {
+          "title": "Dinant — Citadelle, téléphérique & Adolphe Sax | ArdenNest",
+          "description": "Ville pittoresque sur la Meuse avec citadelle, téléphérique et musée du saxophone. Excursion parfaite à 15 min d'ArdenNest."
+        }
       },
       "grotten-van-han": {
         "title": "Grottes de Han",
-        "description": "Grottes spectaculaires et parc animalier.",
-        "highlights": ["Visite des grottes", "Safari", "Aire de jeux"],
-        "fullDescription": "Un incontournable pour toute visite dans les Ardennes."
+        "description": "L'une des plus belles grottes d'Europe, combinée à un parc animalier de 250 hectares. L'excursion incontournable des Ardennes.",
+        "highlights": ["Visite de la grotte", "Parc animalier", "Parcours dans les arbres", "Big 5"],
+        "fullDescription": "Le Domaine des Grottes de Han est l'attraction la plus célèbre des Ardennes belges — et à juste titre. Vous combinez une visite spectaculaire de la grotte avec un parc animalier de 250 hectares et le tout nouveau parcours dans les arbres Tree Experience.\n\n## La Grotte de Han\n\nUn voyage souterrain à travers des galeries mystérieuses, des salles impressionnantes, des stalactites et stalagmites et une rivière souterraine. La grotte a été façonnée par la Lesse qui s'est frayé un chemin à travers le massif calcaire. Un audioguide vous accompagne — disponible en français.\n\n## Le Parc Animalier\n\nLe plus grand parc animalier de Belgique : 250 hectares de nature pure. Repérez les Big 5 européens : ours brun, loup, bison, lynx et glouton. Vous traversez le parc en bus safari avec des arrêts aux postes d'observation.\n\n## Tree Experience — Parcours dans les arbres\n\nLe tout nouveau parcours offre 5 niveaux pour tous les âges. Des parcours faciles pour enfants dès 4 ans aux tyroliennes de 140 mètres à 10 mètres de hauteur. Durée estimée : 1h30.\n\n## Pourquoi nous le recommandons\n\nC'est une journée complète de divertissement pour toute la famille. Grotte + parc animalier + parcours = fatigués mais heureux en rentrant. Achetez vos billets en ligne — ça évite l'attente.\n\n## Depuis ArdenNest\n\nÀ 25 minutes en voiture vers Rochefort/Han-sur-Lesse.",
+        "seo": {
+          "title": "Grottes de Han — Grotte, Parc Animalier & Tree Experience | ArdenNest",
+          "description": "L'une des plus belles grottes d'Europe, parc animalier avec les Big 5 et nouveau parcours dans les arbres. Journée complète à 25 min d'ArdenNest."
+        }
       },
       "kasteel-bouillon": {
         "title": "Château de Bouillon",
-        "description": "Château médiéval avec spectacle de rapaces.",
-        "highlights": ["Rapaces", "Atmosphère médiévale", "Vallée de la Semois"],
-        "fullDescription": "Remontez le temps dans cet imposant château médiéval."
+        "description": "Château millénaire sur trois pitons rocheux au-dessus de la Semois. Spectacle de rapaces, visites nocturnes et fête médiévale.",
+        "highlights": ["Spectacle de rapaces", "Visite nocturne", "Panorama 360°", "Atmosphère médiévale"],
+        "fullDescription": "Le château fort de Bouillon est l'un des plus anciens et impressionnants châteaux de Belgique. Depuis plus de 1000 ans, la forteresse trône sur trois pitons rocheux au-dessus de la Semois. 135 000 visiteurs par an — et c'est mérité.\n\n## Ce que vous pouvez faire\n\n- **Explorer le château** — 340 mètres de long, avec des souterrains, la Tour d'Autriche (panorama 360°), la salle de torture, la Salle Godefroy et le mécanisme du pont à bascule\n- **Spectacle de rapaces** — Démonstration spectaculaire de fauconnerie dans la cour. Aigles, faucons et hiboux volent juste au-dessus de vos têtes\n- **Visite nocturne** — Pendant les vacances, visitez le château aux flambeaux. Les enfants trouvent ça inoubliable\n- **L'Odyssée de Lumière** — Nouveau spectacle son et lumière qui vous fait traverser les siècles\n\n## Un peu d'histoire\n\nLe château date d'avant l'an 1000. Son plus célèbre résident fut Godefroy de Bouillon, qui en 1096 vendit le château à l'évêque de Liège pour financer la Première Croisade.\n\n## Pourquoi nous le recommandons\n\nLa combinaison histoire, spectacle et vue imprenable sur la vallée de la Semois en fait une excursion de premier plan. Prenez aussi le temps de flâner dans la ville de Bouillon.\n\n## Depuis ArdenNest\n\nÀ 40 minutes en voiture vers Bouillon. La route à travers les Ardennes est déjà magnifique.",
+        "seo": {
+          "title": "Château de Bouillon — 1000 ans d'histoire | ArdenNest",
+          "description": "Château millénaire au-dessus de la Semois avec spectacle de rapaces, visites nocturnes et panorama 360°. 40 min d'ArdenNest."
+        }
       },
       "abdij-maredsous": {
         "title": "Abbaye de Maredsous",
-        "description": "Abbaye bénédictine avec fromage et bières célèbres.",
-        "highlights": ["Fromage d'abbaye", "Bière trappiste", "Librairie"],
-        "fullDescription": "Une oasis de paix avec de délicieux produits régionaux."
+        "description": "Abbaye bénédictine dans un vallon verdoyant avec fromages célèbres, bières et une oasis de paix.",
+        "highlights": ["Fromage d'abbaye", "Bière d'abbaye", "Visite guidée", "Sentiers de promenade"],
+        "fullDescription": "L'Abbaye de Maredsous est une abbaye bénédictine vivante dans un magnifique vallon verdoyant. Fondée en 1872, une communauté de moines y maintient encore le rythme de prière, de travail et d'hospitalité.\n\n## Ce que vous pouvez faire\n\n- **Visite guidée** — Visite de l'église et des alentours du monastère, depuis le Centre d'accueil Saint-Joseph\n- **Produits de l'abbaye** — Les célèbres fromages et bières de Maredsous en vente au magasin\n- **Brasserie** — Dégustez une bière de Maredsous et une tartine au fromage d'abbaye en terrasse\n- **Sentiers de promenade** — Le domaine est situé dans un beau vallon, parfait pour une promenade\n- **Silence et recueillement** — L'abbaye propose aussi des séjours pour ceux qui cherchent paix et contemplation\n\n## Les produits\n\nMaredsous est réputée pour ses fromages et ses bières d'abbaye. Les moines participent aux recettes. Le magasin de l'abbaye vend aussi des livres, articles religieux et miel.\n\n## Pourquoi nous le recommandons\n\nL'atmosphère y est différente. Plus calme, plus sereine, avec une hospitalité sincère. Parfait pour une matinée ou un après-midi tranquille.\n\n## Depuis ArdenNest\n\nÀ 20 minutes en voiture vers Dinant/Denée.",
+        "seo": {
+          "title": "Abbaye de Maredsous — Fromage, bière & sérénité | ArdenNest",
+          "description": "Abbaye bénédictine avec fromages célèbres, bières d'abbaye et visites guidées. Sentiers dans un magnifique vallon. 20 min d'ArdenNest."
+        }
       },
       "natuurreservaat-furfooz": {
         "title": "Réserve naturelle de Furfooz",

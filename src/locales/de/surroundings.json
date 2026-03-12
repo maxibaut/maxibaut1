@@ -135,9 +135,13 @@
       },
       "wandeling-rond-malvoisin": {
         "title": "Wanderung um Malvoisin",
-        "description": "Ruhige Dorfwanderung mit wunderschönen Panoramablicken.",
-        "highlights": ["Dorfkirche", "Wiesen", "Panorama"],
-        "fullDescription": "Eine ruhige Wanderung von unserem eigenen Dorf aus."
+        "description": "Ruhige Dorfwanderung vom Ferienhaus aus mit Panoramablicken über die Ardennen. Kein Auto nötig.",
+        "highlights": ["Vor der Haustür", "Panorama", "Wiesen", "Dorfkirche", "Kinderwagenfreundlich"],
+        "fullDescription": "Schuhe anziehen und an der Haustür starten — diese Wanderung beginnt und endet am Ferienhaus.\n\n## Die Route\n\nEine 5 km Schleife durch den Weiler Malvoisin und die umliegenden Wiesen und Wälder. Sie wandern auf ruhigen Landstraßen mit kaum Verkehr, an Bauernhöfen, Wiesen mit Kühen und durch kleine Waldstücke.\n\n## Höhepunkte\n\n- **Panoramablicke** — Am höchsten Punkt ein weiter Blick über die Hügel der Ardennen. Bei klarem Wetter sieht man bis zur französischen Grenze.\n- **Die Dorfkirche von Malvoisin** — Eine kleine, charmante Kirche inmitten des Weilers.\n- **Wiesen** — Kinder lieben es, die Kühe und Pferde zu entdecken.\n- **Ruhe** — Sie treffen unterwegs kaum jemanden. Die Ardennen in ihrer reinsten Form.\n\n## Mit Kinderwagen?\n\nDie Route verläuft hauptsächlich auf befestigten Landstraßen und ist kinderwagenfreundlich. Keine steilen Anstiege oder schwierigen Passagen.\n\n## Tipp\n\nDiese Wanderung ist ideal als Aufwärmer am ersten Tag oder als ruhiger Abschluss. Eine detaillierte Wanderkarte mit Erklärungen liegt im Haus bereit.",
+        "seo": {
+          "title": "Wanderung um Malvoisin — Start an der Haustür | ArdenNest",
+          "description": "Ruhige 5 km Dorfwanderung vom Ferienhaus aus. Panoramablicke, Wiesen und kein Auto nötig. Kinderwagenfreundlich."
+        }
       },
       "laddertjeswandeling-rochehaut": {
         "title": "Leiterwanderung Rochehaut",
@@ -155,13 +159,21 @@
     "cycling": {
       "ravel-dinant-givet": {
         "title": "RAVeL Radweg Dinant - Givet",
-        "description": "Flacher Radweg entlang der Maas, perfekt für Familien.",
-        "fullDescription": "Das RAVeL-Netzwerk bietet wunderschöne, autofreie Radwege entlang der Maas."
+        "description": "Flacher, autofreier Radweg entlang der Maas von Dinant bis Givet in Frankreich. 20 km einfach, perfekt für Familien.",
+        "fullDescription": "Der RAVeL-Radweg auf der alten Bahnlinie 150 ist eine der beliebtesten Radrouten der Region. Völlig flach, autofrei und asphaltiert — perfekt für Familien mit Kindern.\n\n## Die Route\n\nDer Weg folgt der alten Bahnlinie entlang der Maas, von Dinant (Anseremme) bis Givet in Frankreich. Etwa 20 km einfach, also 40 km hin und zurück. Aber Sie müssen nicht die gesamte Strecke fahren — Sie können jederzeit umkehren.\n\n## Höhepunkte unterwegs\n\n- **Entlang der Maas** — Der Weg verläuft direkt am Fluss mit schönen Ausblicken\n- **Château de Freÿr** — Auf halber Strecke passieren Sie dieses prächtige Schloss mit Barockgärten\n- **Hastière** — Charmantes Dorf mit Terrassen für eine Pause\n- **Givet (FR)** — Der Endpunkt in Frankreich mit dem imposanten Fort de Charlemont\n\n## Praktisches\n\n- Asphaltierter Weg, geeignet für jedes Fahrrad\n- Völlig flach — kein Höhenunterschied\n- Trinkwasser und Toiletten unterwegs in den Dörfern\n- Eigene Räder mitbringen oder bei La Balade de Sim mieten\n\n## Tipp\n\nRadeln Sie bis Hastière (10 km), trinken Sie etwas auf einer Terrasse, und radeln Sie zurück. Das sind 20 km — perfekt für einen halben Tag mit Kindern.\n\n## Von ArdenNest\n\nStartpunkt Anseremme 15 Minuten Fahrt. Parken am Bahnhof.",
+        "seo": {
+          "title": "RAVeL Radweg Dinant - Givet — Flach entlang der Maas | ArdenNest",
+          "description": "Flacher, autofreier Radweg entlang der Maas. 20 km Dinant-Givet, perfekt für Familien. Am Château de Freÿr vorbei. 15 Min. von ArdenNest."
+        }
       },
       "mountainbike-beauraing": {
         "title": "Mountainbike-Strecken Beauraing",
-        "description": "Anspruchsvolle Routen durch die Wälder der Ardennen.",
-        "fullDescription": "Für sportliche Radfahrer gibt es verschiedene Mountainbike-Strecken."
+        "description": "Anspruchsvolle Routen durch die Wälder der Ardennen. Verschiedene Strecken von 15 bis 45 km für jedes Fitnessniveau.",
+        "fullDescription": "Die Wälder rund um Beauraing bieten ausgezeichnete Mountainbike-Möglichkeiten. Verschiedene ausgeschilderte Routen von 15 bis 45 km führen Sie durch dichte Wälder, über Hügel und entlang von Flüssen.\n\n## Die Routen\n\nMehrere ausgeschilderte VTT-Routen starten von Beauraing:\n\n- **Kurze Schleife (±15 km)** — Ideal zum Beine testen. Leicht hügelig mit schönen Waldwegen.\n- **Mittlere Schleife (±25 km)** — Mehr Höhenmeter und technischere Passagen. Schöne Single Trails.\n- **Lange Schleife (±45 km)** — Für erfahrene Mountainbiker. Ernsthafte Höhenmeter und anspruchsvolles Gelände.\n\n## Das Gelände\n\nTypisch Ardennen: Wechsel von Waldwegen, Single Trails, Landstraßen und gelegentlich Asphalt. Hügeliges Gelände mit kurzen, steilen Anstiegen und technischen Abfahrten.\n\n## Praktisches\n\n- Eigenes Mountainbike mitbringen oder bei La Balade de Sim mieten (E-MTB)\n- Routen mit VTT-Schildern ausgeschildert\n- GPX-Tracks verfügbar\n- Helm Pflicht\n\n## Von ArdenNest\n\nStartpunkt Beauraing 20 Minuten Fahrt. Parken am Castel de Beauraing.",
+        "seo": {
+          "title": "Mountainbike Beauraing — MTB-Strecken in den Ardennen | ArdenNest",
+          "description": "Ausgeschilderte Mountainbike-Routen von 15-45 km durch die Wälder von Beauraing. Hügelig, technisch und abenteuerlich. 20 Min. von ArdenNest."
+        }
       },
       "la-balade-de-sim": {
         "title": "La Balade de Sim — Elektrofahrrad-Verleih",
@@ -255,27 +267,43 @@
     "attractions": {
       "dinant": {
         "title": "Dinant",
-        "description": "Malerische Stadt an der Maas mit Zitadelle und Stiftskirche.",
-        "highlights": ["Zitadelle", "Seilbahn", "Adolphe Sax"],
-        "fullDescription": "Dinant ist die nächste Stadt und bietet einen perfekten Tagesausflug."
+        "description": "Malerische Stadt an der Maas mit Zitadelle, Seilbahn und Stiftskirche. Geburtsort von Adolphe Sax.",
+        "highlights": ["Zitadelle", "Seilbahn", "Adolphe Sax", "Stiftskirche", "Einkaufen"],
+        "fullDescription": "Dinant ist die nächste Stadt und bietet einen perfekten Tagesausflug. Die Stadt schmiegt sich zwischen Felswand und Maas — eines der schönsten Stadtbilder Belgiens.\n\n## Was Sie unternehmen können\n\n- **Die Zitadelle** — Per Seilbahn oder über 408 Stufen erreichen Sie die Festung hoch über der Stadt. Panoramablick über das Maas-Tal. Innen ein Museum über die Geschichte von Dinant und beide Weltkriege.\n- **Die Stiftskirche** — Der charakteristische birnenförmige Glockenturm ist das Wahrzeichen von Dinant. Kostenlos zu besichtigen.\n- **Adolphe Sax** — Der Erfinder des Saxophons wurde hier 1814 geboren. Sein Geburtshaus ist ein Museum. Bunte Saxophon-Statuen säumen die Straßen.\n- **Die Maas** — Bootsfahrten nach Anseremme oder Freÿr. Kajakfahren auf der Lesse.\n- **Einkaufen und Essen** — Charmante Einkaufsstraßen, Eisdielen und Brasserien an der Maas.\n\n## Mit Kindern\n\nDie Seilbahn ist ein Erlebnis für sich. Auf der Zitadelle gibt es einen Spielplatz und ein interaktives Museum. Danach ein Eis an der Maas — Kinder sind zufrieden.\n\n## Tipp\n\nKombinieren Sie Dinant mit der Zugwanderung Anseremme-Gendron. Sie wandern entlang der Lesse und enden in Dinant.\n\n## Von ArdenNest\n\n15 Minuten Fahrt. Parken an der Maas (kostenpflichtig) oder kostenlos am Parkplatz der Brücke von Anseremme.",
+        "seo": {
+          "title": "Dinant — Zitadelle, Seilbahn & Adolphe Sax | ArdenNest",
+          "description": "Malerische Stadt an der Maas mit Zitadelle, Seilbahn und Saxophon-Museum. Perfekter Tagesausflug 15 Min. von ArdenNest."
+        }
       },
       "grotten-van-han": {
         "title": "Grotten von Han",
-        "description": "Spektakuläre Höhlen und Wildpark.",
-        "highlights": ["Höhlenbesuch", "Safari", "Spielplatz"],
-        "fullDescription": "Ein Muss für jeden Besuch in den Ardennen."
+        "description": "Eine der schönsten Höhlen Europas, kombiniert mit einem 250 Hektar großen Wildpark. Der Tagesausflug in den Ardennen.",
+        "highlights": ["Höhlenbesuch", "Wildpark", "Baumwipfelparcours", "Big 5"],
+        "fullDescription": "Das Domaine der Grotten von Han ist die bekannteste Sehenswürdigkeit der belgischen Ardennen — und das zu Recht. Sie kombinieren einen spektakulären Höhlenbesuch mit einem 250 Hektar großen Wildpark und dem brandneuen Baumwipfelparcours Tree Experience.\n\n## Die Höhle von Han\n\nEine unterirdische Reise durch geheimnisvolle Galerien, beeindruckende Hallen, Stalaktiten und Stalagmiten und einen unterirdischen Fluss. Die Höhle wurde von der Lesse geformt, die sich ihren Weg durch das Kalksteinmassiv bahnte. Ein Audioguide begleitet Sie — auf Deutsch verfügbar.\n\n## Der Wildpark\n\nDer größte Tierpark Belgiens: 250 Hektar pure Natur. Entdecken Sie die Europäischen Big 5: Braunbär, Wolf, Wisent, Luchs und Vielfraß. Sie fahren mit dem Safaribus durch den Park.\n\n## Tree Experience — Baumwipfelparcours\n\nDer brandneue Parcours bietet 5 Niveaus für alle Altersgruppen. Von einfachen Parcours für Kinder ab 4 Jahren bis zu 140-Meter-Seilrutschen auf 10 Metern Höhe. Dauer: ca. 1,5 Stunden.\n\n## Warum wir es empfehlen\n\nDas ist ein voller Tag Unterhaltung für die ganze Familie. Höhle + Wildpark + Parcours = müde aber glücklich nach Hause. Kaufen Sie Tickets online — spart Wartezeit.\n\n## Von ArdenNest\n\n25 Minuten Fahrt Richtung Rochefort/Han-sur-Lesse.",
+        "seo": {
+          "title": "Grotten von Han — Höhle, Wildpark & Tree Experience | ArdenNest",
+          "description": "Eine der schönsten Höhlen Europas, Wildpark mit den Big 5 und neuer Baumwipfelparcours. Voller Tagesausflug 25 Min. von ArdenNest."
+        }
       },
       "kasteel-bouillon": {
         "title": "Burg Bouillon",
-        "description": "Mittelalterliche Burg mit Greifvogelschau.",
-        "highlights": ["Greifvögel", "Mittelalterliche Atmosphäre", "Semois-Tal"],
-        "fullDescription": "Reisen Sie zurück in die Zeit in dieser imposanten mittelalterlichen Burg."
+        "description": "Tausendjährige Burg auf drei Felsspitzen über der Semois. Greifvogelschau, Nachtbesuche und Mittelalterfest.",
+        "highlights": ["Greifvogelschau", "Nachtbesuch", "360°-Panorama", "Mittelalterliche Atmosphäre"],
+        "fullDescription": "Die Burg Bouillon ist eine der ältesten und beeindruckendsten Burgen Belgiens. Seit über 1000 Jahren thront die Festung auf drei Felsspitzen über der Semois. 135.000 Besucher pro Jahr — und das zu Recht.\n\n## Was Sie unternehmen können\n\n- **Die Burg erkunden** — 340 Meter lang, mit unterirdischen Gängen, dem Tour d'Autriche (360°-Panorama), der Folterkammer, dem Saal Godefroy und dem Zugbrückenmechanismus\n- **Greifvogelschau** — Spektakuläre Falknerei-Vorführung im Innenhof. Adler, Falken und Eulen fliegen knapp über Ihren Kopf\n- **Nachtbesuch** — In den Ferien mit Fackeln. Für Kinder unvergesslich\n- **L'Odyssée de Lumière** — Neue Sound- und Lichtshow durch die Jahrhunderte\n\n## Etwas Geschichte\n\nDie Burg stammt aus der Zeit vor dem Jahr 1000. Ihr berühmtester Bewohner war Gottfried von Bouillon, der 1096 die Burg verkaufte, um den Ersten Kreuzzug zu finanzieren.\n\n## Warum wir es empfehlen\n\nDie Kombination aus Geschichte, Spektakel und atemberaubender Aussicht über das Semois-Tal macht dies zu einem Top-Ausflug. Nehmen Sie sich auch Zeit für einen Bummel durch das Städtchen Bouillon.\n\n## Von ArdenNest\n\n40 Minuten Fahrt Richtung Bouillon. Die Fahrt durch die Ardennen ist an sich schon wunderschön.",
+        "seo": {
+          "title": "Burg Bouillon — 1000 Jahre Geschichte | ArdenNest",
+          "description": "Tausendjährige Burg über der Semois mit Greifvogelschau, Nachtbesuchen und 360°-Panorama. 40 Min. von ArdenNest."
+        }
       },
       "abdij-maredsous": {
         "title": "Abtei Maredsous",
-        "description": "Benediktinerabtei mit berühmtem Käse und Bieren.",
-        "highlights": ["Abteikäse", "Trappistenbier", "Buchhandlung"],
-        "fullDescription": "Eine Oase der Ruhe mit köstlichen regionalen Produkten."
+        "description": "Benediktinerabtei in einem grünen Tal mit berühmtem Käse, Bieren und einer Oase der Ruhe.",
+        "highlights": ["Abteikäse", "Abteibier", "Führung", "Wanderwege"],
+        "fullDescription": "Die Abtei Maredsous ist eine lebendige Benediktinerabtei in einem wunderschönen grünen Tal. 1872 gegründet, lebt hier noch heute eine Gemeinschaft von Mönchen im Rhythmus von Gebet, Arbeit und Gastfreundschaft.\n\n## Was Sie unternehmen können\n\n- **Führung** — Geführte Besichtigung der Kirche und der Klosterumgebung, vom Centre d'accueil Saint-Joseph\n- **Abteiprodukte** — Die berühmten Maredsous-Käse und Abteibiere im Laden kaufen\n- **Brasserie** — Genießen Sie ein Maredsous-Bier und ein Käsebrot auf der Terrasse\n- **Wanderwege** — Das Gelände liegt in einem schönen Tal, perfekt für einen Spaziergang\n- **Stille und Besinnung** — Die Abtei bietet auch Aufenthalte für Ruhe- und Besinnungssuchende\n\n## Die Produkte\n\nMaredsous ist bekannt für seine Käse und Abteibiere. Die Mönche sind an den Rezepturen beteiligt. Der Abteiladen verkauft auch Bücher, religiöse Artikel und Honig.\n\n## Warum wir es empfehlen\n\nDie Atmosphäre ist anders als anderswo. Ruhiger, friedlicher, mit aufrichtiger Gastfreundschaft. Perfekt für einen ruhigen Vormittag oder Nachmittag.\n\n## Von ArdenNest\n\n20 Minuten Fahrt Richtung Dinant/Denée.",
+        "seo": {
+          "title": "Abtei Maredsous — Käse, Bier & Besinnung | ArdenNest",
+          "description": "Benediktinerabtei mit berühmtem Käse, Abteibier und Führungen. Wanderwege in einem wunderschönen grünen Tal. 20 Min. von ArdenNest."
+        }
       },
       "natuurreservaat-furfooz": {
         "title": "Naturschutzgebiet Furfooz",

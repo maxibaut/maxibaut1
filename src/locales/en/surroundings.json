@@ -135,9 +135,13 @@
       },
       "wandeling-rond-malvoisin": {
         "title": "Walk around Malvoisin",
-        "description": "Quiet village walk with beautiful panoramic views.",
-        "highlights": ["Village church", "Meadows", "Panorama"],
-        "fullDescription": "A quiet walk from our own village."
+        "description": "Quiet village walk from the holiday home with panoramic views over the Ardennes. No car needed.",
+        "highlights": ["At the doorstep", "Panorama", "Meadows", "Village church", "Wheelchair-friendly"],
+        "fullDescription": "Put on your shoes and start at the front door — this walk begins and ends at the holiday home.\n\n## The route\n\nA 5 km loop through the hamlet of Malvoisin and the surrounding meadows and woods. You walk along quiet country roads with barely any traffic, past farms, meadows with cows and through small patches of forest.\n\n## Highlights\n\n- **Panoramic views** — At the highest point you get a wide view across the Ardennes hills. On a clear day you can see all the way to the French border.\n- **The village church of Malvoisin** — A small, charming church in the middle of the hamlet.\n- **Meadows** — Children love spotting the cows and horses.\n- **Peace** — You'll barely meet anyone along the way. This is the Ardennes at its purest.\n\n## With a buggy?\n\nThe route is mostly on paved country roads and is buggy-friendly. No steep hills or difficult passages.\n\n## Tip\n\nThis walk is ideal as a warm-up on the first day or as a quiet way to end the stay. A detailed walking map with instructions is available in the house.\n\n## Variation\n\nFor those wanting more: the route can easily be extended towards Louette-Saint-Pierre or Graide for a longer walk of 8-10 km.",
+        "seo": {
+          "title": "Walk around Malvoisin — Start at the Door | ArdenNest",
+          "description": "Quiet 5 km village walk from the holiday home. Panoramic views, meadows and no car needed. Buggy-friendly."
+        }
       },
       "laddertjeswandeling-rochehaut": {
         "title": "Ladder Walk Rochehaut",
@@ -155,13 +159,21 @@
     "cycling": {
       "ravel-dinant-givet": {
         "title": "RAVeL cycle path Dinant - Givet",
-        "description": "Flat cycle path along the Meuse, perfect for families.",
-        "fullDescription": "The RAVeL network offers beautiful, car-free cycle paths along the Meuse."
+        "description": "Flat, car-free cycle path along the Meuse from Dinant to Givet in France. 20 km one way, perfect for families.",
+        "fullDescription": "The RAVeL cycle path on the old railway line 150 is one of the most popular cycling routes in the region. Completely flat, car-free and paved — perfect for families with children.\n\n## The route\n\nThe path follows the old railway line along the Meuse, from Dinant (Anseremme) to Givet in France. About 20 km one way, so 40 km return. But you don't have to cycle the whole route — you can turn around at any point.\n\n## Highlights along the way\n\n- **Along the Meuse** — The path runs right beside the river, with beautiful views\n- **Château de Freÿr** — Halfway you pass this stunning castle with baroque gardens\n- **Hastière** — Charming village with terraces for a break\n- **Givet (FR)** — The endpoint in France, with the impressive Fort de Charlemont\n\n## Practical\n\n- Paved path, suitable for any bike (including children's bikes and bike trailers)\n- Completely flat — no elevation\n- Drinking water and toilets along the way in villages\n- Bring your own bikes or rent from La Balade de Sim\n\n## Tip\n\nCycle to Hastière (10 km), have a drink on a terrace, and cycle back. That's 20 km — perfect for a half day with children.\n\n## From ArdenNest\n\nStarting point Anseremme is a 15-minute drive. Parking at the station.",
+        "seo": {
+          "title": "RAVeL Cycle Path Dinant - Givet — Flat Along the Meuse | ArdenNest",
+          "description": "Flat, car-free cycle path along the Meuse. 20 km Dinant-Givet, perfect for families. Past Château de Freÿr. 15 min from ArdenNest."
+        }
       },
       "mountainbike-beauraing": {
         "title": "Mountain bike trails Beauraing",
-        "description": "Challenging routes through the forests of the Ardennes.",
-        "fullDescription": "For the sporty cyclist there are various mountain bike routes."
+        "description": "Challenging routes through the forests of the Ardennes. Various trails from 15 to 45 km for every fitness level.",
+        "fullDescription": "The forests around Beauraing offer excellent mountain biking. Various signposted routes from 15 to 45 km take you through dense forests, over hills and along rivers.\n\n## The routes\n\nSeveral signposted VTT routes (Vélo Tout Terrain) depart from Beauraing:\n\n- **Short loop (±15 km)** — Ideal for testing your legs. Gently hilly with beautiful forest paths.\n- **Medium loop (±25 km)** — More elevation and more technical passages. Nice single trails.\n- **Long loop (±45 km)** — For experienced mountain bikers. Serious elevation and challenging terrain.\n\n## The terrain\n\nTypically Ardennes: alternating forest paths, single trails, country roads and occasional tarmac. The terrain is hilly with short, steep climbs and technical descents. After rain some paths can be muddy — that's part of the fun.\n\n## Practical\n\n- Bring your own mountain bike or rent from La Balade de Sim (e-MTB)\n- Routes signposted with VTT signs\n- GPX tracks available\n- Helmet mandatory\n\n## From ArdenNest\n\nStarting point Beauraing is a 20-minute drive. Parking at the Castel de Beauraing.",
+        "seo": {
+          "title": "Mountain Bike Beauraing — MTB Trails in the Ardennes | ArdenNest",
+          "description": "Signposted mountain bike routes from 15-45 km through the forests of Beauraing. Hilly, technical and adventurous. 20 min from ArdenNest."
+        }
       },
       "la-balade-de-sim": {
         "title": "La Balade de Sim — Electric bike rental",
@@ -255,27 +267,43 @@
     "attractions": {
       "dinant": {
         "title": "Dinant",
-        "description": "Picturesque town on the Meuse with citadel and collegiate church.",
-        "highlights": ["Citadel", "Cable car", "Adolphe Sax"],
-        "fullDescription": "Dinant is the nearest town and offers a perfect day out."
+        "description": "Picturesque town on the Meuse with citadel, cable car and collegiate church. Birthplace of Adolphe Sax.",
+        "highlights": ["Citadel", "Cable car", "Adolphe Sax", "Collegiate church", "Shopping"],
+        "fullDescription": "Dinant is the nearest town and offers a perfect day out. The town clings to the rock face above the Meuse — one of the most beautiful cityscapes in Belgium.\n\n## What you can do\n\n- **The Citadel** — Reach the fortress by cable car or via 408 steps. Panoramic views over the Meuse valley. Inside, a museum about Dinant's history and both World Wars.\n- **The Collegiate Church** — The distinctive pear-shaped bell tower is Dinant's icon. Free to visit.\n- **Adolphe Sax** — The inventor of the saxophone was born here in 1814. His birthplace is a museum. Colourful saxophone statues line the streets.\n- **The Meuse** — Boat trips to Anseremme or Freÿr. Kayaking on the Lesse.\n- **Shopping and dining** — Charming shopping streets, ice cream parlours and brasseries along the Meuse.\n\n## With children\n\nThe cable car is an experience in itself. At the citadel there's a playground and an interactive museum. Afterwards, an ice cream by the Meuse — children are happy.\n\n## Tip\n\nCombine Dinant with the Anseremme-Gendron train walk. You walk along the Lesse and end up in Dinant.\n\n## From ArdenNest\n\n15 minutes by car. Parking along the Meuse (paid) or free at the Anseremme bridge car park.",
+        "seo": {
+          "title": "Dinant — Citadel, Cable Car & Adolphe Sax | ArdenNest",
+          "description": "Picturesque town on the Meuse with citadel, cable car and saxophone museum. Perfect day trip 15 min from ArdenNest."
+        }
       },
       "grotten-van-han": {
         "title": "Caves of Han",
-        "description": "Spectacular caves and wildlife park.",
-        "highlights": ["Cave visit", "Safari", "Playground"],
-        "fullDescription": "A must-see for every visit to the Ardennes."
+        "description": "One of Europe's most beautiful caves, combined with a 250-hectare wildlife park. The day trip in the Ardennes.",
+        "highlights": ["Cave visit", "Wildlife park", "Treetop course", "Big 5"],
+        "fullDescription": "The Domain of the Caves of Han is the most famous attraction in the Belgian Ardennes — and rightly so. You combine a spectacular cave visit with a 250-hectare wildlife park and the brand-new Tree Experience treetop course.\n\n## The Cave of Han\n\nAn underground journey through mysterious galleries, impressive halls, stalactites and stalagmites and an underground river. The cave was formed by the Lesse carving its way through the limestone massif. An audio guide walks you through the story — available in English.\n\n## The Wildlife Park\n\nThe largest animal park in Belgium: 250 hectares of pure nature. Spot the European Big 5: brown bear, wolf, bison, lynx and wolverine. You ride through the park by safari bus and get off at observation posts.\n\n## Tree Experience — Treetop Course\n\nThe brand-new treetop course offers 5 levels for all ages. From easy courses for children from age 4 to 140-metre ziplines at 10 metres height. Estimated duration: 1h30.\n\n## Why we recommend it\n\nThis is a full day of entertainment for the whole family. Cave + wildlife park + treetop course = tired but happy on the way home. Buy tickets online — saves waiting time.\n\n## From ArdenNest\n\n25 minutes by car towards Rochefort/Han-sur-Lesse.",
+        "seo": {
+          "title": "Caves of Han — Cave, Wildlife Park & Tree Experience | ArdenNest",
+          "description": "One of Europe's most beautiful caves, wildlife park with the Big 5 and new treetop course. Full day trip 25 min from ArdenNest."
+        }
       },
       "kasteel-bouillon": {
         "title": "Bouillon Castle",
-        "description": "Medieval castle with birds of prey show.",
-        "highlights": ["Birds of prey", "Medieval atmosphere", "Semois valley"],
-        "fullDescription": "Step back in time in this imposing medieval castle."
+        "description": "A thousand-year-old castle on three rock peaks above the Semois. Birds of prey show, night visits and medieval festival.",
+        "highlights": ["Birds of prey", "Night visit", "360° panorama", "Medieval atmosphere"],
+        "fullDescription": "Bouillon Castle is one of the oldest and most impressive castles in Belgium. For over 1,000 years the fortress has perched on three rock peaks above the Semois. 135,000 visitors per year — and deservedly so.\n\n## What you can do\n\n- **Explore the castle** — 340 metres long, with underground passages, the Tour d'Autriche (360° panorama), the torture chamber, the Salle Godefroy and the drawbridge mechanism\n- **Birds of prey show** — Spectacular falconry demonstration in the courtyard. Eagles, falcons and owls fly just above your head\n- **Night visit** — During holidays you can visit the castle with torches. Children find this unforgettable\n- **L'Odyssée de Lumière** — New sound and light show that takes you through the centuries\n\n## A bit of history\n\nThe castle dates from before the year 1000. Its most famous resident was Godfrey of Bouillon, who in 1096 sold the castle to the Bishop of Liège to finance the First Crusade. It later became a strategic stronghold under the French, Spanish and Dutch.\n\n## Why we recommend it\n\nThe combination of history, spectacle and the breathtaking views over the Semois valley makes this a top trip. Also take time to stroll through the town of Bouillon — the Semois meanders through it like a ribbon.\n\n## From ArdenNest\n\n40 minutes by car towards Bouillon. The drive through the Ardennes is beautiful in itself.",
+        "seo": {
+          "title": "Bouillon Castle — 1,000 Years of History | ArdenNest",
+          "description": "Thousand-year-old castle above the Semois with birds of prey show, night visits and 360° panorama. 40 min from ArdenNest."
+        }
       },
       "abdij-maredsous": {
         "title": "Maredsous Abbey",
-        "description": "Benedictine abbey with famous cheese and beers.",
-        "highlights": ["Abbey cheese", "Trappist beer", "Bookshop"],
-        "fullDescription": "An oasis of peace with delicious regional products."
+        "description": "Benedictine abbey in a green valley with famous cheese, beers and an atmosphere of peace.",
+        "highlights": ["Abbey cheese", "Abbey beer", "Guided tour", "Walking trails"],
+        "fullDescription": "Maredsous Abbey is a living Benedictine abbey in a beautiful green valley. Founded in 1872, a community of monks still maintains the rhythm of prayer, work and hospitality today.\n\n## What you can do\n\n- **Guided tour** — Guided tour of the church and monastery surroundings, from the Centre d'accueil Saint-Joseph\n- **Abbey products** — Buy the famous Maredsous cheese and abbey beers in the shop\n- **Brasserie** — Enjoy a Maredsous beer and a sandwich with abbey cheese on the terrace\n- **Walking trails** — The estate sits in a beautiful valley, perfect for a walk\n- **Silence and reflection** — The abbey also offers stays for those seeking peace and contemplation\n\n## The products\n\nMaredsous is known for its cheeses (including soft, semi-hard and aged varieties) and abbey beers. The monks are involved in the recipes, though production happens on a larger scale. The abbey shop also sells books, religious articles and honey.\n\n## Why we recommend it\n\nThe atmosphere is different from anywhere else. Quieter, more peaceful, with genuine hospitality. Perfect for a relaxed morning or afternoon. Combine with a walk in the green surroundings.\n\n## From ArdenNest\n\n20 minutes by car towards Dinant/Denée.",
+        "seo": {
+          "title": "Maredsous Abbey — Cheese, Beer & Contemplation | ArdenNest",
+          "description": "Benedictine abbey with famous cheese, abbey beer and guided tours. Walking trails in a beautiful green valley. 20 min from ArdenNest."
+        }
       },
       "natuurreservaat-furfooz": {
         "title": "Furfooz Nature Reserve",
