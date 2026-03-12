@@ -276,6 +276,46 @@
         "description": "Benedictine abbey with famous cheese and beers.",
         "highlights": ["Abbey cheese", "Trappist beer", "Bookshop"],
         "fullDescription": "An oasis of peace with delicious regional products."
+      },
+      "natuurreservaat-furfooz": {
+        "title": "Furfooz Nature Reserve",
+        "description": "Nature reserve with walk along caves and Roman ruins.",
+        "highlights": ["Nature", "Archaeology", "Panorama"],
+        "fullDescription": "A hidden gem in the Lesse valley. A signposted 4 km walk takes you past caves, panoramic viewpoints and Gallo-Roman ruins. Managed by the Ardenne & Gaume association.\n\n## What you can do\n\n- Signposted 4 km walk along the Lesse\n- Caves and prehistoric shelters\n- Gallo-Roman ruins (thermal baths)\n- Spectacular viewpoints over the Lesse valley\n- Information panels about flora, fauna and history\n\n## Why we recommend it\n\nFurfooz combines nature, archaeology and stunning panoramas in a single walk. It's quiet, unspoilt and feels like a discovery. Becoming a member of Ardenne & Gaume gives you free entry.\n\n## Combination tip\n\nPerfect to combine with the train walk to Gendron — Furfooz is just a few minutes from Gendron-Celles station.\n\n## From ArdenNest\n\nA 20-minute drive towards Dinant.",
+        "seo": {
+          "title": "Furfooz Nature Reserve — Caves & Ruins | ArdenNest",
+          "description": "4 km walk past caves, Gallo-Roman ruins and panoramas over the Lesse valley. Hidden gem 20 min from ArdenNest."
+        }
+      },
+      "kasteel-lavaux-sainte-anne": {
+        "title": "Lavaux-Sainte-Anne Castle",
+        "description": "Medieval castle with wetland nature reserve.",
+        "highlights": ["Castle", "Wetlands", "Events"],
+        "fullDescription": "One of the most beautiful castles in Wallonia, classified as major heritage. Wander through 32 rooms from cellar to keep and discover the adjacent wetland nature reserve.\n\n## What you can do\n\n- Visit 32 rooms spread across 3 museums (castle, nature, rural life)\n- Wetland nature reserve with observation posts\n- Boutique with regional products\n- Regular events: antique fairs, Venetian costume shows, medieval weekends\n\n## A bit of history\n\nThe castle dates from 1244, when Jacques de Wellin built a watchtower along the Roman road Bavay-Nassogne. In the 15th century it was expanded into an imposing fortress with four towers. Today it is one of the best-preserved castles in the Famenne region.\n\n## Why we recommend it\n\nThe combination of castle and wetland nature reserve makes this a trip for all ages. Events are often an extra reason to visit. Check their calendar!\n\n## From ArdenNest\n\nA 25-minute drive towards Rochefort.",
+        "seo": {
+          "title": "Lavaux-Sainte-Anne Castle — Medieval Castle | ArdenNest",
+          "description": "Medieval castle from 1244 with 32 rooms and wetland nature reserve. Events and antique fairs. 25 min from ArdenNest."
+        }
+      },
+      "brasserie-de-la-lesse": {
+        "title": "Brasserie de la Lesse",
+        "description": "Cooperative craft brewery with tours and tastings.",
+        "highlights": ["Brewery", "Tasting", "Organic"],
+        "fullDescription": "A cooperative brewery with over 500 co-owners. A brewery that takes the time to brew beer, not money.\n\n## What you can do\n\n- Guided tour (±1h30) with tasting of 4 organic beers for €12/person\n- Tour without tasting: €7/person\n- Bar and terrace open weekends (Sat 10am-5pm, Sun 11am-4pm)\n- Buy beer in the shop (Mon-Fri except Thu)\n- No minimum number of participants for visits\n\n## The beers\n\n100% organic, made with local ingredients. No preservatives, no colouring, no artificial additives. From the refreshing TopLesse (pilsner 4.2%) to the robust Brune des Braves (7.5%). Seasonal HIVEResse in winter.\n\n## Why we recommend it\n\nBecause you can taste what a brewery with conviction can be. Beer to take back to the holiday home — perfect for an evening on the terrace.\n\n## From ArdenNest\n\nA 25-minute drive towards Rochefort/Éprave.",
+        "seo": {
+          "title": "Brasserie de la Lesse — Craft Brewery | ArdenNest",
+          "description": "Cooperative organic brewery in Éprave. Guided tour with tasting €12/pp. Bar, terrace and shop. 25 min from ArdenNest."
+        }
+      },
+      "domaine-de-chevetogne": {
+        "title": "Domaine de Chevetogne",
+        "description": "Provincial recreation park with 14 playgrounds and swimming pools.",
+        "highlights": ["Playgrounds", "Swimming pools", "Nature"],
+        "fullDescription": "The ultimate family day out. On 600 hectares of nature you'll find 14 playgrounds, outdoor swimming pools, two museums and kilometres of walking paths.\n\n## What you can do\n\n- 14 playgrounds — from the pirate playground 'Bout du Monde' to the Hobbit hut\n- Outdoor swimming pools (summer)\n- 10 walking trails through 600 hectares of nature\n- Two museums\n- Gardens with remarkable trees and sculptures\n- Activities for schools and groups\n\n## Why we recommend it\n\nChildren won't want to leave. Literally. Plan a full day — there's plenty to do. The combination of playgrounds, nature and swimming pools makes this the ideal trip for families with children of all ages.\n\n## Tip\n\nAsk us about discount vouchers — we sometimes have them!\n\n## From ArdenNest\n\nA 30-minute drive towards Ciney/Rochefort.",
+        "seo": {
+          "title": "Domaine de Chevetogne — 14 Playgrounds | ArdenNest",
+          "description": "Provincial park with 14 playgrounds, swimming pools and 600 hectares of nature. The ultimate family day out. 30 min from ArdenNest."
+        }
       }
     },
     "restaurants": {
