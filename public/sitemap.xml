@@ -1096,7 +1096,174 @@
     <priority>0.6</priority>
   </url>
 
-  <!-- Restaurants: Le Belvédère -->
+  <!-- Attractions: Natuurreservaat Furfooz -->
+  <url>
+    <loc>https://ardennest.be/surroundings/attractions/natuurreservaat-furfooz</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/attractions/natuurreservaat-furfooz"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/attractions/natuurreservaat-furfooz"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/attractions/natuurreservaat-furfooz"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/attractions/natuurreservaat-furfooz"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/attractions/natuurreservaat-furfooz"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/fr/surroundings/attractions/natuurreservaat-furfooz</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/attractions/natuurreservaat-furfooz"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/attractions/natuurreservaat-furfooz"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/attractions/natuurreservaat-furfooz"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/attractions/natuurreservaat-furfooz"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/attractions/natuurreservaat-furfooz"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/en/surroundings/attractions/natuurreservaat-furfooz</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/attractions/natuurreservaat-furfooz"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/attractions/natuurreservaat-furfooz"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/attractions/natuurreservaat-furfooz"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/attractions/natuurreservaat-furfooz"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/attractions/natuurreservaat-furfooz"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/de/surroundings/attractions/natuurreservaat-furfooz</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/attractions/natuurreservaat-furfooz"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/attractions/natuurreservaat-furfooz"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/attractions/natuurreservaat-furfooz"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/attractions/natuurreservaat-furfooz"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/attractions/natuurreservaat-furfooz"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Attractions: Kasteel Lavaux-Sainte-Anne -->
+  <url>
+    <loc>https://ardennest.be/surroundings/attractions/kasteel-lavaux-sainte-anne</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/attractions/kasteel-lavaux-sainte-anne"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/attractions/kasteel-lavaux-sainte-anne"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/attractions/kasteel-lavaux-sainte-anne"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/attractions/kasteel-lavaux-sainte-anne"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/attractions/kasteel-lavaux-sainte-anne"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/fr/surroundings/attractions/kasteel-lavaux-sainte-anne</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/attractions/kasteel-lavaux-sainte-anne"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/attractions/kasteel-lavaux-sainte-anne"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/attractions/kasteel-lavaux-sainte-anne"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/attractions/kasteel-lavaux-sainte-anne"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/attractions/kasteel-lavaux-sainte-anne"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/en/surroundings/attractions/kasteel-lavaux-sainte-anne</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/attractions/kasteel-lavaux-sainte-anne"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/attractions/kasteel-lavaux-sainte-anne"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/attractions/kasteel-lavaux-sainte-anne"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/attractions/kasteel-lavaux-sainte-anne"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/attractions/kasteel-lavaux-sainte-anne"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/de/surroundings/attractions/kasteel-lavaux-sainte-anne</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/attractions/kasteel-lavaux-sainte-anne"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/attractions/kasteel-lavaux-sainte-anne"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/attractions/kasteel-lavaux-sainte-anne"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/attractions/kasteel-lavaux-sainte-anne"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/attractions/kasteel-lavaux-sainte-anne"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Attractions: Brasserie de la Lesse -->
+  <url>
+    <loc>https://ardennest.be/surroundings/attractions/brasserie-de-la-lesse</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/attractions/brasserie-de-la-lesse"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/attractions/brasserie-de-la-lesse"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/attractions/brasserie-de-la-lesse"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/attractions/brasserie-de-la-lesse"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/attractions/brasserie-de-la-lesse"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/fr/surroundings/attractions/brasserie-de-la-lesse</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/attractions/brasserie-de-la-lesse"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/attractions/brasserie-de-la-lesse"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/attractions/brasserie-de-la-lesse"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/attractions/brasserie-de-la-lesse"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/attractions/brasserie-de-la-lesse"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/en/surroundings/attractions/brasserie-de-la-lesse</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/attractions/brasserie-de-la-lesse"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/attractions/brasserie-de-la-lesse"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/attractions/brasserie-de-la-lesse"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/attractions/brasserie-de-la-lesse"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/attractions/brasserie-de-la-lesse"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/de/surroundings/attractions/brasserie-de-la-lesse</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/attractions/brasserie-de-la-lesse"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/attractions/brasserie-de-la-lesse"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/attractions/brasserie-de-la-lesse"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/attractions/brasserie-de-la-lesse"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/attractions/brasserie-de-la-lesse"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Attractions: Domaine de Chevetogne -->
+  <url>
+    <loc>https://ardennest.be/surroundings/attractions/domaine-de-chevetogne</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/attractions/domaine-de-chevetogne"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/attractions/domaine-de-chevetogne"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/attractions/domaine-de-chevetogne"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/attractions/domaine-de-chevetogne"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/attractions/domaine-de-chevetogne"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/fr/surroundings/attractions/domaine-de-chevetogne</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/attractions/domaine-de-chevetogne"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/attractions/domaine-de-chevetogne"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/attractions/domaine-de-chevetogne"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/attractions/domaine-de-chevetogne"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/attractions/domaine-de-chevetogne"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/en/surroundings/attractions/domaine-de-chevetogne</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/attractions/domaine-de-chevetogne"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/attractions/domaine-de-chevetogne"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/attractions/domaine-de-chevetogne"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/attractions/domaine-de-chevetogne"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/attractions/domaine-de-chevetogne"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/de/surroundings/attractions/domaine-de-chevetogne</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/attractions/domaine-de-chevetogne"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/attractions/domaine-de-chevetogne"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/attractions/domaine-de-chevetogne"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/attractions/domaine-de-chevetogne"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/attractions/domaine-de-chevetogne"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
   <url>
     <loc>https://ardennest.be/surroundings/restaurants/le-belvedere-beauraing</loc>
     <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/restaurants/le-belvedere-beauraing"/>
