@@ -29,6 +29,7 @@ const routeSEOConfig: Record<string, SEOConfig> = {
   '/cancellation-policy': { titleKey: 'seo.title', descriptionKey: 'seo.description', namespace: 'cancellationPolicy' },
   '/privacy-policy': { titleKey: 'seo.title', descriptionKey: 'seo.description', namespace: 'privacy' },
   '/geo-scan': { titleKey: 'seo.title', descriptionKey: 'seo.description', namespace: 'homeowners' },
+  '/brand': { noIndex: true },
 };
 
 /** Extract the base path (without language prefix) from a full pathname */
