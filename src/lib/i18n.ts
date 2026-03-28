@@ -108,6 +108,7 @@ const resources = {
     rentalTerms: frRentalTerms,
     cancellationPolicy: frCancellationPolicy,
     homeowners: frHomeowners,
+    journal: frJournal,
   },
   en: {
     common: enCommon,
