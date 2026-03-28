@@ -1,6 +1,6 @@
 # ArdenNest — Content & Marketing Strategie
 
-*Versie 1.0 — maart 2026*
+*Versie 1.1 — maart 2026*
 
 ---
 
@@ -13,6 +13,44 @@ Drie kanalen, één contentstroom. Elke bron-input (foto, video, update) voedt d
 3. **Nieuwsbrief** (seizoensgebundeld, 4x/jaar) — repeat customers & directe boekingen
 
 Dit is geen contentmachine. Dit is een lichte, beheersbare cyclus die past bij de Festina Lente-filosofie en de harde constraint: **geen ongoing manueel werk**.
+
+---
+
+## 0. Contentbronnen
+
+### Waar komt de content vandaan?
+
+Twee natuurlijke bronnen — allebei bijproducten van het leven op en rond het domein:
+
+**1. Het huis & domein**
+Seizoensgebonden sfeer, updates en investeringen. Foto's van de tuin, een nieuwe petanquebaan, de keuken in actie. Dit is content die vanzelf ontstaat door het huis te onderhouden en te verbeteren.
+
+**2. De streek verkennen**
+Christophe en Bieke maken regelmatig uitstappen in de omgeving — wandelingen, dorpjes, restaurants, markten, uitzichtpunten. Tijdens die uitstappen: foto's nemen en korte beschrijvingen noteren. Eenmaal thuis worden de foto's en notities verwerkt tot kant-en-klare social media content via Claude Code + Remotion (MP4-video's).
+
+### Productie-workflow voor streek-content
+
+```
+1. UITSTAP
+   Foto's nemen + korte notities (locatie, wat bijzonder is, tip voor gasten)
+   ↓
+2. VERWERKING (thuis)
+   Foto's + notities uploaden naar Claude Code
+   Claude Code + Remotion genereert MP4 voor social media
+   ↓
+3. PUBLICATIE
+   Video posten op Instagram/Facebook
+   Optioneel: journal-entry met dezelfde foto's + context
+```
+
+### Frequentie
+Gedreven door uitstappen, niet door een kalender. Wekelijks in actieve periodes, maandelijks in rustigere periodes. Het moment dat het een verplichting wordt, past het niet meer bij Festina Lente.
+
+### Waarom dit werkt
+- **Niet-kopieerbaar**: alleen wie er woont kan deze content maken — dat is het competitieve voordeel van "25 jaar ter plaatse"
+- **Versterkt lokale autoriteit**: positioneert ArdenNest als dé insider voor de regio Gedinne/Ardennen
+- **Geen handmatig design nodig**: Claude Code + Remotion automatiseert het creatieve maakwerk, de authenticiteit blijft
+- **Duurzame bron**: niet afhankelijk van gasten of seizoenen — er is altijd iets te ontdekken
 
 ---
 
@@ -37,6 +75,7 @@ Een lichte verzameling momenten en updates. Geen "blog" (dat schept publicatiedr
 | Huis-updates | "Nieuwe petanquebaan aangelegd" | toont investering, vers signaal voor Google |
 | Activiteiten | "Kerstweekend met 26 personen" | long-tail: "kerstvakantie groot huis ardennen" |
 | Lokale tips | "Markt in Gedinne op donderdag" | lokale autoriteit |
+| Streekverkenning | "Wandeling langs de Semois bij Membre" | long-tail: "wandelen semois ardennen", lokale autoriteit |
 | Video/social recap | Ingebed Instagram/Facebook-filmpje met context | multimedia-signaal voor Google |
 
 ### Technische specificaties (voor Lovable)
@@ -149,10 +188,14 @@ Elke social post kan een journal-entry worden (en vice versa):
 - Foto-serie → journal-entry met korte tekst
 - Seizoensfoto → social post + nieuwsbrief-afbeelding
 
-### Technisch: social embeds op de site
-- Instagram embeds via oEmbed (geen tracking scripts laden)
-- Alternatief: screenshot/thumbnail met link naar originele post
-- Video's: host als MP4 op eigen server of embed vanuit social platform
+### Technisch: video's op de site
+Video's worden gehost als MP4 op eigen server — geen Instagram embeds, geen third-party scripts. Redenen:
+- **Geen tracking/cookies**: past bij de cookieless GA4-keuze (geen banner nodig)
+- **PageSpeed**: geen externe scripts laden (beschermt de 67→78 winst)
+- **Quiet luxury**: geen Instagram UI-chrome op de site
+- **Al beschikbaar**: Claude Code + Remotion levert de MP4 op
+
+Implementatie: HTML5 `<video>` tag met poster-image (still uit de video), controls, en lazy loading.
 
 ---
 
@@ -162,32 +205,41 @@ Elke social post kan een journal-entry worden (en vice versa):
 
 ```
 1. BRON
-   Foto, video, of update (Christophe/Bieke)
+   Twee types:
+   a) Huis/domein: foto, video, of update (Christophe/Bieke)
+   b) Streekverkenning: foto's + notities van uitstap
    ↓
-2. SOCIAL POST
-   Direct publiceren op Instagram/Facebook
+2. VERWERKING
+   Streek-content: foto's + notities → Claude Code + Remotion → MP4
+   Huis-content: direct bruikbaar of licht bewerkt
+   ↓
+3. SOCIAL POST
+   MP4 of foto publiceren op Instagram/Facebook
    Bieke schrijft caption in brontaal (NL)
    ↓
-3. JOURNAL-ENTRY
+4. JOURNAL-ENTRY
    Zelfde content + context op ardennest.be/journal/[slug]
    Vertalingen via DeepL + handmatige review
    Eventueel video embed vanuit social
    ↓
-4. NIEUWSBRIEF (seizoensgebundeld)
+5. NIEUWSBRIEF (seizoensgebundeld)
    Bundel 2-3 journal-entries per seizoen
    Link naar entries op de site
    Verstuur in gasttaal
 ```
 
-### Agentic workflow (toekomstig)
+### Agentic workflow (deels operationeel)
 
-Wanneer de agentic content-workflow operationeel is:
+De streek-content pipeline werkt al: foto's + notities → Claude Code + Remotion → MP4 voor social.
 
-1. Christophe/Bieke levert bron-input (foto + korte beschrijving)
-2. AI genereert drie outputs: social caption, journal-entry, nieuwsbrief-blok
-3. In vier talen (NL, FR, EN, DE)
-4. Bieke reviewt en publiceert
-5. Menselijke review blijft altijd de laatste stap
+Wanneer de volledige agentic content-workflow operationeel is:
+
+1. Christophe/Bieke levert bron-input (foto's + korte beschrijving)
+2. Claude Code + Remotion genereert MP4 voor social media
+3. AI genereert aanvullende outputs: social caption, journal-entry, nieuwsbrief-blok
+4. In vier talen (NL, FR, EN, DE)
+5. Bieke reviewt en publiceert
+6. Menselijke review blijft altijd de laatste stap
 
 ---
 
