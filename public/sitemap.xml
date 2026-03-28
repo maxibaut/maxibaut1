@@ -2105,6 +2105,46 @@
     <priority>0.6</priority>
   </url>
 
-
+  <!-- Journal: Welkom bij ArdenNest -->
+  <url>
+    <loc>https://ardennest.be/journal/welkom-bij-ardennest</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/journal/welkom-bij-ardennest"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/journal/welkom-bij-ardennest"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/journal/welkom-bij-ardennest"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/journal/welkom-bij-ardennest"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/journal/welkom-bij-ardennest"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/fr/journal/welkom-bij-ardennest</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/journal/welkom-bij-ardennest"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/journal/welkom-bij-ardennest"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/journal/welkom-bij-ardennest"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/journal/welkom-bij-ardennest"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/journal/welkom-bij-ardennest"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/en/journal/welkom-bij-ardennest</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/journal/welkom-bij-ardennest"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/journal/welkom-bij-ardennest"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/journal/welkom-bij-ardennest"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/journal/welkom-bij-ardennest"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/journal/welkom-bij-ardennest"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/de/journal/welkom-bij-ardennest</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/journal/welkom-bij-ardennest"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/journal/welkom-bij-ardennest"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/journal/welkom-bij-ardennest"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/journal/welkom-bij-ardennest"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/journal/welkom-bij-ardennest"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
 
 </urlset>
