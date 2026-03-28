@@ -126,6 +126,7 @@ const resources = {
     rentalTerms: enRentalTerms,
     cancellationPolicy: enCancellationPolicy,
     homeowners: enHomeowners,
+    journal: enJournal,
   },
   de: {
     common: deCommon,
