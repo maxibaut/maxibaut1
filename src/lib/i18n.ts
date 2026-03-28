@@ -53,6 +53,7 @@ import enPrivacy from '@/locales/en/privacy.json';
 import enRentalTerms from '@/locales/en/rentalTerms.json';
 import enCancellationPolicy from '@/locales/en/cancellationPolicy.json';
 import enHomeowners from '@/locales/en/homeowners.json';
+import enJournal from '@/locales/en/journal.json';
 
 // German translations
 import deCommon from '@/locales/de/common.json';
