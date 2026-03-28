@@ -40,7 +40,7 @@ const JournalDetail = () => {
     );
   }
 
-  // Split body into paragraphs; detect signature line (e.g. "Bieke & Christophe")
+  const bodyText = t(`entries.${slug}.body`);
   const paragraphs = bodyText.split('\n').filter((p: string) => p.trim());
   const signaturePattern = /^(Bieke|Met een warme groet|With warm|Avec|Mit herzlichen)/i;
   
