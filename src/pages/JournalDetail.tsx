@@ -40,10 +40,20 @@ const JournalDetail = () => {
     );
   }
 
-  const bodyText = t(`entries.${slug}.body`);
+  // Split body into paragraphs; detect signature line (e.g. "Bieke & Christophe")
   const paragraphs = bodyText.split('\n').filter((p: string) => p.trim());
-  const lastParagraph = paragraphs.length > 0 ? paragraphs[paragraphs.length - 1] : null;
-  const bodyParagraphs = paragraphs.slice(0, -1);
+  const signaturePattern = /^(Bieke|Met een warme groet|With warm|Avec|Mit herzlichen)/i;
+  
+  // Find where the signature block starts (last 2 lines if they match the pattern)
+  let signatureStart = paragraphs.length;
+  for (let i = paragraphs.length - 1; i >= Math.max(0, paragraphs.length - 3); i--) {
+    if (signaturePattern.test(paragraphs[i].trim())) {
+      signatureStart = i;
+    }
+  }
+  
+  const bodyParagraphs = paragraphs.slice(0, signatureStart);
+  const signatureLines = paragraphs.slice(signatureStart);
 
   return (
     <PageWrapper>
