@@ -1,14 +1,14 @@
 {
   "seo": {
-    "title": "Wordt jouw vakantiewoning gevonden door AI? | GEO-Scan",
-    "description": "Hoe ArdenNest ontdekte dat AI-systemen hun bedrijf niet konden vinden — en waarom dat leidde tot GEO-Scan.be. Gratis scan voor elke ondernemer."
+    "title": "Wordt jouw zaak gevonden door AI? | BizBuz",
+    "description": "Hoe ArdenNest ontdekte dat AI-systemen hun bedrijf niet konden vinden — en waarom dat leidde tot BizBuz.be. Gratis scan voor elke ondernemer."
   },
   "badge": "20+ jaar tech · software · strategie",
-  "title": "Wordt jouw vakantiewoning gevonden door AI?",
-  "intro": "AI-systemen zoals ChatGPT en Google AI Overviews lezen websites anders dan mensen — en de meeste vakantiewoningen zijn daar niet op gebouwd. GEO-Scan laat je in één klik zien hoe zichtbaar jouw woning is voor AI. Gebouwd door een software engineer met 20+ jaar ervaring, die dit probleem zelf ondervond met deze website.",
+  "title": "Hoe zichtbaar is jouw bedrijf voor ChatGPT, Gemini en Claude?",
+  "intro": "AI-systemen zoals ChatGPT en Google AI Overviews lezen websites anders dan mensen — en de meeste bedrijven zijn daar niet op gebouwd. BizBuz scant je website en vertelt je in gewone taal wat AI-systemen over jouw zaak kunnen vinden — en wat je eraan kunt doen. 73 checks, 8 pijlers, één duidelijke score op 100. Gebouwd door een software engineer met 20+ jaar ervaring, die dit probleem zelf ondervond met deze website.",
   "whyRelevant": {
     "title": "Waarom dit relevant is",
-    "content": "GEO-Scan analyseert technische factoren die bepalen of AI-systemen je website kunnen lezen en aanbevelen: structured data, HTML-semantiek, crawlability en machine-leesbare markup. Steeds meer reizigers stellen hun vraag niet meer aan Google, maar aan ChatGPT, Gemini of Copilot. Als jouw website niet leesbaar is voor die systemen, besta je simpelweg niet in hun antwoord."
+    "content": "Steeds meer mensen stellen hun vraag niet meer aan Google, maar aan ChatGPT, Gemini of Copilot. AI noemt maar 3 tot 5 bedrijven per antwoord — waar Google nog 10 links toonde. Als jouw website niet leesbaar is voor die systemen, besta je simpelweg niet in hun antwoord. BizBuz analyseert 73 technische factoren over 8 pijlers: van structurele leesbaarheid en entiteit-identiteit tot content-beantwoordbaarheid en online reputatie."
   },
   "expertise": {
     "title": "Technische achtergrond",
@@ -30,23 +30,23 @@
     }
   },
   "origin": {
-    "title": "Het ontstaan van GEO-Scan",
+    "title": "Het ontstaan van BizBuz",
     "story1": "Toen Christophe & Bieke in 2003 hun groepsaccommodatie opstartten, bouwde hij zelf de website. De verhuur gebeurde zonder Booking.com, zonder Airbnb — puur op eigen kracht. Met een fascinatie voor SEO slaagde hij erin de kalender gevuld te krijgen en jarenlang goed zichtbaar te blijven in Google.",
     "story2": "Er is sindsdien veel veranderd, maar die fascinatie bleef: hoe claim je als kleine speler je plek in de zoekresultaten? Met de opkomst van AI herhaalt de geschiedenis zich. Nieuwe regels, dezelfde vraag.",
-    "story3": "GEO-Scan ontstond toen begin 2026 de nieuwe ArdenNest-website gebouwd werd met behulp van AI. Christophe zag dat zelfs bouwen via AI geen garantie biedt op alle nodige stappen om vindbaarheid te optimaliseren. Dat deed hem beslissen om die stappen niet langer alleen voor zichzelf te noteren — maar te delen met anderen.",
+    "story3": "BizBuz ontstond toen begin 2026 de nieuwe ArdenNest-website gebouwd werd met behulp van AI. Christophe zag dat zelfs bouwen via AI geen garantie biedt op alle nodige stappen om vindbaarheid te optimaliseren. SEO en GEO zijn niet hetzelfde — en BizBuz is de eerste tool in België die dit meet.",
     "story3_link_prefix": "Een scan via ",
-    "story3_link_text": "geo-scan.be",
-    "story3_link_suffix": " is een kleine investering, met potentieel grote gevolgen voor je zichtbaarheid."
+    "story3_link_text": "bizbuz.be",
+    "story3_link_suffix": " is gratis, zonder account, zonder wachttijd."
   },
-  "cta": "Scan je eigen website",
+  "cta": "Scan je eigen website gratis",
   "festinaLente": {
     "subtitle": "Festina Lente",
-    "text1": "GEO-Scan is een initiatief van Festina Lente bv. De naam — Latijn voor \"maak voortvarend langzaam\" — staat voor onze filosofie: grondig onderzoeken, doordacht bouwen, en stap voor stap waarde leveren.",
-    "text2": "We geloven dat elke Belgische ondernemer recht heeft op heldere, actionable inzichten over hun online zichtbaarheid — zonder jargon, zonder dure consultants."
+    "text1": "BizBuz is een initiatief van Festina Lente bv. De naam — Latijn voor \"maak voortvarend langzaam\" — staat voor onze filosofie: grondig onderzoeken, doordacht bouwen, en stap voor stap waarde leveren.",
+    "text2": "We geloven dat elke Belgische ondernemer recht heeft op heldere, actionable inzichten over hun online zichtbaarheid — zonder jargon, zonder dure consultants. Elk actiepunt bevat een kopieerbare prompt voor ChatGPT of Claude, of een kant-en-klare briefing voor je webbouwer."
   },
   "score": {
-    "title": "Eigen score: 96/100",
-    "alt": "GEO-Scan resultaat van ardennest.be: score 96 van 100 — Uitstekend"
+    "title": "Onze eigen score: 54/100",
+    "alt": "BizBuz resultaat van ardennest.be: score 54 van 100 — Matig"
   },
-  "attribution": "GEO-Scan.be is een initiatief van Christophe, mede-eigenaar van ArdenNest."
+  "attribution": "BizBuz.be is een initiatief van Christophe, mede-eigenaar van ArdenNest."
 }

@@ -1,14 +1,14 @@
 {
   "seo": {
-    "title": "Wird Ihre Ferienwohnung von KI gefunden? | GEO-Scan",
-    "description": "Wie ArdenNest entdeckte, dass KI-Systeme ihr Unternehmen nicht finden konnten — und warum das zu GEO-Scan.be führte. Kostenloser Scan für jeden Unternehmer."
+    "title": "Wird Ihr Unternehmen von KI gefunden? | BizBuz",
+    "description": "Wie ArdenNest entdeckte, dass KI-Systeme ihr Unternehmen nicht finden konnten — und warum das zu BizBuz.be führte. Kostenloser Scan für jeden Unternehmer."
   },
   "badge": "20+ Jahre Tech · Software · Strategie",
-  "title": "Wird Ihre Ferienwohnung von KI gefunden?",
-  "intro": "Höchstwahrscheinlich nicht. KI-Systeme wie ChatGPT und Google AI Overviews lesen Websites anders als Menschen — und die meisten Ferienunterkünfte sind darauf nicht ausgelegt. GEO-Scan zeigt Ihnen mit einem Klick, wie sichtbar Ihre Unterkunft für KI ist. Entwickelt von einem Software-Ingenieur mit 20+ Jahren Erfahrung, der dieses Problem mit dieser Website selbst entdeckt hat.",
+  "title": "Wie sichtbar ist Ihr Unternehmen für ChatGPT, Gemini und Claude?",
+  "intro": "KI-Systeme wie ChatGPT und Google AI Overviews lesen Websites anders als Menschen — und die meisten Unternehmen sind darauf nicht ausgelegt. BizBuz scannt Ihre Website und erklärt Ihnen in verständlicher Sprache, was KI-Systeme über Ihr Unternehmen finden können — und was Sie dagegen tun können. 73 Prüfungen, 8 Säulen, ein klarer Score von 100. Entwickelt von einem Software-Ingenieur mit 20+ Jahren Erfahrung, der dieses Problem mit dieser Website selbst entdeckt hat.",
   "whyRelevant": {
     "title": "Warum das relevant ist",
-    "content": "GEO-Scan analysiert technische Faktoren, die bestimmen, ob KI-Systeme Ihre Website lesen und empfehlen können: strukturierte Daten, HTML-Semantik, Crawlability und maschinenlesbare Auszeichnung. Immer mehr Reisende stellen ihre Fragen nicht mehr an Google, sondern an ChatGPT, Gemini oder Copilot. Wenn Ihre Website für diese Systeme nicht lesbar ist, existieren Sie in deren Antwort schlicht nicht."
+    "content": "Immer mehr Menschen stellen ihre Fragen nicht mehr an Google, sondern an ChatGPT, Gemini oder Copilot. KI nennt nur 3 bis 5 Unternehmen pro Antwort — wo Google noch 10 Links zeigte. Wenn Ihre Website für diese Systeme nicht lesbar ist, existieren Sie in deren Antwort schlicht nicht. BizBuz analysiert 73 technische Faktoren über 8 Säulen: von struktureller Lesbarkeit und Entitätsidentität bis zur inhaltlichen Beantwortbarkeit und Online-Reputation."
   },
   "expertise": {
     "title": "Technischer Hintergrund",
@@ -30,23 +30,23 @@
     }
   },
   "origin": {
-    "title": "Die Entstehung von GEO-Scan",
+    "title": "Die Entstehung von BizBuz",
     "story1": "Als Christophe & Bieke 2003 ihre Gruppenunterkunft gründeten, baute er die Website selbst. Die Vermietung lief ohne Booking.com, ohne Airbnb — rein aus eigener Kraft. Mit einer Faszination für SEO gelang es ihm, den Kalender gefüllt zu halten und jahrelang gut sichtbar bei Google zu bleiben.",
     "story2": "Seitdem hat sich viel verändert, aber diese Faszination blieb: Wie behauptet man als kleiner Anbieter seinen Platz in den Suchergebnissen? Mit dem Aufstieg von KI wiederholt sich die Geschichte. Neue Regeln, dieselbe Frage.",
-    "story3": "GEO-Scan entstand, als er Anfang 2026 seine neue Website mit KI erstellte und feststellte, dass KI gute Arbeit leistet, aber ohne alle notwendigen Schritte zur Optimierung der Auffindbarkeit. Das veranlasste ihn, diese Schritte nicht mehr nur für sich selbst zu notieren — sondern sie mit anderen zu teilen.",
+    "story3": "BizBuz entstand, als er Anfang 2026 seine neue Website mit KI erstellte und feststellte, dass KI gute Arbeit leistet, aber ohne alle notwendigen Schritte zur Optimierung der Auffindbarkeit. SEO und GEO sind nicht dasselbe — und BizBuz ist das erste Tool in Belgien, das dies misst.",
     "story3_link_prefix": "Ein Scan über ",
-    "story3_link_text": "geo-scan.be",
-    "story3_link_suffix": " ist eine kleine Investition mit potenziell großer Wirkung auf Ihre Sichtbarkeit."
+    "story3_link_text": "bizbuz.be",
+    "story3_link_suffix": " ist kostenlos, ohne Konto, ohne Wartezeit."
   },
-  "cta": "Scannen Sie Ihre eigene Website",
+  "cta": "Scannen Sie Ihre Website kostenlos",
   "festinaLente": {
     "subtitle": "Festina Lente",
-    "text1": "GEO-Scan ist eine Initiative der Festina Lente bv. Der Name — Latein für 'eile mit Weile' — steht für unsere Philosophie: gründlich recherchieren, durchdacht bauen und Schritt für Schritt Wert liefern.",
-    "text2": "Wir glauben, dass jeder belgische Unternehmer klare, umsetzbare Einblicke in seine Online-Sichtbarkeit verdient — ohne Fachjargon, ohne teure Berater."
+    "text1": "BizBuz ist eine Initiative der Festina Lente bv. Der Name — Latein für \"eile mit Weile\" — steht für unsere Philosophie: gründlich recherchieren, durchdacht bauen und Schritt für Schritt Wert liefern.",
+    "text2": "Wir glauben, dass jeder belgische Unternehmer klare, umsetzbare Einblicke in seine Online-Sichtbarkeit verdient — ohne Fachjargon, ohne teure Berater. Jeder Aktionspunkt enthält einen kopierbaren Prompt für ChatGPT oder Claude oder ein fertiges Briefing für Ihren Webentwickler."
   },
   "score": {
-    "title": "Eigener Score: 96/100",
-    "alt": "GEO-Scan Ergebnis für ardennest.be: Score 96 von 100 — Ausgezeichnet"
+    "title": "Eigener Score: 54/100",
+    "alt": "BizBuz Ergebnis für ardennest.be: Score 54 von 100 — Mäßig"
   },
-  "attribution": "GEO-Scan.be ist eine Initiative von Christophe, Miteigentümer von ArdenNest."
+  "attribution": "BizBuz.be ist eine Initiative von Christophe, Miteigentümer von ArdenNest."
 }
