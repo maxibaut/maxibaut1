@@ -11,21 +11,6 @@
   "relatedProperty": "Meer over het huis →",
   "relatedSurroundings": "Meer over de omgeving →",
   "latestUpdates": "Laatste updates",
-  "entries": {
-    "petanquebaan-aangelegd": {
-      "title": "Nieuwe petanquebaan aangelegd",
-      "excerpt": "De tuin is weer een stukje groter geworden. Perfect voor een partijtje jeu de boules na het avondeten.",
-      "body": "We hadden al langer het idee, en deze winter was het moment: een volwaardige petanquebaan in de tuin. Vlak terrein, fijn grind, verlicht voor de avonduren. Perfect voor een ontspannen partijtje na het eten — terwijl de kinderen nog rondrennen en de wijn langzaam leegloopt.\n\nDe baan ligt beschut naast het terras, op loopafstand van de keuken. Ballen liggen klaar in de bijkeuken. Geen reservatie nodig, geen corvee achteraf."
-    },
-    "lente-in-de-ardennen": {
-      "title": "De lente is begonnen in Gedinne",
-      "excerpt": "De eerste bloesems, ochtendnevel over het dal, en een tuin die weer tot leven komt.",
-      "body": "Maart in de Ardennen heeft iets bijzonders. De ochtendnevel hangt laag over het dal, de eerste krokussen steken hun kop op, en de vogels zijn terug. De tuin wordt langzaam weer groen — eerst voorzichtig, dan ineens overal.\n\nVoor wie de stilte zoekt: dit is het seizoen. De wandelroutes zijn leeg, de bossen ruiken naar vochtige aarde, en 's avonds hoor je alleen de uilen. Een weekend in maart of april is misschien wel het best bewaarde geheim van de Ardennen."
-    },
-    "kerstweekend-met-26": {
-      "title": "Kerstweekend met 26 personen",
-      "excerpt": "Drie generaties rond de tafel. Precies waarvoor dit huis gebouwd is.",
-      "body": "Kerst 2025 was een volle bak — en precies zoals het hoort. 26 personen, drie generaties, van kleuters tot grootouders. De professionele keuken draaide op volle toeren, de eettafel van 7m20 was voor één keer écht vol, en de vaatwassers bewezen opnieuw hun waarde.\n\nWat ons altijd opvalt: het huis werkt het best wanneer het vol zit. De ruimtes zijn ontworpen om grote groepen te laten samenleven zonder op elkaars lip te zitten. De kinderen hadden hun eigen wereld, de koks hun eigen domein, en wie rust wilde vond die in een van de zithoeken.\n\nDit is waarvoor we het doen. Niet voor de perfecte kerstfoto, maar voor het moment dat iedereen aan tafel zit en het even stil wordt."
-    }
-  }
+  "emptyState": "Binnenkort verschijnen hier onze eerste momenten.",
+  "entries": {}
 }
