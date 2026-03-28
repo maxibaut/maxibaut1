@@ -25,6 +25,8 @@ const RentalTerms = lazy(() => import("./pages/RentalTerms"));
 const CancellationPolicy = lazy(() => import("./pages/CancellationPolicy"));
 const Homeowners = lazy(() => import("./pages/Homeowners"));
 const BrandToolkit = lazy(() => import("./pages/BrandToolkit"));
+const Journal = lazy(() => import("./pages/Journal"));
+const JournalDetail = lazy(() => import("./pages/JournalDetail"));
 const NotFound = lazy(() => import("./pages/NotFound"));
 
 const queryClient = new QueryClient();
