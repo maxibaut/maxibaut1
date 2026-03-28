@@ -51,6 +51,8 @@ const pageRoutes = (
     <Route path="privacy-policy" element={<Privacy />} />
     <Route path="geo-scan" element={<Homeowners />} />
     <Route path="brand" element={<BrandToolkit />} />
+    <Route path="journal" element={<Journal />} />
+    <Route path="journal/:slug" element={<JournalDetail />} />
   </>
 );
 
