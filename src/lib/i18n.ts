@@ -144,6 +144,7 @@ const resources = {
     rentalTerms: deRentalTerms,
     cancellationPolicy: deCancellationPolicy,
     homeowners: deHomeowners,
+    journal: deJournal,
   },
 };
 const SUPPORTED_LANGUAGES = ['nl', 'fr', 'en', 'de'];
