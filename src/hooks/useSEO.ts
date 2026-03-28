@@ -28,7 +28,7 @@ const routeSEOConfig: Record<string, SEOConfig> = {
   '/rental-terms': { titleKey: 'seo.title', descriptionKey: 'seo.description', namespace: 'rentalTerms' },
   '/cancellation-policy': { titleKey: 'seo.title', descriptionKey: 'seo.description', namespace: 'cancellationPolicy' },
   '/privacy-policy': { titleKey: 'seo.title', descriptionKey: 'seo.description', namespace: 'privacy' },
-  '/geo-scan': { titleKey: 'seo.title', descriptionKey: 'seo.description', namespace: 'homeowners' },
+  '/homeowners': { titleKey: 'seo.title', descriptionKey: 'seo.description', namespace: 'homeowners' },
   '/journal': { titleKey: 'seo.title', descriptionKey: 'seo.description', namespace: 'journal' },
   '/brand': { noIndex: true },
 };

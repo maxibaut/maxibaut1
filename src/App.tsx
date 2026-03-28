@@ -49,7 +49,7 @@ const pageRoutes = (
     <Route path="rental-terms" element={<RentalTerms />} />
     <Route path="cancellation-policy" element={<CancellationPolicy />} />
     <Route path="privacy-policy" element={<Privacy />} />
-    <Route path="geo-scan" element={<Homeowners />} />
+    <Route path="homeowners" element={<Homeowners />} />
     <Route path="brand" element={<BrandToolkit />} />
     <Route path="journal" element={<Journal />} />
     <Route path="journal/:slug" element={<JournalDetail />} />

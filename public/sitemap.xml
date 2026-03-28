@@ -2021,44 +2021,44 @@
     <priority>0.3</priority>
   </url>
 
-  <!-- GEO-Scan -->
+  <!-- Homeowners / BizBuz -->
   <url>
-    <loc>https://ardennest.be/geo-scan</loc>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/geo-scan"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/geo-scan"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/geo-scan"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/geo-scan"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/geo-scan"/>
+    <loc>https://ardennest.be/homeowners</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/homeowners"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/homeowners"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/homeowners"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/homeowners"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/homeowners"/>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://ardennest.be/fr/geo-scan</loc>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/geo-scan"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/geo-scan"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/geo-scan"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/geo-scan"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/geo-scan"/>
+    <loc>https://ardennest.be/fr/homeowners</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/homeowners"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/homeowners"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/homeowners"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/homeowners"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/homeowners"/>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://ardennest.be/en/geo-scan</loc>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/geo-scan"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/geo-scan"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/geo-scan"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/geo-scan"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/geo-scan"/>
+    <loc>https://ardennest.be/en/homeowners</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/homeowners"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/homeowners"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/homeowners"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/homeowners"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/homeowners"/>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://ardennest.be/de/geo-scan</loc>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/geo-scan"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/geo-scan"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/geo-scan"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/geo-scan"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/geo-scan"/>
+    <loc>https://ardennest.be/de/homeowners</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/homeowners"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/homeowners"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/homeowners"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/homeowners"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/homeowners"/>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
