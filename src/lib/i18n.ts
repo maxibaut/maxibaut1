@@ -90,6 +90,7 @@ const resources = {
     rentalTerms: nlRentalTerms,
     cancellationPolicy: nlCancellationPolicy,
     homeowners: nlHomeowners,
+    journal: nlJournal,
   },
   fr: {
     common: frCommon,
