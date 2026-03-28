@@ -17,6 +17,7 @@ import nlPrivacy from '@/locales/nl/privacy.json';
 import nlRentalTerms from '@/locales/nl/rentalTerms.json';
 import nlCancellationPolicy from '@/locales/nl/cancellationPolicy.json';
 import nlHomeowners from '@/locales/nl/homeowners.json';
+import nlJournal from '@/locales/nl/journal.json';
 
 // French translations
 import frCommon from '@/locales/fr/common.json';
@@ -34,6 +35,7 @@ import frPrivacy from '@/locales/fr/privacy.json';
 import frRentalTerms from '@/locales/fr/rentalTerms.json';
 import frCancellationPolicy from '@/locales/fr/cancellationPolicy.json';
 import frHomeowners from '@/locales/fr/homeowners.json';
+import frJournal from '@/locales/fr/journal.json';
 
 // English translations
 import enCommon from '@/locales/en/common.json';
@@ -51,6 +53,7 @@ import enPrivacy from '@/locales/en/privacy.json';
 import enRentalTerms from '@/locales/en/rentalTerms.json';
 import enCancellationPolicy from '@/locales/en/cancellationPolicy.json';
 import enHomeowners from '@/locales/en/homeowners.json';
+import enJournal from '@/locales/en/journal.json';
 
 // German translations
 import deCommon from '@/locales/de/common.json';
@@ -68,6 +71,7 @@ import dePrivacy from '@/locales/de/privacy.json';
 import deRentalTerms from '@/locales/de/rentalTerms.json';
 import deCancellationPolicy from '@/locales/de/cancellationPolicy.json';
 import deHomeowners from '@/locales/de/homeowners.json';
+import deJournal from '@/locales/de/journal.json';
 
 const resources = {
   nl: {
@@ -86,6 +90,7 @@ const resources = {
     rentalTerms: nlRentalTerms,
     cancellationPolicy: nlCancellationPolicy,
     homeowners: nlHomeowners,
+    journal: nlJournal,
   },
   fr: {
     common: frCommon,
@@ -103,6 +108,7 @@ const resources = {
     rentalTerms: frRentalTerms,
     cancellationPolicy: frCancellationPolicy,
     homeowners: frHomeowners,
+    journal: frJournal,
   },
   en: {
     common: enCommon,
@@ -120,6 +126,7 @@ const resources = {
     rentalTerms: enRentalTerms,
     cancellationPolicy: enCancellationPolicy,
     homeowners: enHomeowners,
+    journal: enJournal,
   },
   de: {
     common: deCommon,
@@ -137,6 +144,7 @@ const resources = {
     rentalTerms: deRentalTerms,
     cancellationPolicy: deCancellationPolicy,
     homeowners: deHomeowners,
+    journal: deJournal,
   },
 };
 const SUPPORTED_LANGUAGES = ['nl', 'fr', 'en', 'de'];
@@ -176,7 +184,7 @@ i18n
     lng: getDefaultLanguage(),
     fallbackLng: 'nl',
     defaultNS: 'common',
-    ns: ['common', 'homepage', 'property', 'about', 'contact', 'booking', 'surroundings', 'houseRules', 'checklist', 'localTips', 'earlyArrival', 'privacy', 'rentalTerms', 'cancellationPolicy', 'homeowners'],
+    ns: ['common', 'homepage', 'property', 'about', 'contact', 'booking', 'surroundings', 'houseRules', 'checklist', 'localTips', 'earlyArrival', 'privacy', 'rentalTerms', 'cancellationPolicy', 'homeowners', 'journal'],
     interpolation: {
       escapeValue: false,
     },

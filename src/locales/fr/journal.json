@@ -1,0 +1,31 @@
+{
+  "seo": {
+    "title": "Journal — ArdenNest | Moments des Ardennes",
+    "description": "Mises à jour, ambiance saisonnière et récits d'ArdenNest. Découvrez ce qui se passe dans notre maison de vacances dans les Ardennes."
+  },
+  "heading": "Journal",
+  "subtitle": "Moments, mises à jour et ambiance saisonnière — de temps en temps, quand c'est pertinent.",
+  "readMore": "Lire la suite",
+  "backToOverview": "Retour à l'aperçu",
+  "publishedOn": "Publié le",
+  "relatedProperty": "En savoir plus sur la maison →",
+  "relatedSurroundings": "En savoir plus sur les environs →",
+  "latestUpdates": "Dernières nouvelles",
+  "entries": {
+    "petanquebaan-aangelegd": {
+      "title": "Nouveau terrain de pétanque aménagé",
+      "excerpt": "Le jardin vient de s'agrandir. Parfait pour une partie de boules après le dîner.",
+      "body": "Nous y pensions depuis longtemps, et cet hiver était le bon moment : un véritable terrain de pétanque dans le jardin. Terrain plat, gravier fin, éclairé pour les soirées. Parfait pour une partie détendue après le repas — pendant que les enfants courent encore et que le vin se vide doucement.\n\nLe terrain est abrité à côté de la terrasse, à quelques pas de la cuisine. Les boules sont prêtes dans le cellier. Pas de réservation nécessaire, pas de corvée après."
+    },
+    "lente-in-de-ardennen": {
+      "title": "Le printemps est arrivé à Gedinne",
+      "excerpt": "Les premières floraisons, la brume matinale sur la vallée, et un jardin qui reprend vie.",
+      "body": "Mars dans les Ardennes a quelque chose de spécial. La brume matinale plane bas sur la vallée, les premiers crocus pointent le bout de leur nez, et les oiseaux sont de retour. Le jardin redevient lentement vert — d'abord timidement, puis soudainement partout.\n\nPour ceux qui cherchent le silence : c'est la saison. Les sentiers de randonnée sont vides, les forêts sentent la terre humide, et le soir on n'entend que les hiboux. Un week-end en mars ou avril est peut-être le secret le mieux gardé des Ardennes."
+    },
+    "kerstweekend-met-26": {
+      "title": "Week-end de Noël avec 26 personnes",
+      "excerpt": "Trois générations autour de la table. Exactement ce pour quoi cette maison a été construite.",
+      "body": "Noël 2025, c'était la maison pleine — et exactement comme il se doit. 26 personnes, trois générations, des tout-petits aux grands-parents. La cuisine professionnelle tournait à plein régime, la table de 7m20 était vraiment pleine pour une fois, et les lave-vaisselle ont une fois de plus prouvé leur valeur.\n\nCe qui nous frappe toujours : la maison fonctionne le mieux quand elle est pleine. Les espaces sont conçus pour permettre à de grands groupes de vivre ensemble sans se marcher dessus. Les enfants avaient leur propre monde, les cuisiniers leur propre domaine, et quiconque voulait du calme le trouvait dans un des coins salon.\n\nC'est pour ça qu'on fait tout ça. Pas pour la photo de Noël parfaite, mais pour ce moment où tout le monde est à table et où il y a un instant de silence."
+    }
+  }
+}

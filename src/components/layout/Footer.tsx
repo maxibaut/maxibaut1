@@ -94,8 +94,14 @@ export const Footer = () => {
               </li>
             </ul>
             
-            {/* Social & Homeowners */}
+            {/* Social, Journal & Homeowners */}
             <div className="pt-4 space-y-3">
+              <LocalizedLink
+                to="/journal"
+                className="block text-primary-foreground/80 hover:text-primary-foreground transition-colors"
+              >
+                {t('footer.journal')}
+              </LocalizedLink>
               <a
                 href="https://www.instagram.com/ardennest.be"
                 target="_blank"
