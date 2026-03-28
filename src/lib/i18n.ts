@@ -71,6 +71,7 @@ import dePrivacy from '@/locales/de/privacy.json';
 import deRentalTerms from '@/locales/de/rentalTerms.json';
 import deCancellationPolicy from '@/locales/de/cancellationPolicy.json';
 import deHomeowners from '@/locales/de/homeowners.json';
+import deJournal from '@/locales/de/journal.json';
 
 const resources = {
   nl: {
