@@ -119,11 +119,15 @@ const JournalDetail = () => {
               </p>
             ))}
 
-            {/* Last paragraph — closing line, slightly styled */}
-            {lastParagraph && (
-              <p className="text-foreground/90 leading-[1.7] text-lg italic mt-8">
-                {lastParagraph}
-              </p>
+            {/* Signature block */}
+            {signatureLines.length > 0 && (
+              <div className="mt-10 pt-6 border-t border-border/50">
+                {signatureLines.map((line: string, i: number) => (
+                  <p key={`sig-${i}`} className={`text-foreground/80 leading-[1.7] ${i === signatureLines.length - 1 ? 'font-serif text-lg text-primary font-semibold mt-1' : 'italic'}`}>
+                    {line}
+                  </p>
+                ))}
+              </div>
             )}
           </div>
 
