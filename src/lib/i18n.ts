@@ -35,6 +35,7 @@ import frPrivacy from '@/locales/fr/privacy.json';
 import frRentalTerms from '@/locales/fr/rentalTerms.json';
 import frCancellationPolicy from '@/locales/fr/cancellationPolicy.json';
 import frHomeowners from '@/locales/fr/homeowners.json';
+import frJournal from '@/locales/fr/journal.json';
 
 // English translations
 import enCommon from '@/locales/en/common.json';
