@@ -42,8 +42,18 @@ const JournalDetail = () => {
 
   const bodyText = t(`entries.${slug}.body`);
   const paragraphs = bodyText.split('\n').filter((p: string) => p.trim());
-  const lastParagraph = paragraphs.length > 0 ? paragraphs[paragraphs.length - 1] : null;
-  const bodyParagraphs = paragraphs.slice(0, -1);
+  const signaturePattern = /^(Bieke|Met een warme groet|With warm|Avec|Mit herzlichen)/i;
+  
+  // Find where the signature block starts (last 2 lines if they match the pattern)
+  let signatureStart = paragraphs.length;
+  for (let i = paragraphs.length - 1; i >= Math.max(0, paragraphs.length - 3); i--) {
+    if (signaturePattern.test(paragraphs[i].trim())) {
+      signatureStart = i;
+    }
+  }
+  
+  const bodyParagraphs = paragraphs.slice(0, signatureStart);
+  const signatureLines = paragraphs.slice(signatureStart);
 
   return (
     <PageWrapper>
@@ -109,11 +119,15 @@ const JournalDetail = () => {
               </p>
             ))}
 
-            {/* Last paragraph — closing line, slightly styled */}
-            {lastParagraph && (
-              <p className="text-foreground/90 leading-[1.7] text-lg italic mt-8">
-                {lastParagraph}
-              </p>
+            {/* Signature block */}
+            {signatureLines.length > 0 && (
+              <div className="mt-10 pt-6 border-t border-border/50">
+                {signatureLines.map((line: string, i: number) => (
+                  <p key={`sig-${i}`} className={`text-foreground/80 leading-[1.7] ${i === signatureLines.length - 1 ? 'font-serif text-lg text-primary font-semibold mt-1' : 'italic'}`}>
+                    {line}
+                  </p>
+                ))}
+              </div>
             )}
           </div>
 
