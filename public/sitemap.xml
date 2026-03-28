@@ -2105,36 +2105,6 @@
     <priority>0.6</priority>
   </url>
 
-  <!-- Journal entries -->
-  <url>
-    <loc>https://ardennest.be/journal/petanquebaan-aangelegd</loc>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/journal/petanquebaan-aangelegd"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/journal/petanquebaan-aangelegd"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/journal/petanquebaan-aangelegd"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/journal/petanquebaan-aangelegd"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/journal/petanquebaan-aangelegd"/>
-    <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://ardennest.be/journal/lente-in-de-ardennen</loc>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/journal/lente-in-de-ardennen"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/journal/lente-in-de-ardennen"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/journal/lente-in-de-ardennen"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/journal/lente-in-de-ardennen"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/journal/lente-in-de-ardennen"/>
-    <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://ardennest.be/journal/kerstweekend-met-26</loc>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/journal/kerstweekend-met-26"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/journal/kerstweekend-met-26"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/journal/kerstweekend-met-26"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/journal/kerstweekend-met-26"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/journal/kerstweekend-met-26"/>
-    <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
-  </url>
+
 
 </urlset>
