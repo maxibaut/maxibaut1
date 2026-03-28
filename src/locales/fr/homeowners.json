@@ -1,14 +1,14 @@
 {
   "seo": {
-    "title": "Votre location de vacances est-elle trouvée par l'IA ? | GEO-Scan",
-    "description": "Comment ArdenNest a découvert que les systèmes d'IA ne trouvaient pas leur entreprise — et pourquoi cela a mené à GEO-Scan.be. Scan gratuit pour chaque entrepreneur."
+    "title": "Votre entreprise est-elle trouvée par l'IA ? | BizBuz",
+    "description": "Comment ArdenNest a découvert que les systèmes d'IA ne trouvaient pas leur entreprise — et pourquoi cela a mené à BizBuz.be. Scan gratuit pour chaque entrepreneur."
   },
   "badge": "20+ ans tech · logiciel · stratégie",
-  "title": "Votre location de vacances est-elle trouvée par l'IA ?",
-  "intro": "Probablement pas. Les systèmes d'IA comme ChatGPT et Google AI Overviews lisent les sites web différemment des humains — et la plupart des locations de vacances ne sont pas conçues pour cela. GEO-Scan vous montre en un clic la visibilité de votre bien pour l'IA. Construit par un ingénieur logiciel avec 20+ ans d'expérience, qui a découvert ce problème avec ce site même.",
+  "title": "Quelle est la visibilité de votre entreprise pour ChatGPT, Gemini et Claude ?",
+  "intro": "Les systèmes d'IA comme ChatGPT et Google AI Overviews lisent les sites web différemment des humains — et la plupart des entreprises ne sont pas conçues pour cela. BizBuz scanne votre site web et vous explique en langage clair ce que les systèmes d'IA peuvent trouver sur votre entreprise — et ce que vous pouvez y faire. 73 vérifications, 8 piliers, un score clair sur 100. Construit par un ingénieur logiciel avec 20+ ans d'expérience, qui a découvert ce problème avec ce site même.",
   "whyRelevant": {
     "title": "Pourquoi c'est pertinent",
-    "content": "GEO-Scan analyse les facteurs techniques qui déterminent si les systèmes d'IA peuvent lire et recommander votre site web : données structurées, sémantique HTML, crawlability et balisage lisible par les machines. De plus en plus de voyageurs posent leurs questions non plus à Google, mais à ChatGPT, Gemini ou Copilot. Si votre site n'est pas lisible par ces systèmes, vous n'existez tout simplement pas dans leur réponse."
+    "content": "De plus en plus de personnes posent leurs questions non plus à Google, mais à ChatGPT, Gemini ou Copilot. L'IA ne mentionne que 3 à 5 entreprises par réponse — là où Google affichait encore 10 liens. Si votre site n'est pas lisible par ces systèmes, vous n'existez tout simplement pas dans leur réponse. BizBuz analyse 73 facteurs techniques sur 8 piliers : de la lisibilité structurelle et l'identité d'entité à la répondabilité du contenu et la réputation en ligne."
   },
   "expertise": {
     "title": "Parcours technique",
@@ -30,23 +30,23 @@
     }
   },
   "origin": {
-    "title": "L'origine de GEO-Scan",
+    "title": "L'origine de BizBuz",
     "story1": "Quand Christophe & Bieke ont lancé leur hébergement de groupe en 2003, il a construit le site web lui-même. La location s'est faite sans Booking.com, sans Airbnb — uniquement par leurs propres moyens. Passionné de SEO, il a réussi à remplir le calendrier et à rester bien visible sur Google pendant des années.",
     "story2": "Beaucoup de choses ont changé depuis, mais cette passion est restée : comment un petit acteur peut-il revendiquer sa place dans les résultats de recherche ? Avec l'essor de l'IA, l'histoire se répète. Nouvelles règles, même question.",
-    "story3": "GEO-Scan est né quand il a construit son nouveau site web via l'IA début 2026 et a constaté que l'IA livre un bon travail mais sans toutes les étapes nécessaires pour optimiser la visibilité. Cela l'a décidé à ne plus garder ces étapes pour lui — mais à les partager avec d'autres.",
+    "story3": "BizBuz est né quand il a construit son nouveau site web via l'IA début 2026 et a constaté que l'IA livre un bon travail mais sans toutes les étapes nécessaires pour optimiser la visibilité. SEO et GEO ne sont pas la même chose — et BizBuz est le premier outil en Belgique qui mesure cela.",
     "story3_link_prefix": "Un scan via ",
-    "story3_link_text": "geo-scan.be",
-    "story3_link_suffix": " est un petit investissement, avec un impact potentiellement considérable sur votre visibilité."
+    "story3_link_text": "bizbuz.be",
+    "story3_link_suffix": " est gratuit, sans compte, sans attente."
   },
-  "cta": "Scannez votre propre site web",
+  "cta": "Scannez votre site web gratuitement",
   "festinaLente": {
     "subtitle": "Festina Lente",
-    "text1": "GEO-Scan est une initiative de Festina Lente bv. Le nom — du latin « hâtez-vous lentement » — reflète notre philosophie : investiguer en profondeur, construire avec réflexion, et livrer de la valeur pas à pas.",
-    "text2": "Nous croyons que chaque entrepreneur belge mérite des informations claires et exploitables sur sa visibilité en ligne — sans jargon, sans consultants coûteux."
+    "text1": "BizBuz est une initiative de Festina Lente bv. Le nom — du latin « hâtez-vous lentement » — reflète notre philosophie : investiguer en profondeur, construire avec réflexion, et livrer de la valeur pas à pas.",
+    "text2": "Nous croyons que chaque entrepreneur belge mérite des informations claires et exploitables sur sa visibilité en ligne — sans jargon, sans consultants coûteux. Chaque point d'action inclut un prompt copiable pour ChatGPT ou Claude, ou un briefing prêt à envoyer à votre développeur web."
   },
   "score": {
-    "title": "Notre propre score : 96/100",
-    "alt": "Résultat GEO-Scan pour ardennest.be : score 96 sur 100 — Excellent"
+    "title": "Notre propre score : 54/100",
+    "alt": "Résultat BizBuz pour ardennest.be : score 54 sur 100 — Modéré"
   },
-  "attribution": "GEO-Scan.be est une initiative de Christophe, copropriétaire d'ArdenNest."
+  "attribution": "BizBuz.be est une initiative de Christophe, copropriétaire d'ArdenNest."
 }
