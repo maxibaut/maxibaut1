@@ -11,21 +11,6 @@
   "relatedProperty": "Mehr über das Haus →",
   "relatedSurroundings": "Mehr über die Umgebung →",
   "latestUpdates": "Neueste Updates",
-  "entries": {
-    "petanquebaan-aangelegd": {
-      "title": "Neuer Pétanque-Platz angelegt",
-      "excerpt": "Der Garten ist wieder ein Stück größer geworden. Perfekt für eine Partie Boule nach dem Abendessen.",
-      "body": "Wir hatten die Idee schon länger, und diesen Winter war der richtige Moment: ein richtiger Pétanque-Platz im Garten. Ebener Boden, feiner Kies, beleuchtet für die Abendstunden. Perfekt für eine entspannte Partie nach dem Essen — während die Kinder noch herumrennen und der Wein sich langsam leert.\n\nDer Platz liegt geschützt neben der Terrasse, nur wenige Schritte von der Küche entfernt. Die Kugeln liegen in der Hauswirtschaftsraum bereit. Keine Reservierung nötig, kein Aufräumen danach."
-    },
-    "lente-in-de-ardennen": {
-      "title": "Der Frühling ist in Gedinne angekommen",
-      "excerpt": "Die ersten Blüten, Morgennebel über dem Tal und ein Garten, der wieder zum Leben erwacht.",
-      "body": "Der März in den Ardennen hat etwas Besonderes. Der Morgennebel hängt tief über dem Tal, die ersten Krokusse strecken ihre Köpfe hervor, und die Vögel sind zurück. Der Garten wird langsam wieder grün — erst vorsichtig, dann plötzlich überall.\n\nFür alle, die Stille suchen: Dies ist die Jahreszeit. Die Wanderwege sind leer, die Wälder riechen nach feuchter Erde, und abends hört man nur die Eulen. Ein Wochenende im März oder April ist vielleicht das bestgehütete Geheimnis der Ardennen."
-    },
-    "kerstweekend-met-26": {
-      "title": "Weihnachtswochenende mit 26 Personen",
-      "excerpt": "Drei Generationen am Tisch. Genau dafür wurde dieses Haus gebaut.",
-      "body": "Weihnachten 2025 war ein volles Haus — und genau so, wie es sein soll. 26 Personen, drei Generationen, von Kleinkindern bis zu Großeltern. Die Profiküche lief auf Hochtouren, der 7m20 lange Esstisch war zum ersten Mal wirklich voll, und die Geschirrspüler bewiesen einmal mehr ihren Wert.\n\nWas uns immer wieder auffällt: Das Haus funktioniert am besten, wenn es voll ist. Die Räume sind so gestaltet, dass große Gruppen zusammenleben können, ohne sich gegenseitig auf die Füße zu treten. Die Kinder hatten ihre eigene Welt, die Köche ihr eigenes Reich, und wer Ruhe wollte, fand sie in einer der Sitzecken.\n\nDafür machen wir das alles. Nicht für das perfekte Weihnachtsfoto, sondern für den Moment, in dem alle am Tisch sitzen und es kurz still wird."
-    }
-  }
+  "emptyState": "Unsere ersten Momente erscheinen hier bald.",
+  "entries": {}
 }
