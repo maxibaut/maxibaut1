@@ -1,0 +1,31 @@
+{
+  "seo": {
+    "title": "Journal — ArdenNest | Moments from the Ardennes",
+    "description": "Updates, seasonal atmosphere and stories from ArdenNest. Discover what's happening at our holiday home in the Ardennes."
+  },
+  "heading": "Journal",
+  "subtitle": "Moments, updates and seasonal atmosphere — occasionally, when it matters.",
+  "readMore": "Read more",
+  "backToOverview": "Back to overview",
+  "publishedOn": "Published on",
+  "relatedProperty": "More about the house →",
+  "relatedSurroundings": "More about the surroundings →",
+  "latestUpdates": "Latest updates",
+  "entries": {
+    "petanquebaan-aangelegd": {
+      "title": "New pétanque court installed",
+      "excerpt": "The garden just got a little bigger. Perfect for a game of boules after dinner.",
+      "body": "We'd been thinking about it for a while, and this winter was the moment: a proper pétanque court in the garden. Level ground, fine gravel, lit for evening games. Perfect for a relaxed match after dinner — while the kids still run around and the wine slowly empties.\n\nThe court is sheltered next to the terrace, walking distance from the kitchen. Balls are ready in the utility room. No reservation needed, no cleanup afterwards."
+    },
+    "lente-in-de-ardennen": {
+      "title": "Spring has arrived in Gedinne",
+      "excerpt": "The first blossoms, morning mist over the valley, and a garden coming back to life.",
+      "body": "March in the Ardennes has something special. The morning mist hangs low over the valley, the first crocuses poke through, and the birds are back. The garden slowly turns green again — cautiously at first, then suddenly everywhere.\n\nFor those seeking silence: this is the season. The hiking trails are empty, the forests smell of damp earth, and in the evening you hear only the owls. A weekend in March or April might just be the Ardennes' best-kept secret."
+    },
+    "kerstweekend-met-26": {
+      "title": "Christmas weekend with 26 people",
+      "excerpt": "Three generations around the table. Exactly what this house was built for.",
+      "body": "Christmas 2025 was a full house — and exactly as it should be. 26 people, three generations, from toddlers to grandparents. The professional kitchen was running at full capacity, the 7m20 dining table was truly full for once, and the dishwashers proved their worth once again.\n\nWhat always strikes us: the house works best when it's full. The spaces are designed to let large groups live together without being on top of each other. The kids had their own world, the cooks their own domain, and anyone wanting quiet found it in one of the sitting corners.\n\nThis is what we do it for. Not for the perfect Christmas photo, but for the moment when everyone sits at the table and it goes quiet for a second."
+    }
+  }
+}
