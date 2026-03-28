@@ -113,7 +113,7 @@ export const Footer = () => {
               </a>
               <div>
                 <LocalizedLink
-                  to="/geo-scan"
+                  to="/homeowners"
                   className="text-primary-foreground/80 hover:text-primary-foreground transition-colors"
                 >
                   {t('footer.homeowners')}
