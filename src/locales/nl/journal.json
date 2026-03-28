@@ -12,5 +12,12 @@
   "relatedSurroundings": "Meer over de omgeving →",
   "latestUpdates": "Laatste updates",
   "emptyState": "Binnenkort verschijnen hier onze eerste momenten.",
-  "entries": {}
+  "entries": {
+    "welkom-bij-ardennest": {
+      "title": "Welkom bij ArdenNest",
+      "excerpt": "Een hoeve uit 1849, verbouwd tot groepshuis voor 26 personen. Ontdek wat ArdenNest bijzonder maakt.",
+      "videoCaption": "ArdenNest — Quiet luxury voor momenten samen",
+      "body": "Een hoeve uit 1849, verbouwd tot groepshuis voor 26 personen. Negen slaapkamers, elk met eigen badkamer. Een professionele keuken met Lacanche fornuis en twee Miele vaatwassers. En één eiken tafel van 7m20 waar iedereen samen zit — geen kindertafel apart, geen twee kamers.\nWij zijn Bieke en Christophe, en we wonen hier al 25 jaar. Alles wat jullie zien is gebouwd vanuit één vraag: wat heeft een grote groep écht nodig? Het antwoord bleek telkens hetzelfde — ruimte om samen te zijn, zonder gedoe.\nTwee hectare tuin waar kinderen urenlang verdwijnen. Een speelkamer met pooltafel en voetbaltafel. Een overdekte speelstal voor de allerkleinsten. En binnen: een leefruimte waar je na het eten vanzelf in kleinere groepjes terechtkomt — bij de open haard, aan de spelletjestafel, met een glas wijn en uitzicht op de tuin.\nGeen zwembad, geen sauna. Wel kwaliteit die je voelt, van het De Witte Lietaer beddengoed tot de stoelen waar je ook na het dessert nog graag in blijft zitten.\nDit is ArdenNest. Jullie nest in de Ardennen."
+    }
+  }
 }

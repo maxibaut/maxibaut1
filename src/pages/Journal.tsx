@@ -40,16 +40,26 @@ const Journal = () => {
               {journalEntries.map((entry) => (
                 <LocalizedLink key={entry.slug} to={`/journal/${entry.slug}`} className="group block">
                   <Card className="overflow-hidden border-border hover:border-primary/30 transition-colors h-full">
-                    <div className="aspect-[16/10] overflow-hidden bg-muted">
-                      <img
-                        src={entry.image}
-                        alt={t(`entries.${entry.slug}.title`)}
-                        className="w-full h-full object-cover"
-                        loading="lazy"
-                        onError={(e) => {
-                          (e.target as HTMLImageElement).src = '/placeholder.svg';
-                        }}
-                      />
+                    <div className="aspect-[16/10] overflow-hidden bg-muted flex items-center justify-center">
+                      {entry.video ? (
+                        <video
+                          src={entry.video}
+                          className="w-full h-full object-cover"
+                          muted
+                          preload="metadata"
+                          playsInline
+                        />
+                      ) : (
+                        <img
+                          src={entry.image}
+                          alt={t(`entries.${entry.slug}.title`)}
+                          className="w-full h-full object-cover"
+                          loading="lazy"
+                          onError={(e) => {
+                            (e.target as HTMLImageElement).src = '/placeholder.svg';
+                          }}
+                        />
+                      )}
                     </div>
                     <CardContent className="p-6">
                       <time className="text-xs text-muted-foreground/70 uppercase tracking-wider">

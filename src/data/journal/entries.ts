@@ -10,4 +10,14 @@ import { JournalEntry } from './types';
  * 2. Place the image in public/images/journal/
  * 3. Add translations in src/locales/[nl|fr|en|de]/journal.json under entries.[slug]
  */
-export const journalEntries: JournalEntry[] = [];
+export const journalEntries: JournalEntry[] = [
+  {
+    slug: 'welkom-bij-ardennest',
+    date: '2026-03-28',
+    image: '/video/ardennest-reel.mp4', // poster fallback handled in component
+    video: '/video/ardennest-reel.mp4',
+    videoCaptionKey: 'entries.welkom-bij-ardennest.videoCaption',
+    relatedLink: '/property',
+    relatedLabelKey: 'relatedProperty',
+  },
+];

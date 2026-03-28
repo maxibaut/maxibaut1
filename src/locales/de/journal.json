@@ -12,5 +12,12 @@
   "relatedSurroundings": "Mehr über die Umgebung →",
   "latestUpdates": "Neueste Updates",
   "emptyState": "Unsere ersten Momente erscheinen hier bald.",
-  "entries": {}
+  "entries": {
+    "welkom-bij-ardennest": {
+      "title": "Willkommen bei ArdenNest",
+      "excerpt": "Ein Bauernhof aus 1849, umgebaut zum Gruppenhaus für 26 Personen. Entdecken Sie, was ArdenNest besonders macht.",
+      "videoCaption": "ArdenNest — Stiller Luxus für gemeinsame Momente",
+      "body": "Ein Bauernhof aus 1849, umgebaut zum Gruppenhaus für 26 Personen. Neun Schlafzimmer, jedes mit eigenem Badezimmer. Eine professionelle Küche mit Lacanche-Herd und zwei Miele-Geschirrspülern. Und ein Eichentisch von 7,20 m, an dem alle zusammensitzen — kein separater Kindertisch, keine zwei Räume.\nWir sind Bieke und Christophe, und wir leben hier seit 25 Jahren. Alles, was Sie sehen, wurde aus einer einzigen Frage heraus gebaut: Was braucht eine große Gruppe wirklich? Die Antwort war immer dieselbe — Raum, um zusammen zu sein, ohne Aufwand.\nZwei Hektar Garten, in dem Kinder stundenlang verschwinden. Ein Spielzimmer mit Billardtisch und Tischfußball. Eine überdachte Spielscheune für die Kleinsten. Und drinnen: ein Wohnzimmer, in dem man sich nach dem Essen ganz natürlich in kleinere Gruppen aufteilt — am Kamin, am Spieletisch, mit einem Glas Wein und Blick auf den Garten.\nKein Schwimmbad, keine Sauna. Aber Qualität, die Sie spüren, von der De Witte Lietaer Bettwäsche bis zu den Stühlen, auf denen man auch nach dem Dessert gerne sitzen bleibt.\nDas ist ArdenNest. Ihr Nest in den Ardennen."
+    }
+  }
 }

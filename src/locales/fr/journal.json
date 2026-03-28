@@ -12,5 +12,12 @@
   "relatedSurroundings": "En savoir plus sur les environs →",
   "latestUpdates": "Dernières nouvelles",
   "emptyState": "Nos premiers moments apparaîtront bientôt ici.",
-  "entries": {}
+  "entries": {
+    "welkom-bij-ardennest": {
+      "title": "Bienvenue chez ArdenNest",
+      "excerpt": "Une ferme de 1849, transformée en gîte de groupe pour 26 personnes. Découvrez ce qui rend ArdenNest si particulier.",
+      "videoCaption": "ArdenNest — Le luxe discret pour des moments ensemble",
+      "body": "Une ferme de 1849, transformée en gîte de groupe pour 26 personnes. Neuf chambres, chacune avec sa propre salle de bain. Une cuisine professionnelle avec un fourneau Lacanche et deux lave-vaisselle Miele. Et une table en chêne de 7m20 où tout le monde s'assoit ensemble — pas de table enfants à part, pas de deux salles.\nNous sommes Bieke et Christophe, et nous vivons ici depuis 25 ans. Tout ce que vous voyez a été construit à partir d'une seule question : de quoi un grand groupe a-t-il vraiment besoin ? La réponse était toujours la même — de l'espace pour être ensemble, sans tracas.\nDeux hectares de jardin où les enfants disparaissent pendant des heures. Une salle de jeux avec billard et baby-foot. Un espace de jeu couvert pour les tout-petits. Et à l'intérieur : un salon où après le dîner, on se retrouve naturellement en petits groupes — près de la cheminée, à la table de jeux, un verre de vin à la main avec vue sur le jardin.\nPas de piscine, pas de sauna. Mais une qualité que vous ressentez, du linge De Witte Lietaer aux chaises où l'on reste volontiers assis même après le dessert.\nC'est ArdenNest. Votre nid dans les Ardennes."
+    }
+  }
 }
