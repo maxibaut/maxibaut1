@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next';
+import { useSEO } from '@/hooks/useSEO';
 import { useLocation } from 'react-router-dom';
 import { LocalizedLink as Link } from '@/components/LocalizedLink';
 import { Download, Clock, Phone, ScrollText, ClipboardCheck, Store, FileText, Car } from 'lucide-react';
@@ -56,6 +57,7 @@ interface Destination {
 
 const EarlyArrival = () => {
   const { t, i18n } = useTranslation(['earlyArrival', 'houseRules', 'checklist', 'cancellationPolicy', 'rentalTerms', 'localTips', 'common']);
+  useSEO();
   const location = useLocation();
 
   const destinations = t('destinations', { returnObjects: true }) as Destination[];

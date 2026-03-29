@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next';
+import { useSEO } from '@/hooks/useSEO';
 import { useLocation } from 'react-router-dom';
 import { LocalizedLink as Link } from '@/components/LocalizedLink';
 import { Download, Store, UtensilsCrossed, ShoppingBag, ChefHat, MapPin, Phone, Globe, Mail, ScrollText, ClipboardCheck, FileText, Car } from 'lucide-react';
@@ -58,6 +59,7 @@ interface SubCategory {
 
 const LocalTips = () => {
   const { t, i18n } = useTranslation(['localTips', 'houseRules', 'checklist', 'cancellationPolicy', 'rentalTerms', 'earlyArrival', 'common']);
+  useSEO();
   const location = useLocation();
 
   const handleDownloadPDF = () => {

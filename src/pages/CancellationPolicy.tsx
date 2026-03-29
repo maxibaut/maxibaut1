@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next';
+import { useSEO } from '@/hooks/useSEO';
 import { useLocation } from 'react-router-dom';
 import { LocalizedLink as Link } from '@/components/LocalizedLink';
 import { Download, ScrollText, ClipboardCheck, Store, FileText, Car } from 'lucide-react';
@@ -50,6 +51,7 @@ interface CancellationTier {
 
 const CancellationPolicy = () => {
   const { t, i18n } = useTranslation(['cancellationPolicy', 'houseRules', 'checklist', 'earlyArrival', 'rentalTerms', 'localTips', 'common']);
+  useSEO();
   const location = useLocation();
 
   const tiersData = t('tiers', { returnObjects: true });

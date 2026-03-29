@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next';
+import { useSEO } from '@/hooks/useSEO';
 import { useLocation } from 'react-router-dom';
 import { LocalizedLink as Link } from '@/components/LocalizedLink';
 import { Download, FileText, ScrollText, ClipboardCheck, Store, Car } from 'lucide-react';
@@ -50,6 +51,7 @@ const legalDocuments = [
 
 const HouseRules = () => {
   const { t, i18n } = useTranslation(['houseRules', 'checklist', 'cancellationPolicy', 'rentalTerms', 'earlyArrival', 'localTips', 'common']);
+  useSEO();
   const location = useLocation();
 
   const generateHouseRulesPDF = () => {
