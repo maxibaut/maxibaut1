@@ -7,6 +7,7 @@ import { Card, CardContent } from '@/components/ui/card';
 import { ExternalLink, Code, Brain, Shield, TrendingUp, Building2 } from 'lucide-react';
 import useSEO from '@/hooks/useSEO';
 import ardennestScore from '@/assets/ardennest-score.png';
+import BizBuzScoreTracker from '@/components/homeowners/BizBuzScoreTracker';
 
 const expertiseCards = [
   { icon: Code, key: 'software' },
