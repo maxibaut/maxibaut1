@@ -92,8 +92,8 @@ const About = () => {
         </div>
       </section>
 
-      {/* Team */}
-      <section className="section-padding bg-background">
+      {/* Team — temporarily hidden, reserved for future creative use */}
+      {/* <section className="section-padding bg-background">
         <div className="container-luxury">
           <h2 className="heading-2 text-center mb-12">{t('team.title')}</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-3xl mx-auto">
