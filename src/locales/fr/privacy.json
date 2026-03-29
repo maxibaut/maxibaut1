@@ -1,4 +1,8 @@
 {
+  "seo": {
+    "title": "Confidentialité & Cookies ",
+    "description": " ArdenNest - Gîte Ardennes|Comment ArdenNest traite vos données. Notre déclaration de confidentialité et politique de cookies en langage clair."
+  },
   "pageTitle": "Confidentialité & Cookies",
   "h1": "Déclaration de confidentialité et politique de cookies — Festina Lente bv (ArdenNest)",
   "pageSubtitle": "Comment nous traitons vos données",
@@ -26,64 +30,141 @@
       "title": "2. Quelles données collectons-nous ?",
       "contactForm": {
         "title": "Via le formulaire de contact",
-        "items": ["Nom", "Adresse e-mail", "Numéro de téléphone", "Contenu de votre message"]
+        "items": [
+          "Nom",
+          "Adresse e-mail",
+          "Numéro de téléphone",
+          "Contenu de votre message"
+        ]
       },
       "booking": {
         "title": "Via le processus de réservation (Property Management System)",
-        "items": ["Nom et coordonnées", "Nombre d'invités et composition du groupe", "Données de paiement (traitées par Mollie, non stockées par nous)", "Dates de réservation et préférences"]
+        "items": [
+          "Nom et coordonnées",
+          "Nombre d'invités et composition du groupe",
+          "Données de paiement (traitées par Mollie, non stockées par nous)",
+          "Dates de réservation et préférences"
+        ]
       },
       "automatic": {
         "title": "Automatiquement via le site web",
-        "items": ["Adresse IP (anonymisée)", "Préférence linguistique", "Statistiques de visite (via Google Analytics, uniquement avec votre consentement)"]
+        "items": [
+          "Adresse IP (anonymisée)",
+          "Préférence linguistique",
+          "Statistiques de visite (via Google Analytics, uniquement avec votre consentement)"
+        ]
       }
     },
     "whyCollect": {
       "title": "3. Pourquoi collectons-nous ces données ?",
       "items": [
-        { "purpose": "Formulaire de contact", "description": "Pour répondre à vos questions et fournir des informations" },
-        { "purpose": "Réservations", "description": "Pour traiter votre réservation et préparer votre séjour" },
-        { "purpose": "Communication", "description": "Pour envoyer des informations pratiques avant l'arrivée" },
-        { "purpose": "Statistiques du site", "description": "Pour améliorer notre site web (uniquement avec consentement)" },
-        { "purpose": "Obligation légale", "description": "Pour se conformer à la législation comptable et fiscale belge" }
+        {
+          "purpose": "Formulaire de contact",
+          "description": "Pour répondre à vos questions et fournir des informations"
+        },
+        {
+          "purpose": "Réservations",
+          "description": "Pour traiter votre réservation et préparer votre séjour"
+        },
+        {
+          "purpose": "Communication",
+          "description": "Pour envoyer des informations pratiques avant l'arrivée"
+        },
+        {
+          "purpose": "Statistiques du site",
+          "description": "Pour améliorer notre site web (uniquement avec consentement)"
+        },
+        {
+          "purpose": "Obligation légale",
+          "description": "Pour se conformer à la législation comptable et fiscale belge"
+        }
       ]
     },
     "legalBasis": {
       "title": "4. Sur quelle base traitons-nous vos données ?",
       "items": [
-        { "basis": "Exécution du contrat", "description": "Pour les réservations" },
-        { "basis": "Consentement", "description": "Pour le marketing et les analyses (bannière cookies)" },
-        { "basis": "Obligation légale", "description": "Pour les factures et la comptabilité" },
-        { "basis": "Intérêt légitime", "description": "Pour améliorer nos services" }
+        {
+          "basis": "Exécution du contrat",
+          "description": "Pour les réservations"
+        },
+        {
+          "basis": "Consentement",
+          "description": "Pour le marketing et les analyses (bannière cookies)"
+        },
+        {
+          "basis": "Obligation légale",
+          "description": "Pour les factures et la comptabilité"
+        },
+        {
+          "basis": "Intérêt légitime",
+          "description": "Pour améliorer nos services"
+        }
       ]
     },
     "sharing": {
       "title": "5. Avec qui partageons-nous vos données ?",
       "intro": "Nous ne partageons vos données que lorsque c'est nécessaire :",
       "partners": [
-        { "name": "Property Management System", "description": "Notre système de réservation (sous-traitant, UE)" },
-        { "name": "Mollie", "description": "Traitement des paiements (sous-traitant, Pays-Bas)" },
-        { "name": "Google Analytics", "description": "Statistiques du site (uniquement avec consentement, données anonymisées)" }
+        {
+          "name": "Property Management System",
+          "description": "Notre système de réservation (sous-traitant, UE)"
+        },
+        {
+          "name": "Mollie",
+          "description": "Traitement des paiements (sous-traitant, Pays-Bas)"
+        },
+        {
+          "name": "Google Analytics",
+          "description": "Statistiques du site (uniquement avec consentement, données anonymisées)"
+        }
       ],
       "noSelling": "Nous ne vendons jamais vos données à des tiers. Point final."
     },
     "retention": {
       "title": "6. Combien de temps conservons-nous vos données ?",
       "items": [
-        { "type": "Formulaire de contact", "duration": "Maximum 1 an après le dernier contact" },
-        { "type": "Données de réservation", "duration": "7 ans (obligation légale de conservation pour la facturation)" },
-        { "type": "Analytics", "duration": "26 mois (par défaut Google Analytics)" }
+        {
+          "type": "Formulaire de contact",
+          "duration": "Maximum 1 an après le dernier contact"
+        },
+        {
+          "type": "Données de réservation",
+          "duration": "7 ans (obligation légale de conservation pour la facturation)"
+        },
+        {
+          "type": "Analytics",
+          "duration": "26 mois (par défaut Google Analytics)"
+        }
       ]
     },
     "rights": {
       "title": "7. Vos droits",
       "intro": "Selon le RGPD, vous avez les droits suivants :",
       "items": [
-        { "right": "Accès", "description": "Demandez quelles données nous avons sur vous" },
-        { "right": "Rectification", "description": "Faites corriger les données inexactes" },
-        { "right": "Effacement", "description": "Demandez la suppression de vos données" },
-        { "right": "Limitation", "description": "Limitez la façon dont nous utilisons vos données" },
-        { "right": "Portabilité", "description": "Recevez vos données dans un format standard" },
-        { "right": "Opposition", "description": "Opposez-vous à certains traitements" }
+        {
+          "right": "Accès",
+          "description": "Demandez quelles données nous avons sur vous"
+        },
+        {
+          "right": "Rectification",
+          "description": "Faites corriger les données inexactes"
+        },
+        {
+          "right": "Effacement",
+          "description": "Demandez la suppression de vos données"
+        },
+        {
+          "right": "Limitation",
+          "description": "Limitez la façon dont nous utilisons vos données"
+        },
+        {
+          "right": "Portabilité",
+          "description": "Recevez vos données dans un format standard"
+        },
+        {
+          "right": "Opposition",
+          "description": "Opposez-vous à certains traitements"
+        }
       ],
       "contact": "Contactez-nous à bieke@ardennest.be pour exercer l'un de ces droits. Nous répondrons dans les 30 jours.",
       "complaint": "Pas satisfait ? Vous pouvez déposer une plainte auprès de l'Autorité belge de protection des données (www.gegevensbeschermingsautoriteit.be)."
@@ -95,18 +176,48 @@
         "title": "Cookies essentiels (toujours actifs)",
         "description": "Ces cookies sont nécessaires au fonctionnement du site web :",
         "items": [
-          { "cookie": "Préférence de langue", "purpose": "Retient votre langue choisie", "duration": "1 an", "type": "Fonctionnel" },
-          { "cookie": "Consentement cookies", "purpose": "Retient votre choix de cookies", "duration": "1 an", "type": "Fonctionnel" },
-          { "cookie": "Session", "purpose": "Maintient la session du site active", "duration": "Session", "type": "Nécessaire" }
+          {
+            "cookie": "Préférence de langue",
+            "purpose": "Retient votre langue choisie",
+            "duration": "1 an",
+            "type": "Fonctionnel"
+          },
+          {
+            "cookie": "Consentement cookies",
+            "purpose": "Retient votre choix de cookies",
+            "duration": "1 an",
+            "type": "Fonctionnel"
+          },
+          {
+            "cookie": "Session",
+            "purpose": "Maintient la session du site active",
+            "duration": "Session",
+            "type": "Nécessaire"
+          }
         ]
       },
       "analytics": {
         "title": "Cookies analytiques (avec consentement)",
         "description": "Ces cookies nous aident à comprendre comment les visiteurs utilisent le site :",
         "items": [
-          { "cookie": "_ga", "purpose": "Distingue les visiteurs uniques", "duration": "2 ans", "type": "Analytics" },
-          { "cookie": "_ga_*", "purpose": "Stocke le statut de session", "duration": "2 ans", "type": "Analytics" },
-          { "cookie": "_gid", "purpose": "Distingue les visiteurs uniques", "duration": "24 heures", "type": "Analytics" }
+          {
+            "cookie": "_ga",
+            "purpose": "Distingue les visiteurs uniques",
+            "duration": "2 ans",
+            "type": "Analytics"
+          },
+          {
+            "cookie": "_ga_*",
+            "purpose": "Stocke le statut de session",
+            "duration": "2 ans",
+            "type": "Analytics"
+          },
+          {
+            "cookie": "_gid",
+            "purpose": "Distingue les visiteurs uniques",
+            "duration": "24 heures",
+            "type": "Analytics"
+          }
         ],
         "note": "Google Analytics est configuré avec l'anonymisation IP. Nous ne partageons pas de données personnelles avec Google à des fins publicitaires."
       },
