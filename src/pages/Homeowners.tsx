@@ -207,8 +207,11 @@ const Homeowners = () => {
             </div>
           </section>
 
+          {/* BizBuz Score Tracker */}
+          <BizBuzScoreTracker />
+
           {/* Footer attribution */}
-          <p className="text-sm text-muted-foreground text-center border-t border-border pt-8">
+          <p className="text-sm text-muted-foreground text-center border-t border-border pt-8 mt-12">
             {linkify(t('attribution'))}
           </p>
         </div>
