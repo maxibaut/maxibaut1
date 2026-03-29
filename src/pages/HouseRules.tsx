@@ -51,6 +51,7 @@ const legalDocuments = [
 
 const HouseRules = () => {
   const { t, i18n } = useTranslation(['houseRules', 'checklist', 'cancellationPolicy', 'rentalTerms', 'earlyArrival', 'localTips', 'common']);
+  useSEO();
   const location = useLocation();
 
   const generateHouseRulesPDF = () => {

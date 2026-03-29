@@ -57,6 +57,7 @@ interface Destination {
 
 const EarlyArrival = () => {
   const { t, i18n } = useTranslation(['earlyArrival', 'houseRules', 'checklist', 'cancellationPolicy', 'rentalTerms', 'localTips', 'common']);
+  useSEO();
   const location = useLocation();
 
   const destinations = t('destinations', { returnObjects: true }) as Destination[];

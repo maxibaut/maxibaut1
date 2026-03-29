@@ -78,6 +78,7 @@ const ChecklistSection = ({ title, subtitle, items, tip }: ChecklistSectionProps
 
 const Checklist = () => {
   const { t, i18n } = useTranslation(['checklist', 'houseRules', 'cancellationPolicy', 'rentalTerms', 'earlyArrival', 'localTips', 'common']);
+  useSEO();
   const location = useLocation();
 
   const handleDownloadPDF = () => {

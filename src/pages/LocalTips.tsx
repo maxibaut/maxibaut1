@@ -59,6 +59,7 @@ interface SubCategory {
 
 const LocalTips = () => {
   const { t, i18n } = useTranslation(['localTips', 'houseRules', 'checklist', 'cancellationPolicy', 'rentalTerms', 'earlyArrival', 'common']);
+  useSEO();
   const location = useLocation();
 
   const handleDownloadPDF = () => {

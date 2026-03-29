@@ -51,6 +51,7 @@ interface CancellationTier {
 
 const CancellationPolicy = () => {
   const { t, i18n } = useTranslation(['cancellationPolicy', 'houseRules', 'checklist', 'earlyArrival', 'rentalTerms', 'localTips', 'common']);
+  useSEO();
   const location = useLocation();
 
   const tiersData = t('tiers', { returnObjects: true });

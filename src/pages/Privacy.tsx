@@ -50,6 +50,7 @@ interface CookieItem {
 
 const Privacy = () => {
   const { t, i18n } = useTranslation(['privacy', 'common']);
+  useSEO();
   const location = useLocation();
 
 

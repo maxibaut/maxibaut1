@@ -51,6 +51,7 @@ interface Article {
 
 const RentalTerms = () => {
   const { t, i18n } = useTranslation(['rentalTerms', 'houseRules', 'checklist', 'cancellationPolicy', 'earlyArrival', 'localTips', 'common']);
+  useSEO();
   const location = useLocation();
 
   const articles = t('articles', { returnObjects: true }) as Article[];
