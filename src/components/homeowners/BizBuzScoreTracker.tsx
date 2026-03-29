@@ -12,6 +12,7 @@ interface ScoreEntry {
 
 const scores: ScoreEntry[] = [
   { date: "5 mrt 2026", score: 25 },
+  { date: "11 mrt 2026", score: 37 },
   { date: "19 mrt 2026", score: 53 },
   { date: "29 mrt 2026", score: 56 },
   // Add new scores here — the grid handles everything automatically
