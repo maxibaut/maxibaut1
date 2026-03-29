@@ -1,6 +1,7 @@
 import { useState, useMemo, type ReactNode } from 'react';
 import { PageWrapper } from '@/components/layout';
 import { useTranslation } from 'react-i18next';
+import { useSEO } from '@/hooks/useSEO';
 import { LocalizedLink as Link } from '@/components/LocalizedLink';
 import { Button } from '@/components/ui/button';
 import { Sparkles, ChefHat, TreePine, Gamepad2, Car, Check, ArrowRight, Bed, ClipboardCheck, UtensilsCrossed, Home, Zap, Award, Fan, Headphones } from 'lucide-react';
@@ -49,6 +50,7 @@ const linkifyGreentripper = (text: string): ReactNode => {
 
 const Differentiators = () => {
   const { t } = useTranslation('homepage');
+  useSEO();
 
   const [lightboxOpen, setLightboxOpen] = useState(false);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);

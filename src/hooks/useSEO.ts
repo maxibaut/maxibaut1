@@ -16,7 +16,7 @@ const SUPPORTED_LANGUAGES = ['nl', 'fr', 'en', 'de'];
 const routeSEOConfig: Record<string, SEOConfig> = {
   '/': { titleKey: 'seo.title', descriptionKey: 'seo.description', namespace: 'homepage' },
   '/property': { titleKey: 'seo.title', descriptionKey: 'seo.description', namespace: 'property' },
-  '/differentiators': { titleKey: 'seo.title', descriptionKey: 'seo.description', namespace: 'homepage' },
+  '/differentiators': { titleKey: 'differentiatorsSeo.title', descriptionKey: 'differentiatorsSeo.description', namespace: 'homepage' },
   '/about': { titleKey: 'seo.title', descriptionKey: 'seo.description', namespace: 'about' },
   '/contact': { titleKey: 'seo.title', descriptionKey: 'seo.description', namespace: 'contact' },
   '/booking': { titleKey: 'seo.title', descriptionKey: 'seo.description', namespace: 'booking' },
