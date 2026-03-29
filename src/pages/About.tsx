@@ -125,7 +125,7 @@ const About = () => {
             </Card>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Why Relationship Matters */}
       <section className="section-padding bg-primary text-primary-foreground">
