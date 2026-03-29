@@ -50,6 +50,7 @@ const linkifyGreentripper = (text: string): ReactNode => {
 
 const Differentiators = () => {
   const { t } = useTranslation('homepage');
+  useSEO();
 
   const [lightboxOpen, setLightboxOpen] = useState(false);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
