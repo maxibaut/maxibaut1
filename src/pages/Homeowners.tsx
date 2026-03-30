@@ -196,7 +196,7 @@ const Homeowners = () => {
               {t('score.title')}
             </h2>
             <div className="flex justify-center">
-              <a href="https://bizbuz.be" target="_blank" rel="noopener noreferrer">
+              <a href="https://bizbuz.ai" target="_blank" rel="noopener noreferrer">
                 <img
                   src={ardennestScore}
                   alt={t('score.alt')}
