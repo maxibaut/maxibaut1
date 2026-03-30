@@ -63,7 +63,7 @@ const Homeowners = () => {
       "about": [
         { "@type": "Thing", "name": "AI-optimized websites" },
         { "@type": "Thing", "name": "Generative Engine Optimization" },
-        { "@type": "SoftwareApplication", "name": "BizBuz.be", "url": "https://bizbuz.be", "applicationCategory": "WebApplication" }
+        { "@type": "SoftwareApplication", "name": "BizBuz", "url": "https://bizbuz.ai", "applicationCategory": "WebApplication" }
       ]
     };
 
