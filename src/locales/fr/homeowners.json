@@ -1,7 +1,7 @@
 {
   "seo": {
     "title": "Votre entreprise est-elle trouvée par l'IA ? | BizBuz",
-    "description": "Comment ArdenNest a découvert que les systèmes d'IA ne trouvaient pas leur entreprise — et pourquoi cela a mené à BizBuz.be. Scan gratuit pour chaque entrepreneur."
+    "description": "Comment ArdenNest a découvert que les systèmes d'IA ne trouvaient pas leur entreprise — et pourquoi cela a mené à BizBuz.ai. Scan gratuit pour chaque entrepreneur."
   },
   "badge": "20+ ans tech · logiciel · stratégie",
   "title": "Quelle est la visibilité de votre entreprise pour ChatGPT, Gemini et Claude ?",
@@ -35,7 +35,7 @@
     "story2": "Beaucoup de choses ont changé depuis, mais cette passion est restée : comment un petit acteur peut-il revendiquer sa place dans les résultats de recherche ? Avec l'essor de l'IA, l'histoire se répète. Nouvelles règles, même question.",
     "story3": "BizBuz est né quand il a construit son nouveau site web via l'IA début 2026 et a constaté que l'IA livre un bon travail mais sans toutes les étapes nécessaires pour optimiser la visibilité. SEO et GEO ne sont pas la même chose — et BizBuz est le premier outil en Belgique qui mesure cela.",
     "story3_link_prefix": "Un scan via ",
-    "story3_link_text": "bizbuz.be",
+    "story3_link_text": "bizbuz.ai",
     "story3_link_suffix": " est gratuit, sans compte, sans attente."
   },
   "cta": "Scannez votre site web gratuitement",
@@ -48,5 +48,5 @@
     "title": "Notre propre score : 54/100",
     "alt": "Résultat BizBuz pour ardennest.be : score 54 sur 100 — Modéré"
   },
-  "attribution": "BizBuz.be est une initiative de Christophe, copropriétaire d'ArdenNest."
+  "attribution": "BizBuz.ai est une initiative de Christophe, copropriétaire d'ArdenNest."
 }

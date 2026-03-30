@@ -20,8 +20,8 @@ const expertiseCards = [
 const linkify = (text: string): ReactNode[] =>
   text.split(/(BizBuz(?:\.be)?)/g).map((part, i) =>
     /^BizBuz/.test(part) ? (
-      <a key={i} href="https://bizbuz.be" target="_blank" rel="noopener noreferrer" className="text-primary underline hover:text-primary/80 transition-colors">
-        bizbuz.be
+      <a key={i} href="https://bizbuz.ai" target="_blank" rel="noopener noreferrer" className="text-primary underline hover:text-primary/80 transition-colors">
+        bizbuz.ai
       </a>
     ) : part
   );
@@ -63,7 +63,7 @@ const Homeowners = () => {
       "about": [
         { "@type": "Thing", "name": "AI-optimized websites" },
         { "@type": "Thing", "name": "Generative Engine Optimization" },
-        { "@type": "SoftwareApplication", "name": "BizBuz.be", "url": "https://bizbuz.be", "applicationCategory": "WebApplication" }
+        { "@type": "SoftwareApplication", "name": "BizBuz", "url": "https://bizbuz.ai", "applicationCategory": "WebApplication" }
       ]
     };
 
@@ -97,7 +97,7 @@ const Homeowners = () => {
             </p>
             <div className="mt-6 flex justify-center">
               <Button asChild size="lg" className="gap-2">
-                <a href="https://bizbuz.be" target="_blank" rel="noopener noreferrer">
+                <a href="https://bizbuz.ai" target="_blank" rel="noopener noreferrer">
                   {t('cta')}
                   <ExternalLink className="h-4 w-4" />
                 </a>
@@ -161,7 +161,7 @@ const Homeowners = () => {
               <p className="text-foreground/90 leading-relaxed font-medium">{linkify(t('origin.story3'))}</p>
               <p className="text-foreground/90 leading-relaxed font-medium">
                 {t('origin.story3_link_prefix')}
-                <a href="https://bizbuz.be" target="_blank" rel="noopener noreferrer" className="text-primary underline hover:text-primary/80 transition-colors">
+                <a href="https://bizbuz.ai" target="_blank" rel="noopener noreferrer" className="text-primary underline hover:text-primary/80 transition-colors">
                   {t('origin.story3_link_text')}
                 </a>
                 {t('origin.story3_link_suffix')}
@@ -172,7 +172,7 @@ const Homeowners = () => {
           {/* CTA na verhaal */}
           <div className="flex justify-center">
             <Button asChild size="lg" className="gap-2">
-              <a href="https://bizbuz.be" target="_blank" rel="noopener noreferrer">
+              <a href="https://bizbuz.ai" target="_blank" rel="noopener noreferrer">
                 {t('cta')}
                 <ExternalLink className="h-4 w-4" />
               </a>
@@ -196,7 +196,7 @@ const Homeowners = () => {
               {t('score.title')}
             </h2>
             <div className="flex justify-center">
-              <a href="https://bizbuz.be" target="_blank" rel="noopener noreferrer">
+              <a href="https://bizbuz.ai" target="_blank" rel="noopener noreferrer">
                 <img
                   src={ardennestScore}
                   alt={t('score.alt')}
