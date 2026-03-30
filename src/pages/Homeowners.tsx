@@ -161,7 +161,7 @@ const Homeowners = () => {
               <p className="text-foreground/90 leading-relaxed font-medium">{linkify(t('origin.story3'))}</p>
               <p className="text-foreground/90 leading-relaxed font-medium">
                 {t('origin.story3_link_prefix')}
-                <a href="https://bizbuz.be" target="_blank" rel="noopener noreferrer" className="text-primary underline hover:text-primary/80 transition-colors">
+                <a href="https://bizbuz.ai" target="_blank" rel="noopener noreferrer" className="text-primary underline hover:text-primary/80 transition-colors">
                   {t('origin.story3_link_text')}
                 </a>
                 {t('origin.story3_link_suffix')}
