@@ -20,8 +20,8 @@ const expertiseCards = [
 const linkify = (text: string): ReactNode[] =>
   text.split(/(BizBuz(?:\.be)?)/g).map((part, i) =>
     /^BizBuz/.test(part) ? (
-      <a key={i} href="https://bizbuz.be" target="_blank" rel="noopener noreferrer" className="text-primary underline hover:text-primary/80 transition-colors">
-        bizbuz.be
+      <a key={i} href="https://bizbuz.ai" target="_blank" rel="noopener noreferrer" className="text-primary underline hover:text-primary/80 transition-colors">
+        bizbuz.ai
       </a>
     ) : part
   );
