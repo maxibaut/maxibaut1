@@ -47,7 +47,7 @@ export const Footer = () => {
 
           {/* Contact */}
           <div className="space-y-4">
-            <h4 className="font-serif text-lg font-medium">{t('footer.contact')}</h4>
+            <span className="block font-serif text-lg font-medium">{t('footer.contact')}</span>
             <ul className="space-y-3">
               <li className="flex items-center space-x-3 text-primary-foreground/80">
                 <Phone className="h-4 w-4 flex-shrink-0" />
@@ -70,7 +70,7 @@ export const Footer = () => {
 
           {/* Quick Links */}
           <div className="space-y-4">
-            <h4 className="font-serif text-lg font-medium">{t('footer.quickLinks')}</h4>
+            <span className="block font-serif text-lg font-medium">{t('footer.quickLinks')}</span>
             <ul className="space-y-3">
               <li>
                 <LocalizedLink to="/property" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">
@@ -124,7 +124,7 @@ export const Footer = () => {
 
           {/* Documents & Practical Info */}
           <div className="space-y-4">
-            <h4 className="font-serif text-lg font-medium">{t('footer.documentsInfo')}</h4>
+            <span className="block font-serif text-lg font-medium">{t('footer.documentsInfo')}</span>
             <ul className="space-y-3">
               <li>
                 <LocalizedLink to="/house-rules" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">

@@ -412,7 +412,7 @@ const Contact = () => {
                     <Heart className="h-5 w-5 text-primary" />
                   </div>
                   <div>
-                    <h4 className="font-medium">{t('practical.onSiteHost')}</h4>
+                    <h3 className="font-medium">{t('practical.onSiteHost')}</h3>
                     <p className="text-sm text-muted-foreground">
                       {t('practical.availability')}
                     </p>
@@ -485,7 +485,7 @@ const Contact = () => {
                   <CardContent className="p-4 flex items-start space-x-3">
                     <Clock className="h-5 w-5 text-primary mt-0.5" />
                     <div>
-                      <h4 className="font-medium">{t('practical.checkIn.title')}</h4>
+                      <h3 className="font-medium">{t('practical.checkIn.title')}</h3>
                       <p className="text-sm text-muted-foreground">
                         {t('practical.checkIn.time')}
                       </p>
@@ -496,7 +496,7 @@ const Contact = () => {
                   <CardContent className="p-4 flex items-start space-x-3">
                     <Clock className="h-5 w-5 text-primary mt-0.5" />
                     <div>
-                      <h4 className="font-medium">{t('practical.checkOut.title')}</h4>
+                      <h3 className="font-medium">{t('practical.checkOut.title')}</h3>
                       <p className="text-sm text-muted-foreground">
                         {t('practical.checkOut.time')}
                       </p>
@@ -509,7 +509,7 @@ const Contact = () => {
                 <CardContent className="p-4 flex items-start space-x-3">
                   <MapPin className="h-5 w-5 text-primary mt-0.5" />
                   <div>
-                    <h4 className="font-medium">{t('practical.location.title')}</h4>
+                    <h3 className="font-medium">{t('practical.location.title')}</h3>
                     <a 
                       href="https://www.google.com/maps/search/?api=1&query=Rue+de+la+Ferme+3,+5575+Malvoisin,+Belgium"
                       target="_blank"
@@ -529,7 +529,7 @@ const Contact = () => {
                 <CardContent className="p-4">
                   <div className="flex items-start space-x-3 mb-3">
                     <Car className="h-5 w-5 text-primary mt-0.5" />
-                    <h4 className="font-medium">{t('practical.distances.title')}</h4>
+                    <h3 className="font-medium">{t('practical.distances.title')}</h3>
                   </div>
                   <ul className="grid grid-cols-2 gap-x-6 gap-y-2 text-sm text-muted-foreground">
                     {[
@@ -573,7 +573,7 @@ const Contact = () => {
                   <CardContent className="p-4 flex items-start space-x-3">
                     <Bus className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
                     <div>
-                      <h4 className="font-medium">{t('practical.accessibility.bus.title')}</h4>
+                      <h3 className="font-medium">{t('practical.accessibility.bus.title')}</h3>
                       <p className="text-sm text-muted-foreground mb-2">
                         {t('practical.accessibility.bus.text')}
                       </p>
@@ -593,7 +593,7 @@ const Contact = () => {
                   <CardContent className="p-4 flex items-start space-x-3">
                     <TrainFront className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
                     <div>
-                      <h4 className="font-medium">{t('practical.accessibility.train.title')}</h4>
+                      <h3 className="font-medium">{t('practical.accessibility.train.title')}</h3>
                       <p className="text-sm text-muted-foreground mb-2">
                         {t('practical.accessibility.train.text')}
                       </p>

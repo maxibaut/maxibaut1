@@ -163,7 +163,7 @@ const EarlyArrival = () => {
                         <div className="space-y-3">
                           {destination.highlights.map((highlight, hIndex) => (
                             <div key={hIndex} className="pl-4 border-l-2 border-primary/30">
-                              <h4 className="font-medium text-foreground text-sm">{highlight.name}</h4>
+                              <h3 className="font-medium text-foreground text-sm">{highlight.name}</h3>
                               <p className="text-muted-foreground text-sm">{highlight.description}</p>
                             </div>
                           ))}

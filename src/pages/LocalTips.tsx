@@ -88,7 +88,7 @@ const LocalTips = () => {
     <div key={index} className="py-3 first:pt-0 last:pb-0">
       <div className="flex flex-col sm:flex-row sm:items-start gap-2">
         <div className="flex-1">
-          <h4 className="font-medium text-foreground">{item.name}</h4>
+          <p className="font-medium text-foreground">{item.name}</p>
           {item.address && (
             <div className="flex items-center gap-2 text-sm text-muted-foreground mt-1">
               <MapPin className="h-3.5 w-3.5 flex-shrink-0" />
