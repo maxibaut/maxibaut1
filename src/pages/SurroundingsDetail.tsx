@@ -79,13 +79,39 @@ const SurroundingsDetail = () => {
   const openingHours = t(`items.${category}.${slug}.openingHours`, { defaultValue: '' });
   const askUponArrival = t(`items.${category}.${slug}.askUponArrival`, { defaultValue: t('askUs') });
 
-  // Per-subpage SEO
-  const seoTitle = t(`items.${category}.${slug}.seo.title`, { defaultValue: '' });
-  useSEO(seoTitle ? {
-    titleKey: `items.${category}.${slug}.seo.title`,
-    descriptionKey: `items.${category}.${slug}.seo.description`,
-    namespace: 'surroundings',
-  } : undefined);
+  // Per-subpage SEO — dynamically built from item name + description
+  // Truncate title to fit within 60 chars total (including " — ArdenNest" = 13 chars)
+  const maxNameLen = 47; // 60 - 13
+  const truncatedTitle = title.length > maxNameLen ? title.slice(0, maxNameLen - 1).trimEnd() + '…' : title;
+  const seoTitleStr = `${truncatedTitle} — ArdenNest`;
+  
+  // Build a unique description from the item's translated description, or construct one
+  const categoryLabel = t(`${category}.title`, { defaultValue: category });
+  const seoDescStr = description
+    ? (description.length > 155 ? description.slice(0, 152).trimEnd() + '…' : description)
+    : t('seoFallbackDescription', { 
+        name: title, 
+        category: categoryLabel,
+        defaultValue: `${title} — ${categoryLabel} in de buurt van ArdenNest.`
+      });
+
+  // Use useSEO with direct title/description override via useEffect
+  useSEO({ noIndex: false });
+  
+  useEffect(() => {
+    document.title = seoTitleStr;
+    const metaDesc = document.querySelector('meta[name="description"]');
+    if (metaDesc) metaDesc.setAttribute('content', seoDescStr);
+    // Update OG tags
+    const ogTitle = document.querySelector('meta[property="og:title"]');
+    if (ogTitle) ogTitle.setAttribute('content', seoTitleStr);
+    const ogDesc = document.querySelector('meta[property="og:description"]');
+    if (ogDesc) ogDesc.setAttribute('content', seoDescStr);
+    const twTitle = document.querySelector('meta[property="twitter:title"]');
+    if (twTitle) twTitle.setAttribute('content', seoTitleStr);
+    const twDesc = document.querySelector('meta[property="twitter:description"]');
+    if (twDesc) twDesc.setAttribute('content', seoDescStr);
+  }, [seoTitleStr, seoDescStr]);
 
   // JSON-LD structured data for active/exclusive items
   useEffect(() => {
