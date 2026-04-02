@@ -70,7 +70,7 @@ export const Footer = () => {
 
           {/* Quick Links */}
           <div className="space-y-4">
-            <h4 className="font-serif text-lg font-medium">{t('footer.quickLinks')}</h4>
+            <span className="block font-serif text-lg font-medium">{t('footer.quickLinks')}</span>
             <ul className="space-y-3">
               <li>
                 <LocalizedLink to="/property" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">
