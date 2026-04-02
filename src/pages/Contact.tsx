@@ -485,7 +485,7 @@ const Contact = () => {
                   <CardContent className="p-4 flex items-start space-x-3">
                     <Clock className="h-5 w-5 text-primary mt-0.5" />
                     <div>
-                      <h4 className="font-medium">{t('practical.checkIn.title')}</h4>
+                      <h3 className="font-medium">{t('practical.checkIn.title')}</h3>
                       <p className="text-sm text-muted-foreground">
                         {t('practical.checkIn.time')}
                       </p>
