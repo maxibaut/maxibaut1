@@ -509,7 +509,7 @@ const Contact = () => {
                 <CardContent className="p-4 flex items-start space-x-3">
                   <MapPin className="h-5 w-5 text-primary mt-0.5" />
                   <div>
-                    <h4 className="font-medium">{t('practical.location.title')}</h4>
+                    <h3 className="font-medium">{t('practical.location.title')}</h3>
                     <a 
                       href="https://www.google.com/maps/search/?api=1&query=Rue+de+la+Ferme+3,+5575+Malvoisin,+Belgium"
                       target="_blank"
