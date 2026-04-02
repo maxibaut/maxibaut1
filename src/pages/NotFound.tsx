@@ -4,11 +4,13 @@ import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import { Home } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { useSEO } from "@/hooks/useSEO";
 import tunnelImage from "@/assets/404-tunnel.jpg?format=webp";
 
 const NotFound = () => {
   const location = useLocation();
   const { t } = useTranslation('common');
+  useSEO({ titleKey: 'notFound.heading', descriptionKey: 'notFound.title', namespace: 'common', noIndex: true });
 
   useEffect(() => {
     console.error("404 Error: User attempted to access non-existent route:", location.pathname);
