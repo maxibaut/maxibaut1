@@ -1,4 +1,5 @@
 import { PageWrapper } from '@/components/layout';
+import DiscoverNearby from '@/components/surroundings/DiscoverNearby';
 import { useTranslation } from 'react-i18next';
 import { useParams, Navigate } from 'react-router-dom';
 import { LocalizedLink as Link } from '@/components/LocalizedLink';
