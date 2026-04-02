@@ -124,7 +124,7 @@ export const Footer = () => {
 
           {/* Documents & Practical Info */}
           <div className="space-y-4">
-            <h4 className="font-serif text-lg font-medium">{t('footer.documentsInfo')}</h4>
+            <span className="block font-serif text-lg font-medium">{t('footer.documentsInfo')}</span>
             <ul className="space-y-3">
               <li>
                 <LocalizedLink to="/house-rules" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">

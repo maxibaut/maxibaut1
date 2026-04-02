@@ -593,7 +593,7 @@ const Contact = () => {
                   <CardContent className="p-4 flex items-start space-x-3">
                     <TrainFront className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
                     <div>
-                      <h4 className="font-medium">{t('practical.accessibility.train.title')}</h4>
+                      <h3 className="font-medium">{t('practical.accessibility.train.title')}</h3>
                       <p className="text-sm text-muted-foreground mb-2">
                         {t('practical.accessibility.train.text')}
                       </p>
