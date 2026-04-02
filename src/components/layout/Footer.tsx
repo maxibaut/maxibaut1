@@ -166,10 +166,18 @@ export const Footer = () => {
         </div>
 
         {/* Bottom Bar */}
-        <div className="mt-12 pt-8 border-t border-primary-foreground/20">
+        <div className="mt-12 pt-8 border-t border-primary-foreground/20 space-y-3">
           <p className="text-sm text-primary-foreground/80 text-center">
             {t('footer.copyright')}
           </p>
+          <nav aria-label="Taalversies" className="text-center text-sm text-primary-foreground/60">
+            <span>{t('footer.alsoAvailableIn')} </span>
+            <a href="/fr" className="hover:text-primary-foreground transition-colors">FR</a>
+            <span className="mx-1.5">·</span>
+            <a href="/en" className="hover:text-primary-foreground transition-colors">EN</a>
+            <span className="mx-1.5">·</span>
+            <a href="/de" className="hover:text-primary-foreground transition-colors">DE</a>
+          </nav>
         </div>
       </div>
     </footer>
