@@ -10,6 +10,7 @@ import tunnelImage from "@/assets/404-tunnel.jpg?format=webp";
 const NotFound = () => {
   const location = useLocation();
   const { t } = useTranslation('common');
+  useSEO({ titleKey: 'notFound.heading', descriptionKey: 'notFound.title', namespace: 'common', noIndex: true });
 
   useEffect(() => {
     console.error("404 Error: User attempted to access non-existent route:", location.pathname);
