@@ -708,6 +708,9 @@ const SurroundingsDetail = () => {
         </div>
       </section>
 
+      {/* Discover Nearby */}
+      <DiscoverNearby currentCategory={category as SurroundingsCategory} currentSlug={slug || ''} />
+
       {/* Back Link */}
       <section className="section-padding bg-cream-dark">
         <div className="container-luxury text-center">
