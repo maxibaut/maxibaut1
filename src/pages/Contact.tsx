@@ -529,7 +529,7 @@ const Contact = () => {
                 <CardContent className="p-4">
                   <div className="flex items-start space-x-3 mb-3">
                     <Car className="h-5 w-5 text-primary mt-0.5" />
-                    <h4 className="font-medium">{t('practical.distances.title')}</h4>
+                    <h3 className="font-medium">{t('practical.distances.title')}</h3>
                   </div>
                   <ul className="grid grid-cols-2 gap-x-6 gap-y-2 text-sm text-muted-foreground">
                     {[
