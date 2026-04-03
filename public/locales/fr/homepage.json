@@ -180,5 +180,14 @@
         "description": "Christophe accueille chaque groupe personnellement"
       }
     }
+  },
+  "audience": {
+    "heading": "Pour qui est ArdenNest ?",
+    "intro": "ArdenNest ne convient pas à tous les groupes — et c'est un choix délibéré.",
+    "bullet1": "Familles multigénérationnelles — grands-parents, parents et enfants sous un même toit, chacun avec sa propre chambre ensuite",
+    "bullet2": "Groupes d'amis qui préfèrent la qualité du temps ensemble — longues soirées autour de la table, pas de fête bruyante",
+    "bullet3": "L'organisateur·trice qui veut se simplifier la vie — tout est prévu, de la cuisine professionnelle au linge de lit",
+    "bullet4": "Groupes de 15 à 26 personnes cherchant de l'espace sans se perdre de vue",
+    "closing": "Vous cherchez un lieu de fête ou un parc de vacances actif ? Nous ne sommes pas le bon choix. Vous cherchez un endroit où chacun se retrouve et profite vraiment d'être ensemble ? Alors nous vous accueillons avec plaisir."
   }
 }
