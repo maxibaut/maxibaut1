@@ -26,7 +26,7 @@ const NotFound = () => {
           backgroundPosition: 'center 60%'
         }}
         role="img"
-        aria-label={t('notFound.tunnelImageAlt', 'Tunnel de Sart-Custinne - historische spoorwegtunnel omgebouwd tot fietspad RAVeL')}
+        aria-label={t('notFound.tunnelImageAlt', 'Verlaten spoortunnel bij Bohan-sur-Semois nabij ArdenNest')}
       >
         <div className="absolute inset-0 bg-black/40" />
       </div>

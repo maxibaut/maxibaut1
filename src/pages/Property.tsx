@@ -67,51 +67,51 @@ const Property = () => {
       }
     };
     // Hero
-    addUnique(propertyHero, t('hero.imageAlt', 'Voorgevel van de gerenoveerde Ardense hoeve'));
+    addUnique(propertyHero, t('hero.imageAlt', 'Voorgevel van de historische hoeve ArdenNest'));
     // Kitchen section
-    addUnique(kitchen, t('kitchen.imageAlt', 'Professionele keuken met Lacanche fornuis'));
-    addUnique(mieleDishwasher, 'Miele professionele vaatwasser');
-    addUnique(diningRoom, 'Eetkamer');
-    addUnique(terraceDining, 'Terras met eethoek');
-    addUnique(playBarn, 'Speelstal');
+    addUnique(kitchen, t('kitchen.imageAlt', 'Professionele Lacanche keuken met gastronorm oven bij ArdenNest'));
+    addUnique(mieleDishwasher, 'Miele Professional vaatwasser in de keuken van ArdenNest');
+    addUnique(diningRoom, 'Overzicht van de eetzaal met eiken tafel voor 26 bij ArdenNest');
+    addUnique(terraceDining, 'Buitenterras met eethoek in de tuin van ArdenNest');
+    addUnique(playBarn, 'De speelstal met skelters en speelgoed bij ArdenNest');
     // Oak Table section
-    addUnique(oakTableDetail, t('oakTable.imageAlt', 'Handgemaakte eiken tafel van 6 meter'));
-    addUnique(diningTableSet, 'Gedekte eiken tafel met zicht op tuin');
-    addUnique(diningTableWindow, 'Eiken tafel bij het raam');
-    addUnique(diningTableCabinet, 'Eiken tafel met servieskast');
+    addUnique(oakTableDetail, t('oakTable.imageAlt', 'Detail van de massief eiken tafel bij ArdenNest'));
+    addUnique(diningTableSet, 'Gedekte eiken tafel voor 26 personen bij ArdenNest');
+    addUnique(diningTableWindow, 'Uitzicht vanuit de eetzaal op de tuin van ArdenNest');
+    addUnique(diningTableCabinet, 'Detail van de servieskast naast de eiken tafel bij ArdenNest');
     // Bathrooms section
-    addUnique(bathroomEnsuite, 'Ensuite slaapkamer met badkamer');
-    addUnique(bathroomSink, 'Slaapkamer met ensuite badkamer');
-    addUnique(bathroomShower, 'Badkamer met inloopdouche');
-    addUnique(bathroomGlassDoor, 'Badkamer met glazen douchedeur');
-    addUnique(bathroomWalkIn, 'Badkamer met inloopdouche en wastafel');
+    addUnique(bathroomEnsuite, 'Ensuite badkamer met douche bij ArdenNest');
+    addUnique(bathroomSink, 'Wastafel in ensuite badkamer van ArdenNest');
+    addUnique(bathroomShower, 'Inloopdouche in badkamer van ArdenNest');
+    addUnique(bathroomGlassDoor, 'Badkamer met glazen deur bij ArdenNest');
+    addUnique(bathroomWalkIn, 'Ruime inloopdouche met glazen wand bij ArdenNest');
     // Bedrooms section
-    addUnique(bedroomQuietLuxury, 'Luxe slaapkamer');
-    addUnique(bedroomPrimary, 'Hoofdslaapkamer');
-    addUnique(bedroomAtmospheric, 'Sfeervolle slaapkamer');
-    addUnique(bedroomMezzanine, 'Mezzanine slaapkamer');
+    addUnique(bedroomQuietLuxury, 'Slaapkamer met boxspring en De Witte Lietaer beddengoed bij ArdenNest');
+    addUnique(bedroomPrimary, 'Hoofdslaapkamer met ensuite badkamer bij ArdenNest');
+    addUnique(bedroomAtmospheric, 'Sfeervolle slaapkamer met warm licht bij ArdenNest');
+    addUnique(bedroomMezzanine, 'Slaapkamer met mezzanine voor kinderen bij ArdenNest');
     // Living Space section
-    addUnique(livingFireplace, t('livingSpace.imageAlt', 'Sfeervolle woonkamer'));
-    addUnique(livingLounge, 'Ruime lounge met zithoeken');
-    addUnique(livingAperitif, 'Gezellige zithoek met aperitief');
-    addUnique(livingTvCorner, 'TV-hoek met authentieke bakstenen muur');
-    addUnique(livingRetroGaming, 'Retro gaming controllers');
+    addUnique(livingFireplace, t('livingSpace.imageAlt', 'Open haard in de leefruimte van ArdenNest'));
+    addUnique(livingLounge, 'Gezellige loungehoek in de leefruimte van ArdenNest');
+    addUnique(livingAperitif, 'Aperitief bij de open haard in ArdenNest');
+    addUnique(livingTvCorner, 'TV-hoek in de leefruimte van ArdenNest');
+    addUnique(livingRetroGaming, 'Retro gaming hoek in de speelkamer van ArdenNest');
     // Garden section
-    addUnique(gardenAerial, 'Luchtfoto van de tuin');
-    addUnique(gardenSports, 'Sportveld in de tuin');
-    addUnique(bbqTerrace, 'BBQ terras');
-    addUnique(gardenHiddenPath, 'Verborgen pad in de tuin');
-    addUnique(gardenHammock, 'Hangmat in de tuin');
-    addUnique(gardenLandscape, 'Landschap van de tuin');
+    addUnique(gardenAerial, 'Luchtfoto van ArdenNest en de tuin van 2 hectare');
+    addUnique(gardenSports, 'Sportveld met voetbaldoel in de tuin van ArdenNest');
+    addUnique(bbqTerrace, 'Terras met barbecue tussen huis en tuin bij ArdenNest');
+    addUnique(gardenHiddenPath, 'Verborgen pad in de tuin van ArdenNest');
+    addUnique(gardenHammock, 'Hangmat in de schaduw in de tuin van ArdenNest');
+    addUnique(gardenLandscape, 'Glooiend landschap en tuin van 2 hectare bij ArdenNest');
     // Game room section
-    addUnique(gameRoomPool, 'Speelkamer met professionele pooltafel');
-    addUnique(gameRoomFoosball, 'Tafelvoetbal');
+    addUnique(gameRoomPool, 'Professionele pooltafel in de speelkamer van ArdenNest');
+    addUnique(gameRoomFoosball, 'Voetbaltafel in de speelkamer van ArdenNest');
     // Play barn section
-    addUnique(playBarn, 'De Speelstal met go-karts en skelters');
-    addUnique(farmhouseAerial, 'Luchtfoto van de hoeve');
-    addUnique(farmhouseFront, 'Voorgevel van de hoeve');
-    addUnique(farmhouseSide, 'Zijkant van de hoeve');
-    addUnique(farmhouseEntrance, 'Ingang van de hoeve');
+    addUnique(playBarn, 'De speelstal met skelters en speelgoed bij ArdenNest');
+    addUnique(farmhouseAerial, 'Drone-opname van ArdenNest en omgeving in Gedinne');
+    addUnique(farmhouseFront, 'Panorama voorgevel van ArdenNest bij daglicht');
+    addUnique(farmhouseSide, 'Zijgevel van ArdenNest met tuin');
+    addUnique(farmhouseEntrance, 'Ingang van vakantiewoning ArdenNest in Gedinne');
     return photos;
   }, [t]);
 

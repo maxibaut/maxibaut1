@@ -100,7 +100,13 @@
       "treinwandeling-anseremme-gendron": {
         "title": "Zugwanderung Anseremme - Gendron - Anseremme",
         "description": "Unsere liebste Familienwanderung! Nehmen Sie den Zug von Dinant-Anseremme nach Gendron und wandern Sie zurück entlang der wunderschönen Lesse. Geeignet für Kinderwagen und perfekt für einen Tagesausflug.",
-        "highlights": ["Hohe Eisenbahnbrücke", "Strand von Walzin", "Schloss Walzin", "Fluss Lesse", "Blick auf Dinant"],
+        "highlights": [
+          "Hohe Eisenbahnbrücke",
+          "Strand von Walzin",
+          "Schloss Walzin",
+          "Fluss Lesse",
+          "Blick auf Dinant"
+        ],
         "buggyNote": "Kinderwagen 3x heben bei Treppen/Brücken, sonst glatter befestigter Weg",
         "tip": "Zu früh für den Zug? Gehen Sie über die Dinant-Brücke und warten Sie auf einer Bank an der Maas - herrlich bei gutem Wetter!",
         "fullDescription": "Dies ist zweifellos unsere Lieblingswanderung in der Umgebung und perfekt für Familien mit Kindern jeden Alters.\n\n## Wie funktioniert es?\n\nSie nehmen den Zug am Bahnhof Dinant-Anseremme (nicht am Hauptbahnhof!) Richtung Bertrix. Nach nur 5 Minuten steigen Sie in Gendron aus. Der Wochenendtarif beträgt nur 2,50 € pro Person - ein Schnäppchen!\n\nVom Bahnhof Gendron wandern Sie zurück nach Dinant, immer entlang der Lesse. Die Strecke ist etwa 8 km lang und dauert ca. 3 Stunden, einschließlich Pausen.\n\n## Höhepunkte unterwegs\n\nDie Wanderung bietet wunderschöne Abwechslung:\n\n- **Die hohe Eisenbahnbrücke** - Auf halber Strecke überqueren Sie zweimal eine beeindruckende alte Eisenbahnbrücke, hoch über der Lesse. Vollkommen sicher mit Geländern, aber spektakulär!\n- **Strand von Walzin** - Ein herrlicher Ort zum Pausieren. Bei warmem Wetter können die Kinder im Wasser planschen. Ideal für ein Picknick.\n- **Schloss Walzin** - Das märchenhafte Schloss auf den Felsen ist einer der schönsten Ausblicke der Wanderung.\n- **Fußgängerbrücke** - Kurz vor Dinant überqueren Sie eine schmale Fußgängerbrücke.\n\n## Mit Kinderwagen?\n\nDiese Wanderung ist größtenteils kinderwagenfreundlich! Der Weg ist befestigt und flach. Nur an den zwei Eisenbahnbrücken und der Fußgängerbrücke müssen Sie den Kinderwagen kurz heben (jeweils ein paar Stufen). Kein Klettern oder Kraxeln.\n\n## Ankunft in Dinant\n\nSie kommen an der Maas an mit einem wunderschönen Blick auf die Zitadelle und die Kathedrale von Dinant. Gehen Sie noch zum Supermarkt für ein wohlverdientes Eis!",
@@ -115,12 +121,29 @@
           "Überqueren Sie die Fußgängerbrücke",
           "Ankunft an der Maas in Dinant"
         ],
-        "trainBookingButton": "Zug Buchen"
+        "trainBookingButton": "Zug Buchen",
+        "imageAlts": [
+          "Kasteel Walzin hoog boven de Lesse op de wandeling Anseremme-Gendron",
+          "Uitzicht vanaf brug op zandstrand en Kasteel Walzin aan de Lesse",
+          "Wandelaars op brug over de Lesse met uitzicht op beboste heuvels",
+          "Rotsformaties langs het wandelpad aan de Lesse bij Gendron",
+          "Ingang van een natuurlijke grot langs de Lesse op het wandelpad",
+          "Wandelaar bekijkt kaart bij bord La Lesse met uitzicht op de rivier",
+          "Wandelaars bij een wegwijzer op het wandelpad Anseremme-Gendron",
+          "Wandelkaart op brugrand met bord La Lesse en uitzicht op de rivier",
+          "Topografische routekaart van de treinwandeling Anseremme-Gendron"
+        ]
       },
-"treinwandeling-houyet-gendron": {
+      "treinwandeling-houyet-gendron": {
         "title": "Zugwanderung Houyet - Gendron - Houyet",
         "description": "Abenteuerliche Wanderung mit Klettern und Kraxeln durch den Wald. Folgen Sie dem GR126 entlang beeindruckender Felsformationen und steiler Abstiege zur Lesse.",
-        "highlights": ["Felsformationen", "Steile Abstiege", "Fluss Lesse", "GR126 Wanderweg", "Panoramablicke"],
+        "highlights": [
+          "Felsformationen",
+          "Steile Abstiege",
+          "Fluss Lesse",
+          "GR126 Wanderweg",
+          "Panoramablicke"
+        ],
         "fullDescription": "Diese Zugwanderung ist für Abenteurer! Vom Bahnhof Houyet folgen Sie dem GR126 durch abwechslungsreiches Gelände mit Kletterpassagen, steilen Abstiegen und spektakulären Felsformationen.\n\n## Wie funktioniert es?\n\nSie nehmen den Zug am Bahnhof Gendron Richtung Bertrix und steigen in Houyet aus. Vom Bahnhof Houyet wandern Sie zurück nach Gendron über den GR126 - den Fernwanderweg, der durch die Ardennen führt.\n\n## Charakter der Wanderung\n\nDiese Wanderung ist **nicht für Kinderwagen geeignet** und erfordert festes Schuhwerk. Die Route beinhaltet:\n\n- **Steile Treppen** mit Handläufen durch den Wald\n- **Kletterpassagen** über Felsformationen\n- **Steile Abstiege** bei denen Sie manchmal die Hände benutzen müssen\n- **Schmale Waldpfade** mit Wurzeln und Steinen\n\n## Höhepunkte unterwegs\n\n- **Felsformationen** - Beeindruckende Kalksteinfelsen zum Klettern\n- **Panoramablicke** - Wunderschöne Aussichten über das Lesse-Tal\n- **Abwechslungsreicher Wald** - Von dichten Buchenwäldern bis zu offenen Wiesen\n- **Die Lesse** - Der letzte Teil verläuft entlang des schönen Flusses\n\n## Praktisches\n\nTragen Sie feste Schuhe mit gutem Grip. Bei nassem Wetter können einige Abschnitte rutschig sein. Nehmen Sie genug Wasser mit - es gibt keine Einrichtungen unterwegs.\n\n## Ziel in Gendron\n\nDie Wanderung endet am Bahnhof Gendron. Von hier können Sie zu ArdenNest zurücklaufen oder den Zug zurück nach Dinant nehmen für ein Getränk auf einer Terrasse.",
         "routeSteps": [
           "Nehmen Sie den Zug von Gendron nach Houyet",
@@ -132,12 +155,33 @@
           "Folgen Sie dem Fluss Richtung Gendron",
           "Ankunft am Bahnhof Gendron"
         ],
-        "trainBookingButton": "Zug Buchen"
+        "trainBookingButton": "Zug Buchen",
+        "imageAlts": [
+          "Wandelaars steken smalle houten plankbrug over beekje in het bos",
+          "Wandelaar wacht op perron van station Houyet onder siersmeedijzeren overkapping",
+          "Twee wandelaars op bospad onder breed loofbomendak richting open weide",
+          "Houten brug over de Lesse met uitzicht op beboste heuvel",
+          "Wandelaars steken smalle houten plankbrug over beekje in schaduwrijk bos",
+          "Jongen klimt over grote natuurstenen rotsblokken langs het wandelpad",
+          "Wandelaar beklimt steile houten trap met metalen leuning in het bos",
+          "Wandelaar gooit steentjes in de Lesse vanaf kiezelstrand omringd door heuvels",
+          "Stilstaand water met weerspiegeling van bomen en groen in de Lesse",
+          "Groepje wandelaars op schaduwrijk bospad met metalen leuning langs de Lesse",
+          "Wandelaar wacht op perron van station Houyet",
+          "Wandelaar met rugzak op smal graspad tussen weelderig groen",
+          "Glazen en Dinant-toeristenkaart op terrastafeltje na de wandeling"
+        ]
       },
       "wandeling-rond-malvoisin": {
         "title": "Wanderung um Malvoisin",
         "description": "Ruhige Dorfwanderung vom Ferienhaus aus mit Panoramablicken über die Ardennen. Kein Auto nötig.",
-        "highlights": ["Vor der Haustür", "Panorama", "Wiesen", "Dorfkirche", "Kinderwagenfreundlich"],
+        "highlights": [
+          "Vor der Haustür",
+          "Panorama",
+          "Wiesen",
+          "Dorfkirche",
+          "Kinderwagenfreundlich"
+        ],
         "fullDescription": "Schuhe anziehen und an der Haustür starten — diese Wanderung beginnt und endet am Ferienhaus.\n\n## Die Route\n\nEine 5 km Schleife durch den Weiler Malvoisin und die umliegenden Wiesen und Wälder. Sie wandern auf ruhigen Landstraßen mit kaum Verkehr, an Bauernhöfen, Wiesen mit Kühen und durch kleine Waldstücke.\n\n## Höhepunkte\n\n- **Panoramablicke** — Am höchsten Punkt ein weiter Blick über die Hügel der Ardennen. Bei klarem Wetter sieht man bis zur französischen Grenze.\n- **Die Dorfkirche von Malvoisin** — Eine kleine, charmante Kirche inmitten des Weilers.\n- **Wiesen** — Kinder lieben es, die Kühe und Pferde zu entdecken.\n- **Ruhe** — Sie treffen unterwegs kaum jemanden. Die Ardennen in ihrer reinsten Form.\n\n## Mit Kinderwagen?\n\nDie Route verläuft hauptsächlich auf befestigten Landstraßen und ist kinderwagenfreundlich. Keine steilen Anstiege oder schwierigen Passagen.\n\n## Tipp\n\nDiese Wanderung ist ideal als Aufwärmer am ersten Tag oder als ruhiger Abschluss. Eine detaillierte Wanderkarte mit Erklärungen liegt im Haus bereit.",
         "seo": {
           "title": "Wanderung um Malvoisin — Start an der Haustür | ArdenNest",
@@ -147,14 +191,46 @@
       "laddertjeswandeling-rochehaut": {
         "title": "Leiterwanderung Rochehaut",
         "description": "Spektakuläre Wanderung mit Leitern und Ketten entlang der Felswände der Semois. Ein echtes Abenteuer!",
-        "highlights": ["Eisenleitern", "Felswände", "Semois-Tal", "Panorama Frahan", "Route Nr. 43"],
-        "fullDescription": "Die Leiterwanderung von Rochehaut — auch bekannt als 'Promenade des Échelles' — ist eine der spektakulärsten Wanderungen der Ardennen. Sie steigen entlang eiserner Leitern und Ketten ab, die in den Felswänden befestigt sind, mit atemberaubenden Ausblicken über das Semois-Tal und den malerischen Weiler Frahan.\n\n## Die Route\n\nDie Route ist mit roten rechteckigen Schildern mit der **Nummer 43** markiert. Vom Dorf Rochehaut folgen Sie der Rue des Moissons Richtung Chemin des Falloises. Die eigentliche Wanderung beginnt am Warnschild 'parcours dangereux' — nicht weil es gefährlich ist, sondern weil es körperlich anspruchsvoll ist. Gleich danach führt eine steile Treppe aus Baumwurzeln hinab — dann wissen Sie, was Sie erwartet.\n\n## Was macht sie besonders?\n\nDies ist keine gewöhnliche Wanderung. Die Route führt Sie entlang steiler Felswände mit Eisenleitern und Ketten. Die Leitern sind für Erwachsene konzipiert, mit großem Abstand zwischen den Sprossen. Sie klettern, steigen ab und zwängen sich durch Felsspalten — immer belohnt mit atemberaubenden Panoramen.\n\n## Für wen?\n\nDiese Wanderung ist **nicht geeignet für kleine Kinder, Schwangere oder Menschen mit Höhenangst**. Wir empfehlen ein Mindestalter von etwa 10 Jahren — jüngere Kinder können eventuell in einer Rückentrage mitgenommen werden. Das Mitnehmen von Hunden wird dringend abgeraten: Die Leitern sind zu steil, um ein Tier sicher zu tragen.\n\n## Vorbereitung\n\n- **Feste Wanderschuhe mit gutem Grip** sind unerlässlich — Sportschuhe rutschen auf den Felsen\n- Nehmen Sie ein **Erste-Hilfe-Set** mit — die Felsen können scharfkantig sein\n- Bei Regen, Schnee oder Eis wird die Wanderung abgeraten: Leitern und Felsen werden spiegelglatt\n- Nehmen Sie ausreichend Wasser mit\n\n## Parken\n\nDrei kostenlose Parkplätze befinden sich in der Nähe des Startpunkts:\n- An der Kirche **Église Saint-Firmin de Rochehaut**\n- Am **Aussichtspunkt Le Frahan** — mit herrlichem Blick auf die Semois-Schleife\n- In der **Rue de la Sense**\n\n## Die Aussicht\n\nRochehaut ist bekannt für sein atemberaubendes Panorama über das Semois-Tal und den mittelalterlichen Weiler Frahan, der in einer Flussschleife liegt. Das Dorf selbst gehört zu den schönsten der Wallonie und verdient einen Besuch.\n\n## Von ArdenNest\n\nRochehaut liegt etwa 30 Autominuten entfernt. Kombinieren Sie die Wanderung mit einem Mittagessen auf einer Terrasse im Dorf — die Aussicht ist es wert!"
+        "highlights": [
+          "Eisenleitern",
+          "Felswände",
+          "Semois-Tal",
+          "Panorama Frahan",
+          "Route Nr. 43"
+        ],
+        "fullDescription": "Die Leiterwanderung von Rochehaut — auch bekannt als 'Promenade des Échelles' — ist eine der spektakulärsten Wanderungen der Ardennen. Sie steigen entlang eiserner Leitern und Ketten ab, die in den Felswänden befestigt sind, mit atemberaubenden Ausblicken über das Semois-Tal und den malerischen Weiler Frahan.\n\n## Die Route\n\nDie Route ist mit roten rechteckigen Schildern mit der **Nummer 43** markiert. Vom Dorf Rochehaut folgen Sie der Rue des Moissons Richtung Chemin des Falloises. Die eigentliche Wanderung beginnt am Warnschild 'parcours dangereux' — nicht weil es gefährlich ist, sondern weil es körperlich anspruchsvoll ist. Gleich danach führt eine steile Treppe aus Baumwurzeln hinab — dann wissen Sie, was Sie erwartet.\n\n## Was macht sie besonders?\n\nDies ist keine gewöhnliche Wanderung. Die Route führt Sie entlang steiler Felswände mit Eisenleitern und Ketten. Die Leitern sind für Erwachsene konzipiert, mit großem Abstand zwischen den Sprossen. Sie klettern, steigen ab und zwängen sich durch Felsspalten — immer belohnt mit atemberaubenden Panoramen.\n\n## Für wen?\n\nDiese Wanderung ist **nicht geeignet für kleine Kinder, Schwangere oder Menschen mit Höhenangst**. Wir empfehlen ein Mindestalter von etwa 10 Jahren — jüngere Kinder können eventuell in einer Rückentrage mitgenommen werden. Das Mitnehmen von Hunden wird dringend abgeraten: Die Leitern sind zu steil, um ein Tier sicher zu tragen.\n\n## Vorbereitung\n\n- **Feste Wanderschuhe mit gutem Grip** sind unerlässlich — Sportschuhe rutschen auf den Felsen\n- Nehmen Sie ein **Erste-Hilfe-Set** mit — die Felsen können scharfkantig sein\n- Bei Regen, Schnee oder Eis wird die Wanderung abgeraten: Leitern und Felsen werden spiegelglatt\n- Nehmen Sie ausreichend Wasser mit\n\n## Parken\n\nDrei kostenlose Parkplätze befinden sich in der Nähe des Startpunkts:\n- An der Kirche **Église Saint-Firmin de Rochehaut**\n- Am **Aussichtspunkt Le Frahan** — mit herrlichem Blick auf die Semois-Schleife\n- In der **Rue de la Sense**\n\n## Die Aussicht\n\nRochehaut ist bekannt für sein atemberaubendes Panorama über das Semois-Tal und den mittelalterlichen Weiler Frahan, der in einer Flussschleife liegt. Das Dorf selbst gehört zu den schönsten der Wallonie und verdient einen Besuch.\n\n## Von ArdenNest\n\nRochehaut liegt etwa 30 Autominuten entfernt. Kombinieren Sie die Wanderung mit einem Mittagessen auf einer Terrasse im Dorf — die Aussicht ist es wert!",
+        "imageAlts": [
+          "Groep vrouwen wandelt door mosrijk bos, één maakt foto met camera",
+          "Groep wandelaars poseert lachend tussen boomstammen op steile helling",
+          "Kinderen dalen af door herfstbos richting rivier de Semois",
+          "Gezin met kinderen speelt aan de oever van de Semois",
+          "Groep wandelaars loopt langs de oever van de Semois",
+          "Wandelaars beklimmen steil bospad met boomwortels en rotsen",
+          "Twee wandelaars klimmen metalen ladder tegen rotswand op",
+          "Wandelaars op smal bospad met houten leuning langs helling",
+          "Vader en kind wandelen over bladertapijt tussen hoge beukenbomen",
+          "Kinderen klimmen metalen ladder af, gezien van bovenaf door kooi"
+        ]
       },
       "caprando-wandelgids": {
         "title": "CapRando — Wanderführer auf Maß",
         "description": "Ein zertifizierter Wanderführer, der zu Ihnen kommt. Perfekt für Unternehmen und Familien, die eine geführte Wanderung mit einem erfahrenen Guide wünschen, der Niederländisch und Französisch spricht.",
-        "highlights": ["Zertifizierter Guide", "Niederländisch & Französisch", "Abfahrt vom Ferienhaus", "Maßgeschneidert für Ihre Gruppe", "Semois, Lesse & Ardennen"],
-        "fullDescription": "CapRando ist ein zertifizierter Wanderführer, der Sie auf Entdeckungstour durch die schönsten Landschaften der Ardennen mitnimmt. Ideal für Unternehmen, Familien oder Freundesgruppen, die gemeinsam eine geführte Wanderung unternehmen möchten.\n\n## Wie funktioniert es?\n\nDer Guide trifft sich immer am Ferienhaus, um Sie abzuholen. Kein Stress mit Treffpunkten auf Parkplätzen oder der Suche nach dem Startpunkt — er kommt einfach zu Ihnen.\n\n## Maßgeschneidert für Ihre Gruppe\n\nJede Wanderung wird an Ihr Niveau und Ihre Wünsche angepasst. Von einer ruhigen Naturwanderung bis zu einem sportlichen Tagesausflug von 20 km mit Höhenmetern. Der Guide kennt die Region in- und auswendig und plant eine Route, die perfekt zu Ihrer Gruppe passt.\n\n## Was erwartet Sie?\n\nCapRando bietet verschiedene Formate:\n\n- **Randonnées à la carte** — Eine ganztägige Wanderung (±20 km) durch das Semois-Tal, den Geopark Famenne-Ardennen oder den Großen Wald von Saint-Hubert\n- **Naturwanderungen** — Kürzere Wanderungen mit Augenmerk auf Flora, Fauna und Landschaft\n- **Orientierungs-Einführung** — Lernen Sie Kartenlesen und Navigation im Wald\n\n## Der Guide\n\nDer Guide ist ein zertifizierter Wanderbegleiter, der sowohl Niederländisch als auch Französisch spricht. Er kennt die Region wie seine Westentasche und teilt gerne seine Leidenschaft für die Ardenner Natur.\n\n## Preise\n\nTagespauschal: 120€ für bis zu 8 Teilnehmer (+10€/Person extra). Morgenkaffee inklusive. Minimum 4 Teilnehmer, Maximum 16 für den Komfort aller.\n\n## Von ArdenNest\n\nDer Guide kommt direkt zum Ferienhaus. Kontaktieren Sie ihn rechtzeitig, um ein Datum festzulegen."
+        "highlights": [
+          "Zertifizierter Guide",
+          "Niederländisch & Französisch",
+          "Abfahrt vom Ferienhaus",
+          "Maßgeschneidert für Ihre Gruppe",
+          "Semois, Lesse & Ardennen"
+        ],
+        "fullDescription": "CapRando ist ein zertifizierter Wanderführer, der Sie auf Entdeckungstour durch die schönsten Landschaften der Ardennen mitnimmt. Ideal für Unternehmen, Familien oder Freundesgruppen, die gemeinsam eine geführte Wanderung unternehmen möchten.\n\n## Wie funktioniert es?\n\nDer Guide trifft sich immer am Ferienhaus, um Sie abzuholen. Kein Stress mit Treffpunkten auf Parkplätzen oder der Suche nach dem Startpunkt — er kommt einfach zu Ihnen.\n\n## Maßgeschneidert für Ihre Gruppe\n\nJede Wanderung wird an Ihr Niveau und Ihre Wünsche angepasst. Von einer ruhigen Naturwanderung bis zu einem sportlichen Tagesausflug von 20 km mit Höhenmetern. Der Guide kennt die Region in- und auswendig und plant eine Route, die perfekt zu Ihrer Gruppe passt.\n\n## Was erwartet Sie?\n\nCapRando bietet verschiedene Formate:\n\n- **Randonnées à la carte** — Eine ganztägige Wanderung (±20 km) durch das Semois-Tal, den Geopark Famenne-Ardennen oder den Großen Wald von Saint-Hubert\n- **Naturwanderungen** — Kürzere Wanderungen mit Augenmerk auf Flora, Fauna und Landschaft\n- **Orientierungs-Einführung** — Lernen Sie Kartenlesen und Navigation im Wald\n\n## Der Guide\n\nDer Guide ist ein zertifizierter Wanderbegleiter, der sowohl Niederländisch als auch Französisch spricht. Er kennt die Region wie seine Westentasche und teilt gerne seine Leidenschaft für die Ardenner Natur.\n\n## Preise\n\nTagespauschal: 120€ für bis zu 8 Teilnehmer (+10€/Person extra). Morgenkaffee inklusive. Minimum 4 Teilnehmer, Maximum 16 für den Komfort aller.\n\n## Von ArdenNest\n\nDer Guide kommt direkt zum Ferienhaus. Kontaktieren Sie ihn rechtzeitig, um ein Datum festzulegen.",
+        "imageAlts": [
+          "Groep wandelaars pauzeert op houten brug over beek in groen bos",
+          "Gids geeft uitleg aan groep wandelaars op bospad",
+          "Panoramisch uitzicht op Semois-meander en dorpje in mistig winterlandschap",
+          "Hond staat bij kleine waterval in rotsachtige bosbeek",
+          "Zonsondergang over Ardens heuvellandschap met rotsen op voorgrond",
+          "Vier wandelaars bestuderen samen een wandelkaart in open veld"
+        ]
       }
     },
     "cycling": {
@@ -189,28 +265,46 @@
       "dinant-evasion": {
         "title": "Dinant Evasion — Abenteuerpark",
         "description": "Spektakulärer Abenteuerpark in einem alten Steinbruch über der Maas. Verschiedene Parcours, Seilrutschen und Kletterwände.",
-        "highlights": ["Ganzjährig geöffnet", "Jugendliche"],
+        "highlights": [
+          "Ganzjährig geöffnet",
+          "Jugendliche"
+        ],
         "fullDescription": "Dinant Evasion ist ein Abenteuerpark in einem alten Steinbruch hoch über der Maas, direkt vor Dinant. Es ist kein gewöhnlicher Kletterwald — die Kulisse in den rauen Felswänden macht es spektakulärer als jeden anderen Park in der Region.\n\n## Was Sie tun können\n\n- 4 Seilrutschen, bei denen Sie bis zu 60 Meter über dem Steinbruch fliegen\n- Verschiedene Herausforderungen: Ardennen Challenge (ab 10 J.), Alpen Challenge (ab 12 J.), Mont-Blanc Challenge (ab 10 J.)\n- XL Swing, Funkabel und Kletterwände\n- Paintball und Stadtspiel in Dinant\n\n## Warum wir es empfehlen\n\nDer Park ist das ganze Jahr geöffnet — auch außerhalb der Saison. Perfekt für Jugendliche, die Adrenalin brauchen. Reservierung empfohlen.\n\n## Von ArdenNest\n\n30 Minuten Fahrt. Über Dinant, Richtung Zitadelle. Der Park liegt hoch über der Stadt in einem alten Steinbruch — schon die Fahrt dorthin ist ein Erlebnis.",
         "openingHours": "Ganzjährig — prüfen Sie die Website für genaue Zeiten",
         "seo": {
           "title": "Dinant Evasion — Abenteuerpark | ArdenNest",
           "description": "Spektakulärer Abenteuerpark in einem alten Steinbruch über der Maas. Seilrutschen, Kletterwände und Herausforderungen für Jugendliche. 30 Min. von ArdenNest."
-        }
+        },
+        "imageAlts": [
+          "Groep kajakkers peddelt door smaragdgroene vallei bij Dinant",
+          "Luchtfoto van kajaks op kalm water tussen groene oevers"
+        ]
       },
       "bomenparcours-han": {
         "title": "Baumwipfelparcours — Grotten von Han",
         "description": "Einzigartiger Baumwipfelparcours im Wildpark von Han. Kombination aus Naturerlebnis und körperlicher Herausforderung.",
-        "highlights": ["Alle Altersgruppen", "Mit Wildpark kombinieren"],
+        "highlights": [
+          "Alle Altersgruppen",
+          "Mit Wildpark kombinieren"
+        ],
         "fullDescription": "Tree Experience ist der brandneue Baumwipfelparcours im Wildpark von Han-sur-Lesse. Kein Standard-Kletterwald, sondern ein durchdachter Parcours durch die Baumkronen mit 5 verschiedenen Niveaus.\n\n## Was Sie tun können\n\n- Parcours Everjong & Wolfje: einfach, für Kinder ab 4 Jahren (max 150 cm)\n- Parcours Beertje: etwas höher, auf 2 Metern, ab 120 cm mit Begleitung\n- Parcours Uil & Vleermuis: 10 Meter hoch, für echte Abenteurer (ab 10 Jahren, min 130 cm) mit 140-Meter-Seilrutschen\n- Kletterwand (ab 4 Jahren) und freier Fall (min 130 cm)\n\n## Warum wir es empfehlen\n\nKombinieren Sie den Baumwipfelparcours mit einem Besuch im Wildpark oder den berühmten Grotten von Han. Ein Ticket, ein ganzer Tag Spaß. Geschätzte Dauer Baumwipfelparcours: 1,5 Stunden. Planen Sie 11:30 Uhr für den besten Komfort.\n\n## Praktische Tipps\n\nLange Haare zusammenbinden, keine offenen Schuhe, Handschuhe empfohlen, max 120kg. Kinder unter 12 Jahren in Begleitung eines Erwachsenen.\n\n## Von ArdenNest\n\n20 Minuten Fahrt Richtung Rochefort. Kombinieren Sie mit den Grotten von Han für einen vollen Tag.",
         "seo": {
           "title": "Baumwipfelparcours Tree Experience — Grotten von Han | ArdenNest",
           "description": "5 Parcours durch die Baumkronen im Wildpark von Han. 140m Seilrutschen, Kletterwand und freier Fall. Ab 4 Jahren. 20 Min. von ArdenNest."
-        }
+        },
+        "imageAlts": [
+          "Meisje met helm en harnas op zipline in groen klimbos",
+          "Kind met helm balanceert op houten hangbrug in klimparcours",
+          "Kind met helm slingert lachend aan zipline tussen de bomen"
+        ]
       },
       "terraltitude-fumay": {
         "title": "Terraltitude — Fantasticable",
         "description": "Direkt hinter der französischen Grenze: eine Seilrutsche mit 100 km/h über die Maas. Purer Adrenalinkick.",
-        "highlights": ["Adrenalin", "Saisonabhängig"],
+        "highlights": [
+          "Adrenalin",
+          "Saisonabhängig"
+        ],
         "fullDescription": "Direkt hinter der französischen Grenze, in Fumay, liegt Terraltitude — der Abenteuerpark der Ardennen. Der absolute Hingucker: die Fantasticable, eine 1,2 km lange Seilrutsche, bei der Sie mit über 100 km/h über die Maas fliegen. Nichts für Angsthasen.\n\n## Was Sie tun können\n\n- **Fantasticable**: 1,2 km Seilrutsche über die Maas mit 100+ km/h\n- **Accrobranche**: Kletterparcours für alle Niveaus mit Hängebrücken, Seilen und Netzen\n- **Catapulte**: mit Gummiseilen 18 Meter in die Luft katapultiert werden — in 2 Sekunden\n- **Tour des Aventuriers**: Sprungturm für noch mehr Nervenkitzel\n- **Bois des Nutons**: Spielzone für Kleine (2-11 Jahre) mit Hütten, Trampolinen, Karts und Barfußpfad\n- Paintball\n\n## Warum wir es empfehlen\n\nDies ist der einzige Park in der Region mit einer Aktivität dieses Kalibers. Die Fantasticable allein ist die Fahrt wert. Und mit dem Bois des Nutons gibt es auch für jüngere Kinder genug zu erleben. Saisonabhängig — meist ab April geöffnet.\n\n## Von ArdenNest\n\n20 Minuten Fahrt, direkt hinter der französischen Grenze bei Fumay. Reisepass oder Personalausweis mitnehmen.",
         "openingHours": "April - November (Kalender auf der Website prüfen)",
         "seo": {
@@ -221,7 +315,9 @@
       "cap-nature-bertrix": {
         "title": "Cap Nature (Bertrix)",
         "description": "Abenteuer-Parcours und Outdoor-Sport am Schiefersteinbruch. Tolle Kombination aus Sport und Natur.",
-        "highlights": ["Ab Ostern"],
+        "highlights": [
+          "Ab Ostern"
+        ],
         "fullDescription": "Cap Nature in Bertrix ist ein Kletterwald direkt neben dem Schiefersteinbruch Au Cœur de l'Ardoise — perfekt zu kombinieren also. Der Park bietet 10 Parcours für alle Altersgruppen und Niveaus, mit insgesamt 500 Metern Seilrutschen über 12 verschiedene Linien und 70 verschiedene Übungen.\n\n## Was Sie tun können\n\n- 10 Abenteuerparcours von einfach bis schwindelerregend\n- Pom-Pom Adventure für die Allerkleinsten\n- Affenbrücke, Tibetanische Brücke, Tarzan-Sprung, akrobatische Netze und Seilrutschen\n- Sicherheit als Priorität: jährliche Kontrolle durch Vinçotte\n\n## Warum wir es empfehlen\n\nDie Kombination mit dem Schiefersteinbruch nebenan macht einen ganzen Tagesausflug daraus. Morgens in die Tiefe, nachmittags in die Höhe. Geöffnet ab den Osterferien.\n\n**Tipp:** Kombinieren Sie mit [Au Cœur de l'Ardoise](/surroundings/active/leisteengroeve-bertrix) für einen vollen Tag in Bertrix.\n\n## Von ArdenNest\n\n25 Minuten Fahrt Richtung Bertrix.",
         "openingHours": "Ab den Osterferien",
         "seo": {
@@ -232,44 +328,92 @@
       "recrealle": {
         "title": "Récréalle",
         "description": "Komplettes Freizeitgelände an der Semois mit Kajakverleih, Mountainbikes, Minigolf und Indoor-Spielplatz.",
-        "highlights": ["Für jeden etwas"],
+        "highlights": [
+          "Für jeden etwas"
+        ],
         "fullDescription": "Récréalle in Alle-sur-Semois ist das Schweizer Taschenmesser unter den Freizeitgeländen. An einem Ort finden Sie alles: Kajak auf der Semois, Minigolf, Kletterwand, Bowling, Paintball, Hüpfburg, Eislaufbahn, Bogenschießen und sogar eine Badezone am Fluss.\n\n## Was Sie tun können\n\n- Kajak auf der Semois (7-11 km Strecken, €22-€25)\n- 11-Meter-Kletterwand (ab 8 Jahren)\n- Bowling, Minigolf 18 Bahnen, Tischtennis\n- Hüpfburg + Acro Game für Kinder\n- Aqua-Bike, Segway, E-Bike und Mountainbike-Verleih\n- Bazooka Ball, Paintball, Bogenschießen\n- Kostenlose Badezone und Spielplatz\n- Restaurant, Brasserie und BBQ-Möglichkeit\n\n## Warum wir es empfehlen\n\nDas ideale Regentag-Ziel (Bowling, Kletterwand, Snooker indoor) aber auch perfekt bei gutem Wetter (Kajak, Schwimmen, Minigolf). Praktisch bei einer Gruppe mit verschiedenen Altersgruppen — jeder findet hier etwas.\n\n## Von ArdenNest\n\n25 Minuten Fahrt Richtung Vresse-sur-Semois und Alle-sur-Semois.",
         "seo": {
           "title": "Récréalle — Freizeitgelände an der Semois | ArdenNest",
           "description": "Kajak, Kletterwand, Bowling, Minigolf, Schwimmen und mehr an einem Ort an der Semois. Ideal für Familien mit Kindern. 25 Min. von ArdenNest."
-        }
+        },
+        "imageAlts": [
+          "Cartoonbever peddelt in een rode kajak",
+          "Cartoonbever speelt minigolf met putter en bal",
+          "Cartoonbever klimt op een groene klimwand",
+          "Cartoonbever gooit een paarse bowlingbal"
+        ]
       },
       "leisteengroeve-bertrix": {
         "title": "Au Cœur de l'Ardoise — Schiefersteinbruch",
         "description": "Tauchen Sie ein in die Geschichte der Region. Faszinierender Besuch des alten Schiefersteinbruchs tief unter der Erde. Immer 10°C — ideal bei Regenwetter.",
-        "highlights": ["Wetterunabhängig", "Unterirdisch"],
+        "highlights": [
+          "Wetterunabhängig",
+          "Unterirdisch"
+        ],
         "fullDescription": "Au Cœur de l'Ardoise ist ein alter Schiefersteinbruch in Bertrix, wo Sie 25 Meter unter die Erde in die Geschichte der Ardennen hinabsteigen. Die Mine war bis 1976 aktiv, und heute wandern Sie durch riesige Hallen, die mit Sprengstoff aus dem Fels gehauen wurden.\n\n## Was Sie tun können\n\n- Unterirdische Führung von 1 Stunde durch fast 1 km Galerien\n- Audioguide auf NL, FR und sogar Wallonisch (Lautsprecher, keine Kopfhörer, damit Sie mit den Kindern sprechen können)\n- Optional: Führung mit einem echten ehemaligen Bergarbeiter (10 Tage im Voraus reservieren, max 25 Personen)\n- Mine Gourmande: Besuch + 3-Gänge-Menü mit lokalen Produkten (ab 10 Personen)\n- Unterirdische Bierverkostung (Gruppen ab 10 Personen)\n- Kombination mit Cap Nature Kletterwald nebenan (€32/Schüler für einen ganzen Tag)\n\n## Warum wir es empfehlen\n\nWetterunabhängig — es sind immer 10°C unter der Erde. Perfekt bei Regen. Ziehen Sie sich warm an. Kombinieren Sie mit Cap Nature für einen vollen Tag: morgens unter der Erde, nachmittags in den Bäumen.\n\n**Achtung:** Das Gelände wird derzeit renoviert. Besuche, Apéros und Mahlzeiten bleiben möglich. E-Train und E-Scooter vorübergehend nicht verfügbar.\n\n**Tipp:** Kombinieren Sie mit [Cap Nature](/surroundings/active/cap-nature-bertrix) für einen vollen Tag in Bertrix.\n\n## Von ArdenNest\n\n25 Minuten Fahrt Richtung Bertrix.",
         "openingHours": "Wochenenden + Schulferien (außer Montag). Gruppen täglich nach Reservierung.",
         "seo": {
           "title": "Au Cœur de l'Ardoise — Schiefersteinbruch Bertrix | ArdenNest",
           "description": "Steigen Sie 25 Meter in einen alten Schiefersteinbruch hinab. Immer 10°C, ideal bei Regen. Audioguide auf NL/FR. Kombinieren Sie mit Kletterwald Cap Nature. 25 Min. von ArdenNest."
-        }
+        },
+        "imageAlts": [
+          "Ingang van de ondergrondse leisteengroeve in Bertrix",
+          "Ondergrondse galerij met verlichte leisteenlagen in de groeve",
+          "Bezoekers bekijken imposante rotsformaties in de verlichte groeve",
+          "Detail van gelaagde leisteen in de ondergrondse groeve"
+        ]
+      },
+      "terraltitude": {
+        "imageAlts": [
+          "Twee personen hangen aan fantasticable boven rivier en vallei",
+          "Groene tunnelbuis en houten platforms hoog tussen de bomen",
+          "Persoon wordt met elastieken catapult de lucht in gelanceerd",
+          "Persoon springt van hoge metalen toren aan veiligheidslijn",
+          "Cartoon-kabouter met everzwijn en hert verwelkomt bezoekers"
+        ]
+      },
+      "cap-nature": {
+        "imageAlts": [
+          "Close-up van hand die karabijnhaak vasthoudt op staalkabel",
+          "Klimmer op hoog touwenparcours tussen groene boomkruinen",
+          "Persoon glijdt aan zipline door groen klimbos",
+          "Kind klimt hoog tussen de boomkruinen op avonturenparcours"
+        ]
       }
     },
     "exclusive": {
       "ardennest-dropping": {
         "title": "Das ArdenNest Dropping",
         "description": "Ein personalisiertes Abenteuer, bei dem Christophe die Route festlegt. Die Eltern setzen die Kinder ab — sie müssen den Weg nach Hause selbst finden. Tages- oder Twilight-Edition (ab 12 J.).",
-        "highlights": ["Exklusiv", "Ab 12 Jahren"],
+        "highlights": [
+          "Exklusiv",
+          "Ab 12 Jahren"
+        ],
         "distance": "Vor der Haustür",
         "fullDescription": "Das ArdenNest Dropping ist eines dieser Erlebnisse, die man nirgendwo buchen kann. Christophe — der Eigentümer — legt eine Route durch die Wälder und Felder rund um Malvoisin fest. Die Eltern setzen die Kinder an einem geheimen Ort ab, und gemeinsam müssen sie den Weg zurück zum Ferienhaus finden.\n\n## Zwei Editionen\n\n- **Tages-Edition**: tagsüber, auf einer schönen Route durch die Umgebung. Geeignet für Kinder ab 12 Jahren.\n- **Twilight-Edition**: in der Dämmerung, für diejenigen, die es spannender mögen. Nur für ab 12 Jahren.\n\n## Wie funktioniert es?\n\nSchreiben Sie Christophe vor Ihrem Aufenthalt eine E-Mail. Er passt die Route an Alter und Teilnehmerzahl an. Karten, Hinweise und eine Notfallnummer werden bereitgestellt.\n\n## Warum wir es empfehlen\n\nWeil es außerhalb von ArdenNest nicht existiert. Keine Tickets, keine Warteschlange, kein kommerzieller Aufwand. Einfach ein maßgeschneidertes Abenteuer in Ihrem eigenen vorübergehenden Garten.",
         "askUponArrival": "Per E-Mail reservieren",
         "seo": {
           "title": "Das ArdenNest Dropping — Exklusiv für Gäste | ArdenNest",
           "description": "Ein maßgeschneidertes Dropping durch die Wälder von Malvoisin. Tages- oder Twilight-Edition. Exklusiv für ArdenNest-Gäste. Ab 12 Jahren."
-        }
+        },
+        "imageAlts": [
+          "Drie jongeren bestuderen samen een kaart in een herfstbos",
+          "Gouden zonnestralen schijnen door boomstammen op een bospad in de schemering",
+          "Twee kleine kinderen lopen over een zandpad tussen groene heuvels"
+        ]
       }
     },
     "attractions": {
       "dinant": {
         "title": "Dinant",
         "description": "Malerische Stadt an der Maas mit Zitadelle, Seilbahn und Stiftskirche. Geburtsort von Adolphe Sax.",
-        "highlights": ["Zitadelle", "Seilbahn", "Adolphe Sax", "Stiftskirche", "Einkaufen"],
+        "highlights": [
+          "Zitadelle",
+          "Seilbahn",
+          "Adolphe Sax",
+          "Stiftskirche",
+          "Einkaufen"
+        ],
         "fullDescription": "Dinant ist die nächste Stadt und bietet einen perfekten Tagesausflug. Die Stadt schmiegt sich zwischen Felswand und Maas — eines der schönsten Stadtbilder Belgiens.\n\n## Was Sie unternehmen können\n\n- **Die Zitadelle** — Per Seilbahn oder über 408 Stufen erreichen Sie die Festung hoch über der Stadt. Panoramablick über das Maas-Tal. Innen ein Museum über die Geschichte von Dinant und beide Weltkriege.\n- **Die Stiftskirche** — Der charakteristische birnenförmige Glockenturm ist das Wahrzeichen von Dinant. Kostenlos zu besichtigen.\n- **Adolphe Sax** — Der Erfinder des Saxophons wurde hier 1814 geboren. Sein Geburtshaus ist ein Museum. Bunte Saxophon-Statuen säumen die Straßen.\n- **Die Maas** — Bootsfahrten nach Anseremme oder Freÿr. Kajakfahren auf der Lesse.\n- **Einkaufen und Essen** — Charmante Einkaufsstraßen, Eisdielen und Brasserien an der Maas.\n\n## Mit Kindern\n\nDie Seilbahn ist ein Erlebnis für sich. Auf der Zitadelle gibt es einen Spielplatz und ein interaktives Museum. Danach ein Eis an der Maas — Kinder sind zufrieden.\n\n## Tipp\n\nKombinieren Sie Dinant mit der Zugwanderung Anseremme-Gendron. Sie wandern entlang der Lesse und enden in Dinant.\n\n## Von ArdenNest\n\n15 Minuten Fahrt. Parken an der Maas (kostenpflichtig) oder kostenlos am Parkplatz der Brücke von Anseremme.",
         "seo": {
           "title": "Dinant — Zitadelle, Seilbahn & Adolphe Sax | ArdenNest",
@@ -279,7 +423,12 @@
       "grotten-van-han": {
         "title": "Grotten von Han",
         "description": "Eine der schönsten Höhlen Europas, kombiniert mit einem 250 Hektar großen Wildpark. Der Tagesausflug in den Ardennen.",
-        "highlights": ["Höhlenbesuch", "Wildpark", "Baumwipfelparcours", "Big 5"],
+        "highlights": [
+          "Höhlenbesuch",
+          "Wildpark",
+          "Baumwipfelparcours",
+          "Big 5"
+        ],
         "fullDescription": "Das Domaine der Grotten von Han ist die bekannteste Sehenswürdigkeit der belgischen Ardennen — und das zu Recht. Sie kombinieren einen spektakulären Höhlenbesuch mit einem 250 Hektar großen Wildpark und dem brandneuen Baumwipfelparcours Tree Experience.\n\n## Die Höhle von Han\n\nEine unterirdische Reise durch geheimnisvolle Galerien, beeindruckende Hallen, Stalaktiten und Stalagmiten und einen unterirdischen Fluss. Die Höhle wurde von der Lesse geformt, die sich ihren Weg durch das Kalksteinmassiv bahnte. Ein Audioguide begleitet Sie — auf Deutsch verfügbar.\n\n## Der Wildpark\n\nDer größte Tierpark Belgiens: 250 Hektar pure Natur. Entdecken Sie die Europäischen Big 5: Braunbär, Wolf, Wisent, Luchs und Vielfraß. Sie fahren mit dem Safaribus durch den Park.\n\n## Tree Experience — Baumwipfelparcours\n\nDer brandneue Parcours bietet 5 Niveaus für alle Altersgruppen. Von einfachen Parcours für Kinder ab 4 Jahren bis zu 140-Meter-Seilrutschen auf 10 Metern Höhe. Dauer: ca. 1,5 Stunden.\n\n## Warum wir es empfehlen\n\nDas ist ein voller Tag Unterhaltung für die ganze Familie. Höhle + Wildpark + Parcours = müde aber glücklich nach Hause. Kaufen Sie Tickets online — spart Wartezeit.\n\n## Von ArdenNest\n\n25 Minuten Fahrt Richtung Rochefort/Han-sur-Lesse.",
         "seo": {
           "title": "Grotten von Han — Höhle, Wildpark & Tree Experience | ArdenNest",
@@ -289,27 +438,51 @@
       "kasteel-bouillon": {
         "title": "Burg Bouillon",
         "description": "Tausendjährige Burg auf drei Felsspitzen über der Semois. Greifvogelschau, Nachtbesuche und Mittelalterfest.",
-        "highlights": ["Greifvogelschau", "Nachtbesuch", "360°-Panorama", "Mittelalterliche Atmosphäre"],
+        "highlights": [
+          "Greifvogelschau",
+          "Nachtbesuch",
+          "360°-Panorama",
+          "Mittelalterliche Atmosphäre"
+        ],
         "fullDescription": "Die Burg Bouillon ist eine der ältesten und beeindruckendsten Burgen Belgiens. Seit über 1000 Jahren thront die Festung auf drei Felsspitzen über der Semois. 135.000 Besucher pro Jahr — und das zu Recht.\n\n## Was Sie unternehmen können\n\n- **Die Burg erkunden** — 340 Meter lang, mit unterirdischen Gängen, dem Tour d'Autriche (360°-Panorama), der Folterkammer, dem Saal Godefroy und dem Zugbrückenmechanismus\n- **Greifvogelschau** — Spektakuläre Falknerei-Vorführung im Innenhof. Adler, Falken und Eulen fliegen knapp über Ihren Kopf\n- **Nachtbesuch** — In den Ferien mit Fackeln. Für Kinder unvergesslich\n- **L'Odyssée de Lumière** — Neue Sound- und Lichtshow durch die Jahrhunderte\n\n## Etwas Geschichte\n\nDie Burg stammt aus der Zeit vor dem Jahr 1000. Ihr berühmtester Bewohner war Gottfried von Bouillon, der 1096 die Burg verkaufte, um den Ersten Kreuzzug zu finanzieren.\n\n## Warum wir es empfehlen\n\nDie Kombination aus Geschichte, Spektakel und atemberaubender Aussicht über das Semois-Tal macht dies zu einem Top-Ausflug. Nehmen Sie sich auch Zeit für einen Bummel durch das Städtchen Bouillon.\n\n## Von ArdenNest\n\n40 Minuten Fahrt Richtung Bouillon. Die Fahrt durch die Ardennen ist an sich schon wunderschön.",
         "seo": {
           "title": "Burg Bouillon — 1000 Jahre Geschichte | ArdenNest",
           "description": "Tausendjährige Burg über der Semois mit Greifvogelschau, Nachtbesuchen und 360°-Panorama. 40 Min. von ArdenNest."
-        }
+        },
+        "imageAlts": [
+          "Kasteel van Bouillon boven de Semois-bocht bij zonsondergang",
+          "Luchtfoto van het kasteel en de stad Bouillon aan de Semois",
+          "Ridder op paard tijdens middeleeuws festival bij kasteel Bouillon",
+          "Verlicht kasteel van Bouillon bij nachtelijk bezoek"
+        ]
       },
       "abdij-maredsous": {
         "title": "Abtei Maredsous",
         "description": "Benediktinerabtei in einem grünen Tal mit berühmtem Käse, Bieren und einer Oase der Ruhe.",
-        "highlights": ["Abteikäse", "Abteibier", "Führung", "Wanderwege"],
+        "highlights": [
+          "Abteikäse",
+          "Abteibier",
+          "Führung",
+          "Wanderwege"
+        ],
         "fullDescription": "Die Abtei Maredsous ist eine lebendige Benediktinerabtei in einem wunderschönen grünen Tal. 1872 gegründet, lebt hier noch heute eine Gemeinschaft von Mönchen im Rhythmus von Gebet, Arbeit und Gastfreundschaft.\n\n## Was Sie unternehmen können\n\n- **Führung** — Geführte Besichtigung der Kirche und der Klosterumgebung, vom Centre d'accueil Saint-Joseph\n- **Abteiprodukte** — Die berühmten Maredsous-Käse und Abteibiere im Laden kaufen\n- **Brasserie** — Genießen Sie ein Maredsous-Bier und ein Käsebrot auf der Terrasse\n- **Wanderwege** — Das Gelände liegt in einem schönen Tal, perfekt für einen Spaziergang\n- **Stille und Besinnung** — Die Abtei bietet auch Aufenthalte für Ruhe- und Besinnungssuchende\n\n## Die Produkte\n\nMaredsous ist bekannt für seine Käse und Abteibiere. Die Mönche sind an den Rezepturen beteiligt. Der Abteiladen verkauft auch Bücher, religiöse Artikel und Honig.\n\n## Warum wir es empfehlen\n\nDie Atmosphäre ist anders als anderswo. Ruhiger, friedlicher, mit aufrichtiger Gastfreundschaft. Perfekt für einen ruhigen Vormittag oder Nachmittag.\n\n## Von ArdenNest\n\n20 Minuten Fahrt Richtung Dinant/Denée.",
         "seo": {
           "title": "Abtei Maredsous — Käse, Bier & Besinnung | ArdenNest",
           "description": "Benediktinerabtei mit berühmtem Käse, Abteibier und Führungen. Wanderwege in einem wunderschönen grünen Tal. 20 Min. von ArdenNest."
-        }
+        },
+        "imageAlts": [
+          "Luchtfoto van de abdij van Maredsous met kloostermuren en groene omgeving",
+          "Kaas en brood op plankje in de brasserie van Maredsous"
+        ]
       },
       "natuurreservaat-furfooz": {
         "title": "Naturschutzgebiet Furfooz",
         "description": "Naturschutzgebiet mit Wanderung entlang Höhlen und römischen Ruinen.",
-        "highlights": ["Natur", "Archäologie", "Panorama"],
+        "highlights": [
+          "Natur",
+          "Archäologie",
+          "Panorama"
+        ],
         "fullDescription": "Ein verstecktes Juwel im Lesse-Tal. Ein ausgeschilderter 4 km Wanderweg führt Sie an Höhlen, Panorama-Aussichtspunkten und gallo-römischen Ruinen vorbei. Verwaltet vom Verein Ardenne & Gaume.\n\n## Was Sie unternehmen können\n\n- Ausgeschilderter 4 km Wanderweg entlang der Lesse\n- Höhlen und prähistorische Unterstände\n- Gallo-römische Ruinen (Thermengebäude)\n- Spektakuläre Aussichtspunkte über das Lesse-Tal\n- Informationstafeln zu Flora, Fauna und Geschichte\n\n## Warum wir es empfehlen\n\nFurfooz vereint Natur, Archäologie und atemberaubende Panoramen in einer einzigen Wanderung. Es ist ruhig, unberührt und fühlt sich wie eine Entdeckung an. Eine Mitgliedschaft bei Ardenne & Gaume gewährt Ihnen freien Eintritt.\n\n## Kombinationstipp\n\nPerfekt zu kombinieren mit der Zugwanderung nach Gendron — Furfooz liegt nur wenige Minuten vom Bahnhof Gendron-Celles entfernt.\n\n## Von ArdenNest\n\n20 Minuten Fahrt Richtung Dinant.",
         "seo": {
           "title": "Naturschutzgebiet Furfooz — Höhlen & Ruinen | ArdenNest",
@@ -319,32 +492,73 @@
       "kasteel-lavaux-sainte-anne": {
         "title": "Burg Lavaux-Sainte-Anne",
         "description": "Mittelalterliche Burg mit Feuchtgebiets-Naturschutzgebiet.",
-        "highlights": ["Burg", "Feuchtgebiete", "Veranstaltungen"],
+        "highlights": [
+          "Burg",
+          "Feuchtgebiete",
+          "Veranstaltungen"
+        ],
         "fullDescription": "Eine der schönsten Burgen Walloniens, als großes Erbe klassifiziert. Durchstreifen Sie 32 Räume vom Keller bis zum Bergfried und entdecken Sie das angrenzende Feuchtgebiets-Naturschutzgebiet.\n\n## Was Sie unternehmen können\n\n- Besichtigung von 32 Räumen in 3 Museen (Burg, Natur, Landleben)\n- Feuchtgebiets-Naturschutzgebiet mit Beobachtungsposten\n- Boutique mit regionalen Produkten\n- Regelmäßige Veranstaltungen: Trödelmärkte, venezianische Kostümshows, mittelalterliches Wochenende\n\n## Ein wenig Geschichte\n\nDie Burg stammt aus dem Jahr 1244, als Jacques de Wellin einen Wachturm entlang der Römerstraße Bavay-Nassogne errichtete. Im 15. Jahrhundert wurde sie zu einer imposanten Festung mit vier Türmen ausgebaut. Heute ist sie eine der besterhaltenen Burgen der Famenne.\n\n## Warum wir es empfehlen\n\nDie Kombination aus Burg und Feuchtgebiets-Naturschutzgebiet macht dies zu einem Ausflug für Jung und Alt. Die Veranstaltungen sind oft ein zusätzlicher Grund für einen Besuch. Prüfen Sie den Kalender!\n\n## Von ArdenNest\n\n25 Minuten Fahrt Richtung Rochefort.",
         "seo": {
           "title": "Burg Lavaux-Sainte-Anne — Mittelalterliche Burg | ArdenNest",
           "description": "Mittelalterliche Burg aus 1244 mit 32 Räumen und Feuchtgebiets-Naturschutzgebiet. Veranstaltungen und Trödelmärkte. 25 Min von ArdenNest."
-        }
+        },
+        "imageAlts": [
+          "Kasteel van Lavaux-Sainte-Anne weerspiegeld in de slotgracht",
+          "Bezoekers tijdens een rondleiding in het kasteel van Lavaux",
+          "Feestelijke verlichting bij een evenement op kasteel Lavaux"
+        ]
       },
       "brasserie-de-la-lesse": {
         "title": "Brasserie de la Lesse",
         "description": "Genossenschaftliche Handwerksbrauerei mit Besichtigung und Verkostung.",
-        "highlights": ["Brauerei", "Verkostung", "Bio"],
+        "highlights": [
+          "Brauerei",
+          "Verkostung",
+          "Bio"
+        ],
         "fullDescription": "Eine Genossenschaftsbrauerei mit über 500 Genossenschaftern. Eine Brauerei, die sich Zeit nimmt, Bier zu brauen, nicht Geld.\n\n## Was Sie unternehmen können\n\n- Führung (±1,5 Std.) mit Verkostung von 4 Bio-Bieren für 12€/Person\n- Führung ohne Verkostung: 7€/Person\n- Bar und Terrasse am Wochenende geöffnet (Sa 10-17 Uhr, So 11-16 Uhr)\n- Bier im Laden kaufen (Mo-Fr außer Do)\n- Keine Mindestteilnehmerzahl für Besichtigungen\n\n## Die Biere\n\n100% biologisch, hergestellt mit lokalen Rohstoffen. Keine Konservierungsmittel, Farbstoffe oder künstliche Zusätze. Von der erfrischenden TopLesse (Pils 4,2%) bis zur kräftigen Brune des Braves (7,5%). Saisonbier L'HIVEResse im Winter.\n\n## Warum wir es empfehlen\n\nWeil man hier schmeckt, was eine Brauerei mit Überzeugung sein kann. Bier zum Mitnehmen ins Ferienhaus — perfekt für einen Abend auf der Terrasse.\n\n## Von ArdenNest\n\n25 Minuten Fahrt Richtung Rochefort/Éprave.",
         "seo": {
           "title": "Brasserie de la Lesse — Handwerksbrauerei | ArdenNest",
           "description": "Genossenschaftliche Bio-Brauerei in Éprave. Führung mit Verkostung 12€/pp. Bar, Terrasse und Laden. 25 Min von ArdenNest."
-        }
+        },
+        "imageAlts": [
+          "Gevel en terras van Brasserie de la Lesse op zonnige dag",
+          "Donker bierglas Hiveresse van Brasserie de la Lesse",
+          "Etiket van TopLesse bier van Brasserie de la Lesse"
+        ]
       },
       "domaine-de-chevetogne": {
         "title": "Domaine de Chevetogne",
         "description": "Provinziales Freizeitgebiet mit 14 Spielplätzen und Schwimmbädern.",
-        "highlights": ["Spielplätze", "Schwimmbäder", "Natur"],
+        "highlights": [
+          "Spielplätze",
+          "Schwimmbäder",
+          "Natur"
+        ],
         "fullDescription": "Der ultimative Familienausflug. Auf 600 Hektar Natur finden Sie 14 Spielplätze, Freibäder, zwei Museen und Kilometer an Wanderwegen.\n\n## Was Sie unternehmen können\n\n- 14 Spielplätze — vom Piraten-Spielplatz 'Bout du Monde' bis zur Hobbit-Hütte\n- Freibäder (Sommer)\n- 10 Wanderwege durch 600 Hektar Natur\n- Zwei Museen\n- Gärten mit bemerkenswerten Bäumen und Skulpturen\n- Aktivitäten für Schulen und Gruppen\n\n## Warum wir es empfehlen\n\nKinder wollen nicht mehr weg. Wörtlich. Planen Sie einen ganzen Tag ein — es gibt genug zu tun. Die Kombination aus Spielplätzen, Natur und Schwimmbädern macht dies zum idealen Ausflug für Familien mit Kindern jeden Alters.\n\n## Tipp\n\nFragen Sie uns nach Rabattgutscheinen — wir haben manchmal welche!\n\n## Von ArdenNest\n\n30 Minuten Fahrt Richtung Ciney/Rochefort.",
         "seo": {
           "title": "Domaine de Chevetogne — 14 Spielplätze | ArdenNest",
           "description": "Provinziales Gebiet mit 14 Spielplätzen, Schwimmbädern und 600 Hektar Natur. Der ultimative Familienausflug. 30 Min von ArdenNest."
         }
+      },
+      "furfooz": {
+        "imageAlts": [
+          "Panoramisch uitzicht over de Lesse-vallei vanuit het park van Furfooz",
+          "Stenen trap naar beneden in het archeologisch park van Furfooz"
+        ]
+      },
+      "grotten-han": {
+        "imageAlts": [
+          "Ingang van de Grotten van Han met bezoekers bij de rivier",
+          "Bruine beer in het wildpark van de Grotten van Han"
+        ]
+      },
+      "chevetogne": {
+        "imageAlts": [
+          "Kinderen spelen op houten avonturenpad in Domein van Chevetogne",
+          "Avonturenpad door het bos in de tuin Bout du Monde van Chevetogne",
+          "Japanse tuin met vijver en bruggetje in Domein van Chevetogne"
+        ]
       }
     },
     "restaurants": {
@@ -352,7 +566,12 @@
         "title": "Le Belvédère",
         "description": "Unsere Lieblingsadresse in Beauraing. Halb Café, halb Restaurant, ganz es selbst. Der Ort, an dem jeder willkommen ist.",
         "fullDescription": "Es gibt Orte, die betritt man und denkt sofort: hier komme ich wieder. Le Belvédère in Beauraing ist so ein Ort.\n\n## Die Atmosphäre\n\nSchwer zu sagen, was Le Belvédère genau ist. Ein Café? Ein Restaurant? Beides, und keines von beiden. Alle versammeln sich an der Theke — und genau das macht den Reiz aus. Man steht neben einem Motorradfahrer, der gerade von einer Tour kommt, einem Paar Tagesausflügler, einem Arbeiter, der noch Staub auf der Kleidung hat, einem Handelsvertreter zwischen zwei Terminen. Niemand schaut komisch. Jeder gehört dazu.\n\n## Die Gastgeberin\n\nDie Inhaberin ist die Seele dieses Ortes. Herzlich, charmant und mit aufrichtiger Aufmerksamkeit für jeden, der hereinkommt. Die Art Gastgeberin, bei der man sich sofort wohlfühlt — auch beim allerersten Besuch.\n\n## Was man isst\n\nKeine endlose Karte mit unmöglichen Gerichten. Einfach frisch, ehrlich, jedes Mal. Der Wochentipp trifft zuverlässig ins Schwarze. Die Art Essen, die einen still und zufrieden macht.\n\n## Kommen Sie mit einer großen Gruppe?\n\nRufen Sie rechtzeitig vorher an. Man denkt gerne mit und sorgt dafür, dass alles reibungslos läuft — ohne dass es steif oder förmlich wird. Genau so, wie es sein soll.\n\n## Vom Ferienhaus\n\nEine Viertelstunde Fahrt von ArdenNest. Perfekt für einen Abend, an dem niemand kochen muss und alle einfach genießen können.",
-        "openingHours": "Di-Do: 9-22 Uhr · Fr-Sa: 9-24 Uhr · So: 9-23 Uhr · Mo: geschlossen"
+        "openingHours": "Di-Do: 9-22 Uhr · Fr-Sa: 9-24 Uhr · So: 9-23 Uhr · Mo: geschlossen",
+        "imageAlts": [
+          "Logo van Brasserie Le Belvédère in wit en goud",
+          "Stijlvol donker interieur van Le Belvédère met houten tafels en planten",
+          "Buitenzicht brasserie met terras bij zonnig weer"
+        ]
       },
       "hotel-de-la-poste-gedinne": {
         "title": "Hôtel de la Poste",
@@ -390,19 +609,36 @@
         "title": "Boulangerie Dumont",
         "description": "Handwerkliche Bäckerei in Vencimont mit frischem Brot, Gebäck und Kuchen. Online-Bestellung möglich mit 3% Rabatt.",
         "fullDescription": "Die Boulangerie Dumont in Vencimont ist eine echte handwerkliche Bäckerei, wo Sie köstliches frisches Brot, Gebäck und Festtagstorten finden.\n\n## Was erwartet Sie?\n\nDiese Familienbäckerei bietet ein umfangreiches Sortiment:\n\n- **Boulangerie** - Frisches Brot in allen Varianten, von klassischen Brötchen bis zu rustikalen Landbroten\n- **Pâtisserie** - Feines Gebäck und Törtchen, perfekt zum Kaffee\n- **Gâteaux** - Wunderschöne Kuchen für Geburtstage und Feste\n- **Saisonale Produkte** - Besondere Produkte für Feiertage\n\n## Online bestellen\n\nPraktisch: Sie können Ihre Bestellung online über die Website aufgeben und erhalten 3% Rabatt. Heute bestellen, morgen abholen!\n\n## Brotautomat\n\nAuch praktisch: Es gibt einen Brotautomaten mit frischem Brot, verfügbar am Dienstag, Mittwoch, Freitag, Samstag und Sonntag.\n\n## Abholpunkte\n\nKommen Sie nicht nach Vencimont? Sie können Ihre Bestellung auch abholen bei:\n- Proxy Delhaize Pondrôme\n- Total Tankstelle Pondrôme\n\n## Öffnungszeiten\n\nDas Geschäft ist montags, dienstags und donnerstags geschlossen. An den anderen Tagen ist die Bäckerei geöffnet und frisches Brot wird in den Automaten gelegt.\n\n## Von ArdenNest\n\nDie Bäckerei liegt in Vencimont, etwa 10 Autominuten entfernt. Perfekt zu kombinieren mit einem Besuch bei der Metzgerei Aux Délices de la Houille im selben Dorf!",
-        "openingHours": "Mi, Fr, Sa, So: 7-13 Uhr · Geschlossen: Mo, Di, Do"
+        "openingHours": "Mi, Fr, Sa, So: 7-13 Uhr · Geschlossen: Mo, Di, Do",
+        "imageAlts": [
+          "Gevel van Boulangerie-Pâtisserie Dumont in Vencimont",
+          "Toonbank met brood, gebak en rode wanden bij Boulangerie Dumont",
+          "Close-up van knapperige ronde broden op houten rek",
+          "Rekken vol ambachtelijke broden in de bakkerij"
+        ]
       },
       "proxy-delhaize-gedinne": {
         "title": "Proxy Delhaize Gedinne",
         "description": "Nachbarschaftsladen mit umfangreichem Sortiment, 7 Tage die Woche geöffnet.",
         "fullDescription": "Der Proxy Delhaize in Gedinne ist unser nächster Supermarkt und hat wirklich alles, was Sie für Ihren Aufenthalt brauchen.\n\n## Was erwartet Sie?\n\nDieser Nachbarschaftsladen kombiniert den Komfort eines Supermarkts mit dem persönlichen Service eines Dorfladens. Sie finden:\n\n- **Frisches Brot und Gebäck** - Täglich frisch aus dem Ofen\n- **Gemüse und Obst** - Große Auswahl an frischen Produkten\n- **Fleisch und Wurstwaren** - Inklusive lokaler Spezialitäten\n- **Getränke** - Belgische Biere, Wein und Erfrischungsgetränke\n- **Täglicher Bedarf** - Alles für Frühstück, Mittagessen und Abendessen\n\n## Öffnungszeiten\n\nDer Laden ist 7 Tage die Woche geöffnet, auch sonntags! Ideal, wenn Sie etwas vergessen haben oder spontan grillen möchten.\n\n## Von ArdenNest\n\nDer Proxy Delhaize liegt nur 5 Autominuten im Zentrum von Gedinne. Einfach mit anderen Einkäufen im Dorf zu kombinieren.",
-        "openingHours": "Mo-Sa: 8-19 Uhr · So: 8-12:30 Uhr"
+        "openingHours": "Mo-Sa: 8-19 Uhr · So: 8-12:30 Uhr",
+        "imageAlts": [
+          "Luchtfoto van het Proxy Delhaize-gebouw met parking",
+          "Straatzicht op Proxy Delhaize langs de dorpsweg in Gedinne",
+          "Kleurrijk vers fruit- en groentedisplay in de Proxy Delhaize",
+          "Gevel van Proxy Delhaize Gedinne met 7/7 open-aanduiding"
+        ]
       },
       "intermarche-gedinne": {
         "title": "Intermarché Gedinne",
         "description": "Moderner Supermarkt mit ausgezeichneter Frischabteilung, Bäckerei und Metzgerei.",
         "fullDescription": "Intermarché Gedinne ist ein geräumiger, moderner Supermarkt mit allem, was Sie für Ihren Aufenthalt brauchen.\n\n## Was macht diesen Laden besonders?\n\nIntermarché ist bekannt für ihre ausgezeichneten Frischabteilungen:\n\n- **La Boulangerie** - Frisch gebackenes Brot und Gebäck, von Baguettes bis Croissants\n- **La Rotisserie** - Fertiggerichte und gegrilltes Fleisch, perfekt für eine einfache Mahlzeit\n- **Le Traiteur** - Salate und kalte Gerichte\n- **Metzgerei** - Qualitätsfleisch und Wurstwaren\n- **Obst und Gemüse** - Große Auswahl, teilweise von lokalen Erzeugern\n\n## Praktisch\n\nDer Laden hat einen großen Parkplatz und ist leicht erreichbar. Ideal für einen Großeinkauf bei Ankunft oder zum Auffüllen der Vorräte.\n\n## Von ArdenNest\n\nIntermarché liegt 5 Autominuten am Rand von Gedinne. Perfekt mit einem Besuch im Dorf zu kombinieren.",
-        "openingHours": "Mo-Sa: 8-19 Uhr · So: geschlossen"
+        "openingHours": "Mo-Sa: 8-19 Uhr · So: geschlossen",
+        "imageAlts": [
+          "Gevel van Intermarché Contact supermarkt in Gedinne met parking",
+          "Ruim interieur van Intermarché met verse groente- en fruitafdeling",
+          "Bakkerij- en patisserieafdeling in Intermarché met vers brood"
+        ]
       },
       "aux-delices-de-la-houille": {
         "title": "Aux Délices de la Houille",
@@ -414,7 +650,26 @@
         "title": "Terracines",
         "description": "Bio-Gemüsegarten mit Hofladen in Beauraing. Frisches Saisongemüse direkt vom Feld auf Ihren Teller.",
         "fullDescription": "Terracines in Beauraing ist ein wunderschöner Bio-Gemüsegarten, wo Sie das frischeste Gemüse direkt vom Feld kaufen können.\n\n## Vom Samen auf den Teller\n\nIhr Motto sagt alles: 'De la graine à votre assiette' - vom Samen auf Ihren Teller. Alles wächst mit Sorgfalt und Aufmerksamkeit, ohne Pestizide, im Einklang mit den Jahreszeiten.\n\n## Was erwartet Sie?\n\nDas Angebot wechselt mit den Jahreszeiten:\n\n- **Frühling** - Erster Salat, Radieschen, Spinat und frische Kräuter\n- **Sommer** - Tomaten in allen Farben, Zucchini, Bohnen, Paprika\n- **Herbst** - Kürbisse, Lauch, Kohl, Karotten\n- **Winter** - Wintergemüse und Lagergemüse\n\n## Drei Möglichkeiten zum Einkaufen\n\n- **Samstag (9:30-13:30)** - Der große Markt mit schöner Auslage\n- **Mittwoch (10-16 Uhr)** - Lose & frisch: bedienen Sie sich direkt aus den Erntekisten\n- **Donnerstag/Freitag (9-19 Uhr)** - Abholung nach Bestellung\n\n## Online bestellen\n\nSie können Ihre Bestellung auch online über die Website aufgeben. Praktisch, wenn Sie sicher sein wollen, Ihr Lieblingsgemüse zu bekommen!\n\n## Achtung: Winterpause\n\nDer Garten ruht im Winter (geschlossen bis April). Aktuelle Öffnungszeiten auf der Website.\n\n## Von ArdenNest\n\nTerracines liegt in Beauraing, etwa 15 Autominuten entfernt. Ein Besuch lohnt sich für alle, die ehrliches, frisches Gemüse lieben!",
-        "openingHours": "Sa: 9:30-13:30 · Mi: 10-16 Uhr · Do-Fr: auf Bestellung · Winterpause"
+        "openingHours": "Sa: 9:30-13:30 · Mi: 10-16 Uhr · Do-Fr: auf Bestellung · Winterpause",
+        "imageAlts": [
+          "Houten hoevewinkel vol kleurrijke seizoensgroenten en fruit",
+          "Ingang van het houten winkeltje met plantjes en pad naar de tuin",
+          "Krat pompoenen op het veld met ochtendnevel en groen gewas",
+          "Kratjes rijpe rode en groene tomaten van verschillende rassen",
+          "Krat verse groene saladebladeren en kruiden",
+          "Vrouw plant zaailingen in een polytunnel"
+        ]
+      },
+      "aux-delices-houille": {
+        "imageAlts": [
+          "Toonbank met charcuterie en opgehangen worsten bij Aux Délices de la Houille",
+          "Winkelpui van Aux Délices de la Houille: charcuterie en traiteur",
+          "Lachende slager achter de toonbank met opgehangen hammen en worsten",
+          "Close-up van ambachtelijke charcuterie en vleesproducten in vitrine",
+          "Vers vlees, worsten en koteletjes uitgestald in de slagerijvitrine",
+          "Slager snijdt een groot stuk vlees op het hakblok",
+          "Handen die vlees uitbenen op een houten snijplank"
+        ]
       }
     }
   }

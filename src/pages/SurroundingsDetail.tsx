@@ -200,6 +200,10 @@ const SurroundingsDetail = () => {
   // Track which heading was last seen to inject inline images after it
   let bikeSectionPassed = false;
 
+  // Per-image alt texts from translations (falls back to generic title + number)
+  const imageAlts: string[] = t(`items.${category}.${slug}.imageAlts`, { returnObjects: true, defaultValue: [] }) as string[] || [];
+  const getImageAlt = (idx: number) => imageAlts[idx] || `${title} - ${t('photoNumber', { number: idx + 1, defaultValue: `afbeelding ${idx + 1}` })}`;
+
   // Combine gallery images + route map + bike image for lightbox
   const allImages = [
     ...(item.images || []),
@@ -321,7 +325,7 @@ const SurroundingsDetail = () => {
                     >
                       <img
                         src={image}
-                        alt={`${title} - ${t('photoNumber', { number: idx + 1, defaultValue: `afbeelding ${idx + 1}` })}`}
+                        alt={getImageAlt(idx)}
                         width={600}
                         height={450}
                         loading="lazy"
@@ -362,7 +366,7 @@ const SurroundingsDetail = () => {
 
           <img
             src={allImages[lightboxIndex]}
-            alt={`${title} - ${t('photoNumber', { number: lightboxIndex + 1, defaultValue: `afbeelding ${lightboxIndex + 1}` })}`}
+            alt={getImageAlt(lightboxIndex)}
             className="max-w-full max-h-[90vh] object-contain"
             onClick={(e) => e.stopPropagation()}
           />
@@ -516,7 +520,7 @@ const SurroundingsDetail = () => {
                     </h3>
                     <img
                       src={walkData.routeMapImage}
-                      alt={`${title} - route map`}
+                      alt={`${title} - ${t('routeMap', { defaultValue: 'routekaart' })}`}
                       width={800}
                       height={600}
                       loading="lazy"

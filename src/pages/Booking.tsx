@@ -54,7 +54,7 @@ const Booking = () => {
             </div>
 
             <div className="aspect-[4/3] rounded-lg overflow-hidden shadow-lg">
-              <img src={ferme172} alt={t('whyDirect.imageAlt', 'Fruitschaal en gezelschapsspellen op eiken tafel bij Arden\'Nest')} width={800} height={600} loading="lazy" className="w-full h-full object-cover" />
+              <img src={ferme172} alt={t('whyDirect.imageAlt', 'Architecturaal detail van de hoeve ArdenNest')} width={800} height={600} loading="lazy" className="w-full h-full object-cover" />
             </div>
           </div>
         </div>
