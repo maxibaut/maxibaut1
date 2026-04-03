@@ -151,7 +151,31 @@
           "checkinTime": "16:00",
           "checkoutTime": "10:00",
           "petsAllowed": false,
-          "smokingAllowed": false
+          "smokingAllowed": false,
+          "areaServed": [
+            {
+              "@type": "Place",
+              "name": "Belgische Ardennen",
+              "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 50.1,
+                "longitude": 5.3
+              }
+            },
+            {
+              "@type": "AdministrativeArea",
+              "name": "Provincie Namen",
+              "address": {
+                "@type": "PostalAddress",
+                "addressRegion": "Namur",
+                "addressCountry": "BE"
+              }
+            },
+            {
+              "@type": "Place",
+              "name": "Gedinne, Wallonië"
+            }
+          ]
         },
         {
           "@type": "LodgingBusiness",
@@ -181,6 +205,20 @@
           "petsAllowed": false,
           "checkinTime": "16:00",
           "checkoutTime": "10:00",
+          "areaServed": [
+            {
+              "@type": "Place",
+              "name": "Belgische Ardennen"
+            },
+            {
+              "@type": "AdministrativeArea",
+              "name": "Provincie Namen"
+            },
+            {
+              "@type": "Place",
+              "name": "Gedinne, Wallonië"
+            }
+          ],
           "amenityFeature": [
             { "@type": "LocationFeatureSpecification", "name": "On-site host", "value": true },
             { "@type": "LocationFeatureSpecification", "name": "Professional kitchen", "value": true },
