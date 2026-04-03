@@ -123,15 +123,15 @@
         ],
         "trainBookingButton": "Trein Reserveren",
         "imageAlts": [
-          "Kasteel Walzin hoog boven de Lesse op de wandeling Anseremme-Gendron",
-          "Uitzicht vanaf brug op zandstrand en Kasteel Walzin aan de Lesse",
-          "Wandelaars op brug over de Lesse met uitzicht op beboste heuvels",
-          "Rotsformaties langs het wandelpad aan de Lesse bij Gendron",
-          "Ingang van een natuurlijke grot langs de Lesse op het wandelpad",
+          "Kasteel Walzin op rotswand boven weiland met koeien en wandelpad",
+          "Selfie op hangbrug met uitzicht op de Lesse en rotswanden",
+          "Wandelaars op moderne hangbrug met houten dek boven de Lesse",
+          "Twee wandelaars op landweg met imposante rotsformatie op achtergrond",
+          "Persoon in grotopening in begroeide rotswand langs het wandelpad",
           "Wandelaar bekijkt kaart bij bord La Lesse met uitzicht op de rivier",
-          "Wandelaars bij een wegwijzer op het wandelpad Anseremme-Gendron",
+          "Houten wegwijzerpaal met richtingen naar Walzin en Hulsonniaux",
           "Wandelkaart op brugrand met bord La Lesse en uitzicht op de rivier",
-          "Topografische routekaart van de treinwandeling Anseremme-Gendron"
+          "Detail topografische kaart met Anseremme en Lesse-meanders rood omcirkeld"
         ]
       },
       "treinwandeling-houyet-gendron": {
@@ -277,8 +277,8 @@
           "description": "Spectaculair avonturenpark in een oude steengroeve boven de Maas. Ziplines, klimmuren en challenges voor tieners. 30 min van ArdenNest."
         },
         "imageAlts": [
-          "Groep kajakkers peddelt door smaragdgroene vallei bij Dinant",
-          "Luchtfoto van kajaks op kalm water tussen groene oevers"
+          "Klimmers op hangbrug hoog boven rotswand met blauwe lucht",
+          "Vrouw met helm glijdt aan zipline boven groene Maasvallei"
         ]
       },
       "bomenparcours-han": {
@@ -358,10 +358,10 @@
           "description": "Daal 25 meter af in een oude leisteengroeve. Altijd 10°C, ideaal bij regen. Audiogids in NL/FR. Combineer met klimbos Cap Nature. 25 min van ArdenNest."
         },
         "imageAlts": [
-          "Ingang van de ondergrondse leisteengroeve in Bertrix",
-          "Ondergrondse galerij met verlichte leisteenlagen in de groeve",
-          "Bezoekers bekijken imposante rotsformaties in de verlichte groeve",
-          "Detail van gelaagde leisteen in de ondergrondse groeve"
+          "Smalle ondergrondse gang met leistenen muren in zwart-wit",
+          "Gezin op groene familiefiets langs pad bij de leisteengroeve",
+          "Collage van klimmers met helm en netten in boomtoppenparcours",
+          "Close-up van overlappende leistenen dakpannen met mos"
         ]
       },
       "terraltitude": {
@@ -451,10 +451,10 @@
           "description": "Duizend jaar oud kasteel boven de Semois met roofvogelshow, nachtbezoeken en panorama 360°. 40 min van ArdenNest."
         },
         "imageAlts": [
-          "Kasteel van Bouillon boven de Semois-bocht bij zonsondergang",
-          "Luchtfoto van het kasteel en de stad Bouillon aan de Semois",
-          "Ridder op paard tijdens middeleeuws festival bij kasteel Bouillon",
-          "Verlicht kasteel van Bouillon bij nachtelijk bezoek"
+          "Kasteel van Bouillon op heuvelrug boven het stadje",
+          "Pentekening van het kasteel van Bouillon in vogelvlucht",
+          "Vlag wappert op stenen kasteeltoren tegen blauwe lucht",
+          "Nachtbezoek met fakkels in donkere kasteelgang met gids in mantel"
         ]
       },
       "abdij-maredsous": {
@@ -472,8 +472,8 @@
           "description": "Benedictijner abdij met beroemde kaas, abdijbier en rondleidingen. Wandelpaden in een prachtig groen dal. 20 min van ArdenNest."
         },
         "imageAlts": [
-          "Luchtfoto van de abdij van Maredsous met kloostermuren en groene omgeving",
-          "Kaas en brood op plankje in de brasserie van Maredsous"
+          "Groepsfoto van benedictijner monniken in zwarte habijten",
+          "Opengeslagen middeleeuws breviarium met miniaturen en leren banden"
         ]
       },
       "natuurreservaat-furfooz": {
@@ -504,9 +504,9 @@
           "description": "Middeleeuws kasteel uit 1244 met 32 kamers en moerasnatuurreservaat. Evenementen en brocantes. 25 min van ArdenNest."
         },
         "imageAlts": [
-          "Kasteel van Lavaux-Sainte-Anne weerspiegeld in de slotgracht",
-          "Bezoekers tijdens een rondleiding in het kasteel van Lavaux",
-          "Feestelijke verlichting bij een evenement op kasteel Lavaux"
+          "Team proeft bier aan tafel in kasteelzaal met jachttrofeeën",
+          "Kasteel Lavaux-Sainte-Anne met toren en rozentuin op voorgrond",
+          "Ober draagt plateau met hapjes, macarons en sushi"
         ]
       },
       "brasserie-de-la-lesse": {
@@ -523,9 +523,9 @@
           "description": "Coöperatieve biobrouwerij in Éprave. Rondleiding met degustatie €12/pp. Bar, terras en winkel. 25 min van ArdenNest."
         },
         "imageAlts": [
-          "Gevel en terras van Brasserie de la Lesse op zonnige dag",
-          "Donker bierglas Hiveresse van Brasserie de la Lesse",
-          "Etiket van TopLesse bier van Brasserie de la Lesse"
+          "Illustratie van duurzaam brouwproces Brasserie de la Lesse",
+          "Bieretiket l'Hiveresse, ambachtelijk bruin Belgisch bier",
+          "Bieretiket TopLesse, Belgische ambachtelijke pils"
         ]
       },
       "domaine-de-chevetogne": {
@@ -544,21 +544,21 @@
       },
       "furfooz": {
         "imageAlts": [
-          "Panoramisch uitzicht over de Lesse-vallei vanuit het park van Furfooz",
-          "Stenen trap naar beneden in het archeologisch park van Furfooz"
+          "Panorama van de Lesse-vallei met rotsen en dicht groen bos",
+          "Smal stenen wandelpad langs begroeide rotswand in Furfooz"
         ]
       },
       "grotten-han": {
         "imageAlts": [
-          "Ingang van de Grotten van Han met bezoekers bij de rivier",
-          "Bruine beer in het wildpark van de Grotten van Han"
+          "Collage van beer, grotten met stalactieten en rondleiding in Han",
+          "Dubbele belichting van bruine beer met wolvenwelp en landschap"
         ]
       },
       "chevetogne": {
         "imageAlts": [
-          "Kinderen spelen op houten avonturenpad in Domein van Chevetogne",
-          "Avonturenpad door het bos in de tuin Bout du Monde van Chevetogne",
-          "Japanse tuin met vijver en bruggetje in Domein van Chevetogne"
+          "Wit kasteeldomein Chevetogne met groot groen gazon en bomen",
+          "Houten piratenschip-speeltuin aan vijver in groen park",
+          "Wandelpad tussen bloeiende witte en roze rododendrons"
         ]
       }
     },
