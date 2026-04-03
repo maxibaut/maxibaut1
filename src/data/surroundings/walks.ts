@@ -1,9 +1,9 @@
 import { WalkItem } from './types';
 
 // Route maps
-import anseremmeRouteMap from '@/assets/walks/trein-anseremme-gendron-route-map.png?format=webp';
-import houyetRouteMap from '@/assets/walks/houyet-gendron-route-map.png?format=webp';
-import rochehautRouteMap from '@/assets/walks/laddertjeswandeling-rochehaut-route-map.png?format=webp';
+import anseremmeRouteMap from '@/assets/walks/trein-anseremme-gendron-route-map.jpg?format=webp';
+import houyetRouteMap from '@/assets/walks/houyet-gendron-route-map.jpg?format=webp';
+import rochehautRouteMap from '@/assets/walks/laddertjeswandeling-rochehaut-route-map.jpg?format=webp';
 
 // CapRando wandelgids photos
 import caprando01 from '@/assets/walks/caprando-01-groep-picknick.jpg?format=webp';

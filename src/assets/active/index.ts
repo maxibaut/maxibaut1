@@ -12,7 +12,7 @@ import terraltitude01 from './terraltitude-fantasticable-01.jpg?format=webp';
 import terraltitude02 from './terraltitude-accrobranche-02.jpg?format=webp';
 import terraltitude03 from './terraltitude-catapulte-03.jpg?format=webp';
 import terraltitude04 from './terraltitude-tour-aventuriers-04.jpg?format=webp';
-import terraltitude05 from './terraltitude-bois-nutons-05.png?format=webp';
+import terraltitude05 from './terraltitude-bois-nutons-05.jpg?format=webp';
 
 // Cap Nature
 import capNature01 from './cap-nature-hero-01.jpg?format=webp';
@@ -22,7 +22,7 @@ import capNature04 from './cap-nature-climbing-04.jpg?format=webp';
 
 // Récréalle
 import recrealle01 from './recrealle-kayak-01.png?format=webp';
-import recrealle02 from './recrealle-minigolf-02.png?format=webp';
+import recrealle02 from './recrealle-minigolf-02.jpg?format=webp';
 import recrealle03 from './recrealle-climbing-03.png?format=webp';
 import recrealle04 from './recrealle-bowling-04.png?format=webp';
 
