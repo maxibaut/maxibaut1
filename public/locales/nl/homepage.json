@@ -1,0 +1,184 @@
+{
+  "seo": {
+    "title": "ArdenNest | Vakantiewoning voor 26 personen in de Ardennen",
+    "description": "Quiet luxury voor momenten samen. Vakantiewoning met 9 slaapkamers, ensuite badkamers en professionele keuken. Al sinds 2003 verwelkomen wij families."
+  },
+  "differentiatorsSeo": {
+    "title": "Wat ArdenNest bijzonder maakt | ArdenNest",
+    "description": "Persoonlijke begeleiding, professionele keuken, all-in kosten en quiet luxury tot in elk detail. Ontdek waarom gasten al 22 jaar terugkeren."
+  },
+  "hero": {
+    "headline": "Quiet luxury voor momenten samen",
+    "h1": "Vakantiewoning voor 26 personen in de Ardennen",
+    "subheadline": "22 jaar ervaring in het verwelkomen van families in de Ardennen",
+    "cta": {
+      "primary": "Bekijk beschikbaarheid",
+      "secondary": "Neem contact op"
+    }
+  },
+  "trust": {
+    "sectionTitle": "Waarom gezinnen ArdenNest vertrouwen",
+    "googleReviews": "Google Reviews",
+    "stars": "sterren",
+    "reviewCount": "50+ reviews",
+    "experience": "Sinds 2003",
+    "experienceDetail": "Families verwelkomen sinds 2003",
+    "capacity": "26 personen",
+    "capacityDetail": "Gemengde groepen met max. 18 volwassenen"
+  },
+  "differentiators": {
+    "sectionTitle": "Wat ArdenNest bijzonder maakt",
+    "h1": "Alles wat samenzijn dient. Niets wat ervan afleidt.",
+    "sectionSubtitle": "Ontdek waarom gasten steeds terugkeren",
+    "customerJourney": {
+      "title": "Persoonlijke Begeleiding",
+      "description": "Jij organiseert — wij denken mee. Vanaf je eerste vraag tot het moment dat jullie de deur achter je dichttrekken, hebben jullie één aanspreekpunt: Bieke. Geen callcenter, geen chatbot, geen formulier dat in een wachtrij verdwijnt. Eén persoon die het huis kent, de omgeving kent, en jullie helpt om er een zorgeloos weekend van te maken.",
+      "feature1": "Eén vast aanspreekpunt — van boeking tot vertrek altijd dezelfde persoon aan de lijn.",
+      "feature2": "Duidelijke betalingstermijnen — geen verborgen kosten, geen verrassingen achteraf.",
+      "feature3": "Iets vergeten? Achtergebleven spullen worden opgestuurd — zonder gedoe.",
+      "feature4": "Tips op maat — wij wonen hier al 25 jaar en kennen elke wandeling, elk restaurant en elke activiteit in de buurt."
+    },
+    "kitchenPro": {
+      "title": "Keuken op Horecaniveau",
+      "description": "Geen gewone vakantiekeuken. Hier staat restaurantmateriaal — gebouwd om dagelijks voor 26 personen te draaien. Alles is horeca-kwaliteit, tot en met het sproeisysteem boven het fornuis.",
+      "feature1": "Lacanche Cluny — restaurantwaardig fornuis met gastronorm oven en warmhoudkast",
+      "feature2": "2 Miele Professional vaatwassers — alles schoon in 30 minuten",
+      "feature3": "Professionele koelkast en koele berging — ruimte voor alle boodschappen van de groep",
+      "feature4": "Sproeisysteem boven het fornuis — brandveiligheid op horecastandaard"
+    },
+    "gardenFull": {
+      "title": "De Tuin",
+      "description": "Niets is recht, niets is strak — een enorm glooiend landschap waar kinderen urenlang verdwijnen en volwassenen tot rust komen. Meer dan genoeg ruimte om te ravotten, te spelen en te ontdekken, zonder dat je elkaar voor de voeten loopt. Geen zwembad om in de gaten te houden, wel eindeloze ruimte. Altijd netjes onderhouden.",
+      "feature1": "Voetbalveld, volleybalnet en petanquebaan — genoeg keuze voor alle leeftijden, zonder dat je iets hoeft mee te brengen.",
+      "feature2": "Verborgen plekjes doorheen de tuin — kinderen ontdekken steeds iets nieuws. Hutten bouwen, verstoppertje, schattenjacht.",
+      "feature3": "3 grote banken en 10 professionele ligzetels met tafeltjes — de volwassenen relaxen terwijl de kinderen spelen. Iedereen in het zicht.",
+      "feature4": "Terras tussen huis en tuin met 2 barbecues — de perfecte overgang tussen binnen en buiten. Aperitieven met de groep terwijl de kinderen nog ravotten."
+    },
+    "gameRoom": {
+      "title": "De Speelkamer",
+      "description": "De plek waar tieners van hun telefoon loskomen en volwassenen weer twaalf zijn. Een apart gebouw met ruimte om te spelen zonder dat je de rest van het huis stoort — of gestoord wordt. Ideaal voor een regenachtige middag of een toernooi na het avondeten.",
+      "feature1": "Professionele pooltafel — het middelpunt van elke avond. Verwacht verhitte discussies over huisregels.",
+      "feature2": "Voetbaltafel — voor de fanatieke matches tussen generaties. Grootouders vs. kleinkinderen is een klassieker.",
+      "feature3": "Uitgebreide bordspellencollectie — van snelle kaartspelletjes tot lange strategische avonden. Voor elk gezelschap iets.",
+      "feature4": "Retro gaming — voor de liefhebbers die even willen wegdromen naar de jaren '80 en '90."
+    },
+    "playBarn": {
+      "title": "De Speelstal",
+      "description": "De voormalige paardenstal waar ooit de trekpaarden stonden, is nu een speelparadijs voor de allerkleinsten. Overdekt, veilig en recht naast het huis — de peuters en kleuters vermaken zich hier urenlang terwijl de ouders rustig koffiedrinken op het terras.",
+      "feature1": "Go-karts en skelters — rondjes rijden op het asfalt vooraan de hoeve. Gegarandeerd het eerste wat ze 's ochtends willen doen.",
+      "feature2": "Trapautootjes en tractoren — voor de bouwvakkers en boeren in wording. Stevig speelgoed dat tegen een stootje kan.",
+      "feature3": "Driewielers voor de kleintjes — ook de allerkleinsten doen mee. Geen kind dat zich hier verveelt.",
+      "feature4": "Stoepkrijten en vrij spelen — de binnenplaats van de hoeve is één groot canvas. Niets hoeft mee te brengen, alles is er."
+    },
+    "dishCabinetFeature1": "Volledige inventariscontrole — van de servieskast tot de speelkamer, alles wordt nageteld en gecontroleerd.",
+    "dishCabinetFeature2": "Materiaal in dubbel — veel spullen houden we dubbel in voorraad. Kapot of kwijt? Onmiddellijk vervangen, zonder dat jullie het merken.",
+    "dishCabinetFeature3": "Brandschoon bij aankomst — na elk verblijf wordt het volledige huis grondig gepoetst. Van keuken tot badkamers, van leefruimtes tot slaapkamers — tot in de hoekjes.",
+    "dishCabinetFeature4": "Geen verrassingen — jullie openen de deur van een huis dat klaarstaat alsof het de eerste keer is. Alles compleet, alles schoon, alles werkt. Boodschappen inladen en genieten.",
+    "professionalEquipmentFeature1": "Horeca-kwaliteit potten en pannen",
+    "professionalEquipmentFeature2": "Professioneel kookgerei",
+    "professionalEquipmentFeature3": "Geschikt voor grote groepen",
+    "professionalEquipmentFeature4": "Alles wat u nodig heeft",
+    "livingOnSiteFeature1": "Eigenaar op het domein — geen beheerder op afstand, maar Bieke en Christophe naast de deur.",
+    "livingOnSiteFeature2": "Lokale tips die je nergens vindt — de beste wandeling, het restaurant waar locals eten, de markt die alleen op donderdag open is.",
+    "livingOnSiteFeature3": "Doordacht ontwerp — twee verwarmingsketels uit voorzorg en voor zuinig verbruik. Niets is toeval, alles is bewust gekozen.",
+    "livingOnSiteFeature4": "Het huis groeit mee — na 25 jaar weten we precies wat grote groepen nodig hebben, en we blijven investeren.",
+    "utilitiesFeature1": "Warm welkom — de woning is bij aankomst altijd opgewarmd tot een behaaglijke temperatuur. Jullie starten comfortabel.",
+    "utilitiesFeature2": "Heldere afrekening — na jullie verblijf ontvangen jullie een gedetailleerd overzicht. Geen schattingen, geen forfaits.",
+    "utilitiesFeature3": "Controle & vertrouwen — meterstanden worden bij aankomst en vertrek fotografisch vastgelegd. Transparant voor beide kanten.",
+    "utilitiesFeature4": "Green Key kandidaat — we streven naar het internationale keurmerk voor duurzaam toerisme. Eerlijk verbruik is daar de eerste stap van.",
+    "utilitiesFeature5": "Compenseer jullie reis — willen jullie ook de CO₂-uitstoot van de reis naar ArdenNest compenseren? Dat kan eenvoudig via Greentripper — een Belgische, gecertificeerde compensatieregeling voor reizen.",
+    "greenKeyFeature1": "Kandidaat Green Key label",
+    "greenKeyFeature2": "Duurzaam toerisme",
+    "greenKeyFeature3": "Milieubewuste keuzes",
+    "greenKeyFeature4": "Respect voor de natuur",
+    "certifiedFeature1": "Gecertificeerd door Toerisme Wallonië — officiële erkenning na inspectie op comfort, veiligheid en uitrusting.",
+    "certifiedFeature2": "Periodieke brandveiligheidscontrole — het huis wordt regelmatig gecontroleerd door de brandweer. Inclusief sproeisysteem boven het fornuis.",
+    "certifiedFeature3": "Aangepaste verzekering — specifiek afgestemd op groepsverblijf tot 26 personen. Jullie zijn volledig gedekt.",
+    "certifiedFeature4": "Boeken met vertrouwen — geen grijze zone, geen risico. Alles is in orde, alles is gekeurd, alles is verzekerd.",
+    "ventilationFeature1": "Stille centrale ventilatie",
+    "ventilationFeature2": "In alle badkamers",
+    "ventilationFeature3": "Optimale luchtkwaliteit",
+    "ventilationFeature4": "Geen storend geluid",
+    "cta": {
+      "title": "Overtuigd?",
+      "description": "Bekijk de beschikbaarheid en boek direct bij ons voor de beste prijs en persoonlijke service.",
+      "availability": "Bekijk beschikbaarheid",
+      "contact": "Neem contact op"
+    },
+    "quietLuxury": {
+      "title": "Quiet Luxury",
+      "description": "Geen zwembad, geen sauna — bewust. Wij investeren in wat écht telt als je met een grote groep samenkomt: een professionele keuken waar koken voor 26 een plezier is, een eigen badkamer bij elke slaapkamer, en één tafel waar iedereen samen zit. Doordachte kwaliteit die jullie voelen, zonder dat je erover hoeft na te denken.",
+      "feature1": "Samenzijn boven entertainment — een huis dat gebouwd is om samen te leven, niet om vermaak te zoeken.",
+      "feature2": "Ontzorgen boven opsmuk — alles werkt, alles is er, alles is schoon. Jullie hoeven alleen maar te komen.",
+      "feature3": "Ruimte boven drukte — 2 hectare tuin waar kinderen verdwijnen en volwassenen tot rust komen.",
+      "feature4": "Kwaliteit boven kwantiteit — van het Lacanche fornuis tot het De Witte Lietaer beddengoed: minder features, hogere standaard."
+    },
+    "kitchen": {
+      "title": "Keuken op Horecaniveau",
+      "description": "Koken voor 26 is hier geen corvee — het is het hoogtepunt van de dag. Lacanche fornuis, 2 Miele Professional vaatwassers en genoeg koelruimte voor de hele groep."
+    },
+    "garden": {
+      "title": "Eindeloze Tuin",
+      "description": "Een enorm glooiend landschap waar kinderen urenlang verdwijnen en volwassenen tot rust komen. Voetbalveld, petanque, verborgen plekjes en een terras met barbecue."
+    },
+    "mattresses": {
+      "title": "Slapen in Stijl",
+      "description": "Een goede nachtrust begint bij wat je voelt. Daarom kozen wij bewust voor De Witte Lietaer — Vlaams vakmanschap dat je voelt zodra je onder de lakens glijdt. Uitgerust wakker worden is de basis van een geslaagd verblijf.",
+      "feature1": "Boxspring bedden met 25 cm dikke matrassen",
+      "feature2": "Beddengoed en bedlinnen van De Witte Lietaer",
+      "feature3": "Puur katoensatijn — zalig zacht met een subtiele glans",
+      "feature4": "Belgisch familiebedrijf, kwaliteitsreferentie sinds 1898"
+    },
+    "dishCabinet": {
+      "title": "Controle na Elke Gast",
+      "description": "Jullie mogen nooit last hebben van de groep vóór jullie. Daarom controleren we na elk verblijf het volledige huis: elke kast, elk bord, elk glas, elke pan. Wat stuk is wordt hersteld, wat ontbreekt wordt aangevuld — vóór de volgende gast arriveert. Dat klinkt vanzelfsprekend, maar bij een huis voor 26 is het dat niet."
+    },
+    "professionalEquipment": {
+      "title": "Horeca Materiaal",
+      "description": "Professionele potten en pannen van horeca-kwaliteit. Koken voor 26 personen met het juiste materiaal."
+    },
+    "livingOnSite": {
+      "title": "25 Jaar Ter Plaatse",
+      "description": "Dit is geen investering op afstand — wij wonen hier. Al sinds 2000 is deze hoeve uit 1849 ons thuis. Het hele concept is van ons: een huis waar de groep belangrijker is dan de individuele kamer. Je komt hier niet om op je kamer te zitten. Daarom kozen we voor grote, open leefruimtes én stille hoekjes per verdieping om je even af te zonderen. Elke keuze — van de indeling tot de twee Buderus verwarmingsketels — is gemaakt vanuit één vraag: wat heeft een grote groep écht nodig?"
+    },
+    "utilities": {
+      "title": "Eerlijk Verbruik",
+      "description": "Bij ArdenNest geloven we in transparantie. In plaats van een hoge forfaitaire prijs, betalen jullie bij een directe boeking enkel voor wat jullie daadwerkelijk verbruiken aan verwarming, water en afvalverwerking. Een kleine groep betaalt minder dan een grote — eerlijker kan niet."
+    },
+    "greenKey": {
+      "title": "Green Key Kandidaat",
+      "description": "Wij streven naar het Green Key label, het internationale keurmerk voor duurzaam toerisme."
+    },
+    "certified": {
+      "title": "Gecertificeerde Vakantiewoning",
+      "description": "Geen zelfverklaarde kwaliteit — ArdenNest is officieel erkend en gecertificeerd door Toerisme Wallonië. Dat betekent dat het huis voldoet aan strenge normen voor veiligheid, comfort en hygiëne. Voor jullie is dat de garantie dat je boekt bij een professionele verhuurder, niet bij een amateur."
+    },
+    "ventilation": {
+      "title": "Stille Centrale Ventilatie",
+      "description": "Alle badkamers zijn uitgerust met stille centrale ventilatie. Optimale luchtkwaliteit zonder storend geluid."
+    },
+    "viewAll": "Ontdek meer"
+  },
+  "whyBookDirect": {
+    "title": "Waarom direct boeken?",
+    "subtitle": "De voordelen van rechtstreeks bij ons boeken",
+    "benefits": {
+      "price": {
+        "title": "Beste prijs gegarandeerd",
+        "description": "Geen OTA-commissies betekent de beste prijs voor jou"
+      },
+      "contact": {
+        "title": "Direct contact met ons",
+        "description": "Vragen? Wij kennen het huis als geen ander"
+      },
+      "flexibility": {
+        "title": "Maximale flexibiliteit",
+        "description": "Persoonlijke afspraken en maatwerk mogelijk"
+      },
+      "welcome": {
+        "title": "Persoonlijke ontvangst",
+        "description": "Christophe verwelkomt elke groep persoonlijk"
+      }
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "property": "Das Haus",
+    "differentiators": "Was Uns Unterscheidet",
+    "surroundings": "Umgebung",
+    "about": "Über Uns",
+    "contact": "Kontakt",
+    "booking": "Verfügbarkeit",
+    "bookDirect": "Direkt Buchen"
+  },
+  "footer": {
+    "contact": "Kontakt",
+    "phone": "Telefon",
+    "email": "E-Mail",
+    "quickLinks": "Schnelle Links",
+    "documentsInfo": "Infos & rechtl. Docs",
+    "houseRules": "Hausordnung",
+    "checklist": "Abreise-Checkliste",
+    "localTips": "Geschäfte",
+    "earlyArrival": "Frühe Ankunft",
+    "rentalTerms": "Mietbedingungen",
+    "cancellation": "Stornierungsbedingungen",
+    "privacy": "Datenschutz",
+    "downloadAll": "Alle Dokumente herunterladen",
+    "followUs": "Folgen Sie Uns",
+    "copyright": "© 2026 ArdenNest. Alle Rechte vorbehalten.",
+    "googleReviews": "Google Bewertungen",
+    "stars": "Sterne",
+    "homeowners": "Hausbesitzer",
+    "journal": "Journal",
+"alsoAvailableIn": "Auch verfügbar auf:",
+    "tagline": "Seit 2003 begrüßen wir Familien und Freundesgruppen. Max. 18 Erwachsene. Früher Ferme du Château.",
+    "location": "Ardennen, Belgien"
+  },
+  "cta": {
+    "viewAvailability": "Verfügbarkeit anzeigen",
+    "contactUs": "Kontaktieren Sie uns",
+    "bookNow": "Jetzt buchen",
+    "learnMore": "Mehr erfahren",
+    "callUs": "Rufen Sie uns an",
+    "emailUs": "Schreiben Sie uns",
+    "whatsapp": "WhatsApp"
+  },
+  "language": {
+    "nl": "Nederlands",
+    "fr": "Français",
+    "en": "English",
+    "de": "Deutsch"
+  },
+  "notFound": {
+    "heading": "Fehler 404",
+    "title": "Dieser Tunnel führt ins Nichts.",
+    "orDoesIt": "Oder doch?",
+    "tunnelName": "Tunnel zwischen Bohan-sur-Semois und Membre",
+    "railwayLine": "Alte Bahnlinie 163 (Bertrix–Gedinne)",
+    "outOfService": "Außer Betrieb seit 1959",
+    "nowRavel": "Heute RAVeL-Radweg",
+    "distance": "1 Std. 10 Min. Radfahren von ArdenNest",
+    "viewOnMap": "Auf Google Maps ansehen",
+    "backHome": "Zurück zur Startseite"
+  },
+  "redirectBanner": "Ferme du Château heißt jetzt ArdenNest — mehr als ein Haus, Ihr Nest in den Ardennen."
+}

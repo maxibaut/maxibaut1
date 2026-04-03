@@ -1,0 +1,142 @@
+{
+  "seo": {
+    "title": "Contact | ArdenNest - Book directly with the owner",
+    "description": "Contact Bieke for questions or bookings at ArdenNest. Direct contact with the owner, no intermediaries. Reach us by phone, email or WhatsApp."
+  },
+  "title": "Contact",
+  "h1": "Contact Bieke directly — by phone, email or WhatsApp",
+  "subtitle": "I'm happy to help",
+  "signature": "Bieke",
+  "options": {
+    "phone": {
+      "title": "Call Bieke",
+      "description": "I'm happy to make time for your questions",
+      "action": "Call now"
+    },
+    "email": {
+      "title": "Email Bieke",
+      "description": "For detailed questions or booking requests",
+      "action": "Send email"
+    },
+    "whatsapp": {
+      "title": "WhatsApp",
+      "description": "Direct contact - before, during and after your stay",
+      "action": "Open WhatsApp"
+    }
+  },
+  "form": {
+    "title": "Send me a message",
+    "name": "Name",
+    "namePlaceholder": "Your full name",
+    "email": "Email address",
+    "emailPlaceholder": "your@email.com",
+    "phone": "Phone number",
+    "phonePlaceholder": "+32 ...",
+    "dates": "Preferred dates",
+    "datesPlaceholder": "e.g. July 15-22, 2024",
+    "groupSize": "Group composition",
+    "groupSizePlaceholder": "No. of adults, under-18s, babies",
+    "message": "Message",
+    "messagePlaceholder": "Tell us about your plans...",
+    "submit": "Send message",
+    "submitting": "Sending...",
+    "successTitle": "Message sent!",
+    "success": "We'll get back to you as soon as possible.",
+    "errorTitle": "Something went wrong",
+    "error": "Please try again or contact us directly.",
+    "emailContent": {
+      "subject": "New enquiry via ArdenNest.be",
+      "intro": "Hello! A new enquiry has been received via ardennest.be.",
+      "replyTip": "Click reply to respond directly to"
+    }
+  },
+  "practical": {
+    "title": "Practical Information",
+    "onSiteHost": "Your host and hostess live on the property",
+    "availability": "Available from 9:00 AM to 8:00 PM",
+    "amenities": {
+      "guests": "26 guests",
+      "charging": "EV charging point",
+      "wifi": "Wifi",
+      "noPets": "No pets",
+      "noSmoking": "No smoking",
+      "noParties": "No parties"
+    },
+    "checkIn": {
+      "title": "Check-in",
+      "time": "From 4:00 PM"
+    },
+    "checkOut": {
+      "title": "Check-out",
+      "time": "Until 10:00 AM"
+    },
+    "location": {
+      "title": "Location",
+      "address": "Rue de la Ferme 3",
+      "postalCity": "5575 Malvoisin",
+      "region": "Ardennes",
+      "country": "Belgium"
+    },
+    "distances": {
+      "title": "Distances",
+      "brussels": "Brussels: 1h30",
+      "antwerp": "Antwerp: 1h55",
+      "hasselt": "Hasselt: 1h35",
+      "brugge": "Bruges: 2h15",
+      "trier": "Trier: 1h25",
+      "utrecht": "Utrecht: 2h50",
+      "cologne": "Cologne: 2h10",
+      "amsterdam": "Amsterdam: 3h15",
+      "paris": "Paris: 2h55",
+      "calculate": "Calculate your travel time"
+    },
+    "parking": {
+      "title": "Parking",
+      "description": "Free spacious parking for all guests"
+    },
+    "accessibility": {
+      "title": "Getting here",
+      "bus": {
+        "title": "Bus",
+        "text": "Bus stop Malvoisin Kewet is right at the door. Lines 141 and 241 — operated by TEC.",
+        "link": "View timetable"
+      },
+      "train": {
+        "title": "Train",
+        "text": "Nearest station: Gedinne-Station.",
+        "link": "Plan your train journey"
+      }
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "questions": [
+      {
+        "q": "Can we check in earlier?",
+        "a": "The house is being cleaned until 4 PM on arrival day. To allow our cleaning team to work undisturbed, early check-in is unfortunately not possible. But don't worry — the area has plenty to offer to turn the waiting time into the start of your holiday.",
+        "link": "/early-arrival",
+        "linkText": "Check out our early arrival tips"
+      },
+      {
+        "q": "How far in advance should I book?",
+        "a": "For popular periods like school holidays, we recommend booking 3-6 months ahead. For weekends and quieter periods, 1-2 months is often sufficient."
+      },
+      {
+        "q": "Are pets allowed?",
+        "a": "Unfortunately, we do not welcome pets - this is to ensure a worry-free stay for guests with allergies. We know your pet is part of the family and appreciate your understanding."
+      },
+      {
+        "q": "What is included in the price?",
+        "a": "Bed linen, towels, final cleaning, heating and basic products are included. You'll receive a complete overview upon booking."
+      },
+      {
+        "q": "Can we check in earlier or check out later?",
+        "a": "This is often possible in consultation, depending on other bookings. Feel free to ask."
+      },
+      {
+        "q": "Is ArdenNest suitable for a party or event?",
+        "a": "ArdenNest is made for quality time - long conversations around the oak table, children playing freely in the garden, evenings that naturally wind down when everyone goes to bed tired but content. What we are not: a party venue. We ask our guests to respect the tranquility that makes the Ardennes so special - for you, for our neighbors, and for the groups that come after you. Looking for a place to truly be together? Then we warmly welcome you."
+      }
+    ]
+  }
+}

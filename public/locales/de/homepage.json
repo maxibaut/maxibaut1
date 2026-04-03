@@ -1,0 +1,184 @@
+{
+  "seo": {
+    "title": "ArdenNest | Ferienhaus für 26 Personen in den Ardennen",
+    "description": "Stiller Luxus für gemeinsame Momente. Ferienhaus mit 9 Schlafzimmern, Ensuite-Badezimmern und Profi-Küche. Seit 2003 begrüßen wir Familien."
+  },
+  "differentiatorsSeo": {
+    "title": "Was ArdenNest besonders macht | ArdenNest",
+    "description": "Persönliche Begleitung, Profi-Küche, All-inclusive-Kosten und stiller Luxus bis ins Detail. Entdecken Sie, warum Gäste seit 22 Jahren wiederkommen."
+  },
+  "hero": {
+    "headline": "Stiller Luxus für gemeinsame Momente",
+    "h1": "Ferienhaus für 26 Personen in den belgischen Ardennen",
+    "subheadline": "22 Jahre Erfahrung in der Begrüßung von Familien in den Ardennen",
+    "cta": {
+      "primary": "Verfügbarkeit anzeigen",
+      "secondary": "Kontaktieren Sie uns"
+    }
+  },
+  "trust": {
+    "sectionTitle": "Warum Familien ArdenNest vertrauen",
+    "googleReviews": "Google Bewertungen",
+    "stars": "Sterne",
+    "reviewCount": "50+ Bewertungen",
+    "experience": "Seit 2003",
+    "experienceDetail": "Familien willkommen seit 2003",
+    "capacity": "26 Personen",
+    "capacityDetail": "Gemischte Gruppen mit max. 18 Erwachsenen"
+  },
+  "differentiators": {
+    "sectionTitle": "Was ArdenNest besonders macht",
+    "h1": "Alles, was dem Zusammensein dient. Nichts, was davon ablenkt.",
+    "sectionSubtitle": "Entdecken Sie, warum Gäste immer wiederkommen",
+    "customerJourney": {
+      "title": "Persönliche Begleitung",
+      "description": "Sie organisieren — wir denken mit. Von Ihrer ersten Frage bis zum Moment, in dem Sie die Tür hinter sich zuziehen, haben Sie einen Ansprechpartner: Bieke. Kein Callcenter, kein Chatbot, kein Formular, das in einer Warteschlange verschwindet. Eine Person, die das Haus kennt, die Umgebung kennt und Ihnen hilft, ein sorgloses Wochenende daraus zu machen.",
+      "feature1": "Ein fester Ansprechpartner — von der Buchung bis zur Abreise immer dieselbe Person am Telefon.",
+      "feature2": "Klare Zahlungsbedingungen — keine versteckten Kosten, keine Überraschungen im Nachhinein.",
+      "feature3": "Etwas vergessen? Zurückgelassene Sachen werden nachgeschickt — ohne Umstände.",
+      "feature4": "Maßgeschneiderte Tipps — wir leben hier seit 25 Jahren und kennen jede Wanderung, jedes Restaurant und jede Aktivität in der Umgebung."
+    },
+    "kitchenPro": {
+      "title": "Küche auf Gastronomieniveau",
+      "description": "Keine gewöhnliche Ferienküche. Hier steht Restaurantmaterial — gebaut, um täglich für 26 Personen zu kochen. Alles ist in Gastronomiequalität, bis hin zum Löschsystem über dem Herd.",
+      "feature1": "Lacanche Cluny — restaurantwürdiger Herd mit Gastronormofen und Warmhalteschublade",
+      "feature2": "2 Miele Professional Geschirrspüler — alles sauber in 30 Minuten",
+      "feature3": "Profi-Kühlschrank und kühle Speisekammer — Platz für alle Einkäufe der Gruppe",
+      "feature4": "Löschsystem über dem Herd — Brandschutz nach Gastronomiestandard"
+    },
+    "gardenFull": {
+      "title": "Der Garten",
+      "description": "Nichts ist gerade, nichts ist starr — eine riesige hügelige Landschaft, in der Kinder stundenlang verschwinden und Erwachsene zur Ruhe kommen. Mehr als genug Platz zum Toben, Spielen und Entdecken, ohne sich gegenseitig im Weg zu stehen. Kein Schwimmbad zum Beaufsichtigen, sondern endloser Raum. Immer gepflegt.",
+      "feature1": "Fußballfeld, Volleyballnetz und Pétanquebahn — genug Auswahl für alle Altersgruppen, ohne etwas mitbringen zu müssen.",
+      "feature2": "Versteckte Plätze im ganzen Garten — Kinder entdecken immer etwas Neues. Hütten bauen, Verstecken spielen, Schatzsuche.",
+      "feature3": "3 große Bänke und 10 professionelle Liegestühle mit Tischen — die Erwachsenen entspannen sich, während die Kinder spielen. Alle im Blick.",
+      "feature4": "Terrasse zwischen Haus und Garten mit 2 Grills — der perfekte Übergang zwischen drinnen und draußen. Aperitifs mit der Gruppe, während die Kinder noch toben."
+    },
+    "gameRoom": {
+      "title": "Das Spielzimmer",
+      "description": "Der Ort, an dem Teenager ihr Handy weglegen und Erwachsene wieder zwölf sind. Ein separates Gebäude mit Platz zum Spielen, ohne den Rest des Hauses zu stören — oder gestört zu werden. Ideal für einen regnerischen Nachmittag oder ein Turnier nach dem Abendessen.",
+      "feature1": "Professioneller Billardtisch — der Mittelpunkt jedes Abends. Erwarten Sie hitzige Diskussionen über Hausregeln.",
+      "feature2": "Tischfußball — für die fanatischen Matches zwischen Generationen. Großeltern gegen Enkelkinder ist ein Klassiker.",
+      "feature3": "Umfangreiche Brettspielsammlung — von schnellen Kartenspielen bis zu langen strategischen Abenden. Für jede Gesellschaft etwas.",
+      "feature4": "Retro-Gaming — für Liebhaber, die in die 80er und 90er Jahre zurückreisen möchten."
+    },
+    "playBarn": {
+      "title": "Der Spielstall",
+      "description": "Der ehemalige Pferdestall, in dem einst Zugpferde standen, ist jetzt ein Spielparadies für die Kleinsten. Überdacht, sicher und direkt neben dem Haus — Kleinkinder unterhalten sich hier stundenlang, während die Eltern auf der Terrasse in Ruhe Kaffee trinken.",
+      "feature1": "Go-Karts und Tretautos — Runden drehen auf dem Asphalt vor dem Hof. Garantiert das Erste, was sie morgens machen wollen.",
+      "feature2": "Tretautos und Traktoren — für die kleinen Bauarbeiter und Bauern in Ausbildung. Robustes Spielzeug, das einiges aushält.",
+      "feature3": "Dreiräder für die Kleinsten — auch die Jüngsten machen mit. Kein Kind langweilt sich hier.",
+      "feature4": "Kreidezeichnen und freies Spielen — der Innenhof des Hofes ist eine große Leinwand. Nichts mitbringen, alles ist da."
+    },
+    "dishCabinetFeature1": "Vollständige Inventarkontrolle — vom Geschirrschrank bis zum Spielzimmer, alles wird gezählt und geprüft.",
+    "dishCabinetFeature2": "Material doppelt vorrätig — vieles halten wir doppelt auf Lager. Kaputt oder verschwunden? Sofort ersetzt, ohne dass Sie es merken.",
+    "dishCabinetFeature3": "Blitzsauber bei Ankunft — nach jedem Aufenthalt wird das gesamte Haus gründlich gereinigt. Von der Küche bis zu den Badezimmern, von den Wohnräumen bis zu den Schlafzimmern — bis in die Ecken.",
+    "dishCabinetFeature4": "Keine Überraschungen — Sie öffnen die Tür eines Hauses, das bereitsteht, als wäre es das erste Mal. Alles komplett, alles sauber, alles funktioniert. Einkäufe einräumen und genießen.",
+    "professionalEquipmentFeature1": "Töpfe und Pfannen in Gastronomiequalität",
+    "professionalEquipmentFeature2": "Professionelles Kochgeschirr",
+    "professionalEquipmentFeature3": "Geeignet für große Gruppen",
+    "professionalEquipmentFeature4": "Alles, was Sie brauchen",
+    "livingOnSiteFeature1": "Eigentümer auf dem Anwesen — kein Fernverwalter, sondern Bieke und Christophe direkt nebenan.",
+    "livingOnSiteFeature2": "Lokale Tipps, die Sie nirgends finden — die beste Wanderung, das Restaurant, in dem Einheimische essen, der Markt, der nur donnerstags geöffnet ist.",
+    "livingOnSiteFeature3": "Durchdachtes Design — zwei Heizkessel aus Vorsorge und für sparsamen Verbrauch. Nichts ist Zufall, alles ist eine bewusste Wahl.",
+    "livingOnSiteFeature4": "Das Haus wächst mit — nach 25 Jahren wissen wir genau, was große Gruppen brauchen, und wir investieren weiter.",
+    "utilitiesFeature1": "Warmer Empfang — das Haus ist bei Ankunft immer auf eine angenehme Temperatur aufgeheizt. Sie starten komfortabel.",
+    "utilitiesFeature2": "Klare Abrechnung — nach Ihrem Aufenthalt erhalten Sie eine detaillierte Übersicht. Keine Schätzungen, keine Pauschalen.",
+    "utilitiesFeature3": "Kontrolle & Vertrauen — Zählerstände werden bei An- und Abreise fotografisch festgehalten. Transparent für beide Seiten.",
+    "utilitiesFeature4": "Green Key Kandidat — wir streben das internationale Gütesiegel für nachhaltigen Tourismus an. Fairer Verbrauch ist der erste Schritt dazu.",
+    "utilitiesFeature5": "Kompensieren Sie Ihre Anreise — möchten Sie auch den CO₂-Ausstoß Ihrer Reise nach ArdenNest kompensieren? Das geht einfach über Greentripper — ein belgisches, zertifiziertes Kompensationsprogramm für Reisen.",
+    "greenKeyFeature1": "Kandidat für das Green Key Label",
+    "greenKeyFeature2": "Nachhaltiger Tourismus",
+    "greenKeyFeature3": "Umweltbewusste Entscheidungen",
+    "greenKeyFeature4": "Respekt für die Natur",
+    "certifiedFeature1": "Zertifiziert von Tourismus Wallonien — offizielle Anerkennung nach Inspektion von Komfort, Sicherheit und Ausstattung.",
+    "certifiedFeature2": "Regelmäßige Brandschutzprüfung — das Haus wird regelmäßig von der Feuerwehr kontrolliert. Inklusive Löschanlage über dem Herd.",
+    "certifiedFeature3": "Maßgeschneiderte Versicherung — speziell auf Gruppenaufenthalte bis 26 Personen abgestimmt. Sie sind vollständig abgesichert.",
+    "certifiedFeature4": "Mit Vertrauen buchen — keine Grauzone, kein Risiko. Alles ist in Ordnung, alles ist geprüft, alles ist versichert.",
+    "ventilationFeature1": "Leise Zentrallüftung",
+    "ventilationFeature2": "In allen Badezimmern",
+    "ventilationFeature3": "Optimale Luftqualität",
+    "ventilationFeature4": "Keine störenden Geräusche",
+    "cta": {
+      "title": "Überzeugt?",
+      "description": "Prüfen Sie die Verfügbarkeit und buchen Sie direkt bei uns für den besten Preis und persönlichen Service.",
+      "availability": "Verfügbarkeit prüfen",
+      "contact": "Kontaktieren Sie uns"
+    },
+    "quietLuxury": {
+      "title": "Stiller Luxus",
+      "description": "Kein Schwimmbad, keine Sauna — bewusst. Wir investieren in das, was wirklich zählt, wenn eine große Gruppe zusammenkommt: eine professionelle Küche, in der das Kochen für 26 ein Vergnügen ist, ein eigenes Badezimmer bei jedem Schlafzimmer und ein Tisch, an dem alle zusammensitzen. Durchdachte Qualität, die Sie spüren, ohne darüber nachdenken zu müssen.",
+      "feature1": "Zusammensein statt Unterhaltung — ein Haus, das zum Zusammenleben gebaut wurde, nicht zur Zerstreuung.",
+      "feature2": "Entlastung statt Verzierung — alles funktioniert, alles ist da, alles ist sauber. Sie müssen nur noch kommen.",
+      "feature3": "Raum statt Hektik — 2 Hektar Garten, in dem Kinder verschwinden und Erwachsene zur Ruhe kommen.",
+      "feature4": "Qualität statt Quantität — vom Lacanche-Herd bis zur De Witte Lietaer-Bettwäsche: weniger Features, höhere Standards."
+    },
+    "kitchen": {
+      "title": "Küche auf Gastronomie-Niveau",
+      "description": "Kochen für 26 ist hier keine Pflicht — es ist der Höhepunkt des Tages. Lacanche-Herd, 2 Miele Professional Geschirrspüler und genug Kühlraum für die gesamte Gruppe."
+    },
+    "garden": {
+      "title": "Endloser Garten",
+      "description": "Eine riesige hügelige Landschaft, in der Kinder stundenlang verschwinden und Erwachsene zur Ruhe kommen. Fußballfeld, Pétanque, versteckte Plätze und eine Terrasse mit Grill."
+    },
+    "mattresses": {
+      "title": "Schlafen mit Stil",
+      "description": "Ein guter Schlaf beginnt mit dem, was Sie fühlen. Deshalb haben wir uns bewusst für De Witte Lietaer entschieden — flämische Handwerkskunst, die Sie spüren, sobald Sie unter die Laken gleiten. Ausgeruht aufwachen ist die Basis eines gelungenen Aufenthalts.",
+      "feature1": "Boxspringbetten mit 25 cm dicken Matratzen",
+      "feature2": "Bettwäsche und Bettlaken von De Witte Lietaer",
+      "feature3": "Reiner Baumwollsatin — seidig weich mit dezentem Glanz",
+      "feature4": "Belgisches Familienunternehmen, Qualitätsreferenz seit 1898"
+    },
+    "dishCabinet": {
+      "title": "Kontrolle Nach Jedem Gast",
+      "description": "Sie sollen niemals unter der Gruppe vor Ihnen leiden. Deshalb kontrollieren wir nach jedem Aufenthalt das gesamte Haus: jeden Schrank, jeden Teller, jedes Glas, jede Pfanne. Was kaputt ist, wird repariert, was fehlt, wird ergänzt — bevor der nächste Gast ankommt. Das klingt selbstverständlich, aber bei einem Haus für 26 ist es das nicht."
+    },
+    "professionalEquipment": {
+      "title": "Profi-Ausstattung",
+      "description": "Töpfe und Pfannen in Restaurantqualität. Für 26 Personen kochen mit der richtigen Ausstattung."
+    },
+    "livingOnSite": {
+      "title": "25 Jahre Vor Ort",
+      "description": "Dies ist keine Investition aus der Ferne — wir leben hier. Seit 2000 ist dieses Bauernhaus von 1849 unser Zuhause. Das gesamte Konzept ist von uns: ein Haus, in dem die Gruppe wichtiger ist als das einzelne Zimmer. Man kommt nicht hierher, um auf seinem Zimmer zu sitzen. Deshalb haben wir große, offene Wohnräume und ruhige Ecken auf jeder Etage zum Zurückziehen gewählt. Jede Entscheidung — von der Aufteilung bis zu den zwei Buderus-Heizkesseln — wurde aus einer Frage heraus getroffen: Was braucht eine große Gruppe wirklich?"
+    },
+    "utilities": {
+      "title": "Fairer Verbrauch",
+      "description": "Bei ArdenNest glauben wir an Transparenz. Statt eines hohen Pauschalpreises zahlen Sie bei einer Direktbuchung nur für das, was Sie tatsächlich an Heizung, Wasser und Abfallentsorgung verbrauchen. Eine kleine Gruppe zahlt weniger als eine große — fairer geht es nicht."
+    },
+    "greenKey": {
+      "title": "Green Key Kandidat",
+      "description": "Wir arbeiten auf das Green Key Label hin, das internationale Umweltzeichen für nachhaltigen Tourismus."
+    },
+    "certified": {
+      "title": "Zertifiziertes Ferienhaus",
+      "description": "Keine selbsterklärte Qualität — ArdenNest ist offiziell anerkannt und zertifiziert von Tourismus Wallonien. Das bedeutet, dass das Haus strenge Normen für Sicherheit, Komfort und Hygiene erfüllt. Für Sie ist das die Garantie, dass Sie bei einem professionellen Vermieter buchen, nicht bei einem Amateur."
+    },
+    "ventilation": {
+      "title": "Leise Zentrallüftung",
+      "description": "Alle Badezimmer sind mit leiser Zentrallüftung ausgestattet. Optimale Luftqualität ohne störende Geräusche."
+    },
+    "viewAll": "Mehr entdecken"
+  },
+  "whyBookDirect": {
+    "title": "Warum direkt buchen?",
+    "subtitle": "Die Vorteile einer Direktbuchung bei uns",
+    "benefits": {
+      "price": {
+        "title": "Bester Preis garantiert",
+        "description": "Keine OTA-Provisionen bedeutet den besten Preis für Sie"
+      },
+      "contact": {
+        "title": "Direkter Kontakt mit uns",
+        "description": "Fragen? Wir kennen das Haus wie kein anderer"
+      },
+      "flexibility": {
+        "title": "Maximale Flexibilität",
+        "description": "Persönliche Vereinbarungen und Maßarbeit möglich"
+      },
+      "welcome": {
+        "title": "Persönlicher Empfang",
+        "description": "Christophe begrüßt jede Gruppe persönlich"
+      }
+    }
+  }
+}

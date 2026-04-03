@@ -1,0 +1,64 @@
+{
+  "nav": {
+    "home": "Home",
+    "property": "Het Huis",
+    "differentiators": "Wat Ons Onderscheidt",
+    "surroundings": "Omgeving",
+    "about": "Over Ons",
+    "contact": "Contact",
+    "booking": "Beschikbaarheid",
+    "bookDirect": "Boek Direct"
+  },
+  "footer": {
+    "contact": "Contact",
+    "phone": "Telefoon",
+    "email": "E-mail",
+    "quickLinks": "Snelle Links",
+    "documentsInfo": "Info & legale docs",
+    "houseRules": "Huisregels",
+    "checklist": "Vertrekchecklist",
+    "localTips": "Winkels",
+    "earlyArrival": "Vroege Aankomst",
+    "rentalTerms": "Verhuurvoorwaarden",
+    "cancellation": "Annuleringsbeleid",
+    "privacy": "Privacybeleid",
+    "downloadAll": "Download alle documenten",
+    "followUs": "Volg Ons",
+    "copyright": "© 2026 ArdenNest. Alle rechten voorbehouden.",
+    "googleReviews": "Google Reviews",
+    "stars": "sterren",
+    "homeowners": "Huiseigenaars",
+    "journal": "Journal",
+"alsoAvailableIn": "Ook beschikbaar in:",
+    "tagline": "Al sinds 2003 verwelkomen wij families en vriendengroepen. Max. 18 volwassenen. Voorheen Ferme du Château.",
+    "location": "Ardennen, België"
+  },
+  "cta": {
+    "viewAvailability": "Bekijk beschikbaarheid",
+    "contactUs": "Neem contact op",
+    "bookNow": "Boek nu",
+    "learnMore": "Meer weten",
+    "callUs": "Bel ons",
+    "emailUs": "Mail ons",
+    "whatsapp": "WhatsApp"
+  },
+  "language": {
+    "nl": "Nederlands",
+    "fr": "Français",
+    "en": "English",
+    "de": "Deutsch"
+  },
+  "notFound": {
+    "heading": "Fout 404",
+    "title": "Deze tunnel gaat nergens naartoe.",
+    "orDoesIt": "Of toch wel?",
+    "tunnelName": "Tunnel tussen Bohan-sur-Semois en Membre",
+    "railwayLine": "Oude spoorlijn 163 (Bertrix–Gedinne)",
+    "outOfService": "Buiten dienst sinds 1959",
+    "nowRavel": "Nu RAVeL-fietsroute",
+    "distance": "1u10 fietsen van ArdenNest",
+    "viewOnMap": "Bekijk op Google Maps",
+    "backHome": "Terug naar Home"
+  },
+  "redirectBanner": "Ferme du Château heet voortaan ArdenNest — meer dan een huis, jullie nest in de Ardennen."
+}

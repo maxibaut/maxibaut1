@@ -1,0 +1,52 @@
+{
+  "seo": {
+    "title": "Is your business found by AI? | BizBuz",
+    "description": "How ArdenNest discovered that AI systems couldn't find their business — and why that led to BizBuz.ai. Free scan for every entrepreneur."
+  },
+  "badge": "20+ years tech · software · strategy",
+  "title": "How visible is your business to ChatGPT, Gemini and Claude?",
+  "intro": "AI systems like ChatGPT and Google AI Overviews read websites differently than humans — and most businesses aren't built for that. BizBuz scans your website and tells you in plain language what AI systems can find about your business — and what you can do about it. 73 checks, 8 pillars, one clear score out of 100. Built by a software engineer with 20+ years of experience, who discovered this problem firsthand with this very website.",
+  "whyRelevant": {
+    "title": "Why this matters",
+    "content": "More and more people are asking their questions not to Google, but to ChatGPT, Gemini or Copilot. AI mentions only 3 to 5 businesses per answer — where Google still showed 10 links. If your website isn't readable by those systems, you simply don't exist in their answer. BizBuz analyses 73 technical factors across 8 pillars: from structural readability and entity identity to content answerability and online reputation."
+  },
+  "expertise": {
+    "title": "Technical background",
+    "software": {
+      "title": "Software Engineering",
+      "description": "11+ years at Wolters Kluwer Financial Services — quality automation, on-site implementations, enterprise software (FinArch/Fibre)"
+    },
+    "ai": {
+      "title": "Process Automation & AI",
+      "description": "ClickUp Expert & Claude Code Architect at Fourcast — digital transformation with AI tools and process automation"
+    },
+    "bid": {
+      "title": "Bid Management & Strategy",
+      "description": "Full tender process — from market scanning to submission. Tenders in Flanders and Wallonia"
+    },
+    "platform": {
+      "title": "Online Platform Specialist",
+      "description": "Building and optimising online platforms — from learning environments to client portals"
+    }
+  },
+  "origin": {
+    "title": "The origin of BizBuz",
+    "story1": "When Christophe & Bieke started their group accommodation in 2003, he built the website himself. The rental ran without Booking.com, without Airbnb — purely on their own. With a fascination for SEO, he managed to keep the calendar full and stay highly visible on Google for years.",
+    "story2": "A lot has changed since then, but that fascination remained: how do you claim your spot in search results as a small player? With the rise of AI, history is repeating itself. New rules, same question.",
+    "story3": "BizBuz emerged when he built his new website via AI in early 2026 and noticed that AI delivers good work but without all the necessary steps to optimise discoverability. SEO and GEO are not the same — and BizBuz is the first tool in Belgium that measures this.",
+    "story3_link_prefix": "A scan via ",
+    "story3_link_text": "bizbuz.ai",
+    "story3_link_suffix": " is free, no account needed, no waiting."
+  },
+  "cta": "Scan your website for free",
+  "festinaLente": {
+    "subtitle": "Festina Lente",
+    "text1": "BizBuz is an initiative of Festina Lente bv. The name — Latin for \"make haste slowly\" — reflects our philosophy: research thoroughly, build thoughtfully, and deliver value step by step.",
+    "text2": "We believe that every Belgian entrepreneur deserves clear, actionable insights about their online visibility — without jargon, without expensive consultants. Every action point includes a copyable prompt for ChatGPT or Claude, or a ready-made briefing for your web developer."
+  },
+  "score": {
+    "title": "Our own score: 43/100",
+    "alt": "BizBuz result for ardennest.be: score 43 out of 100 — Moderate"
+  },
+  "attribution": "BizBuz.ai is an initiative by Christophe, co-owner of ArdenNest."
+}

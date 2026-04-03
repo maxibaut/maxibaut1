@@ -1,0 +1,184 @@
+{
+  "seo": {
+    "title": "ArdenNest | Gîte pour 26 personnes dans les Ardennes",
+    "description": "Luxe discret pour des moments ensemble. Gîte avec 9 chambres, salles de bain privatives et cuisine professionnelle. Depuis 2003, nous accueillons les familles."
+  },
+  "differentiatorsSeo": {
+    "title": "Ce qui rend ArdenNest unique | ArdenNest",
+    "description": "Accompagnement personnel, cuisine professionnelle, coûts tout compris et luxe discret dans chaque détail. Découvrez pourquoi nos hôtes reviennent depuis 22 ans."
+  },
+  "hero": {
+    "headline": "Luxe discret pour des moments ensemble",
+    "h1": "Gîte pour 26 personnes dans les Ardennes belges",
+    "subheadline": "22 ans d'expérience dans l'accueil des familles dans les Ardennes",
+    "cta": {
+      "primary": "Voir les disponibilités",
+      "secondary": "Nous contacter"
+    }
+  },
+  "trust": {
+    "sectionTitle": "Pourquoi les familles font confiance à ArdenNest",
+    "googleReviews": "Avis Google",
+    "stars": "étoiles",
+    "reviewCount": "50+ avis",
+    "experience": "Depuis 2003",
+    "experienceDetail": "Accueillir des familles depuis 2003",
+    "capacity": "26 personnes",
+    "capacityDetail": "Groupes mixtes avec max. 18 adultes"
+  },
+  "differentiators": {
+    "sectionTitle": "Ce qui rend ArdenNest spécial",
+    "h1": "Tout ce qui sert à être ensemble. Rien qui en détourne.",
+    "sectionSubtitle": "Découvrez pourquoi nos hôtes reviennent",
+    "customerJourney": {
+      "title": "Accompagnement Personnel",
+      "description": "Vous organisez — nous réfléchissons avec vous. Dès votre première question jusqu'au moment où vous tirez la porte derrière vous, vous avez un seul interlocuteur : Bieke. Pas de centre d'appels, pas de chatbot, pas de formulaire qui disparaît dans une file d'attente. Une personne qui connaît la maison, connaît la région et vous aide à en faire un week-end sans souci.",
+      "feature1": "Un interlocuteur unique — de la réservation au départ, toujours la même personne au bout du fil.",
+      "feature2": "Échéances de paiement claires — pas de coûts cachés, pas de surprises après coup.",
+      "feature3": "Quelque chose d'oublié ? Les objets laissés sur place sont renvoyés — sans tracas.",
+      "feature4": "Conseils sur mesure — nous vivons ici depuis 25 ans et connaissons chaque promenade, chaque restaurant et chaque activité des environs."
+    },
+    "kitchenPro": {
+      "title": "Cuisine de Niveau Professionnel",
+      "description": "Pas une cuisine de vacances ordinaire. Ici, c'est du matériel de restaurant — conçu pour fonctionner quotidiennement pour 26 personnes. Tout est de qualité professionnelle, jusqu'au système d'extinction au-dessus de la cuisinière.",
+      "feature1": "Lacanche Cluny — cuisinière digne d'un restaurant avec four gastronorme et compartiment chauffe-plats",
+      "feature2": "2 lave-vaisselle Miele Professional — tout propre en 30 minutes",
+      "feature3": "Réfrigérateur professionnel et cellier frais — de la place pour toutes les courses du groupe",
+      "feature4": "Système d'extinction au-dessus de la cuisinière — sécurité incendie aux normes professionnelles"
+    },
+    "gardenFull": {
+      "title": "Le Jardin",
+      "description": "Rien n'est droit, rien n'est rigide — un immense paysage vallonné où les enfants disparaissent pendant des heures et où les adultes se détendent. Plus qu'assez d'espace pour courir, jouer et découvrir, sans se gêner mutuellement. Pas de piscine à surveiller, juste un espace sans fin. Toujours soigneusement entretenu.",
+      "feature1": "Terrain de football, filet de volley et boulodrome — assez de choix pour tous les âges, sans rien devoir apporter.",
+      "feature2": "Coins cachés à travers le jardin — les enfants découvrent toujours quelque chose de nouveau. Construire des cabanes, jouer à cache-cache, chasse au trésor.",
+      "feature3": "3 grands bancs et 10 transats professionnels avec tables — les adultes se détendent pendant que les enfants jouent. Tout le monde en vue.",
+      "feature4": "Terrasse entre la maison et le jardin avec 2 barbecues — la transition parfaite entre intérieur et extérieur. Apéritifs en groupe pendant que les enfants s'amusent encore."
+    },
+    "gameRoom": {
+      "title": "La Salle de Jeux",
+      "description": "L'endroit où les ados lâchent leur téléphone et les adultes redeviennent des gamins. Un bâtiment séparé avec de l'espace pour jouer sans déranger le reste de la maison — ni être dérangé. Idéal pour un après-midi pluvieux ou un tournoi après le dîner.",
+      "feature1": "Billard professionnel — le point central de chaque soirée. Attendez-vous à des débats animés sur les règles maison.",
+      "feature2": "Baby-foot — pour les matches acharnés entre générations. Grands-parents contre petits-enfants, un classique.",
+      "feature3": "Collection étendue de jeux de société — des jeux de cartes rapides aux longues soirées stratégiques. Quelque chose pour chaque groupe.",
+      "feature4": "Gaming rétro — pour les amateurs qui veulent replonger dans les années 80 et 90."
+    },
+    "playBarn": {
+      "title": "L'Écurie de Jeux",
+      "description": "L'ancienne écurie qui abritait autrefois les chevaux de trait est maintenant un paradis pour les tout-petits. Couverte, sûre et juste à côté de la maison — les bambins s'amusent ici pendant des heures tandis que les parents prennent tranquillement un café sur la terrasse.",
+      "feature1": "Karts et draisiennes — faire des tours sur l'asphalte devant la ferme. Garanti la première chose qu'ils veulent faire chaque matin.",
+      "feature2": "Voiturettes à pédales et tracteurs — pour les petits ouvriers et fermiers en herbe. Des jouets solides qui résistent aux chocs.",
+      "feature3": "Tricycles pour les tout-petits — même les plus jeunes participent. Aucun enfant ne s'ennuie ici.",
+      "feature4": "Dessin à la craie et jeu libre — la cour de la ferme est une immense toile. Rien à apporter, tout est là."
+    },
+    "dishCabinetFeature1": "Contrôle complet de l'inventaire — du vaisselier à la salle de jeux, tout est compté et vérifié.",
+    "dishCabinetFeature2": "Matériel en double — nous gardons beaucoup d'articles en double stock. Cassé ou manquant ? Remplacé immédiatement, sans que vous le remarquiez.",
+    "dishCabinetFeature3": "Impeccable à l'arrivée — après chaque séjour, toute la maison est nettoyée en profondeur. De la cuisine aux salles de bain, des espaces de vie aux chambres — jusque dans les recoins.",
+    "dishCabinetFeature4": "Pas de surprises — vous ouvrez la porte d'une maison prête comme si c'était la première fois. Tout complet, tout propre, tout fonctionne. Rangez vos courses et profitez.",
+    "professionalEquipmentFeature1": "Casseroles et poêles de qualité professionnelle",
+    "professionalEquipmentFeature2": "Ustensiles de cuisine professionnels",
+    "professionalEquipmentFeature3": "Adapté aux grands groupes",
+    "professionalEquipmentFeature4": "Tout ce dont vous avez besoin",
+    "livingOnSiteFeature1": "Propriétaire sur le domaine — pas de gestionnaire à distance, mais Bieke et Christophe juste à côté.",
+    "livingOnSiteFeature2": "Des conseils locaux introuvables ailleurs — la meilleure balade, le restaurant où mangent les locaux, le marché ouvert uniquement le jeudi.",
+    "livingOnSiteFeature3": "Conception réfléchie — deux chaudières par précaution et pour une consommation économe. Rien n'est laissé au hasard, tout est un choix délibéré.",
+    "livingOnSiteFeature4": "La maison évolue avec nous — après 25 ans, nous savons exactement ce dont les grands groupes ont besoin, et nous continuons à investir.",
+    "utilitiesFeature1": "Accueil chaleureux — la maison est toujours chauffée à une température agréable à votre arrivée. Vous commencez confortablement.",
+    "utilitiesFeature2": "Facturation claire — après votre séjour, vous recevez un aperçu détaillé. Pas d'estimations, pas de forfaits.",
+    "utilitiesFeature3": "Contrôle & confiance — les relevés de compteurs sont photographiés à l'arrivée et au départ. Transparent pour les deux parties.",
+    "utilitiesFeature4": "Candidat Green Key — nous travaillons vers le label international pour le tourisme durable. La consommation équitable en est la première étape.",
+    "utilitiesFeature5": "Compensez votre trajet — vous souhaitez compenser les émissions de CO₂ de votre voyage vers ArdenNest ? C'est facile via Greentripper — un système belge certifié de compensation carbone pour les voyages.",
+    "greenKeyFeature1": "Candidat label Green Key",
+    "greenKeyFeature2": "Tourisme durable",
+    "greenKeyFeature3": "Choix respectueux de l'environnement",
+    "greenKeyFeature4": "Respect de la nature",
+    "certifiedFeature1": "Certifié par le Tourisme de Wallonie — reconnaissance officielle après inspection du confort, de la sécurité et de l'équipement.",
+    "certifiedFeature2": "Contrôle périodique de sécurité incendie — la maison est régulièrement contrôlée par les pompiers. Y compris un système d'extinction au-dessus du fourneau.",
+    "certifiedFeature3": "Assurance adaptée — spécifiquement conçue pour les séjours de groupe jusqu'à 26 personnes. Vous êtes entièrement couverts.",
+    "certifiedFeature4": "Réservez en toute confiance — pas de zone grise, pas de risque. Tout est en ordre, tout est contrôlé, tout est assuré.",
+    "ventilationFeature1": "Ventilation centrale silencieuse",
+    "ventilationFeature2": "Dans toutes les salles de bain",
+    "ventilationFeature3": "Qualité d'air optimale",
+    "ventilationFeature4": "Pas de bruit gênant",
+    "cta": {
+      "title": "Convaincu ?",
+      "description": "Consultez les disponibilités et réservez directement chez nous pour le meilleur prix et un service personnalisé.",
+      "availability": "Voir les disponibilités",
+      "contact": "Nous contacter"
+    },
+    "quietLuxury": {
+      "title": "Luxe Discret",
+      "description": "Pas de piscine, pas de sauna — c'est un choix. Nous investissons dans ce qui compte vraiment quand un grand groupe se retrouve : une cuisine professionnelle où cuisiner pour 26 est un plaisir, une salle de bain privative dans chaque chambre, et une table où tout le monde s'assoit ensemble. Une qualité réfléchie que vous ressentez, sans avoir à y penser.",
+      "feature1": "L'être-ensemble avant le divertissement — une maison conçue pour vivre ensemble, pas pour chercher l'amusement.",
+      "feature2": "Le confort avant l'apparat — tout fonctionne, tout est là, tout est propre. Vous n'avez qu'à venir.",
+      "feature3": "L'espace avant l'agitation — 2 hectares de jardin où les enfants disparaissent et les adultes retrouvent le calme.",
+      "feature4": "La qualité avant la quantité — du fourneau Lacanche à la literie De Witte Lietaer : moins de features, des standards plus élevés."
+    },
+    "kitchen": {
+      "title": "Cuisine de Niveau Professionnel",
+      "description": "Cuisiner pour 26 n'est pas une corvée ici — c'est le moment fort de la journée. Fourneau Lacanche, 2 lave-vaisselle Miele Professional et assez de place au frais pour tout le groupe."
+    },
+    "garden": {
+      "title": "Jardin Sans Fin",
+      "description": "Un immense paysage vallonné où les enfants disparaissent pendant des heures et les adultes se détendent. Terrain de football, pétanque, coins cachés et une terrasse avec barbecue."
+    },
+    "mattresses": {
+      "title": "Dormir avec Style",
+      "description": "Une bonne nuit commence par ce que vous ressentez. C'est pourquoi nous avons choisi De Witte Lietaer — un savoir-faire flamand que vous sentez dès que vous glissez sous les draps. Se réveiller reposé est la base d'un séjour réussi.",
+      "feature1": "Lits boxspring avec matelas de 25 cm d'épaisseur",
+      "feature2": "Linge de lit De Witte Lietaer",
+      "feature3": "Pur satin de coton — d'une douceur soyeuse",
+      "feature4": "Entreprise familiale belge, référence qualité depuis 1898"
+    },
+    "dishCabinet": {
+      "title": "Contrôle Après Chaque Client",
+      "description": "Vous ne devez jamais subir les conséquences du groupe précédent. C'est pourquoi nous inspectons toute la maison après chaque séjour : chaque armoire, chaque assiette, chaque verre, chaque casserole. Ce qui est cassé est réparé, ce qui manque est complété — avant l'arrivée du prochain hôte. Cela semble évident, mais pour une maison de 26, ce ne l'est pas."
+    },
+    "professionalEquipment": {
+      "title": "Matériel Professionnel",
+      "description": "Casseroles et poêles de qualité professionnelle. Cuisiner pour 26 personnes avec le bon équipement."
+    },
+    "livingOnSite": {
+      "title": "25 Ans Sur Place",
+      "description": "Ce n'est pas un investissement à distance — nous vivons ici. Depuis 2000, cette ferme de 1849 est notre maison. Le concept entier est le nôtre : une maison où le groupe compte plus que la chambre individuelle. On ne vient pas ici pour rester dans sa chambre. C'est pourquoi nous avons choisi de grands espaces de vie ouverts et des coins tranquilles à chaque étage pour s'isoler. Chaque choix — de l'agencement aux deux chaudières Buderus — a été fait à partir d'une seule question : de quoi un grand groupe a-t-il vraiment besoin ?"
+    },
+    "utilities": {
+      "title": "Consommation Équitable",
+      "description": "Chez ArdenNest, nous croyons en la transparence. Au lieu d'un forfait élevé, en réservation directe vous ne payez que ce que vous consommez réellement en chauffage, eau et traitement des déchets. Un petit groupe paie moins qu'un grand — on ne fait pas plus équitable."
+    },
+    "greenKey": {
+      "title": "Candidat Green Key",
+      "description": "Nous travaillons vers le label Green Key, le label écologique international pour le tourisme durable."
+    },
+    "certified": {
+      "title": "Gîte Certifié",
+      "description": "Pas de qualité auto-déclarée — ArdenNest est officiellement reconnu et certifié par le Tourisme de Wallonie. Cela signifie que la maison répond à des normes strictes de sécurité, de confort et d'hygiène. Pour vous, c'est la garantie de réserver chez un hébergeur professionnel, pas chez un amateur."
+    },
+    "ventilation": {
+      "title": "Ventilation Centrale Silencieuse",
+      "description": "Toutes les salles de bain sont équipées d'une ventilation centrale silencieuse. Qualité d'air optimale sans bruit gênant."
+    },
+    "viewAll": "Découvrir plus"
+  },
+  "whyBookDirect": {
+    "title": "Pourquoi réserver directement?",
+    "subtitle": "Les avantages de réserver chez nous",
+    "benefits": {
+      "price": {
+        "title": "Meilleur prix garanti",
+        "description": "Pas de commissions OTA signifie le meilleur prix pour vous"
+      },
+      "contact": {
+        "title": "Contact direct avec nous",
+        "description": "Des questions? Nous connaissons la maison comme personne"
+      },
+      "flexibility": {
+        "title": "Flexibilité maximale",
+        "description": "Arrangements personnels et sur mesure possibles"
+      },
+      "welcome": {
+        "title": "Accueil personnel",
+        "description": "Christophe accueille chaque groupe personnellement"
+      }
+    }
+  }
+}

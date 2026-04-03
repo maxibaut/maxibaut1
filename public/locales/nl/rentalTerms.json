@@ -1,0 +1,154 @@
+{
+  "seo": {
+    "title": "Huurvoorwaarden | ArdenNest - Vakantiewoning Ardennen",
+    "description": "Algemene huurvoorwaarden voor uw verblijf bij ArdenNest. Alles over betalingsvoorwaarden, waarborg, annulering en huisregels op één plek."
+  },
+  "pageTitle": "Huurvoorwaarden",
+  "h1": "Algemene huurvoorwaarden — betaling, annulering en waarborg bij ArdenNest",
+  "pageSubtitle": "Deze huurvoorwaarden zijn van toepassing op alle reserveringen bij ArdenNest. Door te boeken gaan jullie akkoord met onderstaande bepalingen.",
+  "downloadButton": "Download huurvoorwaarden",
+  "accommodation": "Accommodatie",
+  "accommodationValue": "Rue de la Ferme 3, 5575 Malvoisin",
+  "website": "Website",
+  "websiteValue": "www.ArdenNest.be",
+  "operator": "Uitbater",
+  "operatorValue": "Festina Lente bv",
+  "vatNumber": "BTW-nummer",
+  "vatNumberValue": "BE 0475 117 084",
+  "version": "Versie",
+  "versionValue": "Januari 2026",
+  "intro": "Deze huurvoorwaarden zijn van toepassing op alle reserveringen bij ArdenNest. Door te boeken gaan jullie akkoord met onderstaande bepalingen. Vragen? Neem gerust contact met ons op.",
+  "articles": [
+    {
+      "number": 1,
+      "title": "Reservering en bevestiging",
+      "content": "Na het versturen van het contract blokkeren we de periode 48 uur voor jullie. Ontvangen we het voorschot en ondertekend contract niet binnen die tijd, dan komt de periode automatisch weer vrij. Pas na ontvangst van beide is de reservering definitief."
+    },
+    {
+      "number": 2,
+      "title": "Recht op weigering",
+      "content": "Wij behouden ons het recht voor om een reservering te weigeren of te annuleren."
+    },
+    {
+      "number": 3,
+      "title": "Akkoord met voorwaarden",
+      "content": "Door het voorschot te betalen gaan jullie akkoord met deze huurvoorwaarden én de huisregels. Bij het niet naleven hiervan kunnen we de waarborg (gedeeltelijk) inhouden."
+    },
+    {
+      "number": 4,
+      "title": "Maximumcapaciteit",
+      "content": "De maximumcapaciteit is 26 personen, waarvan maximaal 18 volwassenen (18+). Overschrijden is niet toegestaan."
+    },
+    {
+      "number": 5,
+      "title": "Gastenregistratie",
+      "content": "Uiterlijk 1 week vóór aankomst vragen we jullie de gegevens te verzamelen voor het wettelijk verplichte gastenregistratieformulier — voor iedereen die (ook maar deels) tijdens het verblijf aanwezig is."
+    },
+    {
+      "number": 6,
+      "title": "Controle na verblijf",
+      "content": "Na het verblijf controleren we het gastenregistratieformulier en het aantal gebruikte bedden. Zijn er meer bedden gebruikt dan het opgegeven aantal gasten? Dan passen we de toeristenbelasting en kosten per persoon aan."
+    },
+    {
+      "number": 7,
+      "title": "Dagbezoek",
+      "content": "Niet-logerende gasten (dagbezoek) zijn niet toegestaan."
+    },
+    {
+      "number": 8,
+      "title": "Onderverhuur",
+      "content": "Onderverhuren van de woning is niet toegestaan."
+    },
+    {
+      "number": 9,
+      "title": "Brandverzekering",
+      "content": "Wij hebben een brandverzekering met afstand van verhaal. Dit betekent dat jullie bij brand niet aansprakelijk zijn, behalve bij opzet. Wel geldt een wettelijke franchise (jaarlijks geïndexeerd) — vraag ons naar het actuele bedrag. Conform de Belgische wet hebben wij ook een verzekering objectieve aansprakelijkheid bij brand of ontploffing."
+    },
+    {
+      "number": 10,
+      "title": "Diefstal",
+      "content": "Wij zijn niet verantwoordelijk voor diefstal. Bewaar waardevolle spullen veilig."
+    },
+    {
+      "number": 11,
+      "title": "Betalingen",
+      "content": "• Voorschot — binnen 48 uur na ontvangst van het contract\n• Saldo — uiterlijk 30 dagen vóór aankomst\n• Waarborg (€750) — uiterlijk 30 dagen vóór aankomst"
+    },
+    {
+      "number": 12,
+      "title": "Dossierkosten",
+      "content": "Bij een derde betalingsherinnering rekenen we €60 administratiekosten aan."
+    },
+    {
+      "number": 13,
+      "title": "Terugbetaling waarborg",
+      "content": "De waarborg storten we binnen 14 dagen na vertrek terug, mits er geen schade is. Zijn de kosten hoger dan de waarborg? Dan vragen we jullie het verschil binnen 8 dagen te betalen."
+    },
+    {
+      "number": 14,
+      "title": "Inchecken",
+      "content": "Jullie kunnen pas inchecken na volledige betaling van het totaalbedrag én de waarborg."
+    },
+    {
+      "number": 15,
+      "title": "Niet-betaling",
+      "content": "Bij het niet naleven van het betalingsschema kunnen wij de verhuur annuleren. De standaard annuleringsvoorwaarden zijn dan van toepassing."
+    },
+    {
+      "number": 16,
+      "title": "Vroegtijdig vertrek",
+      "content": "Vroegtijdig vertrek — om welke reden dan ook — geeft geen recht op (gedeeltelijke) terugbetaling."
+    },
+    {
+      "number": 17,
+      "title": "Annuleringskosten",
+      "content": "• Tot 56 dagen vóór aankomst — 30% van het totaalbedrag\n• 55 tot 30 dagen vóór aankomst — 60% van het totaalbedrag\n• Vanaf 29 dagen vóór aankomst — 100% van het totaalbedrag"
+    },
+    {
+      "number": 18,
+      "title": "Aankomsttijd",
+      "content": "Inchecken kan vanaf het tijdstip op jullie contract (standaard 16:00). Laat ons even weten hoe laat jullie verwachten aan te komen."
+    },
+    {
+      "number": 19,
+      "title": "Uitleg bij aankomst",
+      "content": "Bij aankomst geven we uitleg over de apparatuur, afvalsortering en de vertrekchecklist."
+    },
+    {
+      "number": 20,
+      "title": "Staat bij vertrek",
+      "content": "Bij vertrek dient het huis in dezelfde staat te zijn als bij aankomst. Eventuele schade verrekenen we met de waarborg."
+    },
+    {
+      "number": 21,
+      "title": "Geschillen en toepasselijk recht",
+      "content": "Bij geschillen is uitsluitend de rechtbank van het arrondissement Kortrijk bevoegd. Op deze overeenkomst is Belgisch recht van toepassing."
+    },
+    {
+      "number": 22,
+      "title": "Aansprakelijkheid minderjarigen",
+      "content": "Ouders, voogden of begeleiders zijn te allen tijde verantwoordelijk voor minderjarigen in hun gezelschap. Schade veroorzaakt door minderjarigen wordt verhaald op de huurder en verrekend met de waarborg."
+    },
+    {
+      "number": 23,
+      "title": "Overmacht",
+      "content": "Bij overmacht (zoals natuurrampen, pandemie, overheidsmaatregelen of andere onvoorziene omstandigheden buiten onze wil) kunnen wij niet aansprakelijk worden gesteld. In overleg zoeken we naar een passende oplossing, zoals een alternatieve datum. Terugbetaling is in geval van overmacht niet gegarandeerd, maar we streven altijd naar een faire oplossing."
+    },
+    {
+      "number": 24,
+      "title": "Sleutels",
+      "content": "Bij het inchecken ontvangen jullie de sleutels van de woning. Deze dienen bij vertrek weer te worden ingeleverd op de afgesproken locatie. Bij verlies of het niet-inleveren van sleutels worden de kosten voor vervanging (inclusief eventuele aanpassing van het slot) in rekening gebracht en verrekend met de waarborg."
+    },
+    {
+      "number": 25,
+      "title": "Storingen en defecten",
+      "content": "Mocht er tijdens het verblijf iets kapotgaan of niet naar behoren werken (bijv. vaatwasser, verwarming), neem dan zo snel mogelijk contact met ons op. Wij doen ons best om het probleem snel te verhelpen. Een storing geeft geen recht op (gedeeltelijke) terugbetaling, tenzij de woning hierdoor onbewoonbaar wordt en wij geen oplossing kunnen bieden."
+    }
+  ],
+  "closing": "Vragen over deze voorwaarden? We staan voor jullie klaar.",
+  "contact": {
+    "email": "bieke@ardennest.be",
+    "phone": "+32 478 03 03 52"
+  },
+  "signature": "ArdenNest • Festina Lente • Al sinds 2003 gastvrij in de Ardennen"
+}

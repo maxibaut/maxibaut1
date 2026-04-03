@@ -1,0 +1,184 @@
+{
+  "seo": {
+    "title": "ArdenNest | Holiday Home for 26 guests in the Ardennes",
+    "description": "Quiet luxury for moments together. Holiday home with 9 bedrooms, ensuite bathrooms and professional kitchen. Welcoming families since 2003."
+  },
+  "differentiatorsSeo": {
+    "title": "What makes ArdenNest special | ArdenNest",
+    "description": "Personal guidance, professional kitchen, all-inclusive pricing and quiet luxury in every detail. Discover why guests have been returning for 22 years."
+  },
+  "hero": {
+    "headline": "Quiet luxury for moments together",
+    "h1": "Holiday home for 26 guests in the Belgian Ardennes",
+    "subheadline": "22 years of experience welcoming families to the Ardennes",
+    "cta": {
+      "primary": "View availability",
+      "secondary": "Contact us"
+    }
+  },
+  "trust": {
+    "sectionTitle": "Why families trust ArdenNest",
+    "googleReviews": "Google Reviews",
+    "stars": "stars",
+    "reviewCount": "50+ reviews",
+    "experience": "Since 2003",
+    "experienceDetail": "Welcoming families since 2003",
+    "capacity": "26 guests",
+    "capacityDetail": "Mixed groups with max. 18 adults"
+  },
+  "differentiators": {
+    "sectionTitle": "What makes ArdenNest special",
+    "h1": "Everything that serves togetherness. Nothing that distracts from it.",
+    "sectionSubtitle": "Discover why guests keep returning",
+    "customerJourney": {
+      "title": "Personal Guidance",
+      "description": "You organise — we think along. From your first question to the moment you pull the door shut behind you, you have one point of contact: Bieke. No call centre, no chatbot, no form disappearing into a queue. One person who knows the house, knows the area, and helps you make it a carefree weekend.",
+      "feature1": "One dedicated contact — from booking to departure, always the same person on the line.",
+      "feature2": "Clear payment terms — no hidden costs, no surprises afterwards.",
+      "feature3": "Forgotten something? Left-behind items are sent back — no hassle.",
+      "feature4": "Tailored tips — we've lived here for 25 years and know every walk, every restaurant and every activity in the area."
+    },
+    "kitchenPro": {
+      "title": "Restaurant-Grade Kitchen",
+      "description": "Not your typical holiday kitchen. This is restaurant-grade equipment — built to run daily for 26 people. Everything is professional quality, right down to the fire suppression system above the stove.",
+      "feature1": "Lacanche Cluny — restaurant-worthy stove with gastronorm oven and warming drawer",
+      "feature2": "2 Miele Professional dishwashers — everything clean in 30 minutes",
+      "feature3": "Professional fridge and cool pantry — room for all the group's groceries",
+      "feature4": "Fire suppression system above the stove — safety to professional standards"
+    },
+    "gardenFull": {
+      "title": "The Garden",
+      "description": "Nothing is straight, nothing is rigid — a vast rolling landscape where children disappear for hours and adults unwind. More than enough space to run, play and discover, without getting in each other's way. No swimming pool to watch over, just endless space. Always well-maintained.",
+      "feature1": "Football field, volleyball net and pétanque lane — plenty of choice for all ages, without bringing anything.",
+      "feature2": "Hidden spots throughout the garden — children always discover something new. Building dens, hide and seek, treasure hunts.",
+      "feature3": "3 large benches and 10 professional sun loungers with side tables — adults relax while the children play. Everyone in sight.",
+      "feature4": "Terrace between house and garden with 2 barbecues — the perfect transition between inside and outside. Aperitifs with the group while the children keep playing."
+    },
+    "gameRoom": {
+      "title": "The Games Room",
+      "description": "The place where teenagers put down their phones and adults become twelve again. A separate building with space to play without disturbing the rest of the house — or being disturbed. Ideal for a rainy afternoon or a tournament after dinner.",
+      "feature1": "Professional pool table — the centrepiece of every evening. Expect heated debates about house rules.",
+      "feature2": "Table football — for the competitive matches between generations. Grandparents vs. grandchildren is a classic.",
+      "feature3": "Extensive board game collection — from quick card games to long strategic evenings. Something for every group.",
+      "feature4": "Retro gaming — for enthusiasts who want to drift back to the '80s and '90s."
+    },
+    "playBarn": {
+      "title": "The Play Barn",
+      "description": "The former horse stable, once home to draught horses, is now a play paradise for the very young. Covered, safe and right next to the house — toddlers and young children entertain themselves here for hours while parents enjoy coffee on the terrace.",
+      "feature1": "Go-karts and pedal cars — doing laps on the tarmac at the front of the farmhouse. Guaranteed the first thing they want to do every morning.",
+      "feature2": "Pedal cars and tractors — for the little builders and farmers in training. Sturdy toys that can take a beating.",
+      "feature3": "Tricycles for the little ones — even the youngest join in. No child gets bored here.",
+      "feature4": "Chalk drawing and free play — the farmhouse courtyard is one big canvas. Nothing to bring, everything is there."
+    },
+    "dishCabinetFeature1": "Full inventory check — from the dish cabinet to the playroom, everything is counted and inspected.",
+    "dishCabinetFeature2": "Double stock — we keep many items in duplicate. Broken or missing? Immediately replaced, without you noticing.",
+    "dishCabinetFeature3": "Spotless on arrival — after every stay, the entire house is thoroughly cleaned. From kitchen to bathrooms, from living areas to bedrooms — down to the corners.",
+    "dishCabinetFeature4": "No surprises — you open the door to a house that's ready as if it's the first time. Everything complete, everything clean, everything works. Load your groceries and enjoy.",
+    "professionalEquipmentFeature1": "Restaurant-quality pots and pans",
+    "professionalEquipmentFeature2": "Professional cooking utensils",
+    "professionalEquipmentFeature3": "Suitable for large groups",
+    "professionalEquipmentFeature4": "Everything you need",
+    "livingOnSiteFeature1": "Owner on the estate — no remote manager, but Bieke and Christophe right next door.",
+    "livingOnSiteFeature2": "Local tips you won't find anywhere — the best walk, the restaurant where locals eat, the market that's only open on Thursdays.",
+    "livingOnSiteFeature3": "Thoughtful design — two heating boilers for precaution and efficient consumption. Nothing is coincidence, everything is a deliberate choice.",
+    "livingOnSiteFeature4": "The house grows with us — after 25 years we know exactly what large groups need, and we keep investing.",
+    "utilitiesFeature1": "Warm welcome — the house is always heated to a comfortable temperature on arrival. You start in comfort.",
+    "utilitiesFeature2": "Clear billing — after your stay you receive a detailed overview. No estimates, no flat rates.",
+    "utilitiesFeature3": "Control & trust — meter readings are photographically recorded on arrival and departure. Transparent for both sides.",
+    "utilitiesFeature4": "Green Key candidate — we are working towards the international label for sustainable tourism. Fair consumption is the first step.",
+    "utilitiesFeature5": "Offset your journey — want to compensate the CO₂ emissions from your trip to ArdenNest? You can do so easily via Greentripper — a Belgian, certified carbon offset scheme for travel.",
+    "greenKeyFeature1": "Green Key label candidate",
+    "greenKeyFeature2": "Sustainable tourism",
+    "greenKeyFeature3": "Environmentally conscious choices",
+    "greenKeyFeature4": "Respect for nature",
+    "certifiedFeature1": "Certified by Tourism Wallonia — official recognition after inspection on comfort, safety and equipment.",
+    "certifiedFeature2": "Periodic fire safety inspection — the house is regularly inspected by the fire department. Including a sprinkler system above the stove.",
+    "certifiedFeature3": "Tailored insurance — specifically designed for group stays up to 26 people. You are fully covered.",
+    "certifiedFeature4": "Book with confidence — no grey area, no risk. Everything is in order, everything is inspected, everything is insured.",
+    "ventilationFeature1": "Silent central ventilation",
+    "ventilationFeature2": "In all bathrooms",
+    "ventilationFeature3": "Optimal air quality",
+    "ventilationFeature4": "No disruptive noise",
+    "cta": {
+      "title": "Convinced?",
+      "description": "Check availability and book directly with us for the best price and personal service.",
+      "availability": "View availability",
+      "contact": "Contact us"
+    },
+    "quietLuxury": {
+      "title": "Quiet Luxury",
+      "description": "No swimming pool, no sauna — by design. We invest in what truly matters when a large group comes together: a professional kitchen where cooking for 26 is a pleasure, an ensuite bathroom with every bedroom, and one table where everyone sits together. Thoughtful quality you feel, without having to think about it.",
+      "feature1": "Togetherness over entertainment — a house built for living together, not for seeking amusement.",
+      "feature2": "Ease over embellishment — everything works, everything is there, everything is clean. You just need to arrive.",
+      "feature3": "Space over busyness — 2 hectares of garden where children disappear and adults find peace.",
+      "feature4": "Quality over quantity — from the Lacanche stove to the De Witte Lietaer bedding: fewer features, higher standards."
+    },
+    "kitchen": {
+      "title": "Commercial-Grade Kitchen",
+      "description": "Cooking for 26 is not a chore here — it's the highlight of the day. Lacanche stove, 2 Miele Professional dishwashers and enough cold storage for the entire group."
+    },
+    "garden": {
+      "title": "Endless Garden",
+      "description": "A vast rolling landscape where children disappear for hours and adults unwind. Football field, pétanque, hidden spots and a terrace with barbecue."
+    },
+    "mattresses": {
+      "title": "Sleep in Style",
+      "description": "A good night's sleep starts with what you feel. That's why we chose De Witte Lietaer — Flemish craftsmanship you notice the moment you slip between the sheets. Waking up rested is the foundation of a successful stay.",
+      "feature1": "Boxspring beds with 25 cm thick mattresses",
+      "feature2": "Bedding and bed linen by De Witte Lietaer",
+      "feature3": "Pure cotton sateen — silky soft with a subtle sheen",
+      "feature4": "Belgian family business, quality reference since 1898"
+    },
+    "dishCabinet": {
+      "title": "Checked After Every Guest",
+      "description": "You should never be affected by the group before you. That's why we inspect the entire house after every stay: every cupboard, every plate, every glass, every pan. What's broken is repaired, what's missing is replenished — before the next guest arrives. It sounds obvious, but for a house for 26, it's not."
+    },
+    "professionalEquipment": {
+      "title": "Professional Equipment",
+      "description": "Restaurant-quality pots and pans. Cook for 26 people with the right equipment."
+    },
+    "livingOnSite": {
+      "title": "25 Years On-Site",
+      "description": "This is not a remote investment — we live here. Since 2000, this 1849 farmhouse has been our home. The entire concept is ours: a house where the group matters more than the individual room. You don't come here to sit in your room. That's why we chose large, open living spaces and quiet corners on each floor to retreat to. Every choice — from the layout to the two Buderus heating boilers — was made from one question: what does a large group truly need?"
+    },
+    "utilities": {
+      "title": "Fair Consumption",
+      "description": "At ArdenNest, we believe in transparency. Instead of a high flat rate, with a direct booking you only pay for what you actually use in heating, water and waste processing. A small group pays less than a large one — it doesn't get fairer than that."
+    },
+    "greenKey": {
+      "title": "Green Key Candidate",
+      "description": "We are working towards the Green Key label, the international eco-label for sustainable tourism."
+    },
+    "certified": {
+      "title": "Certified Holiday Home",
+      "description": "No self-declared quality — ArdenNest is officially recognized and certified by Tourism Wallonia. This means the house meets strict standards for safety, comfort and hygiene. For you, that's the guarantee you're booking with a professional host, not an amateur."
+    },
+    "ventilation": {
+      "title": "Silent Central Ventilation",
+      "description": "All bathrooms are equipped with silent central ventilation. Optimal air quality without disruptive noise."
+    },
+    "viewAll": "Discover more"
+  },
+  "whyBookDirect": {
+    "title": "Why book direct?",
+    "subtitle": "The benefits of booking directly with us",
+    "benefits": {
+      "price": {
+        "title": "Best price guaranteed",
+        "description": "No OTA commissions means the best price for you"
+      },
+      "contact": {
+        "title": "Direct contact with us",
+        "description": "Questions? We know the house like no one else"
+      },
+      "flexibility": {
+        "title": "Maximum flexibility",
+        "description": "Personal arrangements and customization possible"
+      },
+      "welcome": {
+        "title": "Personal welcome",
+        "description": "Christophe personally welcomes every group"
+      }
+    }
+  }
+}

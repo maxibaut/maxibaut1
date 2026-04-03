@@ -1,0 +1,88 @@
+{
+  "seo": {
+    "title": "Vroege Aankomst | ArdenNest - Tips voor uw wachttijd",
+    "description": "Vroeg aangekomen in de Ardennen? Ontdek onze tips voor leuke uitstapjes terwijl de vakantiewoning wordt schoongemaakt."
+  },
+  "pageTitle": "Vroeg aangekomen?",
+  "h1": "Tips voor de wachttijd — uitstapjes bij Gedinne tot de woning om 16 uur klaar is",
+  "pageSubtitle": "De woning wordt tot 16 uur schoongemaakt. Ontdek hier leuke uitjes om de wachttijd te vullen.",
+  "downloadButton": "Download vroege aankomst",
+  "accommodation": "Accommodatie",
+  "accommodationValue": "Rue de la Ferme 3, 5575 Malvoisin",
+  "website": "Website",
+  "websiteValue": "www.ArdenNest.be",
+  "operator": "Uitbater",
+  "operatorValue": "Festina Lente bv",
+  "version": "Versie",
+  "versionValue": "Januari 2026",
+  "intro": "De woning wordt tot 16 uur schoongemaakt op de dag van aankomst. Om onze poetsploeg in alle rust hun werk te laten doen, is eerder inchecken helaas niet mogelijk. Maar geen nood — de omgeving heeft genoeg te bieden om de wachttijd om te toveren tot het begin van jullie vakantie.",
+  "destinations": [
+    {
+      "name": "Bouillon",
+      "distance": "± 45 minuten",
+      "description": "Het historische stadje met zijn imposante vesting hoog boven de Semois. Verhalen van kruisvaarders en middeleeuwse intriges.",
+      "highlights": [
+        {
+          "name": "De Vesting",
+          "description": "Wandel door eeuwenoude gangen, geniet van het uitzicht. Kinderen vinden de roofvogelshow fantastisch"
+        },
+        {
+          "name": "Le Marché de Nathalie",
+          "description": "Indrukwekkend assortiment streekbieren — neem alvast wat mee voor 's avonds"
+        }
+      ]
+    },
+    {
+      "name": "Rochehaut",
+      "distance": "± 30 minuten",
+      "description": "Pittoresk dorpje met misschien wel het mooiste uitzicht van de regio. Perfect voor een korte stop met de hele groep.",
+      "highlights": [
+        {
+          "name": "Het Uitzichtpunt",
+          "description": "Adembenemend panorama over Frahan en de meanderende Semois — Instagram-materiaal"
+        },
+        {
+          "name": "Agri-Musée",
+          "description": "Leuk museum over het plattelandsleven. Leerzaam voor jong en oud"
+        }
+      ]
+    },
+    {
+      "name": "Han-sur-Lesse",
+      "distance": "± 40 minuten",
+      "description": "Vooral bekend om zijn grotten, maar het dorpje heeft meer te bieden. Ideaal voor gezinnen met kinderen.",
+      "highlights": [
+        {
+          "name": "De Grotten van Han",
+          "description": "Spectaculair! Met een oude tram naar een ondergrondse wereld vol stalactieten. Must-see"
+        },
+        {
+          "name": "Wildpark",
+          "description": "Het grootste van België — spot wolven, lynxen en beren, te voet of per safariauto"
+        }
+      ]
+    },
+    {
+      "name": "Monthermé (Frankrijk)",
+      "distance": "± 50 minuten",
+      "description": "Zin in een uitstapje over de grens? De rit is al een belevenis — kronkelende wegen door dichte bossen langs de Maas.",
+      "highlights": [
+        {
+          "name": "Bootje huren",
+          "description": "Verken de rivier op eigen tempo en geniet van het landschap vanaf het water"
+        },
+        {
+          "name": "Franse gastronomie",
+          "description": "Geniet van een traditioneel gerecht met een goed glas wijn in een lokale bistro"
+        }
+      ]
+    }
+  ],
+  "contact": {
+    "title": "Vragen of hulp nodig?",
+    "content": "Neem gerust contact op",
+    "phone1": "0478 03 03 52",
+    "phone2": "0477 33 53 70"
+  },
+  "signature": "ArdenNest • Festina Lente • Al sinds 2003 gastvrij in de Ardennen"
+}

@@ -1,0 +1,43 @@
+{
+  "seo": {
+    "title": "Disponibilités | ArdenNest - Réservez votre séjour",
+    "description": "Consultez les disponibilités et réservez directement. Meilleur prix garanti, pas de commissions OTA. Accueil personnel par le propriétaire."
+  },
+  "title": "Réserver",
+  "h1": "Consultez les disponibilités et réservez directement — meilleur prix garanti",
+  "subtitle": "Consultez les disponibilités et réservez directement",
+  "whyDirect": {
+    "title": "Pourquoi réserver directement?",
+    "benefits": [
+      "Meilleur prix — vous réservez directement chez nous",
+      "Contact direct avec les propriétaires",
+      "Flexibilité maximale et sur mesure",
+      "Accueil personnel par Christophe"
+    ]
+  },
+  "availability": {
+    "title": "Consulter les disponibilités",
+    "description": "Sélectionnez la période souhaitée et consultez directement les disponibilités",
+    "button": "Voir les disponibilités"
+  },
+  "preferTalk": {
+    "title": "Préférez parler d'abord?",
+    "description": "Pas de problème! N'hésitez pas à contacter Bieke pour des questions ou pour discuter des possibilités.",
+    "cta": "Nous contacter",
+    "callBieke": "Appeler Bieke",
+    "mailBieke": "Écrire à Bieke"
+  },
+  "payment": {
+    "title": "Paiement sécurisé",
+    "description": "Les paiements sont traités via Mollie, un fournisseur de paiement néerlandais fiable. Vos données sont toujours sécurisées."
+  },
+  "afterBooking": {
+    "title": "Après votre réservation",
+    "steps": [
+      "Vous recevez immédiatement une confirmation par e-mail",
+      "Nous vous contactons personnellement dans les 24 heures",
+      "Vous recevez un kit de bienvenue avec toutes les informations pratiques",
+      "Le jour de l'arrivée, Christophe vous attend personnellement"
+    ]
+  }
+}

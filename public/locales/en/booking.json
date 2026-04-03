@@ -1,0 +1,43 @@
+{
+  "seo": {
+    "title": "Availability | ArdenNest - Book your stay",
+    "description": "Check availability and book directly. Best price guaranteed, no OTA commissions. Personal welcome by the owner."
+  },
+  "title": "Book",
+  "h1": "Check availability and book directly — best price guaranteed",
+  "subtitle": "Check availability and book directly",
+  "whyDirect": {
+    "title": "Why book direct?",
+    "benefits": [
+      "Best price — you book directly with us",
+      "Direct contact with the owners",
+      "Maximum flexibility and customization",
+      "Personal welcome by Christophe"
+    ]
+  },
+  "availability": {
+    "title": "Check availability",
+    "description": "Select your desired period and check availability directly",
+    "button": "View availability"
+  },
+  "preferTalk": {
+    "title": "Prefer to talk first?",
+    "description": "No problem! Feel free to contact Bieke for questions or to discuss the options.",
+    "cta": "Contact us",
+    "callBieke": "Call Bieke",
+    "mailBieke": "Email Bieke"
+  },
+  "payment": {
+    "title": "Secure payment",
+    "description": "Payments are processed via Mollie, a reliable Dutch payment provider. Your data is always secure."
+  },
+  "afterBooking": {
+    "title": "After your booking",
+    "steps": [
+      "You'll receive an immediate confirmation by email",
+      "We'll contact you personally within 24 hours",
+      "You'll receive a welcome package with all practical information",
+      "On arrival day, Christophe will be there to welcome you personally"
+    ]
+  }
+}

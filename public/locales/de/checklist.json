@@ -1,0 +1,79 @@
+{
+  "seo": {
+    "title": "Abreise-Checkliste | ArdenNest - Ferienhaus Ardennen",
+    "description": "Checkliste für eine reibungslose Abreise aus ArdenNest. Praktische Schritte beim Check-out, damit alles ordentlich für die nächsten Gäste hinterlassen wird."
+  },
+  "pageTitle": "Abreise-Checkliste",
+  "h1": "Abreiseverfahren — Staubsaugen, Küche und Schlüsselübergabe",
+  "pageSubtitle": "Vielen Dank für Ihren Aufenthalt bei ArdenNest. Um das Haus für die nächsten Gäste vorzubereiten, bitten wir Sie, diese Checkliste durchzugehen.",
+  "downloadButton": "Checkliste herunterladen",
+  "accommodation": "Unterkunft",
+  "accommodationValue": "Rue de la Ferme 3, 5575 Malvoisin",
+  "website": "Website",
+  "websiteValue": "www.ArdenNest.be",
+  "operator": "Betreiber",
+  "operatorValue": "Festina Lente bv",
+  "version": "Version",
+  "versionValue": "Januar 2026",
+  "intro": "Die Reinigung ist inbegriffen, wenn alle Punkte abgehakt sind — andernfalls können zusätzliche Kosten anfallen.",
+  "sections": {
+    "general": {
+      "title": "Allgemein",
+      "departureTime": "Abreisezeit: 10:00 Uhr (oder 16:00 Uhr bei spätem Check-out)",
+      "items": [
+        "Kühlschränke und Gefrierschränke anlassen — nicht ausschalten",
+        "Teilen Sie uns mit, dass Sie abreisen (Klingel oder WhatsApp/SMS)",
+        "Schlüssel abgeben oder in die Schlüsselbox legen",
+        "Tür richtig schließen"
+      ]
+    },
+    "house": {
+      "title": "Das Haus",
+      "items": [
+        "Tische sauber hinterlassen (Stühle nicht auf die Tische)",
+        "Erdgeschoss staubsaugen: Küche, Wohnzimmer, Salon, Eingang, Treppenhaus",
+        "Teppiche nicht vergessen",
+        "Gesellschaftsspiele und Spielzeug zurück an ihren Platz"
+      ]
+    },
+    "kitchen": {
+      "title": "Die Küche",
+      "items": [
+        "Spülmaschine leeren und Geschirr einräumen",
+        "Alle Küchenutensilien abwaschen und einräumen",
+        "Herd und Backofen reinigen (nur mit Spülmittel)",
+        "Essensreste mitnehmen (nicht in Müllsäcke)"
+      ],
+      "tip": "Tipp: Geeignete Reste dürfen zu den Hühnern!"
+    },
+    "outside": {
+      "title": "Draußen",
+      "items": [
+        "Grill: Asche in den Ascheeimer, Rost gereinigt",
+        "Liegestühle und Außenspielzeug zurück an ihren Platz"
+      ]
+    },
+    "bedrooms": {
+      "title": "Schlafzimmer",
+      "items": [
+        "Betten NICHT abziehen (das machen wir)",
+        "Fenster in Kippstellung bringen",
+        "Heizung in Schlafzimmern und Badezimmern ausschalten"
+      ]
+    },
+    "damage": {
+      "title": "Schäden oder Anmerkungen",
+      "content": "Unfälle passieren, das verstehen wir. Bitte notieren Sie eventuelle Schäden oder Anmerkungen und melden Sie sie uns.",
+      "depositInfo": "Die Kaution wird innerhalb von 7 bis 14 Tagen nach Abreise zurückerstattet."
+    }
+  },
+  "contact": {
+    "title": "Kontakt",
+    "phone1": "0478 03 03 52",
+    "phone2": "0477 33 53 70"
+  },
+  "closing": {
+    "content": "Wir hoffen, Sie bald wieder begrüßen zu dürfen. Bis zum nächsten Mal!",
+    "signature": "ArdenNest • Seit 2003 gastfreundlich in den Ardennen"
+  }
+}
