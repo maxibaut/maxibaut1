@@ -180,5 +180,14 @@
         "description": "Christophe personally welcomes every group"
       }
     }
+  },
+  "audience": {
+    "heading": "Who is ArdenNest for?",
+    "intro": "Not every group is a match for ArdenNest — and that's by design.",
+    "bullet1": "Multigenerational families — grandparents, parents and children under one roof, each with their own ensuite room",
+    "bullet2": "Friend groups who prefer quality time over entertainment — long table moments, not loud parties",
+    "bullet3": "The organiser who wants to make life easy — everything is provided, from professional kitchen to bed linen",
+    "bullet4": "Groups of 15 to 26 people looking for space without losing sight of each other",
+    "closing": "Looking for a party venue or an activity resort? We're not the right fit. Looking for a place where everyone slows down and truly reconnects? Then we'd love to welcome you."
   }
 }
