@@ -1,7 +1,7 @@
 import { LocalizedLink as Link } from '@/components/LocalizedLink';
 import { useTranslation } from 'react-i18next';
 import { Button } from '@/components/ui/button';
-import { ArrowRight } from 'lucide-react';
+import { ArrowRight, MapPin } from 'lucide-react';
 import { heroMain } from '@/assets/property';
 
 export const HeroSection = () => {
@@ -33,6 +33,17 @@ export const HeroSection = () => {
           <h1 className="font-serif text-2xl md:text-3xl text-cream/90 max-w-2xl mx-auto font-normal">
             {t('hero.h1')}
           </h1>
+
+          {/* Subheadline with geo info */}
+          <p className="text-cream/70 text-base md:text-lg max-w-2xl mx-auto">
+            {t('hero.subheadline')}
+          </p>
+
+          {/* Location badge */}
+          <div className="flex items-center justify-center gap-1.5 text-cream/60">
+            <MapPin className="h-4 w-4" />
+            <span className="text-sm">Malvoisin, Gedinne · Belgische Ardennen</span>
+          </div>
 
           {/* CTAs */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
