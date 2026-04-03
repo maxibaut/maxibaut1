@@ -1,0 +1,58 @@
+{
+  "seo": {
+    "title": "Cancellation Policy | ArdenNest — Ardennes",
+    "description": "Our transparent cancellation policy. Information about deadlines, refunds and conditions for your stay at ArdenNest."
+  },
+  "pageTitle": "Cancellation Policy",
+  "h1": "Cancellation terms — fees and deadlines at ArdenNest",
+  "pageSubtitle": "This cancellation policy is a summary of Article 17 of our rental terms. By booking, you agree to these conditions.",
+  "accommodation": "Accommodation",
+  "accommodationValue": "Rue de la Ferme 3, 5575 Malvoisin",
+  "website": "Website",
+  "websiteValue": "www.ArdenNest.be",
+  "operator": "Operator",
+  "operatorValue": "Festina Lente bv",
+  "version": "Version",
+  "versionValue": "January 2026",
+  "downloadButton": "Download cancellation policy",
+  "intro": "At ArdenNest, we understand that plans can change. Below you will find the cancellation terms that apply to your booking, in accordance with Article 17 of our rental terms.",
+  "tiersTitle": "Cancellation Fees",
+  "tiers": [
+    {
+      "period": "Up to 56 days before arrival",
+      "refund": "30% cancellation fee",
+      "description": "If you cancel up to 56 days before the scheduled arrival date, 30% of the total amount will be charged."
+    },
+    {
+      "period": "55 to 30 days before arrival",
+      "refund": "60% cancellation fee",
+      "description": "If you cancel between 55 and 30 days before arrival, 60% of the total amount will be charged."
+    },
+    {
+      "period": "From 29 days before arrival",
+      "refund": "100% cancellation fee",
+      "description": "If you cancel from 29 days before the scheduled arrival date, the full amount will be charged."
+    }
+  ],
+  "conditionsTitle": "Additional Conditions",
+  "conditions": [
+    "All cancellations must be submitted in writing via email.",
+    "The date of receipt of the cancellation is the cancellation date.",
+    "If the payment schedule is not followed, we may cancel the rental. The standard cancellation terms will then apply.",
+    "Early departure — for whatever reason — does not entitle you to a (partial) refund.",
+    "The security deposit (€750) will be refunded within 14 days after departure, provided there is no damage.",
+    "We recommend taking out cancellation insurance.",
+    "In case of no-show (not showing up), the full amount will be charged."
+  ],
+  "forceMajeure": {
+    "title": "Force Majeure",
+    "content": "In case of force majeure (such as natural disasters, pandemics, government measures or other unforeseen circumstances beyond our control), we cannot be held liable. We will seek an appropriate solution in consultation, such as an alternative date. Refunds are not guaranteed in case of force majeure, but we always strive for a fair solution."
+  },
+  "contact": {
+    "title": "Questions?",
+    "content": "Do you have questions about our cancellation policy or would you like to cancel your booking? Please contact us:",
+    "email": "Email: bieke@ardennest.be",
+    "phone": "Phone: +32 478 03 03 52"
+  },
+  "signature": "ArdenNest • Festina Lente • Welcoming guests in the Ardennes since 2003"
+}

@@ -1,0 +1,88 @@
+{
+  "seo": {
+    "title": "Early Arrival | ArdenNest — Ardennes",
+    "description": "Arrived early in the Ardennes? Discover our tips for pleasant excursions while the house is being prepared until 4 PM."
+  },
+  "pageTitle": "Arrived early?",
+  "h1": "Tips while you wait — outings near Gedinne until the house is ready at 4 PM",
+  "pageSubtitle": "The house is being cleaned until 4 PM. Discover fun outings to fill the waiting time.",
+  "downloadButton": "Download early arrival guide",
+  "accommodation": "Accommodation",
+  "accommodationValue": "Rue de la Ferme 3, 5575 Malvoisin",
+  "website": "Website",
+  "websiteValue": "www.ArdenNest.be",
+  "operator": "Operator",
+  "operatorValue": "Festina Lente bv",
+  "version": "Version",
+  "versionValue": "January 2026",
+  "intro": "The house is being cleaned until 4 PM on the day of arrival. To allow our cleaning team to work in peace, early check-in is unfortunately not possible. But don't worry — the area has plenty to offer to turn the waiting time into the start of your vacation.",
+  "destinations": [
+    {
+      "name": "Bouillon",
+      "distance": "± 45 minutes",
+      "description": "The historic town with its imposing fortress high above the Semois. Stories of crusaders and medieval intrigue.",
+      "highlights": [
+        {
+          "name": "The Fortress",
+          "description": "Walk through centuries-old corridors, enjoy the view. Children love the birds of prey show"
+        },
+        {
+          "name": "Le Marché de Nathalie",
+          "description": "Impressive selection of regional beers — bring some for the evening"
+        }
+      ]
+    },
+    {
+      "name": "Rochehaut",
+      "distance": "± 30 minutes",
+      "description": "Picturesque village with perhaps the most beautiful view in the region. Perfect for a short stop with the whole group.",
+      "highlights": [
+        {
+          "name": "The Viewpoint",
+          "description": "Breathtaking panorama over Frahan and the meandering Semois — Instagram material"
+        },
+        {
+          "name": "Agri-Museum",
+          "description": "Nice museum about rural life. Educational for young and old"
+        }
+      ]
+    },
+    {
+      "name": "Han-sur-Lesse",
+      "distance": "± 40 minutes",
+      "description": "Best known for its caves, but the village has more to offer. Ideal for families with children.",
+      "highlights": [
+        {
+          "name": "The Caves of Han",
+          "description": "Spectacular! Take an old tram to an underground world full of stalactites. Must-see"
+        },
+        {
+          "name": "Wildlife Park",
+          "description": "The largest in Belgium — spot wolves, lynxes and bears, on foot or by safari car"
+        }
+      ]
+    },
+    {
+      "name": "Monthermé (France)",
+      "distance": "± 50 minutes",
+      "description": "Fancy a trip across the border? The drive itself is an experience — winding roads through dense forests along the Meuse.",
+      "highlights": [
+        {
+          "name": "Rent a boat",
+          "description": "Explore the river at your own pace and enjoy the landscape from the water"
+        },
+        {
+          "name": "French gastronomy",
+          "description": "Enjoy a traditional dish with a good glass of wine in a local bistro"
+        }
+      ]
+    }
+  ],
+  "contact": {
+    "title": "Questions or need help?",
+    "content": "Feel free to contact us",
+    "phone1": "0478 03 03 52",
+    "phone2": "0477 33 53 70"
+  },
+  "signature": "ArdenNest • Festina Lente • Welcoming guests in the Ardennes since 2003"
+}

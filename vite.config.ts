@@ -40,7 +40,7 @@ export default defineConfig(({ mode }) => ({
       output: {
         manualChunks: {
           react: ['react', 'react-dom', 'react-router-dom'],
-          i18n: ['react-i18next', 'i18next'],
+          
           ui: [
             '@radix-ui/react-accordion',
             '@radix-ui/react-alert-dialog',

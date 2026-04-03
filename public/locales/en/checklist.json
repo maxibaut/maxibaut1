@@ -1,0 +1,79 @@
+{
+  "seo": {
+    "title": "Departure Checklist | ArdenNest - Holiday Home Ardennes",
+    "description": "Checklist for a smooth departure from ArdenNest. Practical steps for checking out so everything is left in order for the next guests."
+  },
+  "pageTitle": "Departure Checklist",
+  "h1": "Check-out procedure — vacuuming, kitchen and key handover",
+  "pageSubtitle": "Thank you for your stay at ArdenNest. To prepare the house for the next guests, we kindly ask you to go through this checklist.",
+  "downloadButton": "Download checklist",
+  "accommodation": "Accommodation",
+  "accommodationValue": "Rue de la Ferme 3, 5575 Malvoisin",
+  "website": "Website",
+  "websiteValue": "www.ArdenNest.be",
+  "operator": "Operator",
+  "operatorValue": "Festina Lente bv",
+  "version": "Version",
+  "versionValue": "January 2026",
+  "intro": "Cleaning is included when all items are checked off — otherwise, additional costs may apply.",
+  "sections": {
+    "general": {
+      "title": "General",
+      "departureTime": "Departure time: 10:00 AM (or 4:00 PM for late check-out)",
+      "items": [
+        "Leave refrigerators and freezers on — do not turn off",
+        "Let us know you're leaving (doorbell or WhatsApp/SMS)",
+        "Hand in the key or deposit it in the key box",
+        "Close the door properly"
+      ]
+    },
+    "house": {
+      "title": "The House",
+      "items": [
+        "Leave tables clean (don't put chairs on tables)",
+        "Vacuum the ground floor: kitchen, living room, salon, entrance, stairwell",
+        "Don't forget the carpets",
+        "Put board games and toys back in their place"
+      ]
+    },
+    "kitchen": {
+      "title": "The Kitchen",
+      "items": [
+        "Empty the dishwasher and put away dishes",
+        "Wash and put away all kitchen utensils",
+        "Clean the stove and oven (dish soap only)",
+        "Take food scraps with you (not in garbage bags)"
+      ],
+      "tip": "Tip: suitable leftovers may go to the chickens!"
+    },
+    "outside": {
+      "title": "Outside",
+      "items": [
+        "BBQ: ash in the ash bucket, grill cleaned",
+        "Put sun loungers and outdoor toys back in their place"
+      ]
+    },
+    "bedrooms": {
+      "title": "Bedrooms",
+      "items": [
+        "Do NOT strip the beds (we do this)",
+        "Set windows to tilt position",
+        "Turn off heating in bedrooms and bathrooms"
+      ]
+    },
+    "damage": {
+      "title": "Damage or Remarks",
+      "content": "Accidents happen, we understand. Please note any damage or remarks and report them to us.",
+      "depositInfo": "The deposit will be refunded within 7 to 14 days after departure."
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "phone1": "0478 03 03 52",
+    "phone2": "0477 33 53 70"
+  },
+  "closing": {
+    "content": "We hope to welcome you again soon. Until next time!",
+    "signature": "ArdenNest • Welcoming guests in the Ardennes since 2003"
+  }
+}

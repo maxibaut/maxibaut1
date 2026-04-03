@@ -1,0 +1,154 @@
+{
+  "seo": {
+    "title": "Rental Terms | ArdenNest — Ardennes",
+    "description": "General rental terms for your stay at ArdenNest. Everything about payment conditions, deposit, cancellation and house rules in one place."
+  },
+  "pageTitle": "Rental Terms",
+  "h1": "General rental terms — payment, cancellation and deposit at ArdenNest",
+  "pageSubtitle": "These rental terms apply to all reservations at ArdenNest. By booking, you agree to the following conditions.",
+  "downloadButton": "Download rental terms",
+  "accommodation": "Accommodation",
+  "accommodationValue": "Rue de la Ferme 3, 5575 Malvoisin",
+  "website": "Website",
+  "websiteValue": "www.ArdenNest.be",
+  "operator": "Operator",
+  "operatorValue": "Festina Lente bv",
+  "vatNumber": "VAT number",
+  "vatNumberValue": "BE 0475 117 084",
+  "version": "Version",
+  "versionValue": "January 2026",
+  "intro": "These rental terms apply to all reservations at ArdenNest. By booking, you agree to the following conditions. Questions? Feel free to contact us.",
+  "articles": [
+    {
+      "number": 1,
+      "title": "Reservation and confirmation",
+      "content": "After sending the contract, we block the period for 48 hours for you. If we don't receive the deposit and signed contract within that time, the period becomes available again. Only after receiving both is the reservation final."
+    },
+    {
+      "number": 2,
+      "title": "Right of refusal",
+      "content": "We reserve the right to refuse or cancel a reservation."
+    },
+    {
+      "number": 3,
+      "title": "Agreement with conditions",
+      "content": "By paying the deposit, you agree to these rental terms and the house rules. If these are not followed, we may (partially) withhold the security deposit."
+    },
+    {
+      "number": 4,
+      "title": "Maximum capacity",
+      "content": "The maximum capacity is 26 people, of which a maximum of 18 adults (18+). Exceeding this is not permitted."
+    },
+    {
+      "number": 5,
+      "title": "Guest registration",
+      "content": "At least 1 week before arrival, we ask you to collect the data for the legally required guest registration form — for everyone who is (even partially) present during the stay."
+    },
+    {
+      "number": 6,
+      "title": "Post-stay verification",
+      "content": "After the stay, we check the guest registration form and the number of beds used. If more beds were used than the number of guests indicated, we will adjust the tourist tax and costs per person."
+    },
+    {
+      "number": 7,
+      "title": "Day visits",
+      "content": "Non-staying guests (day visits) are not permitted."
+    },
+    {
+      "number": 8,
+      "title": "Subletting",
+      "content": "Subletting the property is not permitted."
+    },
+    {
+      "number": 9,
+      "title": "Fire insurance",
+      "content": "We have fire insurance with waiver of recourse. This means you are not liable in case of fire, except for intentional acts. However, a legal deductible applies (indexed annually) — ask us for the current amount. In accordance with Belgian law, we also have objective liability insurance for fire or explosion."
+    },
+    {
+      "number": 10,
+      "title": "Theft",
+      "content": "We are not responsible for theft. Keep valuable items safe."
+    },
+    {
+      "number": 11,
+      "title": "Payments",
+      "content": "• Deposit — within 48 hours of receiving the contract\n• Balance — no later than 30 days before arrival\n• Security deposit (€750) — no later than 30 days before arrival"
+    },
+    {
+      "number": 12,
+      "title": "Administration fees",
+      "content": "For a third payment reminder, we charge €60 in administration fees."
+    },
+    {
+      "number": 13,
+      "title": "Security deposit refund",
+      "content": "We refund the security deposit within 14 days of departure, provided there is no damage. If the costs exceed the deposit, we ask you to pay the difference within 8 days."
+    },
+    {
+      "number": 14,
+      "title": "Check-in",
+      "content": "You can only check in after full payment of the total amount and the security deposit."
+    },
+    {
+      "number": 15,
+      "title": "Non-payment",
+      "content": "If the payment schedule is not followed, we may cancel the rental. The standard cancellation terms then apply."
+    },
+    {
+      "number": 16,
+      "title": "Early departure",
+      "content": "Early departure — for whatever reason — does not entitle you to a (partial) refund."
+    },
+    {
+      "number": 17,
+      "title": "Cancellation fees",
+      "content": "• Up to 56 days before arrival — 30% of the total amount\n• 55 to 30 days before arrival — 60% of the total amount\n• From 29 days before arrival — 100% of the total amount"
+    },
+    {
+      "number": 18,
+      "title": "Arrival time",
+      "content": "Check-in is possible from the time on your contract (standard 16:00). Please let us know what time you expect to arrive."
+    },
+    {
+      "number": 19,
+      "title": "Explanation upon arrival",
+      "content": "Upon arrival, we provide an explanation about the equipment, waste sorting and the departure checklist."
+    },
+    {
+      "number": 20,
+      "title": "Condition upon departure",
+      "content": "Upon departure, the house must be in the same condition as upon arrival. Any damage will be deducted from the security deposit."
+    },
+    {
+      "number": 21,
+      "title": "Disputes and applicable law",
+      "content": "In case of disputes, only the court of the Kortrijk district is competent. Belgian law applies to this agreement."
+    },
+    {
+      "number": 22,
+      "title": "Liability for minors",
+      "content": "Parents, guardians or supervisors are always responsible for minors in their company. Damage caused by minors will be recovered from the tenant and deducted from the security deposit."
+    },
+    {
+      "number": 23,
+      "title": "Force majeure",
+      "content": "In case of force majeure (such as natural disasters, pandemic, government measures or other unforeseen circumstances beyond our control), we cannot be held liable. We will seek a suitable solution in consultation, such as an alternative date. Refunds are not guaranteed in case of force majeure, but we always strive for a fair solution."
+    },
+    {
+      "number": 24,
+      "title": "Keys",
+      "content": "Upon check-in, you will receive the keys to the property. These must be returned at departure at the agreed location. In case of loss or non-return of keys, the costs for replacement (including any lock changes) will be charged and deducted from the security deposit."
+    },
+    {
+      "number": 25,
+      "title": "Malfunctions and defects",
+      "content": "If something breaks down or doesn't work properly during your stay (e.g., dishwasher, heating), please contact us as soon as possible. We will do our best to resolve the problem quickly. A malfunction does not entitle you to a (partial) refund, unless the property becomes uninhabitable and we cannot provide a solution."
+    }
+  ],
+  "closing": "Questions about these terms? We're here for you.",
+  "contact": {
+    "email": "bieke@ardennest.be",
+    "phone": "+32 478 03 03 52"
+  },
+  "signature": "ArdenNest • Festina Lente • Welcoming guests in the Ardennes since 2003"
+}

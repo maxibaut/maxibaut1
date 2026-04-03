@@ -1,0 +1,677 @@
+{
+  "seo": {
+    "title": "Omgeving | ArdenNest — Wandelen, fietsen en meer",
+    "description": "Wandelroutes, fietsroutes, avonturenparken, restaurants en bezienswaardigheden rondom ArdenNest in de Ardennen."
+  },
+  "title": "De Omgeving",
+  "h1": "Wandelingen, fietsroutes en bezienswaardigheden bij ArdenNest",
+  "subtitle": "Ontdek de mooiste plekjes rondom ArdenNest",
+  "intro": "Hoewel de meeste gasten het liefst op het terrein blijven - de tuin is immers groot genoeg - is er in de omgeving veel te beleven. Hieronder vind je onze persoonlijke aanbevelingen.",
+  "nav": {
+    "walksNearby": "Wandelen (dichtbij)",
+    "walksArea": "Wandelen (omgeving)",
+    "cycling": "Fietsen",
+    "active": "Actief & Avontuur",
+    "attractions": "Bezienswaardigheden",
+    "restaurants": "Restaurants",
+    "shops": "Winkels",
+    "exclusive": "Exclusief"
+  },
+  "exclusiveBadge": "Enkel voor ArdenNest-gasten",
+  "linkCopied": "Link gekopieerd!",
+  "backToOverview": "Terug naar overzicht",
+  "practicalInfo": "Praktische info",
+  "openInMaps": "Bekijk uw route vanaf de vakantiewoning",
+  "visitWebsite": "Bezoek website",
+  "fromProperty": "vanaf het huis",
+  "contactInfo": {
+    "address": "Adres",
+    "phone": "Telefoon",
+    "openingHours": "Openingsuren"
+  },
+  "walks": {
+    "title": "Wandelingen",
+    "description": "Onze favoriete wandelingen in de buurt, getest door ons en onze gasten. Van rustige dorpswandelingen tot avontuurlijke treinwandelingen.",
+    "fromPropertyTitle": "Wandelen vanaf de vakantiewoning",
+    "fromPropertyDescription": "Trek je wandelschoenen aan en vertrek aan de voordeur. Geen auto nodig.",
+    "nearbyTitle": "Wandelingen in de omgeving",
+    "nearbyDescription": "Iets verder weg, maar absoluut de moeite. Bereikbaar met de auto of de trein.",
+    "atTheDoorstep": "Aan de voordeur",
+    "buggyFriendly": "Buggy-vriendelijk",
+    "highlights": "Hoogtepunten",
+    "duration": "Duur",
+    "distance": "Afstand",
+    "walkingMapsNote": "Gedetailleerde wandelkaartjes met uitleg liggen klaar in de woning, beschikbaar in het Nederlands, Frans, Engels en Duits."
+  },
+  "cycling": {
+    "title": "Fietsen",
+    "description": "Van vlakke RAVeL-paden langs de rivier tot uitdagende mountainbike routes door de bossen.",
+    "rental": "Verhuur"
+  },
+  "pricing": {
+    "title": "Tarieven",
+    "perBike": "per fiets",
+    "shortRental": "Korte verhuur",
+    "longRental": "Lange verhuur",
+    "fullDay": "Volledige dag",
+    "halfDay": "Halve dag",
+    "weekend": "Weekend",
+    "extraDay": "Extra dag",
+    "included": "Inbegrepen",
+    "departure": "Vertrek"
+  },
+  "active": {
+    "title": "Actief & Avontuur",
+    "description": "Klim, vlieg en klauter — de Ardennen zijn één groot speelterrein voor kinderen en tieners."
+  },
+  "exclusive": {
+    "title": "Exclusief voor gasten",
+    "description": "Ervaringen die je nergens kunt boeken — enkel voor gasten van ArdenNest."
+  },
+  "askUs": "Reserveer via e-mail",
+  "attractions": {
+    "title": "Bezienswaardigheden",
+    "description": "De Ardennen hebben veel te bieden. Deze bestemmingen zijn perfect voor een daguitstap."
+  },
+  "restaurants": {
+    "title": "Restaurants & afhaal",
+    "description": "Onze favoriete eetgelegenheden in de buurt. Van gezellige brasseries tot pizza en verse frieten."
+  },
+  "shops": {
+    "title": "Winkels",
+    "description": "Alles wat je nodig hebt voor een zorgeloos verblijf. En door hier je boodschappen te doen, steun je meteen de lokale middenstand – én ontdek je de échte smaken van de streek.",
+    "types": {
+      "bakery": "Bakkerij",
+      "supermarket": "Supermarkt",
+      "butcher": "Slagerij",
+      "farmshop": "Hoevewinkel"
+    }
+  },
+  "moreInfo": "Meer info",
+  "discoverNearby": "Ontdek ook in de buurt",
+  "difficulty": {
+    "easy": "Makkelijk",
+    "medium": "Gemiddeld",
+    "hard": "Uitdagend"
+  },
+  "note": "De meeste groepen blijven het liefst op het terrein - de tuin is groot genoeg voor dagenlang plezier. Maar als je toch een uitstap wilt maken, staan we klaar met tips!",
+  "items": {
+    "walks": {
+      "treinwandeling-anseremme-gendron": {
+        "title": "Treinwandeling Anseremme - Gendron - Anseremme",
+        "description": "Onze favoriete familiewandeling! Neem de trein vanuit Dinant-Anseremme naar Gendron en wandel terug langs de prachtige Lesse. Geschikt voor buggy's en perfect voor een daguitstap.",
+        "highlights": [
+          "Hoge spoorwegbrug",
+          "Strand van Walzin",
+          "Kasteel Walzin",
+          "Rivier de Lesse",
+          "Zicht op Dinant"
+        ],
+        "buggyNote": "Buggy 3x optillen bij trappen/bruggen, verder vlotte verharde weg",
+        "tip": "Te vroeg voor de trein? Loop de brug van Dinant over en wacht op een bankje langs de Maas - heerlijk bij mooi weer!",
+        "fullDescription": "Dit is zonder twijfel onze favoriete wandeling in de omgeving en perfect voor gezinnen met kinderen van alle leeftijden.\n\n## Hoe werkt het?\n\nJe neemt de trein in station Dinant-Anseremme (niet het hoofdstation!) richting Bertrix. Na slechts 5 minuutjes stap je uit in Gendron. Het weekendtarief is maar €2,50 per persoon - een koopje!\n\nVanaf station Gendron wandel je terug naar Dinant, de hele tijd langs de rivier de Lesse. De route is ongeveer 8 km en duurt zo'n 3 uur, inclusief pauzes.\n\n## Hoogtepunten onderweg\n\nDe wandeling biedt prachtige afwisseling:\n\n- **De hoge spoorwegbrug** - Halverwege steek je twee keer over via een indrukwekkende oude spoorwegbrug, hoog boven de Lesse. Perfect veilig met leuningen, maar wel spectaculair!\n- **Strand van Walzin** - Een heerlijke plek om te pauzeren. Bij warm weer kunnen de kinderen met hun voeten in het water. Ideaal voor een picknick.\n- **Kasteel Walzin** - Het sprookjesachtige kasteel op de rotsen is een van de mooiste vergezichten van de wandeling.\n- **Voetgangersbrug** - Vlak voor Dinant steek je over via een smalle voetgangersbrug.\n\n## Met de buggy?\n\nDeze wandeling is grotendeels buggy-vriendelijk! Het pad is verhard en vlak. Alleen bij de twee spoorwegbruggen en de voetgangersbrug moet je de buggy even optillen (telkens een paar treden). Geen geklim of geklauter.\n\n## Aankomst in Dinant\n\nJe komt aan langs de Maas met een prachtig zicht op de citadel en de kathedraal van Dinant. Loop nog even door naar de supermarkt voor een welverdiend ijsje!",
+        "routeSteps": [
+          "Ga naar station Dinant-Anseremme (niet het hoofdstation)",
+          "Neem de trein richting Bertrix (5 min, €2,50 weekend)",
+          "Stap uit in Gendron",
+          "Volg het wandelpad langs de Lesse richting Dinant",
+          "Steek over via de hoge spoorwegbrug (2x)",
+          "Pauzeer aan het strand van Walzin",
+          "Bewonder kasteel Walzin op de rotsen",
+          "Steek over via de voetgangersbrug",
+          "Aankomst langs de Maas in Dinant"
+        ],
+        "trainBookingButton": "Trein Reserveren",
+        "imageAlts": [
+          "Kasteel Walzin op rotswand boven weiland met koeien en wandelpad",
+          "Selfie op hangbrug met uitzicht op de Lesse en rotswanden",
+          "Wandelaars op moderne hangbrug met houten dek boven de Lesse",
+          "Twee wandelaars op landweg met imposante rotsformatie op achtergrond",
+          "Persoon in grotopening in begroeide rotswand langs het wandelpad",
+          "Wandelaar bekijkt kaart bij bord La Lesse met uitzicht op de rivier",
+          "Houten wegwijzerpaal met richtingen naar Walzin en Hulsonniaux",
+          "Wandelkaart op brugrand met bord La Lesse en uitzicht op de rivier",
+          "Detail topografische kaart met Anseremme en Lesse-meanders rood omcirkeld"
+        ]
+      },
+      "treinwandeling-houyet-gendron": {
+        "title": "Treinwandeling Houyet - Gendron - Houyet",
+        "description": "Onwaarschijnlijk mooie avontuurlijke wandeling langs de Lesse met rotsen, kleine paadjes en wankele stenen. In onze top 5 van korte dagtrips na 20 jaar Ardennen!",
+        "highlights": [
+          "Rotsformaties langs de Lesse",
+          "Avontuurlijke smalle paden",
+          "GR126 bewegwijzering",
+          "Prachtige natuur",
+          "Gezellige camping/bar eindpunt"
+        ],
+        "fullDescription": "Wat een wandeling! Onwaarschijnlijk mooi langs de Lesse en de rotsen, over kleine paadjes en wankele stenen. Non-stop verrassend gedurende 2,5 uur over 8,5 km.\n\n## Hoe werkt het?\n\nParkeer je auto bij station Houyet, koop een ticket via de automaat, neem de trein en stap na 5 minuten uit in Gendron. Vandaar wandel je terug naar Houyet, stroomopwaarts langs de Lesse.\n\n## De route\n\nDe GR126 is je gids langs het pad met de klassieke rood-witte streepjes op bomen of bordjes. Je hoeft alleen maar te volgen!\n\n## Onze mening\n\nIn 20 jaar Ardennen zit deze wandeling in onze top 5 van korte dagtrips. Het is avontuurlijker dan de Anseremme-Gendron wandeling: je klimt en klautert, gaat over smalle paadjes en wankele stenen. Echt iets voor kinderen die van avontuur houden!\n\n## Afsluiten\n\nJe eindigt bij een camping of bar voor een welverdiende frisse pint. Perfect om bij te komen na deze actieve tocht.\n\n## Vanuit ArdenNest\n\nVanuit ons vakantiehuis ben je er na 25 minuten rustig rijden, tot in Houyet. Je kunt ook opstappen op de trein in Gedinne-station en na de wandeling opnieuw de trein nemen naar Malvoisin.\n\nAlle info en wandelkaart ligt klaar in ons kantoortje!",
+        "routeSteps": [
+          "Parkeer je auto bij station Houyet",
+          "Koop een treinticket via de automaat",
+          "Neem de trein naar Gendron (5 min)",
+          "Stap uit en volg de GR126 bewegwijzering",
+          "Wandel stroomopwaarts langs de Lesse",
+          "Geniet van rotsen, smalle paden en wankele stenen",
+          "Eindig bij station Houyet",
+          "Neem een drankje op het terras van de camping"
+        ],
+        "tip": "Kinderen die van avontuur houden zullen dit geweldig vinden! Het klimmen en klauteren maakt het extra spannend.",
+        "trainBookingButton": "Trein Reserveren",
+        "imageAlts": [
+          "Wandelaars steken smalle houten plankbrug over beekje in het bos",
+          "Wandelaar wacht op perron van station Houyet onder siersmeedijzeren overkapping",
+          "Twee wandelaars op bospad onder breed loofbomendak richting open weide",
+          "Houten brug over de Lesse met uitzicht op beboste heuvel",
+          "Wandelaars steken smalle houten plankbrug over beekje in schaduwrijk bos",
+          "Jongen klimt over grote natuurstenen rotsblokken langs het wandelpad",
+          "Wandelaar beklimt steile houten trap met metalen leuning in het bos",
+          "Wandelaar gooit steentjes in de Lesse vanaf kiezelstrand omringd door heuvels",
+          "Stilstaand water met weerspiegeling van bomen en groen in de Lesse",
+          "Groepje wandelaars op schaduwrijk bospad met metalen leuning langs de Lesse",
+          "Wandelaar wacht op perron van station Houyet",
+          "Wandelaar met rugzak op smal graspad tussen weelderig groen",
+          "Glazen en Dinant-toeristenkaart op terrastafeltje na de wandeling"
+        ]
+      },
+      "wandeling-rond-malvoisin": {
+        "title": "Wandeling rond Malvoisin",
+        "description": "Rustige dorpswandeling vanuit de vakantiewoning met panoramische vergezichten over de Ardennen. Geen auto nodig.",
+        "highlights": [
+          "Aan de voordeur",
+          "Panorama",
+          "Weilanden",
+          "Dorpskerk",
+          "Rolstoelvriendelijk"
+        ],
+        "fullDescription": "Trek je schoenen aan en vertrek aan de voordeur — deze wandeling begint en eindigt bij de vakantiewoning.\n\n## De route\n\nEen lus van 5 km door het gehucht Malvoisin en de omliggende weilanden en bossen. Je wandelt over rustige landwegen met amper verkeer, langs boerderijen, weilanden met koeien en door kleine stukjes bos.\n\n## Hoogtepunten\n\n- **Panoramische vergezichten** — Op het hoogste punt heb je een wijds uitzicht over de heuvels van de Ardennen. Bij helder weer zie je tot aan de Franse grens.\n- **De dorpskerk van Malvoisin** — Een klein, charmant kerkje midden in het gehucht.\n- **Weilanden** — Kinderen vinden het geweldig om de koeien en paarden te spotten.\n- **Rust** — Je komt onderweg vrijwel niemand tegen. Dit is de Ardennen op hun puurst.\n\n## Met de buggy?\n\nDe route is grotendeels over verharde landwegen en is buggy-vriendelijk. Geen steile hellingen of moeilijke passages.\n\n## Tip\n\nDeze wandeling is ideaal als opwarmer op de eerste dag of als rustige afsluiter. Een gedetailleerd wandelkaartje met uitleg ligt klaar in de woning.\n\n## Variatie\n\nVoor wie meer wil: de route is makkelijk uit te breiden richting Louette-Saint-Pierre of Graide voor een langere wandeling van 8-10 km.",
+        "seo": {
+          "title": "Wandeling rond Malvoisin — Vertrek aan de voordeur | ArdenNest",
+          "description": "Rustige dorpswandeling van 5 km vanuit de vakantiewoning. Panoramische vergezichten, weilanden en geen auto nodig. Buggy-vriendelijk."
+        }
+      },
+      "laddertjeswandeling-rochehaut": {
+        "title": "Laddertjeswandeling Rochehaut",
+        "description": "Spectaculaire wandeling met ladders en kettingen langs de rotswanden van de Semois. Een echte avonturenwandeling!",
+        "highlights": [
+          "IJzeren ladders",
+          "Rotswanden",
+          "Semois-vallei",
+          "Panorama Frahan",
+          "Route nr. 43"
+        ],
+        "fullDescription": "De laddertjeswandeling van Rochehaut — ook wel 'de wandeling van de ladders' of 'Promenade des Échelles' — is een van de meest spectaculaire wandelingen van de Ardennen. Je daalt af langs ijzeren ladders en kettingen die in de rotswanden zijn bevestigd, met adembenemende uitzichten over de Semois-vallei en het pittoreske Frahan.\n\n## De route\n\nDe route is bewegwijzerd met rode rechthoekige bordjes met het cijfer **43**. Vanuit het dorpje Rochehaut volg je de Rue des Moissons richting Chemin des Falloises. De wandeling begint pas écht bij het waarschuwingsbord: 'parcours dangereux' — niet omdat het onveilig is, maar omdat het fysiek veeleisend is. Meteen daarna ga je een steile trap af van boomwortels — dan weet je wat je te wachten staat.\n\n## Wat maakt het bijzonder?\n\nDit is geen gewone wandeling. De route voert je langs steile rotswanden waar ijzeren ladders en kettingen zijn aangebracht. De ladders zijn gemaakt voor volwassenen, met flinke ruimte tussen de treden. Je klimt, daalt af en kruipt door rotsspleten — met steeds weer dat adembenemende uitzicht als beloning.\n\n## Voor wie?\n\nDeze wandeling is **niet geschikt voor kleine kinderen, zwangere vrouwen of mensen met hoogtevrees**. Voor kinderen adviseren we een leeftijd vanaf circa 10 jaar — jongere kinderen kunnen eventueel mee in een rugdrager. Honden meenemen wordt sterk afgeraden: de ladders zijn te steil om een hond veilig te dragen.\n\n## Voorbereiding\n\n- **Stevige wandelschoenen met grip** zijn essentieel — sportschoenen glijden weg op de rotsen\n- Neem een **EHBO-setje** mee — de rotsen kunnen scherp zijn\n- Bij regen, sneeuw of ijs wordt de wandeling afgeraden: de ladders en rotsen worden spekglad\n- Neem voldoende water mee\n\n## Parkeren\n\nEr zijn drie gratis parkeergelegenheden vlak bij het startpunt:\n- Bij de kerk **Église Saint-Firmin de Rochehaut**\n- Bij **Panoramapunt Le Frahan** — met een schitterend uitzicht over de Semois-meander\n- In de **Rue de la Sense**\n\n## Het uitzicht\n\nRochehaut staat bekend om zijn adembenemend panorama over de Semois-vallei en het middeleeuwse gehucht Frahan, dat in een meander van de rivier ligt. Het dorpje zelf is een van de mooiste van Wallonië en verdient ook een bezoek.\n\n## Vanuit ArdenNest\n\nRochehaut ligt op ongeveer 30 minuten rijden. Combineer de wandeling met een lunch op een terras in het dorp — het uitzicht is het waard!",
+        "imageAlts": [
+          "Groep vrouwen wandelt door mosrijk bos, één maakt foto met camera",
+          "Groep wandelaars poseert lachend tussen boomstammen op steile helling",
+          "Kinderen dalen af door herfstbos richting rivier de Semois",
+          "Gezin met kinderen speelt aan de oever van de Semois",
+          "Groep wandelaars loopt langs de oever van de Semois",
+          "Wandelaars beklimmen steil bospad met boomwortels en rotsen",
+          "Twee wandelaars klimmen metalen ladder tegen rotswand op",
+          "Wandelaars op smal bospad met houten leuning langs helling",
+          "Vader en kind wandelen over bladertapijt tussen hoge beukenbomen",
+          "Kinderen klimmen metalen ladder af, gezien van bovenaf door kooi"
+        ]
+      },
+      "caprando-wandelgids": {
+        "title": "CapRando — Wandelgids op maat",
+        "description": "Een erkende wandelgids die bij jullie aan de deur afkomt. Perfect voor bedrijven en families die een uitgestippelde wandeling willen met een ervaren gids die Nederlands en Frans spreekt.",
+        "highlights": [
+          "Erkende gids",
+          "Nederlandstalig & Franstalig",
+          "Vertrek aan de vakantiewoning",
+          "Op maat van jullie groep",
+          "Semois, Lesse & Ardennen"
+        ],
+        "fullDescription": "CapRando is een erkende wandelgids die jullie meeneemt op ontdekkingstocht door de mooiste landschappen van de Ardennen. Ideaal voor bedrijven, families of vriendengroepen die samen een begeleide wandeling willen maken.\n\n## Hoe werkt het?\n\nDe gids spreekt altijd af aan de vakantiewoning om jullie op te starten. Geen gedoe met afspreken op een parkeerplaats of zoeken naar het vertrekpunt — hij komt gewoon bij jullie aan de deur.\n\n## Op maat van jullie groep\n\nElke wandeling wordt aangepast aan jullie niveau en wensen. Van een rustige natuurwandeling tot een sportieve dagtocht van 20 km met hoogtemeters. De gids kent de streek door en door en stippelt een route uit die perfect bij jullie groep past.\n\n## Wat kun je verwachten?\n\nCapRando biedt verschillende formules:\n\n- **Randonnées à la carte** — Een volledige dagwandeling (±20 km) door de Semois-vallei, het Geopark Famenne-Ardenne of de Grote Woud van Saint-Hubert\n- **Natuurwandelingen** — Kortere wandelingen met aandacht voor flora, fauna en het landschap\n- **Oriëntatie-initiatie** — Leer kaartlezen en navigeren in het bos\n\n## De gids\n\nDe gids is een erkende wandelbegeleider die zowel Nederlands als Frans spreekt. Hij kent de streek als zijn broekzak en deelt graag zijn passie voor de Ardense natuur.\n\n## Tarieven\n\nDagforfait: €120 tot 8 deelnemers (+€10/persoon extra). Koffie bij vertrek inbegrepen. Minimum 4 deelnemers, maximum 16 voor het comfort van iedereen.\n\n## Vanuit ArdenNest\n\nDe gids komt rechtstreeks naar de vakantiewoning. Neem ruim op voorhand contact op om een datum vast te leggen.",
+        "imageAlts": [
+          "Groep wandelaars pauzeert op houten brug over beek in groen bos",
+          "Gids geeft uitleg aan groep wandelaars op bospad",
+          "Panoramisch uitzicht op Semois-meander en dorpje in mistig winterlandschap",
+          "Hond staat bij kleine waterval in rotsachtige bosbeek",
+          "Zonsondergang over Ardens heuvellandschap met rotsen op voorgrond",
+          "Vier wandelaars bestuderen samen een wandelkaart in open veld"
+        ]
+      }
+    },
+    "cycling": {
+      "ravel-dinant-givet": {
+        "title": "RAVeL fietspad Dinant - Givet",
+        "description": "Vlak, autovrij fietspad langs de Maas van Dinant tot over de Franse grens naar Givet. 20 km enkele richting, perfect voor families.",
+        "fullDescription": "Het RAVeL-fietspad op de oude spoorlijn 150 is een van de populairste fietsroutes in de regio. Volledig vlak, autovrij en verhard — perfect voor gezinnen met kinderen.\n\n## De route\n\nHet pad volgt de oude spoorlijn langs de Maas, van Dinant (Anseremme) tot Givet in Frankrijk. Ongeveer 20 km enkele richting, dus 40 km heen en terug. Maar je hoeft niet de hele route te fietsen — je kunt op elk punt omdraaien.\n\n## Hoogtepunten onderweg\n\n- **Langs de Maas** — Het pad loopt vlak naast de rivier, met prachtige uitzichten\n- **Château de Freÿr** — Halverwege passeer je dit schitterende kasteel met baroktuinen\n- **Hastière** — Gezellig dorpje met terrasjes voor een tussenstop\n- **Givet (FR)** — Het eindpunt in Frankrijk, met de imposante Fort de Charlemont\n\n## Praktisch\n\n- Verhard pad, geschikt voor elke fiets (ook kinderfiets en fietskar)\n- Volledig vlak — geen hoogteverschil\n- Drinkwater en toiletten onderweg in de dorpen\n- Je kunt eigen fietsen meenemen of huren bij La Balade de Sim\n\n## Tip\n\nFiets tot Hastière (10 km), neem een drankje op een terras, en fiets terug. Dat is 20 km — perfect voor een halve dag met kinderen.\n\n## Vanuit ArdenNest\n\nStartpunt Anseremme op 15 minuten rijden. Parkeren bij het station.",
+        "seo": {
+          "title": "RAVeL fietspad Dinant - Givet — Vlak langs de Maas | ArdenNest",
+          "description": "Vlak, autovrij fietspad langs de Maas. 20 km Dinant-Givet, perfect voor families. Langs Château de Freÿr. 15 min van ArdenNest."
+        }
+      },
+      "mountainbike-beauraing": {
+        "title": "Mountainbike parcours Beauraing",
+        "description": "Uitdagende routes door de bossen van de Ardennen. Diverse trajecten van 15 tot 45 km voor elke conditie.",
+        "fullDescription": "De bossen rondom Beauraing bieden uitstekende mountainbike-mogelijkheden. Diverse bewegwijzerde routes van 15 tot 45 km voeren je door dichte bossen, over heuvels en langs rivieren.\n\n## De routes\n\nVanuit Beauraing vertrekken meerdere bewegwijzerde VTT-routes (Vélo Tout Terrain):\n\n- **Korte lus (±15 km)** — Ideaal om de benen te testen. Licht heuvelachtig met mooie bospaden.\n- **Middellange lus (±25 km)** — Meer hoogtemeters en technischere passages. Mooie single trails.\n- **Lange lus (±45 km)** — Voor de ervaren mountainbiker. Serieuze hoogtemeters en uitdagend terrein.\n\n## Het terrein\n\nTypisch Ardens: afwisseling van bospaden, single trails, landwegen en af en toe een stuk asfalt. Het terrein is heuvelachtig met korte, steile klimmetjes en technische afdalingen. Na regen kunnen sommige paden modderig zijn — dat hoort erbij.\n\n## Praktisch\n\n- Eigen mountainbike meenemen of huren bij La Balade de Sim (e-MTB)\n- Routes bewegwijzerd met VTT-borden\n- GPX-tracks beschikbaar\n- Helm verplicht\n\n## Vanuit ArdenNest\n\nStartpunt Beauraing op 20 minuten rijden. Parkeren bij het Castel de Beauraing.",
+        "seo": {
+          "title": "Mountainbike Beauraing — VTT-routes door de Ardennen | ArdenNest",
+          "description": "Bewegwijzerde mountainbike routes van 15-45 km door de bossen van Beauraing. Heuvelachtig, technisch en avontuurlijk. 20 min van ArdenNest."
+        }
+      },
+      "la-balade-de-sim": {
+        "title": "La Balade de Sim — Elektrische fietsverhuur",
+        "description": "Elektrische fietsen aan huis geleverd. Sim brengt de fietsen naar jullie vakantiehuis en haalt ze nadien op — jullie hoeven nergens te zijn.",
+        "fullDescription": "La Balade de Sim is een kleine, persoonlijke fietsverhuur gerund door een gepassioneerde fietser die zijn streek door en door kent.\n\n## Hoe werkt het?\n\nSim brengt de elektrische fietsen rechtstreeks naar jullie vakantiehuis — op het moment dat jullie het willen, voor de duur die jullie kiezen. Na afloop haalt hij ze gewoon weer op. Geen gedoe met autorijden naar een verhuurpunt, geen wachtrijen.\n\n## De fietsen\n\nKwaliteitsvolle elektrische fietsen (BH Atom) die zorgen voor een aangename en moeiteloze fietservaring. Iedereen — ook wie niet zo goed in conditie is — kan zo genieten van de mooie omgeving.\n\n## De routes\n\nSim stelt op aanvraag gepersonaliseerde routes samen, van Dinant tot de Semois, via Houyet en Daverdisse. Je kunt ook vertrekken vanuit het Castel de Beauraing voor een van zijn 3 vaste routes.\n\n## Vanuit ArdenNest\n\nSim komt gewoon bij jullie aan de deur. Bestel ruim op voorhand, zeker in het hoogseizoen.",
+        "pricingShortNote": "Vertrek vanuit Castel Saint-Pierre de Beauraing",
+        "pricingLongNote": "Levering en reiniging inbegrepen",
+        "pricingIncluded": "Helm, reparatieset, gepersonaliseerde routes"
+      }
+    },
+    "active": {
+      "dinant-evasion": {
+        "title": "Dinant Evasion — Adventure Park",
+        "description": "Spectaculair uitdagingspark in een oude steengroeve boven de Maas. Diverse parcours, deathrides en klimmuren.",
+        "highlights": [
+          "Hele jaar open",
+          "Pubers & tieners"
+        ],
+        "fullDescription": "Dinant Evasion is een avonturenpark in een oude steengroeve hoog boven de Maas, net buiten Dinant. Het is geen gewoon klimbos — de setting in de ruwe rotswanden maakt het spectaculairder dan eender welk ander park in de regio.\n\n## Wat je er kunt doen\n\n- 4 ziplines waarvan je tot 60 meter boven de grond over de steengroeve vliegt\n- Diverse challenges: Ardennen Challenge (vanaf 10j), Alpen Challenge (vanaf 12j), Mont-Blanc Challenge (vanaf 10j)\n- XL Swing, Funkabel en klimmuren\n- Paintball en stadsspel in Dinant\n\n## Waarom wij het aanraden\n\nHet park is het hele jaar geopend — ook buiten het seizoen. Perfect voor pubers en tieners die nood hebben aan adrenaline. Reserveren is aanbevolen.\n\n## Vanuit ArdenNest\n\nOp 30 minuten rijden. Via Dinant, richting de Citadel. Het park ligt hoog boven de stad in een oude steengroeve — de rit erheen is al een belevenis.",
+        "openingHours": "Het hele jaar — check de website voor exacte uren",
+        "seo": {
+          "title": "Dinant Evasion — Adventure Park | ArdenNest",
+          "description": "Spectaculair avonturenpark in een oude steengroeve boven de Maas. Ziplines, klimmuren en challenges voor tieners. 30 min van ArdenNest."
+        },
+        "imageAlts": [
+          "Klimmers op hangbrug hoog boven rotswand met blauwe lucht",
+          "Vrouw met helm glijdt aan zipline boven groene Maasvallei"
+        ]
+      },
+      "bomenparcours-han": {
+        "title": "Bomenparcours — Grotten van Han",
+        "description": "Uniek parcours tussen de boomtoppen in het Wildpark van Han. Combinatie van natuurbeleving en fysieke uitdaging.",
+        "highlights": [
+          "Alle leeftijden",
+          "Combineer met Wildpark"
+        ],
+        "fullDescription": "Tree Experience is het gloednieuwe bomenparcours in het Wildpark van Han-sur-Lesse. Geen standaard klimbos, maar een doordacht parcours tussen de boomtoppen met 5 verschillende niveaus.\n\n## Wat je er kunt doen\n\n- Parcours Everjong & Wolfje: makkelijk, voor kinderen vanaf 4 jaar (max 150 cm)\n- Parcours Beertje: iets hoger, op 2 meter, vanaf 120 cm met begeleiding\n- Parcours Uil & Vleermuis: 10 meter hoog, voor echte avonturiers (vanaf 10 jaar, min 130 cm) met ziplines van 140 meter\n- Klimmuur (vanaf 4 jaar) en vrije val (min 130 cm)\n\n## Waarom wij het aanraden\n\nCombineer het bomenparcours met een bezoek aan het Wildpark of de beroemde Grotten van Han. Eén ticket, een hele dag plezier. Geschatte duur bomenparcours: 1u30. Plan het voor 11u30 voor het beste comfort.\n\n## Praktische tips\n\nLange haren in staart, geen open schoenen, handschoenen aanbevolen, max 120kg. Kinderen onder 12 jaar begeleid door volwassene.\n\n## Vanuit ArdenNest\n\nOp 20 minuten rijden richting Rochefort. Combineer met de Grotten van Han voor een volledige dag.",
+        "seo": {
+          "title": "Bomenparcours Tree Experience — Grotten van Han | ArdenNest",
+          "description": "5 parcours tussen de boomtoppen in het Wildpark van Han. Ziplines van 140m, klimmuur en vrije val. Vanaf 4 jaar. 20 min van ArdenNest."
+        },
+        "imageAlts": [
+          "Meisje met helm en harnas op zipline in groen klimbos",
+          "Kind met helm balanceert op houten hangbrug in klimparcours",
+          "Kind met helm slingert lachend aan zipline tussen de bomen"
+        ]
+      },
+      "terraltitude-fumay": {
+        "title": "Terraltitude — Fantasticable",
+        "description": "Net over de Franse grens: een zipline waarbij je met 100 km/u over de Maas vliegt. Adrenaline ten top.",
+        "highlights": [
+          "Adrenaline",
+          "Seizoensgebonden"
+        ],
+        "fullDescription": "Net over de Franse grens, in Fumay, ligt Terraltitude — het avonturenpark van de Ardennen. De absolute blikvanger: de Fantasticable, een zipline van 1,2 km waarbij je met meer dan 100 km/u over de Maas vliegt. Niets voor watjes.\n\n## Wat je er kunt doen\n\n- **Fantasticable**: 1,2 km zipline over de Maas aan 100+ km/u\n- **Accrobranche**: boomklimparcours voor alle niveaus met hangbruggen, touwen en netten\n- **Catapulte**: met elastieken 18 meter de lucht in gekatapulteerd worden — in 2 seconden\n- **Tour des Aventuriers**: springtoren voor wie nog meer sensatie wil\n- **Bois des Nutons**: speelzone voor kleintjes (2-11 jaar) met hutten, trampolines, karts en blotevoetenpad\n- Paintball\n\n## Waarom wij het aanraden\n\nDit is het enige park in de regio met een activiteit van dit kaliber. De Fantasticable alleen al is de rit waard. En met het Bois des Nutons is er ook voor jongere kinderen genoeg te beleven. Seizoensgebonden — meestal open vanaf april.\n\n## Vanuit ArdenNest\n\nOp 20 minuten rijden, net over de Franse grens bij Fumay. Neem paspoort of identiteitskaart mee.",
+        "openingHours": "April - november (check de kalender op de website)",
+        "seo": {
+          "title": "Terraltitude Fumay — Fantasticable & Avonturenpark | ArdenNest",
+          "description": "Vlieg met 100 km/u over de Maas op de Fantasticable. Accrobranche, catapulte en speelzone voor kleintjes. Net over de Franse grens, 20 min van ArdenNest."
+        }
+      },
+      "cap-nature-bertrix": {
+        "title": "Cap Nature (Bertrix)",
+        "description": "Avontuurlijke parcours en outdoorsporten bij de leisteengroeve. Mooie combinatie van sport en natuur.",
+        "highlights": [
+          "Vanaf Pasen"
+        ],
+        "fullDescription": "Cap Nature in Bertrix is een klimbos vlak naast de leisteengroeve Au Coeur de l'Ardoise — perfect te combineren dus. Het park biedt 10 parcours voor alle leeftijden en niveaus, met in totaal 500 meter aan ziplines over 12 verschillende lijnen en 70 verschillende oefeningen.\n\n## Wat je er kunt doen\n\n- 10 avontuurlijke parcours van makkelijk tot vertigo\n- Pom-Pom Adventure voor de allerkleinsten\n- Apenbrug, Tibetaanse brug, Tarzan-sprong, acrobatische netten en ziplines\n- Veiligheid als prioriteit: jaarlijkse controle door Vinçotte\n\n## Waarom wij het aanraden\n\nDe combinatie met de leisteengroeve ernaast maakt er een volledige daguitstap van. 's Ochtends de diepte in, 's middags de hoogte in. Open vanaf de paasvakantie.\n\n**Tip:** Combineer met [Au Cœur de l'Ardoise](/surroundings/active/leisteengroeve-bertrix) voor een volledige dag in Bertrix.\n\n## Vanuit ArdenNest\n\nOp 25 minuten rijden richting Bertrix.",
+        "openingHours": "Vanaf de paasvakantie",
+        "seo": {
+          "title": "Cap Nature Bertrix — Klimbos & Avontuurparcours | ArdenNest",
+          "description": "10 klimparcours, 500m ziplines en 70 oefeningen in Bertrix. Voor alle leeftijden. Combineer met de leisteengroeve. 25 min van ArdenNest."
+        }
+      },
+      "recrealle": {
+        "title": "Récréalle",
+        "description": "Compleet recreatiedomein aan de Semois met kajakverhuur, mountainbikes, minigolf en binnenspeeltuin.",
+        "highlights": [
+          "Voor elk wat wils"
+        ],
+        "fullDescription": "Récréalle in Alle-sur-Semois is het Zwitserse zakmes onder de recreatiedomeinen. Op één plek vind je alles: kajak op de Semois, minigolf, klimmuur, bowling, paintball, springkasteel, ijspiste, boogschieten en zelfs een zwemzone aan de rivier.\n\n## Wat je er kunt doen\n\n- Kajak op de Semois (7-11 km trajecten, €22-€25)\n- Klimmuur van 11 meter (vanaf 8 jaar)\n- Bowling, minigolf 18 holes, tafeltennis\n- Springkasteel + Acro Game voor kinderen\n- Aqua-bike, Segway, e-bike en VTT verhuur\n- Bazooka ball, paintball, boogschieten\n- Gratis zwemzone en speeltuin\n- Restaurant, brasserie en BBQ-mogelijkheid\n\n## Waarom wij het aanraden\n\nDe ideale regendag-bestemming (bowling, klimmuur, snooker indoor) maar ook perfect bij mooi weer (kajak, zwemmen, minigolf). Handig als je een groep hebt met uiteenlopende leeftijden — iedereen vindt hier iets.\n\n## Vanuit ArdenNest\n\nOp 25 minuten rijden richting Vresse-sur-Semois en Alle-sur-Semois.",
+        "seo": {
+          "title": "Récréalle — Recreatiedomein aan de Semois | ArdenNest",
+          "description": "Kajak, klimmuur, bowling, minigolf, zwemmen en meer op één plek aan de Semois. Ideaal voor families met kinderen. 25 min van ArdenNest."
+        },
+        "imageAlts": [
+          "Cartoonbever peddelt in een rode kajak",
+          "Cartoonbever speelt minigolf met putter en bal",
+          "Cartoonbever klimt op een groene klimwand",
+          "Cartoonbever gooit een paarse bowlingbal"
+        ]
+      },
+      "leisteengroeve-bertrix": {
+        "title": "Au Cœur de l'Ardoise — Leisteengroeve",
+        "description": "Daal af in de geschiedenis van de regio. Boeiend bezoek aan de oude leisteengroeve diep onder de grond. Altijd 10°C — ideaal bij regenweer.",
+        "highlights": [
+          "Weersonafhankelijk",
+          "Ondergronds"
+        ],
+        "fullDescription": "Au Cœur de l'Ardoise is een oude leisteengroeve in Bertrix waar je 25 meter onder de grond afdaalt in de geschiedenis van de Ardennen. De mijn was actief tot 1976, en vandaag wandel je er door gigantische zalen die met explosieven uit de rots zijn gehouwen.\n\n## Wat je er kunt doen\n\n- Ondergrondse rondleiding van 1 uur door bijna 1 km aan galerijen\n- Audiogids in NL, FR en zelfs Waals (geen koptelefoon maar luidsprekers zodat je met de kinderen kunt praten)\n- Optioneel: rondleiding met een echte oud-mijnwerker (reserveren 10 dagen vooraf, max 25 personen)\n- Mine Gourmande: bezoek + 3-gangen maaltijd met lokale producten (vanaf 10 personen)\n- Ondergrondse bierproeverij (groepen vanaf 10 personen)\n- Combinatie met Cap Nature klimbos ernaast (€32/leerling voor een volledige dag)\n\n## Waarom wij het aanraden\n\nWeersonafhankelijk — het is altijd 10°C onder de grond. Perfect bij regen. Kleed je warm aan. Combineer met Cap Nature voor een volledige dag: ochtend ondergronds, middag in de bomen.\n\n**Let op:** Het domein is momenteel in renovatie. Bezoeken, apéro's en maaltijden blijven mogelijk. E-Train en e-steps tijdelijk niet beschikbaar.\n\n**Tip:** Combineer met [Cap Nature](/surroundings/active/cap-nature-bertrix) voor een volledige dag in Bertrix.\n\n## Vanuit ArdenNest\n\nOp 25 minuten rijden richting Bertrix.",
+        "openingHours": "Weekends + schoolvakanties (behalve maandag). Groepen dagelijks op reservatie.",
+        "seo": {
+          "title": "Au Cœur de l'Ardoise — Leisteengroeve Bertrix | ArdenNest",
+          "description": "Daal 25 meter af in een oude leisteengroeve. Altijd 10°C, ideaal bij regen. Audiogids in NL/FR. Combineer met klimbos Cap Nature. 25 min van ArdenNest."
+        },
+        "imageAlts": [
+          "Smalle ondergrondse gang met leistenen muren in zwart-wit",
+          "Gezin op groene familiefiets langs pad bij de leisteengroeve",
+          "Collage van klimmers met helm en netten in boomtoppenparcours",
+          "Close-up van overlappende leistenen dakpannen met mos"
+        ]
+      },
+      "terraltitude": {
+        "imageAlts": [
+          "Twee personen hangen aan fantasticable boven rivier en vallei",
+          "Groene tunnelbuis en houten platforms hoog tussen de bomen",
+          "Persoon wordt met elastieken catapult de lucht in gelanceerd",
+          "Persoon springt van hoge metalen toren aan veiligheidslijn",
+          "Cartoon-kabouter met everzwijn en hert verwelkomt bezoekers"
+        ]
+      },
+      "cap-nature": {
+        "imageAlts": [
+          "Close-up van hand die karabijnhaak vasthoudt op staalkabel",
+          "Klimmer op hoog touwenparcours tussen groene boomkruinen",
+          "Persoon glijdt aan zipline door groen klimbos",
+          "Kind klimt hoog tussen de boomkruinen op avonturenparcours"
+        ]
+      }
+    },
+    "exclusive": {
+      "ardennest-dropping": {
+        "title": "De ArdenNest Dropping",
+        "description": "Een gepersonaliseerd avontuur waarbij Christophe een route uitstippelt. De ouders droppen de kinderen — zij moeten hun weg terug naar huis vinden. Dag-editie of Twilight-editie (+12j).",
+        "highlights": [
+          "Exclusief",
+          "+12 jaar"
+        ],
+        "distance": "Aan de voordeur",
+        "fullDescription": "De ArdenNest Dropping is een van die ervaringen die je nergens kunt boeken. Christophe — de eigenaar — stippelt een route uit door de bossen en velden rondom Malvoisin. De ouders droppen de kinderen op een geheime locatie, en zij moeten samen hun weg terug naar het vakantiehuis vinden.\n\n## Twee edities\n\n- **Dag-editie**: overdag, op een mooie route door de omgeving. Geschikt voor kinderen vanaf 12 jaar.\n- **Twilight-editie**: in de schemering, voor wie het spannender wil. Enkel voor +12 jaar.\n\n## Hoe werkt het?\n\nStuur Christophe een mailtje vóór jullie verblijf. Hij past de route aan op de leeftijd en het aantal deelnemers. Kaarten, hints en een noodtelefoonnummer worden voorzien.\n\n## Waarom wij het aanraden\n\nOmdat het niet bestaat buiten ArdenNest. Geen tickets, geen wachtrij, geen commercieel gedoe. Gewoon een avontuur op maat, in jullie eigen tijdelijke achtertuin.",
+        "askUponArrival": "Reserveer via e-mail",
+        "seo": {
+          "title": "De ArdenNest Dropping — Exclusief voor gasten | ArdenNest",
+          "description": "Een dropping op maat door de bossen van Malvoisin. Dag- of twilight-editie. Enkel voor gasten van ArdenNest. Vanaf 12 jaar."
+        },
+        "imageAlts": [
+          "Drie jongeren bestuderen samen een kaart in een herfstbos",
+          "Gouden zonnestralen schijnen door boomstammen op een bospad in de schemering",
+          "Twee kleine kinderen lopen over een zandpad tussen groene heuvels"
+        ]
+      }
+    },
+    "attractions": {
+      "dinant": {
+        "title": "Dinant",
+        "description": "Pittoresk stadje aan de Maas met citadel, kabelbaan en collegiale kerk. Geboorteplek van Adolphe Sax.",
+        "highlights": [
+          "Citadel",
+          "Kabelbaan",
+          "Adolphe Sax",
+          "Collegiale kerk",
+          "Winkelen"
+        ],
+        "fullDescription": "Dinant is de dichtstbijzijnde stad en biedt een perfecte daguitstap. Het stadje klemt zich vast tussen de rotswand en de Maas — een van de mooiste stadsgezichten van België.\n\n## Wat je er kunt doen\n\n- **De Citadel** — Per kabelbaan of via 408 treden bereik je de vesting hoog boven de stad. Panoramisch uitzicht over de Maas-vallei. Binnen een museum over de geschiedenis van Dinant en de twee wereldoorlogen.\n- **De Collegiale Kerk** — De karakteristieke peervormige klokkentoren is het icoon van Dinant. Gratis te bezoeken.\n- **Adolphe Sax** — De uitvinder van de saxofoon werd hier geboren in 1814. Zijn geboortehuis is een museum. Door de hele stad staan gekleurde saxofoonbeelden.\n- **De Maas** — Boottochtjes naar Anseremme of Freÿr. Kajakken op de Lesse.\n- **Winkelen en eten** — Gezellige winkelstraten, ijssalons en brasseries langs de Maas.\n\n## Met kinderen\n\nDe kabelbaan is een belevenis op zich. Op de citadel is een speeltuin en een interactief museum. Na het bezoek een ijsje aan de Maas — kinderen zijn tevreden.\n\n## Tip\n\nCombineer Dinant met de treinwandeling Anseremme-Gendron. Je wandelt langs de Lesse en eindigt in Dinant.\n\n## Vanuit ArdenNest\n\nOp 15 minuten rijden. Parkeren kan langs de Maas (betalend) of gratis op de parking bij de brug van Anseremme.",
+        "seo": {
+          "title": "Dinant — Citadel, kabelbaan & Adolphe Sax | ArdenNest",
+          "description": "Pittoresk stadje aan de Maas met citadel, kabelbaan en saxofoonmuseum. Perfecte daguitstap op 15 min van ArdenNest."
+        }
+      },
+      "grotten-van-han": {
+        "title": "Grotten van Han",
+        "description": "Een van de mooiste grotten van Europa, gecombineerd met een wildpark van 250 hectare. Dé daguitstap in de Ardennen.",
+        "highlights": [
+          "Grottenbezoek",
+          "Wildpark",
+          "Bomenparcours",
+          "Big 5"
+        ],
+        "fullDescription": "Het Domein van de Grotten van Han is de bekendste bezienswaardigheid van de Belgische Ardennen — en terecht. Je combineert een spectaculair grottenbezoek met een wildpark van 250 hectare en het gloednieuwe bomenparcours Tree Experience.\n\n## De Grot van Han\n\nEen ondergrondse reis door mysterieuze galerijen, indrukwekkende zalen, stalactieten en stalagmieten en een ondergrondse rivier. De grot werd gevormd door de Lesse die zich een weg baande door het kalksteenmassief. Een audiogids leidt je door het verhaal — beschikbaar in het Nederlands.\n\n## Het Wildpark\n\nHet grootste dierenpark van België: 250 hectare pure natuur. Spot de Europese Big 5: bruine beer, wolf, bizon, lynx en veelvraat. Je rijdt met een safaribus door het park en stapt uit bij observatieposten.\n\n## Tree Experience — Bomenparcours\n\nHet gloednieuwe bomenparcours biedt 5 niveaus voor alle leeftijden. Van de makkelijke parcours voor kinderen vanaf 4 jaar tot ziplines van 140 meter op 10 meter hoogte. Geschatte duur: 1u30.\n\n## Waarom wij het aanraden\n\nDit is een volledige dag entertainment voor het hele gezin. Grot + wildpark + bomenparcours = moe maar gelukkig naar huis. Koop je tickets online — scheelt wachttijd.\n\n## Vanuit ArdenNest\n\nOp 25 minuten rijden richting Rochefort/Han-sur-Lesse.",
+        "seo": {
+          "title": "Grotten van Han — Grot, Wildpark & Tree Experience | ArdenNest",
+          "description": "Een van de mooiste grotten van Europa, wildpark met de Big 5 en nieuw bomenparcours. Volledige daguitstap op 25 min van ArdenNest."
+        }
+      },
+      "kasteel-bouillon": {
+        "title": "Kasteel van Bouillon",
+        "description": "Duizend jaar oud kasteel op drie rotspieken boven de Semois. Roofvogelshow, nachtbezoeken en middeleeuws feest.",
+        "highlights": [
+          "Roofvogelshow",
+          "Nachtbezoek",
+          "Panorama 360°",
+          "Middeleeuwse sfeer"
+        ],
+        "fullDescription": "Het kasteel van Bouillon is een van de oudste en indrukwekkendste kastelen van België. Al meer dan 1000 jaar troont de vesting op drie rotspieken boven de Semois. 135.000 bezoekers per jaar — en dat is terecht.\n\n## Wat je er kunt doen\n\n- **Het kasteel verkennen** — 340 meter lang, met ondergrondse gangen, de Tour d'Autriche (panorama 360°), de folterkamer, de Salle Godefroy en het basculebrug-mechanisme\n- **Roofvogelshow** — Spectaculaire demonstratie van valkerij op de binnenplaats. Arenden, valken en uilen vliegen rakelings over je hoofd\n- **Nachtbezoek** — Tijdens vakanties kun je het kasteel bezoeken met fakkels. De kinderen vinden dit onvergetelijk\n- **L'Odyssée de Lumière** — Nieuw son et lumière-spectakel dat je door de eeuwen voert\n\n## Een beetje geschiedenis\n\nHet kasteel dateert van vóór het jaar 1000. De beroemdste bewoner was Godfried van Bouillon, die in 1096 het kasteel verkocht aan de bisschop van Luik om de Eerste Kruistocht te financieren. Later werd het een strategisch bolwerk onder de Fransen, Spanjaarden en Nederlanders.\n\n## Waarom wij het aanraden\n\nDe combinatie van geschiedenis, spectakel en het adembenemende uitzicht over de Semois-vallei maakt dit een topuitstap. Neem ook de tijd om door het stadje Bouillon te wandelen — de Semois slingert er als een lint doorheen.\n\n## Vanuit ArdenNest\n\nOp 40 minuten rijden richting Bouillon. De rit door de Ardennen is op zich al prachtig.",
+        "seo": {
+          "title": "Kasteel van Bouillon — 1000 jaar geschiedenis | ArdenNest",
+          "description": "Duizend jaar oud kasteel boven de Semois met roofvogelshow, nachtbezoeken en panorama 360°. 40 min van ArdenNest."
+        },
+        "imageAlts": [
+          "Kasteel van Bouillon op heuvelrug boven het stadje",
+          "Pentekening van het kasteel van Bouillon in vogelvlucht",
+          "Vlag wappert op stenen kasteeltoren tegen blauwe lucht",
+          "Nachtbezoek met fakkels in donkere kasteelgang met gids in mantel"
+        ]
+      },
+      "abdij-maredsous": {
+        "title": "Abdij van Maredsous",
+        "description": "Benedictijner abdij in een groen dal met beroemde kaas, bieren en een oase van rust.",
+        "highlights": [
+          "Abdijkaas",
+          "Abdijbier",
+          "Rondleiding",
+          "Wandelpaden"
+        ],
+        "fullDescription": "De Abdij van Maredsous is een levende benedictijner abdij in een prachtig groen dal. Gesticht in 1872, woont er vandaag nog altijd een gemeenschap van monniken die het ritme van gebed, werk en gastvrijheid onderhouden.\n\n## Wat je er kunt doen\n\n- **Rondleiding** — Begeleide rondleiding door de kerk en de omgeving van het klooster, vanuit het Centre d'accueil Saint-Joseph\n- **Abdijproducten** — De beroemde Maredsous-kaas en abdijbieren kopen in de winkel\n- **Brasserie** — Geniet van een Maredsous-bier en een boterham met abdijkaas op het terras\n- **Wandelpaden** — Het domein ligt in een prachtig dal, perfect voor een wandeling\n- **Stilte en bezinning** — De abdij biedt ook verblijf aan voor wie rust en bezinning zoekt\n\n## De producten\n\nMaredsous staat bekend om zijn kazen (waaronder de zachte, halfharde en oude varianten) en abdijbieren. De monniken zijn betrokken bij de receptuur, hoewel de productie op grotere schaal gebeurt. In de abdijwinkel vind je ook boeken, religieuze artikelen en honing.\n\n## Waarom wij het aanraden\n\nDe sfeer is er anders dan elders. Rustiger, stiller, met een oprechte gastvrijheid. Perfect voor een rustige ochtend of namiddag. Combineer met een wandeling in de groene omgeving.\n\n## Vanuit ArdenNest\n\nOp 20 minuten rijden richting Dinant/Denée.",
+        "seo": {
+          "title": "Abdij van Maredsous — Kaas, bier & bezinning | ArdenNest",
+          "description": "Benedictijner abdij met beroemde kaas, abdijbier en rondleidingen. Wandelpaden in een prachtig groen dal. 20 min van ArdenNest."
+        },
+        "imageAlts": [
+          "Groepsfoto van benedictijner monniken in zwarte habijten",
+          "Opengeslagen middeleeuws breviarium met miniaturen en leren banden"
+        ]
+      },
+      "natuurreservaat-furfooz": {
+        "title": "Natuurreservaat Furfooz",
+        "description": "Natuurreservaat met wandeling langs grotten en Romeinse ruïnes.",
+        "highlights": [
+          "Natuur",
+          "Archeologie",
+          "Panorama"
+        ],
+        "fullDescription": "Een verborgen pareltje in de Lesse-vallei. Een bewegwijzerde wandeling van 4 km voert je langs grotten, panoramische uitzichtpunten en Gallo-Romeinse ruïnes. Beheerd door vzw Ardenne & Gaume.\n\n## Wat je er kunt doen\n\n- Bewegwijzerde wandeling van 4 km langs de Lesse\n- Grotten en prehistorische schuilplaatsen\n- Gallo-Romeinse ruïnes (thermengebouw)\n- Spectaculaire uitzichtpunten over de Lesse-vallei\n- Informatieborden over flora, fauna en geschiedenis\n\n## Waarom wij het aanraden\n\nFurfooz combineert natuur, archeologie en prachtige panorama's in één wandeling. Het is rustig, ongerept en voelt als een ontdekking. Lid worden van Ardenne & Gaume geeft je gratis toegang.\n\n## Combinatietip\n\nPerfect te combineren met de treinwandeling naar Gendron — Furfooz ligt op slechts enkele minuten van het station Gendron-Celles.\n\n## Vanuit ArdenNest\n\nOp 20 minuten rijden richting Dinant.",
+        "seo": {
+          "title": "Natuurreservaat Furfooz — Grotten & Ruïnes | ArdenNest",
+          "description": "Wandeling van 4 km langs grotten, Gallo-Romeinse ruïnes en panorama's over de Lesse-vallei. Verborgen pareltje op 20 min van ArdenNest."
+        }
+      },
+      "kasteel-lavaux-sainte-anne": {
+        "title": "Kasteel van Lavaux-Sainte-Anne",
+        "description": "Middeleeuws kasteel met moerasnatuurreservaat.",
+        "highlights": [
+          "Kasteel",
+          "Moerasnatuur",
+          "Evenementen"
+        ],
+        "fullDescription": "Een van de mooiste kastelen van Wallonië, erkend als groot erfgoed. Dwaal door 32 kamers van kelder tot donjon en ontdek het aangrenzende moerasnatuurreservaat.\n\n## Wat je er kunt doen\n\n- Bezoek aan 32 kamers verdeeld over 3 musea (kasteel, natuur, boerenleven)\n- Moerasnatuurreservaat met observatieposten\n- Boutique met streekproducten\n- Regelmatige evenementen: brocantes, Venetiaanse kostuumshows, middeleeuws weekend\n\n## Een beetje geschiedenis\n\nHet kasteel dateert uit 1244, toen Jacques de Wellin een wachttoren bouwde langs de Romeinse weg Bavay-Nassogne. In de 15e eeuw werd het uitgebouwd tot een imposante vesting met vier torens. Vandaag is het een van de best bewaarde kastelen van de Famenne.\n\n## Waarom wij het aanraden\n\nDe combinatie van het kasteel met het moerasnatuurreservaat maakt dit tot een uitstapje voor jong en oud. De evenementen zijn vaak een extra reden om te gaan. Check hun agenda!\n\n## Vanuit ArdenNest\n\nOp 25 minuten rijden richting Rochefort.",
+        "seo": {
+          "title": "Kasteel Lavaux-Sainte-Anne — Middeleeuws kasteel | ArdenNest",
+          "description": "Middeleeuws kasteel uit 1244 met 32 kamers en moerasnatuurreservaat. Evenementen en brocantes. 25 min van ArdenNest."
+        },
+        "imageAlts": [
+          "Team proeft bier aan tafel in kasteelzaal met jachttrofeeën",
+          "Kasteel Lavaux-Sainte-Anne met toren en rozentuin op voorgrond",
+          "Ober draagt plateau met hapjes, macarons en sushi"
+        ]
+      },
+      "brasserie-de-la-lesse": {
+        "title": "Brasserie de la Lesse",
+        "description": "Coöperatieve ambachtelijke brouwerij met bezoek en degustatie.",
+        "highlights": [
+          "Brouwerij",
+          "Degustatie",
+          "Bio"
+        ],
+        "fullDescription": "Coöperatieve brouwerij met meer dan 500 coöperanten. Een brouwerij die de tijd neemt om bier te brouwen, niet om geld te verdienen.\n\n## Wat je er kunt doen\n\n- Rondleiding (±1u30) met degustatie van 4 biologische bieren voor €12/persoon\n- Rondleiding zonder degustatie: €7/persoon\n- Bar en terras open in het weekend (za 10u-17u, zo 11u-16u)\n- Bier kopen in de winkel (ma-vr behalve do)\n- Geen minimum aantal deelnemers voor bezoeken\n\n## De bieren\n\n100% biologisch, gebouwd met lokale grondstoffen. Geen conserveringsmiddelen, geen kleurstoffen, geen kunstmatige toevoegingen. Van de frisse TopLesse (pils 4,2%) tot de robuuste Brune des Braves (7,5%). Seizoensbier L'HIVEResse in de winter.\n\n## Waarom wij het aanraden\n\nOmdat je hier proeft wat een brouwerij met overtuiging kan zijn. Bier om mee te nemen naar de vakantiewoning — perfect voor een avond op het terras.\n\n## Vanuit ArdenNest\n\nOp 25 minuten rijden richting Rochefort/Éprave.",
+        "seo": {
+          "title": "Brasserie de la Lesse — Ambachtelijke brouwerij | ArdenNest",
+          "description": "Coöperatieve biobrouwerij in Éprave. Rondleiding met degustatie €12/pp. Bar, terras en winkel. 25 min van ArdenNest."
+        },
+        "imageAlts": [
+          "Illustratie van duurzaam brouwproces Brasserie de la Lesse",
+          "Bieretiket l'Hiveresse, ambachtelijk bruin Belgisch bier",
+          "Bieretiket TopLesse, Belgische ambachtelijke pils"
+        ]
+      },
+      "domaine-de-chevetogne": {
+        "title": "Domaine de Chevetogne",
+        "description": "Provinciaal recreatiedomein met 14 speeltuinen en zwembaden.",
+        "highlights": [
+          "Speeltuinen",
+          "Zwembaden",
+          "Natuur"
+        ],
+        "fullDescription": "Hét uitstapje voor gezinnen met kinderen. Op 600 hectare natuur vind je 14 speeltuinen, openluchtzwembaden, twee musea en kilometers wandelpaden.\n\n## Wat je er kunt doen\n\n- 14 speeltuinen — van de piratenspeeltuin 'Bout du Monde' tot de Hobbit-hut\n- Openluchtzwembaden (zomer)\n- 10 wandelpaden door 600 hectare natuur\n- Twee musea\n- Tuinen met opmerkelijke bomen en sculpturen\n- Activiteiten voor scholen en groepen\n\n## Waarom wij het aanraden\n\nKinderen willen niet meer weg. Letterlijk. Plan een volledige dag in — er is genoeg te doen. De combinatie van speeltuinen, natuur en zwembaden maakt dit het ideale uitstapje voor gezinnen met kinderen van alle leeftijden.\n\n## Tip\n\nVraag ons naar kortingsbonnen — we hebben er soms liggen!\n\n## Vanuit ArdenNest\n\nOp 30 minuten rijden richting Ciney/Rochefort.",
+        "seo": {
+          "title": "Domaine de Chevetogne — 14 speeltuinen | ArdenNest",
+          "description": "Provinciaal domein met 14 speeltuinen, zwembaden en 600 hectare natuur. Hét gezinsuitstapje. 30 min van ArdenNest."
+        }
+      },
+      "furfooz": {
+        "imageAlts": [
+          "Panorama van de Lesse-vallei met rotsen en dicht groen bos",
+          "Smal stenen wandelpad langs begroeide rotswand in Furfooz"
+        ]
+      },
+      "grotten-han": {
+        "imageAlts": [
+          "Collage van beer, grotten met stalactieten en rondleiding in Han",
+          "Dubbele belichting van bruine beer met wolvenwelp en landschap"
+        ]
+      },
+      "chevetogne": {
+        "imageAlts": [
+          "Wit kasteeldomein Chevetogne met groot groen gazon en bomen",
+          "Houten piratenschip-speeltuin aan vijver in groen park",
+          "Wandelpad tussen bloeiende witte en roze rododendrons"
+        ]
+      }
+    },
+    "restaurants": {
+      "le-belvedere-beauraing": {
+        "title": "Le Belvédère",
+        "description": "Ons favoriete adresje in Beauraing. Half café, half restaurant, volledig zichzelf. De plek waar iedereen welkom is.",
+        "fullDescription": "Er zijn van die plekken waar je binnenstapt en meteen denkt: hier kom ik graag terug. Le Belvédère in Beauraing is zo'n plek.\n\n## De sfeer\n\nHet is moeilijk uit te leggen wat Le Belvédère precies is. Een café? Een restaurant? Het is allebei, en tegelijk geen van beide. Iedereen verzamelt rond de toog — en dat is het mooie eraan. Je staat er naast een motorrijder die net van een toertocht komt, een stel dagjesmensen, een werkman die nog stof op zijn kleren heeft, een handelsvertegenwoordiger tussen twee afspraken. Niemand die raar opkijkt. Iedereen hoort erbij.\n\n## De gastvrouw\n\nDe eigenares maakt deze plek tot wat ze is. Warm, charmant, en met oprechte aandacht voor wie er binnenkomt. Het soort gastvrouw waarbij je je meteen op je gemak voelt — ook als je er voor het eerst bent.\n\n## Wat je eet\n\nGeen lange kaart met onmogelijke gerechten. Wel altijd vers, altijd eerlijk. De suggestie van de week is steevast een voltreffer. Het soort eten waar je achteraf blij van wordt.\n\n## Met een grote groep?\n\nBel dan ruim op voorhand. Ze denken graag met jullie mee en zorgen dat alles goed geregeld is — zonder dat het stijf of formeel wordt. Precies zoals het hoort.\n\n## Vanuit de vakantiewoning\n\nOp een kwartiertje rijden van ArdenNest. Perfect voor een avond waarop niemand hoeft te koken en iedereen gewoon kan genieten.",
+        "openingHours": "Di-do: 9u-22u · Vr-za: 9u-24u · Zo: 9u-23u · Ma: gesloten",
+        "imageAlts": [
+          "Logo van Brasserie Le Belvédère in wit en goud",
+          "Stijlvol donker interieur van Le Belvédère met houten tafels en planten",
+          "Buitenzicht brasserie met terras bij zonnig weer"
+        ]
+      },
+      "hotel-de-la-poste-gedinne": {
+        "title": "Hôtel de la Poste",
+        "description": "Het dorpsrestaurant van Gedinne. Brasserie, grill en restaurant in één — waar inwoners en vakantiegangers samen aan tafel zitten.",
+        "fullDescription": "Sommige restaurants hoef je niet te zoeken. Ze zijn er gewoon, midden in het dorp, al zolang iedereen zich herinnert. Hôtel de la Poste in Gedinne is zo'n plek.\n\n## De sfeer\n\nDit is waar Gedinne eet. Inwoners die na het werk binnenvallen voor een steak, gezinnen die op zondag hun vaste tafel hebben, vakantiegangers die een huis hebben in de streek en hier hun tweede thuis vonden. De eigenaar runt naast het restaurant ook café Le Notaire — net ernaast — en die combinatie zegt eigenlijk alles: dit is het hart van het dorp.\n\n## De gastheer\n\nDe patron kent iedereen — en iedereen kent hem. Je wordt ontvangen zoals het hoort in de Ardennen: zonder poespas, met oprechte vriendelijkheid. Het soort zaak waar ze onthouden wat je de vorige keer dronk en waar je na twee bezoeken al bij naam begroet wordt.\n\n## Wat je eet\n\nBrasserie en grill — eerlijk en genereus. Verse gerechten, seizoensgebonden suggesties, en vlees van de grill dat precies is wat je verwacht: goed. Geen culinaire capriolen, wel eten waar je voldaan van opstaat.\n\n## Met een grote groep?\n\nInformeer ruim op voorhand naar de mogelijkheden en hoeveel personen ze kunnen ontvangen. Voor een grote groep is reserveren een must — ze regelen het graag, maar moeten er wel op kunnen rekenen.\n\n## Vanuit de vakantiewoning\n\nOp amper vijf minuten rijden. Het dichtstbijzijnde restaurant vanaf ArdenNest — ideaal voor een avond zonder kookstress.",
+        "openingHours": "Neem contact op voor openingsuren"
+      },
+      "le-matefaim-graide-station": {
+        "title": "Le Matefaim",
+        "description": "Familiaal restaurant-grill in Graide-Station. Vader achter het fornuis, moeder in de zaal. Alles huisgemaakt, eerlijk en genereus.",
+        "fullDescription": "Sommige restaurants blijven bestaan omdat ze precies doen wat ze moeten doen — en dat al jaren. Le Matefaim in Graide-Station is zo'n adres.\n\n## De sfeer\n\nDit is een restaurant waar je veel locals ziet zitten. Oudere koppels die hier al jaren hun vaste tafel hebben, gezinnen uit de buurt, vakantiegangers die het ooit per toeval ontdekten en sindsdien elk jaar terugkomen. Die mix zegt genoeg: hier voelt iedereen zich thuis.\n\n## De gastvrouw\n\nMoeder runt de zaal met een energie die aanstekelijk is. Altijd druk in de weer, altijd hartelijk. Het soort gastvrouw die je het gevoel geeft dat je welkom bent — niet als klant, maar als gast.\n\n## Wat je eet\n\nVader staat achter het fornuis en dat proef je. Geen eindeloze kaart, wel alles huisgemaakt. Grillades op lavasteen, regionale keuken, wild in het seizoen. De suggesties staan op het krijtbord en zijn steevast de moeite. Het soort eerlijk eten waar je voor terugkomt.\n\n## Met een grote groep?\n\nZe hebben in het verleden bewezen dat ze grotere groepen perfect aankunnen — tot 40 personen in de zaal. Reserveer ruim op voorhand, dan regelen ze het graag.\n\n## Vanuit de vakantiewoning\n\nOp een tiental minuten rijden. Een avondje uit zonder poespas, waar iedereen voldaan van tafel gaat.",
+        "openingHours": "Neem contact op voor openingsuren"
+      },
+      "la-saliere-gedinne": {
+        "title": "La Salière",
+        "description": "Pizza's uit de houtoven met dunne, krokante rand. Dé afhaalfavoriet voor groepen die pizza willen eten in de vakantiewoning.",
+        "fullDescription": "La Salière in Gedinne is het adres als je met een grote groep pizza's wilt bestellen. Dunne rand, houtoven, eerlijk lekker — meer moet dat niet zijn.\n\n## De sfeer\n\nEen gezellige zaak in het centrum van Gedinne, waar zowel lokale gezinnen als vakantiegangers graag komen. Er is ruimte genoeg om ook met een grotere groep binnen te eten, maar onder onze gasten is La Salière vooral geliefd als afhaaladres. Pizza's bestellen, meenemen naar de vakantiewoning, en iedereen is blij.\n\n## Wat je eet\n\nPizza's gebakken in een echte houtoven, met een dunne, krokante rand. De kaart is overzichtelijk — klassiekers die gewoon goed zijn. Geen fratsen, wel smaak. Exact het soort pizza waar je met een groep van 20 zonder discussie voor kiest.\n\n## Met een grote groep?\n\nAbsoluut mogelijk. Ze zijn gewend aan grote bestellingen. Onze tip: bestel iets vóór openingstijd, dan heb je de minst lange wachttijd voor afhaal. Zo staan de dozen klaar wanneer je ze nodig hebt.\n\n## Vanuit de vakantiewoning\n\nOp 5 minuten rijden in het centrum van Gedinne. Bestel, rij erheen, en binnen het halfuur zit iedereen aan tafel.",
+        "openingHours": "Neem contact op voor openingsuren"
+      },
+      "le-petit-creux-by-roselle-gedinne": {
+        "title": "Le Petit Creux By Roselle",
+        "description": "Verse frituur in het hart van Gedinne. Alles wordt met zorg bereid door een bazin die minutieus te werk gaat. Perfect voor afhaal.",
+        "fullDescription": "Soms wil je gewoon een portie verse frieten. Le Petit Creux By Roselle in Gedinne levert precies dat — en meer.\n\n## De sfeer\n\nDit is een echte dorpsfrituur zoals ze moeten zijn. Klein, gezellig, en gerund door iemand die er haar hart in legt. Niet de plek om met een grote groep binnen te eten — daarvoor is er simpelweg niet genoeg plaats. Maar voor afhaal is het perfect.\n\n## De bazin\n\nRoselle is minutieus in haar afwerking. Elke portie wordt met zorg bereid, niets wordt zomaar uit de friteuse gehaald. Dat proef je. Alles is vers, eerlijk, en met aandacht klaargemaakt.\n\n## Wat je eet\n\nVerse frieten, snacks, en — als je echt honger hebt — bestel een mitraillette. Dé Waalse specialiteit: een stokbrood gevuld met vlees, frieten en saus. Alle jeugd in de dorpen eet dit. Wij raden het aan als je wilt proeven wat locals eten.\n\n## Let op\n\nDe frituur is niet altijd open. Controleer vooraf de openingsuren of bel even.\n\n## Vanuit de vakantiewoning\n\nOp 5 minuten rijden in Gedinne. Bestel, neem mee, en serveer aan tafel in de vakantiewoning.",
+        "openingHours": "Wisselend — bel vooraf"
+      },
+      "friterie-de-la-ferme-bievre": {
+        "title": "Friterie de la Ferme",
+        "description": "Een frituur midden op een boerderij in Bièvre. Bestel met balpen op een menukaart, haal zelf je drank uit de koelkast, en maak een toertje rond de boerderij terwijl je wacht.",
+        "fullDescription": "Er zijn frituren, en er is Friterie de la Ferme. Dit is geen gewone frituur — dit is een beleving.\n\n## De sfeer\n\nJe rijdt een boerderij op en daar is het: de frituur, midden tussen de stallen en de weilanden. Het is meteen duidelijk dat je hier niet in een standaardzaak zit. De sfeer is ongedwongen, authentiek, en een beetje eigengereid — op de beste manier.\n\n## De eigen aanpak\n\nHier werkt het anders dan elders. Je krijgt een menukaart en een balpen, en je duidt zelf aan wat je wilt eten. Drank? Die haal je zelf uit de koelkast. Geen obers, geen pretentie, gewoon: hier is het, doe maar. En dat werkt verrassend goed.\n\n## Wat je eet\n\nAlles is vers bereid. Verse frieten, snacks, en de klassiekers die je verwacht van een goede frituur. De portie is genereus, de smaak eerlijk.\n\n## Met een grote groep?\n\nAbsoluut — hier is ruim plaats om met een groep te eten. Dat is het grote verschil met veel andere frituren in de buurt. Tafels genoeg, ruimte genoeg, en de sfeer wordt er alleen maar beter op.\n\n## Het toertje\n\nTerwijl je wacht op je bestelling, doe je een wandelingetje rond de boerderij. Kinderen vinden het geweldig, volwassenen genieten van de rust. Het is een uitstapje op zich.\n\n## Vanuit de vakantiewoning\n\nOp een tiental minuten rijden richting Bièvre. Een avondje frituur met een twist — de kinderen praten er nog dagen over.",
+        "openingHours": "Neem contact op voor openingsuren"
+      }
+    },
+    "shops": {
+      "boulangerie-dumont": {
+        "title": "Boulangerie Dumont",
+        "description": "Ambachtelijke bakkerij in Vencimont met vers brood, patisserie en taarten. Online bestellen mogelijk met 3% korting.",
+        "fullDescription": "Boulangerie Dumont in Vencimont is een echte ambachtelijke bakkerij waar je terecht kunt voor heerlijk vers brood, patisserie en feesttaarten.\n\n## Wat kun je verwachten?\n\nDeze familiebakkerij biedt een uitgebreid assortiment:\n\n- **Boulangerie** - Vers brood in allerlei variaties, van klassieke pistolets tot rustieke landbroden\n- **Pâtisserie** - Fijne gebakjes en taartjes, perfect voor bij de koffie\n- **Gâteaux** - Prachtige taarten voor verjaardagen en feesten\n- **Seizoensproducten** - Speciale producten voor feestdagen\n\n## Online bestellen\n\nHandig: je kunt je bestelling online plaatsen via hun website en krijgt dan 3% korting. Bestel vandaag, haal morgen op!\n\n## Broodautomaat\n\nOok handig: er is een broodautomaat met vers brood, beschikbaar op dinsdag, woensdag, vrijdag, zaterdag en zondag.\n\n## Afhaalpunten\n\nKun je niet naar Vencimont? Je kunt je bestelling ook afhalen bij:\n- Proxy Delhaize Pondrôme\n- Station Total Pondrôme\n\n## Openingstijden\n\nDe winkel is gesloten op maandag, dinsdag en donderdag. De andere dagen is de bakkerij open en wordt er vers brood in de automaat geplaatst.\n\n## Vanuit ArdenNest\n\nDe bakkerij ligt in Vencimont, op ongeveer 10 minuten rijden. Perfect te combineren met een bezoek aan de slagerij Aux Délices de la Houille in hetzelfde dorp!",
+        "openingHours": "Wo, vr, za, zo: 7u-13u · Gesloten: ma, di, do",
+        "imageAlts": [
+          "Gevel van Boulangerie-Pâtisserie Dumont in Vencimont",
+          "Toonbank met brood, gebak en rode wanden bij Boulangerie Dumont",
+          "Close-up van knapperige ronde broden op houten rek",
+          "Rekken vol ambachtelijke broden in de bakkerij"
+        ]
+      },
+      "proxy-delhaize-gedinne": {
+        "title": "Proxy Delhaize Gedinne",
+        "description": "Buurtwinkel met uitgebreid assortiment, 7 dagen per week open.",
+        "fullDescription": "De Proxy Delhaize in Gedinne is onze dichtstbijzijnde supermarkt en heeft werkelijk alles wat je nodig hebt voor je verblijf.\n\n## Wat kun je verwachten?\n\nDeze buurtwinkel combineert het gemak van een supermarkt met de persoonlijke service van een dorpswinkel. Je vindt er:\n\n- **Vers brood en gebak** - Dagelijks vers uit de oven\n- **Groenten en fruit** - Ruime keuze aan verse producten\n- **Vlees en charcuterie** - Inclusief lokale specialiteiten\n- **Dranken** - Belgische bieren, wijn en frisdrank\n- **Dagelijkse boodschappen** - Alles voor ontbijt, lunch en diner\n\n## Openingsuren\n\nDe winkel is 7 dagen per week geopend, ook op zondag! Dit is ideaal als je iets vergeten bent of een spontane barbecue wilt houden.\n\n## Vanuit ArdenNest\n\nDe Proxy Delhaize ligt op slechts 5 minuten rijden in het centrum van Gedinne. Makkelijk te combineren met andere boodschappen in het dorp.",
+        "openingHours": "Ma-za: 8u-19u · Zo: 8u-12u30",
+        "imageAlts": [
+          "Luchtfoto van het Proxy Delhaize-gebouw met parking",
+          "Straatzicht op Proxy Delhaize langs de dorpsweg in Gedinne",
+          "Kleurrijk vers fruit- en groentedisplay in de Proxy Delhaize",
+          "Gevel van Proxy Delhaize Gedinne met 7/7 open-aanduiding"
+        ]
+      },
+      "intermarche-gedinne": {
+        "title": "Intermarché Gedinne",
+        "description": "Moderne supermarkt met uitstekende versafdeling, bakkerij en slagerij.",
+        "fullDescription": "Intermarché Gedinne is een ruime, moderne supermarkt met alles wat je nodig hebt voor je verblijf.\n\n## Wat maakt deze winkel bijzonder?\n\nIntermarché staat bekend om hun uitstekende versafdelingen:\n\n- **La Boulangerie** - Vers gebakken brood en patisserie, van stokbroden tot croissants\n- **La Rotisserie** - Bereide gerechten en gegrild vlees, perfect voor een makkelijke maaltijd\n- **Le Traiteur** - Salades en koude schotels\n- **Slagerij** - Kwaliteitsvlees en charcuterie\n- **Groenten en fruit** - Ruime keuze, deels van lokale producenten\n\n## Praktisch\n\nDe winkel heeft een ruime parking en is makkelijk bereikbaar. Ideaal voor een grote boodschap bij aankomst of voor het bijvullen van de voorraad.\n\n## Vanuit ArdenNest\n\nIntermarché ligt op 5 minuten rijden aan de rand van Gedinne. Perfect te combineren met een bezoekje aan het dorp.",
+        "openingHours": "Ma-za: 8u-19u · Zo: gesloten",
+        "imageAlts": [
+          "Gevel van Intermarché Contact supermarkt in Gedinne met parking",
+          "Ruim interieur van Intermarché met verse groente- en fruitafdeling",
+          "Bakkerij- en patisserieafdeling in Intermarché met vers brood"
+        ]
+      },
+      "aux-delices-de-la-houille": {
+        "title": "Aux Délices de la Houille",
+        "description": "Ambachtelijke slagerij die alles zelf verwerkt, rookt en pekelt. Familiebedrijf sinds 1972.",
+        "fullDescription": "Aux Délices de la Houille in Vencimont is geen gewone slagerij. Dit familiebedrijf maakt sinds 1972 ambachtelijke charcuterie en is gespecialiseerd in salaisons - gerookt en gepekeld vlees.\n\n## Wat maakt deze slagerij bijzonder?\n\nHier verkopen ze alleen wat ze zelf maken. Van boerderij tot winkel houden ze elk onderdeel van het proces in eigen hand:\n\n- **Eigen salaisons** - Gerookte en gepekelde specialiteiten, het paradepaardje van de zaak\n- **Ambachtelijke charcuterie** - Paté, terrines en worsten naar traditionele recepten\n- **Vers vlees** - Kwaliteitsvlees van lokale boerderijen\n- **Seizoensproducten** - BBQ-vlees in de zomer, wild in het najaar\n\n## De passie van een ambachtsman\n\nWanneer je binnenkomt, zie je meteen het verschil met een gewone slagerij. De hangende worsten, de gerookte hammen, de zorgvuldig bereide producten - hier proef je vakmanschap.\n\n## Openingstijden\n\nOpen van woensdag tot zaterdag, 9u-12u en 14u-18u. Gesloten op zondag, maandag en dinsdag.\n\n## Vanuit ArdenNest\n\nDe slagerij ligt in Vencimont, op ongeveer 10 minuten rijden. Een bezoek is het waard, zeker als je van kwaliteitsvlees en ambachtelijke charcuterie houdt.",
+        "openingHours": "Wo-za: 9u-12u en 14u-18u · Gesloten: zo, ma, di"
+      },
+      "terracines": {
+        "title": "Terracines",
+        "description": "Biologische groentetuin met hoevewinkel in Beauraing. Verse seizoensgroenten rechtstreeks van het land naar je bord.",
+        "fullDescription": "Terracines in Beauraing is een prachtige biologische groentetuin waar je de lekkerste verse groenten rechtstreeks van het land kunt kopen.\n\n## Van de grond naar je bord\n\nHet motto zegt het al: 'De la graine à votre assiette' - van het zaadje tot je bord. Hier groeit alles met zorg en aandacht, zonder pesticiden, in harmonie met de seizoenen.\n\n## Wat kun je verwachten?\n\nHet aanbod wisselt met de seizoenen:\n\n- **Lente** - Eerste sla, radijs, spinazie en verse kruiden\n- **Zomer** - Tomaten in alle kleuren, courgettes, bonen, paprika's\n- **Herfst** - Pompoenen, prei, kolen, wortelen\n- **Winter** - Wintergroenten en bewaargroenten\n\n## Drie manieren om te kopen\n\n- **Zaterdag (9u30-13u30)** - De grote markt met prachtige uitstalling\n- **Woensdag (10u-16u)** - Vrac & fraîcheur: pak zelf uit de oogstbakken\n- **Donderdag/vrijdag (9u-19u)** - Afhalen op bestelling\n\n## Online bestellen\n\nJe kunt je bestelling ook online plaatsen via hun website. Handig als je zeker wilt zijn van je favoriete groenten!\n\n## Let op: winterpauze\n\nDe tuin rust in de winter (gesloten tot april). Check de website voor actuele openingstijden.\n\n## Vanuit ArdenNest\n\nTerracines ligt in Beauraing, op ongeveer 15 minuten rijden. Een bezoek is het waard voor wie houdt van eerlijke, verse groenten!",
+        "openingHours": "Za: 9u30-13u30 · Wo: 10u-16u · Do-vr: op bestelling · Winterpauze",
+        "imageAlts": [
+          "Houten hoevewinkel vol kleurrijke seizoensgroenten en fruit",
+          "Ingang van het houten winkeltje met plantjes en pad naar de tuin",
+          "Krat pompoenen op het veld met ochtendnevel en groen gewas",
+          "Kratjes rijpe rode en groene tomaten van verschillende rassen",
+          "Krat verse groene saladebladeren en kruiden",
+          "Vrouw plant zaailingen in een polytunnel"
+        ]
+      },
+      "aux-delices-houille": {
+        "imageAlts": [
+          "Toonbank met charcuterie en opgehangen worsten bij Aux Délices de la Houille",
+          "Winkelpui van Aux Délices de la Houille: charcuterie en traiteur",
+          "Lachende slager achter de toonbank met opgehangen hammen en worsten",
+          "Close-up van ambachtelijke charcuterie en vleesproducten in vitrine",
+          "Vers vlees, worsten en koteletjes uitgestald in de slagerijvitrine",
+          "Slager snijdt een groot stuk vlees op het hakblok",
+          "Handen die vlees uitbenen op een houten snijplank"
+        ]
+      }
+    }
+  }
+}

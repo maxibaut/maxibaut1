@@ -1,0 +1,39 @@
+{
+  "seo": {
+    "title": "Over Ons | ArdenNest - De mensen achter de vakantiewoning",
+    "description": "Maak kennis met Bieke en Christophe. Al 22 jaar verwelkomen zij persoonlijk families in hun vakantiewoning in de Ardennen."
+  },
+  "title": "Over Ons",
+  "h1": "Bieke en Christophe — al 22 jaar persoonlijke gastheren in de Ardennen",
+  "subtitle": "De mensen achter ArdenNest",
+  "story": {
+    "title": "Ons Verhaal",
+    "content": "Jullie kennen ons misschien als Ferme du Château. Maar we zijn meer dan een ferme — wie hier logeert voelt zich thuis, als in een nest. Van jong tot oud. Daarom ArdenNest: jullie nest in de Ardennen.",
+    "philosophy": {
+      "title": "Festina Lente",
+      "subtitle": "Haast je langzaam",
+      "content": "Deze Latijnse wijsheid vormt de kern van onze filosofie. Bij ArdenNest draait alles om vertragen, genieten en écht samen zijn."
+    }
+  },
+  "owners": {
+    "title": "Bieke & Christophe",
+    "description": "Bieke en Christophe wonen op het domein en verwelkomen elke groep persoonlijk. Geen anonieme sleuteloverdracht, maar een warm welkom. Bieke is jullie eerste aanspreekpunt — voor en na jullie verblijf. Christophe zorgt voor de verwelkoming.",
+    "onSite": "Aanwezig op het domein en bereikbaar voor gasten tijdens het volledige verblijf."
+  },
+  "team": {
+    "title": "Ons Team",
+    "cleaning": {
+      "title": "Huishoudelijk Team",
+      "description": "Zorgt ervoor dat alles blinkend schoon is voor uw aankomst"
+    },
+    "garden": {
+      "title": "Tuinonderhoud",
+      "description": "Houdt de 2 hectare tuin in perfecte staat"
+    }
+  },
+  "whyRelationship": {
+    "title": "Waarom de relatie ertoe doet",
+    "content": "Bij een OTA ben je een boeking. Bij ons ben je een gast. We kennen het huis als geen ander en staan klaar om uw verblijf zo aangenaam mogelijk te maken.",
+    "cta": "Boek direct bij ons"
+  }
+}

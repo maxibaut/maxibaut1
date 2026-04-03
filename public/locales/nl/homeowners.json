@@ -1,0 +1,52 @@
+{
+  "seo": {
+    "title": "Wordt jouw zaak gevonden door AI? | BizBuz",
+    "description": "Hoe ArdenNest ontdekte dat AI-systemen hun bedrijf niet konden vinden — en waarom dat leidde tot BizBuz.ai. Gratis scan voor elke ondernemer."
+  },
+  "badge": "20+ jaar tech · software · strategie",
+  "title": "Hoe zichtbaar is jouw bedrijf voor ChatGPT, Gemini en Claude?",
+  "intro": "AI-systemen zoals ChatGPT en Google AI Overviews lezen websites anders dan mensen — en de meeste bedrijven zijn daar niet op gebouwd. BizBuz scant je website en vertelt je in gewone taal wat AI-systemen over jouw zaak kunnen vinden — en wat je eraan kunt doen. 73 checks, 8 pijlers, één duidelijke score op 100. Gebouwd door een software engineer met 20+ jaar ervaring, die dit probleem zelf ondervond met deze website.",
+  "whyRelevant": {
+    "title": "Waarom dit relevant is",
+    "content": "Steeds meer mensen stellen hun vraag niet meer aan Google, maar aan ChatGPT, Gemini of Copilot. AI noemt maar 3 tot 5 bedrijven per antwoord — waar Google nog 10 links toonde. Als jouw website niet leesbaar is voor die systemen, besta je simpelweg niet in hun antwoord. BizBuz analyseert 73 technische factoren over 8 pijlers: van structurele leesbaarheid en entiteit-identiteit tot content-beantwoordbaarheid en online reputatie."
+  },
+  "expertise": {
+    "title": "Technische achtergrond",
+    "software": {
+      "title": "Software Engineering",
+      "description": "11+ jaar bij Wolters Kluwer Financial Services — quality automation, on-site implementaties, enterprise-software (FinArch/Fibre)"
+    },
+    "ai": {
+      "title": "Process Automation & AI",
+      "description": "ClickUp Expert & Claude Code Architect bij Fourcast — digitale transformatie met AI-tools en process automation"
+    },
+    "bid": {
+      "title": "Bid Management & Strategie",
+      "description": "Volledig tenderproces — van marktscanning tot indiening. Aanbestedingen in Vlaanderen en Wallonië"
+    },
+    "platform": {
+      "title": "Online Platform Specialist",
+      "description": "Bouw en optimalisatie van online platformen — van leeromgevingen tot klantportalen"
+    }
+  },
+  "origin": {
+    "title": "Het ontstaan van BizBuz",
+    "story1": "Toen Christophe & Bieke in 2003 hun groepsaccommodatie opstartten, bouwde hij zelf de website. De verhuur gebeurde zonder Booking.com, zonder Airbnb — puur op eigen kracht. Met een fascinatie voor SEO slaagde hij erin de kalender gevuld te krijgen en jarenlang goed zichtbaar te blijven in Google.",
+    "story2": "Er is sindsdien veel veranderd, maar die fascinatie bleef: hoe claim je als kleine speler je plek in de zoekresultaten? Met de opkomst van AI herhaalt de geschiedenis zich. Nieuwe regels, dezelfde vraag.",
+    "story3": "BizBuz ontstond toen begin 2026 de nieuwe ArdenNest-website gebouwd werd met behulp van AI. Christophe zag dat zelfs bouwen via AI geen garantie biedt op alle nodige stappen om vindbaarheid te optimaliseren. SEO en GEO zijn niet hetzelfde — en BizBuz is de eerste tool in België die dit meet.",
+    "story3_link_prefix": "Een scan via ",
+    "story3_link_text": "bizbuz.ai",
+    "story3_link_suffix": " is gratis, zonder account, zonder wachttijd."
+  },
+  "cta": "Scan je eigen website gratis",
+  "festinaLente": {
+    "subtitle": "Festina Lente",
+    "text1": "BizBuz is een initiatief van Festina Lente bv. De naam — Latijn voor \"maak voortvarend langzaam\" — staat voor onze filosofie: grondig onderzoeken, doordacht bouwen, en stap voor stap waarde leveren.",
+    "text2": "We geloven dat elke Belgische ondernemer recht heeft op heldere, actionable inzichten over hun online zichtbaarheid — zonder jargon, zonder dure consultants. Elk actiepunt bevat een kopieerbare prompt voor ChatGPT of Claude, of een kant-en-klare briefing voor je webbouwer."
+  },
+  "score": {
+"title": "Onze eigen score: 43/100",
+    "alt": "BizBuz resultaat van ardennest.be: score 43 van 100 — Matig"
+  },
+  "attribution": "BizBuz.ai is een initiatief van Christophe, mede-eigenaar van ArdenNest."
+}

@@ -1,0 +1,259 @@
+{
+  "seo": {
+    "title": "Privacy & Cookies | ArdenNest — Ardennes",
+    "description": "How ArdenNest handles your personal data. Our privacy policy and cookie usage explained in plain language, fully GDPR compliant."
+  },
+  "pageTitle": "Privacy & Cookies",
+  "h1": "Privacy statement and cookie policy — Festina Lente bv (ArdenNest)",
+  "pageSubtitle": "How we handle your data",
+  "downloadButton": "Download PDF",
+  "accommodation": "Accommodation",
+  "accommodationValue": "Rue de la Ferme 3, 5575 Malvoisin",
+  "website": "Website",
+  "websiteValue": "www.ArdenNest.be",
+  "operator": "Operator",
+  "operatorValue": "Festina Lente bv",
+  "version": "Version",
+  "versionValue": "January 2026",
+  "intro": "At ArdenNest, we value your privacy. In this statement, we clearly explain what data we collect, why we do so, and how we ensure your information stays safe. No legal jargon, just plain language.",
+  "sections": {
+    "whoAreWe": {
+      "title": "1. Who are we?",
+      "content": "ArdenNest is a holiday home in the Belgian Ardennes, operated by:",
+      "company": "Festina Lente bv",
+      "address": "Rue de la Ferme 3, 5575 Malvoisin, Belgium",
+      "email": "bieke@ardennest.be",
+      "phone": "+32 478 03 03 52",
+      "responsibility": "We are responsible for the processing of your personal data as described in this privacy statement."
+    },
+    "whatData": {
+      "title": "2. What data do we collect?",
+      "contactForm": {
+        "title": "Via the contact form",
+        "items": [
+          "Name",
+          "Email address",
+          "Phone number",
+          "Content of your message"
+        ]
+      },
+      "booking": {
+        "title": "Via the booking process (Property Management System)",
+        "items": [
+          "Name and contact details",
+          "Number of guests and group composition",
+          "Payment details (processed by Mollie, not stored by us)",
+          "Booking dates and preferences"
+        ]
+      },
+      "automatic": {
+        "title": "Automatically via the website",
+        "items": [
+          "IP address (anonymized)",
+          "Language preference",
+          "Visit statistics (via Google Analytics, only with your consent)"
+        ]
+      }
+    },
+    "whyCollect": {
+      "title": "3. Why do we collect this data?",
+      "items": [
+        {
+          "purpose": "Contact form",
+          "description": "To answer your questions and provide information"
+        },
+        {
+          "purpose": "Bookings",
+          "description": "To process your reservation and prepare your stay"
+        },
+        {
+          "purpose": "Communication",
+          "description": "To send practical information before arrival"
+        },
+        {
+          "purpose": "Website statistics",
+          "description": "To improve our website (only with consent)"
+        },
+        {
+          "purpose": "Legal obligation",
+          "description": "To comply with Belgian accounting and tax legislation"
+        }
+      ]
+    },
+    "legalBasis": {
+      "title": "4. On what basis do we process your data?",
+      "items": [
+        {
+          "basis": "Contract performance",
+          "description": "For bookings and reservations"
+        },
+        {
+          "basis": "Consent",
+          "description": "For marketing and analytics (cookie banner)"
+        },
+        {
+          "basis": "Legal obligation",
+          "description": "For invoices and accounting"
+        },
+        {
+          "basis": "Legitimate interest",
+          "description": "To improve our services"
+        }
+      ]
+    },
+    "sharing": {
+      "title": "5. Who do we share your data with?",
+      "intro": "We only share your data when necessary:",
+      "partners": [
+        {
+          "name": "Property Management System",
+          "description": "Our booking system (processor, EU)"
+        },
+        {
+          "name": "Mollie",
+          "description": "Payment processing (processor, Netherlands)"
+        },
+        {
+          "name": "Google Analytics",
+          "description": "Website statistics (only with consent, data anonymized)"
+        }
+      ],
+      "noSelling": "We never sell your data to third parties. Period."
+    },
+    "retention": {
+      "title": "6. How long do we keep your data?",
+      "items": [
+        {
+          "type": "Contact form",
+          "duration": "Maximum 1 year after last contact"
+        },
+        {
+          "type": "Booking data",
+          "duration": "7 years (legal retention requirement for invoicing)"
+        },
+        {
+          "type": "Analytics",
+          "duration": "26 months (Google Analytics default)"
+        }
+      ]
+    },
+    "rights": {
+      "title": "7. Your rights",
+      "intro": "Under the GDPR, you have the following rights:",
+      "items": [
+        {
+          "right": "Access",
+          "description": "Request what data we have about you"
+        },
+        {
+          "right": "Correction",
+          "description": "Have incorrect data corrected"
+        },
+        {
+          "right": "Erasure",
+          "description": "Request deletion of your data"
+        },
+        {
+          "right": "Restriction",
+          "description": "Limit how we use your data"
+        },
+        {
+          "right": "Portability",
+          "description": "Receive your data in a standard format"
+        },
+        {
+          "right": "Objection",
+          "description": "Object to certain processing"
+        }
+      ],
+      "contact": "Contact us at bieke@ardennest.be to exercise any of these rights. We will respond within 30 days.",
+      "complaint": "Not satisfied? You can file a complaint with the Belgian Data Protection Authority (www.gegevensbeschermingsautoriteit.be)."
+    },
+    "cookies": {
+      "title": "8. Cookies",
+      "intro": "Cookies are small text files stored on your device when you visit our website. We use them to make the website work properly and to understand how visitors use the site.",
+      "essential": {
+        "title": "Essential cookies (always active)",
+        "description": "These cookies are necessary for the website to function:",
+        "items": [
+          {
+            "cookie": "Language preference",
+            "purpose": "Remembers your chosen language",
+            "duration": "1 year",
+            "type": "Functional"
+          },
+          {
+            "cookie": "Cookie consent",
+            "purpose": "Remembers your cookie choice",
+            "duration": "1 year",
+            "type": "Functional"
+          },
+          {
+            "cookie": "Session",
+            "purpose": "Keeps the website session active",
+            "duration": "Session",
+            "type": "Necessary"
+          }
+        ]
+      },
+      "analytics": {
+        "title": "Analytics cookies (with consent)",
+        "description": "These cookies help us understand how visitors use the website:",
+        "items": [
+          {
+            "cookie": "_ga",
+            "purpose": "Distinguishes unique visitors",
+            "duration": "2 years",
+            "type": "Analytics"
+          },
+          {
+            "cookie": "_ga_*",
+            "purpose": "Stores session status",
+            "duration": "2 years",
+            "type": "Analytics"
+          },
+          {
+            "cookie": "_gid",
+            "purpose": "Distinguishes unique visitors",
+            "duration": "24 hours",
+            "type": "Analytics"
+          }
+        ],
+        "note": "Google Analytics is configured with IP anonymization. We do not share personal data with Google for advertising purposes."
+      },
+      "external": {
+        "title": "External services",
+        "description": "Our website uses some external services that may place their own cookies:",
+        "items": [
+          "Property Management System: For the booking calendar and reservations",
+          "Google Maps: For the location map on the contact page"
+        ]
+      },
+      "manage": {
+        "title": "Managing cookies",
+        "description": "On your first visit, we ask for consent via a cookie banner. You can always change this choice via the cookie settings at the bottom of the website, or by deleting cookies in your browser."
+      }
+    },
+    "security": {
+      "title": "9. Security",
+      "intro": "We take the security of your data seriously:",
+      "items": [
+        "Our website uses HTTPS encryption",
+        "Access to personal data is limited to Bieke and Christophe",
+        "We only work with reliable processors within the EU",
+        "Payment data is never stored on our own servers"
+      ]
+    },
+    "changes": {
+      "title": "10. Changes",
+      "content": "We may update this privacy statement from time to time. The most recent version is always available on our website. For significant changes, we will inform you via email (if you have booked) or via a notice on the website."
+    }
+  },
+  "contact": {
+    "title": "Questions about your privacy?",
+    "content": "We're here to help.",
+    "email": "bieke@ardennest.be",
+    "phone": "+32 478 03 03 52"
+  },
+  "signature": "ArdenNest • Festina Lente • Welcoming guests in the Ardennes since 2003"
+}

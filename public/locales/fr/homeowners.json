@@ -1,0 +1,52 @@
+{
+  "seo": {
+    "title": "Votre entreprise est-elle trouvée par l'IA ? | BizBuz",
+    "description": "Comment ArdenNest a découvert que l'IA ne trouvait pas leur entreprise — et pourquoi cela a mené à BizBuz.ai. Scan gratuit pour chaque entrepreneur."
+  },
+  "badge": "20+ ans tech · logiciel · stratégie",
+  "title": "Quelle est la visibilité de votre entreprise pour ChatGPT, Gemini et Claude ?",
+  "intro": "Les systèmes d'IA comme ChatGPT et Google AI Overviews lisent les sites web différemment des humains — et la plupart des entreprises ne sont pas conçues pour cela. BizBuz scanne votre site web et vous explique en langage clair ce que les systèmes d'IA peuvent trouver sur votre entreprise — et ce que vous pouvez y faire. 73 vérifications, 8 piliers, un score clair sur 100. Construit par un ingénieur logiciel avec 20+ ans d'expérience, qui a découvert ce problème avec ce site même.",
+  "whyRelevant": {
+    "title": "Pourquoi c'est pertinent",
+    "content": "De plus en plus de personnes posent leurs questions non plus à Google, mais à ChatGPT, Gemini ou Copilot. L'IA ne mentionne que 3 à 5 entreprises par réponse — là où Google affichait encore 10 liens. Si votre site n'est pas lisible par ces systèmes, vous n'existez tout simplement pas dans leur réponse. BizBuz analyse 73 facteurs techniques sur 8 piliers : de la lisibilité structurelle et l'identité d'entité à la répondabilité du contenu et la réputation en ligne."
+  },
+  "expertise": {
+    "title": "Parcours technique",
+    "software": {
+      "title": "Software Engineering",
+      "description": "11+ ans chez Wolters Kluwer Financial Services — quality automation, implémentations sur site, logiciel d'entreprise (FinArch/Fibre)"
+    },
+    "ai": {
+      "title": "Process Automation & IA",
+      "description": "ClickUp Expert & Claude Code Architect chez Fourcast — transformation digitale avec outils IA et automatisation des processus"
+    },
+    "bid": {
+      "title": "Bid Management & Stratégie",
+      "description": "Processus complet d'appels d'offres — du scanning de marché à la soumission. Marchés publics en Flandre et en Wallonie"
+    },
+    "platform": {
+      "title": "Spécialiste Plateformes en Ligne",
+      "description": "Construction et optimisation de plateformes en ligne — des environnements d'apprentissage aux portails clients"
+    }
+  },
+  "origin": {
+    "title": "L'origine de BizBuz",
+    "story1": "Quand Christophe & Bieke ont lancé leur hébergement de groupe en 2003, il a construit le site web lui-même. La location s'est faite sans Booking.com, sans Airbnb — uniquement par leurs propres moyens. Passionné de SEO, il a réussi à remplir le calendrier et à rester bien visible sur Google pendant des années.",
+    "story2": "Beaucoup de choses ont changé depuis, mais cette passion est restée : comment un petit acteur peut-il revendiquer sa place dans les résultats de recherche ? Avec l'essor de l'IA, l'histoire se répète. Nouvelles règles, même question.",
+    "story3": "BizBuz est né quand il a construit son nouveau site web via l'IA début 2026 et a constaté que l'IA livre un bon travail mais sans toutes les étapes nécessaires pour optimiser la visibilité. SEO et GEO ne sont pas la même chose — et BizBuz est le premier outil en Belgique qui mesure cela.",
+    "story3_link_prefix": "Un scan via ",
+    "story3_link_text": "bizbuz.ai",
+    "story3_link_suffix": " est gratuit, sans compte, sans attente."
+  },
+  "cta": "Scannez votre site web gratuitement",
+  "festinaLente": {
+    "subtitle": "Festina Lente",
+    "text1": "BizBuz est une initiative de Festina Lente bv. Le nom — du latin « hâtez-vous lentement » — reflète notre philosophie : investiguer en profondeur, construire avec réflexion, et livrer de la valeur pas à pas.",
+    "text2": "Nous croyons que chaque entrepreneur belge mérite des informations claires et exploitables sur sa visibilité en ligne — sans jargon, sans consultants coûteux. Chaque point d'action inclut un prompt copiable pour ChatGPT ou Claude, ou un briefing prêt à envoyer à votre développeur web."
+  },
+  "score": {
+    "title": "Notre propre score : 43/100",
+    "alt": "Résultat BizBuz pour ardennest.be : score 43 sur 100 — Modéré"
+  },
+  "attribution": "BizBuz.ai est une initiative de Christophe, copropriétaire d'ArdenNest."
+}

@@ -1,0 +1,58 @@
+{
+  "seo": {
+    "title": "Annuleringsbeleid | ArdenNest - Vakantiewoning Ardennen",
+    "description": "Ons transparante annuleringsbeleid voor uw verblijf bij ArdenNest. Wat gebeurt er bij annulering en welke voorwaarden gelden per periode."
+  },
+  "pageTitle": "Annuleringsbeleid",
+  "h1": "Annuleringsvoorwaarden — kosten en termijnen bij ArdenNest",
+  "pageSubtitle": "Dit annuleringsbeleid is een samenvatting van Artikel 17 uit onze huurvoorwaarden. Door te boeken gaan jullie akkoord met deze bepalingen.",
+  "accommodation": "Accommodatie",
+  "accommodationValue": "Rue de la Ferme 3, 5575 Malvoisin",
+  "website": "Website",
+  "websiteValue": "www.ArdenNest.be",
+  "operator": "Uitbater",
+  "operatorValue": "Festina Lente bv",
+  "version": "Versie",
+  "versionValue": "Januari 2026",
+  "downloadButton": "Download annuleringsbeleid",
+  "intro": "Bij ArdenNest begrijpen we dat plannen kunnen veranderen. Hieronder vinden jullie de annuleringsvoorwaarden die van toepassing zijn op jullie boeking, conform Artikel 17 van onze huurvoorwaarden.",
+  "tiersTitle": "Annuleringskosten",
+  "tiers": [
+    {
+      "period": "Tot 56 dagen vóór aankomst",
+      "refund": "30% annuleringskosten",
+      "description": "Bij annulering tot 56 dagen vóór de geplande aankomstdatum wordt 30% van het totaalbedrag in rekening gebracht."
+    },
+    {
+      "period": "55 tot 30 dagen vóór aankomst",
+      "refund": "60% annuleringskosten",
+      "description": "Bij annulering tussen 55 en 30 dagen vóór aankomst wordt 60% van het totaalbedrag in rekening gebracht."
+    },
+    {
+      "period": "Vanaf 29 dagen vóór aankomst",
+      "refund": "100% annuleringskosten",
+      "description": "Bij annulering vanaf 29 dagen vóór de geplande aankomstdatum wordt het volledige bedrag in rekening gebracht."
+    }
+  ],
+  "conditionsTitle": "Aanvullende voorwaarden",
+  "conditions": [
+    "Alle annuleringen dienen schriftelijk te worden gemeld via e-mail.",
+    "De datum van ontvangst van de annulering geldt als annuleringsdatum.",
+    "Bij het niet naleven van het betalingsschema kunnen wij de verhuur annuleren. De standaard annuleringsvoorwaarden zijn dan van toepassing.",
+    "Bij vervroegd vertrek — om welke reden dan ook — vindt geen (gedeeltelijke) terugbetaling plaats.",
+    "De waarborg (€750) wordt binnen 14 dagen na vertrek teruggestort, mits er geen schade is.",
+    "Wij raden jullie aan een annuleringsverzekering af te sluiten.",
+    "Bij no-show (niet komen opdagen) wordt het volledige bedrag in rekening gebracht."
+  ],
+  "forceMajeure": {
+    "title": "Overmacht",
+    "content": "Bij overmacht (zoals natuurrampen, pandemie, overheidsmaatregelen of andere onvoorziene omstandigheden buiten onze wil) kunnen wij niet aansprakelijk worden gesteld. In overleg zoeken we naar een passende oplossing, zoals een alternatieve datum. Terugbetaling is in geval van overmacht niet gegarandeerd, maar we streven altijd naar een faire oplossing."
+  },
+  "contact": {
+    "title": "Vragen?",
+    "content": "Hebben jullie vragen over ons annuleringsbeleid of willen jullie de boeking annuleren? Neem dan contact met ons op:",
+    "email": "E-mail: bieke@ardennest.be",
+    "phone": "Telefoon: +32 478 03 03 52"
+  },
+  "signature": "ArdenNest • Festina Lente • Al sinds 2003 gastvrij in de Ardennen"
+}

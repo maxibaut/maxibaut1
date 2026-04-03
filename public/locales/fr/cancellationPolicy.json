@@ -1,0 +1,58 @@
+{
+  "seo": {
+    "title": "Politique d'annulation | ArdenNest — Ardennes",
+    "description": "Notre politique d'annulation transparente. Informations sur les délais, remboursements et conditions pour votre séjour."
+  },
+  "pageTitle": "Politique d'annulation",
+  "h1": "Conditions d'annulation — frais et délais chez ArdenNest",
+  "pageSubtitle": "Cette politique d'annulation est un résumé de l'Article 17 de nos conditions de location. En réservant, vous acceptez ces conditions.",
+  "accommodation": "Hébergement",
+  "accommodationValue": "Rue de la Ferme 3, 5575 Malvoisin",
+  "website": "Site web",
+  "websiteValue": "www.ArdenNest.be",
+  "operator": "Exploitant",
+  "operatorValue": "Festina Lente bv",
+  "version": "Version",
+  "versionValue": "Janvier 2026",
+  "downloadButton": "Télécharger la politique d'annulation",
+  "intro": "Chez ArdenNest, nous comprenons que les plans peuvent changer. Vous trouverez ci-dessous les conditions d'annulation qui s'appliquent à votre réservation, conformément à l'Article 17 de nos conditions de location.",
+  "tiersTitle": "Frais d'annulation",
+  "tiers": [
+    {
+      "period": "Jusqu'à 56 jours avant l'arrivée",
+      "refund": "30% de frais d'annulation",
+      "description": "En cas d'annulation jusqu'à 56 jours avant la date d'arrivée prévue, 30% du montant total sera facturé."
+    },
+    {
+      "period": "55 à 30 jours avant l'arrivée",
+      "refund": "60% de frais d'annulation",
+      "description": "En cas d'annulation entre 55 et 30 jours avant l'arrivée, 60% du montant total sera facturé."
+    },
+    {
+      "period": "À partir de 29 jours avant l'arrivée",
+      "refund": "100% de frais d'annulation",
+      "description": "En cas d'annulation à partir de 29 jours avant la date d'arrivée prévue, le montant total sera facturé."
+    }
+  ],
+  "conditionsTitle": "Conditions supplémentaires",
+  "conditions": [
+    "Toutes les annulations doivent être soumises par écrit par e-mail.",
+    "La date de réception de l'annulation est la date d'annulation.",
+    "En cas de non-respect du calendrier de paiement, nous pouvons annuler la location. Les conditions d'annulation standard s'appliquent alors.",
+    "Un départ anticipé — quelle qu'en soit la raison — ne donne pas droit à un remboursement (partiel).",
+    "La caution (750€) sera remboursée dans les 14 jours suivant le départ, à condition qu'il n'y ait pas de dommages.",
+    "Nous vous recommandons de souscrire une assurance annulation.",
+    "En cas de non-présentation (ne pas se présenter), le montant total sera facturé."
+  ],
+  "forceMajeure": {
+    "title": "Force majeure",
+    "content": "En cas de force majeure (comme les catastrophes naturelles, pandémie, mesures gouvernementales ou autres circonstances imprévues indépendantes de notre volonté), nous ne pouvons être tenus responsables. Nous chercherons une solution adaptée en concertation, comme une date alternative. Le remboursement n'est pas garanti en cas de force majeure, mais nous nous efforçons toujours de trouver une solution équitable."
+  },
+  "contact": {
+    "title": "Des questions ?",
+    "content": "Vous avez des questions sur notre politique d'annulation ou souhaitez-vous annuler votre réservation ? Contactez-nous :",
+    "email": "E-mail : bieke@ardennest.be",
+    "phone": "Téléphone : +32 478 03 03 52"
+  },
+  "signature": "ArdenNest • Festina Lente • Accueillant des hôtes dans les Ardennes depuis 2003"
+}

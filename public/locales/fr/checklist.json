@@ -1,0 +1,79 @@
+{
+  "seo": {
+    "title": "Checklist de départ | ArdenNest - Gîte Ardennes",
+    "description": "Checklist pour un départ en douceur d'ArdenNest. Les étapes pratiques pour le check-out afin de tout laisser en ordre pour les prochains hôtes."
+  },
+  "pageTitle": "Checklist de Départ",
+  "h1": "Procédure de départ — aspirateur, cuisine et remise des clés",
+  "pageSubtitle": "Merci pour votre séjour à ArdenNest. Pour préparer la maison pour les prochains invités, nous vous demandons de parcourir cette checklist.",
+  "downloadButton": "Télécharger la checklist",
+  "accommodation": "Hébergement",
+  "accommodationValue": "Rue de la Ferme 3, 5575 Malvoisin",
+  "website": "Site web",
+  "websiteValue": "www.ArdenNest.be",
+  "operator": "Exploitant",
+  "operatorValue": "Festina Lente bv",
+  "version": "Version",
+  "versionValue": "Janvier 2026",
+  "intro": "Le ménage est inclus lorsque tous les points sont cochés — sinon, des frais supplémentaires peuvent s'appliquer.",
+  "sections": {
+    "general": {
+      "title": "Général",
+      "departureTime": "Heure de départ : 10h00 (ou 16h00 pour un check-out tardif)",
+      "items": [
+        "Laissez les réfrigérateurs et congélateurs allumés — ne pas éteindre",
+        "Prévenez-nous de votre départ (sonnette ou WhatsApp/SMS)",
+        "Remettre la clé ou la déposer dans la boîte à clés",
+        "Bien fermer la porte"
+      ]
+    },
+    "house": {
+      "title": "La Maison",
+      "items": [
+        "Laisser les tables propres (ne pas mettre les chaises sur les tables)",
+        "Passer l'aspirateur au rez-de-chaussée : cuisine, salon, séjour, entrée, cage d'escalier",
+        "Ne pas oublier les tapis",
+        "Ranger les jeux de société et jouets à leur place"
+      ]
+    },
+    "kitchen": {
+      "title": "La Cuisine",
+      "items": [
+        "Vider le lave-vaisselle et ranger la vaisselle",
+        "Laver et ranger tous les ustensiles de cuisine",
+        "Nettoyer la cuisinière et le four (uniquement avec du liquide vaisselle)",
+        "Emporter les restes de nourriture (pas dans les sacs poubelle)"
+      ],
+      "tip": "Conseil : les restes appropriés peuvent aller aux poules !"
+    },
+    "outside": {
+      "title": "Extérieur",
+      "items": [
+        "Barbecue : cendres dans le seau à cendres, grille nettoyée",
+        "Remettre les transats et jouets d'extérieur à leur place"
+      ]
+    },
+    "bedrooms": {
+      "title": "Chambres",
+      "items": [
+        "NE PAS défaire les lits (nous le faisons)",
+        "Mettre les fenêtres en position oscillo-battante",
+        "Éteindre le chauffage dans les chambres et salles de bain"
+      ]
+    },
+    "damage": {
+      "title": "Dommages ou Remarques",
+      "content": "Les accidents arrivent, nous comprenons. Veuillez noter tout dommage ou remarque et nous les signaler.",
+      "depositInfo": "La caution sera remboursée dans les 7 à 14 jours suivant le départ."
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "phone1": "0478 03 03 52",
+    "phone2": "0477 33 53 70"
+  },
+  "closing": {
+    "content": "Nous espérons vous accueillir à nouveau bientôt. À la prochaine !",
+    "signature": "ArdenNest • Hospitalier dans les Ardennes depuis 2003"
+  }
+}

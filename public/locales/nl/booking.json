@@ -1,0 +1,43 @@
+{
+  "seo": {
+    "title": "Beschikbaarheid | ArdenNest - Boek uw verblijf",
+    "description": "Bekijk de beschikbaarheid en boek direct. Beste prijs gegarandeerd, geen OTA-commissies. Persoonlijke ontvangst door de eigenaar."
+  },
+  "title": "Boeken",
+  "h1": "Bekijk beschikbaarheid en boek direct — beste prijs gegarandeerd",
+  "subtitle": "Bekijk de beschikbaarheid en boek direct",
+  "whyDirect": {
+    "title": "Waarom direct boeken?",
+    "benefits": [
+      "Nergens voordeliger — u boekt rechtstreeks bij ons",
+      "Direct contact met de eigenaren",
+      "Maximale flexibiliteit en maatwerk",
+      "Persoonlijke ontvangst door Christophe"
+    ]
+  },
+  "availability": {
+    "title": "Beschikbaarheid bekijken",
+    "description": "Selecteer uw gewenste periode en bekijk direct de beschikbaarheid",
+    "button": "Bekijk beschikbaarheid"
+  },
+  "preferTalk": {
+    "title": "Liever eerst praten?",
+    "description": "Geen probleem! Neem gerust contact met Bieke op voor vragen of om de mogelijkheden te bespreken.",
+    "cta": "Neem contact op",
+    "callBieke": "Bel Bieke",
+    "mailBieke": "Mail Bieke"
+  },
+  "payment": {
+    "title": "Veilig betalen",
+    "description": "Betalingen verlopen via Mollie, een betrouwbare Nederlandse betaalprovider. Uw gegevens zijn altijd veilig."
+  },
+  "afterBooking": {
+    "title": "Na uw boeking",
+    "steps": [
+      "U ontvangt direct een bevestiging per e-mail",
+      "Binnen 24 uur nemen wij persoonlijk contact op",
+      "U ontvangt een welkomstpakket met alle praktische informatie",
+      "Op de dag van aankomst staat Christophe u persoonlijk op te wachten"
+    ]
+  }
+}

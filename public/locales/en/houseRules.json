@@ -1,0 +1,135 @@
+{
+  "seo": {
+    "title": "House Rules | ArdenNest - Holiday Home Ardennes",
+    "description": "Our house rules for a pleasant stay. Practical information about arrival, departure and use of the holiday home."
+  },
+  "pageTitle": "House Rules",
+  "h1": "Arrival, departure, kitchen and garden — agreements for a carefree stay",
+  "pageSubtitle": "These house rules help make your stay and the stays of future groups as pleasant as possible.",
+  "legalDocuments": "Legal files",
+  "downloadButton": "Download house rules",
+  "accommodation": "Accommodation",
+  "accommodationValue": "Rue de la ferme 3, 5575 Malvoisin",
+  "website": "Website",
+  "websiteValue": "www.ardennest.be",
+  "operator": "Operator",
+  "operatorValue": "Festina Lente bv",
+  "version": "Version",
+  "versionValue": "January 2026",
+  "welcome": "Welcome to ArdenNest. We're delighted to have you here. These house rules help make your stay and the stays of future groups as pleasant as possible. Most things are self-explanatory, but we like to put them in writing. The current version is displayed in the house and is binding.",
+  "sections": {
+    "arrivalDeparture": {
+      "title": "Arrival & Departure",
+      "cleaning": {
+        "title": "Cleaning",
+        "content": "The cleaning after your departure is included in the price, provided the house is left in an orderly condition. Specifically, we ask you to vacuum the ground floor, wash and put away the dishes, sort the waste, take your personal belongings, and go through the departure checklist. This checklist will be given to you before arrival and is displayed in the house, so you know exactly what we expect."
+      }
+    },
+    "house": {
+      "title": "The House",
+      "bedding": {
+        "title": "Bedding",
+        "content": "Please always use the beds, pillows, and duvets with the linen we provide, keeping everything fresh and hygienic for everyone. We also ask you to leave mattresses and duvets on the beds and not on the floor, and to store unused bedding neatly in the closet. Beds should not be moved to another room."
+      },
+      "beds": {
+        "title": "Beds",
+        "content": "Please do not move beds to another room."
+      },
+      "furniture": {
+        "title": "Furniture",
+        "content": "We have positioned the furniture and beds to look their best, so please leave them in place."
+      },
+      "shoes": {
+        "title": "Shoes",
+        "content": "To keep the floors and carpets upstairs looking nice, we ask that you don't wear outdoor shoes upstairs. Slippers or thick socks are ideal and make things cozier too."
+      }
+    },
+    "foodDrink": {
+      "title": "Food and drinks",
+      "content": "Please do not take food or drinks upstairs to the bedrooms or on the stairs, so the rooms remain a place where you can truly relax."
+    },
+    "smokeFree": {
+      "title": "Smoke-free",
+      "content": "The entire house is smoke-free, including e-cigarettes and vapes. Ashtrays are available outside for those who wish to smoke, we kindly ask you to use them and not leave cigarette butts in the garden."
+    },
+    "firewood": {
+      "title": "Firewood",
+      "content": "Firewood is available for a small fee. We ask that you do not bring your own wood."
+    },
+    "kitchen": {
+      "title": "The Kitchen",
+      "frying": {
+        "title": "Frying",
+        "content": "Deep frying with oil, as well as the use of gourmet or fondue appliances is not permitted in the house, on the terrace, or in the garden — this is a requirement of the fire department and insurance for fire safety. The professional kitchen offers more than enough alternatives to prepare delicious meals."
+      }
+    },
+    "garden": {
+      "title": "The Garden",
+      "playground": {
+        "title": "Play paradise",
+        "content": "It is not permitted to set up your own tents, caravans, or inflatable pools."
+      },
+      "toys": {
+        "title": "Toys",
+        "content": "The indoor toys are only intended for indoor use, and the outdoor toys in the storage room are meant for our property — not on public roads. The go-karts and bikes are provided for children up to 16 years old. We ask that you bring all outdoor equipment inside in the evening."
+      },
+      "fire": {
+        "title": "Fire",
+        "content": "Open fires in the garden are not permitted, and fireworks or sky lanterns are also not allowed due to fire hazard and the animals in this rural village."
+      },
+      "trampoline": {
+        "title": "Trampoline",
+        "content": "Please do not wear shoes on the trampoline."
+      }
+    },
+    "quietHours": {
+      "title": "Quiet & Surroundings",
+      "outdoorMusic": {
+        "title": "Outdoor music",
+        "content": "Outdoor music is not permitted, not even during the day. The silence and tranquility of the Ardennes is exactly what many of our guests appreciate so much, and we want to preserve that."
+      },
+      "quietTime": {
+        "title": "Quiet hours",
+        "subtitle": "22:00 – 07:00",
+        "content": "Between 10 PM and 7 AM, we ask you to keep noise levels at conversation level. External speakers or music systems are not permitted. This way, everyone who wants to sleep can actually do so — both in your group and among the neighbors."
+      }
+    },
+    "pets": {
+      "title": "Pets",
+      "content": "Pets are not allowed at ArdenNest. We have set up the house to be hypoallergenic so guests with allergies can stay here without worry, and we want to keep it that way."
+    },
+    "damage": {
+      "title": "Damage & Reports",
+      "content": "If something is not in order upon arrival, please let us know immediately — that way you're covered and we can often resolve it during your stay. If something breaks or gets damaged during your stay, please report it as well, and we'll make sure everything is in order for the next guests."
+    },
+    "access": {
+      "title": "Access",
+      "content": "In case of emergencies or when urgent maintenance is needed, we may enter the house. For all other matters, we always contact you to arrange a suitable time — we fully respect your privacy."
+    },
+    "emergencyStairs": {
+      "title": "Emergency stairs",
+      "content": "The emergency stairs on the side of the building are only to be used in case of emergency."
+    },
+    "groupSize": {
+      "title": "Group size",
+      "content": "ArdenNest is designed for families and groups looking for quality time together, with a maximum of 26 people (including babies). The house is not suitable for parties or events."
+    },
+    "liability": {
+      "title": "Liability",
+      "content": "ArdenNest is not liable for personal injury, loss, or damage to guests' property, unless there is demonstrable negligence on our part. Supervision of children always remains the responsibility of parents and guardians. We recommend taking out travel insurance that covers cancellation and liability."
+    },
+    "emergency": {
+      "title": "Emergencies",
+      "emergencyNumber": "Emergency number",
+      "emergencyNumberValue": "112",
+      "ownerContact": "Owner contact",
+      "ownerContactValue": "+32 478 03 03 52"
+    },
+    "closing": {
+      "title": "In Closing",
+      "content1": "In addition to these house rules, Belgian law naturally applies. The version of the house rules you receive with your booking confirmation applies to your stay.",
+      "content2": "We wish you a wonderful and unforgettable stay at ArdenNest. Enjoy each other and the tranquility.",
+      "signature": "ArdenNest • Festina Lente • Welcoming guests in the Ardennes since 2003"
+    }
+  }
+}
