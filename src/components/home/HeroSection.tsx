@@ -1,7 +1,7 @@
 import { LocalizedLink as Link } from '@/components/LocalizedLink';
 import { useTranslation } from 'react-i18next';
 import { Button } from '@/components/ui/button';
-import { ArrowRight } from 'lucide-react';
+import { ArrowRight, MapPin } from 'lucide-react';
 import { heroMain } from '@/assets/property';
 
 export const HeroSection = () => {
