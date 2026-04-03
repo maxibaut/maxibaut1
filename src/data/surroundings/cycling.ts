@@ -1,6 +1,6 @@
 import { CyclingItem } from './types';
-import fietsersImg from '@/assets/cycling/la-balade-de-sim-fietsers.webp';
-import bhAtomImg from '@/assets/cycling/la-balade-de-sim-bh-atom.webp';
+import fietsersImg from '@/assets/cycling/ardennest-fietsen-balade-de-sim-fietsers.webp';
+import bhAtomImg from '@/assets/cycling/ardennest-fietsen-balade-de-sim-bh-atom.webp';
 
 export const cycling: CyclingItem[] = [
   {

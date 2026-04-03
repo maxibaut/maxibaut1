@@ -1,35 +1,35 @@
 // Chevetogne
-import chevetogneHero from './chevetogne-hero-01.jpg';
-import chevetogneBoutDuMonde from './chevetogne-bout-du-monde-02.jpg';
-import chevetogneJardins from './chevetogne-jardins-03.jpg';
+import chevetogneHero from './ardennest-attractie-chevetogne-hero.jpg';
+import chevetogneBoutDuMonde from './ardennest-attractie-chevetogne-bout-du-monde.jpg';
+import chevetogneJardins from './ardennest-attractie-chevetogne-tuinen.jpg';
 
 // Furfooz
-import furfoozPanorama from './furfooz-panorama-01.jpg';
-import furfoozEscalier from './furfooz-escalier-02.jpg';
+import furfoozPanorama from './ardennest-attractie-furfooz-panorama.jpg';
+import furfoozEscalier from './ardennest-attractie-furfooz-trap.jpg';
 
 // Lavaux-Sainte-Anne
-import lavauxHero from './lavaux-hero-01.jpg';
-import lavauxVisite from './lavaux-visite-02.jpg';
-import lavauxEvenement from './lavaux-evenement-03.jpg';
+import lavauxHero from './ardennest-attractie-lavaux-sainte-anne-hero.jpg';
+import lavauxVisite from './ardennest-attractie-lavaux-sainte-anne-bezoek.jpg';
+import lavauxEvenement from './ardennest-attractie-lavaux-sainte-anne-evenement.jpg';
 
 // Brasserie de la Lesse
-import brasserieLesseHero from './brasserie-lesse-hero-01.jpg';
-import brasserieLesseToplesse from './brasserie-lesse-toplesse-02.png';
-import brasserieLesseHiveresse from './brasserie-lesse-hiveresse-03.jpg';
+import brasserieLesseHero from './ardennest-attractie-brasserie-lesse-hero.jpg';
+import brasserieLesseToplesse from './ardennest-attractie-brasserie-lesse-toplesse.png';
+import brasserieLesseHiveresse from './ardennest-attractie-brasserie-lesse-hiveresse.jpg';
 
 // Grotten van Han
-import grottenHanHero from './grotten-han-hero-01.jpg';
-import grottenHanBear from './grotten-han-bear-02.jpg';
+import grottenHanHero from './ardennest-attractie-grotten-han-hero.jpg';
+import grottenHanBear from './ardennest-attractie-grotten-han-beer.jpg';
 
 // Kasteel Bouillon
-import kasteelBouillonHero from './kasteel-bouillon-hero-01.jpg';
-import kasteelBouillonFest from './kasteel-bouillon-middeleeuwsfest-02.jpg';
-import kasteelBouillonNacht from './kasteel-bouillon-nachtbezoek-03.jpg';
-import kasteelBouillonLucht from './kasteel-bouillon-luchtfoto-04.jpg';
+import kasteelBouillonHero from './ardennest-attractie-kasteel-bouillon-hero.jpg';
+import kasteelBouillonFest from './ardennest-attractie-bouillon-middeleeuws-feest.jpg';
+import kasteelBouillonNacht from './ardennest-attractie-kasteel-bouillon-nachtbezoek.jpg';
+import kasteelBouillonLucht from './ardennest-attractie-kasteel-bouillon-luchtfoto.jpg';
 
 // Abdij Maredsous
-import abdijMaredsousHero from './abdij-maredsous-hero-01.jpg';
-import abdijMaredsousBreviaire from './abdij-maredsous-breviaire-02.jpg';
+import abdijMaredsousHero from './ardennest-attractie-abdij-maredsous-hero.jpg';
+import abdijMaredsousBreviaire from './ardennest-attractie-abdij-maredsous-breviaire.jpg';
 
 export const attractionImages = {
   chevetogne: [chevetogneHero, chevetogneBoutDuMonde, chevetogneJardins],

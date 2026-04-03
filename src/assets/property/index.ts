@@ -1,61 +1,61 @@
 // Hero & Exterior
-export { default as heroMain } from './ferme-190.jpg?format=webp';
-export { default as propertyHero } from './ferme-109.jpg?format=webp';
-export { default as gardenAerial } from './ferme-191.jpg?format=webp';
-export { default as aboutHero } from './about-hero.jpg?format=webp';
+export { default as heroMain } from './ardennest-exterieur-hoeve-voorgevel.jpg?format=webp';
+export { default as propertyHero } from './ardennest-exterieur-hoeve-hero.jpg?format=webp';
+export { default as gardenAerial } from './ardennest-exterieur-tuin-luchtfoto.jpg?format=webp';
+export { default as aboutHero } from './ardennest-exterieur-hoeve-about-hero.jpg?format=webp';
 
 // Dining & Kitchen
-export { default as diningRoom } from './ferme-175.jpg?format=webp';
-export { default as diningTableSet } from './ferme-008.jpg?format=webp';
-export { default as diningTableWindow } from './ferme-122.jpg?format=webp';
-export { default as diningTableAngle } from './ferme-030.jpg?format=webp';
-export { default as diningTableCabinet } from './ferme-032.jpg?format=webp';
-export { default as oakTableDetail } from './ferme-178.jpg?format=webp';
-export { default as kitchen } from './ferme-010.jpg?format=webp';
-export { default as mieleDishwasher } from './miele-dishwasher.webp';
+export { default as diningRoom } from './ardennest-tafel-eetzaal-overzicht.jpg?format=webp';
+export { default as diningTableSet } from './ardennest-tafel-gedekt-avondmaal.jpg?format=webp';
+export { default as diningTableWindow } from './ardennest-tafel-raam-uitzicht.jpg?format=webp';
+export { default as diningTableAngle } from './ardennest-tafel-hoek-perspectief.jpg?format=webp';
+export { default as diningTableCabinet } from './ardennest-tafel-kast-detail.jpg?format=webp';
+export { default as oakTableDetail } from './ardennest-tafel-eiken-detail.jpg?format=webp';
+export { default as kitchen } from './ardennest-keuken-lacanche-overzicht.jpg?format=webp';
+export { default as mieleDishwasher } from './ardennest-keuken-miele-vaatwasser.webp';
 
 // Living
-export { default as livingFireplace } from './ferme-022.jpg?format=webp';
-export { default as livingAperitif } from './ferme-179.jpg?format=webp';
-export { default as livingLounge } from './ferme-019.jpg?format=webp';
-export { default as livingTvCorner } from './ferme-021.jpg?format=webp';
-export { default as livingRetroGaming } from './ferme-180.jpg?format=webp';
+export { default as livingFireplace } from './ardennest-leefruimte-open-haard.jpg?format=webp';
+export { default as livingAperitif } from './ardennest-leefruimte-aperitief.jpg?format=webp';
+export { default as livingLounge } from './ardennest-leefruimte-lounge.jpg?format=webp';
+export { default as livingTvCorner } from './ardennest-leefruimte-tv-hoek.jpg?format=webp';
+export { default as livingRetroGaming } from './ardennest-leefruimte-retro-gaming.jpg?format=webp';
 
 // Bedrooms
-export { default as bedroomPrimary } from './ferme-139.jpg?format=webp';
-export { default as bedroomAtmospheric } from './ferme-141.jpg?format=webp';
-export { default as bedroomMezzanine } from './ferme-148.jpg?format=webp';
-export { default as bedroomQuietLuxury } from './ferme-064.jpg?format=webp';
+export { default as bedroomPrimary } from './ardennest-slaapkamer-hoofdslaapkamer.jpg?format=webp';
+export { default as bedroomAtmospheric } from './ardennest-slaapkamer-sfeer.jpg?format=webp';
+export { default as bedroomMezzanine } from './ardennest-slaapkamer-mezzanine.jpg?format=webp';
+export { default as bedroomQuietLuxury } from './ardennest-slaapkamer-boxspring-beddengoed.jpg?format=webp';
 
 // Bathrooms / Ensuite
-export { default as bathroomEnsuite } from './ferme-048.jpg?format=webp';
-export { default as bathroomSink } from './ferme-067.jpg?format=webp';
-export { default as bathroomShower } from './ferme-136.jpg?format=webp';
-export { default as bathroomWalkIn } from './ferme-142.jpg?format=webp';
-export { default as bathroomGlassDoor } from './ferme-145.jpg?format=webp';
+export { default as bathroomEnsuite } from './ardennest-badkamer-ensuite.jpg?format=webp';
+export { default as bathroomSink } from './ardennest-badkamer-wastafel.jpg?format=webp';
+export { default as bathroomShower } from './ardennest-badkamer-douche.jpg?format=webp';
+export { default as bathroomWalkIn } from './ardennest-badkamer-inloopdouche.jpg?format=webp';
+export { default as bathroomGlassDoor } from './ardennest-badkamer-glazen-deur.jpg?format=webp';
 
 // Outdoor
-export { default as terraceDining } from './ferme-116.jpg?format=webp';
-export { default as gardenSports } from './ferme-089.jpg?format=webp';
-export { default as gardenLandscape } from './ferme-102.jpg?format=webp';
-export { default as bbqTerrace } from './bbq-terrace.jpg?format=webp';
-export { default as gardenLoungers } from './garden-loungers.jpg?format=webp';
-export { default as gardenHiddenPath } from './garden-hidden-path.jpg?format=webp';
-export { default as gardenHammock } from './garden-hammock.jpg?format=webp';
+export { default as terraceDining } from './ardennest-tuin-terras-eethoek.jpg?format=webp';
+export { default as gardenSports } from './ardennest-tuin-sport-veld.jpg?format=webp';
+export { default as gardenLandscape } from './ardennest-tuin-landschap.jpg?format=webp';
+export { default as bbqTerrace } from './ardennest-tuin-terras-barbecue.jpg?format=webp';
+export { default as gardenLoungers } from './ardennest-tuin-ligbedden.jpg?format=webp';
+export { default as gardenHiddenPath } from './ardennest-tuin-verborgen-pad.jpg?format=webp';
+export { default as gardenHammock } from './ardennest-tuin-hangmat.jpg?format=webp';
 
 // Entertainment
-export { default as gameRoomPool } from './ferme-123.jpg?format=webp';
-export { default as gameRoomFoosball } from './ferme-126.jpg?format=webp';
-export { default as playBarn } from './ferme-158.jpg?format=webp';
+export { default as gameRoomPool } from './ardennest-speelkamer-biljart.jpg?format=webp';
+export { default as gameRoomFoosball } from './ardennest-speelkamer-tafelvoetbal.jpg?format=webp';
+export { default as playBarn } from './ardennest-speelstal-overzicht.jpg?format=webp';
 
 // Drone / Aerial
-export { default as farmhouseAerial } from './ferme-209.jpg?format=webp';
-export { default as farmhouseFront } from './ferme-202.jpg?format=webp';
+export { default as farmhouseAerial } from './ardennest-exterieur-drone-luchtfoto.jpg?format=webp';
+export { default as farmhouseFront } from './ardennest-exterieur-drone-voorgevel.jpg?format=webp';
 
 // Entrance / Certified
-export { default as farmhouseEntrance } from './ferme-168.jpg?format=webp';
-export { default as farmhouseSide } from './ferme-161.jpg?format=webp';
+export { default as farmhouseEntrance } from './ardennest-exterieur-ingang.jpg?format=webp';
+export { default as farmhouseSide } from './ardennest-exterieur-zijkant.jpg?format=webp';
 
 // Owners
-export { default as ownersPortrait } from './owners-portrait.jpg?format=webp';
-export { default as familyPortrait } from './family-portrait.jpg?format=webp';
+export { default as ownersPortrait } from './ardennest-eigenaars-portret.jpg?format=webp';
+export { default as familyPortrait } from './ardennest-eigenaars-gezin.jpg?format=webp';

@@ -1,41 +1,41 @@
 // Dinant Evasion
-import dinantEvasion01 from './dinant-evasion-01.jpg?format=webp';
-import dinantEvasion02 from './dinant-evasion-02.jpg?format=webp';
+import dinantEvasion01 from './ardennest-activiteit-dinant-evasion-01.jpg?format=webp';
+import dinantEvasion02 from './ardennest-activiteit-dinant-evasion-02.jpg?format=webp';
 
 // Bomenparcours Han
-import bomenparcours01 from './bomenparcours-han-01.jpg?format=webp';
-import bomenparcours02 from './bomenparcours-han-02.jpg?format=webp';
-import bomenparcours03 from './bomenparcours-han-03.jpg?format=webp';
+import bomenparcours01 from './ardennest-activiteit-bomenparcours-han-01.jpg?format=webp';
+import bomenparcours02 from './ardennest-activiteit-bomenparcours-han-02.jpg?format=webp';
+import bomenparcours03 from './ardennest-activiteit-bomenparcours-han-03.jpg?format=webp';
 
 // Terraltitude
-import terraltitude01 from './terraltitude-fantasticable-01.jpg?format=webp';
-import terraltitude02 from './terraltitude-accrobranche-02.jpg?format=webp';
-import terraltitude03 from './terraltitude-catapulte-03.jpg?format=webp';
-import terraltitude04 from './terraltitude-tour-aventuriers-04.jpg?format=webp';
-import terraltitude05 from './terraltitude-bois-nutons-05.jpg?format=webp';
+import terraltitude01 from './ardennest-activiteit-terraltitude-fantasticable.jpg?format=webp';
+import terraltitude02 from './ardennest-activiteit-terraltitude-accrobranche.jpg?format=webp';
+import terraltitude03 from './ardennest-activiteit-terraltitude-catapulte.jpg?format=webp';
+import terraltitude04 from './ardennest-activiteit-terraltitude-tour-aventuriers.jpg?format=webp';
+import terraltitude05 from './ardennest-activiteit-terraltitude-bois-nutons.jpg?format=webp';
 
 // Cap Nature
-import capNature01 from './cap-nature-hero-01.jpg?format=webp';
-import capNature02 from './cap-nature-accrobranche-02.jpg?format=webp';
-import capNature03 from './cap-nature-zipline-03.jpg?format=webp';
-import capNature04 from './cap-nature-climbing-04.jpg?format=webp';
+import capNature01 from './ardennest-activiteit-cap-nature-hero.jpg?format=webp';
+import capNature02 from './ardennest-activiteit-cap-nature-accrobranche.jpg?format=webp';
+import capNature03 from './ardennest-activiteit-cap-nature-zipline.jpg?format=webp';
+import capNature04 from './ardennest-activiteit-cap-nature-klimmen.jpg?format=webp';
 
 // Récréalle
-import recrealle01 from './recrealle-kayak-01.png?format=webp';
-import recrealle02 from './recrealle-minigolf-02.jpg?format=webp';
-import recrealle03 from './recrealle-climbing-03.png?format=webp';
-import recrealle04 from './recrealle-bowling-04.png?format=webp';
+import recrealle01 from './ardennest-activiteit-recrealle-kajak.png?format=webp';
+import recrealle02 from './ardennest-activiteit-recrealle-minigolf.jpg?format=webp';
+import recrealle03 from './ardennest-activiteit-recrealle-klimmen.png?format=webp';
+import recrealle04 from './ardennest-activiteit-recrealle-bowling.png?format=webp';
 
 // Leisteengroeve
-import leisteengroeve01 from './leisteengroeve-intro-01.jpg?format=webp';
-import leisteengroeve02 from './leisteengroeve-gallery-02.webp';
-import leisteengroeve03 from './leisteengroeve-gallery-03.webp';
-import leisteengroeve04 from './leisteengroeve-gallery-04.webp';
+import leisteengroeve01 from './ardennest-activiteit-leisteengroeve-intro.jpg?format=webp';
+import leisteengroeve02 from './ardennest-activiteit-leisteengroeve-galerij-01.webp';
+import leisteengroeve03 from './ardennest-activiteit-leisteengroeve-galerij-02.webp';
+import leisteengroeve04 from './ardennest-activiteit-leisteengroeve-galerij-03.webp';
 
 // ArdenNest Dropping
-import dropping01 from './ardennest-dropping-map-01.jpg?format=webp';
-import dropping02 from './ardennest-dropping-twilight-02.jpg?format=webp';
-import dropping03 from './ardennest-dropping-trail-03.jpg?format=webp';
+import dropping01 from './ardennest-activiteit-dropping-kaart.jpg?format=webp';
+import dropping02 from './ardennest-activiteit-dropping-schemering.jpg?format=webp';
+import dropping03 from './ardennest-activiteit-dropping-bospad.jpg?format=webp';
 
 export const activeImages = {
   dinantEvasion: [dinantEvasion01, dinantEvasion02],
