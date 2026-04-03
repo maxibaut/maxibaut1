@@ -3,6 +3,7 @@ import {
   HeroSection,
   TrustSignals,
   DifferentiatorsPreview,
+  AudienceSection,
   WhyBookDirect,
 } from '@/components/home';
 import { useSEO } from '@/hooks/useSEO';
@@ -15,6 +16,7 @@ const Index = () => {
       <HeroSection />
       <TrustSignals />
       <DifferentiatorsPreview />
+      <AudienceSection />
       <WhyBookDirect />
     </PageWrapper>
   );

@@ -180,5 +180,14 @@
         "description": "Christophe verwelkomt elke groep persoonlijk"
       }
     }
+  },
+  "audience": {
+    "heading": "Voor wie is ArdenNest?",
+    "intro": "Niet elke groep past bij ArdenNest — en dat is bewust zo.",
+    "bullet1": "Multigenerationele families — grootouders, ouders en kinderen onder één dak, elk met een eigen ensuite kamer",
+    "bullet2": "Vriendengroepen die quality time verkiezen boven vertier — lange tafelmomenten, niet luid feestgedruis",
+    "bullet3": "De organisator die het zichzelf makkelijk wil maken — alles is voorzien, van professionele keuken tot beddengoed",
+    "bullet4": "Groepen van 15 tot 26 personen die ruimte zoeken zonder elkaar uit het oog te verliezen",
+    "closing": "Zoek je een feestlocatie of actief vakantiepark? Dan zijn wij niet de juiste match. Zoek je een plek waar iedereen tot rust komt en écht samen is? Dan verwelkomen we jullie graag."
   }
 }
