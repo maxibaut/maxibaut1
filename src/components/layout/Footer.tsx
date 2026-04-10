@@ -65,7 +65,7 @@ export const Footer = () => {
                 <MapPin className="h-4 w-4 flex-shrink-0 mt-0.5" />
                 <span>{t('footer.location')}</span>
               </li>
-              <li className="pt-3">
+              <li>
                 <a
                   href="https://www.instagram.com/ardennest.be"
                   target="_blank"
@@ -107,16 +107,6 @@ export const Footer = () => {
                 </LocalizedLink>
               </li>
               <li>
-                <LocalizedLink to="/booking" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">
-                  {t('nav.booking')}
-                </LocalizedLink>
-              </li>
-              <li>
-                <LocalizedLink to="/journal" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">
-                  {t('footer.journal')}
-                </LocalizedLink>
-              </li>
-              <li>
                 <LocalizedLink to="/about" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">
                   {t('nav.about')}
                 </LocalizedLink>
@@ -124,6 +114,16 @@ export const Footer = () => {
               <li>
                 <LocalizedLink to="/contact" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">
                   {t('nav.contact')}
+                </LocalizedLink>
+              </li>
+              <li>
+                <LocalizedLink to="/booking" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">
+                  {t('nav.booking')}
+                </LocalizedLink>
+              </li>
+              <li>
+                <LocalizedLink to="/journal" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">
+                  {t('footer.journal')}
                 </LocalizedLink>
               </li>
             </ul>
