@@ -78,8 +78,23 @@ export const Footer = () => {
                 </LocalizedLink>
               </li>
               <li>
+                <LocalizedLink to="/differentiators" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">
+                  {t('nav.differentiators')}
+                </LocalizedLink>
+              </li>
+              <li>
+                <LocalizedLink to="/surroundings" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">
+                  {t('nav.surroundings')}
+                </LocalizedLink>
+              </li>
+              <li>
                 <LocalizedLink to="/booking" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">
                   {t('nav.booking')}
+                </LocalizedLink>
+              </li>
+              <li>
+                <LocalizedLink to="/journal" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">
+                  {t('footer.journal')}
                 </LocalizedLink>
               </li>
               <li>
@@ -94,14 +109,8 @@ export const Footer = () => {
               </li>
             </ul>
             
-            {/* Social, Journal & Homeowners */}
+            {/* Social & Homeowners */}
             <div className="pt-4 space-y-3">
-              <LocalizedLink
-                to="/journal"
-                className="block text-primary-foreground/80 hover:text-primary-foreground transition-colors"
-              >
-                {t('footer.journal')}
-              </LocalizedLink>
               <a
                 href="https://www.instagram.com/ardennest.be"
                 target="_blank"
