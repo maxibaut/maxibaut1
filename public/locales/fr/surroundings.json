@@ -3,6 +3,17 @@
     "title": "Environs | ArdenNest — Rando, vélo et aventure",
     "description": "Sentiers de randonnée, pistes cyclables, parcs d'aventure, restaurants et curiosités autour d'ArdenNest dans les Ardennes."
   },
+  "preposition": "à",
+  "categories": {
+    "walks": "randonnée",
+    "cycling": "piste cyclable",
+    "active": "activité",
+    "exclusive": "expérience exclusive",
+    "attractions": "patrimoine",
+    "restaurants": "restaurant",
+    "shops": "commerce"
+  },
+  "seoDescriptionTemplate": "{{name}} est un(e) {{category}} à {{village}}, près de la maison de vacances ArdenNest dans les Ardennes.",
   "title": "Les Environs",
   "h1": "Randonnées, pistes cyclables et attractions près d'ArdenNest",
   "subtitle": "Découvrez les plus beaux endroits autour d'ArdenNest",

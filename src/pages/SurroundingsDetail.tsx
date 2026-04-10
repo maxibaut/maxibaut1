@@ -79,21 +79,37 @@ const SurroundingsDetail = () => {
   const openingHours = t(`items.${category}.${slug}.openingHours`, { defaultValue: '' });
   const askUponArrival = t(`items.${category}.${slug}.askUponArrival`, { defaultValue: t('askUs') });
 
-  // Per-subpage SEO — dynamically built from item name + description
-  // Truncate title to fit within 60 chars total (including " — ArdenNest" = 13 chars)
-  const maxNameLen = 47; // 60 - 13
-  const truncatedTitle = title.length > maxNameLen ? title.slice(0, maxNameLen - 1).trimEnd() + '…' : title;
-  const seoTitleStr = `${truncatedTitle} — ArdenNest`;
+  // --- Dynamic SEO title: "{Name} — {category} {preposition} {village}" ---
+  const village = item?.village || '';
+  const preposition = t('preposition', { defaultValue: 'in' });
+  const translatedCategory = t(`categories.${category}`, { defaultValue: category || '' });
   
-  // Build a unique description from the item's translated description, or construct one
-  const categoryLabel = t(`${category}.title`, { defaultValue: category });
-  const seoDescStr = description
-    ? (description.length > 155 ? description.slice(0, 152).trimEnd() + '…' : description)
-    : t('seoFallbackDescription', { 
-        name: title, 
-        category: categoryLabel,
-        defaultValue: `${title} — ${categoryLabel} in de buurt van ArdenNest.`
-      });
+  // Strip village from title if it already contains the village name
+  const cleanName = village
+    ? title.replace(new RegExp(`\\s*${village}\\s*`, 'i'), '').trim()
+    : title;
+  
+  // Build unique SEO title: "Terracines — winkel in Vencimont"
+  const seoSuffix = village
+    ? ` — ${translatedCategory} ${preposition} ${village}`
+    : ` — ${translatedCategory}`;
+  const maxNameLen = 60 - seoSuffix.length;
+  const truncatedTitle = cleanName.length > maxNameLen 
+    ? cleanName.slice(0, maxNameLen - 1).trimEnd() + '…' 
+    : cleanName;
+  const seoTitleStr = `${truncatedTitle}${seoSuffix}`;
+  
+  // Build unique meta description using template
+  const seoDescStr = village
+    ? t('seoDescriptionTemplate', { 
+        name: cleanName, 
+        category: translatedCategory, 
+        village,
+        defaultValue: `${cleanName} — ${translatedCategory} ${preposition} ${village}.`
+      })
+    : (description
+        ? (description.length > 155 ? description.slice(0, 152).trimEnd() + '…' : description)
+        : `${cleanName} — ${translatedCategory}.`);
 
   // Use useSEO with direct title/description override via useEffect
   useSEO({ noIndex: false });

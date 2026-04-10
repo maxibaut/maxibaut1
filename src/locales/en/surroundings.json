@@ -3,6 +3,17 @@
     "title": "Surroundings | ArdenNest — Walks, cycling and more",
     "description": "Walking routes, cycling paths, adventure parks, restaurants and attractions around ArdenNest in the Belgian Ardennes."
   },
+  "preposition": "in",
+  "categories": {
+    "walks": "walk",
+    "cycling": "cycling route",
+    "active": "activity",
+    "exclusive": "exclusive experience",
+    "attractions": "heritage site",
+    "restaurants": "restaurant",
+    "shops": "shop"
+  },
+  "seoDescriptionTemplate": "{{name}} is a {{category}} in {{village}}, near holiday home ArdenNest in the Belgian Ardennes.",
   "title": "The Surroundings",
   "h1": "Walks, cycling routes and attractions near ArdenNest",
   "subtitle": "Discover the most beautiful spots around ArdenNest",

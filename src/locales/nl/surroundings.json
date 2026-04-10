@@ -3,6 +3,17 @@
     "title": "Omgeving | ArdenNest — Wandelen, fietsen en meer",
     "description": "Wandelroutes, fietsroutes, avonturenparken, restaurants en bezienswaardigheden rondom ArdenNest in de Ardennen."
   },
+  "preposition": "in",
+  "categories": {
+    "walks": "wandeling",
+    "cycling": "fietsroute",
+    "active": "activiteit",
+    "exclusive": "exclusieve ervaring",
+    "attractions": "bezienswaardigheid",
+    "restaurants": "restaurant",
+    "shops": "winkel"
+  },
+  "seoDescriptionTemplate": "{{name}} is een {{category}} in {{village}}, vlakbij vakantiewoning ArdenNest in de Ardennen.",
   "title": "De Omgeving",
   "h1": "Wandelingen, fietsroutes en bezienswaardigheden bij ArdenNest",
   "subtitle": "Ontdek de mooiste plekjes rondom ArdenNest",

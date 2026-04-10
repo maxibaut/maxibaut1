@@ -10,6 +10,7 @@ export interface SurroundingsItemBase {
   id: number;
   slug: string;
   category: SurroundingsCategory;
+  village?: string; // Village/town name for SEO titles (e.g. "Gedinne", "Beauraing")
   distance?: string; // Distance from property
   heroImage?: string; // Hero background image (not shown in gallery)
   images?: string[]; // Array of gallery image paths
