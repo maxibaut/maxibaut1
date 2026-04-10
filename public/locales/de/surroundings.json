@@ -3,6 +3,17 @@
     "title": "Umgebung | ArdenNest — Wandern, Radfahren und mehr",
     "description": "Wanderwege, Radwege, Abenteuerparks, Restaurants und Sehenswürdigkeiten rund um ArdenNest in den Ardennen. Tipps von Einheimischen."
   },
+  "preposition": "in",
+  "categories": {
+    "walks": "Wanderung",
+    "cycling": "Radroute",
+    "active": "Aktivität",
+    "exclusive": "exklusives Erlebnis",
+    "attractions": "Sehenswürdigkeit",
+    "restaurants": "Restaurant",
+    "shops": "Geschäft"
+  },
+  "seoDescriptionTemplate": "{{name}} ist eine {{category}} in {{village}}, nahe dem Ferienhaus ArdenNest in den Ardennen.",
   "title": "Die Umgebung",
   "h1": "Wanderungen, Radrouten und Sehenswürdigkeiten bei ArdenNest",
   "subtitle": "Entdecken Sie die schönsten Orte rund um ArdenNest",
