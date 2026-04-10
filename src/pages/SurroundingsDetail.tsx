@@ -259,7 +259,12 @@ const SurroundingsDetail = () => {
             </Badge>
           </div>
 
-          <h1 className="heading-display mb-4">{title}</h1>
+          <h1 className="heading-display mb-2">{title}</h1>
+          {village && (
+            <p className="body-large text-primary-foreground/60 mb-4 capitalize">
+              {translatedCategory} {preposition} {village}
+            </p>
+          )}
           <p className="body-large text-primary-foreground/80 max-w-2xl">
             {description}
           </p>
