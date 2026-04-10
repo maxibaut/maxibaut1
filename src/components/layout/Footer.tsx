@@ -65,6 +65,25 @@ export const Footer = () => {
                 <MapPin className="h-4 w-4 flex-shrink-0 mt-0.5" />
                 <span>{t('footer.location')}</span>
               </li>
+              <li className="pt-3">
+                <a
+                  href="https://www.instagram.com/ardennest.be"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 text-primary-foreground/80 hover:text-primary-foreground transition-colors"
+                >
+                  <Instagram className="h-5 w-5" />
+                  <span>Instagram</span>
+                </a>
+              </li>
+              <li>
+                <LocalizedLink
+                  to="/homeowners"
+                  className="text-primary-foreground/80 hover:text-primary-foreground transition-colors"
+                >
+                  {t('footer.homeowners')}
+                </LocalizedLink>
+              </li>
             </ul>
           </div>
 
@@ -108,27 +127,6 @@ export const Footer = () => {
                 </LocalizedLink>
               </li>
             </ul>
-            
-            {/* Social & Homeowners */}
-            <div className="pt-4 space-y-3">
-              <a
-                href="https://www.instagram.com/ardennest.be"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 text-primary-foreground/80 hover:text-primary-foreground transition-colors"
-              >
-                <Instagram className="h-5 w-5" />
-                <span>Instagram</span>
-              </a>
-              <div>
-                <LocalizedLink
-                  to="/homeowners"
-                  className="text-primary-foreground/80 hover:text-primary-foreground transition-colors"
-                >
-                  {t('footer.homeowners')}
-                </LocalizedLink>
-              </div>
-            </div>
           </div>
 
           {/* Documents & Practical Info */}
