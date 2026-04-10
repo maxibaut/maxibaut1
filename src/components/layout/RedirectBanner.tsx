@@ -9,7 +9,7 @@ export const RedirectBanner = () => {
   if (dismissed) return null;
 
   return (
-    <div className="w-full bg-accent border-b border-border text-primary text-sm text-center py-2 px-4 relative">
+    <aside role="status" className="w-full bg-accent border-b border-border text-primary text-sm text-center py-2 px-4 relative">
       <span className="pr-8">{t('redirectBanner')}</span>
       <button
         onClick={() => setDismissed(true)}
@@ -18,6 +18,6 @@ export const RedirectBanner = () => {
       >
         <X className="h-4 w-4" />
       </button>
-    </div>
+    </aside>
   );
 };
