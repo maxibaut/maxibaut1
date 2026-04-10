@@ -374,23 +374,6 @@
           "Collage van klimmers met helm en netten in boomtoppenparcours",
           "Close-up van overlappende leistenen dakpannen met mos"
         ]
-      },
-      "terraltitude": {
-        "imageAlts": [
-          "Twee personen hangen aan fantasticable boven rivier en vallei",
-          "Groene tunnelbuis en houten platforms hoog tussen de bomen",
-          "Persoon wordt met elastieken catapult de lucht in gelanceerd",
-          "Persoon springt van hoge metalen toren aan veiligheidslijn",
-          "Cartoon-kabouter met everzwijn en hert verwelkomt bezoekers"
-        ]
-      },
-      "cap-nature": {
-        "imageAlts": [
-          "Close-up van hand die karabijnhaak vasthoudt op staalkabel",
-          "Klimmer op hoog touwenparcours tussen groene boomkruinen",
-          "Persoon glijdt aan zipline door groen klimbos",
-          "Kind klimt hoog tussen de boomkruinen op avonturenparcours"
-        ]
       }
     },
     "exclusive": {
@@ -552,25 +535,6 @@
           "title": "Domaine de Chevetogne — 14 plaines de jeux | ArdenNest",
           "description": "Domaine provincial avec 14 plaines de jeux, piscines et 600 hectares de nature. L'excursion familiale par excellence. 30 min d'ArdenNest."
         }
-      },
-      "furfooz": {
-        "imageAlts": [
-          "Panorama van de Lesse-vallei met rotsen en dicht groen bos",
-          "Smal stenen wandelpad langs begroeide rotswand in Furfooz"
-        ]
-      },
-      "grotten-han": {
-        "imageAlts": [
-          "Collage van beer, grotten met stalactieten en rondleiding in Han",
-          "Dubbele belichting van bruine beer met wolvenwelp en landschap"
-        ]
-      },
-      "chevetogne": {
-        "imageAlts": [
-          "Wit kasteeldomein Chevetogne met groot groen gazon en bomen",
-          "Houten piratenschip-speeltuin aan vijver in groen park",
-          "Wandelpad tussen bloeiende witte en roze rododendrons"
-        ]
       }
     },
     "restaurants": {
@@ -670,17 +634,6 @@
           "Kratjes rijpe rode en groene tomaten van verschillende rassen",
           "Krat verse groene saladebladeren en kruiden",
           "Vrouw plant zaailingen in een polytunnel"
-        ]
-      },
-      "aux-delices-houille": {
-        "imageAlts": [
-          "Toonbank met charcuterie en opgehangen worsten bij Aux Délices de la Houille",
-          "Winkelpui van Aux Délices de la Houille: charcuterie en traiteur",
-          "Lachende slager achter de toonbank met opgehangen hammen en worsten",
-          "Close-up van ambachtelijke charcuterie en vleesproducten in vitrine",
-          "Vers vlees, worsten en koteletjes uitgestald in de slagerijvitrine",
-          "Slager snijdt een groot stuk vlees op het hakblok",
-          "Handen die vlees uitbenen op een houten snijplank"
         ]
       }
     }
