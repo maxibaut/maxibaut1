@@ -201,6 +201,7 @@ const Contact = () => {
 
   return (
     <PageWrapper>
+      <FAQJsonLd />
       {/* Hero */}
       <section className="bg-primary text-primary-foreground section-padding">
         <div className="container-luxury">
