@@ -70,7 +70,7 @@ export const WhyBookDirect = () => {
           </div>
 
           {/* Image */}
-          <div className="relative">
+          <figure className="relative">
             <div className="aspect-[4/3] rounded-lg overflow-hidden shadow-2xl">
               <img
                 src={terraceDining}
@@ -83,7 +83,7 @@ export const WhyBookDirect = () => {
             </div>
             {/* Decorative element */}
             <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-gold/20 rounded-lg -z-10 hidden lg:block" />
-          </div>
+          </figure>
         </div>
       </div>
     </section>

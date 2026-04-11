@@ -38,7 +38,8 @@ const Journal = () => {
           ) : (
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               {journalEntries.map((entry) => (
-                <LocalizedLink key={entry.slug} to={`/journal/${entry.slug}`} className="group block">
+                <article key={entry.slug}>
+                <LocalizedLink to={`/journal/${entry.slug}`} className="group block">
                   <Card className="overflow-hidden border-border hover:border-primary/30 transition-colors h-full">
                     <div className="aspect-[16/10] overflow-hidden bg-muted flex items-center justify-center">
                       {entry.video ? (
@@ -77,6 +78,7 @@ const Journal = () => {
                     </CardContent>
                   </Card>
                 </LocalizedLink>
+                </article>
               ))}
             </div>
           )}

@@ -230,8 +230,8 @@ const Contact = () => {
         <div className="container-luxury">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
             {contactOptions.map((option, index) => (
-              <Card key={index} className="text-center hover:shadow-lg transition-shadow h-full">
-                <CardContent className="p-6 h-full flex flex-col">
+              <article key={index}>
+              <Card className="text-center hover:shadow-lg transition-shadow h-full">
                   <div className="w-14 h-14 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-4">
                     <option.icon className="h-6 w-6 text-primary" />
                   </div>
@@ -246,6 +246,7 @@ const Contact = () => {
                   </Button>
                 </CardContent>
               </Card>
+              </article>
             ))}
           </div>
         </div>
@@ -404,7 +405,7 @@ const Contact = () => {
             </Card>
 
             {/* Practical Information */}
-            <div className="space-y-6">
+            <aside className="space-y-6">
               <h2 className="heading-3">{t('practical.title')}</h2>
 
               {/* On-site host badge */}
@@ -612,7 +613,7 @@ const Contact = () => {
                   </CardContent>
                 </Card>
               </div>
-            </div>
+            </aside>
           </div>
         </div>
       </section>

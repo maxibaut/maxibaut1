@@ -150,7 +150,7 @@ const Booking = () => {
             <h2 className="heading-2 text-center mb-12">{t("afterBooking.title")}</h2>
             <div className="space-y-6">
               {afterBookingSteps.map((step, index) => (
-                <div key={index} className="flex items-start space-x-4">
+                <article key={index} className="flex items-start space-x-4">
                   <div className="flex-shrink-0 w-10 h-10 rounded-full bg-primary text-primary-foreground flex items-center justify-center font-semibold">
                     {index + 1}
                   </div>
