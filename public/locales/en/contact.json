@@ -112,30 +112,62 @@
     "title": "Frequently Asked Questions",
     "questions": [
       {
-        "q": "Can we check in earlier?",
-        "a": "The house is being cleaned until 4 PM on arrival day. To allow our cleaning team to work undisturbed, early check-in is unfortunately not possible. But don't worry — the area has plenty to offer to turn the waiting time into the start of your holiday.",
+        "q": "How many guests can ArdenNest accommodate?",
+        "a": "ArdenNest accommodates up to 26 guests, spread across 9 bedrooms with ensuite bathrooms."
+      },
+      {
+        "q": "How many bedrooms are there?",
+        "a": "The property has 9 bedrooms: 3 rooms for 2 persons, 4 rooms for 3 persons and 2 rooms for 4 persons. Each room has its own ensuite bathroom with shower or bath, toilet and washbasin."
+      },
+      {
+        "q": "How much does a stay at ArdenNest cost?",
+        "a": "Rates vary by season and period. Check current availability and prices on our booking page.",
+        "link": "/booking",
+        "linkText": "View availability and prices"
+      },
+      {
+        "q": "What is the minimum length of stay?",
+        "a": "The minimum stay is 2 nights. During peak season (school holidays), a minimum of 7 nights applies."
+      },
+      {
+        "q": "What are the check-in and check-out times?",
+        "a": "Check-in is from 4 PM, check-out before 10 AM. The house is cleaned until 4 PM on arrival day. Earlier check-in or later check-out may be possible by arrangement.",
         "link": "/early-arrival",
         "linkText": "Check out our early arrival tips"
       },
       {
-        "q": "How far in advance should I book?",
-        "a": "For popular periods like school holidays, we recommend booking 3-6 months ahead. For weekends and quieter periods, 1-2 months is often sufficient."
+        "q": "Are pets allowed?",
+        "a": "We do not welcome pets — to ensure a worry-free stay for guests with allergies. We know your pet is part of the family and appreciate your understanding."
       },
       {
-        "q": "Are pets allowed?",
-        "a": "Unfortunately, we do not welcome pets - this is to ensure a worry-free stay for guests with allergies. We know your pet is part of the family and appreciate your understanding."
+        "q": "Is there WiFi and parking?",
+        "a": "Yes, there is free WiFi throughout the property and ample free parking on the estate for all guests."
       },
       {
         "q": "What is included in the price?",
         "a": "Bed linen, towels, final cleaning, heating and basic products are included. You'll receive a complete overview upon booking."
       },
       {
-        "q": "Can we check in earlier or check out later?",
-        "a": "This is often possible in consultation, depending on other bookings. Feel free to ask."
+        "q": "Is the property suitable for guests with reduced mobility?",
+        "a": "The ground floor is accessible. Please contact us for specific questions about accessibility."
+      },
+      {
+        "q": "What is there to do in the area?",
+        "a": "The Ardennes offer hiking trails, mountain bike routes, kayaking on the Semois, adventure parks and historic towns like Bouillon just 15 minutes away.",
+        "link": "/surroundings",
+        "linkText": "Discover the surroundings"
+      },
+      {
+        "q": "How do I get to ArdenNest?",
+        "a": "ArdenNest is located in Malvoisin (Gedinne), accessible via the E411 motorway. From Brussels it's about 1h30, from Antwerp 1h55, from Cologne 2h10. The Malvoisin Kewet bus stop is right at the door."
+      },
+      {
+        "q": "How far in advance should I book?",
+        "a": "For popular periods like school holidays, we recommend booking 3-6 months ahead. For weekends and quieter periods, 1-2 months is often sufficient."
       },
       {
         "q": "Is ArdenNest suitable for a party or event?",
-        "a": "ArdenNest is made for quality time - long conversations around the oak table, children playing freely in the garden, evenings that naturally wind down when everyone goes to bed tired but content. What we are not: a party venue. We ask our guests to respect the tranquility that makes the Ardennes so special - for you, for our neighbors, and for the groups that come after you. Looking for a place to truly be together? Then we warmly welcome you."
+        "a": "ArdenNest is made for quality time — long conversations around the oak table, children playing freely in the garden, evenings that naturally wind down. What we are not: a party venue. We ask our guests to respect the tranquility that makes the Ardennes so special."
       }
     ]
   }

@@ -7,12 +7,14 @@ import {
   WhyBookDirect,
 } from '@/components/home';
 import { useSEO } from '@/hooks/useSEO';
+import FAQJsonLd from '@/components/FAQJsonLd';
 
 const Index = () => {
   useSEO();
   
   return (
     <PageWrapper>
+      <FAQJsonLd />
       <HeroSection />
       <TrustSignals />
       <DifferentiatorsPreview />

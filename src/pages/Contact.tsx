@@ -46,6 +46,7 @@ import { MdFamilyRestroom } from 'react-icons/md';
 import { FaChargingStation } from 'react-icons/fa6';
 import hostBieke from '@/assets/property/ardennest-gastvrouw-bieke.jpg?format=webp';
 import { useSEO } from '@/hooks/useSEO';
+import FAQJsonLd from '@/components/FAQJsonLd';
 import { sendContactEmail, EmailTranslations } from '@/lib/emailjs';
 
 const contactSchema = z.object({
@@ -200,6 +201,7 @@ const Contact = () => {
 
   return (
     <PageWrapper>
+      <FAQJsonLd />
       {/* Hero */}
       <section className="bg-primary text-primary-foreground section-padding">
         <div className="container-luxury">

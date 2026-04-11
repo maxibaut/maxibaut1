@@ -112,30 +112,62 @@
     "title": "Questions fréquentes",
     "questions": [
       {
-        "q": "Peut-on arriver plus tôt ?",
-        "a": "La maison est nettoyée jusqu'à 16h le jour de l'arrivée. Pour permettre à notre équipe de ménage de travailler tranquillement, un check-in anticipé n'est malheureusement pas possible. Mais pas de souci — la région a beaucoup à offrir pour transformer l'attente en début de vacances.",
+        "q": "Combien de personnes ArdenNest peut-il accueillir ?",
+        "a": "ArdenNest accueille jusqu'à 26 personnes, réparties dans 9 chambres avec salles de bain privatives."
+      },
+      {
+        "q": "Combien de chambres y a-t-il ?",
+        "a": "La propriété dispose de 9 chambres : 3 chambres pour 2 personnes, 4 chambres pour 3 personnes et 2 chambres pour 4 personnes. Chaque chambre possède sa propre salle de bain avec douche ou baignoire, toilettes et lavabo."
+      },
+      {
+        "q": "Combien coûte un séjour à ArdenNest ?",
+        "a": "Les tarifs varient selon la saison et la période. Consultez la disponibilité et les prix actuels sur notre page de réservation.",
+        "link": "/booking",
+        "linkText": "Voir disponibilité et prix"
+      },
+      {
+        "q": "Quelle est la durée minimale de séjour ?",
+        "a": "La durée minimale de séjour est de 2 nuits. En haute saison (vacances scolaires), un minimum de 7 nuits s'applique."
+      },
+      {
+        "q": "Quelles sont les heures d'arrivée et de départ ?",
+        "a": "L'arrivée est possible à partir de 16h00, le départ avant 10h00. La maison est nettoyée jusqu'à 16h le jour d'arrivée. Une arrivée anticipée ou un départ tardif peut être possible sur arrangement.",
         "link": "/early-arrival",
         "linkText": "Consultez nos conseils pour une arrivée anticipée"
       },
       {
-        "q": "Combien de temps à l'avance dois-je réserver?",
-        "a": "Pour les périodes populaires comme les vacances scolaires, nous recommandons de réserver 3 à 6 mois à l'avance. Pour les week-ends et périodes calmes, 1 à 2 mois suffisent souvent."
+        "q": "Les animaux sont-ils acceptés ?",
+        "a": "Nous n'acceptons pas les animaux de compagnie — afin de garantir un séjour sans souci pour les hôtes allergiques. Nous savons que votre animal fait partie de la famille et espérons votre compréhension."
       },
       {
-        "q": "Les animaux sont-ils acceptés?",
-        "a": "Malheureusement, nous n'acceptons pas les animaux de compagnie - ceci afin de garantir un séjour sans souci pour les clients allergiques. Nous savons que votre animal fait partie de la famille et espérons votre compréhension."
+        "q": "Y a-t-il le WiFi et un parking ?",
+        "a": "Oui, il y a le WiFi gratuit dans toute la propriété et un grand parking gratuit sur le domaine pour tous les hôtes."
       },
       {
-        "q": "Qu'est-ce qui est inclus dans le prix?",
+        "q": "Qu'est-ce qui est inclus dans le prix ?",
         "a": "Linge de lit, serviettes, ménage final, chauffage et produits de base sont inclus. Vous recevrez un aperçu complet lors de la réservation."
       },
       {
-        "q": "Peut-on arriver plus tôt ou partir plus tard?",
-        "a": "C'est souvent possible en concertation, selon les autres réservations. N'hésitez pas à demander."
+        "q": "La propriété est-elle adaptée aux personnes à mobilité réduite ?",
+        "a": "Le rez-de-chaussée est accessible. Contactez-nous pour toute question spécifique sur l'accessibilité."
       },
       {
-        "q": "ArdenNest convient-il pour une fête ou un événement?",
-        "a": "ArdenNest est fait pour les moments de qualité - longues conversations autour de la table en chêne, enfants qui s'amusent dans le jardin, soirées qui s'éteignent naturellement quand tout le monde va se coucher fatigué mais comblé. Ce que nous ne sommes pas : un lieu de fête. Nous demandons à nos hôtes de respecter la tranquillité qui rend les Ardennes si spéciales - pour vous, pour nos voisins, et pour les groupes qui viendront après vous. Vous cherchez un endroit pour être vraiment ensemble ? Alors nous vous accueillons avec plaisir."
+        "q": "Que peut-on faire dans les environs ?",
+        "a": "Les Ardennes offrent des sentiers de randonnée, des pistes de VTT, du kayak sur la Semois, des parcs d'aventure et des villes historiques comme Bouillon à 15 minutes en voiture.",
+        "link": "/surroundings",
+        "linkText": "Découvrez les environs"
+      },
+      {
+        "q": "Comment accéder à ArdenNest ?",
+        "a": "ArdenNest se situe à Malvoisin (Gedinne), accessible via l'autoroute E411. Depuis Bruxelles, comptez environ 1h30, depuis Anvers 1h55, depuis Cologne 2h10. L'arrêt de bus Malvoisin Kewet est juste devant la porte."
+      },
+      {
+        "q": "Combien de temps à l'avance dois-je réserver ?",
+        "a": "Pour les périodes populaires comme les vacances scolaires, nous recommandons de réserver 3 à 6 mois à l'avance. Pour les week-ends et périodes calmes, 1 à 2 mois suffisent souvent."
+      },
+      {
+        "q": "ArdenNest convient-il pour une fête ou un événement ?",
+        "a": "ArdenNest est fait pour les moments de qualité — longues conversations autour de la table en chêne, enfants qui s'amusent dans le jardin, soirées qui s'éteignent naturellement. Ce que nous ne sommes pas : un lieu de fête. Nous demandons à nos hôtes de respecter la tranquillité qui rend les Ardennes si spéciales."
       }
     ]
   }

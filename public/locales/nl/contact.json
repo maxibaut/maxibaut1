@@ -112,30 +112,62 @@
     "title": "Veelgestelde vragen",
     "questions": [
       {
-        "q": "Kunnen we eerder inchecken?",
-        "a": "De woning wordt tot 16 uur schoongemaakt op de dag van aankomst. Om onze poetsploeg in alle rust hun werk te laten doen, is eerder inchecken helaas niet mogelijk. Maar geen nood — de omgeving heeft genoeg te bieden om de wachttijd om te toveren tot het begin van jullie vakantie.",
+        "q": "Hoeveel personen kan ArdenNest ontvangen?",
+        "a": "ArdenNest biedt plaats aan maximaal 26 personen, verdeeld over 9 slaapkamers met ensuite badkamers."
+      },
+      {
+        "q": "Hoeveel slaapkamers zijn er?",
+        "a": "De woning heeft 9 slaapkamers: 3 kamers voor 2 personen, 4 kamers voor 3 personen en 2 kamers voor 4 personen. Elke kamer heeft een eigen ensuite badkamer met douche of bad, toilet en wastafel."
+      },
+      {
+        "q": "Wat kost een verblijf bij ArdenNest?",
+        "a": "De tarieven variëren per seizoen en periode. Bekijk de actuele beschikbaarheid en prijzen op onze boekingspagina.",
+        "link": "/booking",
+        "linkText": "Bekijk beschikbaarheid en prijzen"
+      },
+      {
+        "q": "Wat is de minimale verblijfsduur?",
+        "a": "De minimale verblijfsduur is 2 nachten. In het hoogseizoen (schoolvakanties) geldt een minimum van 7 nachten."
+      },
+      {
+        "q": "Hoe laat is het inchecken en uitchecken?",
+        "a": "Inchecken is mogelijk vanaf 16:00, uitchecken vóór 10:00. De woning wordt tot 16 uur schoongemaakt op de dag van aankomst. Vroeger inchecken of later uitchecken is in overleg soms mogelijk.",
         "link": "/early-arrival",
         "linkText": "Bekijk onze tips voor vroege aankomst"
       },
       {
-        "q": "Hoe ver van tevoren moet ik boeken?",
-        "a": "Voor populaire periodes zoals schoolvakanties raden we aan om 3-6 maanden van tevoren te boeken. Voor weekenden en rustigere periodes is 1-2 maanden vaak voldoende."
+        "q": "Zijn huisdieren toegestaan?",
+        "a": "We verwelkomen geen huisdieren — dit om een zorgeloos verblijf te kunnen garanderen voor gasten met allergieën. We weten dat uw huisdier deel uitmaakt van het gezin en hopen op uw begrip."
       },
       {
-        "q": "Zijn huisdieren toegestaan?",
-        "a": "We verwelkomen helaas geen huisdieren - dit om een zorgeloos verblijf te kunnen garanderen voor gasten met allergieën. We weten dat uw huisdier deel uitmaakt van het gezin en hopen op uw begrip."
+        "q": "Is er wifi en parkeergelegenheid?",
+        "a": "Ja, er is gratis wifi in de hele woning en ruime gratis parking op het domein voor alle gasten."
       },
       {
         "q": "Wat is er inbegrepen in de prijs?",
         "a": "Linnengoed, handdoeken, eindschoonmaak, verwarming en basisproducten zijn inbegrepen. Een volledig overzicht ontvangt u bij de boeking."
       },
       {
-        "q": "Kunnen we vroeger inchecken of later uitchecken?",
-        "a": "In overleg is dit vaak mogelijk, afhankelijk van andere boekingen. Vraag het gerust na."
+        "q": "Is de woning geschikt voor personen met beperkte mobiliteit?",
+        "a": "De gelijkvloerse verdieping is toegankelijk. Neem contact op voor specifieke vragen over toegankelijkheid."
+      },
+      {
+        "q": "Wat is er te doen in de omgeving?",
+        "a": "De Ardennen bieden wandelroutes, mountainbikepaden, kajakken op de Semois, avonturenparken en historische stadjes zoals Bouillon op 15 minuten rijden.",
+        "link": "/surroundings",
+        "linkText": "Ontdek de omgeving"
+      },
+      {
+        "q": "Hoe bereik ik ArdenNest?",
+        "a": "ArdenNest ligt in Malvoisin (Gedinne), bereikbaar via de E411. Vanuit Brussel is het circa 1u30 rijden, vanuit Antwerpen 1u55, vanuit Keulen 2u10. Bushalte Malvoisin Kewet ligt direct voor de deur."
+      },
+      {
+        "q": "Hoe ver van tevoren moet ik boeken?",
+        "a": "Voor populaire periodes zoals schoolvakanties raden we aan om 3-6 maanden van tevoren te boeken. Voor weekenden en rustigere periodes is 1-2 maanden vaak voldoende."
       },
       {
         "q": "Is ArdenNest geschikt voor een feest of evenement?",
-        "a": "ArdenNest is gemaakt voor quality time - lange gesprekken rond de eiken tafel, kinderen die zich uitleven in de tuin, avonden die vanzelf uitdoven wanneer iedereen moe maar voldaan naar bed gaat. Wat we niet zijn: een feestlocatie. We vragen onze gasten om de rust te respecteren die de Ardennen zo bijzonder maakt - voor jullie, voor onze buren, en voor de groepen die na jullie komen. Zoek je een plek om echt samen te zijn? Dan verwelkomen we jullie graag."
+        "a": "ArdenNest is gemaakt voor quality time — lange gesprekken rond de eiken tafel, kinderen die zich uitleven in de tuin, avonden die vanzelf uitdoven. Wat we niet zijn: een feestlocatie. We vragen onze gasten om de rust te respecteren die de Ardennen zo bijzonder maakt."
       }
     ]
   }

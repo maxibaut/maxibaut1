@@ -112,30 +112,62 @@
     "title": "Häufig gestellte Fragen",
     "questions": [
       {
-        "q": "Können wir früher einchecken?",
-        "a": "Das Haus wird am Anreisetag bis 16 Uhr gereinigt. Damit unser Reinigungsteam in Ruhe arbeiten kann, ist ein früheres Einchecken leider nicht möglich. Aber keine Sorge — die Umgebung hat genug zu bieten, um die Wartezeit zum Urlaubsbeginn zu machen.",
-        "link": "/early-arrival",
-        "linkText": "Sehen Sie sich unsere Tipps für eine frühe Ankunft an"
+        "q": "Wie viele Personen kann ArdenNest aufnehmen?",
+        "a": "ArdenNest bietet Platz für bis zu 26 Personen, verteilt auf 9 Schlafzimmer mit eigenen Badezimmern."
       },
       {
-        "q": "Wie weit im Voraus sollte ich buchen?",
-        "a": "Für beliebte Zeiträume wie Schulferien empfehlen wir, 3-6 Monate im Voraus zu buchen. Für Wochenenden und ruhigere Zeiten reichen oft 1-2 Monate."
+        "q": "Wie viele Schlafzimmer gibt es?",
+        "a": "Das Anwesen verfügt über 9 Schlafzimmer: 3 Zimmer für 2 Personen, 4 Zimmer für 3 Personen und 2 Zimmer für 4 Personen. Jedes Zimmer hat ein eigenes Badezimmer mit Dusche oder Badewanne, WC und Waschbecken."
+      },
+      {
+        "q": "Was kostet ein Aufenthalt bei ArdenNest?",
+        "a": "Die Preise variieren je nach Saison und Zeitraum. Aktuelle Verfügbarkeit und Preise finden Sie auf unserer Buchungsseite.",
+        "link": "/booking",
+        "linkText": "Verfügbarkeit und Preise ansehen"
+      },
+      {
+        "q": "Wie lang ist die Mindestaufenthaltsdauer?",
+        "a": "Die Mindestaufenthaltsdauer beträgt 2 Nächte. In der Hochsaison (Schulferien) gilt ein Minimum von 7 Nächten."
+      },
+      {
+        "q": "Wann ist Check-in und Check-out?",
+        "a": "Check-in ist ab 16:00 Uhr möglich, Check-out vor 10:00 Uhr. Das Haus wird am Anreisetag bis 16 Uhr gereinigt. Ein früherer Check-in oder späterer Check-out kann nach Absprache möglich sein.",
+        "link": "/early-arrival",
+        "linkText": "Tipps für eine frühe Ankunft"
       },
       {
         "q": "Sind Haustiere erlaubt?",
-        "a": "Leider können wir keine Haustiere willkommen heißen - dies um einen sorgenfreien Aufenthalt für Gäste mit Allergien zu gewährleisten. Wir wissen, dass Ihr Haustier zur Familie gehört und hoffen auf Ihr Verständnis."
+        "a": "Wir können leider keine Haustiere empfangen — um einen sorgenfreien Aufenthalt für Gäste mit Allergien zu gewährleisten. Wir wissen, dass Ihr Haustier zur Familie gehört und hoffen auf Ihr Verständnis."
+      },
+      {
+        "q": "Gibt es WLAN und Parkplätze?",
+        "a": "Ja, es gibt kostenloses WLAN im gesamten Haus und ausreichend kostenlose Parkplätze auf dem Gelände für alle Gäste."
       },
       {
         "q": "Was ist im Preis inbegriffen?",
         "a": "Bettwäsche, Handtücher, Endreinigung, Heizung und Grundprodukte sind inbegriffen. Eine vollständige Übersicht erhalten Sie bei der Buchung."
       },
       {
-        "q": "Können wir früher einchecken oder später auschecken?",
-        "a": "Nach Absprache ist dies oft möglich, abhängig von anderen Buchungen. Fragen Sie gerne nach."
+        "q": "Ist das Anwesen für Personen mit eingeschränkter Mobilität geeignet?",
+        "a": "Das Erdgeschoss ist zugänglich. Kontaktieren Sie uns für spezifische Fragen zur Barrierefreiheit."
+      },
+      {
+        "q": "Was kann man in der Umgebung unternehmen?",
+        "a": "Die Ardennen bieten Wanderwege, Mountainbike-Strecken, Kajakfahren auf der Semois, Abenteuerparks und historische Städte wie Bouillon in nur 15 Minuten Fahrzeit.",
+        "link": "/surroundings",
+        "linkText": "Entdecken Sie die Umgebung"
+      },
+      {
+        "q": "Wie erreiche ich ArdenNest?",
+        "a": "ArdenNest liegt in Malvoisin (Gedinne), erreichbar über die Autobahn E411. Von Brüssel sind es ca. 1,5 Stunden, von Antwerpen 1 Stunde 55 Minuten, von Köln 2 Stunden 10 Minuten. Die Bushaltestelle Malvoisin Kewet befindet sich direkt vor der Tür."
+      },
+      {
+        "q": "Wie weit im Voraus sollte ich buchen?",
+        "a": "Für beliebte Zeiträume wie Schulferien empfehlen wir, 3-6 Monate im Voraus zu buchen. Für Wochenenden und ruhigere Zeiten reichen oft 1-2 Monate."
       },
       {
         "q": "Ist ArdenNest für eine Party oder Veranstaltung geeignet?",
-        "a": "ArdenNest ist für Quality Time gemacht - lange Gespräche am Eichentisch, Kinder die sich im Garten austoben, Abende die von selbst ausklingen wenn alle müde aber zufrieden ins Bett gehen. Was wir nicht sind: ein Partyort. Wir bitten unsere Gäste, die Ruhe zu respektieren, die die Ardennen so besonders macht - für Sie, für unsere Nachbarn und für die Gruppen, die nach Ihnen kommen. Suchen Sie einen Ort, um wirklich zusammen zu sein? Dann heißen wir Sie herzlich willkommen."
+        "a": "ArdenNest ist für Quality Time gemacht — lange Gespräche am Eichentisch, Kinder die sich im Garten austoben, Abende die von selbst ausklingen. Was wir nicht sind: ein Partyort. Wir bitten unsere Gäste, die Ruhe zu respektieren, die die Ardennen so besonders macht."
       }
     ]
   }
