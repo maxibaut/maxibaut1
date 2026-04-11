@@ -201,10 +201,10 @@ const Property = () => {
                 mainImage={kitchen}
                 mainImageAlt={t('kitchen.imageAlt', 'Professionele keuken met Lacanche fornuis')}
                 sideImages={[
-                  { src: mieleDishwasher, alt: 'Miele professionele vaatwasser' },
-                  { src: diningRoom, alt: 'Eetkamer' },
-                  { src: terraceDining, alt: 'Terras met eethoek' },
-                  { src: playBarn, alt: 'Speelstal' },
+                  { src: mieleDishwasher, alt: 'Miele Professional vaatwasser in de keuken van ArdenNest' },
+                  { src: diningRoom, alt: 'Ruime eetkamer met eiken tafel voor 26 personen' },
+                  { src: terraceDining, alt: 'Overdekt terras met eethoek en tuinzicht' },
+                  { src: playBarn, alt: 'Speelschuur voor kinderen bij ArdenNest' },
                 ]}
                 allPhotosCount={allPhotos.length}
                 onImageClick={handleImageClick}
@@ -224,10 +224,10 @@ const Property = () => {
                 mainImage={oakTableDetail}
                 mainImageAlt={t('oakTable.imageAlt', 'Handgemaakte eiken tafel van 6 meter')}
                 sideImages={[
-                  { src: diningTableSet, alt: 'Gedekte eiken tafel met zicht op tuin' },
-                  { src: diningTableWindow, alt: 'Eiken tafel bij het raam met bordspellen' },
-                  { src: diningTableCabinet, alt: 'Eiken tafel met servieskast' },
-                  { src: diningRoom, alt: 'Eetkamer overzicht' },
+                  { src: diningTableSet, alt: 'Gedekte eiken tafel voor 26 gasten met zicht op de tuin' },
+                  { src: diningTableWindow, alt: 'Eiken tafel bij het raam met bordspellen klaar' },
+                  { src: diningTableCabinet, alt: 'Eiken eettafel met authentieke servieskast' },
+                  { src: diningRoom, alt: 'Eetkamer overzicht met originele boerderijbalken' },
                 ]}
                 allPhotosCount={allPhotos.length}
                 onImageClick={handleImageClick}
@@ -281,10 +281,10 @@ const Property = () => {
                 mainImage={bathroomEnsuite}
                 mainImageAlt={t('bathrooms.imageAlt', 'Ensuite badkamer met douche')}
                 sideImages={[
-                  { src: bathroomSink, alt: 'Slaapkamer met ensuite badkamer' },
-                  { src: bathroomShower, alt: 'Badkamer met inloopdouche' },
-                  { src: bathroomGlassDoor, alt: 'Badkamer met glazen douchedeur' },
-                  { src: bathroomWalkIn, alt: 'Badkamer met inloopdouche en wastafel' },
+                  { src: bathroomSink, alt: 'Ensuite badkamer met wastafel en spiegel' },
+                  { src: bathroomShower, alt: 'Badkamer met ruime inloopdouche en glazen wand' },
+                  { src: bathroomGlassDoor, alt: 'Moderne badkamer met glazen douchedeur en tegels' },
+                  { src: bathroomWalkIn, alt: 'Privé badkamer met inloopdouche en wastafel ArdenNest' },
                 ]}
                 allPhotosCount={allPhotos.length}
                 onImageClick={handleImageClick}
@@ -304,10 +304,10 @@ const Property = () => {
                 mainImage={bedroomQuietLuxury}
                 mainImageAlt={t('bedrooms.imageAlt', 'Luxe slaapkamer met boxspring bed')}
                 sideImages={[
-                  { src: bedroomPrimary, alt: 'Hoofdslaapkamer' },
-                  { src: bedroomAtmospheric, alt: 'Sfeervolle slaapkamer' },
-                  { src: bedroomMezzanine, alt: 'Mezzanine slaapkamer' },
-                  { src: bathroomEnsuite, alt: 'Slaapkamer met ensuite badkamer' },
+                  { src: bedroomPrimary, alt: 'Hoofdslaapkamer met boxspring bed en warm licht' },
+                  { src: bedroomAtmospheric, alt: 'Sfeervolle slaapkamer met authentieke afwerking' },
+                  { src: bedroomMezzanine, alt: 'Gezinsslaapkamer met mezzanine voor kinderen' },
+                  { src: bathroomEnsuite, alt: 'Ensuite badkamer bij elke slaapkamer ArdenNest' },
                 ]}
                 allPhotosCount={allPhotos.length}
                 onImageClick={handleImageClick}
@@ -361,10 +361,10 @@ const Property = () => {
                 mainImage={livingFireplace}
                 mainImageAlt={t('livingSpace.imageAlt', 'Sfeervolle woonkamer met open haard, comfortabele zithoek en uitzicht op de tuin')}
                 sideImages={[
-                  { src: livingLounge, alt: 'Ruime lounge met zithoeken' },
-                  { src: livingAperitif, alt: 'Gezellige zithoek met aperitief' },
-                  { src: livingTvCorner, alt: 'TV-hoek met authentieke bakstenen muur' },
-                  { src: livingRetroGaming, alt: 'Retro gaming controllers' },
+                  { src: livingLounge, alt: 'Ruime lounge met meerdere zithoeken voor grote groepen' },
+                  { src: livingAperitif, alt: 'Gezellige zithoek met aperitief en warm licht' },
+                  { src: livingTvCorner, alt: 'TV-hoek met authentieke bakstenen muur en comfortabele zetels' },
+                  { src: livingRetroGaming, alt: 'Retro gaming controllers voor een avond nostalgie' },
                 ]}
                 allPhotosCount={allPhotos.length}
                 onImageClick={handleImageClick}
@@ -414,12 +414,12 @@ const Property = () => {
             <div>
               <PropertyGalleryGrid
                 mainImage={gardenAerial}
-                mainImageAlt="Luchtfoto van de tuin"
+                mainImageAlt="Luchtfoto van de 2 hectare grote tuin bij ArdenNest"
                 sideImages={[
-                  { src: gardenSports, alt: 'Sportveld in de tuin' },
-                  { src: bbqTerrace, alt: 'BBQ terras' },
-                  { src: gardenHiddenPath, alt: 'Verborgen pad in de tuin' },
-                  { src: gardenHammock, alt: 'Hangmat in de tuin' },
+                  { src: gardenSports, alt: 'Sportveld met voetbaldoelen in de tuin van ArdenNest' },
+                  { src: bbqTerrace, alt: 'BBQ terras met buitenkeuken en zitplaatsen' },
+                  { src: gardenHiddenPath, alt: 'Verborgen pad door het groen in de tuin' },
+                  { src: gardenHammock, alt: 'Hangmat tussen de bomen in de tuin van ArdenNest' },
                 ]}
                 allPhotosCount={allPhotos.length}
                 onImageClick={handleImageClick}
@@ -471,12 +471,12 @@ const Property = () => {
             <div className="order-1 lg:order-2">
               <PropertyGalleryGrid
                 mainImage={gameRoomPool}
-                mainImageAlt="Speelkamer met professionele pooltafel"
+                mainImageAlt="Speelkamer met professionele pooltafel bij ArdenNest"
                 sideImages={[
-                  { src: gameRoomFoosball, alt: 'Tafelvoetbal' },
-                  { src: playBarn, alt: 'De Speelstal' },
-                  { src: gardenSports, alt: 'Sportveld in de tuin' },
-                  { src: livingFireplace, alt: 'Woonkamer' },
+                  { src: gameRoomFoosball, alt: 'Tafelvoetbal in de speelkamer voor kinderen en volwassenen' },
+                  { src: playBarn, alt: 'De Speelstal met go-karts en speelgoed voor kinderen' },
+                  { src: gardenSports, alt: 'Sportveld met voetbal en spelletjes buiten' },
+                  { src: livingFireplace, alt: 'Woonkamer met open haard voor gezellige avonden' },
                 ]}
                 allPhotosCount={allPhotos.length}
                 onImageClick={handleImageClick}
@@ -493,12 +493,12 @@ const Property = () => {
             <div className="order-1 lg:order-1">
               <PropertyGalleryGrid
                 mainImage={playBarn}
-                mainImageAlt="De Speelstal met go-karts en skelters"
+                mainImageAlt="De Speelstal met go-karts en skelters voor kinderen"
                 sideImages={[
-                  { src: farmhouseAerial, alt: 'Luchtfoto van de hoeve' },
-                  { src: farmhouseFront, alt: 'Voorgevel van de hoeve' },
-                  { src: farmhouseSide, alt: 'Zijkant van de hoeve' },
-                  { src: farmhouseEntrance, alt: 'Ingang van de hoeve' },
+                  { src: farmhouseAerial, alt: 'Luchtfoto van de authentieke hoeve ArdenNest uit 1849' },
+                  { src: farmhouseFront, alt: 'Voorgevel van de gerenoveerde hoeve ArdenNest' },
+                  { src: farmhouseSide, alt: 'Zijgevel van de hoeve met tuin en groen' },
+                  { src: farmhouseEntrance, alt: 'Ingang van de hoeve met originele poort' },
                 ]}
                 allPhotosCount={allPhotos.length}
                 onImageClick={handleImageClick}
