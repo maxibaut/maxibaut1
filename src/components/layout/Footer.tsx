@@ -130,7 +130,7 @@ export const Footer = () => {
           </div>
 
           {/* Documents & Practical Info */}
-          <div className="space-y-4">
+          <nav aria-label={t('footer.documentsInfo')} className="space-y-4">
             <span className="block font-serif text-lg font-medium">{t('footer.documentsInfo')}</span>
             <ul className="space-y-3">
               <li>
@@ -169,7 +169,7 @@ export const Footer = () => {
                 </LocalizedLink>
               </li>
             </ul>
-          </div>
+          </nav>
         </div>
 
         {/* Bottom Bar */}
