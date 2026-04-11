@@ -157,7 +157,7 @@ const Booking = () => {
                   <div className="pt-2">
                     <p className="text-foreground">{step}</p>
                   </div>
-                </div>
+                </article>
               ))}
             </div>
           </div>
