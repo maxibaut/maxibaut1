@@ -16,6 +16,7 @@ const scores: ScoreEntry[] = [
   { date: "19 mrt 2026", score: 53 },
   { date: "29 mrt 2026", score: 56 },
   { date: "1 apr 2026", score: 43 },
+  { date: "11 apr 2026", score: 60 },
   // Add new scores here — the grid handles everything automatically
 ];
 
