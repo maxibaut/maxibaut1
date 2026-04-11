@@ -414,12 +414,12 @@ const Property = () => {
             <div>
               <PropertyGalleryGrid
                 mainImage={gardenAerial}
-                mainImageAlt="Luchtfoto van de tuin"
+                mainImageAlt="Luchtfoto van de 2 hectare grote tuin bij ArdenNest"
                 sideImages={[
-                  { src: gardenSports, alt: 'Sportveld in de tuin' },
-                  { src: bbqTerrace, alt: 'BBQ terras' },
-                  { src: gardenHiddenPath, alt: 'Verborgen pad in de tuin' },
-                  { src: gardenHammock, alt: 'Hangmat in de tuin' },
+                  { src: gardenSports, alt: 'Sportveld met voetbaldoelen in de tuin van ArdenNest' },
+                  { src: bbqTerrace, alt: 'BBQ terras met buitenkeuken en zitplaatsen' },
+                  { src: gardenHiddenPath, alt: 'Verborgen pad door het groen in de tuin' },
+                  { src: gardenHammock, alt: 'Hangmat tussen de bomen in de tuin van ArdenNest' },
                 ]}
                 allPhotosCount={allPhotos.length}
                 onImageClick={handleImageClick}
@@ -471,12 +471,12 @@ const Property = () => {
             <div className="order-1 lg:order-2">
               <PropertyGalleryGrid
                 mainImage={gameRoomPool}
-                mainImageAlt="Speelkamer met professionele pooltafel"
+                mainImageAlt="Speelkamer met professionele pooltafel bij ArdenNest"
                 sideImages={[
-                  { src: gameRoomFoosball, alt: 'Tafelvoetbal' },
-                  { src: playBarn, alt: 'De Speelstal' },
-                  { src: gardenSports, alt: 'Sportveld in de tuin' },
-                  { src: livingFireplace, alt: 'Woonkamer' },
+                  { src: gameRoomFoosball, alt: 'Tafelvoetbal in de speelkamer voor kinderen en volwassenen' },
+                  { src: playBarn, alt: 'De Speelstal met go-karts en speelgoed voor kinderen' },
+                  { src: gardenSports, alt: 'Sportveld met voetbal en spelletjes buiten' },
+                  { src: livingFireplace, alt: 'Woonkamer met open haard voor gezellige avonden' },
                 ]}
                 allPhotosCount={allPhotos.length}
                 onImageClick={handleImageClick}
@@ -493,12 +493,12 @@ const Property = () => {
             <div className="order-1 lg:order-1">
               <PropertyGalleryGrid
                 mainImage={playBarn}
-                mainImageAlt="De Speelstal met go-karts en skelters"
+                mainImageAlt="De Speelstal met go-karts en skelters voor kinderen"
                 sideImages={[
-                  { src: farmhouseAerial, alt: 'Luchtfoto van de hoeve' },
-                  { src: farmhouseFront, alt: 'Voorgevel van de hoeve' },
-                  { src: farmhouseSide, alt: 'Zijkant van de hoeve' },
-                  { src: farmhouseEntrance, alt: 'Ingang van de hoeve' },
+                  { src: farmhouseAerial, alt: 'Luchtfoto van de authentieke hoeve ArdenNest uit 1849' },
+                  { src: farmhouseFront, alt: 'Voorgevel van de gerenoveerde hoeve ArdenNest' },
+                  { src: farmhouseSide, alt: 'Zijgevel van de hoeve met tuin en groen' },
+                  { src: farmhouseEntrance, alt: 'Ingang van de hoeve met originele poort' },
                 ]}
                 allPhotosCount={allPhotos.length}
                 onImageClick={handleImageClick}
