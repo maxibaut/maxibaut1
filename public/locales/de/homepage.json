@@ -183,11 +183,13 @@
   },
   "audience": {
     "heading": "Für wen ist ArdenNest?",
-    "intro": "Nicht jede Gruppe passt zu ArdenNest — und das ist bewusst so.",
-    "bullet1": "Mehrgenerationenfamilien — Großeltern, Eltern und Kinder unter einem Dach, jeder mit eigenem Ensuite-Zimmer",
-    "bullet2": "Freundesgruppen, die Quality Time dem Vergnügen vorziehen — lange Abende am Tisch, kein lautes Feiern",
-    "bullet3": "Die Organisator·in, die es sich leicht machen will — alles ist vorhanden, von der Profiküche bis zur Bettwäsche",
-    "bullet4": "Gruppen von 15 bis 26 Personen, die Platz suchen, ohne sich aus den Augen zu verlieren",
-    "closing": "Sie suchen einen Partyort oder einen aktiven Ferienpark? Dann sind wir nicht die richtige Wahl. Sie suchen einen Ort, an dem alle zur Ruhe kommen und wirklich zusammen sind? Dann heißen wir Sie herzlich willkommen."
+    "intro": "Nicht jede Gruppe passt zu ArdenNest, und das ist bewusst so.",
+    "bullet1": "Mehrgenerationenfamilien — Großeltern, Eltern und Kinder unter einem Dach, mit eigenen Räumen zum Zusammensein",
+    "bullet2": "Freundesgruppen, die Quality Time lauten Highlights vorziehen",
+    "bullet3": "Organisatoren, die einen Ort suchen, an dem alle auf ihre Kosten kommen — auch Kinder, Vegetarier und Menschen mit eingeschränkter Mobilität",
+    "bullet4": "Gruppen von 10 bis 26 Personen, die zusammenkommen, gemeinsam kochen und zusammen sein möchten",
+    "exclusion": "Sie suchen einen Partyort oder einen Ferienpark mit Pool und Animation? Dann finden Sie wahrscheinlich anderswo besser, was Sie suchen — kein Problem, wir gönnen es jedem.",
+    "noPets": "Haustiere können wir leider nicht willkommen heißen — damit das Haus für alle komfortabel bleibt, auch für Gäste mit Allergien.",
+    "closing": "Sie suchen einen Ort, an dem alle zur Ruhe kommen und zueinander finden, in einem Haus, das für große Gruppen mitdenkt? Willkommen in ArdenNest."
   }
 }

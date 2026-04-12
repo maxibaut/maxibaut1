@@ -183,11 +183,13 @@
   },
   "audience": {
     "heading": "Voor wie is ArdenNest?",
-    "intro": "Niet elke groep past bij ArdenNest — en dat is bewust zo.",
-    "bullet1": "Multigenerationele families — grootouders, ouders en kinderen onder één dak, elk met een eigen ensuite kamer",
-    "bullet2": "Vriendengroepen die quality time verkiezen boven vertier — lange tafelmomenten, niet luid feestgedruis",
-    "bullet3": "De organisator die het zichzelf makkelijk wil maken — alles is voorzien, van professionele keuken tot beddengoed",
-    "bullet4": "Groepen van 15 tot 26 personen die ruimte zoeken zonder elkaar uit het oog te verliezen",
-    "closing": "Zoek je een feestlocatie of actief vakantiepark? Dan zijn wij niet de juiste match. Zoek je een plek waar iedereen tot rust komt en écht samen is? Dan verwelkomen we jullie graag."
+    "intro": "Niet elke groep past bij ArdenNest, en dat is bewust zo.",
+    "bullet1": "Multigenerationele families — grootouders, ouders en kinderen onder één dak, met hun eigen ruimtes om samen te zijn",
+    "bullet2": "Vriendengroepen die quality time verkiezen boven luide hoogtepunten",
+    "bullet3": "Organisatoren die een plek zoeken waar iedereen aan zijn trekken komt — ook kinderen, vegetariërs, en mensen met een handicap",
+    "bullet4": "Groepen van 10 tot 26 personen die samen willen komen, samen willen koken, samen willen zijn",
+    "exclusion": "Zoek je een feestlocatie of een actief vakantiepark met zwembad en animatie? Dan vinden jullie waarschijnlijk ergens anders beter wat jullie zoeken — geen probleem, we gunnen het iedereen.",
+    "noPets": "Huisdieren kunnen we helaas niet verwelkomen — zo blijft het huis comfortabel voor iedereen, ook voor gasten met allergieën.",
+    "closing": "Zoek je een plek waar iedereen tot rust komt en elkaar vindt, in een huis dat meedenkt met grote groepen? Welkom in ArdenNest."
   }
 }
