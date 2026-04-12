@@ -30,7 +30,15 @@ export const AudienceSection = () => {
           ))}
         </ul>
 
-        <p className="body-large text-muted-foreground text-center italic">
+        <p className="body-base text-muted-foreground text-center mb-4">
+          {t('audience.exclusion')}
+        </p>
+
+        <p className="body-base text-muted-foreground text-center mb-8">
+          {t('audience.noPets')}
+        </p>
+
+        <p className="body-large text-foreground text-center font-medium">
           {t('audience.closing')}
         </p>
       </div>
