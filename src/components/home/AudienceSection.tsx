@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import { Check } from 'lucide-react';
+import { Check, X } from 'lucide-react';
 
 export const AudienceSection = () => {
   const { t } = useTranslation('homepage');
@@ -11,13 +11,18 @@ export const AudienceSection = () => {
     t('audience.bullet4'),
   ];
 
+  const exclusions = [
+    t('audience.exclusion'),
+    t('audience.noPets'),
+  ];
+
   return (
     <section className="section-padding bg-cream-dark">
       <div className="container-luxury max-w-3xl">
         <h2 className="heading-2 text-foreground text-center mb-4">
           {t('audience.heading')}
         </h2>
-        <p className="body-large text-muted-foreground text-center mb-10">
+        <p className="body-large text-muted-foreground text-left mb-10">
           {t('audience.intro')}
         </p>
 
@@ -30,15 +35,16 @@ export const AudienceSection = () => {
           ))}
         </ul>
 
-        <p className="body-base text-muted-foreground text-center mb-4">
-          {t('audience.exclusion')}
-        </p>
+        <ul className="space-y-4 mb-10">
+          {exclusions.map((text, index) => (
+            <li key={index} className="flex items-start gap-3">
+              <X className="h-5 w-5 text-muted-foreground mt-0.5 shrink-0" />
+              <span className="body-base text-muted-foreground">{text}</span>
+            </li>
+          ))}
+        </ul>
 
-        <p className="body-base text-muted-foreground text-center mb-8">
-          {t('audience.noPets')}
-        </p>
-
-        <p className="body-large text-foreground text-center font-medium">
+        <p className="body-base text-foreground text-left font-medium">
           {t('audience.closing')}
         </p>
       </div>
