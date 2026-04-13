@@ -28,6 +28,7 @@
       "@graph": [
         {
           "@type": "VacationRental",
+          "@id": "https://ardennest.be/#vacationrental",
           "@id": "https://ardennest.be/#vacation-rental",
           "identifier": "ardennest-gedinne-be",
           "name": "ArdenNest",
@@ -193,6 +194,10 @@
               "@type": "Place",
               "name": "Gedinne, Wallonië"
             }
+          ],
+          "host": [
+            { "@id": "https://ardennest.be/#bieke" },
+            { "@id": "https://ardennest.be/#christophe" }
           ]
         },
         {
@@ -261,22 +266,8 @@
             "worstRating": "1"
           },
           "founder": [
-            {
-              "@type": "Person",
-              "name": "Bieke",
-              "jobTitle": "Gastencontact & beheer",
-              "description": "Eerste aanspreekpunt voor gasten — voor, tijdens en na het verblijf. Woont op het domein.",
-              "image": "https://ardennest.be/photos/ardennest-eigenaars-portret.webp",
-              "worksFor": { "@id": "https://ardennest.be/#business" }
-            },
-            {
-              "@type": "Person",
-              "name": "Christophe",
-              "jobTitle": "Verwelkoming & technisch beheer",
-              "description": "Zorgt voor de persoonlijke verwelkoming en het technisch onderhoud van het domein.",
-              "image": "https://ardennest.be/photos/ardennest-eigenaars-portret.webp",
-              "worksFor": { "@id": "https://ardennest.be/#business" }
-            }
+            { "@id": "https://ardennest.be/#bieke" },
+            { "@id": "https://ardennest.be/#christophe" }
           ],
           "foundingDate": "2008",
           "hasMap": "https://maps.google.com/?q=Rue+de+la+Ferme+3,+5575+Gedinne",
@@ -297,6 +288,27 @@
             "@id": "https://ardennest.be/#business"
           },
           "inLanguage": ["nl", "fr", "en", "de"]
+        },
+        {
+          "@type": "Person",
+          "@id": "https://ardennest.be/#bieke",
+          "name": "Bieke",
+          "jobTitle": "Gastvrouw & mede-eigenaar",
+          "worksFor": { "@id": "https://ardennest.be/#vacationrental" },
+          "description": "Samen met Christophe sinds 2003 gastvrouw van vakantiewoningen in de Ardennen. Persoonlijk aanspreekpunt voor gasten van ArdenNest.",
+          "telephone": "+32478030352",
+          "image": "https://ardennest.be/photos/ardennest-eigenaars-portret.webp",
+          "url": "https://ardennest.be/about"
+        },
+        {
+          "@type": "Person",
+          "@id": "https://ardennest.be/#christophe",
+          "name": "Christophe",
+          "jobTitle": "Gastheer & mede-eigenaar",
+          "worksFor": { "@id": "https://ardennest.be/#vacationrental" },
+          "description": "Samen met Bieke al 22 jaar gastheer in de Ardennen. Mede-eigenaar van ArdenNest in Malvoisin.",
+          "image": "https://ardennest.be/photos/ardennest-eigenaars-portret.webp",
+          "url": "https://ardennest.be/about"
         }
       ]
     }
