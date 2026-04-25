@@ -33,6 +33,9 @@ export default defineConfig(({ mode }) => ({
       webp: {
         quality: 80,
       },
+      avif: {
+        quality: 70,
+      },
     }),
   ].filter(Boolean),
   build: {

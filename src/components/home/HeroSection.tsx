@@ -1,24 +1,47 @@
+import { useEffect } from 'react';
 import { LocalizedLink as Link } from '@/components/LocalizedLink';
 import { useTranslation } from 'react-i18next';
 import { Button } from '@/components/ui/button';
 import { ArrowRight, MapPin } from 'lucide-react';
-import { heroMain } from '@/assets/property';
+import { heroMainWebp, heroMainAvif, heroMainFallback } from '@/assets/property';
 
 export const HeroSection = () => {
   const { t } = useTranslation('homepage');
 
+  // Inject preload link for hero image (LCP optimization)
+  useEffect(() => {
+    const isHomepage = ['/', '/fr/', '/en/', '/de/', '/fr', '/en', '/de'].includes(window.location.pathname);
+    if (!isHomepage) return;
+
+    const link = document.createElement('link');
+    link.rel = 'preload';
+    link.as = 'image';
+    link.setAttribute('imagesrcset', heroMainWebp as unknown as string);
+    link.setAttribute('imagesizes', '100vw');
+    link.setAttribute('fetchpriority', 'high');
+    link.type = 'image/webp';
+    document.head.appendChild(link);
+    return () => {
+      if (link.parentNode) link.parentNode.removeChild(link);
+    };
+  }, []);
+
   return (
     <section className="relative min-h-[85vh] flex items-center justify-center overflow-hidden" aria-label={t('hero.headline')}>
-      {/* Background Image — native <img> for fast LCP discovery */}
-      <img
-        src={heroMain}
-        alt={t('hero.imageAlt', 'Luchtfoto van vakantiewoning Arden\'Nest met 2 hectare tuin in de Belgische Ardennen')}
-        width={1920}
-        height={1080}
-        fetchPriority="high"
-        decoding="async"
-        className="absolute inset-0 w-full h-full object-cover"
-      />
+      {/* Background Image — <picture> with AVIF + WebP srcset for fast LCP */}
+      <picture>
+        <source type="image/avif" srcSet={heroMainAvif as unknown as string} sizes="100vw" />
+        <source type="image/webp" srcSet={heroMainWebp as unknown as string} sizes="100vw" />
+        <img
+          src={heroMainFallback}
+          alt={t('hero.imageAlt', 'Luchtfoto van vakantiewoning Arden\'Nest met 2 hectare tuin in de Belgische Ardennen')}
+          width={1920}
+          height={1080}
+          fetchPriority="high"
+          decoding="async"
+          className="absolute inset-0 w-full h-full object-cover"
+        />
+      </picture>
       <div className="absolute inset-0 bg-gradient-to-b from-charcoal/40 via-charcoal/30 to-charcoal/60" />
 
       {/* Content */}

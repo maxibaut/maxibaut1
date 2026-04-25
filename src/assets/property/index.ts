@@ -1,4 +1,9 @@
 // Hero & Exterior
+// Responsive hero (vite-imagetools): WebP + AVIF, 4 widths for mobile-first LCP
+export { default as heroMainWebp } from './ardennest-exterieur-hoeve-voorgevel.jpg?w=480;768;1280;1920&format=webp&quality=80&as=srcset';
+export { default as heroMainAvif } from './ardennest-exterieur-hoeve-voorgevel.jpg?w=480;768;1280;1920&format=avif&quality=70&as=srcset';
+export { default as heroMainFallback } from './ardennest-exterieur-hoeve-voorgevel.jpg?w=1280&format=webp&quality=80';
+// Legacy export (kept for backwards-compat if referenced elsewhere)
 export { default as heroMain } from './ardennest-exterieur-hoeve-voorgevel.jpg?format=webp';
 export { default as propertyHero } from './ardennest-exterieur-hoeve-hero.jpg?format=webp';
 export { default as gardenAerial } from './ardennest-exterieur-tuin-luchtfoto.jpg?format=webp';
