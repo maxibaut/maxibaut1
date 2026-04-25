@@ -24,7 +24,7 @@ const Journal = () => {
       .replace(/<strong>/g, '<strong class="font-semibold text-foreground">')
       .replace(
         /<a>(.*?)<\/a>/g,
-        '<a href="https://www.instagram.com/ardennest" target="_blank" rel="noopener noreferrer" class="text-primary underline-offset-4 hover:underline">$1</a>'
+        '<a href="https://www.instagram.com/ardennest.be/" target="_blank" rel="noopener noreferrer" class="text-primary underline-offset-4 hover:underline">$1</a>'
       );
 
   return (
