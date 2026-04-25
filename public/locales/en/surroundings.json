@@ -13,7 +13,7 @@
     "restaurants": "restaurant",
     "shops": "shop"
   },
-  "seoDescriptionTemplate": "{{name}} is a {{category}} in {{village}}, near holiday home ArdenNest in the Belgian Ardennes.",
+  "seoDescriptionTemplate": "{{name}} is {{article}} {{category}} in {{village}}, near holiday home ArdenNest in the Belgian Ardennes.",
   "title": "The Surroundings",
   "h1": "Walks, cycling routes and attractions near ArdenNest",
   "subtitle": "Discover the most beautiful spots around ArdenNest",
