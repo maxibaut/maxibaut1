@@ -18,6 +18,12 @@ export const restaurants: RestaurantItem[] = [
     phone: '+32 473 29 65 18',
     address: 'Rue de Bouillon 191, 5570 Beauraing',
     externalUrl: 'https://wallux.com/le-belvedere',
+    seoDescriptor: {
+      nl: 'café-restaurant',
+      fr: 'café-restaurant',
+      en: 'café-restaurant',
+      de: 'Café-Restaurant',
+    },
   },
   {
     id: 2,
@@ -32,6 +38,12 @@ export const restaurants: RestaurantItem[] = [
     phone: '+32 61 58 79 33',
     address: 'Rue de Charleville 15, 5575 Gedinne',
     externalUrl: 'https://www.facebook.com/Hoteldelapostegedinne',
+    seoDescriptor: {
+      nl: 'hotel-restaurant',
+      fr: 'hôtel-restaurant',
+      en: 'hotel-restaurant',
+      de: 'Hotel-Restaurant',
+    },
   },
   {
     id: 3,
@@ -46,6 +58,12 @@ export const restaurants: RestaurantItem[] = [
     phone: '+32 61 51 19 75',
     address: 'Graide-Station, 5555 Bièvre',
     externalUrl: 'https://wallux.com/restaurant-le-matefaim-bievre',
+    seoDescriptor: {
+      nl: 'familie grill-restaurant',
+      fr: 'grillade familiale',
+      en: 'family grill-restaurant',
+      de: 'Familien-Grillrestaurant',
+    },
   },
   {
     id: 4,
@@ -60,6 +78,12 @@ export const restaurants: RestaurantItem[] = [
     phone: '+32 61 61 45 07',
     address: 'Rue de Gribelle 1, 5575 Gedinne',
     externalUrl: 'https://www.restaurant-la-saliere.be',
+    seoDescriptor: {
+      nl: 'pizza uit de houtoven',
+      fr: 'pizzeria au feu de bois',
+      en: 'wood-fired pizzeria',
+      de: 'Holzofen-Pizzeria',
+    },
   },
   {
     id: 5,
@@ -72,6 +96,12 @@ export const restaurants: RestaurantItem[] = [
     images: [],
     mapQuery: 'Le Petit Creux By Roselle, Gedinne, Belgium',
     address: 'Gedinne',
+    seoDescriptor: {
+      nl: 'verse frituur',
+      fr: 'friterie artisanale',
+      en: 'fresh fry shop',
+      de: 'Frische Frittenbude',
+    },
   },
   {
     id: 6,
@@ -84,5 +114,11 @@ export const restaurants: RestaurantItem[] = [
     images: [],
     mapQuery: 'Friterie de la Ferme, Bièvre, Belgium',
     address: 'Bièvre',
+    seoDescriptor: {
+      nl: 'frituur op een hoeve',
+      fr: 'friterie à la ferme',
+      en: 'farmhouse fry shop',
+      de: 'Frittenbude auf dem Hof',
+    },
   },
 ];

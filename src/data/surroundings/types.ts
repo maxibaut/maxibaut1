@@ -23,6 +23,10 @@ export interface SurroundingsItemBase {
   phone?: string; // Phone number
   address?: string; // Physical address
   openingHours?: string; // Opening hours (translated via locale key)
+  // Optional per-language SEO descriptor that replaces the generic category
+  // label in the page <title> and meta description (e.g. "frituur op een hoeve"
+  // instead of "restaurant"). Falls back to the translated category when absent.
+  seoDescriptor?: Partial<Record<'nl' | 'fr' | 'en' | 'de', string>>;
 }
 
 // Walk-specific fields
