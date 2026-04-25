@@ -29,9 +29,11 @@
     "stars": "Sterne",
     "homeowners": "Hausbesitzer",
     "journal": "Journal",
-"alsoAvailableIn": "Auch verfügbar auf:",
+    "alsoAvailableIn": "Auch verfügbar auf:",
     "tagline": "Seit 2003 begrüßen wir Familien und Freundesgruppen. Max. 18 Erwachsene. Früher Ferme du Château.",
-    "location": "Ardennen, Belgien"
+    "location": "Ardennen, Belgien",
+    "story": "Die Geschichte",
+    "exclusiveActivities": "Exklusive Aktivitäten"
   },
   "cta": {
     "viewAvailability": "Verfügbarkeit anzeigen",
