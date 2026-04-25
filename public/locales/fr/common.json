@@ -29,9 +29,11 @@
     "stars": "étoiles",
     "homeowners": "Propriétaires",
     "journal": "Journal",
-"alsoAvailableIn": "Également disponible en :",
+    "alsoAvailableIn": "Également disponible en :",
     "tagline": "Depuis 2003, nous accueillons familles et groupes d'amis. Max. 18 adultes. Anciennement Ferme du Château.",
-    "location": "Ardennes, Belgique"
+    "location": "Ardennes, Belgique",
+    "story": "L'histoire",
+    "exclusiveActivities": "Activités exclusives"
   },
   "cta": {
     "viewAvailability": "Voir les disponibilités",

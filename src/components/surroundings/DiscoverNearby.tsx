@@ -18,18 +18,23 @@ interface DiscoverNearbyProps {
 
 /**
  * Shows 3 related items from surroundings data.
- * Priority: same category first, then fill from other categories.
- * Selection is shuffled on each render.
+ * Priority:
+ *   1. One cross-category item in the SAME village (if available) — pulls visitors
+ *      from e.g. a restaurant into a nearby attraction or exclusive activity.
+ *   2. Up to 2-3 same-category items (other villages).
+ * Falls back to 3 same-category items when no cross-category same-village match exists.
  */
 const DiscoverNearby = ({ currentCategory, currentSlug }: DiscoverNearbyProps) => {
   const { t } = useTranslation('surroundings');
 
-  const items = useMemo(() => {
-    // Get same-category items, excluding current
-    const sameCategory = getItemsByCategory(currentCategory)
-      .filter((item) => item.slug !== currentSlug);
+  // Need to know the village of the current item — look it up from data.
+  const currentItem = useMemo(
+    () => getItemsByCategory(currentCategory).find((i) => i.slug === currentSlug),
+    [currentCategory, currentSlug]
+  );
+  const currentVillage = currentItem?.village;
 
-    // Shuffle helper
+  const { items, crossCategoryItem } = useMemo(() => {
     const shuffle = <T,>(arr: T[]): T[] => {
       const a = [...arr];
       for (let i = a.length - 1; i > 0; i--) {
@@ -39,22 +44,48 @@ const DiscoverNearby = ({ currentCategory, currentSlug }: DiscoverNearbyProps) =
       return a;
     };
 
-    const shuffledSame = shuffle(sameCategory);
-    const result: SurroundingsItem[] = shuffledSame.slice(0, 3);
-
-    // Fill remaining slots from other categories
-    if (result.length < 3) {
-      const otherItems = getAllItems().filter(
-        (item) => item.category !== currentCategory && item.slug !== currentSlug
+    // 1. Find ONE cross-category item in the same village (if any).
+    let crossPick: SurroundingsItem | undefined;
+    if (currentVillage) {
+      const candidates = getAllItems().filter(
+        (item) =>
+          item.category !== currentCategory &&
+          item.village?.toLowerCase() === currentVillage.toLowerCase() &&
+          item.slug !== currentSlug
       );
-      const shuffledOther = shuffle(otherItems);
-      result.push(...shuffledOther.slice(0, 3 - result.length));
+      if (candidates.length > 0) {
+        crossPick = shuffle(candidates)[0];
+      }
     }
 
-    return result;
-  }, [currentCategory, currentSlug]);
+    // 2. Fill remaining slots with same-category items.
+    const sameCategory = getItemsByCategory(currentCategory).filter(
+      (item) => item.slug !== currentSlug && item.slug !== crossPick?.slug
+    );
+    const shuffledSame = shuffle(sameCategory);
+
+    const slotsForSame = crossPick ? 2 : 3;
+    const result: SurroundingsItem[] = crossPick
+      ? [crossPick, ...shuffledSame.slice(0, slotsForSame)]
+      : shuffledSame.slice(0, 3);
+
+    // 3. Fallback: if still under 3, top up from any other category.
+    if (result.length < 3) {
+      const otherItems = getAllItems().filter(
+        (item) =>
+          item.category !== currentCategory &&
+          item.slug !== currentSlug &&
+          !result.some((r) => r.slug === item.slug)
+      );
+      result.push(...shuffle(otherItems).slice(0, 3 - result.length));
+    }
+
+    return { items: result, crossCategoryItem: crossPick };
+  }, [currentCategory, currentSlug, currentVillage]);
 
   if (items.length === 0) return null;
+
+  const preposition = t('preposition', { defaultValue: 'in' });
 
   return (
     <section className="section-padding bg-background border-t border-border">
@@ -65,11 +96,18 @@ const DiscoverNearby = ({ currentCategory, currentSlug }: DiscoverNearbyProps) =
           {items.map((item) => {
             const title = t(`items.${item.category}.${item.slug}.title`, { defaultValue: item.slug });
             const description = t(`items.${item.category}.${item.slug}.description`, { defaultValue: '' });
+            const isCross = crossCategoryItem?.slug === item.slug;
+            const categoryLabel = t(`categories.${item.category}`, { defaultValue: item.category });
 
             return (
               <Link key={`${item.category}-${item.slug}`} to={`/surroundings/${item.category}/${item.slug}`}>
                 <Card className="hover:shadow-lg transition-all hover:-translate-y-1 h-full group cursor-pointer">
                   <CardHeader className="pb-2">
+                    {isCross && item.village && (
+                      <Badge variant="outline" className="self-start mb-2 capitalize">
+                        {categoryLabel} {preposition} {item.village}
+                      </Badge>
+                    )}
                     <div className="flex items-start justify-between gap-2">
                       <CardTitle className="font-serif text-lg leading-tight group-hover:text-primary transition-colors">
                         {title}

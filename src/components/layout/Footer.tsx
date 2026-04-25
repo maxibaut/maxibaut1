@@ -126,6 +126,16 @@ export const Footer = () => {
                   {t('footer.journal')}
                 </LocalizedLink>
               </li>
+              <li>
+                <LocalizedLink to="/journal/welkom-bij-ardennest" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">
+                  {t('footer.story')}
+                </LocalizedLink>
+              </li>
+              <li>
+                <LocalizedLink to="/surroundings/exclusive/ardennest-dropping" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">
+                  {t('footer.exclusiveActivities')}
+                </LocalizedLink>
+              </li>
             </ul>
           </nav>
 

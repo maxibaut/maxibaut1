@@ -191,5 +191,19 @@
     "exclusion": "Planning a stag or hen do, a birthday bash with a DJ, or a weekend away with friends, music and late nights? ArdenNest isn't the right match.",
     "noPets": "We're unable to welcome pets — so the house stays comfortable for everyone, including guests with allergies.",
     "closing": "Looking for a place where everyone unwinds and reconnects, in a house designed for large groups? Welcome to ArdenNest."
+  },
+  "storyExclusive": {
+    "story": {
+      "eyebrow": "The story",
+      "heading": "From Ferme du Château to ArdenNest",
+      "body": "Since 2003 we've welcomed guests as Ferme du Château. Since 2026 we're called ArdenNest — more than a house, your nest in the Ardennes. Read why.",
+      "cta": "Read the story"
+    },
+    "exclusive": {
+      "eyebrow": "Exclusive for groups",
+      "heading": "Exclusive for groups",
+      "body": "Activities we organise ourselves for our guests — not available at other stays.",
+      "cta": "Discover the ArdenNest Dropping"
+    }
   }
 }

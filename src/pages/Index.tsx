@@ -5,6 +5,7 @@ import {
   DifferentiatorsPreview,
   AudienceSection,
   WhyBookDirect,
+  StoryAndExclusive,
 } from '@/components/home';
 import { useSEO } from '@/hooks/useSEO';
 import FAQJsonLd from '@/components/FAQJsonLd';
@@ -19,6 +20,7 @@ const Index = () => {
       <TrustSignals />
       <DifferentiatorsPreview />
       <AudienceSection />
+      <StoryAndExclusive />
       <WhyBookDirect />
     </PageWrapper>
   );
