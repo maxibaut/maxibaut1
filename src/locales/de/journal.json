@@ -12,6 +12,24 @@
   "relatedSurroundings": "Mehr über die Umgebung →",
   "latestUpdates": "Neueste Updates",
   "emptyState": "Unsere ersten Momente erscheinen hier bald.",
+  "intro": {
+    "section1": {
+      "heading": "Was Sie hier finden",
+      "p1": "Kein wöchentlicher Blog und keine Marketing-Newsletter. Das Journal ist ein ruhiger Ort, an dem wir gelegentlich etwas teilen — ein Bild aus der Jahreszeit, eine Änderung am Haus, ein Tipp aus der Umgebung, ein Moment, den wir selbst gerne festhalten möchten. Nicht mehr, nicht weniger.",
+      "p2": "In der Praxis kommen die Beiträge in vier Farben zurück:",
+      "items": [
+        "<strong>Saisonale Stimmung</strong> — wie die Ardennen im März anders aussehen als im Oktober, und was das für Ihren Aufenthalt bedeutet.",
+        "<strong>Das Haus selbst</strong> — kleine Renovierungen, neue Funde, manchmal ein Namenswechsel (Ferme du Château heißt seit diesem Jahr ArdenNest).",
+        "<strong>Umgebung & Entdeckungen</strong> — eine neue Brasserie, ein Spaziergang, den wir selbst gegangen sind, eine lokale Adresse, der wir vertrauen.",
+        "<strong>Praktisches</strong> — Tipps zur Verfügbarkeit für lange Wochenenden, Möglichkeiten zur frühen Anreise, oder warum wir einen bestimmten Zeitraum lieber offline nehmen."
+      ]
+    },
+    "section2": {
+      "heading": "Wie Sie auf dem Laufenden bleiben",
+      "p1": "Wir verschicken keine automatisierte Newsletter. Wer nichts verpassen möchte, folgt uns am einfachsten auf <a>Instagram</a> (@ardennest) — dort erscheint jeder Journal-Beitrag ebenfalls, oft mit mehr Bildern. Für konkrete Fragen zu einem Aufenthalt ist eine E-Mail oder ein Anruf immer schneller, als hier auf Neuigkeiten zu warten.",
+      "p2": "Das Journal ist für Gäste gedacht, die ArdenNest bereits kennen oder einen Aufenthalt erwägen — eine Möglichkeit, zwischen den Aufenthalten den Kontakt zum Haus zu halten und zu sehen, was sich tut, bevor Sie das nächste Mal kommen."
+    }
+  },
   "entries": {
     "welkom-bij-ardennest": {
       "title": "Von Ferme du Château zu ArdenNest",

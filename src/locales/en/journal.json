@@ -12,6 +12,24 @@
   "relatedSurroundings": "More about the surroundings →",
   "latestUpdates": "Latest updates",
   "emptyState": "Our first moments will appear here soon.",
+  "intro": {
+    "section1": {
+      "heading": "What you'll find here",
+      "p1": "Not a weekly blog or a marketing newsletter. The journal is a slow place where we share something now and then — a seasonal picture, a small change to the house, a tip from nearby, a moment we'd like to remember ourselves. Nothing more, nothing less.",
+      "p2": "In practice, the updates tend to come in four shades:",
+      "items": [
+        "<strong>Seasonal atmosphere</strong> — how the Ardennes look different in March than in October, and what that means for your stay.",
+        "<strong>The house itself</strong> — small renovations, new finds, occasionally a change of name (Ferme du Château has been ArdenNest since this year).",
+        "<strong>Neighbourhood & discoveries</strong> — a new brasserie, a walk we did ourselves, a local address we trust.",
+        "<strong>Practical</strong> — availability tips for long weekends, early arrival options, or why we prefer to take a certain period offline."
+      ]
+    },
+    "section2": {
+      "heading": "Staying in the loop",
+      "p1": "We don't send an automated newsletter. The easiest way not to miss anything is to follow us on <a>Instagram</a> (@ardennest) — every journal post appears there too, often with more images. For concrete questions about a stay, an email or a phone call is always faster than waiting for news here.",
+      "p2": "The journal is meant for those who already know ArdenNest or are considering a stay — a way to keep in touch with the house between visits, and to see what's going on before you next come down."
+    }
+  },
   "entries": {
     "welkom-bij-ardennest": {
       "title": "From Ferme du Château to ArdenNest",

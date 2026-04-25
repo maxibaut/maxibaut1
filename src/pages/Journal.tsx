@@ -18,6 +18,15 @@ const Journal = () => {
     });
   };
 
+  const introItems = t('intro.section1.items', { returnObjects: true, defaultValue: [] }) as string[];
+  const renderInline = (html: string) =>
+    html
+      .replace(/<strong>/g, '<strong class="font-semibold text-foreground">')
+      .replace(
+        /<a>(.*?)<\/a>/g,
+        '<a href="https://www.instagram.com/ardennest" target="_blank" rel="noopener noreferrer" class="text-primary underline-offset-4 hover:underline">$1</a>'
+      );
+
   return (
     <PageWrapper>
       <section className="container-luxury section-padding">
@@ -30,6 +39,40 @@ const Journal = () => {
             <p className="text-lg text-muted-foreground mt-3 max-w-2xl">
               {t('subtitle')}
             </p>
+          </div>
+
+          {/* Intro / context — slow, warm tone, no card */}
+          <div className="max-w-3xl mb-16 md:mb-20 space-y-10">
+            <div className="space-y-4">
+              <h2 className="font-serif text-2xl md:text-3xl text-foreground">
+                {t('intro.section1.heading')}
+              </h2>
+              <p
+                className="text-base md:text-lg text-muted-foreground leading-relaxed"
+                dangerouslySetInnerHTML={{ __html: renderInline(t('intro.section1.p1')) }}
+              />
+              <p className="text-base md:text-lg text-muted-foreground leading-relaxed">
+                {t('intro.section1.p2')}
+              </p>
+              <ul className="space-y-2 pl-5 list-disc marker:text-primary/60 text-base md:text-lg text-muted-foreground leading-relaxed">
+                {introItems.map((item, idx) => (
+                  <li key={idx} dangerouslySetInnerHTML={{ __html: renderInline(item) }} />
+                ))}
+              </ul>
+            </div>
+
+            <div className="space-y-4">
+              <h2 className="font-serif text-2xl md:text-3xl text-foreground">
+                {t('intro.section2.heading')}
+              </h2>
+              <p
+                className="text-base md:text-lg text-muted-foreground leading-relaxed"
+                dangerouslySetInnerHTML={{ __html: renderInline(t('intro.section2.p1')) }}
+              />
+              <p className="text-base md:text-lg text-muted-foreground leading-relaxed">
+                {t('intro.section2.p2')}
+              </p>
+            </div>
           </div>
 
           {/* Entry grid or empty state */}
