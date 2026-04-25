@@ -84,11 +84,24 @@ const SurroundingsDetail = () => {
   const preposition = t('preposition', { defaultValue: 'in' });
   const translatedCategory = t(`categories.${category}`, { defaultValue: category || '' });
   
-  // Strip village from title if it already contains the village name
-  const cleanName = village
-    ? title.replace(new RegExp(`\\s*${village}\\s*`, 'i'), '').trim()
-    : title;
-  
+  // Strip village from title if it already contains the village name.
+  // Also strip surrounding parentheses/brackets so "Cap Nature (Bertrix)" → "Cap Nature"
+  // (instead of "Cap Nature ()") and any leftover empty () groups elsewhere.
+  const cleanName = (village
+    ? title
+        // Remove "(Village)" / "[Village]" with their brackets
+        .replace(new RegExp(`\\s*[\\(\\[]\\s*${village}\\s*[\\)\\]]`, 'i'), '')
+        // Remove bare village mention
+        .replace(new RegExp(`\\s*${village}\\s*`, 'i'), ' ')
+    : title)
+    // Clean any empty () or [] left behind
+    .replace(/\s*[\(\[]\s*[\)\]]/g, '')
+    .replace(/\s{2,}/g, ' ')
+    .trim();
+
+  // EN-only a/an helper for grammatical correctness ("a activity" → "an activity")
+  const aOrAn = (word: string) => (/^[aeiou]/i.test(word) ? 'an' : 'a');
+
   // Build unique SEO title: "Terracines — winkel in Vencimont"
   const seoSuffix = village
     ? ` — ${translatedCategory} ${preposition} ${village}`
@@ -104,6 +117,7 @@ const SurroundingsDetail = () => {
     ? t('seoDescriptionTemplate', { 
         name: cleanName, 
         category: translatedCategory, 
+        article: i18n.language === 'en' ? aOrAn(translatedCategory) : '',
         village,
         defaultValue: `${cleanName} — ${translatedCategory} ${preposition} ${village}.`
       })
