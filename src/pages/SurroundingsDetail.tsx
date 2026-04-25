@@ -83,7 +83,12 @@ const SurroundingsDetail = () => {
   const village = item?.village || '';
   const preposition = t('preposition', { defaultValue: 'in' });
   const translatedCategory = t(`categories.${category}`, { defaultValue: category || '' });
-  
+
+  // Per-item SEO descriptor (e.g. "frituur op een hoeve" instead of generic "restaurant").
+  // Falls back to the translated category label when no descriptor is defined.
+  const lang = i18n.language as 'nl' | 'fr' | 'en' | 'de';
+  const descriptor = item?.seoDescriptor?.[lang] || translatedCategory;
+
   // Strip village from title if it already contains the village name.
   // Also strip surrounding parentheses/brackets so "Cap Nature (Bertrix)" → "Cap Nature"
   // (instead of "Cap Nature ()") and any leftover empty () groups elsewhere.
@@ -104,26 +109,26 @@ const SurroundingsDetail = () => {
 
   // Build unique SEO title: "Terracines — winkel in Vencimont"
   const seoSuffix = village
-    ? ` — ${translatedCategory} ${preposition} ${village}`
-    : ` — ${translatedCategory}`;
+    ? ` — ${descriptor} ${preposition} ${village}`
+    : ` — ${descriptor}`;
   const maxNameLen = 60 - seoSuffix.length;
   const truncatedTitle = cleanName.length > maxNameLen 
     ? cleanName.slice(0, maxNameLen - 1).trimEnd() + '…' 
     : cleanName;
   const seoTitleStr = `${truncatedTitle}${seoSuffix}`;
   
-  // Build unique meta description using template
+  // Build unique meta description using template (uses same descriptor for consistency)
   const seoDescStr = village
     ? t('seoDescriptionTemplate', { 
         name: cleanName, 
-        category: translatedCategory, 
-        article: i18n.language === 'en' ? aOrAn(translatedCategory) : '',
+        category: descriptor, 
+        article: i18n.language === 'en' ? aOrAn(descriptor) : '',
         village,
-        defaultValue: `${cleanName} — ${translatedCategory} ${preposition} ${village}.`
+        defaultValue: `${cleanName} — ${descriptor} ${preposition} ${village}.`
       })
     : (description
         ? (description.length > 155 ? description.slice(0, 152).trimEnd() + '…' : description)
-        : `${cleanName} — ${translatedCategory}.`);
+        : `${cleanName} — ${descriptor}.`);
 
   // Use useSEO with direct title/description override via useEffect
   useSEO({ noIndex: false });
