@@ -191,5 +191,19 @@
     "exclusion": "Plan je een vrijgezellenfeest, een dertiger-verjaardag met dj, of een weekend waar jonge vrienden er even uit willen met muziek en late nachten? Daar is ArdenNest geen match voor.",
     "noPets": "Huisdieren kunnen we helaas niet verwelkomen — zo blijft het huis comfortabel voor iedereen, ook voor gasten met allergieën.",
     "closing": "Zoek je een plek waar iedereen tot rust komt en elkaar vindt, in een huis dat meedenkt met grote groepen? Welkom in ArdenNest."
+  },
+  "storyExclusive": {
+    "story": {
+      "eyebrow": "Het verhaal",
+      "heading": "Van Ferme du Château naar ArdenNest",
+      "body": "Sinds 2003 verwelkomen we gasten als Ferme du Château. Sinds 2026 heten we ArdenNest — meer dan een huis, jullie nest in de Ardennen. Lees waarom.",
+      "cta": "Lees het verhaal"
+    },
+    "exclusive": {
+      "eyebrow": "Exclusief voor groepen",
+      "heading": "Exclusief voor groepen",
+      "body": "Activiteiten die wij zelf voor onze gasten organiseren — niet te boeken bij andere verblijven.",
+      "cta": "Ontdek de ArdenNest Dropping"
+    }
   }
 }

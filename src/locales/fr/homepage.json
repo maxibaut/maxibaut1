@@ -191,5 +191,19 @@
     "exclusion": "Vous organisez un enterrement de vie de garçon ou de jeune fille, un anniversaire avec DJ, ou un week-end entre jeunes amis avec musique et nuits tardives ? ArdenNest n'est pas le bon match.",
     "noPets": "Nous ne pouvons malheureusement pas accueillir les animaux de compagnie — afin que la maison reste confortable pour tous, y compris les personnes allergiques.",
     "closing": "Vous cherchez un endroit où chacun se retrouve et se ressource, dans une maison pensée pour les grands groupes ? Bienvenue à ArdenNest."
+  },
+  "storyExclusive": {
+    "story": {
+      "eyebrow": "L'histoire",
+      "heading": "De Ferme du Château à ArdenNest",
+      "body": "Depuis 2003, nous accueillons nos hôtes sous le nom de Ferme du Château. Depuis 2026, nous nous appelons ArdenNest — plus qu'une maison, votre nid dans les Ardennes. Découvrez pourquoi.",
+      "cta": "Lire l'histoire"
+    },
+    "exclusive": {
+      "eyebrow": "Exclusif pour les groupes",
+      "heading": "Exclusif pour les groupes",
+      "body": "Des activités que nous organisons nous-mêmes pour nos hôtes — non disponibles ailleurs.",
+      "cta": "Découvrir l'ArdenNest Dropping"
+    }
   }
 }
