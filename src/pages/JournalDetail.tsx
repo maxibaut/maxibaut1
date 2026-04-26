@@ -130,9 +130,11 @@ const JournalDetail = () => {
           {/* Body */}
           <div className="space-y-6">
             {bodyParagraphs.map((p: string, i: number) => (
-              <p key={i} className="text-foreground/90 leading-[1.7] text-base">
-                {p}
-              </p>
+              <p
+                key={i}
+                className="text-foreground/90 leading-[1.7] text-base"
+                dangerouslySetInnerHTML={{ __html: renderBodyParagraph(p) }}
+              />
             ))}
 
             {/* Signature block */}
