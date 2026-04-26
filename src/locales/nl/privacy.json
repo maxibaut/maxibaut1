@@ -1,6 +1,6 @@
 {
   "seo": {
-    "title": "Privacy & Cookies | ArdenNest - Vakantiewoning Ardennen",
+    "title": "Privacybeleid & Cookies — Vakantiewoning ArdenNest in de Belgische Ardennen",
     "description": "Hoe ArdenNest omgaat met uw persoonlijke gegevens. Onze privacyverklaring en cookiebeleid in duidelijke taal, volledig GDPR-conform."
   },
   "pageTitle": "Privacy & Cookies",
@@ -30,64 +30,141 @@
       "title": "2. Welke gegevens verzamelen we?",
       "contactForm": {
         "title": "Via het contactformulier",
-        "items": ["Naam", "E-mailadres", "Telefoonnummer", "Inhoud van jullie bericht"]
+        "items": [
+          "Naam",
+          "E-mailadres",
+          "Telefoonnummer",
+          "Inhoud van jullie bericht"
+        ]
       },
       "booking": {
         "title": "Via het boekingsproces (Property Management System)",
-        "items": ["Naam en contactgegevens", "Aantal gasten en samenstelling groep", "Betaalgegevens (verwerkt door Mollie, niet door ons opgeslagen)", "Boekingsdata en voorkeuren"]
+        "items": [
+          "Naam en contactgegevens",
+          "Aantal gasten en samenstelling groep",
+          "Betaalgegevens (verwerkt door Mollie, niet door ons opgeslagen)",
+          "Boekingsdata en voorkeuren"
+        ]
       },
       "automatic": {
         "title": "Automatisch via de website",
-        "items": ["IP-adres (geanonimiseerd)", "Taalvoorkeur", "Bezoekstatistieken (via Google Analytics, alleen met jullie toestemming)"]
+        "items": [
+          "IP-adres (geanonimiseerd)",
+          "Taalvoorkeur",
+          "Bezoekstatistieken (via Google Analytics, alleen met jullie toestemming)"
+        ]
       }
     },
     "whyCollect": {
       "title": "3. Waarom verzamelen we deze gegevens?",
       "items": [
-        { "purpose": "Contactformulier", "description": "Om jullie vragen te beantwoorden en informatie te verstrekken" },
-        { "purpose": "Boekingen", "description": "Om jullie reservering te verwerken en het verblijf voor te bereiden" },
-        { "purpose": "Communicatie", "description": "Om praktische informatie te sturen vóór aankomst" },
-        { "purpose": "Website-statistieken", "description": "Om onze website te verbeteren (alleen met toestemming)" },
-        { "purpose": "Wettelijke verplichting", "description": "Om te voldoen aan Belgische boekhoud- en belastingwetgeving" }
+        {
+          "purpose": "Contactformulier",
+          "description": "Om jullie vragen te beantwoorden en informatie te verstrekken"
+        },
+        {
+          "purpose": "Boekingen",
+          "description": "Om jullie reservering te verwerken en het verblijf voor te bereiden"
+        },
+        {
+          "purpose": "Communicatie",
+          "description": "Om praktische informatie te sturen vóór aankomst"
+        },
+        {
+          "purpose": "Website-statistieken",
+          "description": "Om onze website te verbeteren (alleen met toestemming)"
+        },
+        {
+          "purpose": "Wettelijke verplichting",
+          "description": "Om te voldoen aan Belgische boekhoud- en belastingwetgeving"
+        }
       ]
     },
     "legalBasis": {
       "title": "4. Op welke basis verwerken we jullie gegevens?",
       "items": [
-        { "basis": "Uitvoering overeenkomst", "description": "Voor boekingen en reserveringen" },
-        { "basis": "Toestemming", "description": "Voor marketing en analytics (cookiebanner)" },
-        { "basis": "Wettelijke verplichting", "description": "Voor facturen en boekhouding" },
-        { "basis": "Gerechtvaardigd belang", "description": "Om onze dienstverlening te verbeteren" }
+        {
+          "basis": "Uitvoering overeenkomst",
+          "description": "Voor boekingen en reserveringen"
+        },
+        {
+          "basis": "Toestemming",
+          "description": "Voor marketing en analytics (cookiebanner)"
+        },
+        {
+          "basis": "Wettelijke verplichting",
+          "description": "Voor facturen en boekhouding"
+        },
+        {
+          "basis": "Gerechtvaardigd belang",
+          "description": "Om onze dienstverlening te verbeteren"
+        }
       ]
     },
     "sharing": {
       "title": "5. Met wie delen we jullie gegevens?",
       "intro": "We delen jullie gegevens alleen wanneer dit noodzakelijk is:",
       "partners": [
-        { "name": "Property Management System", "description": "Ons boekingssysteem (verwerker, EU)" },
-        { "name": "Mollie", "description": "Betalingsverwerking (verwerker, Nederland)" },
-        { "name": "Google Analytics", "description": "Website-statistieken (alleen met toestemming, data geanonimiseerd)" }
+        {
+          "name": "Property Management System",
+          "description": "Ons boekingssysteem (verwerker, EU)"
+        },
+        {
+          "name": "Mollie",
+          "description": "Betalingsverwerking (verwerker, Nederland)"
+        },
+        {
+          "name": "Google Analytics",
+          "description": "Website-statistieken (alleen met toestemming, data geanonimiseerd)"
+        }
       ],
       "noSelling": "We verkopen jullie gegevens nooit aan derden. Punt."
     },
     "retention": {
       "title": "6. Hoe lang bewaren we jullie gegevens?",
       "items": [
-        { "type": "Contactformulier", "duration": "Maximaal 1 jaar na laatste contact" },
-        { "type": "Boekingsgegevens", "duration": "7 jaar (wettelijke bewaarplicht facturatie)" },
-        { "type": "Analytics", "duration": "26 maanden (Google Analytics standaard)" }
+        {
+          "type": "Contactformulier",
+          "duration": "Maximaal 1 jaar na laatste contact"
+        },
+        {
+          "type": "Boekingsgegevens",
+          "duration": "7 jaar (wettelijke bewaarplicht facturatie)"
+        },
+        {
+          "type": "Analytics",
+          "duration": "26 maanden (Google Analytics standaard)"
+        }
       ]
     },
     "rights": {
       "title": "7. Jullie rechten",
       "intro": "Onder de AVG (GDPR) hebben jullie de volgende rechten:",
       "items": [
-        { "right": "Inzage", "description": "Vraag welke gegevens we van jullie hebben" },
-        { "right": "Correctie", "description": "Laat onjuiste gegevens aanpassen" },
-        { "right": "Verwijdering", "description": "Vraag om jullie gegevens te wissen" },
-        { "right": "Beperking", "description": "Beperk hoe we jullie gegevens gebruiken" },
-        { "right": "Overdraagbaarheid", "description": "Ontvang jullie gegevens in een standaard formaat" },
-        { "right": "Bezwaar", "description": "Maak bezwaar tegen bepaalde verwerkingen" }
+        {
+          "right": "Inzage",
+          "description": "Vraag welke gegevens we van jullie hebben"
+        },
+        {
+          "right": "Correctie",
+          "description": "Laat onjuiste gegevens aanpassen"
+        },
+        {
+          "right": "Verwijdering",
+          "description": "Vraag om jullie gegevens te wissen"
+        },
+        {
+          "right": "Beperking",
+          "description": "Beperk hoe we jullie gegevens gebruiken"
+        },
+        {
+          "right": "Overdraagbaarheid",
+          "description": "Ontvang jullie gegevens in een standaard formaat"
+        },
+        {
+          "right": "Bezwaar",
+          "description": "Maak bezwaar tegen bepaalde verwerkingen"
+        }
       ],
       "contact": "Neem contact op via bieke@ardennest.be om een van deze rechten uit te oefenen. We reageren binnen 30 dagen.",
       "complaint": "Niet tevreden? Jullie kunnen een klacht indienen bij de Belgische Gegevensbeschermingsautoriteit (www.gegevensbeschermingsautoriteit.be)."
@@ -99,18 +176,48 @@
         "title": "Essentiële cookies (altijd actief)",
         "description": "Deze cookies zijn noodzakelijk voor het functioneren van de website:",
         "items": [
-          { "cookie": "Taalvoorkeur", "purpose": "Onthoudt jullie gekozen taal", "duration": "1 jaar", "type": "Functioneel" },
-          { "cookie": "Cookie-consent", "purpose": "Onthoudt jullie cookiekeuze", "duration": "1 jaar", "type": "Functioneel" },
-          { "cookie": "Sessie", "purpose": "Houdt de website-sessie actief", "duration": "Sessie", "type": "Noodzakelijk" }
+          {
+            "cookie": "Taalvoorkeur",
+            "purpose": "Onthoudt jullie gekozen taal",
+            "duration": "1 jaar",
+            "type": "Functioneel"
+          },
+          {
+            "cookie": "Cookie-consent",
+            "purpose": "Onthoudt jullie cookiekeuze",
+            "duration": "1 jaar",
+            "type": "Functioneel"
+          },
+          {
+            "cookie": "Sessie",
+            "purpose": "Houdt de website-sessie actief",
+            "duration": "Sessie",
+            "type": "Noodzakelijk"
+          }
         ]
       },
       "analytics": {
         "title": "Analytische cookies (met toestemming)",
         "description": "Deze cookies helpen ons begrijpen hoe bezoekers de website gebruiken:",
         "items": [
-          { "cookie": "_ga", "purpose": "Onderscheidt unieke bezoekers", "duration": "2 jaar", "type": "Analytics" },
-          { "cookie": "_ga_*", "purpose": "Bewaart sessie-status", "duration": "2 jaar", "type": "Analytics" },
-          { "cookie": "_gid", "purpose": "Onderscheidt unieke bezoekers", "duration": "24 uur", "type": "Analytics" }
+          {
+            "cookie": "_ga",
+            "purpose": "Onderscheidt unieke bezoekers",
+            "duration": "2 jaar",
+            "type": "Analytics"
+          },
+          {
+            "cookie": "_ga_*",
+            "purpose": "Bewaart sessie-status",
+            "duration": "2 jaar",
+            "type": "Analytics"
+          },
+          {
+            "cookie": "_gid",
+            "purpose": "Onderscheidt unieke bezoekers",
+            "duration": "24 uur",
+            "type": "Analytics"
+          }
         ],
         "note": "Google Analytics is geconfigureerd met IP-anonimisering. We delen geen persoonlijke gegevens met Google voor advertentiedoeleinden."
       },
