@@ -41,6 +41,12 @@ export const cycling: CyclingItem[] = [
     bikeImage: bhAtomImg,
     mapQuery: 'La Balade de Sim, Beauraing, Belgium',
     externalUrl: 'https://www.labaladedesim.be/nl',
+    seoDescriptor: {
+      nl: 'elektrische fietsverhuur',
+      fr: 'location de vélos électriques',
+      en: 'e-bike rental',
+      de: 'E-Bike-Verleih',
+    },
     phone: '',
     address: 'Castel de Beauraing, Beauraing',
     pricing: {
