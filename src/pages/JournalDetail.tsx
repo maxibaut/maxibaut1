@@ -1,10 +1,26 @@
 import { useParams } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
+import DOMPurify from 'dompurify';
 import { PageWrapper } from '@/components/layout';
 import { useSEO } from '@/hooks/useSEO';
 import { journalEntries } from '@/data/journal';
 import { LocalizedLink } from '@/components/LocalizedLink';
 import { ArrowLeft } from 'lucide-react';
+
+const renderBodyParagraph = (p: string) => {
+  // Markdown bold + internal/external links → sanitized HTML
+  let formatted = p
+    .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+    .replace(/\[([^\]]+)\]\(([^)]+)\)/g, (_m, text, url) => {
+      const isExternal = /^https?:\/\//.test(url);
+      const target = isExternal ? ' target="_blank" rel="noopener noreferrer"' : '';
+      return `<a href="${url}"${target} class="text-primary underline-offset-4 hover:underline">${text}</a>`;
+    });
+  return DOMPurify.sanitize(formatted, {
+    ALLOWED_TAGS: ['strong', 'em', 'b', 'i', 'a'],
+    ALLOWED_ATTR: ['href', 'class', 'target', 'rel'],
+  });
+};
 
 const JournalDetail = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -114,9 +130,11 @@ const JournalDetail = () => {
           {/* Body */}
           <div className="space-y-6">
             {bodyParagraphs.map((p: string, i: number) => (
-              <p key={i} className="text-foreground/90 leading-[1.7] text-base">
-                {p}
-              </p>
+              <p
+                key={i}
+                className="text-foreground/90 leading-[1.7] text-base"
+                dangerouslySetInnerHTML={{ __html: renderBodyParagraph(p) }}
+              />
             ))}
 
             {/* Signature block */}

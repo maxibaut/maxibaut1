@@ -19,13 +19,25 @@ const Journal = () => {
   };
 
   const introItems = t('intro.section1.items', { returnObjects: true, defaultValue: [] }) as string[];
-  const renderInline = (html: string) =>
-    html
-      .replace(/<strong>/g, '<strong class="font-semibold text-foreground">')
-      .replace(
-        /<a>(.*?)<\/a>/g,
-        '<a href="https://www.instagram.com/ardennest.be/" target="_blank" rel="noopener noreferrer" class="text-primary underline-offset-4 hover:underline">$1</a>'
-      );
+  const renderInline = (html: string) => {
+    // 1. Markdown-style internal links: [tekst](/path) → <a href="/path">tekst</a>
+    let processed = html.replace(
+      /\[([^\]]+)\]\(([^)]+)\)/g,
+      (_match, text, url) => {
+        const isExternal = /^https?:\/\//.test(url);
+        const target = isExternal ? ' target="_blank" rel="noopener noreferrer"' : '';
+        return `<a href="${url}"${target} class="text-primary underline-offset-4 hover:underline">${text}</a>`;
+      }
+    );
+    // 2. Strong tag styling
+    processed = processed.replace(/<strong>/g, '<strong class="font-semibold text-foreground">');
+    // 3. Backwards-compat: legacy <a>...</a> placeholder → Instagram
+    processed = processed.replace(
+      /<a>(.*?)<\/a>/g,
+      '<a href="https://www.instagram.com/ardennest.be/" target="_blank" rel="noopener noreferrer" class="text-primary underline-offset-4 hover:underline">$1</a>'
+    );
+    return processed;
+  };
 
   return (
     <PageWrapper>
