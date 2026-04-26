@@ -76,6 +76,12 @@ export const shops: ShopItem[] = [
     shopType: 'butcher',
     distance: '10 min',
     externalUrl: 'https://www.auxdelicesdelahouille.be/',
+    seoDescriptor: {
+      nl: 'ambachtelijke slager',
+      fr: 'boucherie artisanale',
+      en: 'artisanal butcher',
+      de: 'Handwerksmetzgerei',
+    },
     coordinates: { lat: 50.0833, lng: 4.8500 },
     mapQuery: 'Aux Délices de la Houille, Vencimont, Belgium',
     phone: '+32 82 21 41 90',

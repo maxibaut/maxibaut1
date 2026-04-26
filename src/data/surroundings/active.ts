@@ -74,6 +74,12 @@ export const active: ActiveItem[] = [
     village: 'Bertrix',
     distance: '25 min',
     externalUrl: 'http://www.aucoeurdelardoise.be',
+    seoDescriptor: {
+      nl: 'historische leisteengroeve',
+      fr: 'ancienne ardoisière',
+      en: 'historic slate quarry',
+      de: 'historisches Schieferbergwerk',
+    },
     coordinates: { lat: 49.8560, lng: 5.2530 },
     mapQuery: "Au Coeur de l'Ardoise, Bertrix, Belgium",
     heroImage: activeImages.leisteengroeve[0],
