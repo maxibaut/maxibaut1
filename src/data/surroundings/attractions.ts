@@ -81,6 +81,12 @@ export const attractions: AttractionItem[] = [
     heroImage: attractionImages.brasserieLesse[0],
     images: attractionImages.brasserieLesse,
     externalUrl: 'https://www.brasseriedelalesse.be',
+    seoDescriptor: {
+      nl: 'ambachtelijke brouwerij',
+      fr: 'brasserie artisanale',
+      en: 'craft brewery',
+      de: 'Handwerksbrauerei',
+    },
     mapQuery: 'Brasserie de la Lesse, Éprave, Belgium',
     phone: '+32 84 45 75 25',
     address: 'Rue du Treux 4, 5580 Éprave',
