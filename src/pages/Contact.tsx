@@ -69,7 +69,7 @@ const LazyGoogleMap = () => {
         <div ref={ref} className="rounded-lg overflow-hidden shadow-lg">
           {isVisible ? (
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d650000!2d4.7!3d50.3!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c1f5e6a0a7a8c1%3A0x1!2sRue%20de%20la%20Ferme%203%2C%205575%20Malvoisin%2C%20Belgium!5e0!3m2!1sen!2sbe!4v1700000000000!5m2!1sen!2sbe"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d650000!2d4.7!3d50.3!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c1f5e6a0a7a8c1%3A0x1!2sRue%20de%20la%20Ferme%203%2C%205575%20Gedinne%2C%20Belgium!5e0!3m2!1sen!2sbe!4v1700000000000!5m2!1sen!2sbe"
               width="100%"
               height="350"
               style={{ border: 0 }}
@@ -515,7 +515,7 @@ const Contact = () => {
                   <div>
                     <h3 className="font-medium">{t('practical.location.title')}</h3>
                     <a 
-                      href="https://www.google.com/maps/search/?api=1&query=Rue+de+la+Ferme+3,+5575+Malvoisin,+Belgium"
+                      href="https://www.google.com/maps/search/?api=1&query=Rue+de+la+Ferme+3,+5575+Gedinne,+Belgium"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="block text-sm text-muted-foreground hover:text-primary transition-colors"
@@ -557,7 +557,7 @@ const Contact = () => {
                     })}
                     <li>
                       <a 
-                        href="https://www.google.com/maps/dir/?api=1&destination=Rue+de+la+Ferme+3,+5575+Malvoisin,+Belgium"
+                        href="https://www.google.com/maps/dir/?api=1&destination=Rue+de+la+Ferme+3,+5575+Gedinne,+Belgium"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-primary hover:underline flex items-center gap-1"

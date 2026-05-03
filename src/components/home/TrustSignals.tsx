@@ -2,7 +2,7 @@ import { useTranslation } from 'react-i18next';
 import { Star, Clock, ExternalLink } from 'lucide-react';
 import { MdFamilyRestroom } from 'react-icons/md';
 
-const GOOGLE_REVIEWS_URL = 'https://www.google.com/travel/hotels/entity/CgoIvbmkjtmR3opzEAE/reviews?q=Ferme%20du%20Chateau%2C%20Malvoisin%20Rue%20de%20la%20ferme%203%20Malvoisin&hl=nl-BE&gl=be';
+const GOOGLE_REVIEWS_URL = 'https://www.google.com/travel/hotels/entity/CgoIvbmkjtmR3opzEAE/reviews?q=Ferme%20du%20Chateau%2C%20Gedinne%20Rue%20de%20la%20ferme%203%20Gedinne&hl=nl-BE&gl=be';
 
 export const TrustSignals = () => {
   const { t } = useTranslation('homepage');

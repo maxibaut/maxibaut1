@@ -65,7 +65,7 @@ export const HeroSection = () => {
           {/* Location badge */}
           <div className="flex items-center justify-center gap-1.5 text-cream/60">
             <MapPin className="h-4 w-4" />
-            <span className="text-sm">Malvoisin, Gedinne · Belgische Ardennen</span>
+            <span className="text-sm">Gedinne, Gedinne · Belgische Ardennen</span>
           </div>
 
           {/* CTAs */}

@@ -11,13 +11,13 @@ export const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           {/* Brand & Description */}
           <div className="space-y-4">
-            <img src="/logo-ardennest-dark.svg" alt="ArdenNest — groepswoning Malvoisin Ardennen" width={120} height={40} loading="lazy" className="h-10" />
+            <img src="/logo-ardennest-dark.svg" alt="ArdenNest — groepswoning Gedinne Ardennen" width={120} height={40} loading="lazy" className="h-10" />
             <p className="text-primary-foreground/80 leading-relaxed">
               {t('footer.tagline')}
             </p>
             {/* Google Reviews Badge */}
             <a 
-              href="https://www.google.com/travel/hotels/entity/CgoIvbmkjtmR3opzEAE/reviews?q=Ferme%20du%20Chateau%2C%20Malvoisin%20Rue%20de%20la%20ferme%203%20Malvoisin&hl=nl-BE&gl=be"
+              href="https://www.google.com/travel/hotels/entity/CgoIvbmkjtmR3opzEAE/reviews?q=Ferme%20du%20Chateau%2C%20Gedinne%20Rue%20de%20la%20ferme%203%20Gedinne&hl=nl-BE&gl=be"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center space-x-4 pt-2 hover:opacity-80 transition-opacity"

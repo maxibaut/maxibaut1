@@ -8,7 +8,7 @@
   "pageSubtitle": "Our favorite addresses in the area. From fresh bread at the local bakery to a cozy dinner — the Ardennes have surprisingly much to offer.",
   "downloadButton": "Download shops guide",
   "accommodation": "Accommodation",
-  "accommodationValue": "Rue de la Ferme 3, 5575 Malvoisin",
+  "accommodationValue": "Rue de la Ferme 3, 5575 Gedinne",
   "website": "Website",
   "websiteValue": "www.ArdenNest.be",
   "operator": "Operator",
@@ -66,7 +66,7 @@
         "items": [
           {
             "name": "Pisciculture de la Galette",
-            "address": "Rue de Malvoisin 47, 5575 Patignies",
+            "address": "Rue de Gedinne 47, 5575 Patignies",
             "phone": "061/58 89 58",
             "note": "Fresh trout from own farm, order 2 days in advance"
           },
@@ -214,7 +214,7 @@
           },
           {
             "name": "Au Plaisir d'une Frite",
-            "note": "Food truck — Thursday 18:00-21:00, parking party hall Malvoisin (Rue de l'église 25)"
+            "note": "Food truck — Thursday 18:00-21:00, parking party hall Gedinne (Rue de l'église 25)"
           }
         ]
       },
