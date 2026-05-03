@@ -73,7 +73,7 @@
     "location": {
       "title": "Locatie",
       "address": "Rue de la Ferme 3",
-      "postalCity": "5575 Malvoisin",
+      "postalCity": "5575 Gedinne",
       "region": "Ardennen",
       "country": "België"
     },
@@ -98,7 +98,7 @@
       "title": "Bereikbaarheid",
       "bus": {
         "title": "Bus",
-        "text": "Bushalte Malvoisin Kewet ligt direct voor de deur. Lijnen 141 en 241 — bediend door TEC.",
+        "text": "Bushalte Gedinne Kewet ligt direct voor de deur. Lijnen 141 en 241 — bediend door TEC.",
         "link": "Bekijk dienstregeling"
       },
       "train": {
@@ -159,7 +159,7 @@
       },
       {
         "q": "Hoe bereik ik ArdenNest?",
-        "a": "ArdenNest ligt in Malvoisin (Gedinne), bereikbaar via de E411. Vanuit Brussel is het circa 1u30 rijden, vanuit Antwerpen 1u55, vanuit Keulen 2u10. Bushalte Malvoisin Kewet ligt direct voor de deur."
+        "a": "ArdenNest ligt in Gedinne (Gedinne), bereikbaar via de E411. Vanuit Brussel is het circa 1u30 rijden, vanuit Antwerpen 1u55, vanuit Keulen 2u10. Bushalte Gedinne Kewet ligt direct voor de deur."
       },
       {
         "q": "Hoe ver van tevoren moet ik boeken?",
