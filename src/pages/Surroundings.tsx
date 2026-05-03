@@ -131,7 +131,7 @@ const Surroundings = () => {
     // Geo meta tags
     const geoTags = [
       { name: 'geo.region', content: 'BE-WNA' },
-      { name: 'geo.placename', content: 'Gedinne, Gedinne' },
+      { name: 'geo.placename', content: 'Gedinne' },
       { name: 'geo.position', content: '49.9750;4.9380' },
       { name: 'ICBM', content: '49.9750, 4.9380' },
     ];
