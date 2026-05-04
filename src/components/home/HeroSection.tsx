@@ -34,7 +34,7 @@ export const HeroSection = () => {
         <source type="image/webp" srcSet={heroMainWebp as unknown as string} sizes="100vw" />
         <img
           src={heroMainFallback}
-          alt={t('hero.imageAlt', 'Luchtfoto van vakantiewoning Arden\'Nest met 2 hectare tuin in de Belgische Ardennen')}
+          alt={t('hero.imageAlt', 'Luchtfoto van vakantiehuis ArdenNest met 2 hectare tuin in de Belgische Ardennen')}
           width={1920}
           height={1080}
           fetchPriority="high"

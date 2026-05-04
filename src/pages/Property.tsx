@@ -111,7 +111,7 @@ const Property = () => {
     addUnique(farmhouseAerial, 'Drone-opname van ArdenNest en omgeving in Gedinne');
     addUnique(farmhouseFront, 'Panorama voorgevel van ArdenNest bij daglicht');
     addUnique(farmhouseSide, 'Zijgevel van ArdenNest met tuin');
-    addUnique(farmhouseEntrance, 'Ingang van vakantiewoning ArdenNest in Gedinne');
+    addUnique(farmhouseEntrance, 'Ingang van vakantiehuis ArdenNest in Gedinne');
     return photos;
   }, [t]);
 

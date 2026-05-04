@@ -64,7 +64,7 @@ export const useSEO = (customConfig?: SEOConfig) => {
     const config = customConfig || routeSEOConfig[basePath] || {};
     
     // Get title and description
-    let title = 'ArdenNest | Vakantiewoning in de Ardennen';
+    let title = 'ArdenNest | Vakantiehuis in de Ardennen';
     let description = 'Quiet luxury voor momenten samen. Al sinds 2003 verwelkomen wij families in de Ardennen.';
     
     if (config.titleKey && config.namespace) {
