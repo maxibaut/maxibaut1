@@ -64,5 +64,10 @@
     "viewOnMap": "Auf Google Maps ansehen",
     "backHome": "Zurück zur Startseite"
   },
-  "redirectBanner": "Ferme du Château heißt jetzt ArdenNest — mehr als ein Haus, Ihr Nest in den Ardennen."
+  "redirectBanner": "Ferme du Château heißt jetzt ArdenNest — mehr als ein Haus, Ihr Nest in den Ardennen.",
+  "locationMap": {
+    "heading": "Standort",
+    "iframeTitle": "Karte von ArdenNest in Gedinne, Belgische Ardennen (Google Maps)",
+    "directionsCta": "Wegbeschreibung"
+  }
 }
