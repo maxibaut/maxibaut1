@@ -591,8 +591,8 @@ const Contact = () => {
         </div>
       </section>
 
-      {/* Google Maps — lazy loaded on scroll */}
-      <LazyGoogleMap />
+      {/* Location — GBP Place embed */}
+      <LocationMap />
 
       {/* FAQ */}
       <section className="section-padding bg-background">
