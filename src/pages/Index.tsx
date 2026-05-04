@@ -23,6 +23,7 @@ const Index = () => {
       <AudienceSection />
       <StoryAndExclusive />
       <WhyBookDirect />
+      <LocationMap />
     </PageWrapper>
   );
 };
