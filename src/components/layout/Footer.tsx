@@ -63,7 +63,12 @@ export const Footer = () => {
               </li>
               <li className="flex items-start space-x-3 text-primary-foreground/80">
                 <MapPin className="h-4 w-4 flex-shrink-0 mt-0.5" />
-                <span>{t('footer.location')}</span>
+                <address className="not-italic leading-relaxed">
+                  ArdenNest<br />
+                  Rue de la Ferme 3<br />
+                  5575 Gedinne<br />
+                  {t('footer.country')}
+                </address>
               </li>
               <li>
                 <a
