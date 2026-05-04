@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { Menu, X, ChevronDown, Printer } from 'lucide-react';
+import { Menu, X, ChevronDown, Printer, Phone } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import {
   DropdownMenu,
@@ -82,6 +82,16 @@ export const Header = () => {
 
           {/* Desktop Right Side */}
           <div className="hidden lg:flex items-center space-x-4">
+            {/* Click-to-call */}
+            <a
+              href="tel:+32478030352"
+              className="flex items-center gap-2 text-sm font-medium text-foreground hover:text-primary transition-colors"
+              aria-label={t('nav.callAria')}
+            >
+              <Phone className="h-4 w-4" />
+              <span>+32 478 03 03 52</span>
+            </a>
+
             {/* Language Switcher */}
             <DropdownMenu>
               <DropdownMenuTrigger asChild>
@@ -121,18 +131,28 @@ export const Header = () => {
             </LocalizedLink>
           </div>
 
-          {/* Mobile Menu Button */}
-          <button
-            className="lg:hidden p-2"
-            onClick={() => setIsMenuOpen(!isMenuOpen)}
-            aria-label="Toggle menu"
-          >
-            {isMenuOpen ? (
-              <X className="h-6 w-6" />
-            ) : (
-              <Menu className="h-6 w-6" />
-            )}
-          </button>
+          {/* Mobile Right Side */}
+          <div className="flex items-center gap-1 lg:hidden">
+            <a
+              href="tel:+32478030352"
+              className="flex items-center justify-center h-11 w-11 rounded-md text-foreground hover:text-primary transition-colors"
+              aria-label={t('nav.callAria')}
+            >
+              <Phone className="h-5 w-5" />
+            </a>
+            <button
+              className="p-2 h-11 w-11 flex items-center justify-center"
+              onClick={() => setIsMenuOpen(!isMenuOpen)}
+              aria-label="Toggle menu"
+            >
+              {isMenuOpen ? (
+                <X className="h-6 w-6" />
+              ) : (
+                <Menu className="h-6 w-6" />
+              )}
+            </button>
+          </div>
+
         </div>
 
         {/* Mobile Menu */}
