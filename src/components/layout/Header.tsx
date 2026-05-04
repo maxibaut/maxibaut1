@@ -82,6 +82,16 @@ export const Header = () => {
 
           {/* Desktop Right Side */}
           <div className="hidden lg:flex items-center space-x-4">
+            {/* Click-to-call */}
+            <a
+              href="tel:+32478030352"
+              className="flex items-center gap-2 text-sm font-medium text-foreground hover:text-primary transition-colors"
+              aria-label={t('nav.callAria')}
+            >
+              <Phone className="h-4 w-4" />
+              <span>+32 478 03 03 52</span>
+            </a>
+
             {/* Language Switcher */}
             <DropdownMenu>
               <DropdownMenuTrigger asChild>
