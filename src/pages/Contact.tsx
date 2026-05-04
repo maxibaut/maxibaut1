@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { useLazyIframe } from '@/hooks/useLazyIframe';
+import { LocationMap } from '@/components/LocationMap';
 import { PageWrapper } from '@/components/layout';
 import { useTranslation } from 'react-i18next';
 import { LocalizedLink as Link } from '@/components/LocalizedLink';
