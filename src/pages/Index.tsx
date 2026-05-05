@@ -21,6 +21,7 @@ const Index = () => {
       <HeroSection />
       <TrustSignals />
       <DifferentiatorsPreview />
+      <ReviewsSection />
       <AudienceSection />
       <StoryAndExclusive />
       <WhyBookDirect />
