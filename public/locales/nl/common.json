@@ -69,5 +69,23 @@
     "heading": "Locatie",
     "iframeTitle": "Kaart van ArdenNest in Gedinne, Belgische Ardennen (Google Maps)",
     "directionsCta": "Routebeschrijving"
+  },
+  "alt": {
+    "logo": "ArdenNest logo — vakantiehuis voor groepen in de Ardennen",
+    "hero": "Luchtfoto van vakantiehuis ArdenNest met 2 hectare tuin in de Belgische Ardennen"
+  },
+  "schema": {
+    "vacationRental": {
+      "description": "Quiet luxury vakantiehuis voor 26 personen in de Ardennen. 9 slaapkamers met ensuite badkamers, professionele keuken en 2 hectare tuin. Ideaal voor multigenerationele familieweekends en groepsvakanties."
+    },
+    "website": {
+      "description": "Quiet luxury vakantiehuis in de Ardennen"
+    },
+    "bieke": {
+      "description": "Samen met Christophe sinds 2003 gastvrouw van vakantiehuizen in de Ardennen. Persoonlijk aanspreekpunt voor gasten van ArdenNest."
+    },
+    "christophe": {
+      "description": "Samen met Bieke al 22 jaar gastheer in de Ardennen. Mede-eigenaar van ArdenNest in Gedinne."
+    }
   }
 }

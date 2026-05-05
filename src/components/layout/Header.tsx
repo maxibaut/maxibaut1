@@ -59,7 +59,7 @@ export const Header = () => {
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
           <LocalizedLink to="/" className="flex items-center">
-            <img src="/logo-ardennest.png" alt="ArdenNest logo — vakantiehuis voor groepen in de Ardennen" width={120} height={40} className="h-10" />
+            <img src="/logo-ardennest.png" alt={t('alt.logo')} width={120} height={40} className="h-10" />
           </LocalizedLink>
 
           {/* Desktop Navigation */}

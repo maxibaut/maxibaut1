@@ -69,5 +69,23 @@
     "heading": "Location",
     "iframeTitle": "Map of ArdenNest in Gedinne, Belgian Ardennes (Google Maps)",
     "directionsCta": "Get directions"
+  },
+  "alt": {
+    "logo": "ArdenNest logo — holiday home for groups in the Belgian Ardennes",
+    "hero": "Aerial view of holiday home ArdenNest with 2 hectares of garden in the Belgian Ardennes"
+  },
+  "schema": {
+    "vacationRental": {
+      "description": "Luxury holiday home for 26 people in the Belgian Ardennes. 9 bedrooms with ensuite bathrooms, professional kitchen and 2 hectares of garden. Ideal for multigenerational family weekends and group stays."
+    },
+    "website": {
+      "description": "Quiet luxury holiday home in the Belgian Ardennes"
+    },
+    "bieke": {
+      "description": "Hostess of holiday homes in the Belgian Ardennes since 2003 alongside Christophe. Personal contact for ArdenNest guests."
+    },
+    "christophe": {
+      "description": "Host in the Ardennes for 22 years alongside Bieke. Co-owner of ArdenNest in Gedinne."
+    }
   }
 }

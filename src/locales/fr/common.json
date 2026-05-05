@@ -69,5 +69,23 @@
     "heading": "Localisation",
     "iframeTitle": "Carte d'ArdenNest à Gedinne, Ardennes belges (Google Maps)",
     "directionsCta": "Itinéraire"
+  },
+  "alt": {
+    "logo": "ArdenNest logo — gîte pour groupes en Ardenne belge",
+    "hero": "Vue aérienne du gîte ArdenNest avec 2 hectares de jardin en Ardenne belge"
+  },
+  "schema": {
+    "vacationRental": {
+      "description": "Maison de vacances de luxe pour 26 personnes en Ardenne belge. 9 chambres avec salles de bains privatives, cuisine professionnelle et 2 hectares de jardin. Idéal pour week-ends multigénérationnels et séjours de groupe."
+    },
+    "website": {
+      "description": "Maison de vacances de luxe en Ardenne belge"
+    },
+    "bieke": {
+      "description": "Hôtesse de gîtes en Ardenne belge depuis 2003 avec Christophe. Interlocutrice personnelle pour les invités d'ArdenNest."
+    },
+    "christophe": {
+      "description": "Hôte en Ardenne depuis 22 ans avec Bieke. Co-propriétaire d'ArdenNest à Gedinne."
+    }
   }
 }
