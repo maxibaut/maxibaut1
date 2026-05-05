@@ -8,6 +8,7 @@ import {
   StoryAndExclusive,
 } from '@/components/home';
 import { LocationMap } from '@/components/LocationMap';
+import { ReviewsSection } from '@/components/ReviewsSection';
 import { useSEO } from '@/hooks/useSEO';
 import FAQJsonLd from '@/components/FAQJsonLd';
 
@@ -20,6 +21,7 @@ const Index = () => {
       <HeroSection />
       <TrustSignals />
       <DifferentiatorsPreview />
+      <ReviewsSection />
       <AudienceSection />
       <StoryAndExclusive />
       <WhyBookDirect />

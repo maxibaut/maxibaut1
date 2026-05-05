@@ -87,5 +87,12 @@
     "christophe": {
       "description": "Samen met Bieke al 22 jaar gastheer in de Ardennen. Mede-eigenaar van ArdenNest in Gedinne."
     }
+  },
+  "reviews": {
+    "heading": "Wat onze gasten zeggen",
+    "subheading": "4,8 ★ van 52 gasten op Google",
+    "noscriptFallback": "Reviews kunnen niet geladen worden.",
+    "noscriptCta": "Bekijk reviews op Google →",
+    "allReviewsCta": "Alle 52 reviews op Google →"
   }
 }
