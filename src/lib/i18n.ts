@@ -2,6 +2,14 @@ import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 import HttpBackend from 'i18next-http-backend';
 
+// Bundle 'common' namespace synchronously so alt-texts, nav, footer and
+// JSON-LD descriptions render in the correct language on first paint
+// (critical for prerendered SEO output).
+import commonNl from '@/locales/nl/common.json';
+import commonFr from '@/locales/fr/common.json';
+import commonEn from '@/locales/en/common.json';
+import commonDe from '@/locales/de/common.json';
+
 const SUPPORTED_LANGUAGES = ['nl', 'fr', 'en', 'de'];
 
 // Detect language from URL path first, then stored preference, then browser
@@ -39,6 +47,13 @@ i18n
     backend: {
       loadPath: '/locales/{{lng}}/{{ns}}.json',
     },
+    resources: {
+      nl: { common: commonNl },
+      fr: { common: commonFr },
+      en: { common: commonEn },
+      de: { common: commonDe },
+    },
+    partialBundledLanguages: true,
     lng: getDefaultLanguage(),
     fallbackLng: 'nl',
     defaultNS: 'common',
