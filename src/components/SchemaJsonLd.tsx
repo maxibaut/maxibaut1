@@ -24,6 +24,7 @@ const SchemaJsonLd = () => {
         const website = t('schema.website.description', { defaultValue: '' });
         const bieke = t('schema.bieke.description', { defaultValue: '' });
         const christophe = t('schema.christophe.description', { defaultValue: '' });
+        const business = t('schema.lodgingBusiness.description', { defaultValue: '' });
 
         let changed = false;
         for (const node of data['@graph']) {
@@ -38,6 +39,9 @@ const SchemaJsonLd = () => {
             changed = true;
           } else if (node['@id'] === 'https://ardennest.be/#christophe' && christophe) {
             node.description = christophe;
+            changed = true;
+          } else if (node['@id'] === 'https://ardennest.be/#business' && business) {
+            node.description = business;
             changed = true;
           }
         }
