@@ -87,5 +87,12 @@
     "christophe": {
       "description": "Hôte en Ardenne depuis 22 ans avec Bieke. Co-propriétaire d'ArdenNest à Gedinne."
     }
+  },
+  "reviews": {
+    "heading": "Ce que disent nos invités",
+    "subheading": "4,8 ★ par 52 invités sur Google",
+    "noscriptFallback": "Les avis ne peuvent pas être chargés.",
+    "noscriptCta": "Voir les avis sur Google →",
+    "allReviewsCta": "Tous les 52 avis sur Google →"
   }
 }
