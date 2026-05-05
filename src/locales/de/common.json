@@ -69,5 +69,23 @@
     "heading": "Standort",
     "iframeTitle": "Karte von ArdenNest in Gedinne, Belgische Ardennen (Google Maps)",
     "directionsCta": "Wegbeschreibung"
+  },
+  "alt": {
+    "logo": "ArdenNest Logo — Ferienhaus für Gruppen in den belgischen Ardennen",
+    "hero": "Luftaufnahme des Ferienhauses ArdenNest mit 2 Hektar Garten in den belgischen Ardennen"
+  },
+  "schema": {
+    "vacationRental": {
+      "description": "Luxuriöses Ferienhaus für 26 Personen in den belgischen Ardennen. 9 Schlafzimmer mit eigenem Bad, professionelle Küche und 2 Hektar Garten. Ideal für mehrgenerationen-Familienwochenenden und Gruppenurlaube."
+    },
+    "website": {
+      "description": "Luxuriöses Ferienhaus in den belgischen Ardennen"
+    },
+    "bieke": {
+      "description": "Seit 2003 mit Christophe Gastgeberin von Ferienhäusern in den belgischen Ardennen. Persönliche Ansprechpartnerin für ArdenNest-Gäste."
+    },
+    "christophe": {
+      "description": "Seit 22 Jahren mit Bieke Gastgeber in den Ardennen. Mitinhaber von ArdenNest in Gedinne."
+    }
   }
 }
