@@ -1,10 +1,31 @@
+import { useEffect, useRef } from 'react';
 import { useTranslation } from 'react-i18next';
+
+const TRUSTINDEX_SCRIPT_SRC =
+  'https://cdn.trustindex.io/loader.js?205c3a971da9204c5b6628772ae';
 
 const GOOGLE_REVIEWS_URL =
   'https://www.google.com/travel/hotels/entity/CgoIvbmkjtmR3opzEAE/reviews?q=Ferme%20du%20Chateau%2C%20Gedinne%20Rue%20de%20la%20ferme%203%20Gedinne&hl=nl-BE&gl=be';
 
 export const ReviewsSection = () => {
   const { t } = useTranslation('common');
+  const containerRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    if (!containerRef.current) return;
+    if (containerRef.current.querySelector('script[data-trustindex]')) return;
+
+    const script = document.createElement('script');
+    script.src = TRUSTINDEX_SCRIPT_SRC;
+    script.defer = true;
+    script.async = true;
+    script.setAttribute('data-trustindex', 'true');
+    containerRef.current.appendChild(script);
+
+    return () => {
+      script.remove();
+    };
+  }, []);
 
   return (
     <section
@@ -13,10 +34,7 @@ export const ReviewsSection = () => {
     >
       <div className="container-luxury">
         <div className="text-center mb-10 md:mb-12">
-          <h2
-            id="reviews-heading"
-            className="heading-2 text-primary mb-4"
-          >
+          <h2 id="reviews-heading" className="heading-2 text-primary mb-4">
             {t('reviews.heading')}
           </h2>
           <p className="body-base text-muted-foreground max-w-2xl mx-auto">
@@ -24,16 +42,11 @@ export const ReviewsSection = () => {
           </p>
         </div>
 
-        {/* TRUSTINDEX WIDGET — eigenaar plakt hier de embed-code uit trustindex.io */}
-        <div className="trustindex-widget-container min-h-[300px]">
-          {/*
-            TODO — vervang dit comment-block door:
-            <div class="trustindex-widget" data-id="XXXXX"></div>
-            <script defer src="https://cdn.trustindex.io/loader.js?XXXXX"></script>
-
-            (Eigenaar krijgt deze 2 regels van trustindex.io na setup.)
-          */}
-
+        {/* Trustindex widget — script wordt via useEffect geïnjecteerd */}
+        <div
+          ref={containerRef}
+          className="trustindex-widget-container min-h-[300px]"
+        >
           <noscript>
             <p className="text-center text-muted-foreground">
               {t('reviews.noscriptFallback')}{' '}
