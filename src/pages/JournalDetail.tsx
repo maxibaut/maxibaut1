@@ -60,7 +60,7 @@ const JournalDetail = () => {
 
   const bodyText = t(`entries.${slug}.body`);
   const paragraphs = bodyText.split('\n').filter((p: string) => p.trim());
-  const signaturePattern = /^(Bieke|Met een warme groet|With warm|Avec|Mit herzlichen)/i;
+  const signaturePattern = /^[—–-]?\s*(Bieke|Met een warme groet|With warm|Avec|Mit herzlichen)/i;
   
   // Find where the signature block starts (last 2 lines if they match the pattern)
   let signatureStart = paragraphs.length;
