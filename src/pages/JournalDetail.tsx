@@ -37,6 +37,38 @@ const JournalDetail = () => {
     namespace: 'journal',
   });
 
+  // Inject Article JSON-LD per entry
+  useEffect(() => {
+    if (!entry) return;
+    const lang = i18n.language;
+    const localePath = lang === 'nl' ? '' : `/${lang}`;
+    const url = `https://ardennest.be${localePath}/journal/${entry.slug}`;
+    const imageUrl = entry.image.startsWith('http')
+      ? entry.image
+      : `https://ardennest.be${entry.image}`;
+    const data = {
+      '@context': 'https://schema.org',
+      '@type': 'Article',
+      headline: t(`entries.${entry.slug}.title`),
+      description: t(`entries.${entry.slug}.excerpt`),
+      image: imageUrl,
+      datePublished: entry.date,
+      dateModified: entry.date,
+      inLanguage: lang === 'nl' ? 'nl-BE' : lang === 'fr' ? 'fr-BE' : lang === 'de' ? 'de-DE' : 'en-GB',
+      mainEntityOfPage: url,
+      author: { '@type': 'Person', '@id': 'https://ardennest.be/#bieke' },
+      publisher: { '@type': 'Organization', '@id': 'https://ardennest.be/#organization' },
+    };
+    const script = document.createElement('script');
+    script.type = 'application/ld+json';
+    script.id = `article-jsonld-${entry.slug}`;
+    script.textContent = JSON.stringify(data);
+    document.head.appendChild(script);
+    return () => {
+      document.getElementById(script.id)?.remove();
+    };
+  }, [entry, i18n.language, t]);
+
   const formatDate = (dateStr: string) => {
     const date = new Date(dateStr);
     return date.toLocaleDateString(i18n.language === 'nl' ? 'nl-BE' : i18n.language === 'de' ? 'de-DE' : i18n.language === 'fr' ? 'fr-BE' : 'en-GB', {
