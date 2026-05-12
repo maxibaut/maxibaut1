@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import DOMPurify from 'dompurify';
@@ -6,6 +7,8 @@ import { useSEO } from '@/hooks/useSEO';
 import { journalEntries } from '@/data/journal';
 import { LocalizedLink } from '@/components/LocalizedLink';
 import { ArrowLeft } from 'lucide-react';
+
+const IMAGE_ONLY_RE = /^!\[([^\]]*)\]\(([^)]+)\)$/;
 
 const renderBodyParagraph = (p: string) => {
   // Markdown bold + internal/external links → sanitized HTML
@@ -34,6 +37,38 @@ const JournalDetail = () => {
     namespace: 'journal',
   });
 
+  // Inject Article JSON-LD per entry
+  useEffect(() => {
+    if (!entry) return;
+    const lang = i18n.language;
+    const localePath = lang === 'nl' ? '' : `/${lang}`;
+    const url = `https://ardennest.be${localePath}/journal/${entry.slug}`;
+    const imageUrl = entry.image.startsWith('http')
+      ? entry.image
+      : `https://ardennest.be${entry.image}`;
+    const data = {
+      '@context': 'https://schema.org',
+      '@type': 'Article',
+      headline: t(`entries.${entry.slug}.title`),
+      description: t(`entries.${entry.slug}.excerpt`),
+      image: imageUrl,
+      datePublished: entry.date,
+      dateModified: entry.date,
+      inLanguage: lang === 'nl' ? 'nl-BE' : lang === 'fr' ? 'fr-BE' : lang === 'de' ? 'de-DE' : 'en-GB',
+      mainEntityOfPage: url,
+      author: { '@type': 'Person', '@id': 'https://ardennest.be/#bieke' },
+      publisher: { '@type': 'Organization', '@id': 'https://ardennest.be/#organization' },
+    };
+    const script = document.createElement('script');
+    script.type = 'application/ld+json';
+    script.id = `article-jsonld-${entry.slug}`;
+    script.textContent = JSON.stringify(data);
+    document.head.appendChild(script);
+    return () => {
+      document.getElementById(script.id)?.remove();
+    };
+  }, [entry, i18n.language, t]);
+
   const formatDate = (dateStr: string) => {
     const date = new Date(dateStr);
     return date.toLocaleDateString(i18n.language === 'nl' ? 'nl-BE' : i18n.language === 'de' ? 'de-DE' : i18n.language === 'fr' ? 'fr-BE' : 'en-GB', {
@@ -58,7 +93,7 @@ const JournalDetail = () => {
 
   const bodyText = t(`entries.${slug}.body`);
   const paragraphs = bodyText.split('\n').filter((p: string) => p.trim());
-  const signaturePattern = /^(Bieke|Met een warme groet|With warm|Avec|Mit herzlichen)/i;
+  const signaturePattern = /^[—–-]?\s*(Bieke|Met een warme groet|With warm|Avec|Mit herzlichen)/i;
   
   // Find where the signature block starts (last 2 lines if they match the pattern)
   let signatureStart = paragraphs.length;
@@ -129,13 +164,34 @@ const JournalDetail = () => {
 
           {/* Body */}
           <div className="space-y-6">
-            {bodyParagraphs.map((p: string, i: number) => (
-              <p
-                key={i}
-                className="text-foreground/90 leading-[1.7] text-base"
-                dangerouslySetInnerHTML={{ __html: renderBodyParagraph(p) }}
-              />
-            ))}
+            {bodyParagraphs.map((p: string, i: number) => {
+              const imgMatch = p.trim().match(IMAGE_ONLY_RE);
+              if (imgMatch) {
+                const [, alt, src] = imgMatch;
+                return (
+                  <figure key={i} className="my-4">
+                    <img
+                      src={src}
+                      alt={alt}
+                      loading="lazy"
+                      className="w-full rounded-lg bg-muted"
+                    />
+                    {alt && (
+                      <figcaption className="text-sm text-muted-foreground text-center mt-2 italic">
+                        {alt}
+                      </figcaption>
+                    )}
+                  </figure>
+                );
+              }
+              return (
+                <p
+                  key={i}
+                  className="text-foreground/90 leading-[1.7] text-base"
+                  dangerouslySetInnerHTML={{ __html: renderBodyParagraph(p) }}
+                />
+              );
+            })}
 
             {/* Signature block */}
             {signatureLines.length > 0 && (
