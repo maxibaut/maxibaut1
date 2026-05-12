@@ -131,13 +131,34 @@ const JournalDetail = () => {
 
           {/* Body */}
           <div className="space-y-6">
-            {bodyParagraphs.map((p: string, i: number) => (
-              <p
-                key={i}
-                className="text-foreground/90 leading-[1.7] text-base"
-                dangerouslySetInnerHTML={{ __html: renderBodyParagraph(p) }}
-              />
-            ))}
+            {bodyParagraphs.map((p: string, i: number) => {
+              const imgMatch = p.trim().match(IMAGE_ONLY_RE);
+              if (imgMatch) {
+                const [, alt, src] = imgMatch;
+                return (
+                  <figure key={i} className="my-4">
+                    <img
+                      src={src}
+                      alt={alt}
+                      loading="lazy"
+                      className="w-full rounded-lg bg-muted"
+                    />
+                    {alt && (
+                      <figcaption className="text-sm text-muted-foreground text-center mt-2 italic">
+                        {alt}
+                      </figcaption>
+                    )}
+                  </figure>
+                );
+              }
+              return (
+                <p
+                  key={i}
+                  className="text-foreground/90 leading-[1.7] text-base"
+                  dangerouslySetInnerHTML={{ __html: renderBodyParagraph(p) }}
+                />
+              );
+            })}
 
             {/* Signature block */}
             {signatureLines.length > 0 && (
