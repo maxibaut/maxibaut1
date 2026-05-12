@@ -7,6 +7,8 @@ import { journalEntries } from '@/data/journal';
 import { LocalizedLink } from '@/components/LocalizedLink';
 import { ArrowLeft } from 'lucide-react';
 
+const IMAGE_ONLY_RE = /^!\[([^\]]*)\]\(([^)]+)\)$/;
+
 const renderBodyParagraph = (p: string) => {
   // Markdown bold + internal/external links → sanitized HTML
   let formatted = p
