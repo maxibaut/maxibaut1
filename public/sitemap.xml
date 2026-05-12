@@ -2147,4 +2147,50 @@
     <priority>0.6</priority>
   </url>
 
+  <!-- Journal: 3 generaties Symbiosa -->
+  <url>
+    <loc>https://ardennest.be/journal/3-generaties-symbiosa</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/journal/3-generaties-symbiosa"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/journal/3-generaties-symbiosa"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/journal/3-generaties-symbiosa"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/journal/3-generaties-symbiosa"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/journal/3-generaties-symbiosa"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/fr/journal/3-generaties-symbiosa</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/journal/3-generaties-symbiosa"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/journal/3-generaties-symbiosa"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/journal/3-generaties-symbiosa"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/journal/3-generaties-symbiosa"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/journal/3-generaties-symbiosa"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/en/journal/3-generaties-symbiosa</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/journal/3-generaties-symbiosa"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/journal/3-generaties-symbiosa"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/journal/3-generaties-symbiosa"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/journal/3-generaties-symbiosa"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/journal/3-generaties-symbiosa"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/de/journal/3-generaties-symbiosa</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/journal/3-generaties-symbiosa"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/journal/3-generaties-symbiosa"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/journal/3-generaties-symbiosa"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/journal/3-generaties-symbiosa"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/journal/3-generaties-symbiosa"/>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
 </urlset>
