@@ -37,6 +37,14 @@ import dropping01 from './ardennest-activiteit-dropping-kaart.jpg?format=webp';
 import dropping02 from './ardennest-activiteit-dropping-schemering.jpg?format=webp';
 import dropping03 from './ardennest-activiteit-dropping-bospad.jpg?format=webp';
 
+// Symbiosa Graide
+import symbiosa01 from './symbiosa-graide-module-klimwand-naia.webp';
+import symbiosa02 from './symbiosa-storyboard-personages-naia.webp';
+import symbiosa03 from './symbiosa-module-morsecode-element-lucht.webp';
+import symbiosa04 from './symbiosa-bos-graide-bospad-stenen.webp';
+import symbiosa05 from './symbiosa-module-barbaric-gooispel.webp';
+import symbiosa06 from './symbiosa-bos-graide-pad-natuur.webp';
+
 export const activeImages = {
   dinantEvasion: [dinantEvasion01, dinantEvasion02],
   bomenparcours: [bomenparcours01, bomenparcours02, bomenparcours03],
@@ -45,4 +53,5 @@ export const activeImages = {
   recrealle: [recrealle01, recrealle02, recrealle03, recrealle04],
   leisteengroeve: [leisteengroeve01, leisteengroeve02, leisteengroeve03, leisteengroeve04],
   dropping: [dropping01, dropping02, dropping03],
+  symbiosa: [symbiosa01, symbiosa02, symbiosa03, symbiosa04, symbiosa05, symbiosa06],
 };
