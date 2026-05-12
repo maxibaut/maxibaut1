@@ -12,6 +12,13 @@ import { JournalEntry } from './types';
  */
 export const journalEntries: JournalEntry[] = [
   {
+    slug: '3-generaties-symbiosa',
+    date: '2026-05-12',
+    image: '/images/journal/journal-symbiosa-bospad-graide.webp',
+    relatedLink: '/surroundings/active/symbiosa',
+    relatedLabelKey: 'relatedSurroundings',
+  },
+  {
     slug: 'welkom-bij-ardennest',
     date: '2026-03-28',
     image: '/video/ardennest-reel.mp4', // poster fallback handled in component
