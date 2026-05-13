@@ -33,6 +33,7 @@ export const Header = () => {
     { path: '/differentiators', label: t('nav.differentiators') },
     { path: '/surroundings', label: t('nav.surroundings') },
     { path: '/about', label: t('nav.about') },
+    { path: '/faq', label: t('nav.faq') },
     { path: '/contact', label: t('nav.contact') },
   ];
 
