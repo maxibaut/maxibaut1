@@ -94,7 +94,7 @@
         },
         {
           "q": "Y a-t-il du WiFi ?",
-          "a": "Oui, WiFi fibre optique gratuit dans toute la maison. Assez rapide pour visioconférences ou streaming en parallèle."
+          "a": "Oui, WiFi gratuit dans toute la maison — pas de fibre optique, mais un réseau mesh avec plusieurs bornes Ubiquiti. Une fois le mot de passe saisi, vous êtes connectés partout, même au fond du jardin. Assez rapide pour plusieurs visioconférences ou du streaming en parallèle."
         },
         {
           "q": "Combien de places de parking ?",
