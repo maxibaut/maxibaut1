@@ -7,9 +7,12 @@ interface SEOConfig {
   descriptionKey?: string;
   namespace?: string;
   noIndex?: boolean;
+  ogType?: 'website' | 'article';
+  ogImage?: string;
 }
 
 const BASE_URL = 'https://ardennest.be';
+const DEFAULT_OG_IMAGE = 'https://ardennest.be/og-image.jpg';
 const SUPPORTED_LANGUAGES = ['nl', 'fr', 'en', 'de'];
 
 // Default SEO per route (base paths without language prefix)
