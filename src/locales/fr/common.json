@@ -93,9 +93,9 @@
   },
   "reviews": {
     "heading": "Ce que disent nos invités",
-    "subheading": "4,8 ★ par 52 invités sur Google",
+    "subheading": "4,8 ★ sur Google",
     "noscriptFallback": "Les avis ne peuvent pas être chargés.",
     "noscriptCta": "Voir les avis sur Google →",
-    "allReviewsCta": "Tous les 52 avis sur Google →"
+    "allReviewsCta": "Voir tous les avis sur Google →"
   }
 }

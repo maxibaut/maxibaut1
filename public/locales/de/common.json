@@ -93,9 +93,9 @@
   },
   "reviews": {
     "heading": "Was unsere Gäste sagen",
-    "subheading": "4,8 ★ von 52 Gästen auf Google",
+    "subheading": "4,8 ★ auf Google",
     "noscriptFallback": "Bewertungen können nicht geladen werden.",
     "noscriptCta": "Bewertungen auf Google ansehen →",
-    "allReviewsCta": "Alle 52 Bewertungen auf Google →"
+    "allReviewsCta": "Alle Bewertungen auf Google ansehen →"
   }
 }
