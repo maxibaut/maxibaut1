@@ -1,0 +1,144 @@
+import { PageWrapper } from '@/components/layout';
+import { useTranslation } from 'react-i18next';
+import { LocalizedLink as Link } from '@/components/LocalizedLink';
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from '@/components/ui/accordion';
+import { Button } from '@/components/ui/button';
+import { ArrowRight } from 'lucide-react';
+import { useSEO } from '@/hooks/useSEO';
+import FAQJsonLd from '@/components/FAQJsonLd';
+
+interface FaqQuestion {
+  q: string;
+  a: string;
+  link?: string;
+  linkText?: string;
+}
+
+interface FaqSection {
+  id: string;
+  title: string;
+  questions: FaqQuestion[];
+}
+
+const FAQ = () => {
+  const { t } = useTranslation('faq');
+  useSEO({
+    titleKey: 'seo.title',
+    descriptionKey: 'seo.description',
+    namespace: 'faq',
+  });
+
+  const sections = (t('sections', { returnObjects: true }) as FaqSection[]) || [];
+
+  return (
+    <PageWrapper>
+      <FAQJsonLd />
+
+      {/* Hero */}
+      <section className="bg-primary text-primary-foreground section-padding">
+        <div className="container-luxury max-w-3xl text-center">
+          <p className="heading-display mb-4">{t('title')}</p>
+          <h1 className="font-serif text-xl md:text-2xl text-primary-foreground/85 font-normal mb-6">
+            {t('h1')}
+          </h1>
+          <p className="text-primary-foreground/80 leading-relaxed">{t('intro')}</p>
+        </div>
+      </section>
+
+      {/* Body */}
+      <section className="section-padding bg-background">
+        <div className="container-luxury grid grid-cols-1 lg:grid-cols-[220px_1fr] gap-10">
+          {/* Sticky in-page nav */}
+          <aside className="hidden lg:block">
+            <nav
+              aria-label={t('navTitle')}
+              className="sticky top-28 space-y-3 text-sm"
+            >
+              <p className="font-serif text-base font-medium text-foreground mb-3">
+                {t('navTitle')}
+              </p>
+              <ul className="space-y-2">
+                {sections.map((section) => (
+                  <li key={section.id}>
+                    <a
+                      href={`#${section.id}`}
+                      className="text-muted-foreground hover:text-primary transition-colors block"
+                    >
+                      {section.title}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </nav>
+          </aside>
+
+          {/* Sections */}
+          <div className="space-y-12 max-w-3xl">
+            {sections.map((section) => (
+              <section
+                key={section.id}
+                id={section.id}
+                aria-labelledby={`${section.id}-heading`}
+                className="scroll-mt-24"
+              >
+                <h2
+                  id={`${section.id}-heading`}
+                  className="heading-3 mb-4 border-b border-border pb-2"
+                >
+                  {section.title}
+                </h2>
+                <Accordion type="single" collapsible className="w-full">
+                  {section.questions.map((faq, index) => (
+                    <AccordionItem
+                      key={index}
+                      value={`${section.id}-${index}`}
+                    >
+                      <AccordionTrigger className="text-left font-medium">
+                        {faq.q}
+                      </AccordionTrigger>
+                      <AccordionContent className="text-muted-foreground leading-relaxed">
+                        {faq.a}
+                        {faq.link && faq.linkText && (
+                          <>
+                            {' '}
+                            <Link
+                              to={faq.link}
+                              className="text-primary hover:underline font-medium"
+                            >
+                              {faq.linkText} →
+                            </Link>
+                          </>
+                        )}
+                      </AccordionContent>
+                    </AccordionItem>
+                  ))}
+                </Accordion>
+              </section>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* CTA */}
+      <section className="section-padding bg-cream-dark">
+        <div className="container-luxury max-w-2xl text-center">
+          <h2 className="heading-2 mb-3">{t('cta.title')}</h2>
+          <p className="text-muted-foreground mb-6">{t('cta.text')}</p>
+          <Button asChild size="lg">
+            <Link to="/contact">
+              {t('cta.button')}
+              <ArrowRight className="ml-2 h-4 w-4" />
+            </Link>
+          </Button>
+        </div>
+      </section>
+    </PageWrapper>
+  );
+};
+
+export default FAQ;

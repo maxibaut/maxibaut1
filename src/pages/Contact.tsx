@@ -46,7 +46,7 @@ import { MdFamilyRestroom } from 'react-icons/md';
 import { FaChargingStation } from 'react-icons/fa6';
 import hostBieke from '@/assets/property/ardennest-gastvrouw-bieke.jpg?format=webp';
 import { useSEO } from '@/hooks/useSEO';
-import FAQJsonLd from '@/components/FAQJsonLd';
+// FAQ JSON-LD now lives on the dedicated /faq page
 import { sendContactEmail, EmailTranslations } from '@/lib/emailjs';
 
 const contactSchema = z.object({
@@ -173,7 +173,6 @@ const Contact = () => {
 
   return (
     <PageWrapper>
-      <FAQJsonLd />
       {/* Hero */}
       <section className="bg-primary text-primary-foreground section-padding">
         <div className="container-luxury">
@@ -594,33 +593,19 @@ const Contact = () => {
       {/* Location — GBP Place embed */}
       <LocationMap />
 
-      {/* FAQ */}
+      {/* FAQ teaser */}
       <section className="section-padding bg-background">
-        <div className="container-luxury max-w-3xl">
-          <h2 className="heading-2 text-center mb-8">{t('faq.title')}</h2>
-          <Accordion type="single" collapsible className="w-full">
-            {faqQuestions.map((faq, index) => (
-              <AccordionItem key={index} value={`item-${index}`}>
-                <AccordionTrigger className="text-left font-medium">
-                  {faq.q}
-                </AccordionTrigger>
-                <AccordionContent className="text-muted-foreground">
-                  {faq.a}
-                  {faq.link && faq.linkText && (
-                    <>
-                      {' '}
-                      <Link 
-                        to={faq.link} 
-                        className="text-primary hover:underline font-medium"
-                      >
-                        {faq.linkText} →
-                      </Link>
-                    </>
-                  )}
-                </AccordionContent>
-              </AccordionItem>
-            ))}
-          </Accordion>
+        <div className="container-luxury max-w-2xl text-center">
+          <h2 className="heading-2 mb-3">{t('faq.title')}</h2>
+          <p className="text-muted-foreground mb-6">
+            {t('faqTeaser.text', { ns: 'common', defaultValue: 'Van capaciteit en keuken tot boeking en huisregels — vind antwoorden op de vragen die groepen het vaakst stellen.' })}
+          </p>
+          <Button asChild variant="outline" size="lg">
+            <Link to="/faq">
+              {t('faqTeaser.button', { ns: 'common', defaultValue: 'Bekijk alle veelgestelde vragen' })}
+              <ArrowRight className="ml-2 h-4 w-4" />
+            </Link>
+          </Button>
         </div>
       </section>
     </PageWrapper>

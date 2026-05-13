@@ -33,6 +33,7 @@ const routeSEOConfig: Record<string, SEOConfig> = {
   '/privacy-policy': { titleKey: 'seo.title', descriptionKey: 'seo.description', namespace: 'privacy' },
   '/homeowners': { titleKey: 'seo.title', descriptionKey: 'seo.description', namespace: 'homeowners' },
   '/journal': { titleKey: 'seo.title', descriptionKey: 'seo.description', namespace: 'journal' },
+  '/faq': { titleKey: 'seo.title', descriptionKey: 'seo.description', namespace: 'faq' },
   '/brand': { noIndex: true },
 };
 

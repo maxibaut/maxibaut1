@@ -6,15 +6,22 @@ import { useTranslation } from 'react-i18next';
  * Reads FAQ questions from the contact.json locale file.
  */
 const FAQJsonLd = () => {
-  const { t } = useTranslation('contact');
+  const { t } = useTranslation('faq');
 
   useEffect(() => {
-    const questions = t('faq.questions', { returnObjects: true }) as Array<{
-      q: string;
-      a: string;
+    const sections = t('sections', { returnObjects: true }) as Array<{
+      id: string;
+      title: string;
+      questions: Array<{ q: string; a: string }>;
     }>;
 
-    if (!Array.isArray(questions) || questions.length === 0) return;
+    if (!Array.isArray(sections) || sections.length === 0) return;
+
+    const questions = sections.flatMap((s) =>
+      Array.isArray(s.questions) ? s.questions : []
+    );
+
+    if (questions.length === 0) return;
 
     const jsonLd = {
       '@context': 'https://schema.org',

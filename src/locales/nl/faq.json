@@ -1,0 +1,197 @@
+{
+  "seo": {
+    "title": "Veelgestelde vragen | ArdenNest Gedinne",
+    "description": "Antwoorden op vragen over capaciteit, keuken, kinderen, boeking en huisregels van ArdenNest in de Belgische Ardennen."
+  },
+  "title": "Veelgestelde vragen",
+  "h1": "Antwoord op de vragen die jullie het vaakst stellen",
+  "intro": "Van capaciteit en keuken tot boeking en huisregels — hier vinden jullie alles wat groepen meestal vooraf willen weten. Staat jullie vraag er niet bij, stuur Bieke gerust een bericht.",
+  "navTitle": "Op deze pagina",
+  "sections": [
+    {
+      "id": "capaciteit",
+      "title": "Capaciteit & slaapindeling",
+      "questions": [
+        {
+          "q": "Hoeveel personen kan ArdenNest ontvangen?",
+          "a": "ArdenNest biedt plaats aan maximaal 26 personen, verdeeld over 9 slaapkamers."
+        },
+        {
+          "q": "Hoeveel slaapkamers en badkamers zijn er?",
+          "a": "9 slaapkamers, elk met een eigen ensuite badkamer (douche of bad, toilet en wastafel). De indeling: 3 kamers voor 2 personen, 4 kamers voor 3 personen en 2 kamers voor 4 personen.",
+          "link": "/property",
+          "linkText": "Bekijk de slaapkamers"
+        },
+        {
+          "q": "Is ArdenNest geschikt voor verschillende generaties samen?",
+          "a": "Ja. Eén slaapkamer ligt op het gelijkvloers — handig voor grootouders of wie liever geen trappen doet. De andere kamers liggen verspreid over twee verdiepingen, met genoeg afstand tussen luidruchtige en rustige hoeken."
+        },
+        {
+          "q": "Kunnen meerdere gezinnen samen verblijven?",
+          "a": "Het huis is bewust ontworpen voor multigenerationele groepen of bevriende gezinnen. Iedereen heeft een eigen ensuite kamer, en de leefruimtes en buitenruimtes bieden plek om samen te zijn óf even apart."
+        }
+      ]
+    },
+    {
+      "id": "koken-eten",
+      "title": "Koken & samen eten",
+      "questions": [
+        {
+          "q": "Hoe is de keuken uitgerust?",
+          "a": "Een professionele keuken op horecaniveau: Lacanche fornuis, 2 Miele Professional vaatwassers, ruime werkbladen en kookgerei voor 26 personen. Koken voor een grote groep wordt zo een plezier in plaats van een opdracht.",
+          "link": "/property",
+          "linkText": "Bekijk de keuken"
+        },
+        {
+          "q": "Eten we samen aan één tafel?",
+          "a": "Ja. De eiken eettafel van 7m20 zit comfortabel met de hele groep. Geen tafels aan elkaar schuiven, geen halve gesprekken — iedereen samen rond één tafel."
+        },
+        {
+          "q": "Wat is voorzien aan servies, glazen en bestek?",
+          "a": "Volledig servies, glaswerk, bestek, koffiezet, waterkoker, mixer en al het basismateriaal voor 26 personen. Jullie hoeven niets mee te brengen om te koken of te dineren."
+        },
+        {
+          "q": "Mogen we zelf koken of catering laten komen?",
+          "a": "Beide kan. Veel groepen koken zelf met de ingrediënten van de lokale bakker en slager. Wie liever ontzorgd wordt, kan kiezen voor catering of een chef aan huis — Bieke geeft graag adressen door."
+        }
+      ]
+    },
+    {
+      "id": "kinderen-families",
+      "title": "Kinderen & families",
+      "questions": [
+        {
+          "q": "Is ArdenNest kindvriendelijk?",
+          "a": "Ja. De omheinde tuin van 2 hectare, een speelkamer in het huis en een aparte speelstal zorgen ervoor dat kinderen zich uren vermaken zonder dat ouders constant moeten meekijken."
+        },
+        {
+          "q": "Zijn er kinderbedjes en kinderstoelen aanwezig?",
+          "a": "Ja, op aanvraag voorzien wij kinderbedjes (reisbedjes) en kinderstoelen. Geef bij de boeking aan hoeveel jullie nodig hebben."
+        },
+        {
+          "q": "Is de tuin veilig voor kleine kinderen?",
+          "a": "De tuin is omheind en biedt veel speelruimte. Er is geen zwembad — een bewuste keuze, omdat dat met grote groepen kinderen vaak meer stress dan plezier oplevert. Een vijver is afgeschermd met een hekken."
+        },
+        {
+          "q": "Wat als het slecht weer is?",
+          "a": "De speelkamer in huis en de overdekte speelstal bieden volop binnenactiviteiten — voetbalspel, tafeltennis, gezelschapsspelen en boeken. Genoeg om een hele regenachtige dag te overbruggen."
+        }
+      ]
+    },
+    {
+      "id": "praktisch",
+      "title": "Praktisch verblijf",
+      "questions": [
+        {
+          "q": "Hoe laat is in- en uitchecken?",
+          "a": "Inchecken vanaf 16:00, uitchecken vóór 10:00. De woning wordt tot 16 uur schoongemaakt op de dag van aankomst, dus eerder binnen kan helaas niet."
+        },
+        {
+          "q": "Wat als we vroeger aankomen?",
+          "a": "We hebben een aparte pagina met tips voor wie vroeger ter plaatse is — wandelingen, een lokaal restaurant, of waar jullie de auto's al kwijt kunnen.",
+          "link": "/early-arrival",
+          "linkText": "Bekijk tips voor vroege aankomst"
+        },
+        {
+          "q": "Is er wifi?",
+          "a": "Ja, gratis glasvezel-wifi in het hele huis. Snel genoeg om met meerdere mensen tegelijk te videobellen of te streamen."
+        },
+        {
+          "q": "Hoeveel parkeerplaatsen zijn er?",
+          "a": "Ruime gratis parking op het domein voor alle gasten — geen probleem als jullie met meerdere auto's komen."
+        },
+        {
+          "q": "Is er een laadpunt voor elektrische auto's?",
+          "a": "Ja, er is een EV-laadpunt op het domein."
+        },
+        {
+          "q": "Wat is inbegrepen in de prijs?",
+          "a": "Bedlinnen (De Witte Lietaer), handdoeken, eindschoonmaak, verwarming en basisproducten zijn inbegrepen. Een volledig overzicht ontvangen jullie bij de boeking."
+        },
+        {
+          "q": "Hoe zit het met verbruik (verwarming, elektriciteit, hout)?",
+          "a": "We werken met een transparant systeem van eerlijk verbruik: een basistemperatuur van 18°C is inbegrepen, daarboven betalen jullie het reële verbruik na het verblijf. Geen forfaits, geen verrassingen."
+        },
+        {
+          "q": "Is het huis toegankelijk voor wie minder mobiel is?",
+          "a": "Het gelijkvloers (inclusief één slaapkamer met ensuite badkamer) is rolstoeltoegankelijk. Voor specifieke vragen kunnen jullie Bieke contacteren."
+        }
+      ]
+    },
+    {
+      "id": "boeking-prijzen",
+      "title": "Boeking, prijs & voorwaarden",
+      "questions": [
+        {
+          "q": "Wat kost een verblijf?",
+          "a": "Tarieven variëren per seizoen en periode. De actuele prijzen en beschikbaarheid staan in de boekingskalender.",
+          "link": "/booking",
+          "linkText": "Bekijk beschikbaarheid en prijzen"
+        },
+        {
+          "q": "Wat is de minimale verblijfsduur?",
+          "a": "Minimaal 2 nachten. In schoolvakanties geldt een minimum van 7 nachten."
+        },
+        {
+          "q": "Hoe ver vooruit moeten we boeken?",
+          "a": "Voor schoolvakanties en lange weekends raden we 3 tot 6 maanden vooruit aan. Voor weekends buiten vakantieperiodes is 1 tot 2 maanden vaak voldoende."
+        },
+        {
+          "q": "Zijn er verborgen kosten?",
+          "a": "Nee. Bij de boeking zien jullie de volledige prijs (verblijf + eindschoonmaak + waarborg + toeristenbelasting). Enkel het reële verbruik (verwarming/elektriciteit boven 18°C basis) wordt na verblijf afgerekend."
+        },
+        {
+          "q": "Hoe verloopt de annulering?",
+          "a": "Wij hanteren een transparant 3-traps annuleringsbeleid. De percentages hangen af van hoe ver vóór de aankomst jullie annuleren.",
+          "link": "/cancellation-policy",
+          "linkText": "Lees het annuleringsbeleid"
+        },
+        {
+          "q": "Hoe betalen we?",
+          "a": "Via de boekingspagina met Bancontact, kredietkaart of overschrijving. Een voorschot bij boeking, het saldo enkele weken vóór aankomst."
+        },
+        {
+          "q": "Boeken we rechtstreeks of via een platform?",
+          "a": "Beide kan, maar rechtstreeks via ardennest.be is altijd voordeliger — geen tussenkost, en jullie hebben direct contact met Bieke voor vragen vóór, tijdens en na het verblijf."
+        }
+      ]
+    },
+    {
+      "id": "locatie-regels",
+      "title": "Locatie, omgeving & huisregels",
+      "questions": [
+        {
+          "q": "Hoe bereiken we ArdenNest?",
+          "a": "ArdenNest ligt in Gedinne (5575), bereikbaar via de E411. Vanuit Brussel circa 1u30, Antwerpen 1u55, Keulen 2u10. De bushalte Gedinne Kewet ligt voor de deur (lijnen 141 en 241, TEC)."
+        },
+        {
+          "q": "Wat is er te doen in de omgeving?",
+          "a": "Wandelroutes vanaf de voordeur, mountainbike- en RAVeL-fietsroutes, kajakken op de Semois, avonturenparken en historische stadjes zoals Bouillon op 15 minuten. Ook restaurants, bakkers en lokale winkels op korte afstand.",
+          "link": "/surroundings",
+          "linkText": "Ontdek de omgeving"
+        },
+        {
+          "q": "Mogen huisdieren mee?",
+          "a": "We verwelkomen geen huisdieren — om een zorgeloos verblijf te kunnen garanderen voor gasten met allergieën. We weten dat jullie huisdier deel uitmaakt van het gezin en hopen op jullie begrip."
+        },
+        {
+          "q": "Mag er gerookt worden?",
+          "a": "Niet binnen. Buiten op het terras kan, met asbakken die wij voorzien."
+        },
+        {
+          "q": "Mogen we hier een feest of evenement organiseren?",
+          "a": "ArdenNest is gemaakt voor quality time — lange gesprekken aan de eiken tafel, kinderen die zich uitleven, avonden die vanzelf uitdoven. We zijn bewust geen feestlocatie. Versterkte muziek en luide festiviteiten passen niet bij de rust die we hier bewaken."
+        },
+        {
+          "q": "Zijn er regels rond geluid 's avonds?",
+          "a": "Vanaf 22:00 vragen we om de rust van de buurt en het dorp te respecteren. Gezellig napraten op het terras kan, met aandacht voor het volume."
+        }
+      ]
+    }
+  ],
+  "cta": {
+    "title": "Staat jullie vraag er niet bij?",
+    "text": "Bieke antwoordt persoonlijk — telefonisch, per mail of via WhatsApp.",
+    "button": "Neem contact op"
+  }
+}

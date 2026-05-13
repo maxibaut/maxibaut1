@@ -35,7 +35,8 @@
     "location": "Gedinne, Ardennen, België",
     "country": "België",
     "story": "Het verhaal",
-    "exclusiveActivities": "Exclusieve activiteiten"
+    "exclusiveActivities": "Exclusieve activiteiten",
+    "faq": "Veelgestelde vragen"
   },
   "cta": {
     "viewAvailability": "Bekijk beschikbaarheid",
@@ -97,5 +98,9 @@
     "noscriptFallback": "Reviews kunnen niet geladen worden.",
     "noscriptCta": "Bekijk reviews op Google →",
     "allReviewsCta": "Bekijk alle reviews op Google →"
+  },
+  "faqTeaser": {
+    "text": "Van capaciteit en keuken tot boeking en huisregels — vind antwoorden op de vragen die groepen het vaakst stellen.",
+    "button": "Bekijk alle veelgestelde vragen"
   }
 }
