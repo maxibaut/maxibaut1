@@ -35,6 +35,10 @@ const JournalDetail = () => {
     titleKey: entry ? `entries.${slug}.title` : undefined,
     descriptionKey: entry ? `entries.${slug}.excerpt` : undefined,
     namespace: 'journal',
+    ogType: entry ? 'article' : 'website',
+    ogImage: entry
+      ? (entry.image.startsWith('http') ? entry.image : `https://ardennest.be${entry.image}`)
+      : undefined,
   });
 
   // Inject Article JSON-LD per entry
