@@ -211,8 +211,48 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  
-  <!-- Booking -->
+
+  <!-- FAQ -->
+  <url>
+    <loc>https://ardennest.be/faq</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/faq"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/faq"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/faq"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/faq"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/faq"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/fr/faq</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/faq"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/faq"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/faq"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/faq"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/faq"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/en/faq</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/faq"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/faq"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/faq"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/faq"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/faq"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/de/faq</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/faq"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/faq"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/faq"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/faq"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/faq"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
   <url>
     <loc>https://ardennest.be/booking</loc>
     <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/booking"/>
