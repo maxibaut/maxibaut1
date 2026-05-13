@@ -27,6 +27,7 @@ const Homeowners = lazy(() => import("./pages/Homeowners"));
 const BrandToolkit = lazy(() => import("./pages/BrandToolkit"));
 const Journal = lazy(() => import("./pages/Journal"));
 const JournalDetail = lazy(() => import("./pages/JournalDetail"));
+const FAQ = lazy(() => import("./pages/FAQ"));
 const NotFound = lazy(() => import("./pages/NotFound"));
 
 const queryClient = new QueryClient();
@@ -53,6 +54,7 @@ const pageRoutes = (
     <Route path="brand" element={<BrandToolkit />} />
     <Route path="journal" element={<Journal />} />
     <Route path="journal/:slug" element={<JournalDetail />} />
+    <Route path="faq" element={<FAQ />} />
   </>
 );
 
