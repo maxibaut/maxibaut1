@@ -14,7 +14,7 @@
       "questions": [
         {
           "q": "How many guests can ArdenNest accommodate?",
-          "a": "ArdenNest accommodates up to 26 guests, spread across 9 bedrooms."
+          "a": "For overnight stays, ArdenNest accommodates up to 26 guests across 9 bedrooms. For daytime activities, we can welcome up to 185 people."
         },
         {
           "q": "How many bedrooms and bathrooms are there?",
@@ -24,7 +24,7 @@
         },
         {
           "q": "Is ArdenNest suitable for multiple generations together?",
-          "a": "Yes. One bedroom is on the ground floor — handy for grandparents or anyone who prefers to avoid stairs. The other rooms are spread across two floors, with enough distance between lively and quiet corners."
+          "a": "Yes. The bedrooms are spread across two floors, with enough distance between lively and quiet corners. All bedrooms are reached by stairs — if someone prefers to avoid stairs, it's best to discuss this with us in advance."
         },
         {
           "q": "Can multiple families stay together?",
@@ -48,7 +48,7 @@
         },
         {
           "q": "What dishes, glassware and cutlery are provided?",
-          "a": "Full dinner service, glassware, cutlery, coffee maker, kettle, blender and all basic equipment for 26 people. You don't need to bring anything to cook or dine."
+          "a": "Full dinner service, glassware, cutlery, coffee maker, kettle, blender and all basic equipment for 26 people — all of hotel quality. We also have an extensive collection of specialty beer glasses, so a proper Belgian beer tasting can be enjoyed exactly as it should be. You don't need to bring anything to cook or dine."
         },
         {
           "q": "Can we cook ourselves or arrange catering?",
@@ -70,7 +70,7 @@
         },
         {
           "q": "Is the garden safe for young children?",
-          "a": "The garden is fenced and offers plenty of space to play. There is no swimming pool — a deliberate choice, as it tends to create more stress than fun with large groups of children. A pond is fenced off."
+          "a": "The garden is fenced and offers plenty of space to play. There is no swimming pool — a deliberate choice, as it tends to create more stress than fun with large groups of children."
         },
         {
           "q": "What if the weather is poor?",
@@ -114,7 +114,7 @@
         },
         {
           "q": "Is the house accessible for guests with reduced mobility?",
-          "a": "The ground floor (including one bedroom with ensuite bathroom) is wheelchair-accessible. For specific questions, contact Bieke."
+          "a": "The ground floor is wheelchair-accessible, but there is no bedroom on the ground floor. For specific questions, contact Bieke."
         }
       ]
     },

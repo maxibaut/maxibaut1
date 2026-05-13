@@ -14,7 +14,7 @@
       "questions": [
         {
           "q": "Combien de personnes ArdenNest peut-il accueillir ?",
-          "a": "ArdenNest accueille jusqu'à 26 personnes, réparties dans 9 chambres."
+          "a": "Pour les nuitées, ArdenNest accueille jusqu'à 26 personnes, réparties dans 9 chambres. Pour les activités en journée, nous pouvons recevoir jusqu'à 185 personnes."
         },
         {
           "q": "Combien de chambres et de salles de bain ?",
@@ -24,7 +24,7 @@
         },
         {
           "q": "ArdenNest convient-il à plusieurs générations ?",
-          "a": "Oui. Une chambre est située au rez-de-chaussée — pratique pour les grands-parents ou ceux qui préfèrent éviter les escaliers. Les autres chambres sont réparties sur deux étages, avec suffisamment de distance entre les coins animés et les coins calmes."
+          "a": "Oui. Les chambres sont réparties sur deux étages, avec suffisamment de distance entre les coins animés et les coins calmes. Toutes les chambres sont accessibles par escalier — si quelqu'un préfère éviter les escaliers, mieux vaut nous en parler à l'avance."
         },
         {
           "q": "Plusieurs familles peuvent-elles séjourner ensemble ?",
@@ -48,7 +48,7 @@
         },
         {
           "q": "Quelle vaisselle, verrerie et couverts sont fournis ?",
-          "a": "Service complet, verrerie, couverts, machine à café, bouilloire, mixeur et tout le matériel de base pour 26 personnes. Vous n'avez rien à apporter pour cuisiner ou dîner."
+          "a": "Service complet, verrerie, couverts, machine à café, bouilloire, mixeur et tout le matériel de base pour 26 personnes — le tout de qualité hôtelière. Nous disposons aussi d'une vaste collection de verres à bière spécifiques, pour qu'une véritable dégustation de bières belges se déroule dans les règles de l'art. Vous n'avez rien à apporter pour cuisiner ou dîner."
         },
         {
           "q": "Pouvons-nous cuisiner nous-mêmes ou faire appel à un traiteur ?",
@@ -70,7 +70,7 @@
         },
         {
           "q": "Le jardin est-il sûr pour les jeunes enfants ?",
-          "a": "Le jardin est clôturé et offre beaucoup d'espace pour jouer. Il n'y a pas de piscine — un choix délibéré, car cela génère souvent plus de stress que de plaisir avec de grands groupes d'enfants. Un étang est protégé par une clôture."
+          "a": "Le jardin est clôturé et offre beaucoup d'espace pour jouer. Il n'y a pas de piscine — un choix délibéré, car cela génère souvent plus de stress que de plaisir avec de grands groupes d'enfants."
         },
         {
           "q": "Et s'il fait mauvais temps ?",
@@ -114,7 +114,7 @@
         },
         {
           "q": "La maison est-elle accessible aux personnes à mobilité réduite ?",
-          "a": "Le rez-de-chaussée (incluant une chambre avec salle de bain privative) est accessible en fauteuil roulant. Pour des questions spécifiques, contactez Bieke."
+          "a": "Le rez-de-chaussée est accessible en fauteuil roulant, mais il n'y a pas de chambre au rez-de-chaussée. Pour des questions spécifiques, contactez Bieke."
         }
       ]
     },
