@@ -142,11 +142,21 @@ const SurroundingsDetail = () => {
     if (ogTitle) ogTitle.setAttribute('content', seoTitleStr);
     const ogDesc = document.querySelector('meta[property="og:description"]');
     if (ogDesc) ogDesc.setAttribute('content', seoDescStr);
+    const ogType = document.querySelector('meta[property="og:type"]');
+    if (ogType) ogType.setAttribute('content', 'article');
+    const heroImg = item?.heroImage || item?.images?.[0];
+    if (heroImg) {
+      const absImg = heroImg.startsWith('http') ? heroImg : `https://ardennest.be${heroImg}`;
+      const ogImg = document.querySelector('meta[property="og:image"]');
+      if (ogImg) ogImg.setAttribute('content', absImg);
+      const twImg = document.querySelector('meta[name="twitter:image"]');
+      if (twImg) twImg.setAttribute('content', absImg);
+    }
     const twTitle = document.querySelector('meta[property="twitter:title"]');
     if (twTitle) twTitle.setAttribute('content', seoTitleStr);
     const twDesc = document.querySelector('meta[property="twitter:description"]');
     if (twDesc) twDesc.setAttribute('content', seoDescStr);
-  }, [seoTitleStr, seoDescStr]);
+  }, [seoTitleStr, seoDescStr, item]);
 
   // JSON-LD structured data for active/exclusive items
   useEffect(() => {

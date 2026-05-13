@@ -7,9 +7,12 @@ interface SEOConfig {
   descriptionKey?: string;
   namespace?: string;
   noIndex?: boolean;
+  ogType?: 'website' | 'article';
+  ogImage?: string;
 }
 
 const BASE_URL = 'https://ardennest.be';
+const DEFAULT_OG_IMAGE = 'https://ardennest.be/og-image.jpg';
 const SUPPORTED_LANGUAGES = ['nl', 'fr', 'en', 'de'];
 
 // Default SEO per route (base paths without language prefix)
@@ -96,10 +99,14 @@ export const useSEO = (customConfig?: SEOConfig) => {
     updateMetaTag('og:title', title);
     updateMetaTag('og:description', description);
     updateMetaTag('og:url', currentUrl);
-    
+    updateMetaTag('og:type', config.ogType || 'website');
+    updateMetaTag('og:image', config.ogImage || DEFAULT_OG_IMAGE);
+    updateMetaTag('og:locale', currentLang === 'nl' ? 'nl_BE' : currentLang === 'fr' ? 'fr_BE' : currentLang === 'de' ? 'de_DE' : 'en_GB');
+
     // Update Twitter tags
     updateMetaTag('twitter:title', title);
     updateMetaTag('twitter:description', description);
+    updateMetaTag('twitter:image', config.ogImage || DEFAULT_OG_IMAGE);
     
     // Canonical points to THIS language version (not always NL)
     let canonical = document.querySelector('link[rel="canonical"]');
