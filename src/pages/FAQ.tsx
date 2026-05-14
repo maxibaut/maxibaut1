@@ -1,5 +1,7 @@
 import { PageWrapper } from '@/components/layout';
 import { useTranslation } from 'react-i18next';
+import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
 import { LocalizedLink as Link } from '@/components/LocalizedLink';
 import {
   Accordion,
@@ -15,8 +17,6 @@ import FAQJsonLd from '@/components/FAQJsonLd';
 interface FaqQuestion {
   q: string;
   a: string;
-  link?: string;
-  linkText?: string;
 }
 
 interface FaqSection {
@@ -24,6 +24,20 @@ interface FaqSection {
   title: string;
   questions: FaqQuestion[];
 }
+
+// Convert absolute ardennest.be links to internal paths so SPA navigation works.
+const normalizeHref = (href?: string) => {
+  if (!href) return '#';
+  const m = href.match(/^https?:\/\/(?:www\.)?ardennest\.be(\/.*)?$/i);
+  if (m) return m[1] || '/';
+  return href;
+};
+
+const isInternal = (href?: string) => {
+  if (!href) return false;
+  if (href.startsWith('/')) return true;
+  return /^https?:\/\/(?:www\.)?ardennest\.be/i.test(href);
+};
 
 const FAQ = () => {
   const { t } = useTranslation('faq');
@@ -34,6 +48,38 @@ const FAQ = () => {
   });
 
   const sections = (t('sections', { returnObjects: true }) as FaqSection[]) || [];
+
+  const markdownComponents = {
+    a: ({ href, children }: { href?: string; children?: React.ReactNode }) => {
+      const normalized = normalizeHref(href);
+      if (isInternal(href)) {
+        return (
+          <Link to={normalized} className="text-primary hover:underline font-medium">
+            {children}
+          </Link>
+        );
+      }
+      return (
+        <a
+          href={href}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-primary hover:underline font-medium"
+        >
+          {children}
+        </a>
+      );
+    },
+    p: ({ children }: { children?: React.ReactNode }) => (
+      <p className="mb-3 last:mb-0">{children}</p>
+    ),
+    ul: ({ children }: { children?: React.ReactNode }) => (
+      <ul className="list-disc pl-5 space-y-1 my-3">{children}</ul>
+    ),
+    strong: ({ children }: { children?: React.ReactNode }) => (
+      <strong className="font-medium text-foreground">{children}</strong>
+    ),
+  };
 
   return (
     <PageWrapper>
@@ -94,26 +140,17 @@ const FAQ = () => {
                 </h2>
                 <Accordion type="single" collapsible className="w-full">
                   {section.questions.map((faq, index) => (
-                    <AccordionItem
-                      key={index}
-                      value={`${section.id}-${index}`}
-                    >
+                    <AccordionItem key={index} value={`${section.id}-${index}`}>
                       <AccordionTrigger className="text-left font-medium">
                         {faq.q}
                       </AccordionTrigger>
                       <AccordionContent className="text-muted-foreground leading-relaxed">
-                        {faq.a}
-                        {faq.link && faq.linkText && (
-                          <>
-                            {' '}
-                            <Link
-                              to={faq.link}
-                              className="text-primary hover:underline font-medium"
-                            >
-                              {faq.linkText} →
-                            </Link>
-                          </>
-                        )}
+                        <ReactMarkdown
+                          remarkPlugins={[remarkGfm]}
+                          components={markdownComponents}
+                        >
+                          {faq.a}
+                        </ReactMarkdown>
                       </AccordionContent>
                     </AccordionItem>
                   ))}
