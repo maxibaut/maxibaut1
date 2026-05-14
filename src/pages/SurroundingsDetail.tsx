@@ -217,8 +217,37 @@ const SurroundingsDetail = () => {
     document.head.appendChild(bc);
     scripts.push(bc);
 
+    // FAQPage: parse Q&A pairs from fullDescription markdown
+    // Pattern: **Question?**\n\nAnswer paragraph
+    const faqRegex = /\*\*([^*\n]+\?)\*\*\s*\n+([^\n#][^\n]*(?:\n(?!\*\*|##|\s*$)[^\n]*)*)/g;
+    const faqMatches: { q: string; a: string }[] = [];
+    let m: RegExpExecArray | null;
+    while ((m = faqRegex.exec(fullDescription)) !== null) {
+      const q = m[1].trim();
+      const a = m[2].replace(/\[([^\]]+)\]\([^)]+\)/g, '$1').replace(/\*\*/g, '').trim();
+      if (q && a) faqMatches.push({ q, a });
+    }
+    if (faqMatches.length >= 2) {
+      const faqLd = {
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        inLanguage,
+        mainEntity: faqMatches.map(({ q, a }) => ({
+          '@type': 'Question',
+          name: q,
+          acceptedAnswer: { '@type': 'Answer', text: a },
+        })),
+      };
+      const fq = document.createElement('script');
+      fq.type = 'application/ld+json';
+      fq.id = `jsonld-faq-${slug}`;
+      fq.textContent = JSON.stringify(faqLd);
+      document.head.appendChild(fq);
+      scripts.push(fq);
+    }
+
     return () => { scripts.forEach((s) => s.remove()); };
-  }, [category, slug, title, description, item, openingHours, i18n.language, t]);
+  }, [category, slug, title, description, fullDescription, item, openingHours, i18n.language, t]);
 
   // Redirect if invalid
   if (!isValidCategory || !item) {
