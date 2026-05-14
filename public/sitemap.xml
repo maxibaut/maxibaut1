@@ -926,6 +926,48 @@
     <priority>0.6</priority>
   </url>
 
+  <!-- Active: Symbiosa Graide -->
+  <url>
+    <loc>https://ardennest.be/surroundings/active/symbiosa</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/active/symbiosa"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/active/symbiosa"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/active/symbiosa"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/active/symbiosa"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/active/symbiosa"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/fr/surroundings/active/symbiosa</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/active/symbiosa"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/active/symbiosa"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/active/symbiosa"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/active/symbiosa"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/active/symbiosa"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/en/surroundings/active/symbiosa</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/active/symbiosa"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/active/symbiosa"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/active/symbiosa"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/active/symbiosa"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/active/symbiosa"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/de/surroundings/active/symbiosa</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/active/symbiosa"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/active/symbiosa"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/active/symbiosa"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/active/symbiosa"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/active/symbiosa"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
   <!-- Exclusive: ArdenNest Dropping -->
   <url>
     <loc>https://ardennest.be/surroundings/exclusive/ardennest-dropping</loc>
