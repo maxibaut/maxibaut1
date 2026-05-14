@@ -561,6 +561,10 @@ const SurroundingsDetail = () => {
                     </div>
                   );
                 })}
+                {/* Author signature (E-E-A-T) */}
+                <p className="mt-8 pt-6 border-t border-border text-sm italic text-muted-foreground">
+                  {t('authorSignature', { defaultValue: '' })}
+                </p>
               </div>
 
               {/* Route Steps */}
