@@ -50,7 +50,7 @@ const JournalDetail = () => {
     const imageUrl = entry.image.startsWith('http')
       ? entry.image
       : `https://ardennest.be${entry.image}`;
-    const data = {
+    const article = {
       '@context': 'https://schema.org',
       '@type': 'Article',
       headline: t(`entries.${entry.slug}.title`),
@@ -63,13 +63,30 @@ const JournalDetail = () => {
       author: { '@type': 'Person', '@id': 'https://ardennest.be/#bieke' },
       publisher: { '@type': 'Organization', '@id': 'https://ardennest.be/#organization' },
     };
-    const script = document.createElement('script');
-    script.type = 'application/ld+json';
-    script.id = `article-jsonld-${entry.slug}`;
-    script.textContent = JSON.stringify(data);
-    document.head.appendChild(script);
+    const journalLabel = lang === 'fr' ? 'Journal' : lang === 'de' ? 'Journal' : lang === 'en' ? 'Journal' : 'Journal';
+    const homeLabel = lang === 'fr' ? 'Accueil' : lang === 'de' ? 'Startseite' : lang === 'en' ? 'Home' : 'Home';
+    const breadcrumbs = {
+      '@context': 'https://schema.org',
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: homeLabel, item: `https://ardennest.be${localePath}/` },
+        { '@type': 'ListItem', position: 2, name: journalLabel, item: `https://ardennest.be${localePath}/journal` },
+        { '@type': 'ListItem', position: 3, name: t(`entries.${entry.slug}.title`), item: url },
+      ],
+    };
+    const articleScript = document.createElement('script');
+    articleScript.type = 'application/ld+json';
+    articleScript.id = `article-jsonld-${entry.slug}`;
+    articleScript.textContent = JSON.stringify(article);
+    document.head.appendChild(articleScript);
+    const breadcrumbScript = document.createElement('script');
+    breadcrumbScript.type = 'application/ld+json';
+    breadcrumbScript.id = `breadcrumb-jsonld-${entry.slug}`;
+    breadcrumbScript.textContent = JSON.stringify(breadcrumbs);
+    document.head.appendChild(breadcrumbScript);
     return () => {
-      document.getElementById(script.id)?.remove();
+      document.getElementById(articleScript.id)?.remove();
+      document.getElementById(breadcrumbScript.id)?.remove();
     };
   }, [entry, i18n.language, t]);
 
