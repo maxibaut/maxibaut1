@@ -14,7 +14,7 @@ export const journalEntries: JournalEntry[] = [
   {
     slug: '3-generaties-symbiosa',
     date: '2026-05-12',
-    image: '/images/journal/journal-symbiosa-bospad-graide.webp',
+    image: '/images/journal/journal-symbiosa-illustratie-barbaric-personages-2.webp',
     relatedLink: '/surroundings/active/symbiosa',
     relatedLabelKey: 'relatedSurroundings',
   },
