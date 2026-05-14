@@ -172,6 +172,9 @@ const FAQ = () => {
               <ArrowRight className="ml-2 h-4 w-4" />
             </Link>
           </Button>
+          <p className="mt-8 text-sm text-muted-foreground italic">
+            {t('signature')}
+          </p>
         </div>
       </section>
     </PageWrapper>
