@@ -9,4 +9,6 @@ export interface JournalEntry {
   /** Optional related page link */
   relatedLink?: string;
   relatedLabelKey?: string;
+  /** Hide the hero image at the top of the detail page (image is still used for OG/list thumbnail) */
+  hideHero?: boolean;
 }
