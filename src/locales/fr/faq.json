@@ -1,197 +1,86 @@
 {
   "seo": {
     "title": "Questions fréquentes | ArdenNest Gedinne",
-    "description": "Réponses aux questions sur capacité, cuisine, enfants, réservation et règles d'ArdenNest en Ardenne belge."
+    "description": "Réponses sur la capacité, la cuisine, les enfants, la réservation et le règlement intérieur d'ArdenNest dans les Ardennes belges."
   },
   "title": "Questions fréquentes",
-  "h1": "Réponses aux questions que vous posez le plus souvent",
-  "intro": "De la capacité et la cuisine à la réservation et aux règles de la maison — vous trouverez ici tout ce que les groupes veulent généralement savoir avant de venir. Votre question n'y figure pas ? Envoyez un message à Bieke.",
+  "h1": "Réponses aux questions que vous nous posez le plus souvent",
+  "intro": "De la capacité et de la cuisine à la réservation et au règlement intérieur — vous trouvez ici tout ce que les groupes veulent généralement savoir à l'avance. Votre question n'y est pas ? Envoyez un message à Bieke.",
   "navTitle": "Sur cette page",
   "sections": [
     {
-      "id": "capaciteit",
-      "title": "Capacité & couchages",
+      "id": "capacity",
+      "title": "Capacité & couchage",
       "questions": [
-        {
-          "q": "Combien de personnes ArdenNest peut-il accueillir ?",
-          "a": "Pour les nuitées, ArdenNest accueille jusqu'à 26 personnes, réparties dans 9 chambres. Pour les activités en journée, nous pouvons recevoir jusqu'à 185 personnes."
-        },
-        {
-          "q": "Combien de chambres et de salles de bain ?",
-          "a": "9 chambres, chacune avec sa propre salle de bain privative (douche ou baignoire, WC et lavabo). La répartition : 3 chambres pour 2 personnes, 4 chambres pour 3 personnes et 2 chambres pour 4 personnes.",
-          "link": "/property",
-          "linkText": "Découvrez les chambres"
-        },
-        {
-          "q": "ArdenNest convient-il à plusieurs générations ?",
-          "a": "Oui. Les chambres sont réparties sur deux étages, avec suffisamment de distance entre les coins animés et les coins calmes. Toutes les chambres sont accessibles par escalier — si quelqu'un préfère éviter les escaliers, mieux vaut nous en parler à l'avance."
-        },
-        {
-          "q": "Plusieurs familles peuvent-elles séjourner ensemble ?",
-          "a": "La maison est conçue pour les groupes multigénérationnels ou les familles amies. Chacun dispose de sa chambre privative, et les espaces de vie et extérieurs offrent des endroits pour être ensemble ou se retrouver à l'écart."
-        }
+        { "q": "Combien de personnes ArdenNest peut-il accueillir ?", "a": "ArdenNest peut accueillir jusqu'à 26 personnes, dont maximum 18 adultes — un choix volontaire pour préserver l'équilibre entre convivialité et tranquillité. Cette capacité permet aux familles multigénérationnelles, cercles d'amis ou groupes d'entreprise de séjourner ensemble sans qu'une famille soit reléguée dans une aile séparée. Les 26 personnes prennent place confortablement autour de la grande table en chêne." },
+        { "q": "Combien de chambres et de salles de bains y a-t-il ?", "a": "ArdenNest dispose de 9 chambres, chacune avec sa propre salle de bains privative (douche ou baignoire, toilettes, lavabo) — soit 9 salles de bains au total. La répartition : 3 chambres pour 2 personnes, 4 chambres pour 3 personnes et 2 chambres pour 4 personnes avec mezzanine. Au total : 26 lits simples. Pas de salles de bains partagées, pas de files d'attente le matin." },
+        { "q": "ArdenNest convient-il aux séjours multi-générationnels ?", "a": "Oui — la maison a été conçue spécifiquement pour cela. Grands-parents, parents et enfants y trouvent chacun leur place : des coins tranquilles dans le salon pour ceux qui veulent s'éloigner du brouhaha, un grand jardin pour ceux qui veulent se dépenser, une salle de jeux et une grange aménagée pour les plus petits. Le rez-de-chaussée est accessible aux personnes à mobilité réduite. La grande table en chêne rassemble ensuite tout le monde autour du même repas." },
+        { "q": "Plusieurs familles peuvent-elles séjourner ensemble ?", "a": "Oui, c'est l'un des séjours les plus fréquents à ArdenNest. Avec 9 chambres privatives, chaque famille conserve son intimité, et les espaces communs (table en chêne, vaste salon, cuisine professionnelle, jardin) sont suffisamment grands pour que 3 à 5 familles cohabitent sans se gêner. Pas d'ailes séparées qui divisent le groupe — tout s'articule autour d'un seul point central, pour que le groupe se sente vraiment uni." }
       ]
     },
     {
-      "id": "koken-eten",
+      "id": "kitchen",
       "title": "Cuisiner & manger ensemble",
       "questions": [
-        {
-          "q": "Comment la cuisine est-elle équipée ?",
-          "a": "Une cuisine professionnelle de niveau Horeca : piano Lacanche, 2 lave-vaisselle Miele Professional, larges plans de travail et matériel pour 26 personnes. Cuisiner pour un grand groupe devient un plaisir, pas une corvée.",
-          "link": "/property",
-          "linkText": "Découvrez la cuisine"
-        },
-        {
-          "q": "Mangeons-nous tous à la même table ?",
-          "a": "Oui. La table en chêne de 7m20 accueille confortablement tout le groupe. Pas besoin de rapprocher des tables, pas de demi-conversations — tout le monde autour d'une seule table."
-        },
-        {
-          "q": "Quelle vaisselle, verrerie et couverts sont fournis ?",
-          "a": "Service complet, verrerie, couverts, machine à café, bouilloire, mixeur et tout le matériel de base pour 26 personnes — le tout de qualité hôtelière. Nous disposons aussi d'une vaste collection de verres à bière spécifiques, pour qu'une véritable dégustation de bières belges se déroule dans les règles de l'art. Vous n'avez rien à apporter pour cuisiner ou dîner."
-        },
-        {
-          "q": "Pouvons-nous cuisiner nous-mêmes ou faire appel à un traiteur ?",
-          "a": "Les deux sont possibles. Beaucoup de groupes cuisinent eux-mêmes avec les produits du boulanger et du boucher locaux. Pour ceux qui préfèrent être déchargés, traiteur ou chef à domicile sont possibles — Bieke partage volontiers ses adresses."
-        }
+        { "q": "Comment la cuisine est-elle équipée ?", "a": "La cuisine est équipée au niveau professionnel avec une cuisinière Lacanche (fabrication artisanale française), de grands réfrigérateurs, un congélateur, lave-vaisselle, four et tout le nécessaire pour préparer des repas pour 26 personnes simultanément. Pas un équipement domestique qui faiblit dès 8 convives — c'est une cuisine pensée pour gérer sans effort les repas de groupe, que vous cuisiniez vous-mêmes, en équipe ou que vous fassiez appel à un traiteur." },
+        { "q": "Mangeons-nous tous à la même table ?", "a": "Oui. La table en chêne mesure 7,2 mètres et accueille les 26 personnes en même temps — c'est volontairement le cœur de la maison. Pas de table à part pour les enfants, pas de second service pour les retardataires. Pour les groupes qui veulent surtout être ensemble en vacances, cette table unique fait toute la différence entre \"on partage une maison\" et \"on vit ce moment ensemble\". La table se trouve dans le salon, avec une vue directe sur le jardin." },
+        { "q": "Quelle vaisselle, verrerie et couverts sont prévus ?", "a": "Vaisselle, verres et couverts complets pour 26 personnes — et dans un style cohérent, pas un assortiment de pièces dépareillées. Assiettes pour l'entrée, le plat principal et le dessert ; verres à vin, à eau et flûtes à champagne ; couverts pour tous les services. Également : casseroles, plats à four, planches à découper, saladiers et plats de service pour les repas de groupe. Ce qui n'est pas fourni : linge de table personnalisé ou décoration — c'est à vous de mettre votre touche." },
+        { "q": "Peut-on cuisiner soi-même ou faire venir un traiteur ?", "a": "Les deux sont possibles, et les deux fonctionnent. Cuisiner soi-même fait partie du séjour pour de nombreux groupes — la cuisine est suffisamment spacieuse et la table en chêne assez grande pour s'y attarder quelques heures. Si vous préférez vous détendre, le traiteur à domicile est une excellente option : traiteurs locaux, foodtrucks ou chef privé collaborent volontiers. Bieke peut vous mettre en contact avec des partenaires locaux qui connaissent déjà la maison et la cuisine. Aucun fournisseur n'est imposé." }
       ]
     },
     {
-      "id": "kinderen-families",
+      "id": "children",
       "title": "Enfants & familles",
       "questions": [
-        {
-          "q": "ArdenNest est-il adapté aux enfants ?",
-          "a": "Oui. Le jardin clôturé de 2 hectares, une salle de jeux dans la maison et une grange à jeux séparée permettent aux enfants de s'amuser pendant des heures sans surveillance constante."
-        },
-        {
-          "q": "Y a-t-il des lits bébé et chaises hautes ?",
-          "a": "Oui, sur demande nous fournissons des lits bébé (lits parapluie) et des chaises hautes. Indiquez à la réservation combien il vous en faut."
-        },
-        {
-          "q": "Le jardin est-il sûr pour les jeunes enfants ?",
-          "a": "Le jardin est clôturé et offre beaucoup d'espace pour jouer. Il n'y a pas de piscine — un choix délibéré, car cela génère souvent plus de stress que de plaisir avec de grands groupes d'enfants."
-        },
-        {
-          "q": "Et s'il fait mauvais temps ?",
-          "a": "La salle de jeux et la grange à jeux couverte offrent de nombreuses activités intérieures — baby-foot, ping-pong, jeux de société et livres. De quoi tenir une journée pluvieuse entière."
-        }
+        { "q": "ArdenNest est-il adapté aux enfants ?", "a": "Oui — c'est même souvent la raison pour laquelle les familles reviennent. Le jardin fait 2 hectares, est clos et offre un espace de jeu sécurisé sans que les parents doivent surveiller en permanence. Une salle de jeux à l'intérieur avec des jouets, et une grange aménagée pour les tout-petits. Plusieurs chaises hautes sont à disposition ; pour les lits bébé, nous vous demandons de les apporter vous-mêmes. La maison elle-même est robuste, pas de stress canapé-blanc-en-cuir — les enfants peuvent être enfants." },
+        { "q": "Y a-t-il des lits bébé et des chaises hautes ?", "a": "Oui, plusieurs chaises hautes sont à disposition. Pour les lits bébé, nous vous demandons de les apporter vous-mêmes. Si vous avez des besoins particuliers (lit parapluie vs lit en bois, chaise spéciale) — informez Bieke, nous regardons ce qui est possible." },
+        { "q": "Le jardin est-il sûr pour les petits enfants ?", "a": "Le jardin est entièrement clos, donc les petits enfants ne peuvent pas s'échapper vers la route. Pas de piscine, pas d'étang — un choix volontaire pour que le jardin soit vraiment sans souci pour ceux qui ont des tout-petits. Mais : jeux d'enfants, terrain de foot, vastes pelouses pour gambader. Ce que les parents doivent surveiller eux-mêmes : risques mineurs comme plantes ou allée gravillonnée — la vigilance habituelle suffit." },
+        { "q": "Que faire en cas de mauvais temps ?", "a": "Même par mauvais temps, la maison reste agréable — la cheminée du salon est faite pour s'y attarder des heures, la salle de jeux et la grange occupent les enfants, et la table en chêne se prête aux longues soirées jeux de société ou aux séances de cuisine prolongées. Avec 26 personnes sur 2 hectares, il y a aussi assez d'espace intérieur pour que chacun trouve son coin. N'oubliez pas : les Ardennes belges sont magnifiques sous la pluie et la brume — une courte balade offre souvent les plus belles ambiances." }
       ]
     },
     {
-      "id": "praktisch",
+      "id": "practical",
       "title": "Séjour pratique",
       "questions": [
-        {
-          "q": "Quelles sont les heures d'arrivée et de départ ?",
-          "a": "Arrivée à partir de 16h00, départ avant 10h00. La maison est nettoyée jusqu'à 16h le jour d'arrivée, une arrivée plus tôt n'est donc pas possible."
-        },
-        {
-          "q": "Et si nous arrivons plus tôt ?",
-          "a": "Nous avons une page dédiée avec des conseils pour ceux qui sont sur place plus tôt — promenades, un restaurant local, ou où garer les voitures.",
-          "link": "/early-arrival",
-          "linkText": "Conseils pour arrivée anticipée"
-        },
-        {
-          "q": "Y a-t-il du WiFi ?",
-          "a": "Oui, WiFi gratuit dans toute la maison — pas de fibre optique, mais un réseau mesh avec plusieurs bornes Ubiquiti. Une fois le mot de passe saisi, vous êtes connectés partout, même au fond du jardin. Assez rapide pour plusieurs visioconférences ou du streaming en parallèle."
-        },
-        {
-          "q": "Combien de places de parking ?",
-          "a": "Grand parking gratuit sur le domaine pour tous les hôtes — aucun problème si vous venez avec plusieurs voitures."
-        },
-        {
-          "q": "Y a-t-il une borne de recharge pour voiture électrique ?",
-          "a": "Oui, une borne de recharge VE est disponible sur le domaine."
-        },
-        {
-          "q": "Qu'est-ce qui est inclus dans le prix ?",
-          "a": "Linge de lit (De Witte Lietaer), serviettes, ménage final, chauffage et produits de base sont inclus. Vous recevrez un aperçu complet à la réservation."
-        },
-        {
-          "q": "Comment fonctionnent les charges (chauffage, électricité, bois) ?",
-          "a": "Nous appliquons un système transparent de consommation honnête : une température de base de 18°C est incluse, au-delà vous payez la consommation réelle après le séjour. Pas de forfait, pas de surprise."
-        },
-        {
-          "q": "La maison est-elle accessible aux personnes à mobilité réduite ?",
-          "a": "Le rez-de-chaussée est accessible en fauteuil roulant, mais il n'y a pas de chambre au rez-de-chaussée. Pour des questions spécifiques, contactez Bieke."
-        }
+        { "q": "À quelle heure l'arrivée et le départ ?", "a": "L'arrivée se fait à partir de 16h, le départ avant 10h. Nous gardons ce créneau libre pour le nettoyage — vous trouverez ainsi toujours la maison dans le même état impeccable. Bieke est présente personnellement à votre arrivée pour vous accueillir et faire le tour de la maison. Pour le départ, nous vous demandons de parcourir la courte [checklist de départ](https://ardennest.be/checklist) — courte, honnête, sans surprises." },
+        { "q": "Et si nous arrivons plus tôt ?", "a": "Une arrivée un peu plus tôt est parfois possible sur arrangement, selon le ménage du jour — pas de garantie, mais pas non plus de \"non absolu\". Envoyez un message à Bieke quelques jours à l'avance, nous regardons ce qui est faisable. Si vous arrivez vraiment tôt (le matin) ? Sur [/early-arrival](https://ardennest.be/early-arrival) du site, vous trouvez ce qu'il est possible de faire entretemps — une balade autour de Bouillon ou une terrasse à Dinant, par exemple." },
+        { "q": "Y a-t-il du wifi ?", "a": "Oui, wifi gratuit dans toute la maison — à l'intérieur comme sur la terrasse. La connexion est assez stable pour streamer ou faire des appels vidéo à plusieurs en même temps, si besoin. Mais soyons honnêtes : le plus beau d'ArdenNest, c'est l'endroit où vous laissez votre téléphone." },
+        { "q": "Combien de places de parking y a-t-il ?", "a": "Parking gratuit pour 9 voitures sur le domaine. Pas de stationnement en rue, pas de zone bleue, pas de souci de \"qui se gare où\". Caravanes et utilitaires sont bienvenus ; prévenez Bieke à l'avance pour être sûrs." },
+        { "q": "Y a-t-il une borne de recharge pour voitures électriques ?", "a": "Oui, une borne de recharge sur le domaine, sans carte ni application — vous branchez et chargez, compatible avec tous les véhicules électriques. La consommation est enregistrée ; après votre séjour, vous recevez un décompte avec un graphique de la charge journalière et le coût correspondant. Pas d'abonnement, pas de mauvaises surprises." },
+        { "q": "Qu'est-ce qui est inclus dans le prix ?", "a": "Inclus en standard : draps de lit complets (housses, couettes, oreillers), serviettes de bain et torchons pour tous les invités, ménage de fin, chauffage et produits de base (liquide vaisselle, savon, papier toilette pour les premiers jours). Wifi, parking et borne VE sont également compris. Un récapitulatif détaillé vous est envoyé à la confirmation de la réservation." },
+        { "q": "Comment fonctionne la consommation (chauffage, électricité, bois) ?", "a": "Le chauffage et l'électricité sont inclus dans le prix — pas de mauvaises surprises en fin de séjour. Pour le poêle à bois / la cheminée du salon, nous fonctionnons avec des bacs de bois : vous payez par bac entamé que vous utilisez, décompté équitablement après le séjour. **Apporter son propre bois pour le poêle n'est pas autorisé** — notre poêle est conçu pour un bois spécifiquement séché, et un bois inadapté peut l'endommager." },
+        { "q": "La maison est-elle accessible aux personnes à mobilité réduite ?", "a": "Le rez-de-chaussée est accessible : salon, table en chêne, cuisine, toilettes accessibles — tout sans escalier. **Toutes les chambres sont à l'étage**, accessibles uniquement par escalier. Pour les personnes ayant des difficultés à monter, c'est donc à bien évaluer à l'avance. Envoyez un message à Bieke en décrivant la situation spécifique (fauteuil roulant, déambulateur, mobilité limitée en escalier) — nous pouvons alors évaluer honnêtement si ArdenNest est faisable, ou si une autre option vous conviendrait mieux." }
       ]
     },
     {
-      "id": "boeking-prijzen",
+      "id": "booking",
       "title": "Réservation, prix & conditions",
       "questions": [
-        {
-          "q": "Combien coûte un séjour ?",
-          "a": "Les tarifs varient selon la saison et la période. Les prix actuels et la disponibilité figurent dans le calendrier de réservation.",
-          "link": "/booking",
-          "linkText": "Voir disponibilité et prix"
-        },
-        {
-          "q": "Quelle est la durée minimale de séjour ?",
-          "a": "Minimum 2 nuits. En vacances scolaires, un minimum de 7 nuits s'applique."
-        },
-        {
-          "q": "Combien de temps à l'avance réserver ?",
-          "a": "Pour les vacances scolaires et longs week-ends, 3 à 6 mois à l'avance. Pour les week-ends hors vacances, 1 à 2 mois suffisent souvent."
-        },
-        {
-          "q": "Y a-t-il des coûts cachés ?",
-          "a": "Non. À la réservation, vous voyez le prix complet (séjour + ménage final + caution + taxe de séjour). Seule la consommation réelle (chauffage/électricité au-delà du 18°C de base) est facturée après le séjour."
-        },
-        {
-          "q": "Comment fonctionne l'annulation ?",
-          "a": "Nous appliquons une politique d'annulation transparente en 3 paliers. Les pourcentages dépendent du délai avant l'arrivée.",
-          "link": "/cancellation-policy",
-          "linkText": "Lire la politique d'annulation"
-        },
-        {
-          "q": "Comment payer ?",
-          "a": "Via la page de réservation par Bancontact, carte de crédit ou virement. Un acompte à la réservation, le solde quelques semaines avant l'arrivée."
-        },
-        {
-          "q": "Réserver directement ou via une plateforme ?",
-          "a": "Les deux sont possibles, mais réserver directement via ardennest.be est toujours plus avantageux — pas de commission, et contact direct avec Bieke avant, pendant et après le séjour."
-        }
+        { "q": "Combien coûte un séjour ?", "a": "Les tarifs varient selon la saison, jours de semaine vs week-end et durée du séjour — un week-end famille en octobre ne coûte pas le même prix qu'une semaine en vacances scolaires. Les prix actuels et disponibilités sont sur [/booking](https://ardennest.be/booking). Bieke peut établir un devis personnalisé pour des périodes ou demandes spécifiques (ménage supplémentaire, décoration, lien avec traiteur) — un court email suffit." },
+        { "q": "Quelle est la durée minimale de séjour ?", "a": "Minimum standard : 2 nuits. En haute saison (vacances scolaires belges, néerlandaises et allemandes, Pâques, Noël et Nouvel An), le minimum est de 7 nuits — pour que le séjour reste détendu pour vous et gérable pour nous. Pour 3 nuits pendant une semaine de haute saison, vous pouvez contacter Bieke : parfois une exception est possible s'il reste des créneaux libres." },
+        { "q": "Combien de temps à l'avance faut-il réserver ?", "a": "Pour les périodes populaires (vacances scolaires, longs week-ends, Noël et Nouvel An), nous recommandons de réserver 3 à 6 mois à l'avance — ces dates sont souvent complètes un an avant. Pour les week-ends et périodes calmes (novembre, janvier-février hors vacances), 1 à 2 mois suffisent généralement. Last-minute aussi possible : consultez [/booking](https://ardennest.be/booking) ou contactez directement Bieke — il y a parfois des libérations par annulation." },
+        { "q": "Y a-t-il des frais cachés ?", "a": "Non. Le prix sur [/booking](https://ardennest.be/booking) est tout compris : draps, ménage de fin, chauffage, électricité, wifi, parking. En plus du tarif du séjour, s'ajoutent uniquement : la taxe de séjour légale, une caution, et la consommation de bois (par bac entamé) et de la borne VE (selon consommation réelle). Tous les tarifs et conditions exacts figurent dans les [conditions de location](https://ardennest.be/rental-terms)." },
+        { "q": "Comment se passe une annulation ?", "a": "La politique d'annulation complète est sur [/cancellation-policy](https://ardennest.be/cancellation-policy) — en résumé : plus l'annulation est anticipée, plus le remboursement est élevé. Nous recommandons à tout groupe d'envisager une assurance annulation, surtout pour les séjours en grand groupe où le risque d'un désistement de dernière minute augmente. En cas de force majeure (interdiction de voyage officielle, décès dans la famille proche), une solution est toujours trouvée personnellement." },
+        { "q": "Comment payons-nous ?", "a": "La procédure de paiement complète — acompte, solde, échéances et modes de paiement — est expliquée en détail dans les [conditions de location](https://ardennest.be/rental-terms). En réservation directe via [/booking](https://ardennest.be/booking), vous recevez toujours une facture. En réservation via Booking.com ou Airbnb, leur flux de paiement propre s'applique." },
+        { "q": "Réservons-nous en direct ou via une plateforme ?", "a": "Les deux sont possibles, mais la réservation directe via [/booking](https://ardennest.be/booking) est plus intéressante pour vous et pour nous. Pour vous : pas de commission de plateforme (généralement 15-18 % sur Booking.com) cachée dans le prix, ligne directe avec Bieke pour du sur-mesure, devis personnalisé possible. Pour nous : moins dépendants des plateformes qui changent leurs règles du jeu. Vous préférez Booking.com ou Airbnb ? C'est aussi possible — vous êtes tout aussi bienvenus." }
       ]
     },
     {
-      "id": "locatie-regels",
-      "title": "Localisation, environs & règles",
+      "id": "location",
+      "title": "Localisation, environs & règlement",
       "questions": [
-        {
-          "q": "Comment accéder à ArdenNest ?",
-          "a": "ArdenNest se situe à Gedinne (5575), accessible via l'E411. De Bruxelles environ 1h30, Anvers 1h55, Cologne 2h10. L'arrêt de bus Gedinne Kewet est devant la porte (lignes 141 et 241, TEC)."
-        },
-        {
-          "q": "Que faire dans les environs ?",
-          "a": "Sentiers de randonnée au départ de la maison, VTT et RAVeL, kayak sur la Semois, parcs d'aventure et villes historiques comme Bouillon à 15 minutes. Aussi restaurants, boulangers et commerces locaux à proximité.",
-          "link": "/surroundings",
-          "linkText": "Découvrez les environs"
-        },
-        {
-          "q": "Les animaux sont-ils acceptés ?",
-          "a": "Nous n'acceptons pas les animaux — afin de garantir un séjour sans souci pour les hôtes allergiques. Nous savons que votre animal fait partie de la famille et espérons votre compréhension."
-        },
-        {
-          "q": "Peut-on fumer ?",
-          "a": "Pas à l'intérieur. Sur la terrasse extérieure c'est possible, avec les cendriers que nous mettons à disposition."
-        },
-        {
-          "q": "Pouvons-nous organiser une fête ou un événement ?",
-          "a": "ArdenNest est fait pour les moments de qualité — longues conversations à la table en chêne, enfants qui s'amusent, soirées qui s'éteignent naturellement. Nous ne sommes volontairement pas un lieu de fête. La musique amplifiée et les festivités bruyantes ne correspondent pas à la tranquillité que nous préservons."
-        },
-        {
-          "q": "Y a-t-il des règles concernant le bruit le soir ?",
-          "a": "À partir de 22h00, nous demandons de respecter la tranquillité du voisinage et du village. Discuter sur la terrasse est possible, en restant attentif au volume."
-        }
+        { "q": "Comment se rendre à ArdenNest ?", "a": "Adresse : Rue de la Ferme 3, 5575 Gedinne (Malvoisin), province de Namur. En voiture par l'E411 — environ 1h30 depuis Bruxelles, 1h55 depuis Anvers, 2h10 depuis Cologne, 1h15 depuis Luxembourg. En transports publics : train jusqu'à la gare de Gedinne, puis ligne de bus (arrêt Gedinne Kewet, à quelques minutes à pied de la maison). Un itinéraire détaillé + des conseils en route vous sont envoyés à la confirmation." },
+        { "q": "Que faire dans les environs ?", "a": "Les Ardennes belges sont une région de randonnée et de nature par excellence. À distance de vélo ou de courte route :\n\n- **Bouillon** (15 min) — château médiéval, magnifique ville sur la Semois.\n- **Han-sur-Lesse** — grottes mondialement connues + parc animalier.\n- **Rochefort** — petite ville historique, abbaye, brasserie.\n- **Furfooz** (parc naturel) — randonnées entre rochers et grottes.\n- **Dinant** — citadelle, vallée de la Meuse, ville natale du saxophone.\n- **Vallée de la Lesse** — kayak et canoë.\n\nBieke vous donne à l'arrivée des conseils personnalisés selon la saison et le groupe — ce qui est beau en octobre n'est pas ce qui fonctionne en juillet. Pour les courses quotidiennes (supermarché, boulangerie, boucherie) : voir [commerces à proximité](https://ardennest.be/shops)." },
+        { "q": "Les animaux de compagnie sont-ils autorisés ?", "a": "Nous n'accueillons pas les animaux de compagnie — pour garantir un séjour sans souci aux invités allergiques, et parce que le mobilier et les tissus ne résisteraient pas à des visites animales répétées. Nous savons que votre animal fait partie de la famille et espérons votre compréhension. Bieke peut recommander un dog-sitter de confiance ou une pension animalière à proximité sur demande." },
+        { "q": "Peut-on fumer ?", "a": "À l'intérieur, on ne fume pas — pour les odeurs dans les tissus et rideaux, et par respect pour les invités suivants. Sur la terrasse ou dans le jardin, oui, en utilisant les cendriers à disposition. Mégots ou cigarettes laissés sur l'herbe sont très sensibles en Ardenne, surtout en été sec ; nous demandons donc de tout ramasser proprement." },
+        { "q": "Peut-on organiser une fête ou un événement ?", "a": "ArdenNest est fait pour le quality time — longues conversations autour de la table en chêne, enfants qui se défoulent dans le jardin, soirées qui s'éteignent doucement au coin du feu. Ce que nous ne sommes pas : un lieu de fête. Mariages, suites nuptiales, EVG/EVJF avec musique forte, fêtes d'entreprise avec DJ jusqu'au petit matin — cela ne convient ni à ce lieu ni au voisinage. Un anniversaire, un jubilé ou un week-end familial avec dîner et musique jusqu'à une heure raisonnable est évidemment possible. En cas de doute : envoyez un message à Bieke avec votre plan, nous regardons ensemble." },
+        { "q": "Y a-t-il des règles sur le bruit le soir ?", "a": "À partir de 22h, plus de bruit dehors — pas de musique sur la terrasse, pas d'éclats à travers le jardin. Parler reste possible, dehors aussi, même après dix heures. C'est une question de respect pour les voisins et pour le calme qui rend les Ardennes si particulières. Continuer à l'intérieur avec de la musique ou une conversation animée : aucun problème, le salon est assez grand pour cela. Toutes les règles en détail : [règlement intérieur](https://ardennest.be/house-rules)." }
       ]
     }
   ],
   "cta": {
-    "title": "Votre question n'y figure pas ?",
-    "text": "Bieke répond personnellement — par téléphone, e-mail ou WhatsApp.",
+    "title": "Votre question n'y est pas ?",
+    "text": "Bieke répond personnellement — par téléphone, email ou WhatsApp.",
     "button": "Nous contacter"
   }
 }

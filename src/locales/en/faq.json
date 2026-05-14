@@ -1,197 +1,86 @@
 {
   "seo": {
-    "title": "Frequently asked questions | ArdenNest",
-    "description": "Answers about capacity, kitchen, children, booking and house rules at ArdenNest in the Belgian Ardennes."
+    "title": "FAQ | ArdenNest Gedinne",
+    "description": "Answers about capacity, kitchen, kids, booking and house rules of ArdenNest in the Belgian Ardennes."
   },
   "title": "Frequently asked questions",
-  "h1": "Answers to the questions you ask most often",
-  "intro": "From capacity and kitchen to booking and house rules — here you'll find everything groups usually want to know in advance. Question not listed? Send Bieke a message.",
+  "h1": "Answers to the questions you ask us most",
+  "intro": "From capacity and the kitchen to booking and house rules — here you'll find everything groups usually want to know in advance. Your question not listed? Send Bieke a message.",
   "navTitle": "On this page",
   "sections": [
     {
-      "id": "capaciteit",
-      "title": "Capacity & sleeping arrangements",
+      "id": "capacity",
+      "title": "Capacity & sleeping arrangement",
       "questions": [
-        {
-          "q": "How many guests can ArdenNest accommodate?",
-          "a": "For overnight stays, ArdenNest accommodates up to 26 guests across 9 bedrooms. For daytime activities, we can welcome up to 185 people."
-        },
-        {
-          "q": "How many bedrooms and bathrooms are there?",
-          "a": "9 bedrooms, each with its own ensuite bathroom (shower or bath, toilet and washbasin). The layout: 3 rooms for 2 persons, 4 rooms for 3 persons and 2 rooms for 4 persons.",
-          "link": "/property",
-          "linkText": "View the bedrooms"
-        },
-        {
-          "q": "Is ArdenNest suitable for multiple generations together?",
-          "a": "Yes. The bedrooms are spread across two floors, with enough distance between lively and quiet corners. All bedrooms are reached by stairs — if someone prefers to avoid stairs, it's best to discuss this with us in advance."
-        },
-        {
-          "q": "Can multiple families stay together?",
-          "a": "The house is purposely designed for multigenerational groups or families of friends. Everyone has their own ensuite room, and the living areas and outdoor spaces offer room to be together or to step away for a moment."
-        }
+        { "q": "How many people can ArdenNest accommodate?", "a": "ArdenNest accommodates up to 26 people, with a maximum of 18 adults — a deliberate choice to preserve the balance between liveliness and calm. This capacity lets multigenerational families, groups of friends, or company retreats stay together without anyone being relegated to a separate wing. All 26 fit comfortably around the central oak table." },
+        { "q": "How many bedrooms and bathrooms are there?", "a": "ArdenNest has 9 bedrooms, each with its own ensuite bathroom (shower or bath, toilet, sink) — that's 9 bathrooms total. The breakdown: 3 rooms for 2 people, 4 rooms for 3 people, and 2 rooms for 4 people with a mezzanine. 26 single beds in total. No shared bathrooms, no morning queues." },
+        { "q": "Is ArdenNest suitable for multiple generations together?", "a": "Yes — the house was deliberately designed for this. Grandparents, parents and children each find their space: quiet corners in the living room for those wanting a break from the noise, a large garden for those needing to burn energy, a playroom and converted play barn for the youngest. The ground floor is accessible for those with reduced mobility. The central oak table then brings everyone back together for shared meals." },
+        { "q": "Can multiple families stay together?", "a": "Yes, this is one of the most common stays at ArdenNest. With 9 ensuite bedrooms, each family keeps its own privacy, and the shared spaces (oak table, large living room, professional kitchen, garden) are spacious enough for 3 to 5 families to coexist without getting in each other's way. No separate wings to split the group — everything centres around one focal point, so the group really feels like one group." }
       ]
     },
     {
-      "id": "koken-eten",
-      "title": "Cooking & eating together",
+      "id": "kitchen",
+      "title": "Cooking & dining together",
       "questions": [
-        {
-          "q": "How is the kitchen equipped?",
-          "a": "A professional kitchen at hospitality level: Lacanche range, 2 Miele Professional dishwashers, generous worktops and cookware for 26 people. Cooking for a large group becomes a pleasure, not a chore.",
-          "link": "/property",
-          "linkText": "View the kitchen"
-        },
-        {
-          "q": "Do we eat together at one table?",
-          "a": "Yes. The 7.20m oak dining table seats the whole group comfortably. No tables to push together, no half conversations — everyone around one table."
-        },
-        {
-          "q": "What dishes, glassware and cutlery are provided?",
-          "a": "Full dinner service, glassware, cutlery, coffee maker, kettle, blender and all basic equipment for 26 people — all of hotel quality. We also have an extensive collection of specialty beer glasses, so a proper Belgian beer tasting can be enjoyed exactly as it should be. You don't need to bring anything to cook or dine."
-        },
-        {
-          "q": "Can we cook ourselves or arrange catering?",
-          "a": "Both are possible. Many groups cook themselves with produce from the local baker and butcher. For those who prefer to be relieved, catering or a chef at home are options — Bieke happily shares addresses."
-        }
+        { "q": "How is the kitchen equipped?", "a": "The kitchen is equipped to professional hospitality standards with a Lacanche range cooker (French artisanal manufacture), large refrigerators, a freezer, professional Miele dishwasher, oven and everything you need to cook for 26 people at once. Not a domestic setup that struggles past 8 guests — this is a kitchen designed to handle group meals effortlessly, whether you cook yourselves, cook together, or have catering brought in." },
+        { "q": "Do we all dine at one table?", "a": "Yes. The oak table is 7.2 metres long and seats all 26 people at once — deliberately the heart of the house. No separate kids' table, no second sitting for those running late. For groups whose vacation is mainly about being together, that single table makes the difference between \"we're sharing a house\" and \"we're experiencing this together.\" The table sits in the living area with a direct view of the garden." },
+        { "q": "What tableware, glassware and cutlery is provided?", "a": "Complete tableware, glassware and cutlery for 26 people — all in a coherent style, not a patchwork of leftovers. Plates for starter, main and dessert; wine glasses, water glasses, champagne flutes; cutlery for every course. Also: pots, oven dishes, chopping boards, bowls and serving ware for group meals. What's not provided: personalised luxury linens or decoration — that's where you bring your own accent." },
+        { "q": "Can we cook ourselves or have catering brought in?", "a": "Both work, and both are common. Cooking yourselves is part of the stay for many groups — the kitchen has enough space and the oak table is big enough to linger around for hours. If you'd rather relax, catering at the house is straightforward: local caterers, food trucks or a private chef are happy to come. Bieke can introduce you to local names who already know the house and kitchen. No mandatory supplier." }
       ]
     },
     {
-      "id": "kinderen-families",
+      "id": "children",
       "title": "Children & families",
       "questions": [
-        {
-          "q": "Is ArdenNest child-friendly?",
-          "a": "Yes. The fenced 2-hectare garden, a playroom in the house and a separate play stable mean children can entertain themselves for hours without constant supervision."
-        },
-        {
-          "q": "Are cots and high chairs available?",
-          "a": "Yes, on request we provide travel cots and high chairs. Let us know at booking how many you need."
-        },
-        {
-          "q": "Is the garden safe for young children?",
-          "a": "The garden is fenced and offers plenty of space to play. There is no swimming pool — a deliberate choice, as it tends to create more stress than fun with large groups of children."
-        },
-        {
-          "q": "What if the weather is poor?",
-          "a": "The indoor playroom and the covered play stable provide plenty of indoor activities — table football, table tennis, board games and books. Enough to bridge a full rainy day."
-        }
+        { "q": "Is ArdenNest child-friendly?", "a": "Yes — often the main reason families return. The garden is 2 hectares, enclosed, and offers safe play space without parents needing to keep constant watch. A playroom indoors with toys, and a converted play barn for the very youngest. Several high chairs are available; cots we kindly ask you to bring yourselves. The house itself is robust, no white-leather-sofa stress — kids can be kids." },
+        { "q": "Are cots and high chairs provided?", "a": "Yes, several high chairs are available. Cots we kindly ask you to bring yourselves. For specific preferences (travel cot vs wooden cot, special seat) — let Bieke know and we'll see what's possible." },
+        { "q": "Is the garden safe for small children?", "a": "The garden is fully enclosed, so small children can't wander off to the road. No pool, no pond — a deliberate choice so the garden is truly worry-free for those with toddlers. But: play equipment, a football pitch, large lawns for running. What parents should still watch themselves: smaller risks like plants or a gravel path — normal garden awareness is enough." },
+        { "q": "What if the weather is bad?", "a": "Even in rain or cold, the house stays welcoming — the open fireplace in the living room invites you to linger for hours, the playroom and play barn keep children busy, and the oak table lends itself to long board game evenings or extended cooking sessions. With 26 people on 2 hectares, there's enough indoor space for everyone to find their spot. Don't forget: the Belgian Ardennes are at their most beautiful in rain and mist — a short walk often delivers the most atmospheric scenes." }
       ]
     },
     {
-      "id": "praktisch",
+      "id": "practical",
       "title": "Practical stay",
       "questions": [
-        {
-          "q": "What are check-in and check-out times?",
-          "a": "Check-in from 16:00, check-out before 10:00. The house is cleaned until 4 PM on arrival day, so earlier check-in isn't possible."
-        },
-        {
-          "q": "What if we arrive earlier?",
-          "a": "We have a dedicated page with tips for those arriving early — walks, a local restaurant, or where to leave the cars.",
-          "link": "/early-arrival",
-          "linkText": "View early arrival tips"
-        },
-        {
-          "q": "Is there WiFi?",
-          "a": "Yes, free WiFi throughout the house — no fibre, but a mesh network with multiple Ubiquiti access points. Enter the password once and you have coverage everywhere, even at the back of the garden. Fast enough for several video calls or streaming at the same time."
-        },
-        {
-          "q": "How many parking spaces are there?",
-          "a": "Ample free parking on the estate for all guests — no problem if you arrive in several cars."
-        },
-        {
-          "q": "Is there an EV charging point?",
-          "a": "Yes, an EV charging point is available on the estate."
-        },
-        {
-          "q": "What is included in the price?",
-          "a": "Bed linen (De Witte Lietaer), towels, final cleaning, heating and basic products are included. You'll receive a complete overview at booking."
-        },
-        {
-          "q": "How are utilities (heating, electricity, wood) handled?",
-          "a": "We apply a transparent fair-use system: a base temperature of 18°C is included, beyond that you pay actual consumption after the stay. No flat fees, no surprises."
-        },
-        {
-          "q": "Is the house accessible for guests with reduced mobility?",
-          "a": "The ground floor is wheelchair-accessible, but there is no bedroom on the ground floor. For specific questions, contact Bieke."
-        }
+        { "q": "What time is check-in and check-out?", "a": "Check-in is from 16:00, check-out by 10:00. We keep the window between free for cleaning — so you always find the house in the same condition. Bieke is there in person on arrival to welcome you and walk you through the house. For check-out we ask you to go through the short [departure checklist](https://ardennest.be/checklist) — brief, fair, no surprises." },
+        { "q": "What if we arrive earlier?", "a": "An earlier check-in is sometimes possible by arrangement, depending on the cleaning that day — no guarantee, but no flat \"no\" either. Send Bieke a message a few days ahead and we'll see what works. Arriving really early (in the morning)? On [/early-arrival](https://ardennest.be/early-arrival) on the site you'll find what's possible in the meantime — a walk around Bouillon or a terrace in Dinant, for example." },
+        { "q": "Is there wifi?", "a": "Yes, free wifi throughout the house — indoors and on the terrace. The connection is strong enough for multiple people streaming or video calling at once, if needed. But honestly: the best part of ArdenNest is where you put your phone down." },
+        { "q": "How many parking spaces are there?", "a": "Free parking for 9 cars on the property. No street parking, no blue zone, no \"who parks where\" worries. Caravans and larger vans welcome; let Bieke know in advance to be sure." },
+        { "q": "Is there an EV charging point?", "a": "Yes, one charging point on the property, no card or app — just plug in and charge, works with all electric vehicles. Consumption is tracked; after your stay you receive a settlement with a graph of the daily charge and the corresponding cost. No subscription, no surprises." },
+        { "q": "What is included in the price?", "a": "Standard inclusions: full bedding (sheets, duvets, pillows), bath and kitchen towels for all guests, end-of-stay cleaning, heating and basic supplies (dish soap, hand soap, toilet paper for the first days). Wifi, parking and the EV charger are included too. A complete overview is sent with your booking confirmation." },
+        { "q": "How does utility consumption work (heating, electricity, firewood)?", "a": "Heating and electricity are included — no surprises at the end of the stay. For the wood stove / fireplace in the living room we work with crates of wood: you pay per crate you open and use, settled fairly after the stay. **Bringing your own wood for the stove is not allowed** — our stove is designed for specifically dried wood, and unsuitable firewood can damage it." },
+        { "q": "Is the house accessible for guests with reduced mobility?", "a": "The ground floor is accessible: living room, oak table, kitchen, an accessible toilet — all reachable without stairs. **All bedrooms are on the upper floor**, only accessible by stairs. For guests with stair difficulties, this is something to assess carefully in advance. Send Bieke a message with the specific situation (wheelchair, walker, limited stair mobility) — we can then honestly assess whether ArdenNest is feasible, or whether another option would suit you better." }
       ]
     },
     {
-      "id": "boeking-prijzen",
+      "id": "booking",
       "title": "Booking, price & conditions",
       "questions": [
-        {
-          "q": "How much does a stay cost?",
-          "a": "Rates vary by season and period. Current prices and availability are in the booking calendar.",
-          "link": "/booking",
-          "linkText": "View availability and prices"
-        },
-        {
-          "q": "What is the minimum length of stay?",
-          "a": "Minimum 2 nights. During school holidays a minimum of 7 nights applies."
-        },
-        {
-          "q": "How far in advance should we book?",
-          "a": "For school holidays and long weekends, 3 to 6 months ahead. For weekends outside holiday periods, 1 to 2 months is often sufficient."
-        },
-        {
-          "q": "Are there hidden costs?",
-          "a": "No. At booking you see the full price (stay + final cleaning + deposit + tourist tax). Only actual consumption (heating/electricity above the 18°C base) is settled after the stay."
-        },
-        {
-          "q": "How does cancellation work?",
-          "a": "We apply a transparent 3-tier cancellation policy. The percentages depend on how far before arrival you cancel.",
-          "link": "/cancellation-policy",
-          "linkText": "Read the cancellation policy"
-        },
-        {
-          "q": "How do we pay?",
-          "a": "Via the booking page with Bancontact, credit card or bank transfer. A deposit at booking, the balance a few weeks before arrival."
-        },
-        {
-          "q": "Should we book directly or via a platform?",
-          "a": "Both are possible, but booking directly via ardennest.be is always better value — no platform fee, and direct contact with Bieke for questions before, during and after the stay."
-        }
+        { "q": "What does a stay cost?", "a": "Rates vary by season, weekdays vs weekends, and length of stay — a family weekend in October is priced differently from a week in school holidays. Current prices and availability are on [/booking](https://ardennest.be/booking). Bieke can put together a personal quote for specific periods or special needs (extra cleaning, decoration, catering introduction) — a short email is enough." },
+        { "q": "What is the minimum stay?", "a": "Standard minimum: 2 nights. In high season (Belgian, Dutch and German school holidays, Easter, Christmas and New Year), the minimum is 7 nights — so the stay stays relaxed for you and logistically workable for us. For 3 nights during a high-season week, you can contact Bieke: sometimes an exception is possible if there are gaps in the calendar." },
+        { "q": "How far ahead should we book?", "a": "For popular periods (school holidays, long weekends, Christmas and New Year), we recommend booking 3 to 6 months ahead — those dates are often full a year in advance. For weekends and quieter periods (November, January-February outside holidays), 1 to 2 months is usually enough. Last-minute also works: check [/booking](https://ardennest.be/booking) or contact Bieke directly — sometimes a slot opens through cancellation." },
+        { "q": "Are there hidden costs?", "a": "No. The price on [/booking](https://ardennest.be/booking) is all-in: bedding, end-of-stay cleaning, heating, electricity, wifi, parking. On top of the stay rate, only the following are added: the statutory tourist tax, a deposit, and consumption of firewood (per crate opened) and the EV charger (based on actual usage). All exact rates and conditions are in the [rental terms](https://ardennest.be/rental-terms)." },
+        { "q": "How does cancellation work?", "a": "The full cancellation policy is on [/cancellation-policy](https://ardennest.be/cancellation-policy) — in short: the earlier you cancel, the more is refunded. We recommend every group consider cancellation insurance, especially for large group stays where the chance of a last-minute drop-out is higher. In case of force majeure (official travel ban, death in immediate family), we always look for a personal solution." },
+        { "q": "How do we pay?", "a": "The complete payment arrangement — deposit, balance, payment deadlines and methods — is explained in detail in the [rental terms](https://ardennest.be/rental-terms). For direct bookings via [/booking](https://ardennest.be/booking) you always receive an invoice. For bookings via Booking.com or Airbnb, their own payment flow applies." },
+        { "q": "Do we book directly or via a platform?", "a": "Both work, but direct booking via [/booking](https://ardennest.be/booking) is better for you and for us. For you: no platform commission (typically 15-18% on Booking.com) hidden in the price, direct line to Bieke for tailored requests, personal quote possible. For us: less dependence on platforms that can change their rules. Prefer to book via Booking.com or Airbnb? That works too — you're just as welcome." }
       ]
     },
     {
-      "id": "locatie-regels",
+      "id": "location",
       "title": "Location, surroundings & house rules",
       "questions": [
-        {
-          "q": "How do we get to ArdenNest?",
-          "a": "ArdenNest is located in Gedinne (5575), accessible via the E411. From Brussels about 1h30, Antwerp 1h55, Cologne 2h10. The Gedinne Kewet bus stop is right at the door (lines 141 and 241, TEC)."
-        },
-        {
-          "q": "What is there to do in the area?",
-          "a": "Walking trails from the doorstep, mountain bike and RAVeL routes, kayaking on the Semois, adventure parks and historic towns like Bouillon at 15 minutes. Restaurants, bakers and local shops are nearby too.",
-          "link": "/surroundings",
-          "linkText": "Discover the surroundings"
-        },
-        {
-          "q": "Are pets allowed?",
-          "a": "We do not welcome pets — to ensure a worry-free stay for guests with allergies. We know your pet is part of the family and appreciate your understanding."
-        },
-        {
-          "q": "Is smoking allowed?",
-          "a": "Not indoors. Outside on the terrace it's possible, with the ashtrays we provide."
-        },
-        {
-          "q": "May we host a party or event here?",
-          "a": "ArdenNest is made for quality time — long conversations at the oak table, children playing freely, evenings that naturally wind down. We are deliberately not a party venue. Amplified music and loud festivities don't fit the calm we protect here."
-        },
-        {
-          "q": "Are there evening noise rules?",
-          "a": "From 22:00 we ask you to respect the calm of the neighbourhood and village. Chatting on the terrace is fine, with attention to the volume."
-        }
+        { "q": "How do we reach ArdenNest?", "a": "Address: Rue de la Ferme 3, 5575 Gedinne (Malvoisin), province of Namur. By car via the E411 — about 1h30 from Brussels, 1h55 from Antwerp, 2h10 from Cologne, 1h15 from Luxembourg. By public transport: train to Gedinne station, then bus line (stop Gedinne Kewet, a few minutes' walk from the house). Detailed directions + travel tips are sent with the booking confirmation." },
+        { "q": "What is there to do nearby?", "a": "The Belgian Ardennes are a hiking and nature region par excellence. Within cycling distance or short drive:\n\n- **Bouillon** (15 min) — medieval castle, beautiful town on the Semois.\n- **Han-sur-Lesse** — world-famous caves + wildlife park.\n- **Rochefort** — historic town, abbey, brewery.\n- **Furfooz** (nature park) — walks between rocks and caves.\n- **Dinant** — citadel, Meuse valley, birthplace of the saxophone.\n- **Lesse valley** — kayak and canoe.\n\nOn arrival Bieke gives you personal tips tailored to the season and group — what's beautiful in October differs from what works in July. For daily shopping (supermarket, bakery, butcher): see [shops nearby](https://ardennest.be/shops)." },
+        { "q": "Are pets allowed?", "a": "We don't welcome pets — to ensure a worry-free stay for guests with allergies, and because the upholstery and furniture wouldn't withstand repeated animal visits. We know your pet is part of the family and ask for your understanding. Bieke can recommend a trusted dog sitter or pet boarding nearby on request." },
+        { "q": "Is smoking allowed?", "a": "Indoors, no smoking — for the smell in upholstery and curtains, and out of respect for the next guests. Outside on the terrace or in the garden, yes, using the provided ashtrays. Butts or cigarettes left on the grass are sensitive in the Ardennes, especially in dry summers; we ask you to dispose of everything properly." },
+        { "q": "Can we organise a party or event here?", "a": "ArdenNest is made for quality time — long conversations at the oak table, kids tearing around the garden, evenings that fade by the fireplace. What we are not: a party venue. Weddings, bridal suites, bachelor/ette parties with loud music, corporate parties with DJ until dawn — that doesn't fit this place or the neighbours. A birthday, anniversary or family weekend with dinner and music until a reasonable hour is of course fine. In doubt: send Bieke your plan, we'll look together." },
+        { "q": "Are there noise rules in the evening?", "a": "From 22:00, no more noise outside — no music on the terrace, no shouting across the garden. Talking is always fine, outside too, even after ten. It's about respect for neighbours and for the calm that makes the Ardennes special. Continuing indoors with music or a lively conversation: no problem at all, the living room is big enough for that. All house rules in detail: [house rules](https://ardennest.be/house-rules)." }
       ]
     }
   ],
   "cta": {
     "title": "Your question not listed?",
     "text": "Bieke replies personally — by phone, email or WhatsApp.",
-    "button": "Get in touch"
+    "button": "Contact us"
   }
 }
