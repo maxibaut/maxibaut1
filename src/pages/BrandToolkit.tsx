@@ -87,7 +87,7 @@ const BrandToolkit = () => {
         <div className="pt-12 md:pt-20 pb-8 border-b border-border">
           <h1 className="font-serif text-4xl md:text-5xl font-bold text-foreground tracking-tight">ArdenNest</h1>
           <p className="text-xl text-muted-foreground mt-1">Brand Toolkit</p>
-          <p className="text-sm text-muted-foreground/70 mt-4">
+          <p className="text-sm text-muted-foreground mt-4">
             This page is not indexed by search engines. Share the URL directly with partners or suppliers.
           </p>
         </div>
@@ -109,7 +109,7 @@ const BrandToolkit = () => {
                       )}
                     </div>
                     <p className="text-sm text-muted-foreground mt-1">{d.description}</p>
-                    <p className="text-xs text-muted-foreground/70 mt-1">{d.size}</p>
+                    <p className="text-xs text-muted-foreground mt-1">{d.size}</p>
                     {d.available ? (
                       <Button asChild size="sm" variant="outline" className="mt-3">
                         <a href={d.file} download>
@@ -268,7 +268,7 @@ const BrandToolkit = () => {
         </Section>
 
         {/* ── Footer ──────────────────────────────────── */}
-        <div className="py-8 text-center text-sm text-muted-foreground/60">
+        <div className="py-8 text-center text-sm text-muted-foreground">
           Laatste update: maart 2026 · Vragen? bieke@ardennest.be
         </div>
       </div>

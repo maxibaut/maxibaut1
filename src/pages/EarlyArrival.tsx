@@ -200,7 +200,7 @@ const EarlyArrival = () => {
 
                   {/* Signature */}
                   <div className="text-center pt-4">
-                    <p className="text-sm text-muted-foreground/70 italic">{t('signature')}</p>
+                    <p className="text-sm text-muted-foreground italic">{t('signature')}</p>
                   </div>
                 </CardContent>
               </Card>
