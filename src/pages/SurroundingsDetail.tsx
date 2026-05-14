@@ -130,6 +130,12 @@ const SurroundingsDetail = () => {
         ? (description.length > 155 ? description.slice(0, 152).trimEnd() + '…' : description)
         : `${cleanName} — ${descriptor}.`);
 
+  // Per-item SEO overrides (preferred over auto-generated title/description)
+  const seoTitleOverride = t(`items.${category}.${slug}.seoTitle`, { defaultValue: '' });
+  const seoDescOverride = t(`items.${category}.${slug}.seoDescription`, { defaultValue: '' });
+  const finalSeoTitle = seoTitleOverride || seoTitleStr;
+  const finalSeoDesc = seoDescOverride || seoDescStr;
+
   // Use useSEO with direct title/description override via useEffect
   useSEO({ noIndex: false });
   
