@@ -9,183 +9,72 @@
   "navTitle": "Op deze pagina",
   "sections": [
     {
-      "id": "capaciteit",
+      "id": "capacity",
       "title": "Capaciteit & slaapindeling",
       "questions": [
-        {
-          "q": "Hoeveel personen kan ArdenNest ontvangen?",
-          "a": "Voor overnachting biedt ArdenNest plaats aan maximaal 26 gasten, verdeeld over 9 slaapkamers. Voor dagactiviteiten kunnen we tot 185 personen ontvangen."
-        },
-        {
-          "q": "Hoeveel slaapkamers en badkamers zijn er?",
-          "a": "9 slaapkamers, elk met een eigen ensuite badkamer (douche of bad, toilet en wastafel). De indeling: 3 kamers voor 2 personen, 4 kamers voor 3 personen en 2 kamers voor 4 personen.",
-          "link": "/property",
-          "linkText": "Bekijk de slaapkamers"
-        },
-        {
-          "q": "Is ArdenNest geschikt voor verschillende generaties samen?",
-          "a": "Ja. De slaapkamers liggen verspreid over twee verdiepingen, met genoeg afstand tussen luidruchtige en rustige hoeken. Alle kamers zijn via een trap bereikbaar — wie liever geen trappen doet, bespreekt dat best vooraf met ons."
-        },
-        {
-          "q": "Kunnen meerdere gezinnen samen verblijven?",
-          "a": "Het huis is bewust ontworpen voor multigenerationele groepen of bevriende gezinnen. Iedereen heeft een eigen ensuite kamer, en de leefruimtes en buitenruimtes bieden plek om samen te zijn óf even apart."
-        }
+        { "q": "Hoeveel personen kan ArdenNest ontvangen?", "a": "ArdenNest biedt plaats aan maximaal 26 personen. Daarvan zijn maximaal 18 volwassenen — een bewuste keuze om de balans te houden tussen levendigheid en rust. Met zo'n grote groep kunnen multigenerationele families, vriendenkringen of bedrijfsuitjes samen verblijven zonder dat één gezin in een aparte vleugel verdwijnt. Alle 26 personen passen comfortabel rond de centrale eiken tafel." },
+        { "q": "Hoeveel slaapkamers en badkamers zijn er?", "a": "ArdenNest heeft 9 slaapkamers, en elke kamer heeft een eigen ensuite badkamer met douche of bad, toilet en wastafel — dus 9 badkamers in totaal. De verdeling: 3 kamers voor 2 personen, 4 kamers voor 3 personen, en 2 kamers voor 4 personen met mezzanine. In totaal zijn er 26 eenpersoonsbedden. Geen gedeelde badkamers, geen wachtrijen 's ochtends." },
+        { "q": "Is ArdenNest geschikt voor verschillende generaties samen?", "a": "Ja — daar is de woning bewust voor ontworpen. Grootouders, ouders en kinderen vinden hier elk hun plek: rustige hoekjes in de leefruimte voor wie even uit het rumoer wil, een grote tuin voor wie energie wil kwijtraken, een speelkamer en speelstal voor de allerkleinsten. De gelijkvloerse verdieping is toegankelijk voor wie minder vlot trapt. De centrale eiken tafel brengt iedereen daarna weer samen rond hetzelfde maal." },
+        { "q": "Kunnen meerdere gezinnen samen verblijven?", "a": "Ja, dat is een van de meest voorkomende verblijven bij ArdenNest. Met 9 ensuite kamers heeft elk gezin zijn eigen privacy, en de gemeenschappelijke ruimtes (eiken tafel, grote leefruimte, professionele keuken, tuin) zijn ruim genoeg om met 3 à 5 gezinnen tegelijk te bewegen zonder elkaar in de weg te lopen. Geen aparte vleugels die de groep splitsen — alles ligt rond één centraal punt zodat de groep zich ook écht als één groep voelt." }
       ]
     },
     {
-      "id": "koken-eten",
+      "id": "kitchen",
       "title": "Koken & samen eten",
       "questions": [
-        {
-          "q": "Hoe is de keuken uitgerust?",
-          "a": "Een professionele keuken op horecaniveau: Lacanche fornuis, 2 Miele Professional vaatwassers, ruime werkbladen en kookgerei voor 26 personen. Koken voor een grote groep wordt zo een plezier in plaats van een opdracht.",
-          "link": "/property",
-          "linkText": "Bekijk de keuken"
-        },
-        {
-          "q": "Eten we samen aan één tafel?",
-          "a": "Ja. De eiken eettafel van 7m20 zit comfortabel met de hele groep. Geen tafels aan elkaar schuiven, geen halve gesprekken — iedereen samen rond één tafel."
-        },
-        {
-          "q": "Wat is voorzien aan servies, glazen en bestek?",
-          "a": "Volledig servies, glaswerk, bestek, koffiezet, waterkoker, mixer en al het basismateriaal voor 26 personen — alles in hotelkwaliteit. Daarnaast hebben we een uitgebreide collectie speciale bierglazen, zodat een echte bierproeverij perfect tot zijn recht komt. Jullie hoeven niets mee te brengen om te koken of te dineren."
-        },
-        {
-          "q": "Mogen we zelf koken of catering laten komen?",
-          "a": "Beide kan. Veel groepen koken zelf met de ingrediënten van de lokale bakker en slager. Wie liever ontzorgd wordt, kan kiezen voor catering of een chef aan huis — Bieke geeft graag adressen door."
-        }
+        { "q": "Hoe is de keuken uitgerust?", "a": "De keuken is op horecaniveau uitgerust met een professioneel Lacanche-fornuis (Frans handwerk), grote koelkasten, vrieskast, professionele Miele vaatwasser, oven en alles wat je nodig hebt om met 26 personen tegelijk te koken. Geen huishoudelijke set die het bij 8 personen al begeeft — dit is een keuken die ontworpen is om groepsmaaltijden moeiteloos aan te kunnen, of je nu zelf kookt, samen kookt, of catering laat komen." },
+        { "q": "Eten we samen aan één tafel?", "a": "Ja. De eiken tafel is 7,2 meter lang en biedt plaats aan alle 26 personen tegelijk — dat is bewust het hart van het huis. Geen kindertafel apart, geen tweede shift voor wie te laat is. Voor groepen die op vakantie vooral samen willen zijn, is dat één tafel het verschil tussen \"we delen een huis\" en \"we beleven dit samen\". De tafel staat in de leefruimte, met direct uitzicht op de tuin." },
+        { "q": "Wat is voorzien aan servies, glazen en bestek?", "a": "Volledig servies, glazen en bestek voor 26 personen — en dat in dezelfde stijl, niet een mix van overgebleven sets. Borden voor voorgerecht, hoofdgerecht en dessert; wijnglazen, waterglazen, champagneflûtes; bestek voor alle gangen. Plus pannen, ovenschalen, snijplanken, schalen en serveergerei voor een groepsmaaltijd. Wat is niet voorzien: gepersonaliseerd luxe-tafellinnen of decoratie — daar mogen jullie zelf je accent leggen." },
+        { "q": "Mogen we zelf koken of catering laten komen?", "a": "Beide kan, en allebei werkt. Zelf koken is voor veel groepen onderdeel van het verblijf — de keuken is daar ruim genoeg voor en de eiken tafel is groot genoeg om een paar uren rond te zitten. Wil je liever ontspannen, dan kan catering aan huis: lokale traiteurs, foodtrucks of een privé-chef werken vlot mee. Bieke kan jullie introduceren bij lokale namen die de woning en de keuken al kennen. Er is geen verplichting tot een specifieke leverancier." }
       ]
     },
     {
-      "id": "kinderen-families",
+      "id": "children",
       "title": "Kinderen & families",
       "questions": [
-        {
-          "q": "Is ArdenNest kindvriendelijk?",
-          "a": "Ja. De omheinde tuin van 2 hectare, een speelkamer in het huis en een aparte speelstal zorgen ervoor dat kinderen zich uren vermaken zonder dat ouders constant moeten meekijken."
-        },
-        {
-          "q": "Zijn er kinderbedjes en kinderstoelen aanwezig?",
-          "a": "Ja, op aanvraag voorzien wij kinderbedjes (reisbedjes) en kinderstoelen. Geef bij de boeking aan hoeveel jullie nodig hebben."
-        },
-        {
-          "q": "Is de tuin veilig voor kleine kinderen?",
-          "a": "De tuin is omheind en biedt veel speelruimte. Er is geen zwembad — een bewuste keuze, omdat dat met grote groepen kinderen vaak meer stress dan plezier oplevert."
-        },
-        {
-          "q": "Wat als het slecht weer is?",
-          "a": "De speelkamer in huis en de overdekte speelstal bieden volop binnenactiviteiten — voetbalspel, tafeltennis, gezelschapsspelen en boeken. Genoeg om een hele regenachtige dag te overbruggen."
-        }
+        { "q": "Is ArdenNest kindvriendelijk?", "a": "Ja — vaak zelfs dé reden waarom families terugkomen. De tuin is 2 hectare groot, omsloten en biedt veilige speelruimte zonder dat ouders constant op de uitkijk moeten staan. Een speelkamer binnen met speelgoed, en een speelstal voor de allerkleinsten. Kinderstoelen staan klaar; kinderbedjes vragen we om zelf mee te brengen. De woning zelf is robuust, geen wit-leren-bank-stress — kinderen mogen kinderen zijn." },
+        { "q": "Zijn er kinderbedjes en kinderstoelen aanwezig?", "a": "Ja, er staan meerdere kinderstoeltjes. Kinderbedjes vragen we om zelf mee te brengen. Heb je specifieke wensen (bv. een traveltent vs een houten bedje, of een speciale stoel) — laat het Bieke weten, dan kijken we wat mogelijk is." },
+        { "q": "Is de tuin veilig voor kleine kinderen?", "a": "De tuin is volledig omsloten, dus kleine kinderen kunnen niet zomaar de straat op lopen. Er is geen zwembad, geen vijver — een bewuste keuze om de tuin écht zonder zorg te maken voor wie kleintjes heeft. Wel: speeltoestellen, een voetbalveld, ruime grasvelden om te ravotten. Wat ouders zelf moeten checken: kleinere risico's zoals losse planten of een grindpad — gewone tuinaandacht volstaat." },
+        { "q": "Wat als het slecht weer is?", "a": "Ook bij regen of kou houden jullie de woning aangenaam — de open haard in de leefruimte is bedoeld om uren rond te zitten, de speelkamer en speelstal vangen kinderen op, en de eiken tafel laat zich gebruiken voor lange spelletjesavonden of een uitgebreid kookmoment. Met 26 personen op 2 hectare is er ook binnen voldoende ruimte zodat iedereen zijn eigen plek vindt. Vergeet niet: de Belgische Ardennen zijn juist mooi in regen en mist — kort wandelen levert vaak het beste sfeerbeeld op." }
       ]
     },
     {
-      "id": "praktisch",
+      "id": "practical",
       "title": "Praktisch verblijf",
       "questions": [
-        {
-          "q": "Hoe laat is in- en uitchecken?",
-          "a": "Inchecken vanaf 16:00, uitchecken vóór 10:00. De woning wordt tot 16 uur schoongemaakt op de dag van aankomst, dus eerder binnen kan helaas niet."
-        },
-        {
-          "q": "Wat als we vroeger aankomen?",
-          "a": "We hebben een aparte pagina met tips voor wie vroeger ter plaatse is — wandelingen, een lokaal restaurant, of waar jullie de auto's al kwijt kunnen.",
-          "link": "/early-arrival",
-          "linkText": "Bekijk tips voor vroege aankomst"
-        },
-        {
-          "q": "Is er wifi?",
-          "a": "Ja, gratis wifi in het hele huis — geen glasvezel, maar een mesh-netwerk met meerdere Ubiquiti-hotspots. Eenmaal het paswoord ingegeven heb je overal verbinding, ook achteraan in de tuin. Snel genoeg om met meerdere mensen tegelijk te videobellen of te streamen."
-        },
-        {
-          "q": "Hoeveel parkeerplaatsen zijn er?",
-          "a": "Ruime gratis parking op het domein voor alle gasten — geen probleem als jullie met meerdere auto's komen."
-        },
-        {
-          "q": "Is er een laadpunt voor elektrische auto's?",
-          "a": "Ja, er is een EV-laadpunt op het domein."
-        },
-        {
-          "q": "Wat is inbegrepen in de prijs?",
-          "a": "Bedlinnen (De Witte Lietaer), handdoeken, eindschoonmaak, verwarming en basisproducten zijn inbegrepen. Een volledig overzicht ontvangen jullie bij de boeking."
-        },
-        {
-          "q": "Hoe zit het met verbruik (verwarming, elektriciteit, hout)?",
-          "a": "We werken met een transparant systeem van eerlijk verbruik: een basistemperatuur van 18°C is inbegrepen, daarboven betalen jullie het reële verbruik na het verblijf. Geen forfaits, geen verrassingen."
-        },
-        {
-          "q": "Is het huis toegankelijk voor wie minder mobiel is?",
-          "a": "Het gelijkvloers is rolstoeltoegankelijk, maar er is geen slaapkamer op het gelijkvloers. Voor specifieke vragen kunnen jullie Bieke contacteren."
-        }
+        { "q": "Hoe laat is in- en uitchecken?", "a": "Inchecken kan vanaf 16:00, uitchecken graag voor 10:00. We houden de tijd tussen die twee vrij voor de schoonmaak — zo vinden jullie het huis altijd in dezelfde staat. Bieke is bij aankomst persoonlijk aanwezig om jullie te ontvangen en het huis te overlopen. Voor het uitchecken vragen we om de korte [vertrekchecklist](https://ardennest.be/checklist) te doorlopen — kort, eerlijk, geen verrassingen." },
+        { "q": "Wat als we vroeger aankomen?", "a": "Iets vroeger inchecken kan soms in overleg, afhankelijk van de schoonmaak die dag — geen garantie maar ook geen \"absoluut niet\". Stuur Bieke een berichtje een paar dagen vooraf, dan kijken we wat past. Komen jullie écht vroeg (bv. 's ochtends al)? Op [/early-arrival](https://ardennest.be/early-arrival) op de site lezen jullie wat in de tussentijd mogelijk is — denk aan wandelen rond Bouillon of een terras in Dinant." },
+        { "q": "Is er wifi?", "a": "Ja, gratis wifi in de hele woning — zowel binnen als op het terras. De verbinding is sterk genoeg om met meerdere mensen tegelijk te streamen of te videobellen, mocht dat nodig zijn. Maar laten we eerlijk zijn: het mooiste deel van ArdenNest is de plek waar je je telefoon laat liggen." },
+        { "q": "Hoeveel parkeerplaatsen zijn er?", "a": "Plaats voor 9 auto's op het eigen domein, gratis. Geen straatparkeren, geen blauwe zone, geen zorg over wie waar staat. Caravans en grote bestelwagens zijn welkom; laat het Bieke vooraf weten voor de zekerheid." },
+        { "q": "Is er een laadpunt voor elektrische auto's?", "a": "Ja, één laadpunt op het domein, zonder kaart of app — gewoon connecteren en laden, werkt met alle elektrische wagens. Het verbruik wordt geregistreerd; na jullie verblijf ontvangen jullie een afrekening met een grafiek van wat er per dag geladen werd, en de bijhorende kost. Geen abonnementsmodel, geen verrassingen." },
+        { "q": "Wat is inbegrepen in de prijs?", "a": "Standaard inbegrepen: alle beddengoed (lakens, donsdekens, kussens), badhanddoeken en keukenhanddoeken voor alle gasten, eindschoonmaak, verwarming en basisproducten (vaatwasmiddel, handzeep, toiletpapier voor de eerste dagen). Wifi, parkeren en het EV-laadpunt zitten er ook bij. Een volledig overzicht ontvangen jullie bij de bevestiging van de boeking." },
+        { "q": "Hoe zit het met verbruik (verwarming, elektriciteit, hout)?", "a": "Verwarming en elektriciteit zitten in de prijs — geen verrassingen op het einde van het verblijf. Voor de houtkachel/het haardvuur in de leefruimte werken we met bakken hout: jullie betalen per begonnen bak die jullie gebruiken, eerlijk afgerekend na het verblijf. **Eigen hout meebrengen voor de kachel is niet toegelaten** — onze kachel is geschikt voor specifiek gedroogd hout en ongeschikt brandhout kan beschadiging veroorzaken." },
+        { "q": "Is het huis toegankelijk voor wie minder mobiel is?", "a": "De gelijkvloerse verdieping is toegankelijk: leefruimte, eiken tafel, keuken, een toegankelijk toilet — allemaal zonder trap te bereiken. **Alle slaapkamers liggen op de eerste verdieping**, enkel via trap bereikbaar. Voor wie moeilijk trapt is dit dus iets om vooraf goed in te schatten. Stuur Bieke een berichtje met de specifieke situatie (rolstoel, rollator, beperkte trapmobiliteit) — dan kunnen we eerlijk inschatten of ArdenNest haalbaar is, of dat een andere optie beter past." }
       ]
     },
     {
-      "id": "boeking-prijzen",
+      "id": "booking",
       "title": "Boeking, prijs & voorwaarden",
       "questions": [
-        {
-          "q": "Wat kost een verblijf?",
-          "a": "Tarieven variëren per seizoen en periode. De actuele prijzen en beschikbaarheid staan in de boekingskalender.",
-          "link": "/booking",
-          "linkText": "Bekijk beschikbaarheid en prijzen"
-        },
-        {
-          "q": "Wat is de minimale verblijfsduur?",
-          "a": "Minimaal 2 nachten. In schoolvakanties geldt een minimum van 7 nachten."
-        },
-        {
-          "q": "Hoe ver vooruit moeten we boeken?",
-          "a": "Voor schoolvakanties en lange weekends raden we 3 tot 6 maanden vooruit aan. Voor weekends buiten vakantieperiodes is 1 tot 2 maanden vaak voldoende."
-        },
-        {
-          "q": "Zijn er verborgen kosten?",
-          "a": "Nee. Bij de boeking zien jullie de volledige prijs (verblijf + eindschoonmaak + waarborg + toeristenbelasting). Enkel het reële verbruik (verwarming/elektriciteit boven 18°C basis) wordt na verblijf afgerekend."
-        },
-        {
-          "q": "Hoe verloopt de annulering?",
-          "a": "Wij hanteren een transparant 3-traps annuleringsbeleid. De percentages hangen af van hoe ver vóór de aankomst jullie annuleren.",
-          "link": "/cancellation-policy",
-          "linkText": "Lees het annuleringsbeleid"
-        },
-        {
-          "q": "Hoe betalen we?",
-          "a": "Via de boekingspagina met Bancontact, kredietkaart of overschrijving. Een voorschot bij boeking, het saldo enkele weken vóór aankomst."
-        },
-        {
-          "q": "Boeken we rechtstreeks of via een platform?",
-          "a": "Beide kan, maar rechtstreeks via ardennest.be is altijd voordeliger — geen tussenkost, en jullie hebben direct contact met Bieke voor vragen vóór, tijdens en na het verblijf."
-        }
+        { "q": "Wat kost een verblijf?", "a": "De tarieven variëren per seizoen, weekdagen vs weekend en lengte van het verblijf — een familieweekend in oktober ziet er anders uit dan een week in de schoolvakantie. De actuele prijzen en beschikbaarheid staan op [/booking](https://ardennest.be/booking). Bieke kan een persoonlijke offerte maken voor specifieke periodes of bijzondere wensen (extra schoonmaak, decoratie, catering-koppeling) — een kort mailtje volstaat." },
+        { "q": "Wat is de minimale verblijfsduur?", "a": "Standaard minimum is 2 nachten. In het hoogseizoen (Belgische, Nederlandse en Duitse schoolvakanties, Pasen, Kerst en Nieuwjaar) geldt een minimum van 7 nachten — dat houdt het verblijf voor jullie ontspannen en voor ons logistiek werkbaar. Voor verblijven van 3 nachten in een hoogseizoenweek kan je Bieke contacteren: soms is een uitzondering mogelijk als er nog gaten in de kalender zitten." },
+        { "q": "Hoe ver vooruit moeten we boeken?", "a": "Voor populaire periodes (schoolvakanties, lange weekends, Kerst en Nieuwjaar) raden we 3 tot 6 maanden vooruit te boeken — die data zijn vaak een jaar van tevoren al vol. Voor weekenden en rustigere periodes (november, januari-februari buiten de vakanties) is 1 à 2 maanden meestal voldoende. Last-minute kan ook: check [/booking](https://ardennest.be/booking) of vraag Bieke direct — er valt soms iets vrij door annulering." },
+        { "q": "Zijn er verborgen kosten?", "a": "Nee. De prijs op [/booking](https://ardennest.be/booking) is alles-in: linnengoed, eindschoonmaak, verwarming, elektriciteit, wifi, parkeren. Bovenop het verblijfstarief gelden alleen: de wettelijke toeristenbelasting, een waarborg, en het verbruik van hout (per begonnen bak) en de EV-laadpaal (op basis van werkelijk verbruik). Alle exacte tarieven en voorwaarden staan in de [verhuurvoorwaarden](https://ardennest.be/rental-terms)." },
+        { "q": "Hoe verloopt de annulering?", "a": "Het volledige annuleringsbeleid staat op [/cancellation-policy](https://ardennest.be/cancellation-policy) — kort samengevat: hoe vroeger jullie annuleren, hoe meer er teruggestort wordt. We raden iedere groep aan om een annuleringsverzekering te overwegen, vooral voor verblijven met grote groepen waar de kans op een laatste-minuut-uitvaller groter is. Bij annulering door overmacht (officieel reisverbod, sterfte in directe familie) wordt altijd persoonlijk gekeken naar een oplossing." },
+        { "q": "Hoe betalen we?", "a": "De volledige betalingsregeling — aanbetaling, saldo, betaaltermijnen en -methodes — staat gedetailleerd uitgelegd in de [verhuurvoorwaarden](https://ardennest.be/rental-terms). Bij rechtstreekse boeking via [/booking](https://ardennest.be/booking) ontvangen jullie altijd een factuur. Bij boeking via Booking.com of Airbnb geldt hun eigen betaalstroom." },
+        { "q": "Boeken we rechtstreeks of via een platform?", "a": "Beide kan, maar rechtstreeks via [/booking](https://ardennest.be/booking) is voor jullie én voor ons interessanter. Voor jullie: geen platform-commissie (typisch 15-18% op Booking.com) verborgen in de prijs, directe lijn met Bieke voor maatwerk, persoonlijke offerte mogelijk. Voor ons: minder afhankelijk van platforms die hun spelregels kunnen veranderen. Boeken jullie liever via Booking.com of Airbnb? Dat kan ook — jullie zijn bij ons even welkom." }
       ]
     },
     {
-      "id": "locatie-regels",
+      "id": "location",
       "title": "Locatie, omgeving & huisregels",
       "questions": [
-        {
-          "q": "Hoe bereiken we ArdenNest?",
-          "a": "ArdenNest ligt in Gedinne (5575), bereikbaar via de E411. Vanuit Brussel circa 1u30, Antwerpen 1u55, Keulen 2u10. De bushalte Gedinne Kewet ligt voor de deur (lijnen 141 en 241, TEC)."
-        },
-        {
-          "q": "Wat is er te doen in de omgeving?",
-          "a": "Wandelroutes vanaf de voordeur, mountainbike- en RAVeL-fietsroutes, kajakken op de Semois, avonturenparken en historische stadjes zoals Bouillon op 15 minuten. Ook restaurants, bakkers en lokale winkels op korte afstand.",
-          "link": "/surroundings",
-          "linkText": "Ontdek de omgeving"
-        },
-        {
-          "q": "Mogen huisdieren mee?",
-          "a": "We verwelkomen geen huisdieren — om een zorgeloos verblijf te kunnen garanderen voor gasten met allergieën. We weten dat jullie huisdier deel uitmaakt van het gezin en hopen op jullie begrip."
-        },
-        {
-          "q": "Mag er gerookt worden?",
-          "a": "Niet binnen. Buiten op het terras kan, met asbakken die wij voorzien."
-        },
-        {
-          "q": "Mogen we hier een feest of evenement organiseren?",
-          "a": "ArdenNest is gemaakt voor quality time — lange gesprekken aan de eiken tafel, kinderen die zich uitleven, avonden die vanzelf uitdoven. We zijn bewust geen feestlocatie. Versterkte muziek en luide festiviteiten passen niet bij de rust die we hier bewaken."
-        },
-        {
-          "q": "Zijn er regels rond geluid 's avonds?",
-          "a": "Vanaf 22:00 vragen we om de rust van de buurt en het dorp te respecteren. Gezellig napraten op het terras kan, met aandacht voor het volume."
-        }
+        { "q": "Hoe bereiken we ArdenNest?", "a": "Adres: Rue de la Ferme 3, 5575 Gedinne (Malvoisin), provincie Namen. Met de auto via E411 — ongeveer 1u30 vanuit Brussel, 1u55 vanuit Antwerpen, 2u10 vanuit Keulen, 1u15 vanuit Luxemburg. Met openbaar vervoer: trein tot Gedinne-station, dan de buslijn (halte Gedinne Kewet, op enkele minuten wandelen van het huis). Een gedetailleerde routebeschrijving + tips voor onderweg ontvangen jullie bij de bevestiging." },
+        { "q": "Wat is er te doen in de omgeving?", "a": "De Belgische Ardennen zijn een wandel- en natuurregio bij uitstek. Op fietsafstand of korte rijafstand:\n\n- **Bouillon** (15 min) — middeleeuws kasteel, ravissante stad aan de Semois.\n- **Han-sur-Lesse** — wereldberoemde grotten + wildpark.\n- **Rochefort** — historisch stadje, abdij, brouwerij.\n- **Furfooz** (natuurpark) — wandelingen tussen rotsen en grotten.\n- **Dinant** — citadel, Maas-vallei, geboorteplaats van de saxofoon.\n- **Lesse-vallei** — kajak en kano.\n\nBieke geeft jullie bij aankomst persoonlijke tips afgestemd op het seizoen en de groep — wat in oktober mooi is, verschilt van wat in juli werkt. Voor dagelijkse boodschappen (supermarkt, bakker, slager): zie [winkels in de buurt](https://ardennest.be/shops)." },
+        { "q": "Mogen huisdieren mee?", "a": "We verwelkomen geen huisdieren — dit om een zorgeloos verblijf te kunnen garanderen voor gasten met allergieën, en omdat de stoffering en het meubilair niet bestand zijn tegen herhaaldelijk dierenbezoek. We weten dat jullie huisdier deel uitmaakt van het gezin en hopen op begrip. Een goede betrouwbare hondenoppas of dierenpension in de buurt kan Bieke aanbevelen op vraag." },
+        { "q": "Mag er gerookt worden?", "a": "Binnen wordt niet gerookt — voor de geur in stoffering en gordijnen, en uit respect voor de volgende gasten. Buiten op het terras of in de tuin kan wel, met gebruik van de aanwezige asbakken. Stookas of sigaretten op het gras laten ligt erg gevoelig in de Ardennen, vooral in droge zomers; we vragen dus om alles netjes op te ruimen." },
+        { "q": "Mogen we hier een feest of evenement organiseren?", "a": "ArdenNest is gemaakt voor quality time — lange gesprekken rond de eiken tafel, kinderen die zich uitleven in de tuin, avonden die vanzelf uitdoven bij het haardvuur. Wat we niet zijn: een feestlocatie. Trouwfeesten, bruidssuites, vrijgezellenfeesten met luide muziek, bedrijfsfeesten met DJ tot in de vroege uurtjes — dat past niet bij deze plek of bij de buren. Een verjaardag, jubileum of gezinsweekend met diner en muziek tot een redelijk uur is uiteraard wel in orde. Bij twijfel: stuur Bieke een berichtje met jullie plan, dan kijken we samen." },
+        { "q": "Zijn er regels rond geluid 's avonds?", "a": "Vanaf 22:00 vragen we geen lawaai meer buiten — geen muziek op het terras, geen geroep over de tuin. Praten kan altijd, ook buiten, ook na tien uur. Het gaat om respect voor de buren en voor de rust die de Ardennen zo bijzonder maakt. Wie binnen wil doorgaan met muziek of een levendig gesprek: helemaal goed, de leefruimte is daar groot genoeg voor. Alle huisregels in detail: [huisregels](https://ardennest.be/house-rules)." }
       ]
     }
   ],

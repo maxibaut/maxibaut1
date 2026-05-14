@@ -23,6 +23,14 @@ const FAQJsonLd = () => {
 
     if (questions.length === 0) return;
 
+    // Strip markdown to plain text for schema.org compliance
+    const stripMarkdown = (md: string) =>
+      md
+        .replace(/\*\*(.+?)\*\*/g, '$1')
+        .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '$1 ($2)')
+        .replace(/^- /gm, '• ')
+        .trim();
+
     const jsonLd = {
       '@context': 'https://schema.org',
       '@type': 'FAQPage',
@@ -31,7 +39,7 @@ const FAQJsonLd = () => {
         name: faq.q,
         acceptedAnswer: {
           '@type': 'Answer',
-          text: faq.a,
+          text: stripMarkdown(faq.a),
         },
       })),
     };
