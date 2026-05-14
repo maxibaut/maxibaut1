@@ -399,7 +399,7 @@
           "description": "Symbiosa in Graide (Bièvre) is an interactive forest trail around the 4 elements — perfect for grandparents, parents and young children."
         },
         "seoTitle": "Symbiosa Graide — forest trail for three generations",
-        "seoDescription": "Symbiosa in Graide is an interactive forest trail around earth, air, water and fire. Perfect for grandparents, parents and kids together — 20 min from ArdenNest."
+        "seoDescription": "Symbiosa in Graide is an interactive forest trail around earth, air, water and fire. Perfect for grandparents, parents and kids — 20 min from ArdenNest."
       }
     },
     "exclusive": {
@@ -663,5 +663,6 @@
         ]
       }
     }
-  }
+  },
+  "authorSignature": "— Recommended by Bieke & Christophe, your hosts at ArdenNest"
 }
