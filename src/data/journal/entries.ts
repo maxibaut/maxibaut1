@@ -17,7 +17,6 @@ export const journalEntries: JournalEntry[] = [
     image: '/images/journal/journal-symbiosa-bospad-graide.webp',
     relatedLink: '/surroundings/active/symbiosa',
     relatedLabelKey: 'relatedSurroundings',
-    hideHero: true,
   },
   {
     slug: 'welkom-bij-ardennest',

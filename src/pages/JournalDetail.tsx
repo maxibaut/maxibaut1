@@ -163,7 +163,7 @@ const JournalDetail = () => {
                 Your browser does not support the video tag.
               </video>
             </div>
-          ) : entry.hideHero ? null : (
+          ) : (
             <div className="rounded-lg overflow-hidden mb-10 bg-muted">
               <img
                 src={entry.image}
