@@ -179,7 +179,7 @@ const BrandToolkit = () => {
               <CardContent className="p-6">
                 <p className="font-medium text-foreground mb-2">OG Image</p>
                 <div className="rounded-md overflow-hidden border border-border">
-                  <img src="/og-image.jpg" alt="ArdenNest Open Graph preview" className="w-full" loading="lazy" />
+                  <img src="/og-image.jpg" alt="ArdenNest Open Graph preview" width={1200} height={630} className="w-full h-auto" loading="lazy" />
                 </div>
                 <p className="text-xs text-muted-foreground mt-2">1200 × 630 px</p>
                 <Button asChild size="sm" variant="outline" className="mt-3">
