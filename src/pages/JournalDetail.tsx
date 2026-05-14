@@ -167,7 +167,9 @@ const JournalDetail = () => {
             <div className="rounded-lg overflow-hidden mb-10 bg-muted">
               <img
                 src={entry.image}
-                alt={t(`entries.${slug}.title`)}
+                alt={t(`entries.${slug}.imageAlt`, { defaultValue: t(`entries.${slug}.title`) })}
+                width={1600}
+                height={900}
                 className="w-full aspect-[16/9] object-cover"
                 onError={(e) => {
                   (e.target as HTMLImageElement).src = '/placeholder.svg';
