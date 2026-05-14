@@ -130,18 +130,24 @@ const SurroundingsDetail = () => {
         ? (description.length > 155 ? description.slice(0, 152).trimEnd() + '…' : description)
         : `${cleanName} — ${descriptor}.`);
 
+  // Per-item SEO overrides (preferred over auto-generated title/description)
+  const seoTitleOverride = t(`items.${category}.${slug}.seoTitle`, { defaultValue: '' });
+  const seoDescOverride = t(`items.${category}.${slug}.seoDescription`, { defaultValue: '' });
+  const finalSeoTitle = seoTitleOverride || seoTitleStr;
+  const finalSeoDesc = seoDescOverride || seoDescStr;
+
   // Use useSEO with direct title/description override via useEffect
   useSEO({ noIndex: false });
   
   useEffect(() => {
-    document.title = seoTitleStr;
+    document.title = finalSeoTitle;
     const metaDesc = document.querySelector('meta[name="description"]');
-    if (metaDesc) metaDesc.setAttribute('content', seoDescStr);
+    if (metaDesc) metaDesc.setAttribute('content', finalSeoDesc);
     // Update OG tags
     const ogTitle = document.querySelector('meta[property="og:title"]');
-    if (ogTitle) ogTitle.setAttribute('content', seoTitleStr);
+    if (ogTitle) ogTitle.setAttribute('content', finalSeoTitle);
     const ogDesc = document.querySelector('meta[property="og:description"]');
-    if (ogDesc) ogDesc.setAttribute('content', seoDescStr);
+    if (ogDesc) ogDesc.setAttribute('content', finalSeoDesc);
     const ogType = document.querySelector('meta[property="og:type"]');
     if (ogType) ogType.setAttribute('content', 'article');
     const heroImg = item?.heroImage || item?.images?.[0];
@@ -153,19 +159,28 @@ const SurroundingsDetail = () => {
       if (twImg) twImg.setAttribute('content', absImg);
     }
     const twTitle = document.querySelector('meta[property="twitter:title"]');
-    if (twTitle) twTitle.setAttribute('content', seoTitleStr);
+    if (twTitle) twTitle.setAttribute('content', finalSeoTitle);
     const twDesc = document.querySelector('meta[property="twitter:description"]');
-    if (twDesc) twDesc.setAttribute('content', seoDescStr);
-  }, [seoTitleStr, seoDescStr, item]);
+    if (twDesc) twDesc.setAttribute('content', finalSeoDesc);
+  }, [finalSeoTitle, finalSeoDesc, item]);
 
-  // JSON-LD structured data for active/exclusive items
+  // JSON-LD: TouristAttraction (active/exclusive) + BreadcrumbList (always)
   useEffect(() => {
-    if ((category === 'active' || category === 'exclusive') && item?.coordinates) {
+    if (!item) return;
+    const localeMap: Record<string, string> = { nl: 'nl-BE', fr: 'fr-BE', en: 'en-GB', de: 'de-DE' };
+    const inLanguage = localeMap[i18n.language] || 'nl-BE';
+    const langPrefix = i18n.language === 'nl' ? '' : `/${i18n.language}`;
+    const baseUrl = 'https://ardennest.be';
+
+    const scripts: HTMLScriptElement[] = [];
+
+    if ((category === 'active' || category === 'exclusive') && item.coordinates) {
       const jsonLd = {
         '@context': 'https://schema.org',
         '@type': 'TouristAttraction',
         name: title,
         description: description,
+        inLanguage,
         ...(item.address && { address: { '@type': 'PostalAddress', streetAddress: item.address } }),
         geo: {
           '@type': 'GeoCoordinates',
@@ -176,14 +191,34 @@ const SurroundingsDetail = () => {
         ...(item.images?.[0] && { image: item.images[0] }),
         ...(openingHours && { openingHours }),
       };
-      const script = document.createElement('script');
-      script.type = 'application/ld+json';
-      script.id = `jsonld-${slug}`;
-      script.textContent = JSON.stringify(jsonLd);
-      document.head.appendChild(script);
-      return () => { document.getElementById(`jsonld-${slug}`)?.remove(); };
+      const s = document.createElement('script');
+      s.type = 'application/ld+json';
+      s.id = `jsonld-${slug}`;
+      s.textContent = JSON.stringify(jsonLd);
+      document.head.appendChild(s);
+      scripts.push(s);
     }
-  }, [category, slug, title, description, item, openingHours]);
+
+    // BreadcrumbList: Home → Surroundings → Category → Item
+    const breadcrumb = {
+      '@context': 'https://schema.org',
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: t('breadcrumb.home', { defaultValue: 'Home' }), item: `${baseUrl}${langPrefix}/` },
+        { '@type': 'ListItem', position: 2, name: t('breadcrumb.surroundings', { defaultValue: 'Omgeving' }), item: `${baseUrl}${langPrefix}/surroundings` },
+        { '@type': 'ListItem', position: 3, name: t(`${category}.title`, { defaultValue: category }), item: `${baseUrl}${langPrefix}/surroundings#${category}` },
+        { '@type': 'ListItem', position: 4, name: title, item: `${baseUrl}${langPrefix}/surroundings/${category}/${slug}` },
+      ],
+    };
+    const bc = document.createElement('script');
+    bc.type = 'application/ld+json';
+    bc.id = `jsonld-bc-${slug}`;
+    bc.textContent = JSON.stringify(breadcrumb);
+    document.head.appendChild(bc);
+    scripts.push(bc);
+
+    return () => { scripts.forEach((s) => s.remove()); };
+  }, [category, slug, title, description, item, openingHours, i18n.language, t]);
 
   // Redirect if invalid
   if (!isValidCategory || !item) {
