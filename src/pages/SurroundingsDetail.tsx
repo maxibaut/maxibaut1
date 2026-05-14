@@ -140,14 +140,14 @@ const SurroundingsDetail = () => {
   useSEO({ noIndex: false });
   
   useEffect(() => {
-    document.title = seoTitleStr;
+    document.title = finalSeoTitle;
     const metaDesc = document.querySelector('meta[name="description"]');
-    if (metaDesc) metaDesc.setAttribute('content', seoDescStr);
+    if (metaDesc) metaDesc.setAttribute('content', finalSeoDesc);
     // Update OG tags
     const ogTitle = document.querySelector('meta[property="og:title"]');
-    if (ogTitle) ogTitle.setAttribute('content', seoTitleStr);
+    if (ogTitle) ogTitle.setAttribute('content', finalSeoTitle);
     const ogDesc = document.querySelector('meta[property="og:description"]');
-    if (ogDesc) ogDesc.setAttribute('content', seoDescStr);
+    if (ogDesc) ogDesc.setAttribute('content', finalSeoDesc);
     const ogType = document.querySelector('meta[property="og:type"]');
     if (ogType) ogType.setAttribute('content', 'article');
     const heroImg = item?.heroImage || item?.images?.[0];
@@ -159,10 +159,10 @@ const SurroundingsDetail = () => {
       if (twImg) twImg.setAttribute('content', absImg);
     }
     const twTitle = document.querySelector('meta[property="twitter:title"]');
-    if (twTitle) twTitle.setAttribute('content', seoTitleStr);
+    if (twTitle) twTitle.setAttribute('content', finalSeoTitle);
     const twDesc = document.querySelector('meta[property="twitter:description"]');
-    if (twDesc) twDesc.setAttribute('content', seoDescStr);
-  }, [seoTitleStr, seoDescStr, item]);
+    if (twDesc) twDesc.setAttribute('content', finalSeoDesc);
+  }, [finalSeoTitle, finalSeoDesc, item]);
 
   // JSON-LD structured data for active/exclusive items
   useEffect(() => {
