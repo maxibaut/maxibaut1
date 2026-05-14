@@ -165,7 +165,7 @@ const RentalTerms = () => {
                     <div className="text-muted-foreground">
                       <p>{t('contact.email')} • {t('contact.phone')}</p>
                     </div>
-                    <p className="text-sm text-muted-foreground/70 italic pt-4">{t('signature')}</p>
+                    <p className="text-sm text-muted-foreground italic pt-4">{t('signature')}</p>
                   </div>
                 </CardContent>
               </Card>

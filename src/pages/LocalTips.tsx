@@ -125,7 +125,7 @@ const LocalTips = () => {
             </div>
           )}
           {item.note && (
-            <p className="text-sm text-muted-foreground/80 italic mt-1">{item.note}</p>
+            <p className="text-sm text-muted-foreground italic mt-1">{item.note}</p>
           )}
         </div>
       </div>
@@ -287,7 +287,7 @@ const LocalTips = () => {
                   {/* Closing */}
                   <div className="text-center py-6">
                     <p className="text-muted-foreground mb-2">{t('closing')}</p>
-                    <p className="text-sm text-muted-foreground/70 italic">{t('signature')}</p>
+                    <p className="text-sm text-muted-foreground italic">{t('signature')}</p>
                   </div>
                 </CardContent>
               </Card>

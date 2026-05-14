@@ -118,7 +118,7 @@ const Journal = () => {
                       )}
                     </div>
                     <CardContent className="p-6">
-                      <time className="text-xs text-muted-foreground/70 uppercase tracking-wider">
+                      <time className="text-xs text-muted-foreground uppercase tracking-wider">
                         {formatDate(entry.date)}
                       </time>
                       <h2 className="font-serif text-xl font-semibold text-foreground mt-2 group-hover:text-primary transition-colors">
