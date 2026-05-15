@@ -51,6 +51,27 @@ const FAQ = () => {
 
   const sections = (t('sections', { returnObjects: true }) as FaqSection[]) || [];
 
+  // Open the accordion item that matches the URL hash (e.g. #location-2)
+  const location = useLocation();
+  const hashTarget = useMemo(() => location.hash.replace(/^#/, ''), [location.hash]);
+  const openValues = useMemo(() => {
+    const map: Record<string, string> = {};
+    sections.forEach((s) => {
+      if (hashTarget.startsWith(`${s.id}-`)) {
+        map[s.id] = hashTarget;
+      }
+    });
+    return map;
+  }, [hashTarget, sections]);
+
+  useEffect(() => {
+    if (!hashTarget) return;
+    const el = document.getElementById(hashTarget) || document.getElementById(hashTarget.split('-')[0]);
+    if (el) {
+      requestAnimationFrame(() => el.scrollIntoView({ behavior: 'smooth', block: 'start' }));
+    }
+  }, [hashTarget]);
+
   const markdownComponents = {
     a: ({ href, children }: { href?: string; children?: React.ReactNode }) => {
       const normalized = normalizeHref(href);
