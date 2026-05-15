@@ -93,6 +93,19 @@ export const Header = () => {
               <span>{t('nav.callBieke')}</span>
             </a>
 
+            {/* No Pets Icon → FAQ pets question */}
+            <LocalizedLink
+              to="/faq#location-2"
+              className="relative flex items-center justify-center h-10 w-10 rounded-md border border-border bg-background text-foreground hover:text-primary hover:border-primary transition-colors"
+              aria-label={t('nav.noPets')}
+              title={t('nav.noPets')}
+            >
+              <PawPrint className="h-4 w-4" />
+              <span aria-hidden="true" className="pointer-events-none absolute inset-0 flex items-center justify-center">
+                <span className="block h-px w-6 rotate-45 bg-destructive" />
+              </span>
+            </LocalizedLink>
+
             {/* Language Switcher */}
             <DropdownMenu>
               <DropdownMenuTrigger asChild>
@@ -129,19 +142,6 @@ export const Header = () => {
               aria-label={t('footer.houseRules')}
             >
               <Printer className="h-4 w-4" />
-            </LocalizedLink>
-
-            {/* No Pets Icon → FAQ pets question */}
-            <LocalizedLink
-              to="/faq#location-2"
-              className="relative flex items-center justify-center h-10 w-10 rounded-md border border-border bg-background text-foreground hover:text-primary hover:border-primary transition-colors"
-              aria-label={t('nav.noPets')}
-              title={t('nav.noPets')}
-            >
-              <PawPrint className="h-4 w-4" />
-              <span aria-hidden="true" className="pointer-events-none absolute inset-0 flex items-center justify-center">
-                <span className="block h-px w-6 rotate-45 bg-destructive" />
-              </span>
             </LocalizedLink>
           </div>
 
