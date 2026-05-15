@@ -1,3 +1,5 @@
+import { useEffect, useMemo, useState } from 'react';
+import { useLocation } from 'react-router-dom';
 import { PageWrapper } from '@/components/layout';
 import { useTranslation } from 'react-i18next';
 import ReactMarkdown from 'react-markdown';
@@ -48,6 +50,27 @@ const FAQ = () => {
   });
 
   const sections = (t('sections', { returnObjects: true }) as FaqSection[]) || [];
+
+  // Open the accordion item that matches the URL hash (e.g. #location-2)
+  const location = useLocation();
+  const hashTarget = useMemo(() => location.hash.replace(/^#/, ''), [location.hash]);
+  const openValues = useMemo(() => {
+    const map: Record<string, string> = {};
+    sections.forEach((s) => {
+      if (hashTarget.startsWith(`${s.id}-`)) {
+        map[s.id] = hashTarget;
+      }
+    });
+    return map;
+  }, [hashTarget, sections]);
+
+  useEffect(() => {
+    if (!hashTarget) return;
+    const el = document.getElementById(hashTarget) || document.getElementById(hashTarget.split('-')[0]);
+    if (el) {
+      requestAnimationFrame(() => el.scrollIntoView({ behavior: 'smooth', block: 'start' }));
+    }
+  }, [hashTarget]);
 
   const markdownComponents = {
     a: ({ href, children }: { href?: string; children?: React.ReactNode }) => {
@@ -138,9 +161,9 @@ const FAQ = () => {
                 >
                   {section.title}
                 </h2>
-                <Accordion type="single" collapsible className="w-full">
+                <Accordion key={`${section.id}-${openValues[section.id] ?? 'none'}`} type="single" collapsible className="w-full" defaultValue={openValues[section.id]}>
                   {section.questions.map((faq, index) => (
-                    <AccordionItem key={index} value={`${section.id}-${index}`}>
+                    <AccordionItem key={index} value={`${section.id}-${index}`} id={`${section.id}-${index}`} className="scroll-mt-24">
                       <AccordionTrigger className="text-left font-medium">
                         {faq.q}
                       </AccordionTrigger>

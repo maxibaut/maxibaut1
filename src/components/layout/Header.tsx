@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { Menu, X, ChevronDown, Printer, Phone } from 'lucide-react';
+import { Menu, X, ChevronDown, Printer, Phone, PawPrint } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import {
   DropdownMenu,
@@ -130,6 +130,19 @@ export const Header = () => {
             >
               <Printer className="h-4 w-4" />
             </LocalizedLink>
+
+            {/* No Pets Icon → FAQ pets question */}
+            <LocalizedLink
+              to="/faq#location-2"
+              className="relative flex items-center justify-center h-10 w-10 rounded-md border border-border bg-background text-foreground hover:text-primary hover:border-primary transition-colors"
+              aria-label={t('nav.noPets')}
+              title={t('nav.noPets')}
+            >
+              <PawPrint className="h-4 w-4" />
+              <span aria-hidden="true" className="pointer-events-none absolute inset-0 flex items-center justify-center">
+                <span className="block h-px w-6 rotate-45 bg-destructive" />
+              </span>
+            </LocalizedLink>
           </div>
 
           {/* Mobile Right Side */}
@@ -211,6 +224,18 @@ export const Header = () => {
                   onClick={() => setIsMenuOpen(false)}
                 >
                   <Printer className="h-4 w-4" />
+                </LocalizedLink>
+                <LocalizedLink
+                  to="/faq#location-2"
+                  className="relative flex items-center justify-center h-10 w-10 shrink-0 rounded-md border border-border bg-background text-foreground hover:text-primary hover:border-primary transition-colors"
+                  aria-label={t('nav.noPets')}
+                  title={t('nav.noPets')}
+                  onClick={() => setIsMenuOpen(false)}
+                >
+                  <PawPrint className="h-4 w-4" />
+                  <span aria-hidden="true" className="pointer-events-none absolute inset-0 flex items-center justify-center">
+                    <span className="block h-px w-6 rotate-45 bg-destructive" />
+                  </span>
                 </LocalizedLink>
               </div>
             </nav>
