@@ -26,6 +26,15 @@
     "capacity": "26 personen",
     "capacityDetail": "Gemengde groepen met max. 18 volwassenen"
   },
+  "whyChoose": {
+    "title": "Waarom families ArdenNest kiezen",
+    "tiles": [
+      { "number": "26", "label": "personen", "description": "Ideaal voor groepen van 10 tot 26 — multigenerationele families en vriendengroepen onder één dak" },
+      { "number": "9", "label": "ensuite badkamers", "description": "Elke slaapkamer heeft een eigen badkamer — geen wachtrij 's morgens" },
+      { "number": "2 ha", "label": "privétuin", "description": "Glooiend landschap met voetbalveld, petanque en verborgen plekjes" },
+      { "number": "4.8★", "label": "door 50+ gezinnen", "description": "Multigenerationele groepen bevestigen wat we doen werkt — bekijk de reviews" }
+    ]
+  },
   "differentiators": {
     "sectionTitle": "Wat ArdenNest bijzonder maakt",
     "h1": "Alles wat samenzijn dient. Niets wat ervan afleidt.",
