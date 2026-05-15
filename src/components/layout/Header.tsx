@@ -86,7 +86,7 @@ export const Header = () => {
             {/* Click-to-call */}
             <a
               href="tel:+32478030352"
-              className="flex items-center gap-2 text-sm font-medium text-foreground hover:text-primary transition-colors"
+              className="flex h-10 items-center gap-2 rounded-md border border-border px-3 text-sm font-medium text-foreground hover:text-primary hover:border-primary transition-colors"
               aria-label={t('nav.callAria')}
             >
               <Phone className="h-4 w-4" />
@@ -96,7 +96,7 @@ export const Header = () => {
             {/* Language Switcher */}
             <DropdownMenu>
               <DropdownMenuTrigger asChild>
-                <Button variant="ghost" size="sm" className="gap-1">
+                <Button variant="outline" size="sm" className="h-10 gap-1 border-border hover:border-primary hover:text-primary">
                   <span>{currentLanguage.label}</span>
                   <ChevronDown className="h-3 w-3" />
                 </Button>
