@@ -106,6 +106,20 @@ export const Header = () => {
               </span>
             </LocalizedLink>
 
+            {/* Book Direct CTA */}
+            <Button asChild className="bg-primary hover:bg-primary/90">
+              <LocalizedLink to="/booking">{t('nav.bookDirect')}</LocalizedLink>
+            </Button>
+
+            {/* House Rules / Print Icon */}
+            <LocalizedLink
+              to="/house-rules"
+              className="flex items-center justify-center h-10 w-10 rounded-md border border-primary-foreground/30 bg-primary text-primary-foreground hover:bg-primary/90 transition-colors"
+              aria-label={t('footer.houseRules')}
+            >
+              <Printer className="h-4 w-4" />
+            </LocalizedLink>
+
             {/* Language Switcher */}
             <DropdownMenu>
               <DropdownMenuTrigger asChild>
@@ -129,20 +143,6 @@ export const Header = () => {
                 ))}
               </DropdownMenuContent>
             </DropdownMenu>
-
-            {/* Book Direct CTA */}
-            <Button asChild className="bg-primary hover:bg-primary/90">
-              <LocalizedLink to="/booking">{t('nav.bookDirect')}</LocalizedLink>
-            </Button>
-
-            {/* House Rules / Print Icon */}
-            <LocalizedLink
-              to="/house-rules"
-              className="flex items-center justify-center h-10 w-10 rounded-md border border-primary-foreground/30 bg-primary text-primary-foreground hover:bg-primary/90 transition-colors"
-              aria-label={t('footer.houseRules')}
-            >
-              <Printer className="h-4 w-4" />
-            </LocalizedLink>
           </div>
 
           {/* Mobile Right Side */}
