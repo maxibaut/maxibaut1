@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { Menu, X, ChevronDown, Printer, Phone } from 'lucide-react';
+import { Menu, X, ChevronDown, Printer, Phone, PawPrint } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import {
   DropdownMenu,
