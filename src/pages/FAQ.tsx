@@ -161,7 +161,7 @@ const FAQ = () => {
                 >
                   {section.title}
                 </h2>
-                <Accordion type="single" collapsible className="w-full" defaultValue={openValues[section.id]}>
+                <Accordion key={`${section.id}-${openValues[section.id] ?? 'none'}`} type="single" collapsible className="w-full" defaultValue={openValues[section.id]}>
                   {section.questions.map((faq, index) => (
                     <AccordionItem key={index} value={`${section.id}-${index}`} id={`${section.id}-${index}`} className="scroll-mt-24">
                       <AccordionTrigger className="text-left font-medium">
