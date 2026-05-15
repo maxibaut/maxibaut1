@@ -90,7 +90,7 @@ export const Header = () => {
               aria-label={t('nav.callAria')}
             >
               <Phone className="h-4 w-4" />
-              <span>+32 478 03 03 52</span>
+              <span>{t('nav.callBieke')}</span>
             </a>
 
             {/* Language Switcher */}
