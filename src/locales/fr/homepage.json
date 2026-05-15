@@ -26,6 +26,15 @@
     "capacity": "26 personnes",
     "capacityDetail": "Groupes mixtes avec max. 18 adultes"
   },
+  "whyChoose": {
+    "title": "Pourquoi les familles choisissent ArdenNest",
+    "tiles": [
+      { "number": "26", "label": "personnes", "description": "Idéal pour groupes de 10 à 26 — familles multigénérationnelles et groupes d'amis sous un même toit" },
+      { "number": "9", "label": "salles de bain ensuite", "description": "Chaque chambre a sa propre salle de bain — pas de file d'attente le matin" },
+      { "number": "2 ha", "label": "jardin privé", "description": "Paysage vallonné avec terrain de foot, pétanque et coins cachés" },
+      { "number": "4,8★", "label": "par 50+ familles", "description": "Groupes multigénérationnels confirment ce qui fonctionne — voir les avis" }
+    ]
+  },
   "differentiators": {
     "sectionTitle": "Ce qui rend ArdenNest spécial",
     "h1": "Tout ce qui sert à être ensemble. Rien qui en détourne.",
