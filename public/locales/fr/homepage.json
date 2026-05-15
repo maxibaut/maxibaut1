@@ -10,7 +10,7 @@
   "hero": {
     "headline": "Luxe discret pour des moments ensemble",
     "h1": "Gîte pour 26 personnes à Gedinne, Ardennes belges",
-    "subheadline": "Depuis 22 ans, nous accueillons des familles à Gedinne — au cœur des Ardennes belges",
+    "subheadline": "4,8★ par 50+ familles · 22 ans d'hospitalité · Une seule table pour tous",
     "cta": {
       "primary": "Voir les disponibilités",
       "secondary": "Nous contacter"
@@ -25,6 +25,15 @@
     "experienceDetail": "Accueillir des familles depuis 2003",
     "capacity": "26 personnes",
     "capacityDetail": "Groupes mixtes avec max. 18 adultes"
+  },
+  "whyChoose": {
+    "title": "Pourquoi les familles choisissent ArdenNest",
+    "tiles": [
+      { "number": "26", "label": "personnes", "description": "Idéal pour groupes de 10 à 26 — familles multigénérationnelles et groupes d'amis sous un même toit" },
+      { "number": "9", "label": "salles de bain ensuite", "description": "Chaque chambre a sa propre salle de bain — pas de file d'attente le matin" },
+      { "number": "2 ha", "label": "jardin privé", "description": "Paysage vallonné avec terrain de foot, pétanque et coins cachés" },
+      { "number": "4,8★", "label": "par 50+ familles", "description": "Groupes multigénérationnels confirment ce qui fonctionne — voir les avis" }
+    ]
   },
   "differentiators": {
     "sectionTitle": "Ce qui rend ArdenNest spécial",

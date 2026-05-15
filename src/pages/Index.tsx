@@ -1,7 +1,7 @@
 import { PageWrapper } from '@/components/layout';
 import {
   HeroSection,
-  TrustSignals,
+  WhyChoose,
   DifferentiatorsPreview,
   AudienceSection,
   WhyBookDirect,
@@ -19,7 +19,7 @@ const Index = () => {
     <PageWrapper>
       <FAQJsonLd />
       <HeroSection />
-      <TrustSignals />
+      <WhyChoose />
       <DifferentiatorsPreview />
       <ReviewsSection />
       <AudienceSection />

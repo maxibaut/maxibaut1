@@ -10,7 +10,7 @@
   "hero": {
     "headline": "Stiller Luxus für gemeinsame Momente",
     "h1": "Ferienhaus für 26 Personen in Gedinne, Belgische Ardennen",
-    "subheadline": "Seit 22 Jahren begrüßen wir Familien in Gedinne — im Herzen der belgischen Ardennen",
+    "subheadline": "4,8★ von 50+ Familien · 22 Jahre Gastfreundschaft · Ein Tisch für alle",
     "cta": {
       "primary": "Verfügbarkeit anzeigen",
       "secondary": "Kontaktieren Sie uns"
@@ -25,6 +25,15 @@
     "experienceDetail": "Familien willkommen seit 2003",
     "capacity": "26 Personen",
     "capacityDetail": "Gemischte Gruppen mit max. 18 Erwachsenen"
+  },
+  "whyChoose": {
+    "title": "Warum Familien sich für ArdenNest entscheiden",
+    "tiles": [
+      { "number": "26", "label": "Personen", "description": "Ideal für Gruppen von 10 bis 26 — Mehrgenerationen-Familien und Freundeskreise unter einem Dach" },
+      { "number": "9", "label": "ensuite Badezimmer", "description": "Jedes Schlafzimmer hat ein eigenes Bad — keine Warteschlange morgens" },
+      { "number": "2 ha", "label": "Privatgarten", "description": "Hügelige Landschaft mit Fußballfeld, Boule und versteckten Ecken" },
+      { "number": "4,8★", "label": "von 50+ Familien", "description": "Mehrgenerationengruppen bestätigen, was wir tun — siehe Bewertungen" }
+    ]
   },
   "differentiators": {
     "sectionTitle": "Was ArdenNest besonders macht",

@@ -10,7 +10,7 @@
   "hero": {
     "headline": "Quiet luxury for moments together",
     "h1": "Holiday home for 26 people in Gedinne, Belgian Ardennes",
-    "subheadline": "For 22 years, we have welcomed families in Gedinne — in the heart of the Belgian Ardennes",
+    "subheadline": "4.8★ from 50+ families · 22 years of hospitality · One table for everyone",
     "cta": {
       "primary": "View availability",
       "secondary": "Contact us"
@@ -25,6 +25,15 @@
     "experienceDetail": "Welcoming families since 2003",
     "capacity": "26 guests",
     "capacityDetail": "Mixed groups with max. 18 adults"
+  },
+  "whyChoose": {
+    "title": "Why families choose ArdenNest",
+    "tiles": [
+      { "number": "26", "label": "people", "description": "Perfect for groups of 10 to 26 — multi-generational families and friend groups under one roof" },
+      { "number": "9", "label": "ensuite bathrooms", "description": "Every bedroom has its own bathroom — no morning queue" },
+      { "number": "2 ha", "label": "private garden", "description": "Rolling landscape with football pitch, pétanque and hidden corners" },
+      { "number": "4.8★", "label": "by 50+ families", "description": "Multi-generational groups confirm what works — read the reviews" }
+    ]
   },
   "differentiators": {
     "sectionTitle": "What makes ArdenNest special",
