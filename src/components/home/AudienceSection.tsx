@@ -29,6 +29,13 @@ export const AudienceSection = () => {
               {t('audience.noText')}
             </p>
           </li>
+          <li className="flex items-start gap-3">
+            <X className="h-5 w-5 text-muted-foreground mt-1 shrink-0" />
+            <p className="body-base text-muted-foreground">
+              <span className="font-semibold">{t('audience.noPetsLabel')}: </span>
+              {t('audience.noPetsText')}
+            </p>
+          </li>
         </ul>
 
         <p className="body-base text-foreground text-left font-medium">

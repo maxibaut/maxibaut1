@@ -29,10 +29,26 @@
   "whyChoose": {
     "title": "Pourquoi les familles choisissent ArdenNest",
     "tiles": [
-      { "number": "26", "label": "personnes", "description": "Idéal pour groupes de 10 à 26 — familles multigénérationnelles et groupes d'amis sous un même toit" },
-      { "number": "9", "label": "salles de bain ensuite", "description": "Chaque chambre a sa propre salle de bain — pas de file d'attente le matin" },
-      { "number": "2 ha", "label": "jardin privé", "description": "Paysage vallonné avec terrain de foot, pétanque et coins cachés" },
-      { "number": "4,8★", "label": "par 50+ familles", "description": "Groupes multigénérationnels confirment ce qui fonctionne — voir les avis" }
+      {
+        "number": "26",
+        "label": "personnes",
+        "description": "Idéal pour groupes de 10 à 26 — familles multigénérationnelles et groupes d'amis sous un même toit"
+      },
+      {
+        "number": "9",
+        "label": "salles de bain ensuite",
+        "description": "Chaque chambre a sa propre salle de bain — pas de file d'attente le matin"
+      },
+      {
+        "number": "2 ha",
+        "label": "jardin privé",
+        "description": "Paysage vallonné avec terrain de foot, pétanque et coins cachés"
+      },
+      {
+        "number": "4,8★",
+        "label": "par 50+ familles",
+        "description": "Groupes multigénérationnels confirment ce qui fonctionne — voir les avis"
+      }
     ]
   },
   "differentiators": {
@@ -197,19 +213,42 @@
     "yesText": "familles, groupes d'amis et organisateurs qui cherchent du temps de qualité — y compris avec végétariens, personnes à mobilité réduite ou jeunes enfants.",
     "noLabel": "Pour qui non",
     "noText": "enterrements de vie de garçon/jeune fille, soirées DJ, week-ends avec musique forte et nuits tardives. Ce n'est pas l'endroit pour cela.",
+    "noPetsLabel": "Pas d'animaux de compagnie",
+    "noPetsText": "la maison reste ainsi confortable pour les invités avec allergies.",
     "closing": "Vous cherchez un lieu où chacun se ressource et se retrouve ? Bienvenue."
   },
   "homeFaq": {
     "title": "Questions fréquentes",
     "moreCta": "D'autres questions pratiques ? Consultez notre [FAQ complète →](/fr/faq)",
     "questions": [
-      { "q": "ArdenNest convient-il pour 3 générations ensemble ?", "a": "Oui, c'est précisément la raison d'être d'ArdenNest. Grands-parents, parents et enfants séjournent sous un même toit, avec 9 chambres ensuite offrant chacune son propre espace. Le grand salon et la table en chêne pour 26 personnes réunissent tout le monde — les coins salon séparés et la salle de jeux respectent les rythmes individuels. [Découvrir la maison →](/fr/property)" },
-      { "q": "Que peut-on rejoindre à vélo ou en voiture courte d'ArdenNest ?", "a": "Beaucoup. À 15-20 minutes de route : [le parc Symbiosa à Graide](/fr/surroundings/active/symbiosa), les [Grottes de Han-sur-Lesse](/fr/surroundings) et la réserve naturelle de Furfooz. Un peu plus loin — 25 à 30 minutes — Dinant et sa citadelle, [Dinant Evasion](/fr/surroundings/active/dinant-evasion), Bouillon et la vallée de la Semois. À vélo, vous rejoignez le RAVeL le long de la Lesse et les environs immédiats de Gedinne." },
-      { "q": "Peut-on vraiment cuisiner pour 26 personnes ?", "a": "Oui, et c'est un plaisir. La cuisine est équipée à niveau professionnel : un piano Lacanche, 2 lave-vaisselle Miele professionnels et un volume de froid pour tout le groupe. Cuisiner pour 26 sans se gêner. Faire venir un traiteur est aussi possible — les deux fonctionnent bien ici." },
-      { "q": "Pour quelles tailles de groupe ArdenNest est-il adapté ?", "a": "Idéal pour groupes de 10 à 26 personnes, avec max. 18 adultes. Les groupes plus petits ne trouvent pas la maison vide — les espaces de vie séparés laissent votre groupe se rassembler naturellement autour d'une table ou près du feu. En dessous de 10, le concept « tous ensemble sous un toit » perd sa valeur ajoutée." },
-      { "q": "Les animaux de compagnie sont-ils bienvenus ?", "a": "Nous n'accueillons pas d'animaux de compagnie. C'est un choix conscient : la maison reste ainsi confortable pour les invités avec allergies et pour les groupes qui cherchent calme et propreté. Pour ceux qui voyagent avec des animaux, nous suggérons volontiers des hébergements proches qui les acceptent." },
-      { "q": "Qu'est-ce qui distingue ArdenNest des autres maisons de groupe en Ardenne ?", "a": "Trois choses. Premièrement : 9 salles de bain ensuite — pas 4 ou 5 comme dans les maisons comparables. Deuxièmement : une cuisine professionnelle qui rend la cuisine pour 26 vraiment réalisable sans corvée. Troisièmement : un accueil personnel par Christophe — il accueille chaque groupe lui-même et connaît la maison et la région mieux que quiconque. Pas de boîte à clés anonyme." },
-      { "q": "Pourquoi réserver directement via ardennest.be ?", "a": "Trois avantages. Meilleur prix garanti — pas de commissions OTA. Contact direct avec Bieke et Christophe — les questions reçoivent une réponse personnelle. Sur-mesure quand possible — arrivée anticipée, départ tardif, ou demandes spéciales autour du traiteur ou des activités. [Voir disponibilité →](/fr/booking)" }
+      {
+        "q": "ArdenNest convient-il pour 3 générations ensemble ?",
+        "a": "Oui, c'est précisément la raison d'être d'ArdenNest. Grands-parents, parents et enfants séjournent sous un même toit, avec 9 chambres ensuite offrant chacune son propre espace. Le grand salon et la table en chêne pour 26 personnes réunissent tout le monde — les coins salon séparés et la salle de jeux respectent les rythmes individuels. [Découvrir la maison →](/fr/property)"
+      },
+      {
+        "q": "Que peut-on rejoindre à vélo ou en voiture courte d'ArdenNest ?",
+        "a": "Beaucoup. À 15-20 minutes de route : [le parc Symbiosa à Graide](/fr/surroundings/active/symbiosa), les [Grottes de Han-sur-Lesse](/fr/surroundings) et la réserve naturelle de Furfooz. Un peu plus loin — 25 à 30 minutes — Dinant et sa citadelle, [Dinant Evasion](/fr/surroundings/active/dinant-evasion), Bouillon et la vallée de la Semois. À vélo, vous rejoignez le RAVeL le long de la Lesse et les environs immédiats de Gedinne."
+      },
+      {
+        "q": "Peut-on vraiment cuisiner pour 26 personnes ?",
+        "a": "Oui, et c'est un plaisir. La cuisine est équipée à niveau professionnel : un piano Lacanche, 2 lave-vaisselle Miele professionnels et un volume de froid pour tout le groupe. Cuisiner pour 26 sans se gêner. Faire venir un traiteur est aussi possible — les deux fonctionnent bien ici."
+      },
+      {
+        "q": "Pour quelles tailles de groupe ArdenNest est-il adapté ?",
+        "a": "Idéal pour groupes de 10 à 26 personnes, avec max. 18 adultes. Les groupes plus petits ne trouvent pas la maison vide — les espaces de vie séparés laissent votre groupe se rassembler naturellement autour d'une table ou près du feu. En dessous de 10, le concept « tous ensemble sous un toit » perd sa valeur ajoutée."
+      },
+      {
+        "q": "Les animaux de compagnie sont-ils bienvenus ?",
+        "a": "Nous n'accueillons pas d'animaux de compagnie. C'est un choix conscient : la maison reste ainsi confortable pour les invités avec allergies et pour les groupes qui cherchent calme et propreté. Pour ceux qui voyagent avec des animaux, nous suggérons volontiers des hébergements proches qui les acceptent."
+      },
+      {
+        "q": "Qu'est-ce qui distingue ArdenNest des autres maisons de groupe en Ardenne ?",
+        "a": "Trois choses. Premièrement : 9 salles de bain ensuite — pas 4 ou 5 comme dans les maisons comparables. Deuxièmement : une cuisine professionnelle qui rend la cuisine pour 26 vraiment réalisable sans corvée. Troisièmement : un accueil personnel par Christophe — il accueille chaque groupe lui-même et connaît la maison et la région mieux que quiconque. Pas de boîte à clés anonyme."
+      },
+      {
+        "q": "Pourquoi réserver directement via ardennest.be ?",
+        "a": "Trois avantages. Meilleur prix garanti — pas de commissions OTA. Contact direct avec Bieke et Christophe — les questions reçoivent une réponse personnelle. Sur-mesure quand possible — arrivée anticipée, départ tardif, ou demandes spéciales autour du traiteur ou des activités. [Voir disponibilité →](/fr/booking)"
+      }
     ]
   },
   "storyExclusive": {

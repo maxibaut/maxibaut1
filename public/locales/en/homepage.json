@@ -29,10 +29,26 @@
   "whyChoose": {
     "title": "Why families choose ArdenNest",
     "tiles": [
-      { "number": "26", "label": "people", "description": "Perfect for groups of 10 to 26 — multi-generational families and friend groups under one roof" },
-      { "number": "9", "label": "ensuite bathrooms", "description": "Every bedroom has its own bathroom — no morning queue" },
-      { "number": "2 ha", "label": "private garden", "description": "Rolling landscape with football pitch, pétanque and hidden corners" },
-      { "number": "4.8★", "label": "by 50+ families", "description": "Multi-generational groups confirm what works — read the reviews" }
+      {
+        "number": "26",
+        "label": "people",
+        "description": "Perfect for groups of 10 to 26 — multi-generational families and friend groups under one roof"
+      },
+      {
+        "number": "9",
+        "label": "ensuite bathrooms",
+        "description": "Every bedroom has its own bathroom — no morning queue"
+      },
+      {
+        "number": "2 ha",
+        "label": "private garden",
+        "description": "Rolling landscape with football pitch, pétanque and hidden corners"
+      },
+      {
+        "number": "4.8★",
+        "label": "by 50+ families",
+        "description": "Multi-generational groups confirm what works — read the reviews"
+      }
     ]
   },
   "differentiators": {
@@ -197,19 +213,42 @@
     "yesText": "families, friend groups and organisers who value quality time — including with vegetarians, people with reduced mobility, or young children.",
     "noLabel": "Who not",
     "noText": "stag parties, DJ nights, weekends with loud music and late hours. That's not what ArdenNest is for.",
+    "noPetsLabel": "No pets",
+    "noPetsText": "this keeps the house comfortable for guests with allergies.",
     "closing": "Looking for a place where everyone unwinds and reconnects? Welcome."
   },
   "homeFaq": {
     "title": "Frequently asked questions",
     "moreCta": "More practical questions? See our [full FAQ →](/en/faq)",
     "questions": [
-      { "q": "Is ArdenNest suitable for 3 generations together?", "a": "Yes — that's precisely what ArdenNest was designed for. Grandparents, parents and children stay together under one roof, with 9 ensuite bedrooms each offering private space. The large living area and oak table for 26 bring everyone together — while separate sitting corners and the playroom respect individual rhythms. [Discover the house →](/en/property)" },
-      { "q": "What's within cycling distance or a short drive from ArdenNest?", "a": "Plenty. 15-20 minutes by car: [Symbiosa park in Graide](/en/surroundings/active/symbiosa), the [Caves of Han-sur-Lesse](/en/surroundings), and the Furfooz nature reserve. A bit further — 25 to 30 minutes — Dinant and its citadel, [Dinant Evasion adventure park](/en/surroundings/active/dinant-evasion), Bouillon and the Semois valley. By bike you reach the RAVeL route along the Lesse and the immediate Gedinne surroundings." },
-      { "q": "Can you really cook for 26 people?", "a": "Yes, and it's enjoyable. The kitchen is fitted to professional standards: a Lacanche range, 2 professional Miele dishwashers and refrigeration capacity for the whole group. Cooking for 26 without crowding each other. Bringing in catering also works — both fit naturally here." },
-      { "q": "What group sizes does ArdenNest suit?", "a": "Ideal for groups of 10 to 26 people, with up to 18 adults. Smaller groups don't experience the house as empty — the separate living areas let your group gather naturally around a table or by the fireplace. Below 10, the 'all together under one roof' concept loses its value." },
-      { "q": "Are pets welcome?", "a": "We don't host pets. This is a deliberate choice — keeping the house comfortable for guests with allergies and for groups looking for quiet and cleanliness. For travellers with pets, we're happy to suggest nearby accommodations that do accept animals." },
-      { "q": "What sets ArdenNest apart from other group houses in the Ardennes?", "a": "Three things. First: 9 ensuite bathrooms — not 4 or 5 as in comparable houses. Second: a professional-grade kitchen that makes cooking for 26 genuinely workable without it feeling like a chore. Third: personal welcome by Christophe — he greets every group himself and knows the house and region better than anyone. No anonymous key-box." },
-      { "q": "Why book directly via ardennest.be?", "a": "Three benefits. Best price guaranteed — no OTA commissions. Direct contact with Bieke and Christophe — questions get personal answers. Tailored where possible — early arrival, late check-out, or specific requests around catering or activities. [Check availability →](/en/booking)" }
+      {
+        "q": "Is ArdenNest suitable for 3 generations together?",
+        "a": "Yes — that's precisely what ArdenNest was designed for. Grandparents, parents and children stay together under one roof, with 9 ensuite bedrooms each offering private space. The large living area and oak table for 26 bring everyone together — while separate sitting corners and the playroom respect individual rhythms. [Discover the house →](/en/property)"
+      },
+      {
+        "q": "What's within cycling distance or a short drive from ArdenNest?",
+        "a": "Plenty. 15-20 minutes by car: [Symbiosa park in Graide](/en/surroundings/active/symbiosa), the [Caves of Han-sur-Lesse](/en/surroundings), and the Furfooz nature reserve. A bit further — 25 to 30 minutes — Dinant and its citadel, [Dinant Evasion adventure park](/en/surroundings/active/dinant-evasion), Bouillon and the Semois valley. By bike you reach the RAVeL route along the Lesse and the immediate Gedinne surroundings."
+      },
+      {
+        "q": "Can you really cook for 26 people?",
+        "a": "Yes, and it's enjoyable. The kitchen is fitted to professional standards: a Lacanche range, 2 professional Miele dishwashers and refrigeration capacity for the whole group. Cooking for 26 without crowding each other. Bringing in catering also works — both fit naturally here."
+      },
+      {
+        "q": "What group sizes does ArdenNest suit?",
+        "a": "Ideal for groups of 10 to 26 people, with up to 18 adults. Smaller groups don't experience the house as empty — the separate living areas let your group gather naturally around a table or by the fireplace. Below 10, the 'all together under one roof' concept loses its value."
+      },
+      {
+        "q": "Are pets welcome?",
+        "a": "We don't host pets. This is a deliberate choice — keeping the house comfortable for guests with allergies and for groups looking for quiet and cleanliness. For travellers with pets, we're happy to suggest nearby accommodations that do accept animals."
+      },
+      {
+        "q": "What sets ArdenNest apart from other group houses in the Ardennes?",
+        "a": "Three things. First: 9 ensuite bathrooms — not 4 or 5 as in comparable houses. Second: a professional-grade kitchen that makes cooking for 26 genuinely workable without it feeling like a chore. Third: personal welcome by Christophe — he greets every group himself and knows the house and region better than anyone. No anonymous key-box."
+      },
+      {
+        "q": "Why book directly via ardennest.be?",
+        "a": "Three benefits. Best price guaranteed — no OTA commissions. Direct contact with Bieke and Christophe — questions get personal answers. Tailored where possible — early arrival, late check-out, or specific requests around catering or activities. [Check availability →](/en/booking)"
+      }
     ]
   },
   "storyExclusive": {
