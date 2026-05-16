@@ -665,5 +665,54 @@
       }
     }
   },
-  "authorSignature": "— Recommandé par Bieke & Christophe, vos hôtes à ArdenNest"
+  "authorSignature": "— Recommandé par Bieke & Christophe, vos hôtes à ArdenNest",
+  "breadcrumb": {
+    "home": "Accueil",
+    "surroundings": "Environs"
+  },
+  "categoryHub": {
+    "siblingsHeading": "Autres catégories",
+    "cycling": {
+      "title": "Vélo",
+      "intro": "Faire du vélo dans notre région, c'est choisir entre trois types de plaisir : des balades famille relax sur le RAVeL (anciennes voies ferrées, plates, sans voitures), des sorties paysage classiques à travers les collines des Ardennes, et des sentiers VTT pour qui veut un terrain plus rugueux. Depuis ArdenNest, vous atteignez en moins d'une heure des points de départ sans circulation. Voici une sélection que nous avons nous-mêmes parcourue — honnête par niveau et saison.",
+      "seoTitle": "Vélo dans les Ardennes au départ d'ArdenNest",
+      "seoDescription": "RAVeL, sorties paysage et sentiers VTT autour d'ArdenNest à Gedinne. Une sélection que nous avons parcourue — par niveau et saison."
+    },
+    "restaurants": {
+      "title": "Restaurants",
+      "intro": "Pour beaucoup, un séjour en Ardenne est aussi une escapade gastronomique. Quelques restaurants à moins de 15 minutes où nous aimons aller — d'un café matinal avec tarte maison à un menu quatre services autour de produits régionaux. Pas de pièges à touristes, mais des endroits où le tenancier vous reconnaît à la deuxième visite. Par restaurant : description courte, ce qui les distingue, et quand réserver.",
+      "seoTitle": "Restaurants près d'ArdenNest dans les Ardennes",
+      "seoDescription": "Nos restaurants favoris à moins de 15 minutes d'ArdenNest à Gedinne. Pas de pièges à touristes — des adresses où nous allons nous-mêmes."
+    },
+    "attractions": {
+      "title": "Curiosités",
+      "intro": "Les Ardennes belges sont remplies d'histoires. Châteaux séculaires (Bouillon, Lavaux-Sainte-Anne), grottes mondialement connues (Han-sur-Lesse), abbayes avec leur propre brasserie, une citadelle au-dessus de la Meuse — le tout à moins d'une heure de route. Voici les curiosités que nous recommandons le plus souvent à nos invités, avec infos pratiques : horaires, parking, adaptation par âge, et la différence entre « agréable en juillet » et « plus beau en octobre ».",
+      "seoTitle": "Curiosités des Ardennes belges | ArdenNest",
+      "seoDescription": "Châteaux, grottes, abbayes et citadelles à moins d'une heure d'ArdenNest. Avec horaires, parking et quand les visiter au mieux."
+    },
+    "active": {
+      "title": "Activités actives",
+      "intro": "Pour vraiment ressentir les Ardennes, le mieux est d'être actif : kayak sur la Semois ou la Lesse, parcours d'accrobranche, exploration d'une ardoisière, traversée pieds nus d'un jardin sensoriel. Voici notre sélection d'activités actives pour familles et groupes — avec à chaque fois des conseils pratiques sur l'âge, la condition, et comment combiner au mieux avec une autre activité le même jour.",
+      "seoTitle": "Activités actives dans les Ardennes | ArdenNest",
+      "seoDescription": "Kayak, accrobranche, ardoisière et jardin sensoriel — activités actives pour familles et groupes autour d'ArdenNest dans les Ardennes."
+    },
+    "walks": {
+      "title": "Promenades",
+      "intro": "Marcher est ce que les Ardennes font de mieux : rarement ennuyeux, toujours en mouvement. Nous avons sélectionné des itinéraires au départ et autour d'ArdenNest, chacun avec son propre caractère — balades en bord de rivière, sentiers de bruyère, parcours châteaux, petites boucles avec enfants. Par balade : distance, dénivelé, parking, et la plus belle saison. Pas de marche de 20 km, sauf si vous le demandez explicitement.",
+      "seoTitle": "Promenades dans les Ardennes depuis ArdenNest",
+      "seoDescription": "Itinéraires de randonnée au départ et autour d'ArdenNest à Gedinne — avec distance, dénivelé, parking et saison. Sélection de Bieke."
+    },
+    "shops": {
+      "title": "Commerces à proximité",
+      "intro": "Pour les courses quotidiennes pendant votre séjour — boulangerie, boucherie, supermarché, producteurs locaux — nous listons les commerces dans un rayon de 15 minutes. Avec les horaires (la Wallonie a son propre rythme), les spécialités (le boucher qui affine lui-même, le boulanger qui démarre à 5h), et lequel reste ouvert le dimanche pour la baguette oubliée. Pratique, pas promotionnel.",
+      "seoTitle": "Commerces près d'ArdenNest à Gedinne",
+      "seoDescription": "Boulangerie, boucherie, supermarché et producteurs locaux à moins de 15 minutes d'ArdenNest. Avec horaires et rythme wallon."
+    },
+    "exclusive": {
+      "title": "Exclusif pour les invités d'ArdenNest",
+      "intro": "Quelques arrangements que nous avons composés exclusivement pour les invités d'ArdenNest — pas de produit touristique, pas de réservation via une plateforme, uniquement pour ceux qui séjournent ici. Pensez à un dropping en forêt pour le groupe aventureux, une visite privée chez un artisan local, ou un traiteur préparé pour votre première soirée. Sur demande, sur mesure, et toujours en concertation avec Bieke.",
+      "seoTitle": "Expériences exclusives pour invités d'ArdenNest",
+      "seoDescription": "Dropping, visites privées et traiteur — arrangements exclusifs pour invités d'ArdenNest. Sur mesure et en concertation avec Bieke."
+    }
+  }
 }
