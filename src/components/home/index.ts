@@ -5,3 +5,4 @@ export { DifferentiatorsPreview } from './DifferentiatorsPreview';
 export { AudienceSection } from './AudienceSection';
 export { WhyBookDirect } from './WhyBookDirect';
 export { StoryAndExclusive } from './StoryAndExclusive';
+export { HomeFAQSection } from './HomeFAQSection';

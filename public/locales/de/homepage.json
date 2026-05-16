@@ -192,14 +192,25 @@
   },
   "audience": {
     "heading": "Für wen ist ArdenNest?",
-    "intro": "Nicht jede Gruppe passt zu ArdenNest, und das ist bewusst so.",
-    "bullet1": "Mehrgenerationenfamilien — Großeltern, Eltern und Kinder unter einem Dach, mit eigenen Räumen zum Zusammensein.",
-    "bullet2": "Freundesgruppen, die Quality Time lauten Highlights vorziehen.",
-    "bullet3": "Organisatoren, die einen Ort suchen, an dem alle auf ihre Kosten kommen — auch Kinder, Vegetarier und Menschen mit eingeschränkter Mobilität.",
-    "bullet4": "Gruppen von 10 bis 26 Personen, die zusammenkommen, gemeinsam kochen und zusammen sein möchten.",
-    "exclusion": "Planen Sie einen Junggesellenabschied, eine Geburtstagsfeier mit DJ oder ein Wochenende unter jungen Freunden mit Musik und langen Nächten? Dafür ist ArdenNest nicht der richtige Ort.",
-    "noPets": "Haustiere können wir leider nicht willkommen heißen — damit das Haus für alle komfortabel bleibt, auch für Gäste mit Allergien.",
-    "closing": "Sie suchen einen Ort, an dem alle zur Ruhe kommen und zueinander finden, in einem Haus, das für große Gruppen mitdenkt? Willkommen in ArdenNest."
+    "intro": "Nicht jede Gruppe passt zu ArdenNest — und das ist bewusst so.",
+    "yesLabel": "Für wen ja",
+    "yesText": "Familien, Freundeskreise und Organisatoren, die Qualitätszeit suchen — auch mit Vegetariern, Menschen mit Behinderung oder kleinen Kindern.",
+    "noLabel": "Für wen nicht",
+    "noText": "Junggesellenabschiede, DJ-Partys, Wochenenden mit lauter Musik und langen Nächten. Dafür ist ArdenNest nicht der richtige Ort.",
+    "closing": "Suchen Sie einen Ort, an dem jeder zur Ruhe kommt und sich findet? Willkommen."
+  },
+  "homeFaq": {
+    "title": "Häufige Fragen",
+    "moreCta": "Weitere praktische Fragen? Lesen Sie unsere [vollständige FAQ →](/de/faq)",
+    "questions": [
+      { "q": "Ist ArdenNest geeignet für 3 Generationen zusammen?", "a": "Ja, dafür ist ArdenNest ausdrücklich konzipiert. Großeltern, Eltern und Kinder wohnen unter einem Dach, mit 9 ensuite Schlafzimmern, die jedem einen eigenen Bereich geben. Der große Wohnraum und der Eichentisch für 26 Personen bringen alle zusammen — die separaten Sitzecken und das Spielzimmer lassen Raum für eigene Rhythmen. [Mehr über das Haus →](/de/property)" },
+      { "q": "Was erreicht man mit dem Fahrrad oder einer kurzen Autofahrt von ArdenNest?", "a": "Vieles. 15-20 Minuten Fahrt: [Symbiosa-Park in Graide](/de/surroundings/active/symbiosa), die [Höhlen von Han-sur-Lesse](/de/surroundings) und das Naturschutzgebiet Furfooz. Etwas weiter — 25 bis 30 Minuten — Dinant mit seiner Zitadelle, [Dinant Evasion](/de/surroundings/active/dinant-evasion), Bouillon und das Semois-Tal. Mit dem Fahrrad erreichen Sie den RAVeL-Weg entlang der Lesse und die direkte Umgebung von Gedinne." },
+      { "q": "Kann man wirklich für 26 Personen kochen?", "a": "Ja, und es macht Freude. Die Küche ist auf Gastronomieniveau ausgestattet: ein Lacanche-Herd, 2 professionelle Miele-Spülmaschinen und Kühlraum für die ganze Gruppe. Kochen für 26 ohne sich gegenseitig im Weg zu stehen. Catering bestellen geht auch — beides funktioniert hier gut." },
+      { "q": "Für welche Gruppengrößen ist ArdenNest geeignet?", "a": "Ideal für Gruppen von 10 bis 26 Personen, mit max. 18 Erwachsenen. Kleinere Gruppen empfinden das Haus nicht als leer — die getrennten Wohnbereiche lassen Ihre Gruppe sich natürlich um einen Tisch oder am Kamin versammeln. Unter 10 verliert das Konzept „gemeinsam unter einem Dach“ seinen Mehrwert." },
+      { "q": "Sind Haustiere willkommen?", "a": "Wir empfangen keine Haustiere. Das ist eine bewusste Entscheidung: So bleibt das Haus komfortabel für Gäste mit Allergien und für Gruppen, die Ruhe und Sauberkeit suchen. Für Reisende mit Tieren empfehlen wir gerne nahegelegene Unterkünfte, die Haustiere zulassen." },
+      { "q": "Was unterscheidet ArdenNest von anderen Gruppenhäusern in den Ardennen?", "a": "Drei Dinge. Erstens: 9 ensuite Badezimmer — nicht 4 oder 5 wie in vergleichbaren Häusern. Zweitens: eine Küche auf Gastronomieniveau, die das Kochen für 26 wirklich ohne Strapaze möglich macht. Drittens: persönlicher Empfang durch Christophe — er begrüßt jede Gruppe selbst und kennt Haus und Umgebung wie kein anderer. Keine anonyme Schlüsselbox." },
+      { "q": "Warum direkt über ardennest.be buchen?", "a": "Drei Vorteile. Bestpreis garantiert — keine OTA-Provisionen. Direkter Kontakt mit Bieke und Christophe — Fragen werden persönlich beantwortet. Maßgeschneidert, wo möglich — frühe Anreise, späte Abreise oder spezielle Wünsche zu Catering oder Aktivitäten. [Verfügbarkeit ansehen →](/de/booking)" }
+    ]
   },
   "storyExclusive": {
     "story": {

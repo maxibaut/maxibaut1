@@ -193,13 +193,24 @@
   "audience": {
     "heading": "Voor wie is ArdenNest?",
     "intro": "Niet elke groep past bij ArdenNest, en dat is bewust zo.",
-    "bullet1": "Multigenerationele families — grootouders, ouders en kinderen onder één dak, met hun eigen ruimtes om samen te zijn.",
-    "bullet2": "Vriendengroepen die quality time verkiezen boven luide hoogtepunten.",
-    "bullet3": "Organisatoren die een plek zoeken waar iedereen aan zijn trekken komt — ook kinderen, vegetariërs, en mensen met een handicap.",
-    "bullet4": "Groepen van 10 tot 26 personen die samen willen komen, samen willen koken, samen willen zijn.",
-    "exclusion": "Plan je een vrijgezellenfeest, een dertiger-verjaardag met dj, of een weekend waar jonge vrienden er even uit willen met muziek en late nachten? Daar is ArdenNest geen match voor.",
-    "noPets": "Huisdieren kunnen we helaas niet verwelkomen — zo blijft het huis comfortabel voor iedereen, ook voor gasten met allergieën.",
-    "closing": "Zoek je een plek waar iedereen tot rust komt en elkaar vindt, in een huis dat meedenkt met grote groepen? Welkom in ArdenNest."
+    "yesLabel": "Wie wel",
+    "yesText": "families, vriendengroepen en organisatoren die quality time zoeken — ook met vegetariërs, mensen met een handicap of jonge kinderen.",
+    "noLabel": "Wie niet",
+    "noText": "vrijgezellenfeesten, dj-feesten, weekends met luide muziek en late nachten. Daar is ArdenNest geen match voor.",
+    "closing": "Zoek je een plek waar iedereen tot rust komt en elkaar vindt? Welkom."
+  },
+  "homeFaq": {
+    "title": "Veelgestelde vragen",
+    "moreCta": "Meer praktische vragen? Bekijk onze [volledige FAQ →](/faq)",
+    "questions": [
+      { "q": "Past ArdenNest voor 3 generaties samen?", "a": "Ja, daar is ArdenNest expliciet voor ontworpen. Grootouders, ouders en kinderen verblijven samen onder één dak, met 9 ensuite slaapkamers die elk een eigen ruimte bieden. De grote leefruimte en eiken tafel voor 26 personen brengen iedereen samen wanneer dat past — de aparte zithoeken en speelkamer laten ruimte voor eigen ritmes. [Lees meer over het huis →](/property)" },
+      { "q": "Wat ligt op fietsafstand of korte autorit van ArdenNest?", "a": "Veel. Op 15-20 minuten rijden vind je [Symbiosa-park in Graide](/surroundings/active/symbiosa), de [Grotten van Han-sur-Lesse](/surroundings) en het natuurreservaat Furfooz. Iets verder — 25 tot 30 minuten — liggen Dinant met zijn citadel, [Dinant Evasion adventure park](/surroundings/active/dinant-evasion), Bouillon en de Semois-vallei. Met de fiets bereik je de RAVeL-route langs de Lesse en de directe omgeving van Gedinne." },
+      { "q": "Kan je écht koken voor 26 personen?", "a": "Ja, en het is een plezier. De keuken is uitgerust op horecaniveau: een Lacanche-fornuis, 2 professionele Miele-vaatwassers en koelruimte voor de hele groep. Je kookt voor 26 zonder elkaar in de weg te lopen. Catering laten komen kan ook — beide werken hier even goed." },
+      { "q": "Voor welke groepsgroottes is ArdenNest geschikt?", "a": "Ideaal voor groepen van 10 tot 26 personen, met max. 18 volwassenen. Kleinere groepen voelen het huis niet leeg aan — de afzonderlijke leefruimtes laten je groep zich naturel verzamelen rond een tafel of bij de open haard. Onder de 10 verliest het concept 'samen in één huis' zijn meerwaarde." },
+      { "q": "Zijn huisdieren welkom?", "a": "We verwelkomen geen huisdieren. Dat is een bewuste keuze: zo blijft het huis comfortabel voor gasten met allergieën én voor groepen die rust en netheid zoeken. Voor wie met dieren reist, helpen we graag met suggesties voor nabije accommodaties die wel huisdieren toelaten." },
+      { "q": "Wat onderscheidt ArdenNest van andere groepshuizen in de Ardennen?", "a": "Drie dingen. Eerst: 9 ensuite badkamers — niet 4 of 5 zoals bij vergelijkbare huizen. Tweede: een keuken op horecaniveau die koken voor 26 echt mogelijk maakt zonder corvee. Derde: persoonlijke ontvangst door Christophe — hij verwelkomt elke groep zelf en kent het huis en de omgeving als geen ander. Geen anonieme key-box." },
+      { "q": "Waarom rechtstreeks boeken via ardennest.be?", "a": "Drie voordelen. Beste prijs gegarandeerd — geen OTA-commissies. Direct contact met Bieke en Christophe — vragen worden persoonlijk beantwoord. Maatwerk waar mogelijk — vroege aankomst, late check-out, of speciale wensen rond catering of activiteiten. [Bekijk beschikbaarheid →](/booking)" }
+    ]
   },
   "storyExclusive": {
     "story": {
