@@ -60,48 +60,34 @@ const localeMap: Record<string, string> = {
 const SurroundingsCategoryHub = () => {
   const { category } = useParams<{ category: string }>();
   const { t, i18n } = useTranslation('surroundings');
-  const { localizedPath, prefix } = useLanguagePrefix();
-  useSEO({ noIndex: false });
+  const { localizedPath } = useLanguagePrefix();
 
   const isValid = !!category && (VALID_CATEGORIES as string[]).includes(category);
   const cat = category as SurroundingsCategory;
 
-  // Strip markdown for SEO/schema descriptions
+  // Drive title + description through useSEO so first paint has correct SEO meta
+  useSEO(
+    isValid
+      ? {
+          titleKey: `categoryHub.${cat}.seoTitle`,
+          descriptionKey: `categoryHub.${cat}.seoDescription`,
+          namespace: 'surroundings',
+        }
+      : undefined
+  );
+
+  // Strip markdown for schema descriptions
   const stripMd = (s: string) =>
     s.replace(/\*\*(.+?)\*\*/g, '$1').replace(/[*_`]/g, '').replace(/\s+/g, ' ').trim();
 
   // Translated bits — read unconditionally so the hook order is stable
   const title = t(`categoryHub.${cat}.title`, { defaultValue: '' });
   const intro = t(`categoryHub.${cat}.intro`, { defaultValue: '' });
-  const seoTitle = t(`categoryHub.${cat}.seoTitle`, { defaultValue: title });
-  const seoDesc = t(`categoryHub.${cat}.seoDescription`, {
-    defaultValue: stripMd(intro).slice(0, 155),
-  });
   const siblingsHeading = t('categoryHub.siblingsHeading', { defaultValue: 'Other categories' });
   const homeLabel = t('breadcrumb.home', { defaultValue: 'Home' });
   const surroundingsLabel = t('breadcrumb.surroundings', { defaultValue: t('title') });
 
   const items = isValid ? getItemsByCategory(cat) : [];
-
-  // Override per-page title/description (hub-specific SEO)
-  useEffect(() => {
-    if (!isValid) return;
-    if (seoTitle) document.title = seoTitle;
-    if (seoDesc) {
-      const md = document.querySelector('meta[name="description"]');
-      if (md) md.setAttribute('content', seoDesc);
-      const og = document.querySelector('meta[property="og:description"]');
-      if (og) og.setAttribute('content', seoDesc);
-      const tw = document.querySelector('meta[property="twitter:description"]');
-      if (tw) tw.setAttribute('content', seoDesc);
-    }
-    if (seoTitle) {
-      const og = document.querySelector('meta[property="og:title"]');
-      if (og) og.setAttribute('content', seoTitle);
-      const tw = document.querySelector('meta[property="twitter:title"]');
-      if (tw) tw.setAttribute('content', seoTitle);
-    }
-  }, [seoTitle, seoDesc, isValid]);
 
   // CollectionPage + BreadcrumbList JSON-LD
   useEffect(() => {
