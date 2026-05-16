@@ -2275,4 +2275,313 @@
     <priority>0.5</priority>
   </url>
 
+  <!-- Surroundings category hubs -->
+  <url>
+    <loc>https://ardennest.be/surroundings/walks</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/walks"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/walks"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/walks"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/walks"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/walks"/>
+    <lastmod>2026-05-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/fr/surroundings/walks</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/walks"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/walks"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/walks"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/walks"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/walks"/>
+    <lastmod>2026-05-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/en/surroundings/walks</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/walks"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/walks"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/walks"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/walks"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/walks"/>
+    <lastmod>2026-05-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/de/surroundings/walks</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/walks"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/walks"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/walks"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/walks"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/walks"/>
+    <lastmod>2026-05-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/surroundings/cycling</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/cycling"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/cycling"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/cycling"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/cycling"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/cycling"/>
+    <lastmod>2026-05-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/fr/surroundings/cycling</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/cycling"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/cycling"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/cycling"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/cycling"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/cycling"/>
+    <lastmod>2026-05-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/en/surroundings/cycling</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/cycling"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/cycling"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/cycling"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/cycling"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/cycling"/>
+    <lastmod>2026-05-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/de/surroundings/cycling</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/cycling"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/cycling"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/cycling"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/cycling"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/cycling"/>
+    <lastmod>2026-05-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/surroundings/active</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/active"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/active"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/active"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/active"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/active"/>
+    <lastmod>2026-05-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/fr/surroundings/active</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/active"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/active"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/active"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/active"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/active"/>
+    <lastmod>2026-05-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/en/surroundings/active</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/active"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/active"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/active"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/active"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/active"/>
+    <lastmod>2026-05-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/de/surroundings/active</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/active"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/active"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/active"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/active"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/active"/>
+    <lastmod>2026-05-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/surroundings/attractions</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/attractions"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/attractions"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/attractions"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/attractions"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/attractions"/>
+    <lastmod>2026-05-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/fr/surroundings/attractions</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/attractions"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/attractions"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/attractions"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/attractions"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/attractions"/>
+    <lastmod>2026-05-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/en/surroundings/attractions</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/attractions"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/attractions"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/attractions"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/attractions"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/attractions"/>
+    <lastmod>2026-05-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/de/surroundings/attractions</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/attractions"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/attractions"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/attractions"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/attractions"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/attractions"/>
+    <lastmod>2026-05-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/surroundings/restaurants</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/restaurants"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/restaurants"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/restaurants"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/restaurants"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/restaurants"/>
+    <lastmod>2026-05-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/fr/surroundings/restaurants</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/restaurants"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/restaurants"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/restaurants"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/restaurants"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/restaurants"/>
+    <lastmod>2026-05-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/en/surroundings/restaurants</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/restaurants"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/restaurants"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/restaurants"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/restaurants"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/restaurants"/>
+    <lastmod>2026-05-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/de/surroundings/restaurants</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/restaurants"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/restaurants"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/restaurants"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/restaurants"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/restaurants"/>
+    <lastmod>2026-05-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/surroundings/shops</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/shops"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/shops"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/shops"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/shops"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/shops"/>
+    <lastmod>2026-05-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/fr/surroundings/shops</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/shops"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/shops"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/shops"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/shops"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/shops"/>
+    <lastmod>2026-05-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/en/surroundings/shops</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/shops"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/shops"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/shops"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/shops"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/shops"/>
+    <lastmod>2026-05-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/de/surroundings/shops</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/shops"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/shops"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/shops"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/shops"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/shops"/>
+    <lastmod>2026-05-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/surroundings/exclusive</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/exclusive"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/exclusive"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/exclusive"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/exclusive"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/exclusive"/>
+    <lastmod>2026-05-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/fr/surroundings/exclusive</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/exclusive"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/exclusive"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/exclusive"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/exclusive"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/exclusive"/>
+    <lastmod>2026-05-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/en/surroundings/exclusive</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/exclusive"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/exclusive"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/exclusive"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/exclusive"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/exclusive"/>
+    <lastmod>2026-05-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/de/surroundings/exclusive</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/exclusive"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/exclusive"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/exclusive"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/exclusive"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/exclusive"/>
+    <lastmod>2026-05-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>
