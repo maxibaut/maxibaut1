@@ -16,6 +16,7 @@ const Contact = lazy(() => import("./pages/Contact"));
 const Booking = lazy(() => import("./pages/Booking"));
 const Surroundings = lazy(() => import("./pages/Surroundings"));
 const SurroundingsDetail = lazy(() => import("./pages/SurroundingsDetail"));
+const SurroundingsCategoryHub = lazy(() => import("./pages/SurroundingsCategoryHub"));
 const HouseRules = lazy(() => import("./pages/HouseRules"));
 const Checklist = lazy(() => import("./pages/Checklist"));
 const LocalTips = lazy(() => import("./pages/LocalTips"));
@@ -42,6 +43,7 @@ const pageRoutes = (
     <Route path="contact" element={<Contact />} />
     <Route path="booking" element={<Booking />} />
     <Route path="surroundings" element={<Surroundings />} />
+    <Route path="surroundings/:category" element={<SurroundingsCategoryHub />} />
     <Route path="surroundings/:category/:slug" element={<SurroundingsDetail />} />
     <Route path="house-rules" element={<HouseRules />} />
     <Route path="checklist" element={<Checklist />} />
