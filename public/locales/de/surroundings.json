@@ -8,7 +8,7 @@
     "walks": "Wanderung",
     "cycling": "Radroute",
     "active": "Aktivität",
-    "exclusive": "exklusives Erlebnis",
+    "exclusive": "von uns organisiert",
     "attractions": "Sehenswürdigkeit",
     "restaurants": "Restaurant",
     "shops": "Geschäft"
@@ -27,7 +27,7 @@
     "attractions": "Sehenswürdigkeiten",
     "restaurants": "Restaurants",
     "shops": "Geschäfte",
-    "exclusive": "Exklusiv"
+    "exclusive": "Nur für Gäste"
   },
   "exclusiveBadge": "Exklusiv für ArdenNest-Gäste",
   "linkCopied": "Link kopiert!",
@@ -77,8 +77,8 @@
     "description": "Klettern, fliegen und kraxeln — die Ardennen sind ein riesiger Spielplatz für Kinder und Jugendliche."
   },
   "exclusive": {
-    "title": "Exklusiv für Gäste",
-    "description": "Erlebnisse, die man nirgendwo buchen kann — exklusiv für ArdenNest-Gäste."
+    "title": "Nur für ArdenNest-Gäste",
+    "description": "Erlebnisse, die wir selbst organisieren — nicht über Booking, Belvilla oder eine andere Plattform."
   },
   "askUs": "Per E-Mail reservieren",
   "attractions": {
@@ -408,14 +408,14 @@
         "title": "Das ArdenNest Dropping",
         "description": "Ein personalisiertes Abenteuer, bei dem Christophe die Route festlegt. Die Eltern setzen die Kinder ab — sie müssen den Weg nach Hause selbst finden. Tages- oder Twilight-Edition (ab 12 J.).",
         "highlights": [
-          "Exklusiv",
+          "Nur für Gäste",
           "Ab 12 Jahren"
         ],
         "distance": "Vor der Haustür",
         "fullDescription": "Das ArdenNest Dropping ist eines dieser Erlebnisse, die man nirgendwo buchen kann. Christophe — der Eigentümer — legt eine Route durch die Wälder und Felder rund um Gedinne fest. Die Eltern setzen die Kinder an einem geheimen Ort ab, und gemeinsam müssen sie den Weg zurück zum Ferienhaus finden.\n\n## Zwei Editionen\n\n- **Tages-Edition**: tagsüber, auf einer schönen Route durch die Umgebung. Geeignet für Kinder ab 12 Jahren.\n- **Twilight-Edition**: in der Dämmerung, für diejenigen, die es spannender mögen. Nur für ab 12 Jahren.\n\n## Wie funktioniert es?\n\nSchreiben Sie Christophe vor Ihrem Aufenthalt eine E-Mail. Er passt die Route an Alter und Teilnehmerzahl an. Karten, Hinweise und eine Notfallnummer werden bereitgestellt.\n\n## Warum wir es empfehlen\n\nWeil es außerhalb von ArdenNest nicht existiert. Keine Tickets, keine Warteschlange, kein kommerzieller Aufwand. Einfach ein maßgeschneidertes Abenteuer in Ihrem eigenen vorübergehenden Garten.",
         "askUponArrival": "Per E-Mail reservieren",
         "seo": {
-          "title": "Das ArdenNest Dropping — Exklusiv für Gäste | ArdenNest",
+          "title": "Das ArdenNest Dropping — nur für direkt buchende Gäste | ArdenNest",
           "description": "Ein maßgeschneidertes Dropping durch die Wälder von Gedinne. Tages- oder Twilight-Edition. Exklusiv für ArdenNest-Gäste. Ab 12 Jahren."
         },
         "imageAlts": [
@@ -709,10 +709,10 @@
       "seoDescription": "Bäckerei, Metzgerei, Supermarkt und lokale Erzeuger in 15 Minuten ab ArdenNest in Gedinne. Mit Öffnungszeiten und wallonischem Einkaufsrhythmus erklärt."
     },
     "exclusive": {
-      "title": "Exklusiv für ArdenNest-Gäste",
-      "intro": "Einige Arrangements, die wir exklusiv für ArdenNest-Gäste zusammengestellt haben — kein touristisches Produkt, keine Buchung über eine Plattform, nur für die, die hier übernachten. Denken Sie an ein Dropping im Wald für die abenteuerlustige Gruppe, eine private Führung bei einem lokalen Handwerker, oder ein abgesprochenes Catering für Ihren ersten Abend. Auf Anfrage, maßgeschneidert, und immer in Absprache mit Bieke.",
-      "seoTitle": "Exklusive Erlebnisse für ArdenNest-Gäste in den Ardennen",
-      "seoDescription": "Dropping, private Führungen und Catering — exklusive Arrangements für ArdenNest-Gäste in Gedinne. Maßgeschneidert für Ihre Gruppe, in Absprache mit Bieke."
+      "title": "Von Bieke zusammengestellt — nur für unsere Gäste",
+      "intro": "Einige Arrangements, die Bieke für unsere Gäste zusammenstellt — kein touristisches Produkt, keine Buchung über eine Plattform, nur für die, die hier übernachten. Denken Sie an ein Dropping im Wald für die abenteuerlustige Gruppe, eine private Führung bei einem lokalen Handwerker, oder ein abgesprochenes Catering für Ihren ersten Abend. Auf Anfrage, maßgeschneidert, und immer in Absprache mit Bieke.",
+      "seoTitle": "Arrangements von Bieke — nur für ArdenNest-Gäste in den Ardennen",
+      "seoDescription": "Dropping, Privatführungen und Catering — von Bieke zusammengestellt für Gäste von ArdenNest in Gedinne. Nicht über Booking oder andere Plattformen. Auf Maß, in Absprache."
     }
   },
   "relatedJournal": {
