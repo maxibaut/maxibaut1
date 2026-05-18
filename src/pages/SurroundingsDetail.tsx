@@ -92,7 +92,7 @@ const SurroundingsDetail = () => {
   // Strip village from title if it already contains the village name.
   // Also strip surrounding parentheses/brackets so "Cap Nature (Bertrix)" → "Cap Nature"
   // (instead of "Cap Nature ()") and any leftover empty () groups elsewhere.
-  const cleanName = (village
+  const strippedName = (village
     ? title
         // Remove "(Village)" / "[Village]" with their brackets
         .replace(new RegExp(`\\s*[\\(\\[]\\s*${village}\\s*[\\)\\]]`, 'i'), '')
@@ -103,6 +103,14 @@ const SurroundingsDetail = () => {
     .replace(/\s*[\(\[]\s*[\)\]]/g, '')
     .replace(/\s{2,}/g, ' ')
     .trim();
+
+  // Guard: if stripping village left a dangling preposition/article (e.g.
+  // "Walk around", "Château de", "Wandeling rond"), or a too-short fragment,
+  // revert to the original title — better a redundant village than a broken name.
+  const danglingTail = /\s+(around|near|de|du|d['']|van|in|um|von|vom|à|rond|autour|près|nahe|bei|by|of|the|le|la|les|el)$/i;
+  const cleanName = (!strippedName || strippedName.length < 5 || danglingTail.test(strippedName))
+    ? title.trim()
+    : strippedName;
 
   // EN-only a/an helper for grammatical correctness ("a activity" → "an activity")
   const aOrAn = (word: string) => (/^[aeiou]/i.test(word) ? 'an' : 'a');
@@ -118,23 +126,37 @@ const SurroundingsDetail = () => {
   const seoTitleStr = `${truncatedTitle}${seoSuffix}`;
   
   // Build unique meta description using template (uses same descriptor for consistency)
-  const seoDescStr = village
-    ? t('seoDescriptionTemplate', { 
+  const distance = item?.distance?.trim() || '';
+  const templateKey = village
+    ? (distance ? 'seoDescriptionTemplate' : 'seoDescriptionTemplateNoDistance')
+    : null;
+  const rawSeoDesc = templateKey
+    ? t(templateKey, { 
         name: cleanName, 
         category: descriptor, 
         article: i18n.language === 'en' ? aOrAn(descriptor) : '',
         village,
+        distance,
         defaultValue: `${cleanName} — ${descriptor} ${preposition} ${village}.`
       })
     : (description
-        ? (description.length > 155 ? description.slice(0, 152).trimEnd() + '…' : description)
+        ? description
         : `${cleanName} — ${descriptor}.`);
 
-  // Per-item SEO overrides (preferred over auto-generated title/description)
+  // Truncate at word boundary if >160 chars
+  const seoDescStr = rawSeoDesc.length > 160
+    ? rawSeoDesc.slice(0, 157).replace(/\s+\S*$/, '') + '…'
+    : rawSeoDesc;
+
+  // Per-item SEO overrides (preferred over auto-generated title/description).
+  // Two override sources, in order of precedence:
+  //   1) item.seoDescription[lang] — handwritten in data file (phase 2)
+  //   2) items.{cat}.{slug}.seoDescription in locale JSON
   const seoTitleOverride = t(`items.${category}.${slug}.seoTitle`, { defaultValue: '' });
-  const seoDescOverride = t(`items.${category}.${slug}.seoDescription`, { defaultValue: '' });
+  const seoDescDataOverride = item?.seoDescription?.[lang] || '';
+  const seoDescLocaleOverride = t(`items.${category}.${slug}.seoDescription`, { defaultValue: '' });
   const finalSeoTitle = seoTitleOverride || seoTitleStr;
-  const finalSeoDesc = seoDescOverride || seoDescStr;
+  const finalSeoDesc = seoDescDataOverride || seoDescLocaleOverride || seoDescStr;
 
   // Use useSEO with direct title/description override via useEffect
   useSEO({ noIndex: false });
