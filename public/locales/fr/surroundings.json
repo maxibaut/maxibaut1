@@ -715,5 +715,12 @@
       "seoTitle": "Expériences exclusives pour invités d'ArdenNest — Ardennes",
       "seoDescription": "Dropping, visites privées et traiteur — arrangements exclusifs pour les invités d'ArdenNest à Gedinne. Composés sur mesure, en concertation avec Bieke."
     }
+  },
+  "relatedJournal": {
+    "label": "Témoignage de nos invités",
+    "ctaDefault": "Lire l'expérience",
+    "cta": {
+      "3-generaties-symbiosa": "Lire : 3 générations à Symbiosa"
+    }
   }
 }
