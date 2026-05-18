@@ -13,7 +13,8 @@
     "restaurants": "restaurant",
     "shops": "commerce"
   },
-  "seoDescriptionTemplate": "{{name}} est un(e) {{category}} à {{village}}, près de le gîte ArdenNest dans les Ardennes.",
+  "seoDescriptionTemplate": "{{name}} — {{category}} à {{village}}, à {{distance}} du gîte ArdenNest. Recommandé pour les groupes jusqu'à 26 personnes dans les Ardennes belges.",
+  "seoDescriptionTemplateNoDistance": "{{name}} — {{category}} à {{village}}, près du gîte ArdenNest. Recommandé pour les groupes jusqu'à 26 personnes dans les Ardennes belges.",
   "title": "Les Environs",
   "h1": "Randonnées, pistes cyclables et attractions près d'ArdenNest",
   "subtitle": "Découvrez les plus beaux endroits autour d'ArdenNest",

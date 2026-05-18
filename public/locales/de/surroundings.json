@@ -13,7 +13,8 @@
     "restaurants": "Restaurant",
     "shops": "Geschäft"
   },
-  "seoDescriptionTemplate": "{{name}} ist eine {{category}} in {{village}}, nahe dem Ferienhaus ArdenNest in den Ardennen.",
+  "seoDescriptionTemplate": "{{name}} — {{category}} in {{village}}, {{distance}} vom Ferienhaus ArdenNest. Empfohlen für Gruppen bis 26 Personen in den belgischen Ardennen.",
+  "seoDescriptionTemplateNoDistance": "{{name}} — {{category}} in {{village}}, nahe dem Ferienhaus ArdenNest. Empfohlen für Gruppen bis 26 Personen in den belgischen Ardennen.",
   "title": "Die Umgebung",
   "h1": "Wanderungen, Radrouten und Sehenswürdigkeiten bei ArdenNest",
   "subtitle": "Entdecken Sie die schönsten Orte rund um ArdenNest",

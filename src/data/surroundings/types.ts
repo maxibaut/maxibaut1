@@ -27,6 +27,10 @@ export interface SurroundingsItemBase {
   // label in the page <title> and meta description (e.g. "frituur op een hoeve"
   // instead of "restaurant"). Falls back to the translated category when absent.
   seoDescriptor?: Partial<Record<'nl' | 'fr' | 'en' | 'de', string>>;
+  // Optional handwritten meta description per language. When present, overrides
+  // the auto-generated template-based description. Reserved for phase 2 (top
+  // traffic pages) — leave undefined for default template behavior.
+  seoDescription?: Partial<Record<'nl' | 'fr' | 'en' | 'de', string>>;
 }
 
 // Walk-specific fields

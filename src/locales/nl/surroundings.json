@@ -13,7 +13,8 @@
     "restaurants": "restaurant",
     "shops": "winkel"
   },
-  "seoDescriptionTemplate": "{{name}} is een {{category}} in {{village}}, vlakbij vakantiehuis ArdenNest in de Ardennen.",
+  "seoDescriptionTemplate": "{{name}} — {{category}} in {{village}}, op {{distance}} van vakantiehuis ArdenNest. Aanbevolen voor groepen tot 26 personen in de Belgische Ardennen.",
+  "seoDescriptionTemplateNoDistance": "{{name}} — {{category}} in {{village}}, vlakbij vakantiehuis ArdenNest. Aanbevolen voor groepen tot 26 personen in de Belgische Ardennen.",
   "title": "De Omgeving",
   "h1": "Wandelingen, fietsroutes en bezienswaardigheden bij ArdenNest",
   "subtitle": "Ontdek de mooiste plekjes rondom ArdenNest",
