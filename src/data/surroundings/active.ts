@@ -85,6 +85,7 @@ export const active: ActiveItem[] = [
     heroImage: activeImages.symbiosa[0],
     images: activeImages.symbiosa,
     address: 'Vôye du Sclassin, 5555 Graide (Bièvre)',
+    relatedJournalSlug: '3-generaties-symbiosa',
   },
   {
     id: 6,

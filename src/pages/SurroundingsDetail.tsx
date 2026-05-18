@@ -878,6 +878,24 @@ const SurroundingsDetail = () => {
         </div>
       </section>
 
+      {/* Related Journal Post (guest experience cross-link) */}
+      {item.relatedJournalSlug && (
+        <section className="section-padding bg-cream-dark" aria-labelledby="related-journal-heading">
+          <div className="container-luxury max-w-3xl">
+            <p id="related-journal-heading" className="text-sm uppercase tracking-wide text-secondary mb-3">
+              {t('relatedJournal.label')}
+            </p>
+            <Link
+              to={`/journal/${item.relatedJournalSlug}`}
+              className="text-2xl font-serif text-primary hover:underline inline-flex items-center gap-2"
+            >
+              {t(`relatedJournal.cta.${item.relatedJournalSlug}`, { defaultValue: t('relatedJournal.ctaDefault') })}
+              <span aria-hidden="true">→</span>
+            </Link>
+          </div>
+        </section>
+      )}
+
       {/* Discover Nearby */}
       <DiscoverNearby currentCategory={category as SurroundingsCategory} currentSlug={slug || ''} />
 
