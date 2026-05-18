@@ -714,5 +714,12 @@
       "seoTitle": "Exklusive Erlebnisse für ArdenNest-Gäste in den Ardennen",
       "seoDescription": "Dropping, private Führungen und Catering — exklusive Arrangements für ArdenNest-Gäste in Gedinne. Maßgeschneidert für Ihre Gruppe, in Absprache mit Bieke."
     }
+  },
+  "relatedJournal": {
+    "label": "Gäste erzählen",
+    "ctaDefault": "Gästeerfahrung lesen",
+    "cta": {
+      "3-generaties-symbiosa": "Lesen: 3 Generationen bei Symbiosa"
+    }
   }
 }

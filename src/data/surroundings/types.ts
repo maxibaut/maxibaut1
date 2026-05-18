@@ -31,6 +31,8 @@ export interface SurroundingsItemBase {
   // the auto-generated template-based description. Reserved for phase 2 (top
   // traffic pages) — leave undefined for default template behavior.
   seoDescription?: Partial<Record<'nl' | 'fr' | 'en' | 'de', string>>;
+  /** Optional slug of a journal post with guest experience about this item. Cross-linking + topical silo. */
+  relatedJournalSlug?: string;
 }
 
 // Walk-specific fields
