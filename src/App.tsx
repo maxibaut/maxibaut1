@@ -30,7 +30,6 @@ const Journal = lazy(() => import("./pages/Journal"));
 const JournalDetail = lazy(() => import("./pages/JournalDetail"));
 const FAQ = lazy(() => import("./pages/FAQ"));
 const NotFound = lazy(() => import("./pages/NotFound"));
-const StorybookPreview = lazy(() => import("./pages/StorybookPreview"));
 
 const queryClient = new QueryClient();
 
@@ -79,8 +78,6 @@ const App = () => (
             <Route path=":lang" element={<LanguageLayout />}>
               {pageRoutes}
             </Route>
-            {/* Isolated preview route — no language layout, no SEO indexing */}
-            <Route path="preview/storybook" element={<StorybookPreview />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>
