@@ -79,6 +79,15 @@ export default {
           dark: "hsl(var(--cream-dark))",
         },
         charcoal: "hsl(var(--charcoal))",
+        // Storybook preview (only used on /preview/storybook)
+        'storybook-cream': '#FBF6EC',
+        'storybook-cream-deep': '#F0E7D3',
+        'storybook-moss': '#3F5D3A',
+        'storybook-moss-light': '#7A9B6E',
+        'storybook-bark': '#5C3A22',
+        'storybook-amber': '#D9A441',
+        'storybook-amber-soft': '#EBC57E',
+        'storybook-ink': '#2B1F14',
       },
       borderRadius: {
         lg: "var(--radius)",
