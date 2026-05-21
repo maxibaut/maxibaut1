@@ -10,9 +10,9 @@ import { ArrowLeft } from 'lucide-react';
 
 const IMAGE_ONLY_RE = /^!\[([^\]]*)\]\(([^)]+)\)$/;
 
-const renderBodyParagraph = (p: string) => {
+const renderInlineHtml = (p: string) => {
   // Markdown bold + internal/external links → sanitized HTML
-  let formatted = p
+  const formatted = p
     .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
     .replace(/\[([^\]]+)\]\(([^)]+)\)/g, (_m, text, url) => {
       const isExternal = /^https?:\/\//.test(url);
@@ -25,10 +25,67 @@ const renderBodyParagraph = (p: string) => {
   });
 };
 
+type Block =
+  | { kind: 'p'; text: string }
+  | { kind: 'h2'; text: string }
+  | { kind: 'h3'; text: string }
+  | { kind: 'ul'; items: string[] }
+  | { kind: 'quote'; text: string }
+  | { kind: 'img'; alt: string; src: string };
+
+const parseBody = (body: string): Block[] => {
+  const lines = body.split('\n').map((l) => l.replace(/\s+$/, ''));
+  const blocks: Block[] = [];
+  let currentList: string[] | null = null;
+  const flushList = () => {
+    if (currentList && currentList.length) {
+      blocks.push({ kind: 'ul', items: currentList });
+    }
+    currentList = null;
+  };
+  for (const raw of lines) {
+    const line = raw.trim();
+    if (!line) {
+      flushList();
+      continue;
+    }
+    const imgMatch = line.match(IMAGE_ONLY_RE);
+    if (imgMatch) {
+      flushList();
+      blocks.push({ kind: 'img', alt: imgMatch[1], src: imgMatch[2] });
+      continue;
+    }
+    if (line.startsWith('### ')) {
+      flushList();
+      blocks.push({ kind: 'h3', text: line.slice(4) });
+      continue;
+    }
+    if (line.startsWith('## ')) {
+      flushList();
+      blocks.push({ kind: 'h2', text: line.slice(3) });
+      continue;
+    }
+    if (line.startsWith('> ')) {
+      flushList();
+      blocks.push({ kind: 'quote', text: line.slice(2) });
+      continue;
+    }
+    if (line.startsWith('- ')) {
+      if (!currentList) currentList = [];
+      currentList.push(line.slice(2));
+      continue;
+    }
+    flushList();
+    blocks.push({ kind: 'p', text: line });
+  }
+  flushList();
+  return blocks;
+};
+
 const JournalDetail = () => {
   const { slug } = useParams<{ slug: string }>();
   const { t, i18n } = useTranslation('journal');
-  
+
   const entry = journalEntries.find((e) => e.slug === slug);
 
   useSEO({
@@ -41,7 +98,11 @@ const JournalDetail = () => {
       : undefined,
   });
 
-  // Inject Article JSON-LD per entry
+  const faqs = entry?.hasFaq
+    ? (t(`entries.${slug}.faqs`, { returnObjects: true, defaultValue: [] }) as Array<{ q: string; a: string }>)
+    : [];
+
+  // Inject Article + Breadcrumb + (optional) FAQPage JSON-LD
   useEffect(() => {
     if (!entry) return;
     const lang = i18n.language;
@@ -63,7 +124,7 @@ const JournalDetail = () => {
       author: { '@type': 'Person', '@id': 'https://ardennest.be/#bieke' },
       publisher: { '@type': 'Organization', '@id': 'https://ardennest.be/#organization' },
     };
-    const journalLabel = lang === 'fr' ? 'Journal' : lang === 'de' ? 'Journal' : lang === 'en' ? 'Journal' : 'Journal';
+    const journalLabel = 'Journal';
     const homeLabel = lang === 'fr' ? 'Accueil' : lang === 'de' ? 'Startseite' : lang === 'en' ? 'Home' : 'Home';
     const breadcrumbs = {
       '@context': 'https://schema.org',
@@ -74,21 +135,37 @@ const JournalDetail = () => {
         { '@type': 'ListItem', position: 3, name: t(`entries.${entry.slug}.title`), item: url },
       ],
     };
-    const articleScript = document.createElement('script');
-    articleScript.type = 'application/ld+json';
-    articleScript.id = `article-jsonld-${entry.slug}`;
-    articleScript.textContent = JSON.stringify(article);
-    document.head.appendChild(articleScript);
-    const breadcrumbScript = document.createElement('script');
-    breadcrumbScript.type = 'application/ld+json';
-    breadcrumbScript.id = `breadcrumb-jsonld-${entry.slug}`;
-    breadcrumbScript.textContent = JSON.stringify(breadcrumbs);
-    document.head.appendChild(breadcrumbScript);
-    return () => {
-      document.getElementById(articleScript.id)?.remove();
-      document.getElementById(breadcrumbScript.id)?.remove();
+
+    const appended: HTMLScriptElement[] = [];
+    const append = (id: string, payload: unknown) => {
+      const s = document.createElement('script');
+      s.type = 'application/ld+json';
+      s.id = id;
+      s.textContent = JSON.stringify(payload);
+      document.head.appendChild(s);
+      appended.push(s);
     };
-  }, [entry, i18n.language, t]);
+    append(`article-jsonld-${entry.slug}`, article);
+    append(`breadcrumb-jsonld-${entry.slug}`, breadcrumbs);
+
+    if (entry.hasFaq && Array.isArray(faqs) && faqs.length > 0) {
+      const faqSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        inLanguage: lang === 'nl' ? 'nl-BE' : lang === 'fr' ? 'fr-BE' : lang === 'de' ? 'de-DE' : 'en-GB',
+        mainEntity: faqs.map((f) => ({
+          '@type': 'Question',
+          name: f.q,
+          acceptedAnswer: { '@type': 'Answer', text: f.a },
+        })),
+      };
+      append(`faqpage-jsonld-${entry.slug}`, faqSchema);
+    }
+
+    return () => {
+      appended.forEach((s) => s.remove());
+    };
+  }, [entry, i18n.language, t, faqs]);
 
   const formatDate = (dateStr: string) => {
     const date = new Date(dateStr);
@@ -113,19 +190,27 @@ const JournalDetail = () => {
   }
 
   const bodyText = t(`entries.${slug}.body`);
-  const paragraphs = bodyText.split('\n').filter((p: string) => p.trim());
+  const allBlocks = parseBody(bodyText);
+
+  // Split off signature lines (trailing "— Bieke ..." / "Met een warme groet" etc.)
   const signaturePattern = /^[—–-]?\s*(Bieke|Met een warme groet|With warm|Avec|Mit herzlichen)/i;
-  
-  // Find where the signature block starts (last 2 lines if they match the pattern)
-  let signatureStart = paragraphs.length;
-  for (let i = paragraphs.length - 1; i >= Math.max(0, paragraphs.length - 3); i--) {
-    if (signaturePattern.test(paragraphs[i].trim())) {
+  let signatureStart = allBlocks.length;
+  for (let i = allBlocks.length - 1; i >= Math.max(0, allBlocks.length - 3); i--) {
+    const b = allBlocks[i];
+    if (b.kind === 'p' && signaturePattern.test(b.text)) {
       signatureStart = i;
     }
   }
-  
-  const bodyParagraphs = paragraphs.slice(0, signatureStart);
-  const signatureLines = paragraphs.slice(signatureStart);
+  const bodyBlocks = allBlocks.slice(0, signatureStart);
+  const signatureBlocks = allBlocks.slice(signatureStart).filter((b) => b.kind === 'p') as Array<{ kind: 'p'; text: string }>;
+
+  const faqHeading = i18n.language === 'fr'
+    ? 'Questions fréquentes'
+    : i18n.language === 'de'
+    ? 'Häufige Fragen'
+    : i18n.language === 'en'
+    ? 'Frequently asked questions'
+    : 'Veelgestelde vragen';
 
   return (
     <PageWrapper>
@@ -187,41 +272,94 @@ const JournalDetail = () => {
 
           {/* Body */}
           <div className="space-y-6">
-            {bodyParagraphs.map((p: string, i: number) => {
-              const imgMatch = p.trim().match(IMAGE_ONLY_RE);
-              if (imgMatch) {
-                const [, alt, src] = imgMatch;
+            {bodyBlocks.map((b, i) => {
+              if (b.kind === 'img') {
                 return (
                   <figure key={i} className="my-4">
                     <img
-                      src={src}
-                      alt={alt}
+                      src={b.src}
+                      alt={b.alt}
                       loading="lazy"
                       className="w-full rounded-lg bg-muted"
                     />
-                    {alt && (
+                    {b.alt && (
                       <figcaption className="text-sm text-muted-foreground text-center mt-2 italic">
-                        {alt}
+                        {b.alt}
                       </figcaption>
                     )}
                   </figure>
+                );
+              }
+              if (b.kind === 'h2') {
+                return (
+                  <h2 key={i} className="font-serif text-2xl md:text-3xl text-primary mt-10 mb-2">
+                    {b.text}
+                  </h2>
+                );
+              }
+              if (b.kind === 'h3') {
+                return (
+                  <h3 key={i} className="font-serif text-xl md:text-2xl text-primary mt-8 mb-1">
+                    {b.text}
+                  </h3>
+                );
+              }
+              if (b.kind === 'quote') {
+                return (
+                  <blockquote
+                    key={i}
+                    className="border-l-4 border-accent pl-4 py-1 italic text-foreground/80 bg-muted/40 rounded-r"
+                    dangerouslySetInnerHTML={{ __html: renderInlineHtml(b.text) }}
+                  />
+                );
+              }
+              if (b.kind === 'ul') {
+                return (
+                  <ul key={i} className="list-disc pl-6 space-y-2 text-foreground/90 leading-[1.7]">
+                    {b.items.map((it, j) => (
+                      <li
+                        key={j}
+                        dangerouslySetInnerHTML={{ __html: renderInlineHtml(it) }}
+                      />
+                    ))}
+                  </ul>
                 );
               }
               return (
                 <p
                   key={i}
                   className="text-foreground/90 leading-[1.7] text-base"
-                  dangerouslySetInnerHTML={{ __html: renderBodyParagraph(p) }}
+                  dangerouslySetInnerHTML={{ __html: renderInlineHtml(b.text) }}
                 />
               );
             })}
 
+            {/* FAQ section (rendered from structured faqs key) */}
+            {entry.hasFaq && Array.isArray(faqs) && faqs.length > 0 && (
+              <section className="mt-12 pt-8 border-t border-border/60">
+                <h2 className="font-serif text-2xl md:text-3xl text-primary mb-6">
+                  {faqHeading}
+                </h2>
+                <div className="space-y-6">
+                  {faqs.map((f, i) => (
+                    <div key={i}>
+                      <h3 className="font-semibold text-foreground mb-1">{f.q}</h3>
+                      <p className="text-foreground/90 leading-[1.7]">{f.a}</p>
+                    </div>
+                  ))}
+                </div>
+              </section>
+            )}
+
             {/* Signature block */}
-            {signatureLines.length > 0 && (
+            {signatureBlocks.length > 0 && (
               <div className="mt-10 pt-6 border-t border-border/50">
-                {signatureLines.map((line: string, i: number) => (
-                  <p key={`sig-${i}`} className={`text-foreground/80 leading-[1.7] ${i === signatureLines.length - 1 ? 'font-serif text-lg text-primary font-semibold mt-1' : 'italic'}`}>
-                    {line}
+                {signatureBlocks.map((b, i) => (
+                  <p
+                    key={`sig-${i}`}
+                    className={`text-foreground/80 leading-[1.7] ${i === signatureBlocks.length - 1 ? 'font-serif text-lg text-primary font-semibold mt-1' : 'italic'}`}
+                  >
+                    {b.text}
                   </p>
                 ))}
               </div>
