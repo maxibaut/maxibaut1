@@ -4,6 +4,24 @@ import { attractionImages } from '@/assets/attractions';
 export const attractions: AttractionItem[] = [
   // Sorted by distance (closest first)
   {
+    id: 9,
+    slug: 'tour-du-millenaire',
+    category: 'attractions',
+    village: 'Gedinne',
+    heroImage: attractionImages.tourDuMillenaire[0],
+    images: attractionImages.tourDuMillenaire,
+    externalUrl: 'https://www.actutourisme-gedinne.be/a-decouvrir/tour-du-millenaire/',
+    mapQuery: 'Tour du Millénaire, Croix-Scaille, Willerzie, Belgium',
+    address: 'Croix-Scaille, 5575 Gedinne',
+    coordinates: { lat: 49.9656, lng: 4.8347 },
+    seoDescriptor: {
+      nl: 'uitkijktoren',
+      fr: 'tour panoramique',
+      en: 'lookout tower',
+      de: 'Aussichtsturm',
+    },
+  },
+  {
     id: 1,
     slug: 'dinant',
     category: 'attractions',
