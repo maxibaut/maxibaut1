@@ -31,6 +31,13 @@ import kasteelBouillonLucht from './ardennest-attractie-kasteel-bouillon-luchtfo
 import abdijMaredsousHero from './ardennest-attractie-abdij-maredsous-hero.jpg';
 import abdijMaredsousBreviaire from './ardennest-attractie-abdij-maredsous-breviaire.jpg';
 
+// Tour du Millénaire (Gedinne, Croix-Scaille)
+import tourMillenaireHero from './tour-du-millenaire-gedinne-uitkijktoren.webp';
+import tourMillenairePlatforms from './tour-du-millenaire-platforms-zeildaken.webp';
+import tourMillenaireStairs from './tour-du-millenaire-wenteltrap-234-treden.webp';
+import tourMillenairePanorama from './tour-du-millenaire-panorama-croix-scaille.webp';
+import tourMillenairePlayground from './tour-du-millenaire-speeltuin-vanaf-toren.webp';
+
 export const attractionImages = {
   chevetogne: [chevetogneHero, chevetogneBoutDuMonde, chevetogneJardins],
   furfooz: [furfoozPanorama, furfoozEscalier],
@@ -39,4 +46,11 @@ export const attractionImages = {
   grottenHan: [grottenHanHero, grottenHanBear],
   bouillon: [kasteelBouillonHero, kasteelBouillonFest, kasteelBouillonNacht, kasteelBouillonLucht],
   maredsous: [abdijMaredsousHero, abdijMaredsousBreviaire],
+  tourDuMillenaire: [
+    tourMillenaireHero,
+    tourMillenairePlatforms,
+    tourMillenaireStairs,
+    tourMillenairePanorama,
+    tourMillenairePlayground,
+  ],
 };
