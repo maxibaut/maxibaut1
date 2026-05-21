@@ -2275,6 +2275,52 @@
     <priority>0.5</priority>
   </url>
 
+  <!-- Journal: Tour du Millénaire Gedinne -->
+  <url>
+    <loc>https://ardennest.be/journal/tour-du-millenaire-gedinne</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/journal/tour-du-millenaire-gedinne"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/journal/tour-du-millenaire-gedinne"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/journal/tour-du-millenaire-gedinne"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/journal/tour-du-millenaire-gedinne"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/journal/tour-du-millenaire-gedinne"/>
+    <lastmod>2026-05-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/fr/journal/tour-du-millenaire-gedinne</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/journal/tour-du-millenaire-gedinne"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/journal/tour-du-millenaire-gedinne"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/journal/tour-du-millenaire-gedinne"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/journal/tour-du-millenaire-gedinne"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/journal/tour-du-millenaire-gedinne"/>
+    <lastmod>2026-05-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/en/journal/tour-du-millenaire-gedinne</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/journal/tour-du-millenaire-gedinne"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/journal/tour-du-millenaire-gedinne"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/journal/tour-du-millenaire-gedinne"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/journal/tour-du-millenaire-gedinne"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/journal/tour-du-millenaire-gedinne"/>
+    <lastmod>2026-05-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/de/journal/tour-du-millenaire-gedinne</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/journal/tour-du-millenaire-gedinne"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/journal/tour-du-millenaire-gedinne"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/journal/tour-du-millenaire-gedinne"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/journal/tour-du-millenaire-gedinne"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/journal/tour-du-millenaire-gedinne"/>
+    <lastmod>2026-05-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
   <!-- Surroundings category hubs -->
   <url>
     <loc>https://ardennest.be/surroundings/walks</loc>
