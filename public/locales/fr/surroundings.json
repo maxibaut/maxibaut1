@@ -427,6 +427,52 @@
       }
     },
     "attractions": {
+      "tour-du-millenaire": {
+        "title": "Tour du Millénaire",
+        "description": "Tour panoramique de 47,5 mètres sur la Croix-Scaille près de Gedinne. 234 marches, panorama jusqu'à 30 km, accès gratuit et plaine de jeux. Rouverte en 2026.",
+        "highlights": [
+          "234 marches",
+          "Panorama jusqu'à 30 km",
+          "Accès gratuit",
+          "Plaine de jeux",
+          "Rouverte en 2026"
+        ],
+        "openingHours": "Tous les jours, du lever au coucher du soleil. Fermetures exceptionnelles possibles en période de chasse.",
+        "fullDescription": "La Tour du Millénaire est une tour panoramique de 47,5 mètres sur le plateau de la Croix-Scaille à Gedinne — le point culminant de la province de Namur. Après des travaux de rénovation, la tour est de nouveau ouverte aux visiteurs depuis mai 2026. Gravissez les 234 marches et admirez les Ardennes jusqu'à 30 km à la ronde.\n\n## En bref\n\n- **Quoi :** tour panoramique en forme de sablier, 47,5 m de haut\n- **Où :** plateau de la Croix-Scaille, Gedinne (province de Namur)\n- **Marches :** 234, par un escalier en colimaçon\n- **Vue :** jusqu'à 30 km — Croix-Scaille, vallée de la Meuse, forêt d'Hargnies\n- **Ouverture :** tous les jours, du lever au coucher du soleil\n- **Accès :** gratuit\n- **En plus :** plaine de jeux gratuite, Chalet de la Tour, tables de pique-nique\n\n## La tour en chiffres\n\n- Hauteur : **47,5 m** de cage d'escalier, avec un mât central de 18,8 m\n- **234 marches** en colimaçon, composées de 19 modules en acier\n- 3 plateformes à **15, 30 et 45 m** de hauteur\n- Plateau de la Croix-Scaille : **503 m** — point culminant de la province de Namur, 4e sommet de Belgique\n- Environ **35 000 visiteurs par an**\n\n## Histoire : construction et reconstruction\n\nLa Croix-Scaille portait des tours d'observation depuis un siècle — quatre tours militaires entre 1914 et 1944. L'actuelle Tour du Millénaire a été approuvée en 1999 et redressée le 28 août 2001, construite autour de six douglas locaux. Inauguration officielle : 13 octobre 2001.\n\nEn 2008, la tour a été démontée après que le bois eut été attaqué, puis reconstruite en 2012 avec une structure portante métallique. En août 2024, elle a refermé en raison de poutres usées ; la rénovation de 2025–2026 a remplacé la structure par de l'acier galvanisé et du bois tropical. Depuis mai 2026 — son 25e anniversaire — la tour est de nouveau ouverte. L'histoire complète est dans notre journal : [Tour du Millénaire Gedinne](/fr/journal/tour-du-millenaire-gedinne).\n\n## Visite pratique\n\n- **Horaires :** tous les jours, du lever au coucher du soleil. En période de chasse, la tour peut exceptionnellement être fermée.\n- **Accès :** entièrement gratuit.\n- **Plaine de jeux :** juste à côté de la tour, gratuite pour les enfants.\n- **Chalet de la Tour :** boissons locales et snacks.\n- **Tables de pique-nique** sur place.\n- **Promenades :** la tour est le point de départ des balades 41 (La Fange de l'Abîme), 42 (Le Maquis de la Croix-Scaille) et 46 (La Croix-Scaille).\n\n## Pour les familles\n\n- La tour et la plaine de jeux sont **gratuites** — aucun frein pour un grand groupe.\n- **Sans créneau ni réservation.**\n- Trois générations ensemble : ceux qui le souhaitent montent, ceux qui préfèrent rester en bas ont la plaine de jeux, le chalet et les tables de pique-nique.\n- Combinez la visite avec une promenade autour de la Croix-Scaille.\n\n## Questions fréquentes\n\n**La Tour du Millénaire est-elle de nouveau ouverte ?**\n\nOui, depuis mai 2026 la tour est de nouveau accessible aux visiteurs après rénovation.\n\n**Combien de marches compte la tour ?**\n\n234 marches, par un escalier en colimaçon, jusqu'à 45 mètres de hauteur.\n\n**Combien coûte une visite ?**\n\nRien — l'accès est entièrement gratuit.\n\n**Quels sont les horaires ?**\n\nTous les jours, du lever au coucher du soleil. En période de chasse, la tour peut exceptionnellement fermer.\n\n**Y a-t-il quelque chose pour les enfants ?**\n\nOui, à côté de la tour se trouve une plaine de jeux gratuite, avec des tables de pique-nique et un chalet pour boissons et snacks.\n\n## Depuis ArdenNest\n\nLa Tour du Millénaire se trouve dans notre propre commune de Gedinne, sur le plateau de la Croix-Scaille — à courte distance en voiture de la maison de vacances. Une sortie idéale, à terminer par une promenade dans les forêts environnantes.",
+        "seo": {
+          "title": "Tour du Millénaire Gedinne — tour panoramique | ArdenNest",
+          "description": "Visitez la Tour du Millénaire sur la Croix-Scaille près de Gedinne : 47,5 m, 234 marches, panorama jusqu'à 30 km. Gratuit, avec plaine de jeux. Rouverte en 2026."
+        },
+        "imageAlts": [
+          "La Tour du Millénaire, la tour panoramique sur la Croix-Scaille à Gedinne",
+          "Les plateformes de la Tour du Millénaire et leurs toits en toile tendue",
+          "L'escalier en colimaçon de 234 marches de la Tour du Millénaire",
+          "Panorama sur les forêts de la Croix-Scaille depuis la Tour du Millénaire",
+          "La plaine de jeux gratuite à côté de la Tour du Millénaire, vue depuis la tour"
+        ],
+        "faq": [
+          {
+            "question": "La Tour du Millénaire est-elle de nouveau ouverte ?",
+            "answer": "Oui, depuis mai 2026 la tour est de nouveau accessible aux visiteurs après rénovation."
+          },
+          {
+            "question": "Combien de marches compte la Tour du Millénaire ?",
+            "answer": "234 marches, par un escalier en colimaçon, jusqu'à 45 mètres de hauteur."
+          },
+          {
+            "question": "Combien coûte une visite de la Tour du Millénaire ?",
+            "answer": "Rien — l'accès est entièrement gratuit."
+          },
+          {
+            "question": "Quels sont les horaires de la tour ?",
+            "answer": "Tous les jours, du lever au coucher du soleil. En période de chasse, la tour peut exceptionnellement fermer."
+          },
+          {
+            "question": "Y a-t-il quelque chose pour les enfants près de la tour ?",
+            "answer": "Oui, à côté de la tour se trouve une plaine de jeux gratuite, avec des tables de pique-nique et un chalet pour boissons et snacks."
+          }
+        ]
+      },
       "dinant": {
         "title": "Dinant",
         "description": "Ville pittoresque sur la Meuse avec citadelle, téléphérique et collégiale. Lieu de naissance d'Adolphe Sax.",

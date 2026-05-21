@@ -426,6 +426,52 @@
       }
     },
     "attractions": {
+      "tour-du-millenaire": {
+        "title": "Tour du Millénaire",
+        "description": "Aussichtsturm von 47,5 Metern auf der Croix-Scaille bei Gedinne. 234 Stufen, Panorama bis 30 km, freier Eintritt und Spielplatz. Seit 2026 wieder offen.",
+        "highlights": [
+          "234 Stufen",
+          "Panorama bis 30 km",
+          "Freier Eintritt",
+          "Spielplatz",
+          "2026 wiedereröffnet"
+        ],
+        "openingHours": "Täglich, von Sonnenaufgang bis Sonnenuntergang. Ausnahmsweise Schließungen in der Jagdsaison möglich.",
+        "fullDescription": "Der Tour du Millénaire ist ein 47,5 Meter hoher Aussichtsturm auf dem Plateau der Croix-Scaille in Gedinne — dem höchsten Punkt der Provinz Namur. Nach Renovierungsarbeiten ist der Turm seit Mai 2026 wieder für Besucher geöffnet. Steigen Sie die 234 Stufen hinauf und blicken Sie bis zu 30 km weit über die Ardennen.\n\n## Kurz gefasst\n\n- **Was:** Aussichtsturm in Sanduhrform, 47,5 m hoch\n- **Wo:** Plateau der Croix-Scaille, Gedinne (Provinz Namur)\n- **Stufen:** 234, über eine Wendeltreppe\n- **Aussicht:** bis zu 30 km — Croix-Scaille, Maastal, Wald von Hargnies\n- **Geöffnet:** täglich, von Sonnenaufgang bis Sonnenuntergang\n- **Eintritt:** kostenlos\n- **Außerdem:** kostenloser Spielplatz, Chalet de la Tour, Picknicktische\n\n## Der Turm in Zahlen\n\n- Höhe: **47,5 m** Treppenschacht, mit einem zentralen Mast von 18,8 m\n- **234 Stufen** in einer Wendeltreppe aus 19 Stahlmodulen\n- 3 Plattformen auf **15, 30 und 45 m** Höhe\n- Plateau der Croix-Scaille: **503 m** — höchster Punkt der Provinz Namur, 4. höchster Gipfel Belgiens\n- Rund **35.000 Besucher pro Jahr**\n\n## Geschichte: Bau und Wiederaufbau\n\nDie Croix-Scaille trug seit einem Jahrhundert Beobachtungstürme — vier militärische Türme zwischen 1914 und 1944. Der heutige Tour du Millénaire wurde 1999 genehmigt und am 28. August 2001 aufgerichtet, gebaut um sechs lokale Douglasien. Offizielle Einweihung: 13. Oktober 2001.\n\n2008 wurde der Turm abgebaut, nachdem das Holz befallen war, und 2012 mit einer tragenden Metallstruktur wieder aufgebaut. Im August 2024 schloss er erneut wegen abgenutzter Stützbalken; die Renovierung von 2025–2026 ersetzte die Struktur durch verzinkten Stahl mit tropischem Holz. Seit Mai 2026 — seinem 25. Geburtstag — ist der Turm wieder offen. Die ganze Geschichte steht in unserem Journal: [Tour du Millénaire Gedinne](/de/journal/tour-du-millenaire-gedinne).\n\n## Praktischer Besuch\n\n- **Öffnungszeiten:** täglich, von Sonnenaufgang bis Sonnenuntergang. In der Jagdsaison kann der Turm ausnahmsweise geschlossen sein.\n- **Eintritt:** komplett kostenlos.\n- **Spielplatz:** direkt neben dem Turm, kostenlos für die Kinder.\n- **Chalet de la Tour:** lokale Getränke und Snacks.\n- **Picknicktische** vor Ort.\n- **Wanderungen:** der Turm ist Ausgangspunkt der Wanderungen 41 (La Fange de l'Abîme), 42 (Le Maquis de la Croix-Scaille) und 46 (La Croix-Scaille).\n\n## Für Familien\n\n- Turm und Spielplatz sind **kostenlos** — keine Hürde für eine große Gruppe.\n- **Kein Zeitfenster, keine Reservierung.**\n- Drei Generationen zusammen: wer möchte, steigt hinauf; wer lieber unten bleibt, hat Spielplatz, Chalet und Picknicktische.\n- Verbinden Sie den Besuch mit einer Wanderung rund um die Croix-Scaille.\n\n## Häufige Fragen\n\n**Ist der Tour du Millénaire wieder geöffnet?**\n\nJa, seit Mai 2026 ist der Turm nach der Renovierung wieder für Besucher zugänglich.\n\n**Wie viele Stufen hat der Turm?**\n\n234 Stufen, über eine Wendeltreppe bis auf 45 Meter Höhe.\n\n**Was kostet ein Besuch?**\n\nNichts — der Zugang ist komplett kostenlos.\n\n**Wie sind die Öffnungszeiten?**\n\nTäglich, von Sonnenaufgang bis Sonnenuntergang. In der Jagdsaison kann der Turm ausnahmsweise schließen.\n\n**Gibt es etwas für Kinder?**\n\nJa, neben dem Turm liegt ein kostenloser Spielplatz, mit Picknicktischen und einem Chalet für Getränke und Snacks.\n\n## Ab ArdenNest\n\nDer Tour du Millénaire liegt in unserer eigenen Gemeinde Gedinne, auf dem Plateau der Croix-Scaille — eine kurze Autofahrt vom Ferienhaus. Ein idealer Ausflug, zum Abschluss mit einer Wanderung durch die umliegenden Wälder.",
+        "seo": {
+          "title": "Tour du Millénaire Gedinne — Aussichtsturm | ArdenNest",
+          "description": "Besuchen Sie den Tour du Millénaire auf der Croix-Scaille bei Gedinne: 47,5 m, 234 Stufen, Panorama bis 30 km. Kostenlos, mit Spielplatz. Seit 2026 wieder offen."
+        },
+        "imageAlts": [
+          "Der Tour du Millénaire, der Aussichtsturm auf der Croix-Scaille in Gedinne",
+          "Die Plattformen des Tour du Millénaire mit Dächern aus gespanntem Tuch",
+          "Die Wendeltreppe mit 234 Stufen im Tour du Millénaire",
+          "Panorama über die Wälder der Croix-Scaille vom Tour du Millénaire aus",
+          "Der kostenlose Spielplatz neben dem Tour du Millénaire, von oben gesehen"
+        ],
+        "faq": [
+          {
+            "question": "Ist der Tour du Millénaire wieder geöffnet?",
+            "answer": "Ja, seit Mai 2026 ist der Turm nach der Renovierung wieder für Besucher zugänglich."
+          },
+          {
+            "question": "Wie viele Stufen hat der Tour du Millénaire?",
+            "answer": "234 Stufen, über eine Wendeltreppe bis auf 45 Meter Höhe."
+          },
+          {
+            "question": "Was kostet ein Besuch des Tour du Millénaire?",
+            "answer": "Nichts — der Zugang ist komplett kostenlos."
+          },
+          {
+            "question": "Wie sind die Öffnungszeiten des Turms?",
+            "answer": "Täglich, von Sonnenaufgang bis Sonnenuntergang. In der Jagdsaison kann der Turm ausnahmsweise schließen."
+          },
+          {
+            "question": "Gibt es etwas für Kinder am Turm?",
+            "answer": "Ja, neben dem Turm liegt ein kostenloser Spielplatz, mit Picknicktischen und einem Chalet für Getränke und Snacks."
+          }
+        ]
+      },
       "dinant": {
         "title": "Dinant",
         "description": "Malerische Stadt an der Maas mit Zitadelle, Seilbahn und Stiftskirche. Geburtsort von Adolphe Sax.",
