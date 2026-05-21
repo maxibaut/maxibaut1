@@ -1010,6 +1010,52 @@
     <priority>0.6</priority>
   </url>
 
+  <!-- Attractions: Tour du Millénaire -->
+  <url>
+    <loc>https://ardennest.be/surroundings/attractions/tour-du-millenaire</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/attractions/tour-du-millenaire"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/attractions/tour-du-millenaire"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/attractions/tour-du-millenaire"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/attractions/tour-du-millenaire"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/attractions/tour-du-millenaire"/>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/fr/surroundings/attractions/tour-du-millenaire</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/attractions/tour-du-millenaire"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/attractions/tour-du-millenaire"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/attractions/tour-du-millenaire"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/attractions/tour-du-millenaire"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/attractions/tour-du-millenaire"/>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/en/surroundings/attractions/tour-du-millenaire</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/attractions/tour-du-millenaire"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/attractions/tour-du-millenaire"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/attractions/tour-du-millenaire"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/attractions/tour-du-millenaire"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/attractions/tour-du-millenaire"/>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ardennest.be/de/surroundings/attractions/tour-du-millenaire</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://ardennest.be/surroundings/attractions/tour-du-millenaire"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ardennest.be/fr/surroundings/attractions/tour-du-millenaire"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ardennest.be/en/surroundings/attractions/tour-du-millenaire"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ardennest.be/de/surroundings/attractions/tour-du-millenaire"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ardennest.be/surroundings/attractions/tour-du-millenaire"/>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
   <!-- Attractions: Dinant -->
   <url>
     <loc>https://ardennest.be/surroundings/attractions/dinant</loc>
