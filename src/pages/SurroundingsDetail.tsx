@@ -196,14 +196,26 @@ const SurroundingsDetail = () => {
 
     const scripts: HTMLScriptElement[] = [];
 
-    if ((category === 'active' || category === 'exclusive') && item.coordinates) {
-      const jsonLd = {
+    if ((category === 'active' || category === 'exclusive' || category === 'attractions') && item.coordinates) {
+      const isTdm = slug === 'tour-du-millenaire';
+      const jsonLd: Record<string, unknown> = {
         '@context': 'https://schema.org',
         '@type': 'TouristAttraction',
         name: title,
         description: description,
         inLanguage,
-        ...(item.address && { address: { '@type': 'PostalAddress', streetAddress: item.address } }),
+        ...(item.address && {
+          address: isTdm
+            ? {
+                '@type': 'PostalAddress',
+                streetAddress: 'Croix-Scaille',
+                addressLocality: 'Gedinne',
+                postalCode: '5575',
+                addressRegion: 'Namur',
+                addressCountry: 'BE',
+              }
+            : { '@type': 'PostalAddress', streetAddress: item.address },
+        }),
         geo: {
           '@type': 'GeoCoordinates',
           latitude: item.coordinates.lat,
@@ -212,6 +224,7 @@ const SurroundingsDetail = () => {
         ...(item.externalUrl && { url: item.externalUrl }),
         ...(item.images?.[0] && { image: item.images[0] }),
         ...(openingHours && { openingHours }),
+        ...(isTdm && { isAccessibleForFree: true, publicAccess: true }),
       };
       const s = document.createElement('script');
       s.type = 'application/ld+json';
