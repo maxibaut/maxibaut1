@@ -30,7 +30,7 @@ export function ResponsivePicture({
   return (
     <picture className={className} onClick={onClick}>
       {Object.entries(picture.sources).map(([type, srcset]) => (
-        <source key={type} type={type} srcSet={srcset} sizes={sizes} />
+        <source key={type} type={type.startsWith('image/') ? type : `image/${type}`} srcSet={srcset} sizes={sizes} />
       ))}
       <img
         src={picture.img.src}
