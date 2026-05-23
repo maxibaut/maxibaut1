@@ -182,7 +182,20 @@
       "title": "Ventilation Centrale Silencieuse",
       "description": "Toutes les salles de bain sont équipées d'une ventilation centrale silencieuse. Qualité d'air optimale sans bruit gênant."
     },
-    "viewAll": "Découvrir plus"
+    "viewAll": "Découvrir plus",
+    "kidsWelcome": {
+      "title": "Pensé pour les enfants",
+      "description": "Quand mamie et papi emmènent les petits-enfants, on veut que les enfants puissent jouer en sécurité pendant que les adultes respirent. C'est pourquoi nous avons conçu la maison et le jardin avec ce mélange générationnel en tête : pas de risques cachés pour les tout-petits, assez d'espaces de jeu intérieurs et extérieurs, et un mobilier qui survit à un grand bazar.",
+      "heroAlt": "Façade du gîte ArdenNest avec karts à pédales et tracteurs prêts pour les enfants dans la cour",
+      "altFootball": "Trois générations jouent au football ensemble dans le jardin d'ArdenNest",
+      "altHammock": "Hamac entre les arbres — détente pour les parents pendant que les enfants jouent",
+      "altTrampoline": "Enfants sautant sur le trampoline dans le jardin d'ArdenNest",
+      "altBamboo": "Enfants jouant à cache-cache parmi les bambous du jardin",
+      "feature1": "Jardin clos de 2 hectares sans piscine ni étang — sécurisé pour les tout-petits",
+      "feature2": "Salle de jeux + grange aménagée : ping-pong, baby-foot, coin créatif, livres",
+      "feature3": "Chaises hautes disponibles ; lits bébé à apporter vous-mêmes",
+      "feature4": "Mobilier robuste — les enfants peuvent être enfants"
+    }
   },
   "whyBookDirect": {
     "title": "Pourquoi réserver directement?",

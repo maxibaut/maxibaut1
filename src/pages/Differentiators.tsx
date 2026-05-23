@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 import { useSEO } from '@/hooks/useSEO';
 import { LocalizedLink as Link } from '@/components/LocalizedLink';
 import { Button } from '@/components/ui/button';
-import { Sparkles, ChefHat, TreePine, Gamepad2, Car, Check, ArrowRight, Bed, ClipboardCheck, UtensilsCrossed, Home, Zap, Award, Fan, Headphones } from 'lucide-react';
+import { Sparkles, ChefHat, TreePine, Gamepad2, Car, Check, ArrowRight, Bed, ClipboardCheck, UtensilsCrossed, Home, Zap, Award, Fan, Headphones, Smile } from 'lucide-react';
 import { 
   bedroomQuietLuxury, 
   bedroomPrimary,
@@ -32,6 +32,11 @@ import {
   playBarn,
   propertyHero,
   familyPortrait,
+  kidsGocartHero,
+  kidsFootball3Generations,
+  kidsHammockGarden,
+  kidsTrampoline,
+  kidsBambooHideSeek,
 } from '@/assets/property';
 import PropertyLightbox, { LightboxImage } from '@/components/property/PropertyLightbox';
 import PropertyGalleryGrid from '@/components/property/PropertyGalleryGrid';
@@ -182,6 +187,27 @@ const Differentiators = () => {
         t('differentiators.certifiedFeature4'),
       ],
       reverse: true,
+    },
+    {
+      id: 'kids-welcome',
+      icon: Smile,
+      title: t('differentiators.kidsWelcome.title'),
+      description: t('differentiators.kidsWelcome.description'),
+      image: kidsGocartHero,
+      imageAlt: t('differentiators.kidsWelcome.heroAlt'),
+      sideImages: [
+        { src: kidsFootball3Generations, alt: t('differentiators.kidsWelcome.altFootball') },
+        { src: kidsHammockGarden, alt: t('differentiators.kidsWelcome.altHammock') },
+        { src: kidsTrampoline, alt: t('differentiators.kidsWelcome.altTrampoline') },
+        { src: kidsBambooHideSeek, alt: t('differentiators.kidsWelcome.altBamboo') },
+      ],
+      features: [
+        t('differentiators.kidsWelcome.feature1'),
+        t('differentiators.kidsWelcome.feature2'),
+        t('differentiators.kidsWelcome.feature3'),
+        t('differentiators.kidsWelcome.feature4'),
+      ],
+      reverse: false,
     },
   ], [t]);
 

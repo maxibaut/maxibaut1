@@ -182,7 +182,20 @@
       "title": "Stille Centrale Ventilatie",
       "description": "Alle badkamers zijn uitgerust met stille centrale ventilatie. Optimale luchtkwaliteit zonder storend geluid."
     },
-    "viewAll": "Ontdek meer"
+    "viewAll": "Ontdek meer",
+    "kidsWelcome": {
+      "title": "Kindvriendelijk doordacht",
+      "description": "Wanneer oma en opa kleinkinderen meebrengen, wil je dat de kleintjes veilig kunnen spelen terwijl de volwassenen even adem halen. Daarom ontwierpen we het huis en de tuin met die generatie-mix in gedachten: geen verborgen risico's voor toddlers, voldoende speelplekken binnen en buiten, en meubilair dat een knoeibui overleeft.",
+      "heroAlt": "Voorgevel ArdenNest met gocarts en skelters klaar voor kinderen op het binnenplein",
+      "altFootball": "Drie generaties voetballen samen in de tuin van ArdenNest",
+      "altHammock": "Hangmat tussen bomen — rust voor ouders terwijl kinderen spelen",
+      "altTrampoline": "Kinderen springen op de trampoline in de tuin van ArdenNest",
+      "altBamboo": "Kinderen spelen verstoppertje tussen bamboe in de tuin",
+      "feature1": "Omsloten tuin van 2 hectare zonder zwembad of vijver — toddler-safe",
+      "feature2": "Speelkamer + speelstal: pingpong, voetbalspel, knutselhoek, kinderboeken",
+      "feature3": "Kinderstoelen aanwezig; kinderbedjes zelf meebrengen",
+      "feature4": "Robuust ingericht — kinderen mogen kinderen zijn"
+    }
   },
   "whyBookDirect": {
     "title": "Waarom direct boeken?",
