@@ -182,7 +182,20 @@
       "title": "Silent Central Ventilation",
       "description": "All bathrooms are equipped with silent central ventilation. Optimal air quality without disruptive noise."
     },
-    "viewAll": "Discover more"
+    "viewAll": "Discover more",
+    "kidsWelcome": {
+      "title": "Designed with kids in mind",
+      "description": "When grandma and grandpa bring the grandchildren along, you want the little ones to play safely while the adults catch their breath. That's why we designed the house and garden with that generational mix in mind: no hidden risks for toddlers, plenty of play spaces indoors and out, and furniture that survives a messy afternoon.",
+      "heroAlt": "Front of holiday home ArdenNest with go-karts and pedal tractors ready for children in the courtyard",
+      "altFootball": "Three generations playing football together in the garden of ArdenNest",
+      "altHammock": "Hammock between trees — rest for parents while children play",
+      "altTrampoline": "Children jumping on the trampoline in the garden of ArdenNest",
+      "altBamboo": "Children playing hide-and-seek among bamboo in the garden",
+      "feature1": "Enclosed 2-hectare garden with no pool or pond — toddler-safe by design",
+      "feature2": "Playroom + play barn: ping-pong, foosball, craft corner, children's books",
+      "feature3": "High chairs available; cots we ask you to bring yourselves",
+      "feature4": "Robustly furnished — kids can be kids"
+    }
   },
   "whyBookDirect": {
     "title": "Why book direct?",

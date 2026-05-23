@@ -182,7 +182,20 @@
       "title": "Leise Zentrallüftung",
       "description": "Alle Badezimmer sind mit leiser Zentrallüftung ausgestattet. Optimale Luftqualität ohne störende Geräusche."
     },
-    "viewAll": "Mehr entdecken"
+    "viewAll": "Mehr entdecken",
+    "kidsWelcome": {
+      "title": "Kinderfreundlich durchdacht",
+      "description": "Wenn Oma und Opa die Enkelkinder mitbringen, möchte man, dass die Kleinen sicher spielen können, während die Erwachsenen kurz durchatmen. Deshalb haben wir Haus und Garten mit diesem Generationen-Mix im Kopf entworfen: keine versteckten Risiken für Kleinkinder, genug Spielplätze drinnen und draußen, und Möbel, die einen Spielnachmittag überleben.",
+      "heroAlt": "Vorderseite des Ferienhauses ArdenNest mit Tretautos und Gocarts bereit für Kinder im Innenhof",
+      "altFootball": "Drei Generationen spielen gemeinsam Fußball im Garten von ArdenNest",
+      "altHammock": "Hängematte zwischen Bäumen — Ruhe für Eltern, während Kinder spielen",
+      "altTrampoline": "Kinder springen auf dem Trampolin im Garten von ArdenNest",
+      "altBamboo": "Kinder spielen Verstecken zwischen Bambuspflanzen im Garten",
+      "feature1": "Eingezäunter Garten von 2 Hektar ohne Pool oder Teich — sicher für die Kleinsten",
+      "feature2": "Spielzimmer + Spielscheune: Tischtennis, Tischfußball, Bastelecke, Kinderbücher",
+      "feature3": "Kinderhochstühle bereit; Babybetten bitte selbst mitbringen",
+      "feature4": "Robust eingerichtet — Kinder dürfen Kinder sein"
+    }
   },
   "whyBookDirect": {
     "title": "Warum direkt buchen?",
