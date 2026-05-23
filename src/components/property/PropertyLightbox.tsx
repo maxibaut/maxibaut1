@@ -1,9 +1,11 @@
 import { useEffect, useCallback } from 'react';
 import { X, ChevronLeft, ChevronRight } from 'lucide-react';
-import { cn } from '@/lib/utils';
+import type { Picture } from 'vite-imagetools';
+import { ResponsivePicture } from '@/components/ui/ResponsivePicture';
+import { isPicture, type ImageSrc } from './PropertyGalleryGrid';
 
 export interface LightboxImage {
-  src: string;
+  src: ImageSrc;
   alt: string;
 }
 
@@ -35,7 +37,7 @@ const PropertyLightbox = ({
   const handleKeyDown = useCallback(
     (e: KeyboardEvent) => {
       if (!isOpen) return;
-      
+
       switch (e.key) {
         case 'Escape':
           onClose();
@@ -107,11 +109,25 @@ const PropertyLightbox = ({
         className="max-w-[90vw] max-h-[85vh] flex items-center justify-center"
         onClick={(e) => e.stopPropagation()}
       >
-        <img
-          src={currentImage.src}
-          alt={currentImage.alt}
-          className="max-w-full max-h-[85vh] object-contain"
-        />
+        {isPicture(currentImage.src) ? (
+          <ResponsivePicture
+            picture={currentImage.src}
+            alt={currentImage.alt}
+            sizes="100vw"
+            loading="eager"
+            fetchPriority="high"
+            className="max-w-full max-h-[85vh] flex items-center"
+            imgClassName="max-w-full max-h-[85vh] w-auto h-auto object-contain"
+          />
+        ) : (
+          <img
+            src={currentImage.src}
+            alt={currentImage.alt}
+            loading="eager"
+            decoding="async"
+            className="max-w-full max-h-[85vh] object-contain"
+          />
+        )}
       </div>
 
       {/* Next button */}

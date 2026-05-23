@@ -1,16 +1,24 @@
+import type { Picture } from 'vite-imagetools';
 import { cn } from '@/lib/utils';
+import { ResponsivePicture } from '@/components/ui/ResponsivePicture';
+
+export type ImageSrc = Picture | string;
 
 interface PropertyGalleryGridProps {
-  mainImage: string;
+  mainImage: ImageSrc;
   mainImageAlt: string;
   sideImages: Array<{
-    src: string;
+    src: ImageSrc;
     alt: string;
   }>;
   allPhotosCount?: number;
-  onImageClick: (src: string) => void;
+  onImageClick: (src: ImageSrc) => void;
   className?: string;
   sideImagesPosition?: 'left' | 'right';
+}
+
+export function isPicture(img: ImageSrc): img is Picture {
+  return typeof img === 'object' && img !== null && 'img' in img && 'sources' in img;
 }
 
 const PropertyGalleryGrid = ({
@@ -36,14 +44,25 @@ const PropertyGalleryGrid = ({
             className="flex-1 aspect-square lg:aspect-auto lg:min-h-0 rounded-md overflow-hidden shadow-md cursor-pointer"
             onClick={() => onImageClick(image.src)}
           >
-            <img
-              src={image.src}
-              alt={image.alt}
-              width={400}
-              height={400}
-              loading="lazy"
-              className="w-full h-full object-cover"
-            />
+            {isPicture(image.src) ? (
+              <ResponsivePicture
+                picture={image.src}
+                alt={image.alt}
+                sizes="(max-width: 1024px) 25vw, 18vw"
+                loading="lazy"
+                className="w-full h-full block"
+              />
+            ) : (
+              <img
+                src={image.src}
+                alt={image.alt}
+                width={400}
+                height={400}
+                loading="lazy"
+                decoding="async"
+                className="w-full h-full object-cover"
+              />
+            )}
           </div>
         ))}
       </div>
@@ -56,14 +75,25 @@ const PropertyGalleryGrid = ({
         )}
         onClick={() => onImageClick(mainImage)}
       >
-        <img
-          src={mainImage}
-          alt={mainImageAlt}
-          width={800}
-          height={600}
-          loading="lazy"
-          className="w-full h-full object-cover"
-        />
+        {isPicture(mainImage) ? (
+          <ResponsivePicture
+            picture={mainImage}
+            alt={mainImageAlt}
+            sizes="(max-width: 1024px) 100vw, 50vw"
+            loading="lazy"
+            className="w-full h-full block"
+          />
+        ) : (
+          <img
+            src={mainImage}
+            alt={mainImageAlt}
+            width={800}
+            height={600}
+            loading="lazy"
+            decoding="async"
+            className="w-full h-full object-cover"
+          />
+        )}
       </div>
     </div>
   );

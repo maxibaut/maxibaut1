@@ -4,42 +4,33 @@ import { useTranslation } from 'react-i18next';
 import { useSEO } from '@/hooks/useSEO';
 import { LocalizedLink as Link } from '@/components/LocalizedLink';
 import { Button } from '@/components/ui/button';
-import { Sparkles, ChefHat, TreePine, Gamepad2, Car, Check, ArrowRight, Bed, ClipboardCheck, UtensilsCrossed, Home, Zap, Award, Fan, Headphones, Smile } from 'lucide-react';
-import { 
-  bedroomQuietLuxury, 
-  bedroomPrimary,
-  bedroomAtmospheric,
-  bedroomMezzanine,
-  kitchen,
-  farmhouseAerial,
-  farmhouseFront,
-  farmhouseEntrance,
-  farmhouseSide,
-  diningRoom,
-  livingFireplace,
-  mieleDishwasher,
-  gardenLoungers,
-  gardenHiddenPath,
-  gardenHammock,
-  gardenAerial, 
-  gardenSports,
-  gardenLandscape,
-  terraceDining,
-  bbqTerrace,
-  oakTableDetail, 
-  gameRoomPool, 
-  gameRoomFoosball,
-  playBarn,
-  propertyHero,
-  familyPortrait,
-  kidsGocartHero,
-  kidsFootball3Generations,
-  kidsHammockGarden,
-  kidsTrampoline,
-  kidsBambooHideSeek,
-} from '@/assets/property';
+import { Sparkles, Check, ArrowRight, ClipboardCheck, Home, Zap, Award, Headphones, Smile } from 'lucide-react';
+
+// Phase 1 pilot: direct vite-imagetools Picture imports (responsive AVIF + WebP srcset).
+// Bypasses src/assets/property barrel-file (which still exports legacy webp strings used elsewhere).
+const PIC_QUERY = '?w=480;768;1280;1600&format=avif;webp&as=picture';
+import bedroomQuietLuxury from '@/assets/property/ardennest-slaapkamer-boxspring-beddengoed.jpg?w=480;768;1280;1600&format=avif;webp&as=picture';
+import bedroomPrimary from '@/assets/property/ardennest-slaapkamer-hoofdslaapkamer.jpg?w=480;768;1280;1600&format=avif;webp&as=picture';
+import bedroomAtmospheric from '@/assets/property/ardennest-slaapkamer-sfeer.jpg?w=480;768;1280;1600&format=avif;webp&as=picture';
+import bedroomMezzanine from '@/assets/property/ardennest-slaapkamer-mezzanine.jpg?w=480;768;1280;1600&format=avif;webp&as=picture';
+import kitchen from '@/assets/property/ardennest-keuken-lacanche-overzicht.jpg?w=480;768;1280;1600&format=avif;webp&as=picture';
+import diningRoom from '@/assets/property/ardennest-tafel-eetzaal-overzicht.jpg?w=480;768;1280;1600&format=avif;webp&as=picture';
+import livingFireplace from '@/assets/property/ardennest-leefruimte-open-haard.jpg?w=480;768;1280;1600&format=avif;webp&as=picture';
+import gardenSports from '@/assets/property/ardennest-tuin-sport-veld.jpg?w=480;768;1280;1600&format=avif;webp&as=picture';
+import gardenAerial from '@/assets/property/ardennest-exterieur-tuin-luchtfoto.jpg?w=480;768;1280;1600&format=avif;webp&as=picture';
+import gardenLandscape from '@/assets/property/ardennest-tuin-landschap.jpg?w=480;768;1280;1600&format=avif;webp&as=picture';
+import terraceDining from '@/assets/property/ardennest-tuin-terras-eethoek.jpg?w=480;768;1280;1600&format=avif;webp&as=picture';
+import oakTableDetail from '@/assets/property/ardennest-tafel-eiken-detail.jpg?w=480;768;1280;1600&format=avif;webp&as=picture';
+import propertyHero from '@/assets/property/ardennest-exterieur-hoeve-hero.jpg?w=480;768;1280;1600&format=avif;webp&as=picture';
+import familyPortrait from '@/assets/property/ardennest-eigenaars-gezin.jpg?w=480;768;1280;1600&format=avif;webp&as=picture';
+import kidsGocartHero from '@/assets/property/ardennest-kinderen-gocart-skelter-parcours-hoeve.webp?w=480;768;1280;1600&format=avif;webp&as=picture';
+import kidsFootball3Generations from '@/assets/property/ardennest-kinderen-voetbal-3-generaties.webp?w=480;768;1280;1600&format=avif;webp&as=picture';
+import kidsHammockGarden from '@/assets/property/ardennest-kinderen-tuin-hangmat-rust.webp?w=480;768;1280;1600&format=avif;webp&as=picture';
+import kidsTrampoline from '@/assets/property/ardennest-kinderen-trampoline-fun.webp?w=480;768;1280;1600&format=avif;webp&as=picture';
+import kidsBambooHideSeek from '@/assets/property/ardennest-kinderen-bamboo-verstoppertje.webp?w=480;768;1280;1600&format=avif;webp&as=picture';
+
 import PropertyLightbox, { LightboxImage } from '@/components/property/PropertyLightbox';
-import PropertyGalleryGrid from '@/components/property/PropertyGalleryGrid';
+import PropertyGalleryGrid, { type ImageSrc } from '@/components/property/PropertyGalleryGrid';
 
 const linkifyGreentripper = (text: string): ReactNode => {
   const parts = text.split(/(Greentripper)/g);
@@ -211,9 +202,10 @@ const Differentiators = () => {
     },
   ], [t]);
 
-  // Build lightbox photos from sections: main photo first, then side photos, deduplicated
+  // Build lightbox photos from sections: main photo first, then side photos, deduplicated by reference.
+  // Picture-objects are stable module references, so Set-dedup works for both Picture and string.
   const allPhotos: LightboxImage[] = useMemo(() => {
-    const seen = new Set<string>();
+    const seen = new Set<ImageSrc>();
     const photos: LightboxImage[] = [];
     sections.forEach(section => {
       if (!seen.has(section.image)) {
@@ -230,7 +222,7 @@ const Differentiators = () => {
     return photos;
   }, [sections]);
 
-  const handleImageClick = (src: string) => {
+  const handleImageClick = (src: ImageSrc) => {
     const index = allPhotos.findIndex(photo => photo.src === src);
     setCurrentImageIndex(index >= 0 ? index : 0);
     setLightboxOpen(true);
