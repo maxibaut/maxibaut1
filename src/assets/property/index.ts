@@ -64,3 +64,10 @@ export { default as farmhouseSide } from './ardennest-exterieur-zijkant.jpg?form
 // Owners
 export { default as ownersPortrait } from './ardennest-eigenaars-portret.jpg?format=webp';
 export { default as familyPortrait } from './ardennest-eigenaars-gezin.jpg?format=webp';
+
+// Kids
+export { default as kidsGocartHero } from './ardennest-kinderen-gocart-skelter-parcours-hoeve.webp';
+export { default as kidsFootball3Generations } from './ardennest-kinderen-voetbal-3-generaties.webp';
+export { default as kidsHammockGarden } from './ardennest-kinderen-tuin-hangmat-rust.webp';
+export { default as kidsTrampoline } from './ardennest-kinderen-trampoline-fun.webp';
+export { default as kidsBambooHideSeek } from './ardennest-kinderen-bamboo-verstoppertje.webp';
