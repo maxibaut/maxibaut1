@@ -26,3 +26,11 @@ declare module '*&format=avif&quality=70&as=srcset' {
   const src: string;
   export default src;
 }
+
+// vite-imagetools Picture-object import (responsive <picture> with AVIF + WebP srcset)
+declare module '*&as=picture' {
+  import type { Picture } from 'vite-imagetools';
+  const picture: Picture;
+  export default picture;
+}
+
