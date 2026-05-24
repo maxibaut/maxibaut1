@@ -176,14 +176,15 @@ const SurroundingsDetail = () => {
     if (ogDesc) ogDesc.setAttribute('content', finalSeoDesc);
     const ogType = document.querySelector('meta[property="og:type"]');
     if (ogType) ogType.setAttribute('content', 'article');
-    const heroImg = item?.heroImage || item?.images?.[0];
-    if (heroImg) {
-      const absImg = heroImg.startsWith('http') ? heroImg : `https://ardennest.be${heroImg}`;
+    const heroImgSrc = getImageSrc(item?.heroImage || item?.images?.[0]);
+    if (heroImgSrc) {
+      const absImg = heroImgSrc.startsWith('http') ? heroImgSrc : `https://ardennest.be${heroImgSrc}`;
       const ogImg = document.querySelector('meta[property="og:image"]');
       if (ogImg) ogImg.setAttribute('content', absImg);
       const twImg = document.querySelector('meta[name="twitter:image"]');
       if (twImg) twImg.setAttribute('content', absImg);
     }
+
     const twTitle = document.querySelector('meta[property="twitter:title"]');
     if (twTitle) twTitle.setAttribute('content', finalSeoTitle);
     const twDesc = document.querySelector('meta[property="twitter:description"]');
