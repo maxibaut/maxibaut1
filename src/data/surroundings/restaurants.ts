@@ -1,8 +1,8 @@
 import { RestaurantItem } from './types';
 
-import belvedere01 from '@/assets/restaurants/ardennest-restaurant-belvedere-beauraing-01.png?format=webp';
-import belvedere02 from '@/assets/restaurants/ardennest-restaurant-belvedere-beauraing-02.jpg?format=webp';
-import belvedere03 from '@/assets/restaurants/ardennest-restaurant-belvedere-beauraing-03.jpg?format=webp';
+import belvedere01 from '@/assets/restaurants/ardennest-restaurant-belvedere-beauraing-01.png?w=480;768;1280;1600&format=avif;webp&as=picture';
+import belvedere02 from '@/assets/restaurants/ardennest-restaurant-belvedere-beauraing-02.jpg?w=480;768;1280;1600&format=avif;webp&as=picture';
+import belvedere03 from '@/assets/restaurants/ardennest-restaurant-belvedere-beauraing-03.jpg?w=480;768;1280;1600&format=avif;webp&as=picture';
 
 export const restaurants: RestaurantItem[] = [
   {
