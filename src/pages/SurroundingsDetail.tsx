@@ -360,19 +360,32 @@ const SurroundingsDetail = () => {
     ...(cyclingData?.bikeImage ? [cyclingData.bikeImage] : []),
   ];
 
+  const heroImg = item.heroImage || item.images?.[0];
+
   return (
     <PageWrapper>
       {/* Hero Section */}
-      <section 
-        className="bg-primary text-primary-foreground section-padding relative overflow-hidden"
-        style={(item.heroImage || item.images?.[0]) ? {
-          backgroundImage: `url(${item.heroImage || item.images![0]})`,
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-        } : undefined}
-      >
+      <section className="bg-primary text-primary-foreground section-padding relative overflow-hidden">
+        {heroImg && isPicture(heroImg) ? (
+          <ResponsivePicture
+            picture={heroImg}
+            alt={title}
+            sizes="100vw"
+            loading="eager"
+            fetchPriority="high"
+            className="absolute inset-0 w-full h-full"
+            imgClassName="w-full h-full object-cover"
+          />
+        ) : heroImg ? (
+          <div
+            className="absolute inset-0 w-full h-full bg-cover bg-center"
+            style={{ backgroundImage: `url(${getImageSrc(heroImg)})` }}
+          />
+        ) : null}
         {/* Donkere overlay voor leesbaarheid */}
         <div className="absolute inset-0 bg-black/60 z-0" />
+        
+
         
         <div className="container-luxury relative z-10">
           <Link
