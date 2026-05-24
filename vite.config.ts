@@ -5,24 +5,6 @@ import { componentTagger } from "lovable-tagger";
 import { ViteImageOptimizer } from "vite-plugin-image-optimizer";
 import { imagetools } from "vite-imagetools";
 
-const stripImagetoolsQueriesForProduction = () => ({
-  name: "strip-imagetools-queries-for-production",
-  enforce: "pre" as const,
-  apply: "build" as const,
-  transform(code: string, id: string) {
-    if (!/\.[cm]?[jt]sx?$/.test(id) || !code.includes("?")) {
-      return null;
-    }
-
-    const stripped = code.replace(
-      /(from\s+['"][^'"]+\.(?:png|jpe?g|gif|webp|avif))\?[^'"]+(['"])/gi,
-      "$1$2"
-    );
-
-    return stripped === code ? null : { code: stripped, map: null };
-  },
-});
-
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
   server: {
@@ -34,7 +16,14 @@ export default defineConfig(({ mode }) => ({
   },
   plugins: [
     react(),
-    mode === "production" ? stripImagetoolsQueriesForProduction() : imagetools(),
+    imagetools({
+      defaultDirectives: () =>
+        new URLSearchParams({
+          w: "480;1600",
+          format: "webp",
+          as: "picture",
+        }),
+    }),
     mode === "development" && componentTagger(),
     ViteImageOptimizer({
       jpg: {
