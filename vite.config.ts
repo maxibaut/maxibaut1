@@ -4,20 +4,27 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 import { ViteImageOptimizer } from "vite-plugin-image-optimizer";
 import { imagetools } from "vite-imagetools";
+import type { Plugin } from "vite";
 
-/** Production-only plugin: strips vite-imagetools query params from image imports
- *  and resolves them as standard Vite asset URLs. This avoids the massive
- *  build-time penalty of processing 100+ images through imagetools, while
- *  keeping the responsive-image pipeline functional in development. */
-function stripImageQueryPlugin() {
+/** Production-only plugin: strips vite-imagetools query params from image imports.
+ *  Uses a transform hook to rewrite the source code before Vite parses it,
+ *  avoiding the massive build-time penalty of processing 100+ images.
+ *  In development, the standard imagetools pipeline remains active. */
+function stripImageQueryPlugin(): Plugin {
   return {
     name: "strip-image-query",
-    enforce: "pre" as const,
-    async resolveId(source: string, importer: string | undefined, options: { skipSelf?: boolean }) {
-      if (/\.(png|jpe?g|gif|webp|avif)\?.+$/.test(source)) {
-        const cleanSource = source.split("?")[0] + "?url";
-        const resolution = await this.resolve(cleanSource, importer, { ...options, skipSelf: true });
-        return resolution;
+    transform(code, id) {
+      if (!/\.(ts|tsx)$/.test(id)) return;
+
+      // Rewrite image imports with query params to plain imports:
+      // import img from "./photo.jpg?w=480&as=picture" → import img from "./photo.jpg"
+      const transformed = code.replace(
+        /(from\s+['"][^'"]+)\.(png|jpe?g|gif|webp|avif)\?[^'"]+(['"])/gi,
+        "$1.$2$3"
+      );
+
+      if (transformed !== code) {
+        return { code: transformed, map: null };
       }
     },
   };
