@@ -28,8 +28,10 @@ import { useSEO } from '@/hooks/useSEO';
 import {
   getItemsByCategory,
   getImageSrc,
+  isPicture,
   SurroundingsCategory,
 } from '@/data/surroundings';
+import { ResponsivePicture } from '@/components/ui/ResponsivePicture';
 
 
 const VALID_CATEGORIES: SurroundingsCategory[] = [
