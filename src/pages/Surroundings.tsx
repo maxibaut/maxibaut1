@@ -24,8 +24,9 @@ import {
   MessageCircle,
   Link as LinkIcon,
 } from 'lucide-react';
-import { walks, cycling, active, exclusive, attractions, restaurants, shops } from '@/data/surroundings';
+import { walks, cycling, active, exclusive, attractions, restaurants, shops, getImageSrc } from '@/data/surroundings';
 import { ExclusiveItem } from '@/data/surroundings/types';
+
 import FritesCone from '@/components/icons/FritesCone';
 import { useSEO } from '@/hooks/useSEO';
 import { toast } from 'sonner';
@@ -333,8 +334,8 @@ const Surroundings = () => {
                 <Link key={walk.id} to={`/surroundings/walks/${walk.slug}`}>
                   <Card 
                     className="hover:shadow-lg transition-all hover:-translate-y-1 h-full group cursor-pointer relative overflow-hidden"
-                    style={walk.images?.[0] ? {
-                      backgroundImage: `url(${walk.images[0]})`,
+                    style={getImageSrc(walk.images?.[0]) ? {
+                      backgroundImage: `url(${getImageSrc(walk.images?.[0])})`,
                       backgroundSize: 'cover',
                       backgroundPosition: 'center',
                     } : undefined}
@@ -342,6 +343,7 @@ const Surroundings = () => {
                     {walk.images?.[0] && (
                       <div className="absolute inset-0 bg-background/80 z-0" />
                     )}
+
                     <CardHeader className="pb-2 relative z-10">
                       <div className="flex items-start justify-between gap-2">
                         <CardTitle className="font-serif text-lg leading-tight group-hover:text-primary transition-colors">
@@ -425,8 +427,8 @@ const Surroundings = () => {
                 <Link key={walk.id} to={`/surroundings/walks/${walk.slug}`}>
                   <Card 
                     className="hover:shadow-lg transition-all hover:-translate-y-1 h-full group cursor-pointer relative overflow-hidden"
-                    style={walk.images?.[0] ? {
-                      backgroundImage: `url(${walk.images[0]})`,
+                    style={getImageSrc(walk.images?.[0]) ? {
+                      backgroundImage: `url(${getImageSrc(walk.images?.[0])})`,
                       backgroundSize: 'cover',
                       backgroundPosition: 'center',
                     } : undefined}
@@ -434,6 +436,7 @@ const Surroundings = () => {
                     {walk.images?.[0] && (
                       <div className="absolute inset-0 bg-background/80 z-0" />
                     )}
+
                     <CardHeader className="pb-2 relative z-10">
                       <div className="flex items-start justify-between gap-2">
                         <CardTitle className="font-serif text-lg leading-tight group-hover:text-primary transition-colors">

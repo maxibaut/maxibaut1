@@ -27,8 +27,10 @@ import {
 import { useSEO } from '@/hooks/useSEO';
 import {
   getItemsByCategory,
+  getImageSrc,
   SurroundingsCategory,
 } from '@/data/surroundings';
+
 
 const VALID_CATEGORIES: SurroundingsCategory[] = [
   'walks',
@@ -211,21 +213,24 @@ const SurroundingsCategoryHub = () => {
                 const itTitle = t(`items.${cat}.${it.slug}.title`, { defaultValue: it.slug });
                 const itDesc = t(`items.${cat}.${it.slug}.description`, { defaultValue: '' });
                 const img = it.heroImage || it.images?.[0];
+                const imgSrc = getImageSrc(img);
                 return (
+
                   <Link key={it.id} to={`/surroundings/${cat}/${it.slug}`}>
                     <Card
                       className="hover:shadow-lg transition-all hover:-translate-y-1 h-full group cursor-pointer relative overflow-hidden"
                       style={
-                        img
+                        imgSrc
                           ? {
-                              backgroundImage: `url(${img})`,
+                              backgroundImage: `url(${imgSrc})`,
                               backgroundSize: 'cover',
                               backgroundPosition: 'center',
                             }
                           : undefined
                       }
                     >
-                      {img && <div className="absolute inset-0 bg-background/85 z-0" />}
+                      {imgSrc && <div className="absolute inset-0 bg-background/85 z-0" />}
+
                       <CardHeader className="pb-2 relative z-10">
                         <div className="flex items-start justify-between gap-2">
                           <CardTitle className="font-serif text-lg leading-tight group-hover:text-primary transition-colors">

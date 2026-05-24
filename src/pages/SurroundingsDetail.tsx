@@ -38,6 +38,8 @@ import {
 } from 'lucide-react';
 import {
   getItemBySlug,
+  isPicture,
+  getImageSrc,
   SurroundingsCategory,
   WalkItem,
   CyclingItem,
@@ -46,6 +48,8 @@ import {
   ShopItem,
   ExclusiveItem,
 } from '@/data/surroundings';
+import { ResponsivePicture } from '@/components/ui/ResponsivePicture';
+
 import {
   Breadcrumb,
   BreadcrumbList,
@@ -172,14 +176,15 @@ const SurroundingsDetail = () => {
     if (ogDesc) ogDesc.setAttribute('content', finalSeoDesc);
     const ogType = document.querySelector('meta[property="og:type"]');
     if (ogType) ogType.setAttribute('content', 'article');
-    const heroImg = item?.heroImage || item?.images?.[0];
-    if (heroImg) {
-      const absImg = heroImg.startsWith('http') ? heroImg : `https://ardennest.be${heroImg}`;
+    const heroImgSrc = getImageSrc(item?.heroImage || item?.images?.[0]);
+    if (heroImgSrc) {
+      const absImg = heroImgSrc.startsWith('http') ? heroImgSrc : `https://ardennest.be${heroImgSrc}`;
       const ogImg = document.querySelector('meta[property="og:image"]');
       if (ogImg) ogImg.setAttribute('content', absImg);
       const twImg = document.querySelector('meta[name="twitter:image"]');
       if (twImg) twImg.setAttribute('content', absImg);
     }
+
     const twTitle = document.querySelector('meta[property="twitter:title"]');
     if (twTitle) twTitle.setAttribute('content', finalSeoTitle);
     const twDesc = document.querySelector('meta[property="twitter:description"]');
@@ -222,7 +227,7 @@ const SurroundingsDetail = () => {
           longitude: item.coordinates.lng,
         },
         ...(item.externalUrl && { url: item.externalUrl }),
-        ...(item.images?.[0] && { image: item.images[0] }),
+        ...(item.images?.[0] && { image: getImageSrc(item.images[0]) }),
         ...(openingHours && { openingHours }),
         ...(isTdm && { isAccessibleForFree: true, publicAccess: true }),
       };
@@ -355,19 +360,32 @@ const SurroundingsDetail = () => {
     ...(cyclingData?.bikeImage ? [cyclingData.bikeImage] : []),
   ];
 
+  const heroImg = item.heroImage || item.images?.[0];
+
   return (
     <PageWrapper>
       {/* Hero Section */}
-      <section 
-        className="bg-primary text-primary-foreground section-padding relative overflow-hidden"
-        style={(item.heroImage || item.images?.[0]) ? {
-          backgroundImage: `url(${item.heroImage || item.images![0]})`,
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-        } : undefined}
-      >
+      <section className="bg-primary text-primary-foreground section-padding relative overflow-hidden">
+        {heroImg && isPicture(heroImg) ? (
+          <ResponsivePicture
+            picture={heroImg}
+            alt={title}
+            sizes="100vw"
+            loading="eager"
+            fetchPriority="high"
+            className="absolute inset-0 w-full h-full"
+            imgClassName="w-full h-full object-cover"
+          />
+        ) : heroImg ? (
+          <div
+            className="absolute inset-0 w-full h-full bg-cover bg-center"
+            style={{ backgroundImage: `url(${getImageSrc(heroImg)})` }}
+          />
+        ) : null}
         {/* Donkere overlay voor leesbaarheid */}
         <div className="absolute inset-0 bg-black/60 z-0" />
+        
+
         
         <div className="container-luxury relative z-10">
           <Link
@@ -472,15 +490,28 @@ const SurroundingsDetail = () => {
                       className="aspect-[4/3] overflow-hidden rounded-lg cursor-pointer group"
                       onClick={() => openLightbox(idx)}
                     >
-                      <img
-                        src={image}
-                        alt={getImageAlt(idx)}
-                        width={600}
-                        height={450}
-                        loading="lazy"
-                        className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
-                      />
+                      {isPicture(image) ? (
+                        <ResponsivePicture
+                          picture={image}
+                          alt={getImageAlt(idx)}
+                          sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                          loading="lazy"
+                          className="w-full h-full block"
+                          imgClassName="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                        />
+                      ) : (
+                        <img
+                          src={image}
+                          alt={getImageAlt(idx)}
+                          width={600}
+                          height={450}
+                          loading="lazy"
+                          decoding="async"
+                          className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                        />
+                      )}
                     </div>
+
                   </CarouselItem>
                 ))}
               </CarouselContent>
@@ -513,12 +544,27 @@ const SurroundingsDetail = () => {
             </button>
           )}
 
-          <img
-            src={allImages[lightboxIndex]}
-            alt={getImageAlt(lightboxIndex)}
-            className="max-w-full max-h-[90vh] object-contain"
-            onClick={(e) => e.stopPropagation()}
-          />
+          {isPicture(allImages[lightboxIndex]) ? (
+            <ResponsivePicture
+              picture={allImages[lightboxIndex]}
+              alt={getImageAlt(lightboxIndex)}
+              sizes="100vw"
+              loading="eager"
+              fetchPriority="high"
+              className="max-w-full max-h-[90vh]"
+              imgClassName="max-w-full max-h-[90vh] object-contain"
+              onClick={() => { /* swallow click to keep lightbox open */ }}
+
+            />
+          ) : (
+            <img
+              src={allImages[lightboxIndex] as string}
+              alt={getImageAlt(lightboxIndex)}
+              className="max-w-full max-h-[90vh] object-contain"
+              onClick={(e) => e.stopPropagation()}
+            />
+          )}
+
 
           {allImages.length > 1 && (
             <button
@@ -607,21 +653,36 @@ const SurroundingsDetail = () => {
                         dangerouslySetInnerHTML={{ __html: sanitizedParagraph }}
                       />
                       {showBikeImage && (
-                        <div className="flex justify-center my-6">
-                          <img
-                            src={cyclingData!.bikeImage}
-                            alt="BH Atom elektrische fiets"
-                            width={400}
-                            height={300}
-                            loading="lazy"
-                            className="max-w-sm w-full rounded-lg cursor-pointer hover:opacity-90 transition-opacity"
-                            onClick={() => {
-                              const bikeIdx = (item.images?.length ?? 0) + (walkData?.routeMapImage ? 1 : 0);
-                              openLightbox(bikeIdx);
-                            }}
-                          />
+                        <div
+                          className="flex justify-center my-6"
+                          onClick={() => {
+                            const bikeIdx = (item.images?.length ?? 0) + (walkData?.routeMapImage ? 1 : 0);
+                            openLightbox(bikeIdx);
+                          }}
+                        >
+                          {isPicture(cyclingData!.bikeImage!) ? (
+                            <ResponsivePicture
+                              picture={cyclingData!.bikeImage as import('vite-imagetools').Picture}
+                              alt="BH Atom elektrische fiets"
+                              sizes="(max-width: 768px) 100vw, 400px"
+                              loading="lazy"
+                              className="max-w-sm w-full block cursor-pointer hover:opacity-90 transition-opacity"
+                              imgClassName="w-full h-auto rounded-lg"
+                            />
+                          ) : (
+                            <img
+                              src={cyclingData!.bikeImage as string}
+                              alt="BH Atom elektrische fiets"
+                              width={400}
+                              height={300}
+                              loading="lazy"
+                              decoding="async"
+                              className="max-w-sm w-full rounded-lg cursor-pointer hover:opacity-90 transition-opacity"
+                            />
+                          )}
                         </div>
                       )}
+
                     </div>
                   );
                 })}
@@ -671,21 +732,37 @@ const SurroundingsDetail = () => {
                       <Map className="h-5 w-5 text-primary" />
                       {t('walks.routeMap', { defaultValue: 'Routekaart' })}
                     </h3>
-                    <img
-                      src={walkData.routeMapImage}
-                      alt={`${title} - ${t('routeMap', { defaultValue: 'routekaart' })}`}
-                      width={800}
-                      height={600}
-                      loading="lazy"
-                      className="w-full rounded-lg cursor-pointer"
+                    <div
+                      className="w-full cursor-pointer"
                       onClick={() => {
-                        // Add map as last image in lightbox
                         if (item.images) {
                           setLightboxIndex(item.images.length);
                           setLightboxOpen(true);
                         }
                       }}
-                    />
+                    >
+                      {isPicture(walkData.routeMapImage) ? (
+                        <ResponsivePicture
+                          picture={walkData.routeMapImage}
+                          alt={`${title} - ${t('routeMap', { defaultValue: 'routekaart' })}`}
+                          sizes="(max-width: 768px) 100vw, 66vw"
+                          loading="lazy"
+                          className="w-full block"
+                          imgClassName="w-full h-auto rounded-lg"
+                        />
+                      ) : (
+                        <img
+                          src={walkData.routeMapImage as string}
+                          alt={`${title} - ${t('routeMap', { defaultValue: 'routekaart' })}`}
+                          width={800}
+                          height={600}
+                          loading="lazy"
+                          decoding="async"
+                          className="w-full rounded-lg"
+                        />
+                      )}
+                    </div>
+
                     <p className="text-sm text-muted-foreground mt-3 flex items-start gap-2">
                       <span>🗺️</span>
                       <span>{t('walks.walkingMapsNote')}</span>
