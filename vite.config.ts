@@ -4,31 +4,6 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 import { ViteImageOptimizer } from "vite-plugin-image-optimizer";
 import { imagetools } from "vite-imagetools";
-import type { Plugin } from "vite";
-
-/** Production-only plugin: strips vite-imagetools query params from image imports.
- *  Uses a transform hook to rewrite the source code before Vite parses it,
- *  avoiding the massive build-time penalty of processing 100+ images.
- *  In development, the standard imagetools pipeline remains active. */
-function stripImageQueryPlugin(): Plugin {
-  return {
-    name: "strip-image-query",
-    transform(code, id) {
-      if (!/\.(ts|tsx)$/.test(id)) return;
-
-      // Rewrite image imports with query params to plain imports:
-      // import img from "./photo.jpg?w=480&as=picture" → import img from "./photo.jpg"
-      const transformed = code.replace(
-        /(from\s+['"][^'"]+)\.(png|jpe?g|gif|webp|avif)\?[^'"]+(['"])/gi,
-        "$1.$2$3"
-      );
-
-      if (transformed !== code) {
-        return { code: transformed, map: null };
-      }
-    },
-  };
-}
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
@@ -41,7 +16,14 @@ export default defineConfig(({ mode }) => ({
   },
   plugins: [
     react(),
-    mode === "production" ? stripImageQueryPlugin() : imagetools(),
+    imagetools({
+      defaultDirectives: () =>
+        new URLSearchParams({
+          w: "480;768;1600",
+          format: "webp",
+          as: "picture",
+        }),
+    }),
     mode === "development" && componentTagger(),
     ViteImageOptimizer({
       jpg: {
