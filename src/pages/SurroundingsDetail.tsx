@@ -227,7 +227,7 @@ const SurroundingsDetail = () => {
           longitude: item.coordinates.lng,
         },
         ...(item.externalUrl && { url: item.externalUrl }),
-        ...(item.images?.[0] && { image: item.images[0] }),
+        ...(item.images?.[0] && { image: getImageSrc(item.images[0]) }),
         ...(openingHours && { openingHours }),
         ...(isTdm && { isAccessibleForFree: true, publicAccess: true }),
       };
