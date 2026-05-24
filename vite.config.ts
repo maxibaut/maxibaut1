@@ -16,7 +16,19 @@ export default defineConfig(({ mode }) => ({
   },
   plugins: [
     react(),
-    imagetools(),
+    imagetools({
+      defaultDirectives: (url) => {
+        // For any import using `as=picture`, force a lighter pipeline:
+        // WebP only (no AVIF) and 3 sizes instead of 4. Massive build-time win.
+        if (url.searchParams.get('as') === 'picture') {
+          const params = new URLSearchParams(url.search);
+          params.set('w', '480;1024;1600');
+          params.set('format', 'webp');
+          return params;
+        }
+        return new URLSearchParams();
+      },
+    }),
     mode === "development" && componentTagger(),
     ViteImageOptimizer({
       jpg: {
