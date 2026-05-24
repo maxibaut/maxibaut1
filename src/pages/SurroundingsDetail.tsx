@@ -553,7 +553,8 @@ const SurroundingsDetail = () => {
               fetchPriority="high"
               className="max-w-full max-h-[90vh]"
               imgClassName="max-w-full max-h-[90vh] object-contain"
-              onClick={(e) => e.stopPropagation()}
+              onClick={() => { /* swallow click to keep lightbox open */ }}
+
             />
           ) : (
             <img
