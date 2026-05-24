@@ -8,26 +8,26 @@ import { Sparkles, Check, ArrowRight, ClipboardCheck, Home, Zap, Award, Headphon
 
 // Phase 1 pilot: direct vite-imagetools Picture imports (responsive AVIF + WebP srcset).
 // Bypasses src/assets/property barrel-file (which still exports legacy webp strings used elsewhere).
-const PIC_QUERY = '?w=480;1600&format=avif;webp&as=picture';
-import bedroomQuietLuxury from '@/assets/property/ardennest-slaapkamer-boxspring-beddengoed.jpg?w=480;1600&format=avif;webp&as=picture';
-import bedroomPrimary from '@/assets/property/ardennest-slaapkamer-hoofdslaapkamer.jpg?w=480;1600&format=avif;webp&as=picture';
-import bedroomAtmospheric from '@/assets/property/ardennest-slaapkamer-sfeer.jpg?w=480;1600&format=avif;webp&as=picture';
-import bedroomMezzanine from '@/assets/property/ardennest-slaapkamer-mezzanine.jpg?w=480;1600&format=avif;webp&as=picture';
-import kitchen from '@/assets/property/ardennest-keuken-lacanche-overzicht.jpg?w=480;1600&format=avif;webp&as=picture';
-import diningRoom from '@/assets/property/ardennest-tafel-eetzaal-overzicht.jpg?w=480;1600&format=avif;webp&as=picture';
-import livingFireplace from '@/assets/property/ardennest-leefruimte-open-haard.jpg?w=480;1600&format=avif;webp&as=picture';
-import gardenSports from '@/assets/property/ardennest-tuin-sport-veld.jpg?w=480;1600&format=avif;webp&as=picture';
-import gardenAerial from '@/assets/property/ardennest-exterieur-tuin-luchtfoto.jpg?w=480;1600&format=avif;webp&as=picture';
-import gardenLandscape from '@/assets/property/ardennest-tuin-landschap.jpg?w=480;1600&format=avif;webp&as=picture';
-import terraceDining from '@/assets/property/ardennest-tuin-terras-eethoek.jpg?w=480;1600&format=avif;webp&as=picture';
-import oakTableDetail from '@/assets/property/ardennest-tafel-eiken-detail.jpg?w=480;1600&format=avif;webp&as=picture';
-import propertyHero from '@/assets/property/ardennest-exterieur-hoeve-hero.jpg?w=480;1600&format=avif;webp&as=picture';
-import familyPortrait from '@/assets/property/ardennest-eigenaars-gezin.jpg?w=480;1600&format=avif;webp&as=picture';
-import kidsGocartHero from '@/assets/property/ardennest-kinderen-gocart-skelter-parcours-hoeve.webp?w=480;1600&format=avif;webp&as=picture';
-import kidsFootball3Generations from '@/assets/property/ardennest-kinderen-voetbal-3-generaties.webp?w=480;1600&format=avif;webp&as=picture';
-import kidsHammockGarden from '@/assets/property/ardennest-kinderen-tuin-hangmat-rust.webp?w=480;1600&format=avif;webp&as=picture';
-import kidsTrampoline from '@/assets/property/ardennest-kinderen-trampoline-fun.webp?w=480;1600&format=avif;webp&as=picture';
-import kidsBambooHideSeek from '@/assets/property/ardennest-kinderen-bamboo-verstoppertje.webp?w=480;1600&format=avif;webp&as=picture';
+const PIC_QUERY = '?w=480;1600&format=webp&as=picture';
+import bedroomQuietLuxury from '@/assets/property/ardennest-slaapkamer-boxspring-beddengoed.jpg?w=480;1600&format=webp&as=picture';
+import bedroomPrimary from '@/assets/property/ardennest-slaapkamer-hoofdslaapkamer.jpg?w=480;1600&format=webp&as=picture';
+import bedroomAtmospheric from '@/assets/property/ardennest-slaapkamer-sfeer.jpg?w=480;1600&format=webp&as=picture';
+import bedroomMezzanine from '@/assets/property/ardennest-slaapkamer-mezzanine.jpg?w=480;1600&format=webp&as=picture';
+import kitchen from '@/assets/property/ardennest-keuken-lacanche-overzicht.jpg?w=480;1600&format=webp&as=picture';
+import diningRoom from '@/assets/property/ardennest-tafel-eetzaal-overzicht.jpg?w=480;1600&format=webp&as=picture';
+import livingFireplace from '@/assets/property/ardennest-leefruimte-open-haard.jpg?w=480;1600&format=webp&as=picture';
+import gardenSports from '@/assets/property/ardennest-tuin-sport-veld.jpg?w=480;1600&format=webp&as=picture';
+import gardenAerial from '@/assets/property/ardennest-exterieur-tuin-luchtfoto.jpg?w=480;1600&format=webp&as=picture';
+import gardenLandscape from '@/assets/property/ardennest-tuin-landschap.jpg?w=480;1600&format=webp&as=picture';
+import terraceDining from '@/assets/property/ardennest-tuin-terras-eethoek.jpg?w=480;1600&format=webp&as=picture';
+import oakTableDetail from '@/assets/property/ardennest-tafel-eiken-detail.jpg?w=480;1600&format=webp&as=picture';
+import propertyHero from '@/assets/property/ardennest-exterieur-hoeve-hero.jpg?w=480;1600&format=webp&as=picture';
+import familyPortrait from '@/assets/property/ardennest-eigenaars-gezin.jpg?w=480;1600&format=webp&as=picture';
+import kidsGocartHero from '@/assets/property/ardennest-kinderen-gocart-skelter-parcours-hoeve.webp?w=480;1600&format=webp&as=picture';
+import kidsFootball3Generations from '@/assets/property/ardennest-kinderen-voetbal-3-generaties.webp?w=480;1600&format=webp&as=picture';
+import kidsHammockGarden from '@/assets/property/ardennest-kinderen-tuin-hangmat-rust.webp?w=480;1600&format=webp&as=picture';
+import kidsTrampoline from '@/assets/property/ardennest-kinderen-trampoline-fun.webp?w=480;1600&format=webp&as=picture';
+import kidsBambooHideSeek from '@/assets/property/ardennest-kinderen-bamboo-verstoppertje.webp?w=480;1600&format=webp&as=picture';
 
 import PropertyLightbox, { LightboxImage } from '@/components/property/PropertyLightbox';
 import PropertyGalleryGrid, { type ImageSrc } from '@/components/property/PropertyGalleryGrid';
