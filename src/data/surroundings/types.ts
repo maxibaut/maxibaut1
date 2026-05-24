@@ -1,6 +1,22 @@
 // Types for surroundings items - technical data structure
 // Translations are handled in locale JSON files
 
+import type { Picture } from 'vite-imagetools';
+
+/** Image source: vite-imagetools Picture object (preferred) or legacy string URL. */
+export type ImageSrc = Picture | string;
+
+/** Type guard: true if value is a vite-imagetools Picture object. */
+export function isPicture(img: unknown): img is Picture {
+  return typeof img === 'object' && img !== null && 'img' in img && 'sources' in img;
+}
+
+/** Returns the underlying URL string from a Picture object or passes through a string. */
+export const getImageSrc = (img: ImageSrc | undefined): string | undefined => {
+  if (!img) return undefined;
+  return typeof img === 'string' ? img : img.img.src;
+};
+
 export type SurroundingsCategory = 'walks' | 'cycling' | 'active' | 'exclusive' | 'attractions' | 'restaurants' | 'shops';
 
 export type Difficulty = 'easy' | 'medium' | 'hard';
@@ -12,8 +28,8 @@ export interface SurroundingsItemBase {
   category: SurroundingsCategory;
   village?: string; // Village/town name for SEO titles (e.g. "Gedinne", "Beauraing")
   distance?: string; // Distance from property
-  heroImage?: string; // Hero background image (not shown in gallery)
-  images?: string[]; // Array of gallery image paths
+  heroImage?: ImageSrc; // Hero background image (not shown in gallery)
+  images?: ImageSrc[]; // Array of gallery images
   externalUrl?: string;
   coordinates?: {
     lat: number;
@@ -44,7 +60,7 @@ export interface WalkItem extends SurroundingsItemBase {
   buggyFriendly: boolean;
   startsFromProperty?: boolean; // Walk starts from the house
   trainBookingUrl?: string; // Link to train booking website
-  routeMapImage?: string; // Route map image
+  routeMapImage?: ImageSrc; // Route map image
 }
 
 export interface CyclingPricing {
@@ -60,7 +76,7 @@ export interface CyclingItem extends SurroundingsItemBase {
   routeDistance: string;
   difficulty: Difficulty | 'rental';
   type: 'route' | 'rental';
-  bikeImage?: string; // Optional inline bike/product image shown in description
+  bikeImage?: ImageSrc; // Optional inline bike/product image shown in description
   pricing?: CyclingPricing;
 }
 
