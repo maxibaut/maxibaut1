@@ -5,6 +5,24 @@ import { componentTagger } from "lovable-tagger";
 import { ViteImageOptimizer } from "vite-plugin-image-optimizer";
 import { imagetools } from "vite-imagetools";
 
+/** Production-only plugin: strips vite-imagetools query params from image imports
+ *  and resolves them as standard Vite asset URLs. This avoids the massive
+ *  build-time penalty of processing 100+ images through imagetools, while
+ *  keeping the responsive-image pipeline functional in development. */
+function stripImageQueryPlugin() {
+  return {
+    name: "strip-image-query",
+    enforce: "pre" as const,
+    async resolveId(source: string, importer: string | undefined, options: { skipSelf?: boolean }) {
+      if (/\.(png|jpe?g|gif|webp|avif)\?.+$/.test(source)) {
+        const cleanSource = source.split("?")[0] + "?url";
+        const resolution = await this.resolve(cleanSource, importer, { ...options, skipSelf: true });
+        return resolution;
+      }
+    },
+  };
+}
+
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
   server: {
@@ -16,19 +34,7 @@ export default defineConfig(({ mode }) => ({
   },
   plugins: [
     react(),
-    imagetools({
-      defaultDirectives: (url) => {
-        // For any import using `as=picture`, force a lighter pipeline:
-        // WebP only (no AVIF) and 3 sizes instead of 4. Massive build-time win.
-        if (url.searchParams.get('as') === 'picture') {
-          const params = new URLSearchParams(url.search);
-          params.set('w', '480;1024;1600');
-          params.set('format', 'webp');
-          return params;
-        }
-        return new URLSearchParams();
-      },
-    }),
+    mode === "production" ? stripImageQueryPlugin() : imagetools(),
     mode === "development" && componentTagger(),
     ViteImageOptimizer({
       jpg: {
