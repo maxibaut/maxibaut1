@@ -38,6 +38,8 @@ import {
 } from 'lucide-react';
 import {
   getItemBySlug,
+  isPicture,
+  getImageSrc,
   SurroundingsCategory,
   WalkItem,
   CyclingItem,
@@ -46,6 +48,8 @@ import {
   ShopItem,
   ExclusiveItem,
 } from '@/data/surroundings';
+import { ResponsivePicture } from '@/components/ui/ResponsivePicture';
+
 import {
   Breadcrumb,
   BreadcrumbList,
