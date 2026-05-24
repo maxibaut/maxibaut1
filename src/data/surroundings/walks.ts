@@ -1,55 +1,55 @@
 import { WalkItem } from './types';
 
 // Route maps
-import anseremmeRouteMap from '@/assets/walks/ardennest-wandeling-anseremme-gendron-routekaart.jpg?w=640;1280w=480;768;1280;1600&format=avif;webp&as=pictureformat=webpw=480;768;1280;1600&format=avif;webp&as=pictureas=picture';
-import houyetRouteMap from '@/assets/walks/ardennest-wandeling-houyet-gendron-routekaart.jpg?w=640;1280w=480;768;1280;1600&format=avif;webp&as=pictureformat=webpw=480;768;1280;1600&format=avif;webp&as=pictureas=picture';
-import rochehautRouteMap from '@/assets/walks/ardennest-wandeling-rochehaut-routekaart.jpg?w=640;1280w=480;768;1280;1600&format=avif;webp&as=pictureformat=webpw=480;768;1280;1600&format=avif;webp&as=pictureas=picture';
+import anseremmeRouteMap from '@/assets/walks/ardennest-wandeling-anseremme-gendron-routekaart.jpg?w=480;768;1280;1600&format=avif;webp&as=picture';
+import houyetRouteMap from '@/assets/walks/ardennest-wandeling-houyet-gendron-routekaart.jpg?w=480;768;1280;1600&format=avif;webp&as=picture';
+import rochehautRouteMap from '@/assets/walks/ardennest-wandeling-rochehaut-routekaart.jpg?w=480;768;1280;1600&format=avif;webp&as=picture';
 
 // CapRando wandelgids photos
-import caprando01 from '@/assets/walks/ardennest-wandeling-caprando-groep-picknick.jpg?w=640;1280w=480;768;1280;1600&format=avif;webp&as=pictureformat=webpw=480;768;1280;1600&format=avif;webp&as=pictureas=picture';
-import caprando02 from '@/assets/walks/ardennest-wandeling-caprando-natuur.jpg?w=640;1280w=480;768;1280;1600&format=avif;webp&as=pictureformat=webpw=480;768;1280;1600&format=avif;webp&as=pictureas=picture';
-import caprando03 from '@/assets/walks/ardennest-wandeling-caprando-semois-meanders.jpg?w=640;1280w=480;768;1280;1600&format=avif;webp&as=pictureformat=webpw=480;768;1280;1600&format=avif;webp&as=pictureas=picture';
-import caprando04 from '@/assets/walks/ardennest-wandeling-caprando-bos.jpg?w=640;1280w=480;768;1280;1600&format=avif;webp&as=pictureformat=webpw=480;768;1280;1600&format=avif;webp&as=pictureas=picture';
-import caprando05 from '@/assets/walks/ardennest-wandeling-caprando-lesse-vallei.jpg?w=640;1280w=480;768;1280;1600&format=avif;webp&as=pictureformat=webpw=480;768;1280;1600&format=avif;webp&as=pictureas=picture';
-import caprando06 from '@/assets/walks/ardennest-wandeling-caprando-orientatie.jpg?w=640;1280w=480;768;1280;1600&format=avif;webp&as=pictureformat=webpw=480;768;1280;1600&format=avif;webp&as=pictureas=picture';
+import caprando01 from '@/assets/walks/ardennest-wandeling-caprando-groep-picknick.jpg?w=480;768;1280;1600&format=avif;webp&as=picture';
+import caprando02 from '@/assets/walks/ardennest-wandeling-caprando-natuur.jpg?w=480;768;1280;1600&format=avif;webp&as=picture';
+import caprando03 from '@/assets/walks/ardennest-wandeling-caprando-semois-meanders.jpg?w=480;768;1280;1600&format=avif;webp&as=picture';
+import caprando04 from '@/assets/walks/ardennest-wandeling-caprando-bos.jpg?w=480;768;1280;1600&format=avif;webp&as=picture';
+import caprando05 from '@/assets/walks/ardennest-wandeling-caprando-lesse-vallei.jpg?w=480;768;1280;1600&format=avif;webp&as=picture';
+import caprando06 from '@/assets/walks/ardennest-wandeling-caprando-orientatie.jpg?w=480;768;1280;1600&format=avif;webp&as=picture';
 
 // Laddertjeswandeling Rochehaut photos
-import rochehaut01 from '@/assets/walks/ardennest-wandeling-rochehaut-01.jpg?w=640;1280w=480;768;1280;1600&format=avif;webp&as=pictureformat=webpw=480;768;1280;1600&format=avif;webp&as=pictureas=picture';
-import rochehaut02 from '@/assets/walks/ardennest-wandeling-rochehaut-02.jpg?w=640;1280w=480;768;1280;1600&format=avif;webp&as=pictureformat=webpw=480;768;1280;1600&format=avif;webp&as=pictureas=picture';
-import rochehaut03 from '@/assets/walks/ardennest-wandeling-rochehaut-03.jpg?w=640;1280w=480;768;1280;1600&format=avif;webp&as=pictureformat=webpw=480;768;1280;1600&format=avif;webp&as=pictureas=picture';
-import rochehaut04 from '@/assets/walks/ardennest-wandeling-rochehaut-04.jpg?w=640;1280w=480;768;1280;1600&format=avif;webp&as=pictureformat=webpw=480;768;1280;1600&format=avif;webp&as=pictureas=picture';
-import rochehaut05 from '@/assets/walks/ardennest-wandeling-rochehaut-05.jpg?w=640;1280w=480;768;1280;1600&format=avif;webp&as=pictureformat=webpw=480;768;1280;1600&format=avif;webp&as=pictureas=picture';
-import rochehaut06 from '@/assets/walks/ardennest-wandeling-rochehaut-06.jpg?w=640;1280w=480;768;1280;1600&format=avif;webp&as=pictureformat=webpw=480;768;1280;1600&format=avif;webp&as=pictureas=picture';
-import rochehaut07 from '@/assets/walks/ardennest-wandeling-rochehaut-07.jpg?w=640;1280w=480;768;1280;1600&format=avif;webp&as=pictureformat=webpw=480;768;1280;1600&format=avif;webp&as=pictureas=picture';
-import rochehaut08 from '@/assets/walks/ardennest-wandeling-rochehaut-08.jpg?w=640;1280w=480;768;1280;1600&format=avif;webp&as=pictureformat=webpw=480;768;1280;1600&format=avif;webp&as=pictureas=picture';
-import rochehaut09 from '@/assets/walks/ardennest-wandeling-rochehaut-09.jpg?w=640;1280w=480;768;1280;1600&format=avif;webp&as=pictureformat=webpw=480;768;1280;1600&format=avif;webp&as=pictureas=picture';
-import rochehaut10 from '@/assets/walks/ardennest-wandeling-rochehaut-10.jpg?w=640;1280w=480;768;1280;1600&format=avif;webp&as=pictureformat=webpw=480;768;1280;1600&format=avif;webp&as=pictureas=picture';
+import rochehaut01 from '@/assets/walks/ardennest-wandeling-rochehaut-01.jpg?w=480;768;1280;1600&format=avif;webp&as=picture';
+import rochehaut02 from '@/assets/walks/ardennest-wandeling-rochehaut-02.jpg?w=480;768;1280;1600&format=avif;webp&as=picture';
+import rochehaut03 from '@/assets/walks/ardennest-wandeling-rochehaut-03.jpg?w=480;768;1280;1600&format=avif;webp&as=picture';
+import rochehaut04 from '@/assets/walks/ardennest-wandeling-rochehaut-04.jpg?w=480;768;1280;1600&format=avif;webp&as=picture';
+import rochehaut05 from '@/assets/walks/ardennest-wandeling-rochehaut-05.jpg?w=480;768;1280;1600&format=avif;webp&as=picture';
+import rochehaut06 from '@/assets/walks/ardennest-wandeling-rochehaut-06.jpg?w=480;768;1280;1600&format=avif;webp&as=picture';
+import rochehaut07 from '@/assets/walks/ardennest-wandeling-rochehaut-07.jpg?w=480;768;1280;1600&format=avif;webp&as=picture';
+import rochehaut08 from '@/assets/walks/ardennest-wandeling-rochehaut-08.jpg?w=480;768;1280;1600&format=avif;webp&as=picture';
+import rochehaut09 from '@/assets/walks/ardennest-wandeling-rochehaut-09.jpg?w=480;768;1280;1600&format=avif;webp&as=picture';
+import rochehaut10 from '@/assets/walks/ardennest-wandeling-rochehaut-10.jpg?w=480;768;1280;1600&format=avif;webp&as=picture';
 
 // Treinwandeling Anseremme - Gendron photos
-import treinWalk01 from '@/assets/walks/ardennest-wandeling-anseremme-gendron-kaart-lesse.jpg?w=640;1280w=480;768;1280;1600&format=avif;webp&as=pictureformat=webpw=480;768;1280;1600&format=avif;webp&as=pictureas=picture';
-import treinWalk02 from '@/assets/walks/ardennest-wandeling-anseremme-gendron-la-lesse.jpg?w=640;1280w=480;768;1280;1600&format=avif;webp&as=pictureformat=webpw=480;768;1280;1600&format=avif;webp&as=pictureas=picture';
-import treinWalk03 from '@/assets/walks/ardennest-wandeling-anseremme-gendron-rotsen.jpg?w=640;1280w=480;768;1280;1600&format=avif;webp&as=pictureformat=webpw=480;768;1280;1600&format=avif;webp&as=pictureas=picture';
-import treinWalk04 from '@/assets/walks/ardennest-wandeling-anseremme-kasteel-walzin.jpg?w=640;1280w=480;768;1280;1600&format=avif;webp&as=pictureformat=webpw=480;768;1280;1600&format=avif;webp&as=pictureas=picture';
-import treinWalk05 from '@/assets/walks/ardennest-wandeling-anseremme-gendron-wegwijzer.jpg?w=640;1280w=480;768;1280;1600&format=avif;webp&as=pictureformat=webpw=480;768;1280;1600&format=avif;webp&as=pictureas=picture';
-import treinWalk06 from '@/assets/walks/ardennest-wandeling-anseremme-gendron-brug.jpg?w=640;1280w=480;768;1280;1600&format=avif;webp&as=pictureformat=webpw=480;768;1280;1600&format=avif;webp&as=pictureas=picture';
-import treinWalk07 from '@/assets/walks/ardennest-wandeling-anseremme-gendron-brug-uitzicht.jpg?w=640;1280w=480;768;1280;1600&format=avif;webp&as=pictureformat=webpw=480;768;1280;1600&format=avif;webp&as=pictureas=picture';
-import treinWalk08 from '@/assets/walks/ardennest-wandeling-anseremme-gendron-grot.jpg?w=640;1280w=480;768;1280;1600&format=avif;webp&as=pictureformat=webpw=480;768;1280;1600&format=avif;webp&as=pictureas=picture';
-import treinWalk09 from '@/assets/walks/ardennest-wandeling-anseremme-routekaart-detail.jpg?w=640;1280w=480;768;1280;1600&format=avif;webp&as=pictureformat=webpw=480;768;1280;1600&format=avif;webp&as=pictureas=picture';
+import treinWalk01 from '@/assets/walks/ardennest-wandeling-anseremme-gendron-kaart-lesse.jpg?w=480;768;1280;1600&format=avif;webp&as=picture';
+import treinWalk02 from '@/assets/walks/ardennest-wandeling-anseremme-gendron-la-lesse.jpg?w=480;768;1280;1600&format=avif;webp&as=picture';
+import treinWalk03 from '@/assets/walks/ardennest-wandeling-anseremme-gendron-rotsen.jpg?w=480;768;1280;1600&format=avif;webp&as=picture';
+import treinWalk04 from '@/assets/walks/ardennest-wandeling-anseremme-kasteel-walzin.jpg?w=480;768;1280;1600&format=avif;webp&as=picture';
+import treinWalk05 from '@/assets/walks/ardennest-wandeling-anseremme-gendron-wegwijzer.jpg?w=480;768;1280;1600&format=avif;webp&as=picture';
+import treinWalk06 from '@/assets/walks/ardennest-wandeling-anseremme-gendron-brug.jpg?w=480;768;1280;1600&format=avif;webp&as=picture';
+import treinWalk07 from '@/assets/walks/ardennest-wandeling-anseremme-gendron-brug-uitzicht.jpg?w=480;768;1280;1600&format=avif;webp&as=picture';
+import treinWalk08 from '@/assets/walks/ardennest-wandeling-anseremme-gendron-grot.jpg?w=480;768;1280;1600&format=avif;webp&as=picture';
+import treinWalk09 from '@/assets/walks/ardennest-wandeling-anseremme-routekaart-detail.jpg?w=480;768;1280;1600&format=avif;webp&as=picture';
 
 // Treinwandeling Houyet - Gendron photos
-import houyetWalk00 from '@/assets/walks/ardennest-wandeling-houyet-gendron-brug-lesse.jpg?w=640;1280w=480;768;1280;1600&format=avif;webp&as=pictureformat=webpw=480;768;1280;1600&format=avif;webp&as=pictureas=picture';
-import houyetWalk01 from '@/assets/walks/ardennest-wandeling-houyet-gendron-station.jpg?w=640;1280w=480;768;1280;1600&format=avif;webp&as=pictureformat=webpw=480;768;1280;1600&format=avif;webp&as=pictureas=picture';
-import houyetWalk02 from '@/assets/walks/ardennest-wandeling-houyet-gendron-bospad-trap.jpg?w=640;1280w=480;768;1280;1600&format=avif;webp&as=pictureformat=webpw=480;768;1280;1600&format=avif;webp&as=pictureas=picture';
-import houyetWalk03 from '@/assets/walks/ardennest-wandeling-houyet-gendron-wegwijzer.jpg?w=640;1280w=480;768;1280;1600&format=avif;webp&as=pictureformat=webpw=480;768;1280;1600&format=avif;webp&as=pictureas=picture';
-import houyetWalk04 from '@/assets/walks/ardennest-wandeling-houyet-gendron-lesse.jpg?w=640;1280w=480;768;1280;1600&format=avif;webp&as=pictureformat=webpw=480;768;1280;1600&format=avif;webp&as=pictureas=picture';
-import houyetWalk05 from '@/assets/walks/ardennest-wandeling-houyet-gendron-bospad.jpg?w=640;1280w=480;768;1280;1600&format=avif;webp&as=pictureformat=webpw=480;768;1280;1600&format=avif;webp&as=pictureas=picture';
-import houyetWalk06 from '@/assets/walks/ardennest-wandeling-houyet-gendron-rotsen.jpg?w=640;1280w=480;768;1280;1600&format=avif;webp&as=pictureformat=webpw=480;768;1280;1600&format=avif;webp&as=pictureas=picture';
-import houyetWalk07 from '@/assets/walks/ardennest-wandeling-houyet-gendron-panorama.jpg?w=640;1280w=480;768;1280;1600&format=avif;webp&as=pictureformat=webpw=480;768;1280;1600&format=avif;webp&as=pictureas=picture';
-import houyetWalk08 from '@/assets/walks/ardennest-wandeling-houyet-gendron-pad.jpg?w=640;1280w=480;768;1280;1600&format=avif;webp&as=pictureformat=webpw=480;768;1280;1600&format=avif;webp&as=pictureas=picture';
-import houyetWalk09 from '@/assets/walks/ardennest-wandeling-houyet-gendron-brug.jpg?w=640;1280w=480;768;1280;1600&format=avif;webp&as=pictureformat=webpw=480;768;1280;1600&format=avif;webp&as=pictureas=picture';
-import houyetWalk10 from '@/assets/walks/ardennest-wandeling-houyet-gendron-terras.jpg?w=640;1280w=480;768;1280;1600&format=avif;webp&as=pictureformat=webpw=480;768;1280;1600&format=avif;webp&as=pictureas=picture';
-import houyetWalk11 from '@/assets/walks/ardennest-wandeling-houyet-gendron-klimmen.jpg?w=640;1280w=480;768;1280;1600&format=avif;webp&as=pictureformat=webpw=480;768;1280;1600&format=avif;webp&as=pictureas=picture';
-import houyetWalk12 from '@/assets/walks/ardennest-wandeling-houyet-gendron-steile-trap.jpg?w=640;1280w=480;768;1280;1600&format=avif;webp&as=pictureformat=webpw=480;768;1280;1600&format=avif;webp&as=pictureas=picture';
+import houyetWalk00 from '@/assets/walks/ardennest-wandeling-houyet-gendron-brug-lesse.jpg?w=480;768;1280;1600&format=avif;webp&as=picture';
+import houyetWalk01 from '@/assets/walks/ardennest-wandeling-houyet-gendron-station.jpg?w=480;768;1280;1600&format=avif;webp&as=picture';
+import houyetWalk02 from '@/assets/walks/ardennest-wandeling-houyet-gendron-bospad-trap.jpg?w=480;768;1280;1600&format=avif;webp&as=picture';
+import houyetWalk03 from '@/assets/walks/ardennest-wandeling-houyet-gendron-wegwijzer.jpg?w=480;768;1280;1600&format=avif;webp&as=picture';
+import houyetWalk04 from '@/assets/walks/ardennest-wandeling-houyet-gendron-lesse.jpg?w=480;768;1280;1600&format=avif;webp&as=picture';
+import houyetWalk05 from '@/assets/walks/ardennest-wandeling-houyet-gendron-bospad.jpg?w=480;768;1280;1600&format=avif;webp&as=picture';
+import houyetWalk06 from '@/assets/walks/ardennest-wandeling-houyet-gendron-rotsen.jpg?w=480;768;1280;1600&format=avif;webp&as=picture';
+import houyetWalk07 from '@/assets/walks/ardennest-wandeling-houyet-gendron-panorama.jpg?w=480;768;1280;1600&format=avif;webp&as=picture';
+import houyetWalk08 from '@/assets/walks/ardennest-wandeling-houyet-gendron-pad.jpg?w=480;768;1280;1600&format=avif;webp&as=picture';
+import houyetWalk09 from '@/assets/walks/ardennest-wandeling-houyet-gendron-brug.jpg?w=480;768;1280;1600&format=avif;webp&as=picture';
+import houyetWalk10 from '@/assets/walks/ardennest-wandeling-houyet-gendron-terras.jpg?w=480;768;1280;1600&format=avif;webp&as=picture';
+import houyetWalk11 from '@/assets/walks/ardennest-wandeling-houyet-gendron-klimmen.jpg?w=480;768;1280;1600&format=avif;webp&as=picture';
+import houyetWalk12 from '@/assets/walks/ardennest-wandeling-houyet-gendron-steile-trap.jpg?w=480;768;1280;1600&format=avif;webp&as=picture';
 
 export const walks: WalkItem[] = [
   {

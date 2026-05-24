@@ -1,29 +1,29 @@
 import { ShopItem } from './types';
 
-import proxyDelhaize00 from '@/assets/shops/ardennest-winkel-proxy-delhaize-gedinne-01.webp?w=640;1280w=480;768;1280;1600&format=avif;webp&as=pictureformat=webpw=480;768;1280;1600&format=avif;webp&as=pictureas=picture';
-import proxyDelhaize01 from '@/assets/shops/ardennest-winkel-proxy-delhaize-gedinne-02.webp?w=640;1280w=480;768;1280;1600&format=avif;webp&as=pictureformat=webpw=480;768;1280;1600&format=avif;webp&as=pictureas=picture';
-import proxyDelhaize02 from '@/assets/shops/ardennest-winkel-proxy-delhaize-gedinne-03.webp?w=640;1280w=480;768;1280;1600&format=avif;webp&as=pictureformat=webpw=480;768;1280;1600&format=avif;webp&as=pictureas=picture';
-import proxyDelhaize03 from '@/assets/shops/ardennest-winkel-proxy-delhaize-gedinne-04.webp?w=640;1280w=480;768;1280;1600&format=avif;webp&as=pictureformat=webpw=480;768;1280;1600&format=avif;webp&as=pictureas=picture';
-import intermarche01 from '@/assets/shops/ardennest-winkel-intermarche-gedinne-01.jpg?w=640;1280w=480;768;1280;1600&format=avif;webp&as=pictureformat=webpw=480;768;1280;1600&format=avif;webp&as=pictureas=picture';
-import intermarche02 from '@/assets/shops/ardennest-winkel-intermarche-gedinne-02.jpg?w=640;1280w=480;768;1280;1600&format=avif;webp&as=pictureformat=webpw=480;768;1280;1600&format=avif;webp&as=pictureas=picture';
-import intermarche03 from '@/assets/shops/ardennest-winkel-intermarche-gedinne-03.jpg?w=640;1280w=480;768;1280;1600&format=avif;webp&as=pictureformat=webpw=480;768;1280;1600&format=avif;webp&as=pictureas=picture';
-import auxDelices00 from '@/assets/shops/ardennest-winkel-aux-delices-houille-01.jpg?w=640;1280w=480;768;1280;1600&format=avif;webp&as=pictureformat=webpw=480;768;1280;1600&format=avif;webp&as=pictureas=picture';
-import auxDelices01 from '@/assets/shops/ardennest-winkel-aux-delices-houille-02.jpg?w=640;1280w=480;768;1280;1600&format=avif;webp&as=pictureformat=webpw=480;768;1280;1600&format=avif;webp&as=pictureas=picture';
-import auxDelices02 from '@/assets/shops/ardennest-winkel-aux-delices-houille-03.jpg?w=640;1280w=480;768;1280;1600&format=avif;webp&as=pictureformat=webpw=480;768;1280;1600&format=avif;webp&as=pictureas=picture';
-import auxDelices03 from '@/assets/shops/ardennest-winkel-aux-delices-houille-04.jpg?w=640;1280w=480;768;1280;1600&format=avif;webp&as=pictureformat=webpw=480;768;1280;1600&format=avif;webp&as=pictureas=picture';
-import auxDelices04 from '@/assets/shops/ardennest-winkel-aux-delices-houille-05.jpg?w=640;1280w=480;768;1280;1600&format=avif;webp&as=pictureformat=webpw=480;768;1280;1600&format=avif;webp&as=pictureas=picture';
-import auxDelices05 from '@/assets/shops/ardennest-winkel-aux-delices-houille-06.jpg?w=640;1280w=480;768;1280;1600&format=avif;webp&as=pictureformat=webpw=480;768;1280;1600&format=avif;webp&as=pictureas=picture';
-import auxDelices06 from '@/assets/shops/ardennest-winkel-aux-delices-houille-07.jpg?w=640;1280w=480;768;1280;1600&format=avif;webp&as=pictureformat=webpw=480;768;1280;1600&format=avif;webp&as=pictureas=picture';
-import boulangerieDumont01 from '@/assets/shops/ardennest-winkel-boulangerie-dumont-01.jpg?w=640;1280w=480;768;1280;1600&format=avif;webp&as=pictureformat=webpw=480;768;1280;1600&format=avif;webp&as=pictureas=picture';
-import boulangerieDumont02 from '@/assets/shops/ardennest-winkel-boulangerie-dumont-02.jpg?w=640;1280w=480;768;1280;1600&format=avif;webp&as=pictureformat=webpw=480;768;1280;1600&format=avif;webp&as=pictureas=picture';
-import boulangerieDumont03 from '@/assets/shops/ardennest-winkel-boulangerie-dumont-03.jpg?w=640;1280w=480;768;1280;1600&format=avif;webp&as=pictureformat=webpw=480;768;1280;1600&format=avif;webp&as=pictureas=picture';
-import boulangerieDumont04 from '@/assets/shops/ardennest-winkel-boulangerie-dumont-04.jpg?w=640;1280w=480;768;1280;1600&format=avif;webp&as=pictureformat=webpw=480;768;1280;1600&format=avif;webp&as=pictureas=picture';
-import terracines01 from '@/assets/shops/ardennest-winkel-terracines-01.jpg?w=640;1280w=480;768;1280;1600&format=avif;webp&as=pictureformat=webpw=480;768;1280;1600&format=avif;webp&as=pictureas=picture';
-import terracines02 from '@/assets/shops/ardennest-winkel-terracines-02.jpg?w=640;1280w=480;768;1280;1600&format=avif;webp&as=pictureformat=webpw=480;768;1280;1600&format=avif;webp&as=pictureas=picture';
-import terracines03 from '@/assets/shops/ardennest-winkel-terracines-03.jpg?w=640;1280w=480;768;1280;1600&format=avif;webp&as=pictureformat=webpw=480;768;1280;1600&format=avif;webp&as=pictureas=picture';
-import terracines04 from '@/assets/shops/ardennest-winkel-terracines-04.jpg?w=640;1280w=480;768;1280;1600&format=avif;webp&as=pictureformat=webpw=480;768;1280;1600&format=avif;webp&as=pictureas=picture';
-import terracines05 from '@/assets/shops/ardennest-winkel-terracines-05.jpg?w=640;1280w=480;768;1280;1600&format=avif;webp&as=pictureformat=webpw=480;768;1280;1600&format=avif;webp&as=pictureas=picture';
-import terracines06 from '@/assets/shops/ardennest-winkel-terracines-06.jpg?w=640;1280w=480;768;1280;1600&format=avif;webp&as=pictureformat=webpw=480;768;1280;1600&format=avif;webp&as=pictureas=picture';
+import proxyDelhaize00 from '@/assets/shops/ardennest-winkel-proxy-delhaize-gedinne-01.webp?w=480;768;1280;1600&format=avif;webp&as=picture';
+import proxyDelhaize01 from '@/assets/shops/ardennest-winkel-proxy-delhaize-gedinne-02.webp?w=480;768;1280;1600&format=avif;webp&as=picture';
+import proxyDelhaize02 from '@/assets/shops/ardennest-winkel-proxy-delhaize-gedinne-03.webp?w=480;768;1280;1600&format=avif;webp&as=picture';
+import proxyDelhaize03 from '@/assets/shops/ardennest-winkel-proxy-delhaize-gedinne-04.webp?w=480;768;1280;1600&format=avif;webp&as=picture';
+import intermarche01 from '@/assets/shops/ardennest-winkel-intermarche-gedinne-01.jpg?w=480;768;1280;1600&format=avif;webp&as=picture';
+import intermarche02 from '@/assets/shops/ardennest-winkel-intermarche-gedinne-02.jpg?w=480;768;1280;1600&format=avif;webp&as=picture';
+import intermarche03 from '@/assets/shops/ardennest-winkel-intermarche-gedinne-03.jpg?w=480;768;1280;1600&format=avif;webp&as=picture';
+import auxDelices00 from '@/assets/shops/ardennest-winkel-aux-delices-houille-01.jpg?w=480;768;1280;1600&format=avif;webp&as=picture';
+import auxDelices01 from '@/assets/shops/ardennest-winkel-aux-delices-houille-02.jpg?w=480;768;1280;1600&format=avif;webp&as=picture';
+import auxDelices02 from '@/assets/shops/ardennest-winkel-aux-delices-houille-03.jpg?w=480;768;1280;1600&format=avif;webp&as=picture';
+import auxDelices03 from '@/assets/shops/ardennest-winkel-aux-delices-houille-04.jpg?w=480;768;1280;1600&format=avif;webp&as=picture';
+import auxDelices04 from '@/assets/shops/ardennest-winkel-aux-delices-houille-05.jpg?w=480;768;1280;1600&format=avif;webp&as=picture';
+import auxDelices05 from '@/assets/shops/ardennest-winkel-aux-delices-houille-06.jpg?w=480;768;1280;1600&format=avif;webp&as=picture';
+import auxDelices06 from '@/assets/shops/ardennest-winkel-aux-delices-houille-07.jpg?w=480;768;1280;1600&format=avif;webp&as=picture';
+import boulangerieDumont01 from '@/assets/shops/ardennest-winkel-boulangerie-dumont-01.jpg?w=480;768;1280;1600&format=avif;webp&as=picture';
+import boulangerieDumont02 from '@/assets/shops/ardennest-winkel-boulangerie-dumont-02.jpg?w=480;768;1280;1600&format=avif;webp&as=picture';
+import boulangerieDumont03 from '@/assets/shops/ardennest-winkel-boulangerie-dumont-03.jpg?w=480;768;1280;1600&format=avif;webp&as=picture';
+import boulangerieDumont04 from '@/assets/shops/ardennest-winkel-boulangerie-dumont-04.jpg?w=480;768;1280;1600&format=avif;webp&as=picture';
+import terracines01 from '@/assets/shops/ardennest-winkel-terracines-01.jpg?w=480;768;1280;1600&format=avif;webp&as=picture';
+import terracines02 from '@/assets/shops/ardennest-winkel-terracines-02.jpg?w=480;768;1280;1600&format=avif;webp&as=picture';
+import terracines03 from '@/assets/shops/ardennest-winkel-terracines-03.jpg?w=480;768;1280;1600&format=avif;webp&as=picture';
+import terracines04 from '@/assets/shops/ardennest-winkel-terracines-04.jpg?w=480;768;1280;1600&format=avif;webp&as=picture';
+import terracines05 from '@/assets/shops/ardennest-winkel-terracines-05.jpg?w=480;768;1280;1600&format=avif;webp&as=picture';
+import terracines06 from '@/assets/shops/ardennest-winkel-terracines-06.jpg?w=480;768;1280;1600&format=avif;webp&as=picture';
 
 export const shops: ShopItem[] = [
   {
