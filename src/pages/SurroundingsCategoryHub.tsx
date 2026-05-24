@@ -215,23 +215,30 @@ const SurroundingsCategoryHub = () => {
                 const itTitle = t(`items.${cat}.${it.slug}.title`, { defaultValue: it.slug });
                 const itDesc = t(`items.${cat}.${it.slug}.description`, { defaultValue: '' });
                 const img = it.heroImage || it.images?.[0];
-                const imgSrc = getImageSrc(img);
                 return (
 
                   <Link key={it.id} to={`/surroundings/${cat}/${it.slug}`}>
                     <Card
                       className="hover:shadow-lg transition-all hover:-translate-y-1 h-full group cursor-pointer relative overflow-hidden"
-                      style={
-                        imgSrc
-                          ? {
-                              backgroundImage: `url(${imgSrc})`,
-                              backgroundSize: 'cover',
-                              backgroundPosition: 'center',
-                            }
-                          : undefined
-                      }
                     >
-                      {imgSrc && <div className="absolute inset-0 bg-background/85 z-0" />}
+                      {img && (
+                        isPicture(img) ? (
+                          <ResponsivePicture
+                            picture={img}
+                            alt={itTitle}
+                            sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                            loading="lazy"
+                            className="absolute inset-0 w-full h-full"
+                            imgClassName="w-full h-full object-cover"
+                          />
+                        ) : (
+                          <div
+                            className="absolute inset-0 w-full h-full bg-cover bg-center"
+                            style={{ backgroundImage: `url(${getImageSrc(img)})` }}
+                          />
+                        )
+                      )}
+                      {img && <div className="absolute inset-0 bg-background/85 z-0" />}
 
                       <CardHeader className="pb-2 relative z-10">
                         <div className="flex items-start justify-between gap-2">
