@@ -490,15 +490,28 @@ const SurroundingsDetail = () => {
                       className="aspect-[4/3] overflow-hidden rounded-lg cursor-pointer group"
                       onClick={() => openLightbox(idx)}
                     >
-                      <img
-                        src={image}
-                        alt={getImageAlt(idx)}
-                        width={600}
-                        height={450}
-                        loading="lazy"
-                        className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
-                      />
+                      {isPicture(image) ? (
+                        <ResponsivePicture
+                          picture={image}
+                          alt={getImageAlt(idx)}
+                          sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                          loading="lazy"
+                          className="w-full h-full block"
+                          imgClassName="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                        />
+                      ) : (
+                        <img
+                          src={image}
+                          alt={getImageAlt(idx)}
+                          width={600}
+                          height={450}
+                          loading="lazy"
+                          decoding="async"
+                          className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                        />
+                      )}
                     </div>
+
                   </CarouselItem>
                 ))}
               </CarouselContent>
@@ -531,12 +544,26 @@ const SurroundingsDetail = () => {
             </button>
           )}
 
-          <img
-            src={allImages[lightboxIndex]}
-            alt={getImageAlt(lightboxIndex)}
-            className="max-w-full max-h-[90vh] object-contain"
-            onClick={(e) => e.stopPropagation()}
-          />
+          {isPicture(allImages[lightboxIndex]) ? (
+            <ResponsivePicture
+              picture={allImages[lightboxIndex]}
+              alt={getImageAlt(lightboxIndex)}
+              sizes="100vw"
+              loading="eager"
+              fetchPriority="high"
+              className="max-w-full max-h-[90vh]"
+              imgClassName="max-w-full max-h-[90vh] object-contain"
+              onClick={(e) => e.stopPropagation()}
+            />
+          ) : (
+            <img
+              src={allImages[lightboxIndex] as string}
+              alt={getImageAlt(lightboxIndex)}
+              className="max-w-full max-h-[90vh] object-contain"
+              onClick={(e) => e.stopPropagation()}
+            />
+          )}
+
 
           {allImages.length > 1 && (
             <button
