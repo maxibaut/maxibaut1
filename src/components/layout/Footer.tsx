@@ -86,7 +86,7 @@ export const Footer = () => {
                   to="/homeowners"
                   className="text-primary-foreground/80 hover:text-primary-foreground transition-colors"
                 >
-                  {t('footer.homeowners')}
+                  {t('footer.homeowners')}.
                 </LocalizedLink>
               </li>
             </ul>
